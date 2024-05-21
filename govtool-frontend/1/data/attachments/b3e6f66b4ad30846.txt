@@ -1,0 +1,5 @@
+ℹ Submitting tx: {"lock_id":"bac42de0823b47afd1fc0f08880db200943c387d719dc911397fc19a38c74a2b","tx":{"outputs":[{"address":"addr_test1qr4ldzct79zmmdpux2pl9088azw4qa4h2qgl8kfhpqkdlvehvujg59utyuhdunx5fumtejy2amuefykj24fdca0xwfesekd2au","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"582011abec096ef0ea7edbeeee01a1a3f0e9f24a7225c2ee99687fb328146fe85ba6"},"addr_test1qz63slx7l0zmf8wuz76z8sre7pchwgdq8zp28vn9h4xp9cyq7vn27vqzw0ge6kj5r4zm4fpwhszzvkqkwddsy66lxjjqxnc9zk"],"changeAddress":"addr_test1qz63slx7l0zmf8wuz76z8sre7pchwgdq8zp28vn9h4xp9cyq7vn27vqzw0ge6kj5r4zm4fpwhszzvkqkwddsy66lxjjqxnc9zk"}}
+✔ Tx submitted: fcec12437ead06595f6c267a6cbd60f68a8d044aa1161aeee653febfb1072e90
+ℹ Waiting for tx completion: fcec12437ead06595f6c267a6cbd60f68a8d044aa1161aeee653febfb1072e90
+✔ Tx completed
+✖ Failed to upload Beverly.jsonld metadata: TypeError: Only absolute URLs are supported

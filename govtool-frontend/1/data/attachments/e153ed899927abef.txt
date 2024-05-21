@@ -1,0 +1,5 @@
+ℹ Submitting tx: {"lock_id":"022e13d7feedf4cdb4c4470a44a1b7d5503fa724e8d6aeafdac1b6b1807ab07f","tx":{"outputs":[{"address":"addr_test1qqfme37sgg246qxgw8dkf9ras7fe854mhyxvpvlnjs60f3afxqtrvyxctgyh832m4jnra8h8wmpc69uydg82937ez7ks3394pz","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"582011abec096ef0ea7edbeeee01a1a3f0e9f24a7225c2ee99687fb328146fe85ba6"},"addr_test1qz63slx7l0zmf8wuz76z8sre7pchwgdq8zp28vn9h4xp9cyq7vn27vqzw0ge6kj5r4zm4fpwhszzvkqkwddsy66lxjjqxnc9zk"],"changeAddress":"addr_test1qz63slx7l0zmf8wuz76z8sre7pchwgdq8zp28vn9h4xp9cyq7vn27vqzw0ge6kj5r4zm4fpwhszzvkqkwddsy66lxjjqxnc9zk"}}
+✔ Tx submitted: 17190922a256fc6c3cc5cb6a17ab53adc404e710d8ce3153dfddb189001a0212
+ℹ Waiting for tx completion: 17190922a256fc6c3cc5cb6a17ab53adc404e710d8ce3153dfddb189001a0212
+✔ Tx completed
+✖ Failed to upload Flo.jsonld metadata: TypeError: Only absolute URLs are supported
