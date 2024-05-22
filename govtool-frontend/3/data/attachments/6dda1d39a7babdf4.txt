@@ -1,0 +1,5 @@
+ℹ Submitting tx: {"lock_id":"a3f9e95e15718383c5a70c39d6a9c78efe9eaf1b5c149987e370467622d5a646","tx":{"outputs":[{"address":"addr_test1qrzpxm4xu8mew9fwtgn9fmnkavexc3j4ahdpwlsypzlhn5xuv40x4nqg3e5qhekfc4hrpckpj44g955xn8wwqdkq4p4qxtpqf2","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820bd3946cb9e0e5844bcff3c4459fa50f128eeb3d941066be5d689c7e7e1e5b318"},"addr_test1qpk6xpysgfct3yfjclnxjydtjx05yassjvdguuxwpnu4n6dx00ygzsxy0vt3nm4k2dax0vkp06v2xhsx47hmjfegtajslg8kz3"],"changeAddress":"addr_test1qpk6xpysgfct3yfjclnxjydtjx05yassjvdguuxwpnu4n6dx00ygzsxy0vt3nm4k2dax0vkp06v2xhsx47hmjfegtajslg8kz3"}}
+✔ Tx submitted: 10fab6195f9a3ffa202ae2b41fb89a348dd6fdd63f2e212f8819a97d83e8782c
+ℹ Waiting for tx completion: 10fab6195f9a3ffa202ae2b41fb89a348dd6fdd63f2e212f8819a97d83e8782c
+✔ Tx completed
+✖ Failed to upload Ransom.jsonld metadata: TypeError: Only absolute URLs are supported

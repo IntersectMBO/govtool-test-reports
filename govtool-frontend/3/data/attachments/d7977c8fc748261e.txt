@@ -1,0 +1,12 @@
+ℹ Submitting tx: {"lock_id":"631ed3dea593e40cc615053ecf3d3c9ffdbdf5d07a943c787e6427465be64641","tx":{"outputs":[{"address":"addr_test1qzaypkylp8630prhtyukdf6pytu2afvj5glnxkcs753vvdurdn4c00mfcxjmm04sfj6zmd4thnhf2jwsens7rtg3r67qkwtvvs","value":"20A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820bd3946cb9e0e5844bcff3c4459fa50f128eeb3d941066be5d689c7e7e1e5b318"},"addr_test1qpk6xpysgfct3yfjclnxjydtjx05yassjvdguuxwpnu4n6dx00ygzsxy0vt3nm4k2dax0vkp06v2xhsx47hmjfegtajslg8kz3"],"changeAddress":"addr_test1qpk6xpysgfct3yfjclnxjydtjx05yassjvdguuxwpnu4n6dx00ygzsxy0vt3nm4k2dax0vkp06v2xhsx47hmjfegtajslg8kz3"}}
+✔ Tx submitted: c4719225b9828985cb47c566fb5145eca1e36bf8db31df7665fe4f2ac77b85c7
+ℹ Waiting for tx completion: c4719225b9828985cb47c566fb5145eca1e36bf8db31df7665fe4f2ac77b85c7
+✔ Tx completed
+ℹ Submitting tx: {"lock_id":"8ef771ab7f375d5e35a02b6d8641f97982191e503d15ff8000a9e0e46eae9904","tx":{"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820a887ffe06ca24c207db0fa5ef7e1e75ebda1a34652d02295185aea979fe1a8f7"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58205eedf04c8cfbf7a805cd966d39f9d7cfdf92ba6338e2199ff9d86e914dfc19b7"},"addr_test1qzaypkylp8630prhtyukdf6pytu2afvj5glnxkcs753vvdurdn4c00mfcxjmm04sfj6zmd4thnhf2jwsens7rtg3r67qkwtvvs"],"certificates":[{"type":"registerstake","key":"836ceb87bf69c1a5bdbeb04cb42db6abbcee9549d0cce1e1ad111ebc"}],"changeAddress":"addr_test1qzaypkylp8630prhtyukdf6pytu2afvj5glnxkcs753vvdurdn4c00mfcxjmm04sfj6zmd4thnhf2jwsens7rtg3r67qkwtvvs"}}
+✔ Tx submitted: f30881e33c969b9e8f0217cff77b8a2475b19731bcf2be795079aa4922d867c1
+ℹ Waiting for tx completion: f30881e33c969b9e8f0217cff77b8a2475b19731bcf2be795079aa4922d867c1
+✔ Tx completed
+Using drep1sdkwhpald8q6t0d7kpxtgtdk4w7wa92f6rxwrcddzy0tcn5utru
+ℹ Waiting for tx completion: 8908d1928ba87ffdbf50d0787119d15e41cb86cb90d24dbc4b486bd526ba573e
+✔ Tx completed
+{ balance: 17.654214 }

@@ -1,0 +1,5 @@
+ℹ Submitting tx: {"lock_id":"1913f52d73b21253a6414482f741751e78e1e4a132de51491981708112b8c5e8","tx":{"outputs":[{"address":"addr_test1qpyf90h9w79eyatu7shze727pag7aa8n2hptl4968y8trf72r0k0pjtsewvyzfxfhy2mvawhfhpj3rsmkyz4j9sk0lhq3e86u3","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820bd3946cb9e0e5844bcff3c4459fa50f128eeb3d941066be5d689c7e7e1e5b318"},"addr_test1qpk6xpysgfct3yfjclnxjydtjx05yassjvdguuxwpnu4n6dx00ygzsxy0vt3nm4k2dax0vkp06v2xhsx47hmjfegtajslg8kz3"],"changeAddress":"addr_test1qpk6xpysgfct3yfjclnxjydtjx05yassjvdguuxwpnu4n6dx00ygzsxy0vt3nm4k2dax0vkp06v2xhsx47hmjfegtajslg8kz3"}}
+✔ Tx submitted: dc89d41051ac252d68e88755051616e3f9b8001222e00c0bd90bf29134a9de19
+ℹ Waiting for tx completion: dc89d41051ac252d68e88755051616e3f9b8001222e00c0bd90bf29134a9de19
+✔ Tx completed
+✖ Failed to upload Eloy.jsonld metadata: TypeError: Only absolute URLs are supported
