@@ -1,0 +1,5 @@
+ℹ Submitting tx: {"lock_id":"2e1c4abd5e58def59d480a08e2885f9e1e8bf7c874c8ff2f160141bdfef920de","tx":{"outputs":[{"address":"addr_test1qpa4yx9u662f8se7p6fs70tftu45tchysq0lunk30nwmptlr4dd7fl6ceqpz3xvaswc3wcztpe37xlha5m4sjmezgfpqp08tnx","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"582092864d39f56845b8b10f234bdedf3b3d1e68bf80938fde77533745ddeaf9c640"},"addr_test1qpq08hgx67vagyu395fpepyv097afryvzvkgdcp0a2rnv8k27cqfdrm74dqxlv25j29km6rvj85ky46lzvncl03rqm7sdekygd"],"changeAddress":"addr_test1qpq08hgx67vagyu395fpepyv097afryvzvkgdcp0a2rnv8k27cqfdrm74dqxlv25j29km6rvj85ky46lzvncl03rqm7sdekygd"}}
+✔ Tx submitted: 9c160f1d8ba98f731a7404a369f0586fdd5873aada919fbaa42f876bb5c143f5
+ℹ Waiting for tx completion: 9c160f1d8ba98f731a7404a369f0586fdd5873aada919fbaa42f876bb5c143f5
+✔ Tx completed
+✖ Failed to upload Renee.jsonld metadata: TypeError: Only absolute URLs are supported
