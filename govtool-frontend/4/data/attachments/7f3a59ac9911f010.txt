@@ -1,0 +1,7 @@
+ℹ Submitting tx: {"lock_id":"7025518c6dec2adb993c8d08e36db160e54c76d847ccc95141e9ab92b357ccee","tx":{"outputs":[{"address":"addr_test1qrcp8fr5ylkannvjk3nm9azseq58h5nz2vf0sgqcvwhkmaaavw3e2wf4j653rws8z497vvdsnpl5luryatssd4p72w2qe94r4x","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820ed9cfcf0054b1c9f31bf269228bf9a1f9891c4067a2af3a5cc9518ea6c1b626a"},"addr_test1qrdsnkjxl9x9xsq0gly3tjj22ytwv7y74qwnu375uf8cwe2dnrxta63ze29vmyadd5plu9fsewy4ku3ej9w7v0qrnuxqdenx6u"],"changeAddress":"addr_test1qrdsnkjxl9x9xsq0gly3tjj22ytwv7y74qwnu375uf8cwe2dnrxta63ze29vmyadd5plu9fsewy4ku3ej9w7v0qrnuxqdenx6u"}}
+✔ Tx submitted: 6d1e9e6f5ae993ee689115cf341ac6e78dd1f3cc521eb24d602223153aa58bc7
+ℹ Waiting for tx completion: 6d1e9e6f5ae993ee689115cf341ac6e78dd1f3cc521eb24d602223153aa58bc7
+✔ Tx completed
+✔ Uploaded Hailey.jsonld metadata to bucket
+ℹ Waiting for tx completion: 0864fafead53102eeefede56354132c3a4811ecf3de096beb76017c2f12abcdc
+✔ Tx completed

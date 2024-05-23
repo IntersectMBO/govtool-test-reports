@@ -1,0 +1,10 @@
+ℹ Submitting tx: {"lock_id":"7f2275abd746e8eefd949b5d2840e3e10fab7b20a8d752450dd589720e86198d","tx":{"certificates":[{"type":"registerdrep","key":"58b22c5fa4ca3d2632b3b6e2e05fbe9f3fd1ef65d205af1e6ec45122","anchor":{"url":"https://bit.ly/3zCH2HL","dataHash":"1111111111111111111111111111111111111111111111111111111111111111"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200abebd924482e210822d54c2abe3a66a52dc27e2f1679e0cfbc5c956fb6ec334"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820ed9cfcf0054b1c9f31bf269228bf9a1f9891c4067a2af3a5cc9518ea6c1b626a"},"addr_test1qrdsnkjxl9x9xsq0gly3tjj22ytwv7y74qwnu375uf8cwe2dnrxta63ze29vmyadd5plu9fsewy4ku3ej9w7v0qrnuxqdenx6u"],"changeAddress":"addr_test1qrdsnkjxl9x9xsq0gly3tjj22ytwv7y74qwnu375uf8cwe2dnrxta63ze29vmyadd5plu9fsewy4ku3ej9w7v0qrnuxqdenx6u"}}
+✔ Tx submitted: 3a62172691e98ac458fa1dbf513fb2e577539ea87e8b895bddca1730df5518ac
+ℹ Waiting for tx completion: 3a62172691e98ac458fa1dbf513fb2e577539ea87e8b895bddca1730df5518ac
+✔ Tx completed
+ℹ Submitting tx: {"lock_id":"4d98cc0a2b7bfc3ffc9c148a74db3cde424462b4c5c50767be773f5b8cddeb34","tx":{"outputs":[{"address":"addr_test1qry2ea9uhjsxae27sgjl69es8fjzmn006l7wftdv6wsg32zckgk9lfx285nr9vakuts9l05l8lg77ewjqkh3umky2y3qqsznz8","value":"40A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820ed9cfcf0054b1c9f31bf269228bf9a1f9891c4067a2af3a5cc9518ea6c1b626a"},"addr_test1qrdsnkjxl9x9xsq0gly3tjj22ytwv7y74qwnu375uf8cwe2dnrxta63ze29vmyadd5plu9fsewy4ku3ej9w7v0qrnuxqdenx6u"],"changeAddress":"addr_test1qrdsnkjxl9x9xsq0gly3tjj22ytwv7y74qwnu375uf8cwe2dnrxta63ze29vmyadd5plu9fsewy4ku3ej9w7v0qrnuxqdenx6u"}}
+✔ Tx submitted: b426a99f496a2976e705abdae384b52e2732481adfeda2c781cd16c17acea207
+ℹ Waiting for tx completion: b426a99f496a2976e705abdae384b52e2732481adfeda2c781cd16c17acea207
+✔ Tx completed
+ℹ Waiting for tx completion: 2e6710492f2c04b47767775fa130342e43ab87c5ced127cd6f5802a0e744e01e
+✔ Tx completed

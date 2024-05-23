@@ -1,0 +1,7 @@
+ℹ Submitting tx: {"lock_id":"edfb8321187ef239b6c29c09ea2648545e558efab1a8b221a3f7a7b8c2405fdb","tx":{"outputs":[{"address":"addr_test1qz8yn4vy406dcdkfzyt827gspwsp8ydss2g0r05dph2tu9gwq5k8vfg3yfus79y5rwg56xn8xyf382lw2mmh0a7fc2jq42zsh0","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820ed9cfcf0054b1c9f31bf269228bf9a1f9891c4067a2af3a5cc9518ea6c1b626a"},"addr_test1qrdsnkjxl9x9xsq0gly3tjj22ytwv7y74qwnu375uf8cwe2dnrxta63ze29vmyadd5plu9fsewy4ku3ej9w7v0qrnuxqdenx6u"],"changeAddress":"addr_test1qrdsnkjxl9x9xsq0gly3tjj22ytwv7y74qwnu375uf8cwe2dnrxta63ze29vmyadd5plu9fsewy4ku3ej9w7v0qrnuxqdenx6u"}}
+✔ Tx submitted: 83ebe4871e5af7a3020831efbb4ad29ae34cdee15d99a131503833345d24a8f0
+ℹ Waiting for tx completion: 83ebe4871e5af7a3020831efbb4ad29ae34cdee15d99a131503833345d24a8f0
+✔ Tx completed
+✔ Uploaded Makenna.jsonld metadata to bucket
+ℹ Waiting for tx completion: a743a61be347b022d1444b13489e7ed8606e5da25836cb25a9480d3cf219b2ce
+✔ Tx completed
