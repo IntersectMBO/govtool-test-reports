@@ -1,0 +1,7 @@
+ℹ Submitting tx: {"lock_id":"cfa5a97c9d91f1208a0b802d4e3a372a76ebdb99595da7b1e5b16a78093e46e6","tx":{"outputs":[{"address":"addr_test1qpf8kxpethn8e0uzxxwyhawymv4x3vjmczaxssqxhn08t4h8c6nuh8gths5hcm5ecm0d2mrg5njwles72n2m04c6p7yqp8lxe8","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58202796880768a2803a2929c616abb833978246066eddf3cd9ff5887603ab75b3a8"},"addr_test1qzwqf8ayrflu9sh4syy78mztp7quuyv5w4dfh3zanz8unztme2wszarqdmnls2lgh60kmcg3jl8ulqn4aqz3eulxf6zqpge6sl"],"changeAddress":"addr_test1qzwqf8ayrflu9sh4syy78mztp7quuyv5w4dfh3zanz8unztme2wszarqdmnls2lgh60kmcg3jl8ulqn4aqz3eulxf6zqpge6sl"}}
+✔ Tx submitted: 7697e4c805b94baa540984c2df6671732c497ecf5f11ed5b34436edf99222042
+ℹ Waiting for tx completion: 7697e4c805b94baa540984c2df6671732c497ecf5f11ed5b34436edf99222042
+✔ Tx completed
+✔ Uploaded Garret.jsonld metadata to bucket
+ℹ Waiting for tx completion: 539fe079ae44f4ff4406a67d03f08c8a19af70ac8806e0a45990ac398958d503
+✔ Tx completed

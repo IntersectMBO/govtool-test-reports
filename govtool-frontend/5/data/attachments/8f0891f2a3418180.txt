@@ -1,0 +1,7 @@
+ℹ Submitting tx: {"lock_id":"7bf9090c4bd3e9ebd3b1589d991d9a52966a9e92893f75e38b46b658e17398db","tx":{"outputs":[{"address":"addr_test1qp9252x3cjzu7g5gxrlx9r5qdnm57fps96lzjdp9cefpxd792gm0qlasr5mgmh90wwdv30h4v9tlmzgwmgput8zyr2eqzxncrs","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58202796880768a2803a2929c616abb833978246066eddf3cd9ff5887603ab75b3a8"},"addr_test1qzwqf8ayrflu9sh4syy78mztp7quuyv5w4dfh3zanz8unztme2wszarqdmnls2lgh60kmcg3jl8ulqn4aqz3eulxf6zqpge6sl"],"changeAddress":"addr_test1qzwqf8ayrflu9sh4syy78mztp7quuyv5w4dfh3zanz8unztme2wszarqdmnls2lgh60kmcg3jl8ulqn4aqz3eulxf6zqpge6sl"}}
+✔ Tx submitted: 444d2d5837bfbd9b636c423e9b16743cc36b6860986889294197bce9e1185946
+ℹ Waiting for tx completion: 444d2d5837bfbd9b636c423e9b16743cc36b6860986889294197bce9e1185946
+✔ Tx completed
+✔ Uploaded Eda.jsonld metadata to bucket
+ℹ Waiting for tx completion: 6371231fdae101dc9d6e343dca17a17b786341007197a9b2de2b8b47c31a3fc5
+✔ Tx completed

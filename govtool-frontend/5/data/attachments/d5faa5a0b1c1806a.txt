@@ -1,0 +1,7 @@
+ℹ Submitting tx: {"lock_id":"6a5c38cdc44692a6aa0e8b90ff8e7926f9eae26ef565e49faecece2b272b1d5b","tx":{"outputs":[{"address":"addr_test1qzhzgda9xnl6dng0sa3xj47eddpesh2vvgehnc83gfvef280308g9c74p6yedm9lgef0ul339tm77gxdu63f3qktyeysc342nl","value":"600A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58202796880768a2803a2929c616abb833978246066eddf3cd9ff5887603ab75b3a8"},"addr_test1qzwqf8ayrflu9sh4syy78mztp7quuyv5w4dfh3zanz8unztme2wszarqdmnls2lgh60kmcg3jl8ulqn4aqz3eulxf6zqpge6sl"],"changeAddress":"addr_test1qzwqf8ayrflu9sh4syy78mztp7quuyv5w4dfh3zanz8unztme2wszarqdmnls2lgh60kmcg3jl8ulqn4aqz3eulxf6zqpge6sl"}}
+✔ Tx submitted: 1d8d339ca604211f8d258baaaba644950ea45f25614c48da3352e47ab82435b8
+ℹ Waiting for tx completion: 1d8d339ca604211f8d258baaaba644950ea45f25614c48da3352e47ab82435b8
+✔ Tx completed
+✔ Uploaded Florida.jsonld metadata to bucket
+ℹ Waiting for tx completion: 1016990e48120b148800ce99a5c948abaebfa1d348327e4d1ba05be9aa909188
+✔ Tx completed
