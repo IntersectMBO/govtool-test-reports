@@ -1,0 +1,12 @@
+ℹ Submitting tx: {"lock_id":"78f633e556d96a37470801670347f76de81e5e149f6753540b601e536e748311","tx":{"certificates":[{"type":"registerdrep","key":"9209af7cd19ce9867aed53c2d7894d4ea0f8d0f965a00d3bf2e6f96e","anchor":{"url":"https://bit.ly/3zCH2HL","dataHash":"1111111111111111111111111111111111111111111111111111111111111111"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58201c3646fb9dd30afc64af4acfcc00b259c7e42457dd52e0c543fdfc0183573b8f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820e5afdbae7e4a89a70053924b5ed3b50b82aa0e8a30fe0a2835cd6db062e912e8"},"addr_test1qr82d0v3leudz5vxd3rqnqg3kuzf5vleak3k5vfnnm0tzpg69km62vt83ujj6pdqp070qtnmenkp62lvh6lp6u063wwsl2sh7e"],"changeAddress":"addr_test1qr82d0v3leudz5vxd3rqnqg3kuzf5vleak3k5vfnnm0tzpg69km62vt83ujj6pdqp070qtnmenkp62lvh6lp6u063wwsl2sh7e"}}
+✔ Tx submitted: 5e3e5321ce8518ac3c4ca1ff4a0d8b5cb7b1edae435607a1d1c441c62e6a5682
+ℹ Waiting for tx completion: 5e3e5321ce8518ac3c4ca1ff4a0d8b5cb7b1edae435607a1d1c441c62e6a5682
+✔ Tx completed
+ℹ Submitting tx: {"lock_id":"ea37243f64ec97d43790c34dd9684ebca958090ad1127a8d66b2fe075686b4a8","tx":{"outputs":[{"address":"addr_test1qzkyxmaqgxde3k0gsvks785r8w06wkh82fpjapajj6rel55jpxhhe5vuaxr84m2ncttcjn2w5rudp7t95qxnhuhxl9hqr8krl6","value":"40A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820e5afdbae7e4a89a70053924b5ed3b50b82aa0e8a30fe0a2835cd6db062e912e8"},"addr_test1qr82d0v3leudz5vxd3rqnqg3kuzf5vleak3k5vfnnm0tzpg69km62vt83ujj6pdqp070qtnmenkp62lvh6lp6u063wwsl2sh7e"],"changeAddress":"addr_test1qr82d0v3leudz5vxd3rqnqg3kuzf5vleak3k5vfnnm0tzpg69km62vt83ujj6pdqp070qtnmenkp62lvh6lp6u063wwsl2sh7e"}}
+✔ Tx submitted: 24003344df30af4279b35ff530a4a750fb014371de5ade35ca8921fe26779ec2
+ℹ Waiting for tx completion: 24003344df30af4279b35ff530a4a750fb014371de5ade35ca8921fe26779ec2
+✔ Tx completed
+ℹ Waiting for tx completion: 3b57682c6d4e4dc295647802156f76b5a014d2f0fa38d9dbff7b24bdc0061129
+ℹ Waiting for tx completion: 3b57682c6d4e4dc295647802156f76b5a014d2f0fa38d9dbff7b24bdc0061129
+✔ Tx completed
+✔ Tx completed
