@@ -1,0 +1,27 @@
+ℹ Waiting for tx completion: f0029188b2c082e5594389e0cef6f3a55d82fbe2c591829cb4647c572d12d4ee
+✔ Tx completed
+✖ expect(locator).not.toBeVisible()
+
+Locator: getByText('In Progress', { exact: true }).first()
+Expected: not visible
+Received: visible
+Call log:
+  - expect.not.toBeVisible with timeout 20000ms
+  - waiting for getByText('In Progress', { exact: true }).first()
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+
