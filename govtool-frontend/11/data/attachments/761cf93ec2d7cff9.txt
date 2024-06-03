@@ -1,0 +1,18 @@
+✔ Uploaded Vote_Context.jsonld metadata to bucket
+ℹ Waiting for tx completion: aa3bd96a9fefd9591103f30e5d23bd6ce2c6e526bff95baef62efcea77b1e8c4
+✔ Tx completed
+✖ expect(locator).not.toBeVisible()
+
+Locator: getByText('In Progress', { exact: true }).first()
+Expected: not visible
+Received: visible
+Call log:
+  - expect.not.toBeVisible with timeout 20000ms
+  - waiting for getByText('In Progress', { exact: true }).first()
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 cs…>In Progress</p>
+  -   unexpected value "visible"
+
