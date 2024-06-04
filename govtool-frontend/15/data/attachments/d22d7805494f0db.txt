@@ -1,0 +1,9 @@
+✔ Uploaded Ena.jsonld metadata to bucket
+ℹ Waiting for tx completion: 340fe461b313ddc4b26a311853d2afc9bc538125586d8996f12c2e525750857f
+✖ expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+
+Call Log:
+- Test timeout of 30000ms exceeded
