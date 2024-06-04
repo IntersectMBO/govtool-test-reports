@@ -1,0 +1,9 @@
+✔ Uploaded Edmund.jsonld metadata to bucket
+ℹ Waiting for tx completion: bc1394ca7528f70481fbb1995508c699f7a6ebfef92b6c4dad413318ef5e3a2e
+✖ expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+
+Call Log:
+- Test timeout of 30000ms exceeded
