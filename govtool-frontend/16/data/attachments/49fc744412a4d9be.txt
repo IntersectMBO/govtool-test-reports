@@ -1,0 +1,9 @@
+✔ Uploaded Wilfrid.jsonld metadata to bucket
+ℹ Waiting for tx completion: 88ab13ead1591e75543fb9b543870def9c8dedfd6bfb3bbb39fbb7ddf125b35c
+✖ expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+
+Call Log:
+- Test timeout of 30000ms exceeded
