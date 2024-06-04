@@ -1,0 +1,9 @@
+✔ Uploaded Tito.jsonld metadata to bucket
+ℹ Waiting for tx completion: c3de12b1c02f2672162fa63061a5fa54043e73036f121a9d2a2f7fdd296a24a2
+✖ expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+
+Call Log:
+- Test timeout of 30000ms exceeded
