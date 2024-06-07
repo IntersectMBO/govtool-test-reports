@@ -1,0 +1,9 @@
+✖ Timed out 10000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByTestId('alert-warning').getByText('Transaction in progress')
+Expected: visible
+Received: hidden
+Call log:
+  - expect.toBeVisible with timeout 10000ms
+  - waiting for getByTestId('alert-warning').getByText('Transaction in progress')
+
