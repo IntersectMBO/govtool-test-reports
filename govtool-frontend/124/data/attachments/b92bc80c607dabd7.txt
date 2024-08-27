@@ -1,0 +1,4 @@
+✖ locator.click: Test ended.
+Call log:
+  - waiting for getByTestId('continue-button')
+
