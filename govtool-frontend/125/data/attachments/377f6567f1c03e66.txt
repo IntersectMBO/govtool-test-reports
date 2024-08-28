@@ -1,0 +1,4 @@
+✖ locator.fill: Test ended.
+Call log:
+  - waiting for getByTestId('email-input')
+
