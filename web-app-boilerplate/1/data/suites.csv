@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue May 28 11:01:27 GMT 2024","Tue May 28 11:01:28 GMT 2024","1413","chromium","example.spec.ts","","","","Should access homepage",""
+"passed","Tue May 28 11:01:25 GMT 2024","Tue May 28 11:01:27 GMT 2024","2002","chromium","example.spec.ts","","","","Should have heading 'Web App Boilerplate'",""
+"passed","Tue May 28 11:01:22 GMT 2024","Tue May 28 11:01:25 GMT 2024","2826","chromium","example.spec.ts","","","","has title",""
+"passed","Tue May 28 11:01:28 GMT 2024","Tue May 28 11:01:29 GMT 2024","1367","chromium","fixtureExample.spec.ts","","","","Should access base page",""

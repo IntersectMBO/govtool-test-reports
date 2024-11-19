@@ -1,0 +1,11 @@
+ℹ Waiting for tx completion: 1b0c9fb506fdfc93936df239a300428c66f7b8213000438da0603385440094bb
+✔ Tx completed
+✖ Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByTestId('drep1ej5fpmjs4y0shudej9mj5t943gsrw55m2wjgzpk6476sz2ttlz7-delegate-button')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for getByTestId('drep1ej5fpmjs4y0shudej9mj5t943gsrw55m2wjgzpk6476sz2ttlz7-delegate-button')
+
