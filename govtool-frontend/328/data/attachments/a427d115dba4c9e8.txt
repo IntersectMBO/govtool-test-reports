@@ -1,0 +1,11 @@
+✔ Uploaded data.jsonld metadata to bucket
+✖ Failed: Timed out 20000ms waiting for expect(locator).toHaveText(expected)
+
+Locator: getByTestId('ga-submitted-modal-title')
+Expected pattern: /governance action submitted!/i
+Received: <element(s) not found>
+Call log:
+  - expect.toHaveText with timeout 20000ms
+  - waiting for getByTestId('ga-submitted-modal-title')
+
+Console messages: 
