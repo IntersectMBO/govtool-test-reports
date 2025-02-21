@@ -1,0 +1,13 @@
+✔ Uploaded guardrail-script metadata to bucket
+✖ ReferenceError: handleKeyDown is not defined
+    at mi4 (https://govtool.cardanoapi.io/assets/app.cjs-SLcJ2WLf.js:139:92022)
+    at gw0 (https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:38:18590)
+    at XS (https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:40:3418)
+    at tj (https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:40:48437)
+    at sB0 (https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:40:42977)
+    at Uw0 (https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:40:42901)
+    at LA0 (https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:40:42746)
+    at $S (https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:40:38802)
+    at nB0 (https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:40:39681)
+    at Fv (https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:38:3432)
+    at https://govtool.cardanoapi.io/assets/index-Wx4ZmcQv.js:40:37000
