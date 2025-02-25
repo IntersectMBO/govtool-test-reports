@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 403 ()
+✖ Failed to load resource: the server responded with a status of 403 ()
+✔ Uploaded Miller.jsonld metadata to bucket
+ℹ Waiting for tx completion: e43494b37c8a73a8391acd3abc4546d5835a004ec47481f4bc4116c5b7b28b33
+✔ Tx completed
