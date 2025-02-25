@@ -1,0 +1,5 @@
+ℹ Waiting for tx completion: aa58309c1727209173b3b3d8ad5a2d0080d18c8ea029e56e08556db75db7b261
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 403 ()
+ℹ Waiting for tx completion: 0e034c26ff13926af33541684dc98038cacc8e71adeb48052726d6a97489b77b
+✔ Tx completed
