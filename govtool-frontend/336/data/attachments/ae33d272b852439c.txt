@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Hipolito.jsonld metadata to bucket
+ℹ Waiting for tx completion: 89c0741b19a094129bab2812fcd77bfc3c11e58c7d0d58fdc317a999df9a77be
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 429 ()

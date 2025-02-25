@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Emelie.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: cf897b132197cb7aa05951d787904d969fc10d0cadd5c183f1bacf7850f8ebee
+✔ Tx completed
