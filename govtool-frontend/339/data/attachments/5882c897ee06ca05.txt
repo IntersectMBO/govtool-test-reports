@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 403 ()
+✖ Failed to load resource: the server responded with a status of 403 ()
+✖ Failed to load resource: the server responded with a status of 403 ()
+✔ Uploaded guardrail-script metadata to bucket
+✖ Failed to load resource: the server responded with a status of 403 ()
+✔ Uploaded data.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 403 ()
+ℹ Waiting for tx completion: c664b51a6045ba700c4cb3c7ad5562df89aea4d85b0f8ade0a67786de3094b56
+✔ Tx completed
