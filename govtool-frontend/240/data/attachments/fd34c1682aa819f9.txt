@@ -1,6 +1,0 @@
-ℹ Waiting for tx completion: b5d94bbedb9ef086bf7b0752d29e3c1f0edca565867ff52fc0a53e756ca5a9e2
-✔ Tx completed
-✖ locator.fill: Test ended.
-Call log:
-  - waiting for getByTestId('search-input')
-

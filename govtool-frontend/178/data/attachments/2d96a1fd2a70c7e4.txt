@@ -1,4 +1,0 @@
-✖ locator.click: Test ended.
-Call log:
-  - waiting for getByTestId('yes-radio')
-

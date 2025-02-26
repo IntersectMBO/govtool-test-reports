@@ -1,4 +1,0 @@
-ℹ Submitting tx: {"lock_id":"5895ea423e856833cbc13ade3d5401eac431482f09fe67b28968db5f3d23ee41","tx":{"outputs":[{"address":"addr_test1vz0ua2vyk7r4vufmpqh5v44awg8xff26hxlwyrt3uc67maqtql3kl","value":"39967A"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"582039164df6b8a2f63cf7de660d09ba648252a146fabaed6e41fe0945a8a89d7ba7"},"addr_test1qrezsywpcxs6zvkqr089fvufkmpf77em3f6ewnwjrn68tg2ln2zqkzzyyqdx48mckcgxfl2dcnmj8ejv0eyjhtl4nqvsrjch9x"],"changeAddress":"addr_test1qrezsywpcxs6zvkqr089fvufkmpf77em3f6ewnwjrn68tg2ln2zqkzzyyqdx48mckcgxfl2dcnmj8ejv0eyjhtl4nqvsrjch9x"}}
-✔ Tx submitted: 99c78015cc72f3e415715809fc1297617834cd3ad25164da78d40fd8572e1866
-ℹ Waiting for tx completion: 99c78015cc72f3e415715809fc1297617834cd3ad25164da78d40fd8572e1866
-✔ Tx completed

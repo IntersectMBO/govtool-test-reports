@@ -1,4 +1,0 @@
-✖ locator.fill: Test timeout of 420000ms exceeded.
-Call log:
-  - waiting for getByTestId('search-input')
-
