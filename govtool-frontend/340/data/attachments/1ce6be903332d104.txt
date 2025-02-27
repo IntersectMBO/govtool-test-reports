@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Jada.jsonld metadata to bucket
+ℹ Waiting for tx completion: 645dd8f02a20119de9bf79793ad196d8f6ca7e9df34b8ef80b419c3a45f9fb4e
+✔ Tx completed

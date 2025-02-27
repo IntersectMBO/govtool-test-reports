@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Liana.jsonld metadata to bucket
+ℹ Waiting for tx completion: b55360239b64141f6d98115a1167314c5f003962aa79d2d2de0546dc4442d544
+✔ Tx completed
