@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Carlie.jsonld metadata to bucket
+ℹ Waiting for tx completion: d7e8467804c5e3424cd72f3431a3e9ed8a806269cc3e156e64e47fc71be6b1cd
+✔ Tx completed

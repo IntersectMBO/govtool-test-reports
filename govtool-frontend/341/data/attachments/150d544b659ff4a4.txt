@@ -1,0 +1,4 @@
+✔ Uploaded Jamie.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: f49f1b73f84d41e8d7f651387d5c8103a49118a307fc0c8bb2e9474be40ce058
+✔ Tx completed
