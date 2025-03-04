@@ -1,0 +1,7 @@
+✖ DRep Registration - not using anchor
+✖ Failed to load resource: the server responded with a status of 402 ()
+✖ Error: BlockFrost [Status 402] : Usage is over limit.
+    at /home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/@cardanoapi/cardano-test-wallet/script.js:8:79903
+    at async Object.submitTx (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/@cardanoapi/cardano-test-wallet/script.js:8:81491)
+    at async DX4.n2.useCallback.Lr (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:408:46825)
+    at async https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:760:131482 error
