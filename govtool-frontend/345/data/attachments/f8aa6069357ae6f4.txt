@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Colten.jsonld metadata to bucket
+ℹ Waiting for tx completion: 7f6aff442a7c885324ba9ab580f0a312d3ae887d5fde247a8bfadc2d0616223c
+✔ Tx completed
