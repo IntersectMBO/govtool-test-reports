@@ -1,0 +1,4 @@
+✔ Uploaded Finn.jsonld metadata to bucket
+ℹ Waiting for tx completion: 1ed340ff032def95f67d356cdc6e83caadd6ea68c3b08603fe82a2ef7390ba38
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 504 ()
