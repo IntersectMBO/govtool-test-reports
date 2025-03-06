@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Rowland.jsonld metadata to bucket
+ℹ Waiting for tx completion: 358d5648cdb75f38a8472bee11b382aaaf2b5d2d58f29fcc3e03259e3062a86d
+✔ Tx completed
