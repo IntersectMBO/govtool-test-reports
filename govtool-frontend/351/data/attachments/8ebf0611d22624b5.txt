@@ -1,0 +1,6 @@
+✔ Uploaded Jon.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 0a7f93b3ac2a23fd91708f8d9dc539f76610a2e5faa2b97fae875aceaa4a8cf9
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
