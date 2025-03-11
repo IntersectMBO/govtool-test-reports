@@ -1,0 +1,6 @@
+✔ Uploaded Kailee.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: a26454160fb1b86429910f5287d3392f0b7eeebfd1c23d0bdbc694a5662a5eed
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()

@@ -1,0 +1,4 @@
+✔ Uploaded Mikel.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: a9c6e7751f356deb5524b759f61bc2ef9be544430b56ce5b64565acf93150879
+✔ Tx completed
