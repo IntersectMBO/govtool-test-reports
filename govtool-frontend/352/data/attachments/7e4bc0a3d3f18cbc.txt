@@ -1,0 +1,6 @@
+✔ Uploaded Rolando.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: d123de8ae39767be3c63dded75eb4f6a6d9790de27e0360ccad95cb6b5eed74d
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
