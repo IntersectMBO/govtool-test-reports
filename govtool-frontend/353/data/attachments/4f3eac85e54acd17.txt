@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded cornu metadata to bucket
+ℹ Waiting for tx completion: 980755196c88e0ddf363af865be0874cda9309401548766feebc9e4d1b3ff9d1
+✔ Tx completed
