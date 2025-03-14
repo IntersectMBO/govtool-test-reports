@@ -1,0 +1,22 @@
+✖ Error fetching handle: TypeError: Failed to fetch
+    at https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:90:4022
+    at rm0.getHandleDetails (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:242:27974)
+    at rm0.getAdaHandleCIP105DRepId (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:242:28235)
+    at H$e (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:242:28676)
+    at cQ4 (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:245:10593)
+    at vX2.getNextPageParam (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:257:21456)
+    at G0 (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:69:40774)
+    at p.fetchFn [as fn] (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:69:40920)
+    at s0 (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:69:25569)
+    at new bX2 (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:69:26228)
+    at p.fetch (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:69:31377)
+    at c.executeFetch (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:69:50012)
+    at c.onSubscribe (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:69:47543)
+    at p.subscribe (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:69:19199)
+    at https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:69:61608
+    at kA0 (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:41:26420)
+    at PS (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:41:46121)
+    at https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:41:44252
+    at G0 (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:26:1733)
+    at MessagePort.m2 (https://govtool.cardanoapi.io/assets/index-DEXrzCtC.js:26:2132)
+✖ Failed to load resource: the server responded with a status of 429 ()

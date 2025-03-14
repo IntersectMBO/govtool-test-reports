@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded canonicus metadata to bucket
+ℹ Waiting for tx completion: 8a86d8eba5f244747d23f26952da7b41768ab1f5449ac9b645070ed284de8449
+✔ Tx completed

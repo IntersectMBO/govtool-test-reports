@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded cunabula metadata to bucket
+ℹ Waiting for tx completion: 79b15e3de4744a7a31bab708d2774fb9aed640723c5b57e1df28e415e86efe89
+✔ Tx completed
