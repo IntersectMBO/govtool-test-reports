@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded templum metadata to bucket
+ℹ Waiting for tx completion: eab8a40eb53f969fd44e1adf74cad6c8d1b2ae840d7245e214675d18741f52d7
+✔ Tx completed

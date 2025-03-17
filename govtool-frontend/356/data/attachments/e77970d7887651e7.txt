@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Ada.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: ae459d4ec23c4edab76ad7ea68e258563852260d04584b4646f1112520719f61
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

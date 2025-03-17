@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Carmel.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 6a971b5b5ff8de56c40359c6354e0c4abbf38d123f1ac7b4ee6971622d579112
+✔ Tx completed
