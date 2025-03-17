@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded stipes metadata to bucket
+ℹ Waiting for tx completion: 5cd07242eacc6db0f143bcc4a5d81917af27109e991c0db25b0c01ba54d52a8a
+✔ Tx completed

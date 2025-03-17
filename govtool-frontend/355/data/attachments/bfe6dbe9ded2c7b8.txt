@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded adamo metadata to bucket
+ℹ Waiting for tx completion: 7b65d3c1b635ac86a8f5e6fd8a9000370420e8bb133ed02b7cac568b06a4c36f
+✔ Tx completed
