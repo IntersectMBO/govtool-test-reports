@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Kaley.jsonld metadata to bucket
+ℹ Waiting for tx completion: d957c9f8350bcec14bf167e8c2af4289dfbb4f82af64001a2f0d10e24e7c2b11
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed
