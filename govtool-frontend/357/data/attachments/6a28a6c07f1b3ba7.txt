@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Regan.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 56878313784ff91f0da160450fba7283ea7183147334fd3dd9225922d7f29f3d
+✔ Tx completed
