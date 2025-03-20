@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Brian.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 8893a91ebad58c0d0a262666f4bbd8f0013bf88f2e26a788f5b6974eebfcf5f3
+✔ Tx completed
