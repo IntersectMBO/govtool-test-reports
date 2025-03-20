@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded cultellus metadata to bucket
+ℹ Waiting for tx completion: 59c0285eb6e1a6acdbad328fa0b658491f5aa3fb6f976c463c6fb702ec41fa59
+✔ Tx completed
