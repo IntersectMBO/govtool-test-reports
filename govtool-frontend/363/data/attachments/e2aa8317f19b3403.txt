@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Garth.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: ba687d61bd89a7ba1c099187affe98e68cd7673f310594eb4ad199f15bfd37cb
+✔ Tx completed
