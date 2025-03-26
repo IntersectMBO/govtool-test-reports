@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded bestia metadata to bucket
+ℹ Waiting for tx completion: 682a1b7f570e704c368db791732ae1e7a097aab6a152c35fa88a85c68564c944
+✔ Tx completed
