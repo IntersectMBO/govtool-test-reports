@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Ole.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: b0b1678898b4fa73dfb22df7c8f38a458f37bee56e2df582a6f8d6b47f831fcd
+✔ Tx completed
