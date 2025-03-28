@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Dejuan.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 20edcdb2e278602e908923b4023b47942d5ca820b06e618d65f2439e2537bdc3
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 429 ()
