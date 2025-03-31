@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded ventito metadata to bucket
+ℹ Waiting for tx completion: 59131f5dac5c533364e1176df23a81c0105d54846867f376b6e6641b9245f85c
+✔ Tx completed

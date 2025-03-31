@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded articulus metadata to bucket
+ℹ Waiting for tx completion: 8d39fa06e020ddf2df109c93bfa1771fc7f4287da775e29105195d3e31c01f11
+✔ Tx completed
