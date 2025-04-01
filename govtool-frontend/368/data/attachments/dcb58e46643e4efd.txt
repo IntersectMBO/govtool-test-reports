@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Destin.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: b55264e6cfcf4cf38a194f2af4d55035db110b09cecabcc13e38ffae513cb4f2
+✔ Tx completed
