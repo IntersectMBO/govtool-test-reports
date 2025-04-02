@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded cometes metadata to bucket
+ℹ Waiting for tx completion: 9fc67d2c7ebc27f01a32375583185e6d5b8a99e2319a56e26d12a6cddff00751
+✔ Tx completed
