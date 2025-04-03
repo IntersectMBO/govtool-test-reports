@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 500 ()
+✖ Ov
+✖ locator.fill: Test timeout of 420000ms exceeded.
+Call log:
+  - waiting for getByTestId('search-input')
+

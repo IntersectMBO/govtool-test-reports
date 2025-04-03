@@ -1,0 +1,2 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Retring the function because the selected dRep ID has the 'doNotList' flag set to true

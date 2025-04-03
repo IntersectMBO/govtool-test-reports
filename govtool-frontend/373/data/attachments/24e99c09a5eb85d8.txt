@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded corona metadata to bucket
+ℹ Waiting for tx completion: 993b863f16147095deb32938fe2cffccc5188bc375ba96fea7f92ab0d0a2edf3
+✔ Tx completed
