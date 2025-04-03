@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Tracey.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 6a4271c9a1703f8ddf2a18a6ff344874cc8f332c4d09ad559da4d4752bb3bdc7
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
