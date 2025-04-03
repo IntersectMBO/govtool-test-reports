@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Lyla.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 03905cd7e9b66f15088bad564f9435cb52ca8e971500928f7d04f13cf2bfa603
+✔ Tx completed
