@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded sperno metadata to bucket
+ℹ Waiting for tx completion: c564496f397b731da88f894833945ac9a63f802444f022b5da548d3ec76fb9f3
+✔ Tx completed

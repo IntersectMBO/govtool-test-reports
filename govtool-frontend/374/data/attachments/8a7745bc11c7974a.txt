@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded subnecto metadata to bucket
+ℹ Waiting for tx completion: f12a89efcfc0b7cef12e2ece9e5ac111e66b8c69bda80b3b9969a6ec0ba5b96c
+✔ Tx completed
