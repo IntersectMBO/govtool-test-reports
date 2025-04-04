@@ -1,0 +1,6 @@
+✖ Access to XMLHttpRequest at 'https://z74f91f2d-zb0719f09-gtw.z937eb260.rustrocks.fr/api/users/me' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z74f91f2d-zb0719f09-gtw.z937eb260.rustrocks.fr/api/bd-drafts?pagination[pageSize]=1000&populate=creator' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z74f91f2d-zb0719f09-gtw.z937eb260.rustrocks.fr/api/bd-drafts?pagination[pageSize]=1000&populate=creator' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
