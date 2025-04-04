@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded tandem metadata to bucket
+ℹ Waiting for tx completion: e4f7920eda4324919416a83b8ea212a53d2dd2ad2db33af794831d473bd47ff7
+✔ Tx completed

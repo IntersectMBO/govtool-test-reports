@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Barton.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 5c04abc6da9dc6d0335759ad5628b0c6218366ad8393200bf240484d8fdcb4e2
+✔ Tx completed
