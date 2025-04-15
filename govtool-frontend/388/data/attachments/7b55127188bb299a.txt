@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded tempora metadata to bucket
+ℹ Waiting for tx completion: 734665f8a97f02c02dd89f9060ae1cf1c9e2e92f01c76a23ce0bfceca6b1fa84
+✔ Tx completed

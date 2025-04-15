@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded vulnus metadata to bucket
+ℹ Waiting for tx completion: 29b9375f7e5f9dcd26067814f7b93da806b97104955fa0d945425005f2d9be76
+✔ Tx completed
