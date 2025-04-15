@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Lesly.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 1b1be600f71913c6ecd33e766be29b96ad0c2cd86f2c858d5a1a1b9ca7cd77fe
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
