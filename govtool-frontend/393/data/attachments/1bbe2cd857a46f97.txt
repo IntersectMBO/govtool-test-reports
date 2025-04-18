@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Tanya.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 368fd45b89dc9b194f5384dae6d3ab00ae7501d7ff377f83da63e6cdec20b4b9
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded aggredior metadata to bucket
+ℹ Waiting for tx completion: 2631ef164534ff14808bab82216850f5cddbd04ee7ca6358f502fb733ce7bdad
+✔ Tx completed

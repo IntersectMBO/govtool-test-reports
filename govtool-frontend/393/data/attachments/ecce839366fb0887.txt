@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded teres metadata to bucket
+ℹ Waiting for tx completion: 0b4d2103b770302e8201deef61ddcdedc364a3bac76f364e695210c8853b046f
+✔ Tx completed
