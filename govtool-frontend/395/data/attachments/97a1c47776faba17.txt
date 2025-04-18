@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded acies metadata to bucket
+ℹ Waiting for tx completion: 78c62b29aedaf564c83f00fa176a7736d0ed99b39bcbab192ee2cec1c809d3f8
+✔ Tx completed
