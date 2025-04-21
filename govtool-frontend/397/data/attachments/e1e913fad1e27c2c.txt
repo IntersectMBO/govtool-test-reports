@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Monty.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 54a9faee4a278c85c8949d5dc6f8661d0d104473e4733dcf60ddc6c686a0aeff
+✔ Tx completed
