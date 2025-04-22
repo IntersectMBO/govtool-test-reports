@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded conitor metadata to bucket
+ℹ Waiting for tx completion: e38f41609c3fdc58c225f45358cb74cb87f224c79066cc6fc869fd538a11f5dd
+✔ Tx completed
