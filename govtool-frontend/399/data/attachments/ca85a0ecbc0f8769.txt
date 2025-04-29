@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded veritatis metadata to bucket
+ℹ Waiting for tx completion: 8d2efdb2586bb3758626eb8691e94dbca9a1e4a399eee90e5db60eadb751297f
+✔ Tx completed
