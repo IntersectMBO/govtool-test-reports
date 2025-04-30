@@ -1,0 +1,5 @@
+✔ Uploaded Salvatore metadata to bucket
+ℹ Submitting tx: {"lock_id":"e629c9348c0df126c89c82da29283586694c0df8c9993a09b3e854d4b058108a","tx":{"certificates":[{"type":"registerdrep","key":"0b10fea7fb2ef035f3612d789ab85dc6ddc5a5c5b00b680dbb1ae200","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Salvatore","dataHash":"d581f2fcd6636524bdaf8d474312701e2779bf6d1bb0fb0e9b4ea487427d58a6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582046ce7d19149b2852279481e27ed1d4f8f2e08e8ed13ce2354a2b3bce7df0a499"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 85e84f255903a47f2b036f288b749bed244475dd771412b06413582f07bb0b14
+ℹ Waiting for tx completion: 85e84f255903a47f2b036f288b749bed244475dd771412b06413582f07bb0b14
+✔ Tx completed
