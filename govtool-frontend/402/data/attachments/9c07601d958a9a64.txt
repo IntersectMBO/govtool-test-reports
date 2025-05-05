@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Kelley.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 6d2f5567976981f051cecd2af3936bd08047bf607c1799ceffc2b668bbd7169d
+✔ Tx completed
