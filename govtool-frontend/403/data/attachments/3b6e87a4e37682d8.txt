@@ -1,0 +1,5 @@
+✔ Uploaded Isabelle metadata to bucket
+ℹ Submitting tx: {"lock_id":"1be436487afadb0e99b4fb5990bae5eba4cb23a38f10f35d1b4849753cbea0e4","tx":{"certificates":[{"type":"registerdrep","key":"99500366c6fa20ea1bcfa3c237753a5fafdb505406769e2ce4053459","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Isabelle","dataHash":"021829c1c4a55e4dfd22809d3db94dcd43de8c825aee856aef466b9dac4cd166"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820dcfb3bb8b390317364edf3fb7cdd8658878d40774534b1a968ea68e0217f1591"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 3c2ad532309e23ec6ea78d1da9fa8280ba2388e0658006c946e7cce129a8db94
+ℹ Waiting for tx completion: 3c2ad532309e23ec6ea78d1da9fa8280ba2388e0658006c946e7cce129a8db94
+✔ Tx completed
