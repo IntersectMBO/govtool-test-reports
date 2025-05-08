@@ -2,6 +2,14 @@
 
 This repository stores Allure reports generated during the integration and backend test workflows of the [Govtool repository](https://github.com/IntersectMBO/govtool).
 
+
+## Report Links
+- **All Projects**: [https://intersectmbo.github.io/govtool-test-reports/](https://intersectmbo.github.io/govtool-test-reports/)
+- **govtool-frontend**: [https://intersectmbo.github.io/govtool-test-reports/govtool-frontend](https://intersectmbo.github.io/govtool-test-reports/govtool-frontend)
+- **govtool-backend**: [https://intersectmbo.github.io/govtool-test-reports/govtool-backend](https://intersectmbo.github.io/govtool-test-reports/govtool-backend)
+- **web-app-boilerplate**: [https://intersectmbo.github.io/govtool-test-reports/web-app-boilerplate](https://intersectmbo.github.io/govtool-test-reports/web-app-boilerplate)
+
+
 ## Report Structure
 
 ### govtool-frontend
@@ -23,10 +31,3 @@ This repository stores Allure reports generated during the integration and backe
 - A visual representation of the folder structure
 
 ![alt text](image.png)
-
-
-## Report Links
-- **All Projects**: [https://intersectmbo.github.io/govtool-test-reports/](https://intersectmbo.github.io/govtool-test-reports/)
-- **govtool-frontend**: [https://intersectmbo.github.io/govtool-test-reports/govtool-frontend](https://intersectmbo.github.io/govtool-test-reports/govtool-frontend)
-- **govtool-backend**: [https://intersectmbo.github.io/govtool-test-reports/govtool-backend](https://intersectmbo.github.io/govtool-test-reports/govtool-backend)
-- **web-app-boilerplate**: [https://intersectmbo.github.io/govtool-test-reports/web-app-boilerplate](https://intersectmbo.github.io/govtool-test-reports/web-app-boilerplate)
