@@ -1,0 +1,5 @@
+✔ Uploaded Olin metadata to bucket
+ℹ Submitting tx: {"lock_id":"fa0318e120ab90e851208ac29a6d271710e4fb863c06997e8ee0591d387b8241","tx":{"certificates":[{"type":"registerdrep","key":"3190ba2a84c6bd600bb9b5e97177abc3f29b5edb9b6a8b96ac5a69ae","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Olin","dataHash":"72d07162352c9794cf9966bcf1375db60b507c4bdf33f5e4d7b9a05c138a2713"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820be3566f0bad261a57c59b9684fc3626b376db1e2d3ec566142b6d5d45b6301a3"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 7e54a7b936ace092f0b759714476033d79646087aa2901a77acffe386d89b6b8
+ℹ Waiting for tx completion: 7e54a7b936ace092f0b759714476033d79646087aa2901a77acffe386d89b6b8
+✔ Tx completed
