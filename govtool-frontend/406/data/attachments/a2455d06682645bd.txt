@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Bettie.jsonld metadata to bucket
+ℹ Waiting for tx completion: 88f421a58c933ee9fd792ba364cecfcdc1b144ffefd2d3259a4180a394fe21a5
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Fritz metadata to bucket
+ℹ Submitting tx: {"lock_id":"bec78340b048637a80777da76bef3ceac21bc0ef261ee4180104e670b3f921c3","tx":{"certificates":[{"type":"registerdrep","key":"cbbf4b1b59e60afa6e8aabc12afaa2d14eeee9ad3006c177331c1895","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Fritz","dataHash":"f88c9107b7836c0249eb3a59dc583fa547691ecfa57dcb3fb97d5bb285dbe806"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a8feb300ba1eac727bfe08e3aa165f7fa1f9c4003a8d907ec4f5366f39efdaa8"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 894ca3eb3f23bd0c27d09975ebe3eb898a0695420fe50bd3b2baa74154429ad8
+ℹ Waiting for tx completion: 894ca3eb3f23bd0c27d09975ebe3eb898a0695420fe50bd3b2baa74154429ad8
+✔ Tx completed
