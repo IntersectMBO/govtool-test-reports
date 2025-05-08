@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Delta.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: ddf54e8de6d9482f6687e6dfc382a26516471d5022b54236ddee9bf95069be84
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded omnis metadata to bucket
+ℹ Waiting for tx completion: 14bbf03967e24085895d18475ccc1ea9d3c3511fd9c300fe900e6793f84f4d08
+✔ Tx completed
