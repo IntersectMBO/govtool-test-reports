@@ -25,3 +25,10 @@ Workflows can be executed in two ways:
 ## Allure Reports
 - Reports are stored in the [gh-pages branch](https://github.com/IntersectMBO/govtool-test-reports/tree/gh-pages/).
 - Details on folder structure and report history maintenance are available in the `gh-pages` branch documentation.
+
+
+## Report Links
+- **All Projects**: [https://intersectmbo.github.io/govtool-test-reports/](https://intersectmbo.github.io/govtool-test-reports/)
+- **govtool-frontend**: [https://intersectmbo.github.io/govtool-test-reports/govtool-frontend](https://intersectmbo.github.io/govtool-test-reports/govtool-frontend)
+- **govtool-backend**: [https://intersectmbo.github.io/govtool-test-reports/govtool-backend](https://intersectmbo.github.io/govtool-test-reports/govtool-backend)
+- **web-app-boilerplate**: [https://intersectmbo.github.io/govtool-test-reports/web-app-boilerplate](https://intersectmbo.github.io/govtool-test-reports/web-app-boilerplate)
