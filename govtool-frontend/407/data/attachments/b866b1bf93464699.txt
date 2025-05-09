@@ -1,0 +1,3 @@
+wallet balance 100020
+wallet address addr_test1qruhc4y8fe0skk7vszmv80r56gtg0e0mjz32hkt2vsa9ln0f6sx8dxmrpmx5utl59l8slah3cs4zvy20jjtqgmyl6h5q8798jr
+✖ Failed to load resource: the server responded with a status of 406 ()
