@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Simone.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 0845e6be370008fd5eca0a5169a9a949e3e256584fab1071cc86d32fa6d52f64
+✔ Tx completed
