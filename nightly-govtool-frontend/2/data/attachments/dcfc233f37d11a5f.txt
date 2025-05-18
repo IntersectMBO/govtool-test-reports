@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Sabryna.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: d3cf07f8f45ee771e76b1927e80483d848f29c6a70df7808ac2f9c7523b7a94b
+✔ Tx completed

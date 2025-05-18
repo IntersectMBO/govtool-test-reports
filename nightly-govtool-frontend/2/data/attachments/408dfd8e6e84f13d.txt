@@ -1,0 +1,5 @@
+✔ Uploaded Marcel metadata to bucket
+ℹ Submitting tx: {"lock_id":"6f6928e2de826b8ef8c8bd80b4ab038c498daac266051fa45789586a23e05e50","tx":{"certificates":[{"type":"registerdrep","key":"6d166ef5a2598ce4f52ed5487c819942c8f9a0d1eb945cf6f85252e4","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Marcel","dataHash":"1250a716c165a5a7b4a2d8a187e3b681579e3c47eadb9ad5f76af3ec42e3e19e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820238542f3434989e63ba4ab517fe227e81cf455369ae66b404827fbda66cedb89"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 8c2d11c4a670607d47e46bd07f2b00545d0d628137ae7aab498dc510462dab1a
+ℹ Waiting for tx completion: 8c2d11c4a670607d47e46bd07f2b00545d0d628137ae7aab498dc510462dab1a
+✔ Tx completed

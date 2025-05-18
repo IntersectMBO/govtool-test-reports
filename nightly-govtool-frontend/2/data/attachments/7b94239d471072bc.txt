@@ -1,0 +1,13 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 10d27dc175eb919bdaeb2d13d03bfa91c31dee4cc2bc92a6ef17f884d06d2ca7
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed
+✖ Failed to load resource: net::ERR_CONNECTION_CLOSED
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 3d1e24e245ddf9b414617f9b7492e44dc26a8db1a60ac408041784d11cc45209
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
