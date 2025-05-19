@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Zane.jsonld metadata to bucket
+ℹ Waiting for tx completion: 1cadf689a0fd053e954b99fddc4f75ae11422dad387df6741d6ff75978065bee
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed
