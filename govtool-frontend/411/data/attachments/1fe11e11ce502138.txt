@@ -1,0 +1,10 @@
+✖ Access to fetch at 'https://preview.api.handle.me/handles/ebbcc4f8cb18f1ca59ab3e895421f0e8586e4b77cedc931e62338c0a' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to fetch at 'https://preview.api.handle.me/handles/ebbcc4f8cb18f1ca59ab3e895421f0e8586e4b77cedc931e62338c0a' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to fetch at 'https://preview.api.handle.me/handles/ebbcc4f8cb18f1ca59ab3e895421f0e8586e4b77cedc931e62338c0a' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+ℹ Waiting for tx completion: e0884b22775e3ec1ada8e7556da261e969ae271e72ab69a0a20c3ba6d93d6a1a
+✔ Tx completed
+✖ Access to fetch at 'https://preview.api.handle.me/handles/ebbcc4f8cb18f1ca59ab3e895421f0e8586e4b77cedc931e62338c0a' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
