@@ -7,9 +7,14 @@ This repository stores Allure reports generated during the integration and backe
 
 - **All Projects**: [https://intersectmbo.github.io/govtool-test-reports/](https://intersectmbo.github.io/govtool-test-reports/)
 
+
 ### QA Environment
 - **govtool-frontend**: [https://intersectmbo.github.io/govtool-test-reports/qa/govtool-frontend](https://intersectmbo.github.io/govtool-test-reports/qa/govtool-frontend)
 - **govtool-backend**: [https://intersectmbo.github.io/govtool-test-reports/qa/govtool-backend](https://intersectmbo.github.io/govtool-test-reports/qa/govtool-backend)
+
+### Dev Environment
+- **govtool-frontend**: [https://intersectmbo.github.io/govtool-test-reports/dev/govtool-frontend](https://intersectmbo.github.io/govtool-test-reports/dev/govtool-frontend)
+- **govtool-backend**: [https://intersectmbo.github.io/govtool-test-reports/dev/govtool-backend](https://intersectmbo.github.io/govtool-test-reports/dev/govtool-backend)
 
 ### Preview Environment
 - **govtool-frontend**: [https://intersectmbo.github.io/govtool-test-reports/preview/govtool-frontend](https://intersectmbo.github.io/govtool-test-reports/preview/govtool-frontend)
