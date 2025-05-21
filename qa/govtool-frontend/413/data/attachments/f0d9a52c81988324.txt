@@ -1,0 +1,20 @@
+ℹ Submitting tx: {"lock_id":"6b7eca79dce782b804cdc81efc268168074373d57abd6eef8d83001932279979","tx":{"certificates":[{"type":"deregisterdrep","key":"6120e8786e4cfa390ce82966940b3f785ff27df7e1ca1dd9531f3765"},{"type":"deregisterdrep","key":"8aeb2f260be69ed4dcdd34391ec88dd97c7448b094cb4d4a795a6a3c"},{"type":"deregisterdrep","key":"55bbb52d4acb19373cfc7b0004a2da05ce22032126f972d9b7c69f11"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820af43cdc84f19a10557c96617dd2ba58cf558425baea94095d3368943873a673a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58206f7d648653c39417d646d89db43398800deea58ffe76dd3641e3751b3a4d9227"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58205386e53078c26ab8b6037b33077317c1a6c554158b8930d9c54c4b4f5250682a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"inputs":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd","changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+Error: KuberApi [Status 400] : Drep  is not registered : KeyHashObj (KeyHash {unKeyHash = "6120e8786e4cfa390ce82966940b3f785ff27df7e1ca1dd9531f3765"})
+    at /home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/lib/services/kuberService.ts:503:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Kuber.submitTx (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/lib/services/kuberService.ts:103:23)
+    at Function.intercept (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/lib/lockInterceptor.ts:122:19)
+    at /home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/tests/dRep.teardown.ts:36:32
+    at /home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/workerMain.js:338:9
+    at /home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/testInfo.js:285:11
+    at TimeoutManager.withRunnable (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/timeoutManager.js:63:14)
+    at TestInfoImpl._runAsStage (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/testInfo.js:283:7)
+    at /home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/workerMain.js:330:7
+    at /home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/testInfo.js:285:11
+    at TimeoutManager.withRunnable (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/timeoutManager.js:51:27)
+    at TestInfoImpl._runAsStage (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/testInfo.js:283:7)
+    at WorkerMain._runTest (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/workerMain.js:280:5)
+    at WorkerMain.runTestGroup (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/worker/workerMain.js:204:11)
+    at process.<anonymous> (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/playwright/lib/common/process.js:95:22) {
+  status: 400
+}

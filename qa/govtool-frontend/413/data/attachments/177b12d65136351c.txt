@@ -1,0 +1,5 @@
+✔ Uploaded Adriel metadata to bucket
+ℹ Submitting tx: {"lock_id":"62e1fe264f28fd995636f82bffccbdc88f86d75eb7a1501137adf6a62a465532","tx":{"certificates":[{"type":"registerdrep","key":"0dc85baa7df04a9709d2ea404f6f77f7bb61e6e3446dd63049af0ff3","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Adriel","dataHash":"f30a975cb0d15f3ba616cdd34fe26cf96b27f6f046688e98c8629068d503024f"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820f57ae36751c381dd378af81e317c04e124ccccedaec8daadb93d06fdf81589b6"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: aba81a06e921eacfbd017f4c18637e7ea6340b45421c9482db42c886d6ac6e57
+ℹ Waiting for tx completion: aba81a06e921eacfbd017f4c18637e7ea6340b45421c9482db42c886d6ac6e57
+✔ Tx completed

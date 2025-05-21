@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Jakayla.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: b6d986ff9a7d7eedc1a0ba4a0f5d70550d7f241772650a1ce87d3bb7d7b96f9f
+✔ Tx completed
