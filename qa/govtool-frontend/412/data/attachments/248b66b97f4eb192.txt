@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Carolyn.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 83c3bd2f73bfd92c1d8020f84b4c6df5300127276033de607bbc18676d7ec474
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

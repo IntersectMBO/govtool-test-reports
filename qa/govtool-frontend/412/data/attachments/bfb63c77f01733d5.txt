@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Rebeca.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 5ca05b8ae7dc8cb66dd555bc037d41152be076ff0a296343f7275d6be53d165b
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
