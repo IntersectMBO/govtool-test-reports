@@ -34,6 +34,11 @@ Stores reports from integration and backend tests run in the QA environment.
 - **govtool-frontend**: Contains reports from the [integration test workflow](https://github.com/IntersectMBO/govtool/blob/develop/.github/workflows/test_integration_playwright.yml), organized in numbered folders (e.g., `1`, `2`) for latest and historical reports.
 - **govtool-backend**: Contains reports from the [backend test workflow](https://github.com/IntersectMBO/govtool/blob/develop/.github/workflows/test_backend.yml), organized similarly.
 
+### Dev Environment
+Stores reports from integration and backend tests run in the dev environment.
+- **govtool-frontend**: Contains reports from the [integration test workflow](https://github.com/IntersectMBO/govtool/blob/develop/.github/workflows/test_integration_playwright.yml), organized in numbered folders (e.g., `1`, `2`) for latest and historical reports.
+- **govtool-backend**: Contains reports from the [backend test workflow](https://github.com/IntersectMBO/govtool/blob/develop/.github/workflows/test_backend.yml), organized similarly.
+
 ### Preview Environment
 Stores reports from integration and backend tests run in the preview environment.
 - **govtool-frontend**: Contains reports from the [integration test workflow](https://github.com/IntersectMBO/govtool/blob/develop/.github/workflows/test_integration_playwright.yml), organized in numbered folders.
