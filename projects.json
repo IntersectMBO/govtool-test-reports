@@ -1,0 +1,41 @@
+[
+    {
+      "name": "GovTool Test Reports",
+      "description": "A collection of test reports for GovTool",
+      "tests": [
+        {
+          "name": "QA Deployment",
+          "description": "Tests executed in the QA deployment environment",
+          "tests": [
+            { "name": "govtool-frontend" },
+            { "name": "govtool-backend" }
+          ]
+        },
+        {
+          "name": "Preview Deployment",
+          "description": "Tests conducted in the preview deployment environment",
+          "tests": [
+            { "name": "govtool-frontend" },
+            { "name": "govtool-backend" },
+            { "name": "nightly-govtool-frontend" },
+            { "name": "nightly-govtool-backend" }
+          ]
+        },
+        {
+          "name": "Web App Boilerplate",
+          "description": "Tests performed on the web app boilerplate repository",
+          "tests": [
+            { "name": "web-app-boilerplate" }
+          ]
+        },
+        {
+          "name": "Mainnet Deployment",
+          "description": "Tests conducted in the mainnet deployment environment",
+          "tests": [
+            { "name": "govtool-frontend" },
+            { "name": "govtool-backend" }
+          ]
+        }
+      ]
+    }
+  ]

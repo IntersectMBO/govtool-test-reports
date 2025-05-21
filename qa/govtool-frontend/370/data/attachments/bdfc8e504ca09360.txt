@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded tyrannus metadata to bucket
+ℹ Waiting for tx completion: 748aff1d0796832fd6bae5354d06fb9f3d9daa2f9b9b9b2fa409a4accfee193d
+✔ Tx completed

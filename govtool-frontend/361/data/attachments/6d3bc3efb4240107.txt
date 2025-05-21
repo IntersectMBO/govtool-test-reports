@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded vestrum metadata to bucket
-ℹ Waiting for tx completion: cea80f1eb57808324bee6b59e5be97ce9d4b24a662f4a1b5536390d25d2804e1
-✔ Tx completed

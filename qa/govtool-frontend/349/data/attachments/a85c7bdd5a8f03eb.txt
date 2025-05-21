@@ -1,0 +1,4 @@
+✔ Uploaded Zetta.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 2e6bd5dbad3b02df1e462dcc712885972f806fe5ebbb51d7b498c854099b34ff
+✔ Tx completed

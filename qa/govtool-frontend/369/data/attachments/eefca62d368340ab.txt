@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded auctor metadata to bucket
+ℹ Waiting for tx completion: 09855eea9d94abf438f3534f422b4847ce6e9d4d76510063e688d60daf2e52e5
+✔ Tx completed

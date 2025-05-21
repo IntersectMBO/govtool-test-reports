@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Mckayla.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 54d431c3d693e0ad931228091009795bee915532af0e4e9eddb2676488997ad4
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

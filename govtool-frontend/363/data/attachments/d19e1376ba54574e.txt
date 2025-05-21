@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded guardrail-script metadata to bucket
-✔ Uploaded clibanus metadata to bucket
-ℹ Waiting for tx completion: 00edf445b0262c51c4f75a0a77ddfa4d49239d204e5d32e449717bfd1b8b9a4d
-✔ Tx completed

@@ -1,0 +1,51 @@
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded data.jsonld metadata to bucket
+✖ Failed: Timed out 20000ms waiting for expect(locator).toHaveText(expected)
+
+Locator: getByTestId('ga-submitted-modal-title')
+Expected pattern: /governance action submitted!/i
+Received: <element(s) not found>
+Call log:
+  - expect.toHaveText with timeout 20000ms
+  - waiting for getByTestId('ga-submitted-modal-title')
+
+Console messages: Access to fetch at 'https://metadata.cardanoapi.io/data/data.jsonId' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+Failed to load resource: net::ERR_FAILED
+Error fetching or hashing the content: TypeError: Failed to fetch
+    at https://govtool.cardanoapi.io/assets/index-D3hYZdEF.js:89:4019
+    at https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:139:142162
+    at r4 (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:12590)
+    at Generator.<anonymous> (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:14074)
+    at Generator.next (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:13053)
+    at x3 (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10256)
+    at Y (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10467)
+    at https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10534
+    at new Promise (<anonymous>)
+    at https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10407
+    at $n (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:139:142615)
+    at on (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:139:141903)
+    at https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:139:140609
+    at r4 (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:12590)
+    at Generator.<anonymous> (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:14074)
+    at Generator.next (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:13053)
+    at x3 (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10256)
+    at Y (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10467)
+TypeError: Failed to fetch
+    at https://govtool.cardanoapi.io/assets/index-D3hYZdEF.js:89:4019
+    at https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:139:142162
+    at r4 (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:12590)
+    at Generator.<anonymous> (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:14074)
+    at Generator.next (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:13053)
+    at x3 (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10256)
+    at Y (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10467)
+    at https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10534
+    at new Promise (<anonymous>)
+    at https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10407
+    at $n (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:139:142615)
+    at on (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:139:141903)
+    at https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:139:140609
+    at r4 (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:12590)
+    at Generator.<anonymous> (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:14074)
+    at Generator.next (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:13053)
+    at x3 (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10256)
+    at Y (https://govtool.cardanoapi.io/assets/app.cjs-Byq2GrII.js:85:10467)

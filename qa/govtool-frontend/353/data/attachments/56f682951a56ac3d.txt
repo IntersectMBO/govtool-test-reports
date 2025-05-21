@@ -1,0 +1,4 @@
+✔ Uploaded Janis.jsonld metadata to bucket
+ℹ Waiting for tx completion: 7ef193f54f2f2205867c5c3f680ea96f491a452c98b3d572b58f8d9f817e38d4
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

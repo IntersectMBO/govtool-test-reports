@@ -1,0 +1,2 @@
+✖ Access to fetch at 'https://preview.api.handle.me/handles/33439347b6ff0d3bcd98bc04919baa81630a0e2dbc1ced866610612b' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED

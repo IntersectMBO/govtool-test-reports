@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded alveus metadata to bucket
+ℹ Waiting for tx completion: 96f3d66f4625d9e1d79b42b354d80df60c762147f97f2f8e13bf83afe98c2edb
+✔ Tx completed

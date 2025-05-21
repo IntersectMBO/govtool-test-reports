@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Giovanna.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 5ada08c2b3efa47587a64e820aec707472f713e6f87d8d7558195a6d7b5e0d2c
-✔ Tx completed

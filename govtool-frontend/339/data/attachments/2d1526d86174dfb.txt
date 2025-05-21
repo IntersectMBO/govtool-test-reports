@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 403 ()
-✖ Failed to load resource: the server responded with a status of 403 ()
-✖ Failed to load resource: the server responded with a status of 403 ()
-✖ Failed to load resource: the server responded with a status of 403 ()
-✔ Uploaded data.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 403 ()
-ℹ Waiting for tx completion: 7227d2731fa68db3ff5a313d7961db266bd3ebb5feb26a1d751847546217dc35
-✔ Tx completed

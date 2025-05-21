@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Nikolas.jsonld metadata to bucket
+ℹ Waiting for tx completion: 7946679bf14d8f952205fa9957d6b6bf68d22be9bca8a86d12a4456fd15cc6fc
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

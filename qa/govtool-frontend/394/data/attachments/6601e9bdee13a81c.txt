@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Karli.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 320f76e08a712c95e3427eed937ff7da81dcba53e007874b55ea897cce35532e
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

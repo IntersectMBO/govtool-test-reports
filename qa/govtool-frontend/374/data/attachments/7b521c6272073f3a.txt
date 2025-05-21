@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Keira.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 7f30a56f2a5749f3308944dcbac4b18d136cb862c5f4d80b5785ac2552db3921
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

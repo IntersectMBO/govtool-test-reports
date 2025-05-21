@@ -1,5 +1,0 @@
-✔ Uploaded Tierra metadata to bucket
-ℹ Submitting tx: {"lock_id":"a948aaabb0fd5687a5c82ad8b9f473e8824d0f84e7cd3cd904d024c39dafaebd","tx":{"certificates":[{"type":"registerdrep","key":"473c3b89679c0c2c05761ced6c5aec84b9fc9a098e080b754a8dbbb2","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Tierra","dataHash":"ee3f20c38bbab6e31c54c939ad73190b1cbe9882076cf7c6582e2df889e93cb1"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207c9f2163ff8559936f4f02c4c39f725845191dc6df9e1c092b5f0ab10edf9f33"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 8d844fb41c6e7caffca02e102eac92f29e3c0870a94bb5a2126a7335a96adf3f
-ℹ Waiting for tx completion: 8d844fb41c6e7caffca02e102eac92f29e3c0870a94bb5a2126a7335a96adf3f
-✔ Tx completed

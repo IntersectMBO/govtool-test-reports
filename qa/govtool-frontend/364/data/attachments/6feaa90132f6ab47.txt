@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded labore metadata to bucket
+ℹ Waiting for tx completion: 3010905e5c08787ed3fe0026fdebceeea5479a8be86d9f1934e5cf4b95da1e51
+✔ Tx completed

@@ -1,4 +1,0 @@
-✔ Uploaded Lura.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 2331931bd422cc64943428ee73d5dfd558b202d2eb4bc56489f3db478e81fa1e
-✔ Tx completed

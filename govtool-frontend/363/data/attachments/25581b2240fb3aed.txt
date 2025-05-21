@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded aliquam metadata to bucket
-ℹ Waiting for tx completion: 2a147629edfe6e5d4fdc53b937bf29f0a757c3d4e912048f5a0ee0c1dde3f829
-✔ Tx completed

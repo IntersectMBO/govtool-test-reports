@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded iusto metadata to bucket
-ℹ Waiting for tx completion: 8cdad8d67878d500c37ed8c98fceabe7d648ffd5f8e968f01c269e0fbbe44074
-✔ Tx completed

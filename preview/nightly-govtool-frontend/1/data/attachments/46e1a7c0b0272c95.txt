@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Chance.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 539db4457fa73e2bdaedd8fe3da0dc1752857482325382ad6c96e85fafb0f2be
+✔ Tx completed

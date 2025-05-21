@@ -1,3 +1,0 @@
-BASE_URL: https://govtool.cardanoapi.io/api
-Proceeding without METRICS_URL: Metrics will not be posted
-{'stakeKey': 'df1992dd82b1e2c3f1389ce800701cc49300de7ce71b7af57cb4feca', 'dRepId': '375b338d59ab303f07d594fb7b8346aa650704fcdfc84b186974b2af'}

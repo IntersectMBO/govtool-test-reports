@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded uredo metadata to bucket
+ℹ Waiting for tx completion: e6ce508dbfa330fa73711c05e6c40c491c4202ad14e002af211e1bae25d0acf2
+✔ Tx completed

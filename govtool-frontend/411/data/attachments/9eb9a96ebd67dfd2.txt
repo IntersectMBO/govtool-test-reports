@@ -1,5 +1,0 @@
-✔ Uploaded Kavon metadata to bucket
-ℹ Submitting tx: {"lock_id":"b9a2f4ea7e85db2eae69477ade2b81ace02017d722dfe0fe3217d50f53500c39","tx":{"certificates":[{"type":"registerdrep","key":"736e3529377f5ac92ada442dd2a767b2a7fa8d688e5fdf72a5001d6d","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kavon","dataHash":"2cb8b921ac2f6eba2318fb9f10640471418f9cde6a70be1b562ea63082fa224b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208b5e358bcae98455c6afc7d86f1c63cc7baff74c31b62f31431e95c85bc66080"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 5a625cfdd04799d8d1fea0d300e4f8b070943fbfe250128451b5f147119a09c4
-ℹ Waiting for tx completion: 5a625cfdd04799d8d1fea0d300e4f8b070943fbfe250128451b5f147119a09c4
-✔ Tx completed

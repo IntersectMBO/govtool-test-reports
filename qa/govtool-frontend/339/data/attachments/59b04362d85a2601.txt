@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 403 ()
+✖ Failed to load resource: the server responded with a status of 403 ()
+✖ Failed to load resource: the server responded with a status of 403 ()
+✖ Failed to load resource: the server responded with a status of 403 ()
+✔ Uploaded data.jsonld metadata to bucket
+✖ {status: INVALID_HASH, valid: false, metadata: Object}
+✖ Failed to load resource: the server responded with a status of 403 ()

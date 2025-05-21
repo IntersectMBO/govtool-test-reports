@@ -1,0 +1,5 @@
+✔ Uploaded Emmie metadata to bucket
+ℹ Submitting tx: {"lock_id":"101915ec8e4f597ca331c17dbc8488c672b05c4033947c2fab0646362a8d2c71","tx":{"certificates":[{"type":"registerdrep","key":"3a257eccdfda0c17075a08694eb33663cce99df01ee03e4329d52aff","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Emmie","dataHash":"3e5ac5e25011df0cd8140be44792dbb45d0e011d4670efd537b69c0d42b21239"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d8ea9fdf2d7f24b107af3d0f53d2cfb60fbdc12f2f7e700adaf26bc4e9cf051b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 5ef4847771e0fc24d780ced9b984bc23313b6bfbfe20aa08c0067d46107f5685
+ℹ Waiting for tx completion: 5ef4847771e0fc24d780ced9b984bc23313b6bfbfe20aa08c0067d46107f5685
+✔ Tx completed

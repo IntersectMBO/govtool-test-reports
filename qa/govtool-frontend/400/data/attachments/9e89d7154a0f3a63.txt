@@ -1,0 +1,5 @@
+✔ Uploaded Maida metadata to bucket
+ℹ Submitting tx: {"lock_id":"f27c9937b83521873f81a3400227dea9016012767f0628ccca4e1b07f18c94d0","tx":{"certificates":[{"type":"registerdrep","key":"dabfa896b8a557cb2d076f9efcd161bfc6f70a6f9532089b3b8d924e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Maida","dataHash":"cd836c6ecfdd2436e0eaf2a4463a9709afffd24f838961bd4f212036bdb15e98"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a79622302d03b10a8295b3d8b800c41b3150bf06f151d378194aca76d802e83a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: c3087a949209e7112758b0206df35f87784888f82eade57bfde004bebbfa672b
+ℹ Waiting for tx completion: c3087a949209e7112758b0206df35f87784888f82eade57bfde004bebbfa672b
+✔ Tx completed

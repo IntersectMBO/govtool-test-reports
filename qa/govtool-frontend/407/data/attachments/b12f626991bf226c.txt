@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Dakota.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 90ee9ab75a93dfa513b00ecb50cf10c649268bf013c0b6a0344f4d8423a547a7
+✔ Tx completed

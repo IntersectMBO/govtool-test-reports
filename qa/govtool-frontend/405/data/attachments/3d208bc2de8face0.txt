@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Keyon.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 082d3ba4f109d901054df01459f993070c2d9296b2df220839c5579ab69bd082
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

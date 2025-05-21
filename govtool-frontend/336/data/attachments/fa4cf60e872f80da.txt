@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded guardrail-script metadata to bucket
-✔ Uploaded data.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 4f949e721c116bc32a4e46803815ba10cf561542752dbd640f68a2cd9109615d
-✔ Tx completed

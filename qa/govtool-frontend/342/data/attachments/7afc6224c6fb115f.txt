@@ -1,0 +1,34 @@
+✖ Failed to load resource: the server responded with a status of 402 ()
+✖ Error: BlockFrost [Status 402] : Usage is over limit.
+    at /home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/@cardanoapi/cardano-test-wallet/script.js:8:79903
+    at async Object.submitTx (/home/runner/work/govtool/govtool/tests/govtool-frontend/playwright/node_modules/@cardanoapi/cardano-test-wallet/script.js:8:81491)
+    at async DX4.n2.useCallback.Lr (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:408:46825)
+    at async https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:257:19289
+    at async https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:254:96394 error
+✖ Error: Minified React error #31; visit https://reactjs.org/docs/error-decoder.html?invariant=31&args[]=%5Bobject%20Error%5D for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Hp0 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:39:6647)
+    at s8 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:39:8679)
+    at Bn (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:39:10016)
+    at Mb (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:39:12434)
+    at Zd (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:1587)
+    at PS (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:49479)
+    at NB0 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:42977)
+    at _v0 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:42901)
+    at xA0 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:42746)
+    at OS (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:38802)
+    at FB0 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:39681)
+    at vw (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:39:3432)
+    at MB0 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:44572)
+    at cy (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:43498)
+    at DB0 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:41:38597)
+    at O0 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:26:1733)
+    at MessagePort.g2 (https://govtool.cardanoapi.io/assets/index-BOzuNQ-3.js:26:2132)
+✖ Timed out 16000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByTestId('alert-warning').getByText('Transaction in progress')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 16000ms
+  - waiting for getByTestId('alert-warning').getByText('Transaction in progress')
+

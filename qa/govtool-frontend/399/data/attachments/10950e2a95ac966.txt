@@ -1,0 +1,5 @@
+✔ Uploaded Hope metadata to bucket
+ℹ Submitting tx: {"lock_id":"85cc9d3ef4acb87079f8a7326ecf14c6916d46538d3a2a5f06c1249465f92319","tx":{"certificates":[{"type":"registerdrep","key":"670d42b171252fc6ee935a4edcf287108600b09e480ccc0ead498ef0","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Hope","dataHash":"2ca7aa935dd6bbe8fa6abcbcd511fc013aa569ca8e56faef82d560f341fc7e9e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58205a424e30585000066747da858f60b0342bdb7bfb19578aae1ced98a0aa2a65b8"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 73b662c2d2c5c5dda3de57ee1bf83064f25230d54893b9da5ab70aeaa1ed9467
+ℹ Waiting for tx completion: 73b662c2d2c5c5dda3de57ee1bf83064f25230d54893b9da5ab70aeaa1ed9467
+✔ Tx completed

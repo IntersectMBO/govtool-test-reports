@@ -1,0 +1,13 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Jasen.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 400 ()
+✖ Timed out 60000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByTestId('alert-warning').getByText('Transaction in progress')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 60000ms
+  - waiting for getByTestId('alert-warning').getByText('Transaction in progress')
+

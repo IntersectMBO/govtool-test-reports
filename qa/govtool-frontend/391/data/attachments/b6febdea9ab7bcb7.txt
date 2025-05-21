@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded solium metadata to bucket
+ℹ Waiting for tx completion: 1115090976ce180308bd9a9e27ad74ff2792be23473941f98aa5fcd7d78e6306
+✔ Tx completed

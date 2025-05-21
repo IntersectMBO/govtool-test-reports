@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded super metadata to bucket
+ℹ Waiting for tx completion: db498281ed2380b0283cd73017666bd2ee57665da1059db4899276a5f735145e
+✔ Tx completed

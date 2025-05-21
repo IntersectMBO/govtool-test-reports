@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded River.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 1dd0cdd98db051065c6ef55cdfb1adb60e9bdaf48b155cf6a6fb098dd576a515
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

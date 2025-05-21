@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded aegrotatio metadata to bucket
+ℹ Waiting for tx completion: 86b46b0ad270fb29b12e4a44e57a0778a2592eee5133dfde72ec9c2fa582c816
+✔ Tx completed

@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Kyle.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 52aa37ba1c1c987af02af3ea42690d37cb12f548c5f03fdf55eaed5b370bfc6e
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

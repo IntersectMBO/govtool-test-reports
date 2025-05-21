@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Allie.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 94b8087e803f091266c9e01a8a5a1f986b626744c05b39ca1e71f066baf479e4
+✔ Tx completed
