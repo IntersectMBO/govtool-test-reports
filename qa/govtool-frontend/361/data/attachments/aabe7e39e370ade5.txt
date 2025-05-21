@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Noel.jsonld metadata to bucket
+ℹ Waiting for tx completion: 149ba1ad83ce2e02f8ade46d1bcf365249942f4c05e145bf80e078878b2cefb4
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed

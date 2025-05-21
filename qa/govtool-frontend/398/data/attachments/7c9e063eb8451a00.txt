@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded ventito metadata to bucket
+ℹ Waiting for tx completion: e669a71ad3f03ed788c040264796b75fb1e610b68c892687d2188d985af21b2b
+✔ Tx completed

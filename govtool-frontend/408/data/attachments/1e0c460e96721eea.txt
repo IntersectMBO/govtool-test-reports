@@ -1,5 +1,0 @@
-✔ Uploaded Vanessa metadata to bucket
-ℹ Submitting tx: {"lock_id":"e093249478bcc9588d2d2bc4eb03bfcd92525e141bcb507eb45524fc116fa787","tx":{"certificates":[{"type":"registerdrep","key":"3f0b8db470baf40f4e2a15f178a18d65031940001233164361a0bba9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Vanessa","dataHash":"c6d4084c0f50c080e7aa4900ae90ea18ee2505c371ac85970b59842da28e1ec6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58203f95d54af1e858573bb7acc24bd0d212ec1e9318cc875a39200dccd2f0a74afc"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 3dc2ea608f39187d32df1cb47e31ff64dea06aac63540535c72b68c9212da90f
-ℹ Waiting for tx completion: 3dc2ea608f39187d32df1cb47e31ff64dea06aac63540535c72b68c9212da90f
-✔ Tx completed

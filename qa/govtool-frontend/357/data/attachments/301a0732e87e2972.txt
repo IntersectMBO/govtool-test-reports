@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded tollo metadata to bucket
+ℹ Waiting for tx completion: ffb68c291792d1a40580e6fa475535a4bd2e868a81c7c5a252c2ea4460343f2b
+✔ Tx completed

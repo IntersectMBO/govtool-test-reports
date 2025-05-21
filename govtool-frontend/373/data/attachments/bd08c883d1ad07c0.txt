@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Koby.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 8c5fca78f6613894e94ae807534be21f28f0ffa775ac58100a6d70b3b37ad446
-✔ Tx completed

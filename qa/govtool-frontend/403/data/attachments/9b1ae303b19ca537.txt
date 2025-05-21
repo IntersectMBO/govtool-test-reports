@@ -1,0 +1,11 @@
+✖ Access to fetch at 'https://preview.api.handle.me/handles/95ba2321e3a20f2203bc6531e22626c3513df90115441081f2cc9556' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to fetch at 'https://preview.api.handle.me/handles/addr_test1qpkmn72cqv4suxpew960vp68y97xkha0mndfdgt52kss7hylclsgg4x5n7pgqen6wfgtz836wyec9zu5txhr9mmuwfpq63ansg' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✔ Uploaded Sonia.jsonld metadata to bucket
+✖ Access to fetch at 'https://preview.api.handle.me/handles/95ba2321e3a20f2203bc6531e22626c3513df90115441081f2cc9556' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+ℹ Waiting for tx completion: 0ede1c8f58e52ac03f7142ebba6fe7637db4ac9f8325705ccab76fe5e59f2ec1
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()

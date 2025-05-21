@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded tutamen metadata to bucket
+ℹ Waiting for tx completion: c98200341690c7694e0f5632f0a6ef8c64e31078fbab95fa31d231b6cb85ea91
+✔ Tx completed

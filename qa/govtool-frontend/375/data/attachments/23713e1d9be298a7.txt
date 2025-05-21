@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded utroque metadata to bucket
+ℹ Waiting for tx completion: 9ebd01418498135ae5ab4d13222b9772ff236019499ccf9035dfd78a9f14197b
+✔ Tx completed

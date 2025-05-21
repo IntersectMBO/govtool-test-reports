@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Sarah.jsonld metadata to bucket
+ℹ Waiting for tx completion: 2bf2366f64fe3210f455623db1a81ec45a6001ec86427e313d854ae0522e69f5
+✔ Tx completed

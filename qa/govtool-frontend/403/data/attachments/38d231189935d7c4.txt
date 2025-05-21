@@ -1,0 +1,12 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Coy.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Access to fetch at 'https://preview.api.handle.me/handles/7ede04d11014297754bd44a165d9e861658becf754b5ca0dadff66ff' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to fetch at 'https://preview.api.handle.me/handles/7ede04d11014297754bd44a165d9e861658becf754b5ca0dadff66ff' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: bfe78819ecf758effa5d87cc108a28ed26c13368bdff41540ace83c3bd26183b
+✔ Tx completed
+✖ Access to fetch at 'https://preview.api.handle.me/handles/7ede04d11014297754bd44a165d9e861658becf754b5ca0dadff66ff' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED

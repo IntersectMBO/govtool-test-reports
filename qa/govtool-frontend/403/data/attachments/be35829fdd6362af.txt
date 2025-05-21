@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded arguo metadata to bucket
+ℹ Waiting for tx completion: c27c75c7f14640a710472d8a11a79bc31c7d2cd5b2fb03aa4963846ac9a57ca4
+✔ Tx completed

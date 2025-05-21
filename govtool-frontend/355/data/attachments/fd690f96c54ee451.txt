@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Leonard.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: f6c56a6e4c9b4a966d8632c95be751890012f6c5390b74a745679d61ae0d06cd
-✔ Tx completed

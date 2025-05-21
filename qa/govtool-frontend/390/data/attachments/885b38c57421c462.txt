@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded correptius metadata to bucket
+ℹ Waiting for tx completion: e6fd497a0290ef52465c0362940bf89f653d2e049c2e4d829ba9cc63a5461a27
+✔ Tx completed

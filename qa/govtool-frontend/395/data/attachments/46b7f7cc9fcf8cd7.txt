@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded ambitus metadata to bucket
+ℹ Waiting for tx completion: 3c57a31e824c15f3b2d75361a13f45a847be067a9db2f540944c01be4031661a
+✔ Tx completed

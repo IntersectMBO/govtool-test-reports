@@ -1,0 +1,5 @@
+✔ Uploaded Aliyah metadata to bucket
+ℹ Submitting tx: {"lock_id":"585eca5761ffa49c51a5b113b36a2718c2ab2f01eb359a989d159307a25c69ac","tx":{"certificates":[{"type":"registerdrep","key":"09d238dde5f99cf32d0d9e6f780393703c91c6262f1a5a9870f18cfc","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Aliyah","dataHash":"c82fe2b232e7037f65b1872006c6863f5e3f13c337625c0148b0e38da4061b82"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820900e740cd3355cdb441febfae09be1c45f324ef07eb71fea245cae5ad9f969ff"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 86a1a523bb4fec8e33c13d02f7b4bb3c6765d5531985bcf125ff96e2cf1cd705
+ℹ Waiting for tx completion: 86a1a523bb4fec8e33c13d02f7b4bb3c6765d5531985bcf125ff96e2cf1cd705
+✔ Tx completed

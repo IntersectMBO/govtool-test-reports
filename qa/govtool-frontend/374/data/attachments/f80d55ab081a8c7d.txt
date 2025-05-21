@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Alana.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 7e996a0faa92357a1e4c0c90090fe917ee9fd18e26da7545a8d1cf44dd0f993a
+✔ Tx completed

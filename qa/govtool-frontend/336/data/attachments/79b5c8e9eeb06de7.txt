@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded data.jsonld metadata to bucket
+ℹ Waiting for tx completion: 6c2a4940d04a4b93ddef12022408de8c8ab99abef4cb93cccc776620ca9d453c
+✔ Tx completed

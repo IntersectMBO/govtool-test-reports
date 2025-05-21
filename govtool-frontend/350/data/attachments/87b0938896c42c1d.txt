@@ -1,5 +1,0 @@
-✔ Uploaded May.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 0676d3d5b645013a3add587920927fe56212743a3678ba3e68a1e55db9215ec7
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()

@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Sven.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: bc784424f3814cb6524b62135d046ebbaf374a394ef62c005c979e72d3ef42f5
+✔ Tx completed

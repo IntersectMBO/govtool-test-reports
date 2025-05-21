@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Johan.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: c63531fe2c031f107f6b1781dfb71397d6b69a2d8d1e7b424ef159480998219b
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()

@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Misty.jsonld metadata to bucket
+ℹ Waiting for tx completion: 7fef87a5c3d4e4cfbaa1d13a824b2930ea9a8878767b130be3026a55fc6ca78e
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()

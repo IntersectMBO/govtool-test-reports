@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded timidus metadata to bucket
+ℹ Waiting for tx completion: f5a3e3c0f3017bf9a90e1a632219ee32b14af12f82231af2e92a2eeffb845792
+✔ Tx completed

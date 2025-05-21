@@ -1,0 +1,6 @@
+✔ Uploaded Shawna.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: db23f1f3c8cb4024fb978939abf3b2e7f8fbb5f8c2ebe7157a498eff49301aad
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

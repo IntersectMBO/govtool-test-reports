@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Rashawn.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 6e742b976265a0d98da6fb493c64d0630b3abc4e7a0978c0e28d6d90ea10c475
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

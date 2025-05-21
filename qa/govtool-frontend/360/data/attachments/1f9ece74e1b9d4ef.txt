@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded attollo metadata to bucket
+ℹ Waiting for tx completion: 2581a3b1ed5247882f22dd33b75699868b20c7ae275bd20a9234f5b48fc1f320
+✔ Tx completed

@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded peccatus metadata to bucket
+ℹ Waiting for tx completion: b89036d629954aebc8642a281f6b42d1358dc33ef0c6ce267b6d80d2d723ca1c
+✔ Tx completed

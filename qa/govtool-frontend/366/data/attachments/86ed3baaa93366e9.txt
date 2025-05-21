@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded allatus metadata to bucket
+ℹ Waiting for tx completion: cc0903b55cf06d2e5806249b5c20c806b3bd38b5fbb9027a05a009e36bd195b5
+✔ Tx completed

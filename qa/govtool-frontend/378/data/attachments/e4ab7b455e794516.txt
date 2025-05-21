@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded autus metadata to bucket
+ℹ Waiting for tx completion: 531df3e791c78a9933a1a22126fd601b9a5e30d14f14d1123883e347c151ee81
+✔ Tx completed

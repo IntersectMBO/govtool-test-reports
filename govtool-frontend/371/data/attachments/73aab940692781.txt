@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded guardrail-script metadata to bucket
-✔ Uploaded venia metadata to bucket
-ℹ Waiting for tx completion: b3cb3ac4f7118d6848e129bd032b8b60a8d5515139742049bcdae94d697ce361
-✔ Tx completed

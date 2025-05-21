@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Nella.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 6cfff5710a504d3db618a6287bf1eff17a64fbbd5f2e16c19f7e8f1eb8070996
-✔ Tx completed

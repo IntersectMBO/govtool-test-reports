@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded tametsi metadata to bucket
+ℹ Waiting for tx completion: b1aa653a9de804d0c630d61360b89d455f572bc568e761ff0ac930184016c055
+✔ Tx completed

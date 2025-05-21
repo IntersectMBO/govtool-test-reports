@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded traho metadata to bucket
+ℹ Waiting for tx completion: 87e340b7482ec86e08db13cf4618ed1be2f01acaa29f9ca4cac6fd98988c641b
+✔ Tx completed

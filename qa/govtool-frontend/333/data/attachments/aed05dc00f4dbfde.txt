@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Lincoln.jsonld metadata to bucket
+ℹ Waiting for tx completion: f9c719d0f918622e9ae2c4bc2a2722ea37ee7fe5b7dd3e14974248d7cf236101
+✔ Tx completed

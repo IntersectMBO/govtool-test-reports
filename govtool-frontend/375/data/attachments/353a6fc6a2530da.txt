@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded guardrail-script metadata to bucket
-✔ Uploaded contego metadata to bucket
-ℹ Waiting for tx completion: dc6134ffd2f354a00cf75333f8b8b74c20de06e9f2f9a6a5af0aa22b6b27ea36
-✔ Tx completed

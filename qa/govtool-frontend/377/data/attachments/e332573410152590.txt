@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded vesper metadata to bucket
+ℹ Waiting for tx completion: 71dbf76e65bdf71fef1ab288d3d68b6264e89f0f58c2cea7214a0f289d3c64d7
+✔ Tx completed

@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Hobart.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: cddfbaec04c13d78a268063a1876c3f950b74689a8df9e4b2f8f854b6ee51c1c
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed

@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded aspernatur metadata to bucket
+ℹ Waiting for tx completion: 4969016d42a71d4808426dfbf2232fb4adf4c2b868183a844d8106e3de532e51
+✔ Tx completed

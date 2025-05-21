@@ -1,0 +1,4 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded curia metadata to bucket
+ℹ Waiting for tx completion: bbc5b60dc9443973b4806423e01bc2695cc9e2480f9d5a4d83980d0424e4afd7
+✔ Tx completed
