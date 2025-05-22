@@ -1,0 +1,5 @@
+✔ Uploaded Kay metadata to bucket
+ℹ Submitting tx: {"lock_id":"0f20f4720f49fd6745ebefdd56e715d20e46be4fa423b7be8e9e507367692356","tx":{"certificates":[{"type":"registerdrep","key":"3540576bdbc084e959318384c91a3fb6c4f4d72d22aea307c37ab5e9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kay","dataHash":"4de8ad2172030a643e806bd423d597df00fe48799daab2257887525cdf43fa94"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ec27954c0d29e8821239291f7321b9104b91cc9a2e73398a119f2f2493eaec17"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 8d5c02a4975beeeaffe2eaf4daa2e8bffcebd1be82e9075c06e4202cde8cf76b
+ℹ Waiting for tx completion: 8d5c02a4975beeeaffe2eaf4daa2e8bffcebd1be82e9075c06e4202cde8cf76b
+✔ Tx completed
