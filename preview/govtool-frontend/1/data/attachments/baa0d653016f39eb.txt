@@ -1,0 +1,5 @@
+✔ Uploaded Antonio metadata to bucket
+ℹ Submitting tx: {"lock_id":"b5a6a8e6c0b701f25b486fa9cdffa432a19646aecd771781c3dbca0f8d28b3b4","tx":{"certificates":[{"type":"registerdrep","key":"4d904ac83528895bd7a1c3a86ab328c6ed7ed3393fbcb41020166a08","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Antonio","dataHash":"59a882a6b08615c5359ae10ca0a89c55028428411234242b2e6c91c963f9f159"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820842b72b8d01cca7092d1e9c7e7dc9d8eaf164fe60328618f71518f0fe003d149"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: e2132d0ebbe9651ad4d62b122986f689af9dbc5fd9a0a85a0e0a4abb1733b625
+ℹ Waiting for tx completion: e2132d0ebbe9651ad4d62b122986f689af9dbc5fd9a0a85a0e0a4abb1733b625
+✔ Tx completed
