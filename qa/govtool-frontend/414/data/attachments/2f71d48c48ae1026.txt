@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Tyree.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: e145dcf1c0160b3ade0fa7fccc540ad7c14db337f573f446cd90fc0eed8bfd9b
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed

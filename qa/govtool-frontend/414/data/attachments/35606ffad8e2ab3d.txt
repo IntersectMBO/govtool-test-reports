@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Korbin.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: be67bd257f2a8e36c440326352d692d2d38bcf443d4f77a3f36f452fe731f71a
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Rosina metadata to bucket
+ℹ Submitting tx: {"lock_id":"c7db80463844705474b108dc7cee97e1b07f2ecf351f836a35243f4d47e7fa58","tx":{"certificates":[{"type":"registerdrep","key":"93df31f48b9244d0cdafa812cad05a5e82f1aa6c9a161021073f6317","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Rosina","dataHash":"bf0f390696533a0e89a3c46ccb410a446ec4122b0e15340f169db701693538ea"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582032febfc957251ee41a54047a9668e378e139f3423b81b0f2f4657e1250a6abc0"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 696ff9d1fc179a386fcd6f024f5e4214c56850a39d85629c960d5ef33da842ea
+ℹ Waiting for tx completion: 696ff9d1fc179a386fcd6f024f5e4214c56850a39d85629c960d5ef33da842ea
+✔ Tx completed
