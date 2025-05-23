@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Camila.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 8cd8be72a5415b5704c039c3d4112722a7dde2aea9936cafcd34ed0a4313005b
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

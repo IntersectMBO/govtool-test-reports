@@ -1,0 +1,5 @@
+✔ Uploaded Alford metadata to bucket
+ℹ Submitting tx: {"lock_id":"6eecb05f4b05fabca0039b38e550fe4ffdf54110e50c42eb318cb224b4c61b25","tx":{"certificates":[{"type":"registerdrep","key":"78cdb63b8313de4728c5af416101d301908de2139a9ce32882814a67","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Alford","dataHash":"d02572530156d7da14e3ae999395c3619ef62f10b2228af1bae50ff5998f9cb8"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820f766e8fcf7a10ebbd804f2625ac9b93f509088fe161379afc3757ca1bafba651"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 4e0302e1d528a72c5e0bb987ad66190a259b0f95b9b425d3cac01675ebc66720
+ℹ Waiting for tx completion: 4e0302e1d528a72c5e0bb987ad66190a259b0f95b9b425d3cac01675ebc66720
+✔ Tx completed

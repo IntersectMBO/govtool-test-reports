@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Marjolaine.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: c34cdb36e72af85863c5c41c36009ddba7e3b291fc95ba2a40dab84ed51574c0
+✔ Tx completed
