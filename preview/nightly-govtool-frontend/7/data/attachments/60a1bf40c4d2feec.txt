@@ -1,0 +1,22 @@
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Submitting tx: {"lock_id":"64b181e522b6e39c9238ed7862ff36ecd4f5e938af5df8a8460c70d49153e25b","tx":{"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"582070f5ed284022549cc24899a92e57e53c83a93e48a32c77f245fca4d931b092ba"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"outputs":[{"address":"addr_test1qze3ze5ngd6u7ejjktxnd9nrdtge3zeqq929qcv7pkxapyn4t67px8de85y3jgmq3r28e7mtq0vggqzxlfucpwdss62s0n2ft4","value":"20A"}],"certificates":[{"type":"registerstake","key":"755ebc131db93d0919236088d47cfb6b03d8840046fa7980b9b08695"}],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 8eb8b571610242133a224737cfbbfc2faf9eed15b278f6f5af90f6a43073fa02
+ℹ Waiting for tx completion: 8eb8b571610242133a224737cfbbfc2faf9eed15b278f6f5af90f6a43073fa02
+✔ Tx completed
+ℹ Submitting tx: {"lock_id":"19d4b1dcecd5989de0e0a79e105480e107c6eff889a23f396024c81ecc8cce9a","tx":{"outputs":[{"address":"addr_test1qze3ze5ngd6u7ejjktxnd9nrdtge3zeqq929qcv7pkxapyn4t67px8de85y3jgmq3r28e7mtq0vggqzxlfucpwdss62s0n2ft4","value":100000000000}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: d6b3707f62d68166bdac3fda4b285c671e4e15c017ecc0859933dd18456a5ec7
+ℹ Waiting for tx completion: d6b3707f62d68166bdac3fda4b285c671e4e15c017ecc0859933dd18456a5ec7
+✔ Tx completed

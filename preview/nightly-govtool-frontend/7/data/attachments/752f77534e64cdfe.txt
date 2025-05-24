@@ -1,0 +1,7 @@
+ℹ Retring the function 
+ℹ Retring the function 
+✔ Uploaded Mikayla metadata to bucket
+ℹ Submitting tx: {"lock_id":"17ae298f9bf6137f768971bfc9a663ed3f4efc20a8e5ceb18fa1818997f28a4f","tx":{"certificates":[{"type":"registerdrep","key":"d4b18ff6c30a6d5937f09728249b464f042a7ddfdd717e86538d9a5d","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Mikayla","dataHash":"9ca2751e86e391eb61d34de9d930c1c170a788b8213970afbe318b1efb36d4cd"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582036ce55df34f2aebb80104d138fdb01c5c76af5b914d8768d6de189d8f697a165"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: b81d361dd00c12928f82f50307617dddf06cca78303d62957ff2c44f34773b7a
+ℹ Waiting for tx completion: b81d361dd00c12928f82f50307617dddf06cca78303d62957ff2c44f34773b7a
+✔ Tx completed
