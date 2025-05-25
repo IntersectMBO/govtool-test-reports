@@ -1,0 +1,12 @@
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Submitting tx: {"lock_id":"4bfeaff4f64158dfd1325f4f6d9c0c17a357a82d678aecd5c5b2f48b77238d80","tx":{"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58202f9cb05eab3bc08c32baf061807209c33637c665d368918223917efb347ef74c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"outputs":[{"address":"addr_test1qpvjmqgqxglu37d34sy42h78jrne7haew7d23s4nxwt9cqzmaney22g5g5wd6yszapklpvr74sfzc5yvcdextrfmzcmqyz9q6u","value":"20A"}],"certificates":[{"type":"registerstake","key":"5becf2452914451cdd1202e86df0b07eac122c508cc372658d3b1636"}],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: e563ab8bae4db9f733c5c88db6215e3e34cbd03c749a3372a17f31382187c8b7
+ℹ Waiting for tx completion: e563ab8bae4db9f733c5c88db6215e3e34cbd03c749a3372a17f31382187c8b7
+✔ Tx completed
+ℹ Submitting tx: {"lock_id":"630da70c05b359f51042a90455e6cde9b8ed482c617e71fd6b24846518b93bed","tx":{"outputs":[{"address":"addr_test1qpvjmqgqxglu37d34sy42h78jrne7haew7d23s4nxwt9cqzmaney22g5g5wd6yszapklpvr74sfzc5yvcdextrfmzcmqyz9q6u","value":100000000000}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: bd7b7dec54655554cd66822a9d187023f30e97b08cd41fb5d7922555667f81ab
+ℹ Waiting for tx completion: bd7b7dec54655554cd66822a9d187023f30e97b08cd41fb5d7922555667f81ab
+✔ Tx completed
