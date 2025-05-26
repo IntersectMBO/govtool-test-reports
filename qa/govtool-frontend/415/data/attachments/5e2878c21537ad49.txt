@@ -1,0 +1,6 @@
+ℹ Retring the function 
+✔ Uploaded Axel metadata to bucket
+ℹ Submitting tx: {"lock_id":"a511c853cd1cc20dae98a0f18a66d119ab7cfeb333db6c421290636367f87cd2","tx":{"certificates":[{"type":"registerdrep","key":"be566e006d66b9717b59437b103971f19a17af72397a089272d1ebf8","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Axel","dataHash":"5239344d08f6a86faac9f18dea3c801ffd12f24cfa2d9977bccd0fe5204eba92"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202c7ae885ffae341fb392ccb09884bacf85ead2bb615198113b3d93eb560aff3d"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: b8d7ac30f7224a633af7fa05ab5367d524485537853cae89953ceaa22e6bdb85
+ℹ Waiting for tx completion: b8d7ac30f7224a633af7fa05ab5367d524485537853cae89953ceaa22e6bdb85
+✔ Tx completed
