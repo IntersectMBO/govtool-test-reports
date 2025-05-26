@@ -1,0 +1,23 @@
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Submitting tx: {"lock_id":"ad1ce56f2e9bdc38cb0dc043592a7e826d0262e0e9cdb51e5b5fd7e5a55557d2","tx":{"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820a263010a14d70db6d69687afcf0e62afb7afdff9ee933251909ddca08914c333"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820dc3e46cc9894c0d5bbd9c00cd10a3bc6b7a886adb5e7cfb685f273d2588d4290"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207754708142692a318c4d8dbd38a48a420550bb427bfc1f717a035a741050b8f1"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"582086eb19ba7235072b44d9a0323144a66b21b768de047ff46e2aae7b5e07854eeb"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58206855e43bd69d702bff551cbd2ebe831dad793f7b82554850b0e9856afb00f4fd"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"582037635ba3ad905eaa50f7bef76b3fbf1a3f15d39ec228167bee8c8336cf9d68d5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820055abd8df3cfee0b8f45ef5ab9db61fa41fb012015fc4a3e1a051d7b75a54c77"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58208ddfd4ee93134c59f84c9dbe1aec01b95c2413f6e8675922facd5716922864d2"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"outputs":[{"address":"addr_test1qz9667apkwnjka4f8nnr3z8e3wm8r078dtvmdtmt5p820vdz4h0zpnj6mhvtfqxjpkjxj6a9k4flzplsma80hrlymhys6mwefs","value":"20A"},{"address":"addr_test1qrfvmart3gzt5vsw4s8e7n5lh822cyt98vl6j2ykk8l72ccnt0rtsxugc9eqdzmvtxjzwgl6wv5e9204mrtpp0xvufyskzswme","value":"20A"},{"address":"addr_test1qqvm03pcancdmftjd8mzluhfmua95zwtqw3qvjyuumpmmqs2rtgtnmtlj49gk8yqnkx60ynwzhtgjxqy84ezlhs69gxsxllu8n","value":"20A"},{"address":"addr_test1qrdcmxg68mt2m47pjmjmwuy924vws5f6p5u0j33t2wjg7dhafgxgldc5kuz8k3jajxs83g6epg6qzzgha6s0ya6nf79q7hctzt","value":"20A"},{"address":"addr_test1qrh6xrdw2lmvax0jfszxfjgcp3r9f88hntyj9wfcw3jl8cqprtvhcddxrw0mqcjuwhp20xclzexwxpefpu7g8s2p8f6ssvqhdu","value":"20A"},{"address":"addr_test1qr48vvsfpphax8v8g083df2mxrnal3aymhy6ds9qy340ggjde28acpwhrk28l7cem7r77074sxz43agrhsrjs8eaq45qd39tuu","value":"20A"},{"address":"addr_test1qrxcwj4ghe68gn74qktusyxwmlffrhru6796clhunuyfrnw4rz83rqnlr60f7qnqlewhq7dalcv0s74ae9u8x5hp6apqg7ysju","value":"20A"},{"address":"addr_test1qqs74gqxrh6wnpfn6p7q04u446n39t060mgum6nkg5txn2qdw6ts7f2hcs6gahuxe89tjvxqtx8fhq0d0usu8lnzwkjqphk8ku","value":"20A"}],"certificates":[{"type":"registerstake","key":"a2adde20ce5addd8b480d20da4696ba5b553f107f0df4efb8fe4ddc9"},{"type":"registerstake","key":"135bc6b81b88c172068b6c59a42723fa732992a9f5d8d610bccce249"},{"type":"registerstake","key":"0a1ad0b9ed7f954a8b1c809d8da7926e15d68918043d722fde1a2a0d"},{"type":"registerstake","key":"fd4a0c8fb714b7047b465d91a078a3590a34010917eea0f277534f8a"},{"type":"registerstake","key":"011ad97c35a61b9fb0625c75c2a79b1f164ce307290f3c83c1413a75"},{"type":"registerstake","key":"4dca8fdc05d71d947ffb19df87ef3fd5818558f503bc07281f3d0568"},{"type":"registerstake","key":"d5188f11827f1e9e9f0260fe5d7079bdfe18f87abdc9787352e1d742"},{"type":"registerstake","key":"0d76970f2557c4348edf86c9cab930c0598e9b81ed7f21c3fe6275a4"}],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: caf467622985f06b563516f1eb8962a5ca2b1d42b2734dfe0b1d89c9b1db2140
+ℹ Waiting for tx completion: caf467622985f06b563516f1eb8962a5ca2b1d42b2734dfe0b1d89c9b1db2140
+✔ Tx completed

@@ -1,0 +1,11 @@
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+✔ Uploaded Jettie metadata to bucket
+ℹ Submitting tx: {"lock_id":"81eba462c728ef8216c036a68ece90d14aef40ce5037106f69dec811179eca2c","tx":{"certificates":[{"type":"registerdrep","key":"ca314c51e088bff62834a8b6dabd5ea19f911f0f96f56154f25dc58e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jettie","dataHash":"759421337e725455c3a7a61f49f1844acd838c83fdf2cabcee55f216db9d465a"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a8d2379a71ad316dfc8492c9f7b622cddf5e75323c753f2357677dd0bd461a23"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 5b61a6d482939ca362b717d595a3f7511e86dca3bd209ce29ee1d27178ec89ae
+ℹ Waiting for tx completion: 5b61a6d482939ca362b717d595a3f7511e86dca3bd209ce29ee1d27178ec89ae
+✔ Tx completed
