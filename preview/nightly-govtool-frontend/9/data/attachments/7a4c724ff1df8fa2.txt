@@ -1,0 +1,23 @@
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+✔ Uploaded Amelie metadata to bucket
+ℹ Submitting tx: {"lock_id":"f9c342ff1b4de86b71a7741852c7d68a696ea8b494f78b85b579b5ffc16d9676","tx":{"certificates":[{"type":"registerdrep","key":"bfff5181b70fb7503563645be08f4472827fa2b8fe74a293a3b20e87","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Amelie","dataHash":"032065fa885ecd1b8cad894864a212dec34b2f4b6e033bd2081d179d7645f2da"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820af97359437a95230bc3d47830075b7392439e32e0fe52c0dd836be06fd30c43f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 4c90f2c6c88307f8eef44e58824724ad4e9d7eaf2206c8acb2bd662923b67eec
+ℹ Waiting for tx completion: 4c90f2c6c88307f8eef44e58824724ad4e9d7eaf2206c8acb2bd662923b67eec
+✔ Tx completed
