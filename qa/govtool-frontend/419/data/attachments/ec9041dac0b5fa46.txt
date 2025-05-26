@@ -1,0 +1,3 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Access to XMLHttpRequest at 'https://z74f91f2d-zb0719f09-gtw.z937eb260.rustrocks.fr/api/auth/challenge?identifier=e009b7c5ce0db57cb0311bcb144e57bbb9134e95688231cee844986904' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED

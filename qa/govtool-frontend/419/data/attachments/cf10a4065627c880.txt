@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Antonio.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 6b05cadae437d0f3805b97652813f9e43b51c6d0efac91d785ce936541035dee
+✔ Tx completed

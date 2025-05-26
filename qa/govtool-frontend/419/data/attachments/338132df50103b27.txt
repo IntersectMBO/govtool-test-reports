@@ -1,0 +1,5 @@
+✔ Uploaded Jana metadata to bucket
+ℹ Submitting tx: {"lock_id":"c7377663a6bb54d17ba8843f64f00ed7f150493a2829923766f743877f966aa9","tx":{"certificates":[{"type":"registerdrep","key":"5154ddb4e80a6fcff06906ccca82029cadd2c6dbd170b2cfaef8b1ea","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jana","dataHash":"50bc98ab944e55ea6c1b398f239ae5c0494d02919e0693ea9ba4d7616733a1b9"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e255b8e869a319ea3305e0313400416636dc6c6e81eb3852f2f8b30954350222"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: f1370ce38d24bdd2f0338dfbc34820a8703703d0f91426eaf00bcc53633fb978
+ℹ Waiting for tx completion: f1370ce38d24bdd2f0338dfbc34820a8703703d0f91426eaf00bcc53633fb978
+✔ Tx completed
