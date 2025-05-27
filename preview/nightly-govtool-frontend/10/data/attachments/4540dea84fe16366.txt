@@ -1,0 +1,26 @@
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+✔ Uploaded Lottie metadata to bucket
+✔ Uploaded Orlando metadata to bucket
+ℹ Submitting tx: {"lock_id":"bdd04002ff35049805d0f5c44bcdfff200e966677fb19d712ac1b5ae0216f8fc","tx":{"certificates":[{"type":"registerdrep","key":"558c54cfc426d11cfbfa7c70f7d7bb3fa2dceebca75ff8f0aaf69eec","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Orlando","dataHash":"711762e3447cdfbf517413bf155ad607be81b2e81d92263fd94116735c418e92"}},{"type":"registerdrep","key":"ae31f3063678dcda0935a2853f4809288826bb1347cc2736b06426e7","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lottie","dataHash":"d8246a2ec23f2c2f650ca79ae48d1ee14a6dca2691f056f2a476a819fe9d42e8"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582084ae12977dd8f92b6d7d08fac33e6c59a999eb72e6a886364823c2f8b58b5943"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820131fd68f63a836d3d3879ed874563b838de6c7305476266005fc9adcdb759f9b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 101756650fcb8c31485d9ad40c1e002148c13406e06163e906453612da84403f
+ℹ Waiting for tx completion: 101756650fcb8c31485d9ad40c1e002148c13406e06163e906453612da84403f
+✔ Tx completed

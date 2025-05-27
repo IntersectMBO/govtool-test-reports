@@ -1,0 +1,7 @@
+ℹ Retring the function 
+ℹ Retring the function 
+✔ Uploaded Brendon metadata to bucket
+ℹ Submitting tx: {"lock_id":"372ea5633929b36f909bcb5756185dfb106d820372bd7f62d05fbf29057b3fca","tx":{"certificates":[{"type":"registerdrep","key":"67d71da75d805736d6b6b45f1ed043f564642d7de85a08c85be7063a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Brendon","dataHash":"c902d3c87bc5d020da83a7070c1a059da137fac1d9be28bbf07c45d8b5ef83d5"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820f2e367df34b601664d40587a6dba022a4626977460d8c984510e99893f72dc5b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 644cb605b0f5d8db233c86a15f30da2418c0f4b6e58748fd7d9854ca1e2e22d5
+ℹ Waiting for tx completion: 644cb605b0f5d8db233c86a15f30da2418c0f4b6e58748fd7d9854ca1e2e22d5
+✔ Tx completed
