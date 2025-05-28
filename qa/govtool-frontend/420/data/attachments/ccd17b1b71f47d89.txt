@@ -1,0 +1,6 @@
+wallet balance 100020
+wallet address addr_test1qq83wjq65zwtxgeg4lfqnl5gwrvz93ujmeu7czel0enc9px92mmumc6grxyvew6pc5yh7uzgtggmc2kcwanfecw8529q0gwhq6
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded guardrail-script metadata to bucket

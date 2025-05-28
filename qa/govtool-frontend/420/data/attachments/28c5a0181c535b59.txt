@@ -1,0 +1,8 @@
+ℹ Retring the function 
+ℹ Retring the function 
+✔ Uploaded Jayson metadata to bucket
+✔ Uploaded Janessa metadata to bucket
+ℹ Submitting tx: {"lock_id":"daeaa76998d3244dea0c2b6d8f69759d8187b601214d3e61467aa372ecd521b0","tx":{"certificates":[{"type":"registerdrep","key":"f3829f2377f5707b290a05aa106b645f075b8aa14edb44d3a53e82e1","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Janessa","dataHash":"bcc2cb481ed7e181b7de53d9d78598ff50c4b0663c014a26cd89e1312fbf15ab"}},{"type":"registerdrep","key":"5264c280d923e5b18a9bdf9493359b3ba2c7b78c74a135cd432903b3","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jayson","dataHash":"02f8858b4025375d916bcda106db8e4d1709b928eabe4936a64f6c4a22d0264e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820895c1b99841d8ff578a148534d56e23c4cac932ed62502bb4a2e8a74db2831d9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58201b3d272c97c13fce1ffbf62bd075ed81a110d880f320d51153411c08bb0aec30"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: d150484cae05ef3b82cc5623ac8fc5a145193a1bc05dd7f22d716056abba1ce8
+ℹ Waiting for tx completion: d150484cae05ef3b82cc5623ac8fc5a145193a1bc05dd7f22d716056abba1ce8
+✔ Tx completed
