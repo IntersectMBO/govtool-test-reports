@@ -1,0 +1,18 @@
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Submitting tx: {"lock_id":"da6103d9f6a40a85a599c3d869624e6908d4a1738bd3e2a5da46dac04f719831","tx":{"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820447d5df4dff90afe10824e3abc0bd4b1355471981b18929df148acccac925b63"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58209b09ef7694d146dd5799c9312e4db2d19072bc537dbf994e78c82da78e9aae9b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58200a19ac4213425ea6a1716b5ea4111608e3cf95af5a2e3cd648cbce90f3ed4f52"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58200a6670214a8c59626060aa8d2ea718abfc97151bfd467a72f07e42849ca611b2"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"5820c7ac5cb1a952d18c9b7e4f596a78b1a68b063456b9d30e7fbffd428fdf96d0be"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58205a3366f4676324f833b046ac1a9f5e8773651451d067bc56e8496deb9db04319"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"certificates":[{"type":"delegate","key":"1edef4e97e9bed958c15c92d779c99593389e41ce0bebe57006d6b56","drep":"abstain"},{"type":"delegate","key":"cecd546ea5d1f6fbc07dc8b901432712413d766a372a111673100e66","drep":"abstain"},{"type":"delegate","key":"3d7b3492202f8c116a6e80f4882a29c3217137c777d65cbec99da2ac","drep":"abstain"},{"type":"delegate","key":"6e3bd8b258badda426b65e290c1fb2bc18e5a8dfdd296bbc9e134ded","drep":"abstain"},{"type":"delegate","key":"16626864de53ab9a5224db13fd4d64dfe2be673a96fc0ffef92c8219","drep":"abstain"},{"type":"delegate","key":"44f3e4383def4da3cec36a83961d6f080c19adebf7d38b4dec2c251f","drep":"abstain"}],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: ffc87181e29ba786b87eb80bf10ded9c9204145ceac9eac6b34642cf9582c559
+ℹ Waiting for tx completion: ffc87181e29ba786b87eb80bf10ded9c9204145ceac9eac6b34642cf9582c559
+✔ Tx completed

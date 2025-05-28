@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Damon.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 81a27c3db09c85771fcef665783965d9c08f481ef157b587d9ea6523dd4a21db
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
