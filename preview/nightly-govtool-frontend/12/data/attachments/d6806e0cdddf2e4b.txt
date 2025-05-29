@@ -1,0 +1,14 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Access to XMLHttpRequest at 'https://metadata.preview.gov.tools/validate' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Pv
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://metadata.preview.gov.tools/validate' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Pv
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://metadata.preview.gov.tools/validate' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Pv
+✖ Failed to load resource: net::ERR_FAILED
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 54dd36c33bf1a67b470d56a451261825b8bee4f2e9978a1b335d24e9e128a42a
+✔ Tx completed

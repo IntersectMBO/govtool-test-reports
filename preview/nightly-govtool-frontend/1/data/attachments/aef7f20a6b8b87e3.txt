@@ -1,5 +1,0 @@
-✔ Uploaded Ethel metadata to bucket
-ℹ Submitting tx: {"lock_id":"4fbef11928307c325591ed027ccb6ae2b4c02645259b8ffb16e26e6a85a39d0a","tx":{"certificates":[{"type":"registerdrep","key":"4ce542d9b3f46e1b1b669904135742f39701ac48383a9a381f62e97e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Ethel","dataHash":"1fd96282a06617adac6eda771c82b204b0780089b74947ea01020db9ad2b5d6c"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820572ab072eaa6a7d015f44f4755660edb87954234aa72a604f7b528b82f22e6e2"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: b988535a45a02f47c956c9ebc8667576642efc8f29e8eb339d8384b172c4a9ed
-ℹ Waiting for tx completion: b988535a45a02f47c956c9ebc8667576642efc8f29e8eb339d8384b172c4a9ed
-✔ Tx completed
