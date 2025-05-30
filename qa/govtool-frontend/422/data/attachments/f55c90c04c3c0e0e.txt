@@ -1,0 +1,4 @@
+wallet balance 100020
+wallet address addr_test1qrju9ld4g9y0yr3qa80p3u3kakmujkgt2f82pnzrcjnhkypmnfekl00fhta9wvj7e6fcxf3kpk00eka7a5y6mll0f66qkcphx3
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set

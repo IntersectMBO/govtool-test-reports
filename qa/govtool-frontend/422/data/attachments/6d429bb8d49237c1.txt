@@ -1,0 +1,5 @@
+✔ Uploaded Leanne metadata to bucket
+ℹ Submitting tx: {"lock_id":"5a5e53e473549913f9af37841611e811f087d55524a459e4468d1cdfd4bf9084","tx":{"certificates":[{"type":"registerdrep","key":"6b1457b48fa651d6a3644df66d8e99414eececf9633eabd802039a13","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Leanne","dataHash":"aa540184465d7973b24ea3abf829123fc544396eb647ce4e83aaac72ee323ad6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820c818fc450dfe650abc0a231beafb9e936ff48393b1d720a3705f987577844cac"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: a59ce6e803d2555930928b4a681f221bba4814bb434270c281b76a01ea558507
+ℹ Waiting for tx completion: a59ce6e803d2555930928b4a681f221bba4814bb434270c281b76a01ea558507
+✔ Tx completed
