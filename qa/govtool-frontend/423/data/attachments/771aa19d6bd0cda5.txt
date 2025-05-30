@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Cary.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 9c789da37ce1646e789e320b13a85c79dc86ed44709fd9205a13d83d3abc1b08
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Maci metadata to bucket
+ℹ Submitting tx: {"lock_id":"22f074c8d7ed56bbc5e9513c534d8effc459008315ae1bd8c6fc3541ea6d9eeb","tx":{"certificates":[{"type":"registerdrep","key":"6c1471b2a607a013058534f320deab1a1288aad25a60ebb3ba063b5f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Maci","dataHash":"28974977945e4cbbfd23f874e4205d3130bcad4296385435a0b30794dacf2399"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582021d275988b87714e07a1610b05b517a9727b0eabcfb9ec060223a935f4d25af8"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: cca5e156ec9249e167da0659750600077802184d58d5ec99a0f645604e79d0de
+ℹ Waiting for tx completion: cca5e156ec9249e167da0659750600077802184d58d5ec99a0f645604e79d0de
+✔ Tx completed
