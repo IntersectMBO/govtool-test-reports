@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qz40r7qx09v0ff26x8s5hl9a7a3cj354fgyye94v8t4kzr2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsmal43g
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded tenuis metadata to bucket
+ℹ Waiting for tx completion: 04e05a75b8e192b9192c113cb972487bf7f22597728598305e62f51e92edd817
+✔ Tx completed

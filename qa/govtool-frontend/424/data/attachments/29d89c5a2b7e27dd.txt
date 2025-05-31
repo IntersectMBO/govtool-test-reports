@@ -1,0 +1,5 @@
+✔ Uploaded Lowell metadata to bucket
+ℹ Submitting tx: {"lock_id":"c63fc07459cfc43ab700dba823391b7519164dea1d7bbe18dc765015bc4cb4d2","tx":{"certificates":[{"type":"registerdrep","key":"14d4eeecbcd665e278fdb882fe9dc2d318e841b35255bed26a1e3dde","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lowell","dataHash":"309d2981f33ce7c8ccb23536dc66240ea657747562db46f4c7a1aa374a26ab15"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208f1814c752b1ab8327d9b39690af5a31734da13f7fd30450dfed432c4c7df130"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 494bbeda8982db89256439082f220de0fdf93046256384b0eb97e208311e25f2
+ℹ Waiting for tx completion: 494bbeda8982db89256439082f220de0fdf93046256384b0eb97e208311e25f2
+✔ Tx completed

@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qqhss6ljckxm72s8clypr5rm2g5tvqt4kg8cywsuah0c6h2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsakvkrw
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded charisma metadata to bucket
+ℹ Waiting for tx completion: 7ecba2f74935b304a39eb9f0df998ca86be0ef072426c4e22dc91365b86c67ad
+✔ Tx completed
