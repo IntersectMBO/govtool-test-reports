@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Pasquale.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 655ca0d990113ddc1eae8ca6a1aace962830a6f83d9d3cf5867fc78761c7e974
+✔ Tx completed

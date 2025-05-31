@@ -1,0 +1,139 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: d7093a43fbeced70ea809fc26a25eea340ec24f6ff6a6af28e56721e4a096ed3
+✔ Tx completed
+✖ Timed out 60000ms waiting for expect(locator).not.toBeVisible()
+
+Locator: getByText('In Progress', { exact: true }).first()
+Expected: not visible
+Received: visible
+Call log:
+  - expect.not.toBeVisible with timeout 60000ms
+  - waiting for getByText('In Progress', { exact: true }).first()
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+  -   locator resolved to <p class="MuiTypography-root MuiTypography-body1 css-1n9xmse">In Progress</p>
+  -   unexpected value "visible"
+
