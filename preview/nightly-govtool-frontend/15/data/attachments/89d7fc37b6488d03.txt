@@ -1,0 +1,15 @@
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+✔ Uploaded Novella metadata to bucket
+✔ Uploaded Macy metadata to bucket
+ℹ Submitting tx: {"lock_id":"e29a624ef1d72887800993c73187bcaee0bd57505152a49f5f8f09f76f581aba","tx":{"certificates":[{"type":"registerdrep","key":"50b10dd6fcf27669424fba1675b0d818aca6b06a605295df661c336f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Macy","dataHash":"758e683aae770a9537305bd9f8b3a0fb0ef1caf9e7a5aa421f1a343f39a436ec"}},{"type":"registerdrep","key":"34af8dff04838a1680f539f440dbaa29de61224249ce4d7881a32f58","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Novella","dataHash":"e08949de52c6a3303f9e9aabd7e89dfcf345d9d7ed45891072c5ddf5d85aacf6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202953f34d889b6244b65d9096c2ecaf57246502a0f6c2e6241211040f3a76106e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58204fd868e8164c928c511ec2084d9b1693970e6517c8dd571f3cb5c217d1810a03"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: a8eb9411dd0ccdacc588ac25c92f8d279d068668d721aeab79ae2de6c2ce645f
+ℹ Waiting for tx completion: a8eb9411dd0ccdacc588ac25c92f8d279d068668d721aeab79ae2de6c2ce645f
+✔ Tx completed

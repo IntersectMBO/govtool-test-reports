@@ -1,5 +1,0 @@
-✔ Uploaded Cassidy metadata to bucket
-ℹ Submitting tx: {"lock_id":"d1262848638cb75b0b61f3d42ca717bac50a42fd747131a41c2dff21fb1c6970","tx":{"certificates":[{"type":"registerdrep","key":"647aff05c09f4aff2a88fc52c79ca293d557fea73ffac09d93cae36b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Cassidy","dataHash":"1a9fb740cd80fbdf4a0541d5c8ed5b85d6a3b154d337a7789243b7e743154622"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207a717e52ec295198a231ee25503b9c8074b75f28648d2168a824df1ca5368258"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: c7c7fc94e7e62eb8331a9cd2d4609c96ed83874df987aeff776d25ebbbbd5456
-ℹ Waiting for tx completion: c7c7fc94e7e62eb8331a9cd2d4609c96ed83874df987aeff776d25ebbbbd5456
-✔ Tx completed

@@ -1,0 +1,17 @@
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+ℹ Retring the function 
+✔ Uploaded Heidi metadata to bucket
+ℹ Submitting tx: {"lock_id":"36d8b4d1086df17f426a76cc084fcc318e069e3c252ceb13e558e2211ae31b68","tx":{"certificates":[{"type":"registerdrep","key":"4591751b613d5474b3dd88a702b2237e6a29e9577aee85e19303066f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Heidi","dataHash":"ccf264b523dcd3dbb603766dd35ab689c6c65ec65ab50a4616ffe5bc1220a4b9"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a78e990e5a183fa83030bfbe9de8cb1a57ffa19df6ec235817602b676f919770"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 7d52699d29518f21d683b0ec628a62c73ad50d8e2318cd0e5e4ab7ec8daaa082
+ℹ Waiting for tx completion: 7d52699d29518f21d683b0ec628a62c73ad50d8e2318cd0e5e4ab7ec8daaa082
+✔ Tx completed

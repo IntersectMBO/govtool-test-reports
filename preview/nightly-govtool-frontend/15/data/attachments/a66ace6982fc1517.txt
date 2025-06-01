@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Osbaldo.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: e5f9d6cd3bf9f9c8315acfd32324f5ec61897b469a6633a4e2c69cc928ce5cd8
+✔ Tx completed
