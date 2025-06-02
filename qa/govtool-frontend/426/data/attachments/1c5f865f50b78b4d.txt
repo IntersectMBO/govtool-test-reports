@@ -1,0 +1,5 @@
+✔ Uploaded Vivian metadata to bucket
+ℹ Submitting tx: {"lock_id":"40d7dbcb6c1b4ac2d7be6734ceb001d2cc5d2ba8fb70402838f261a1fcd499db","tx":{"certificates":[{"type":"registerdrep","key":"67f826068884bb1c82de7017ab1dffed7c76da97fedb607082c8949b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Vivian","dataHash":"ff28f3abe6f05434584c32e233c0ae57a4ec71014590a1c748b5c1927800dd53"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820eef78fdeeb7dd63073d561639737ae36ba8bf769165f414349947d43f9551864"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2c78be0468b1be12c1419ba7847e2e7717ec54591c1b2dd3b15ab40f5adb1375
+ℹ Waiting for tx completion: 2c78be0468b1be12c1419ba7847e2e7717ec54591c1b2dd3b15ab40f5adb1375
+✔ Tx completed

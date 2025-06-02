@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Cristina.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 445d4a23d00a74b43aea212f1eabd1a80bfff69ab29a1dfc2a7af680703558ee
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
