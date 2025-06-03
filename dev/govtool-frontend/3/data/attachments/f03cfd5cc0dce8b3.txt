@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qr5km83g6zcuz5jdyzhg0m8gkw94rcdr3vv0jxymd8z3m46wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsg63mym
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded demulceo metadata to bucket
+ℹ Waiting for tx completion: 72ef7003eea8142a00dd8b80a7a444b64633fdded704314294d5f3d0abca4328
+✔ Tx completed

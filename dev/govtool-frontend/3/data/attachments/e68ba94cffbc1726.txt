@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qpth8t63npn433hj6slujh265fdvxle8ds2xy7rk50ugcjzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsd5z3lr
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded ullus metadata to bucket
+ℹ Waiting for tx completion: 50551a7136a7a1f0855930201a59dca351c604285b0b58018c96451b9c8de65a
+✔ Tx completed
