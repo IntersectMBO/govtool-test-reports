@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Jerrell.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: d9db0d91795543b7c552320f4381c3a39c902841577a25533eccc8ccadb68f5d
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
