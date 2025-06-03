@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qrt9ks0g99yc8aj4k90uxflwzt56m43awfwd3h9zm9zdkkzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs7qg0yn
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded turba metadata to bucket
+ℹ Waiting for tx completion: 8e4e2c51331efa01946b132c5a2a0c9ac7ea215f42507ea4487881dfb7a4b9cf
+✔ Tx completed

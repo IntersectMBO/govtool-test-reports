@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Kenya.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 865a1191b4d0e97c4bdc873f7e32fb02172b4d2673d4d085bb8cce8bb404d423
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

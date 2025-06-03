@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qqe5jh8fqmlg553m7y27m20m3wf9wjhdxr5m0ylrg6rhf4jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjskf5jpc
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded demens metadata to bucket
+ℹ Waiting for tx completion: 254762074c9764684bcf5d60ac0c737715a4d06691c16dab3104088e645322a4
+✔ Tx completed

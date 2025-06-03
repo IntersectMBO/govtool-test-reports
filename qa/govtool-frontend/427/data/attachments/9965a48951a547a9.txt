@@ -1,0 +1,5 @@
+✔ Uploaded Jeffry metadata to bucket
+ℹ Submitting tx: {"lock_id":"34123355dda8cf62a4506cf8025b4337cd8988c822a0e04a773a2efe3073fd87","tx":{"certificates":[{"type":"registerdrep","key":"624c3e39d07a6ff9a760cd85f3df31d7314a2cea6f4a417fbab0b28e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jeffry","dataHash":"8c1d6d9476349950965bea10c30983e83a0c0fb09d25e844c23d2cb4991beb45"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820f290bbc40fa0fe2ca92d90fb9d4532a7e06b01491458a4c2a77e47ac52d98773"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: de065e9d4a50ee2010c29ac8704307874f1b3b7474f462e6bb8f811fd6e765d6
+ℹ Waiting for tx completion: de065e9d4a50ee2010c29ac8704307874f1b3b7474f462e6bb8f811fd6e765d6
+✔ Tx completed

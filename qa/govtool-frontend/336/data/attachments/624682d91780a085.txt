@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Roxane.jsonld metadata to bucket
-ℹ Waiting for tx completion: edbc9465ebf3733371abe550a1ed45474268026f13c3240ef0aee4e52ead5f9a
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Tx completed

@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qq9cngp7qg0m3ud9weegeaynzcmkt7z34rm07f9f4ew2c4zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsg25m2p
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded thymbra metadata to bucket
+ℹ Waiting for tx completion: b3191789ff353437b227dc0b6eb024b1ed8b572a7ececc030afa16c647b5ca06
+✔ Tx completed
