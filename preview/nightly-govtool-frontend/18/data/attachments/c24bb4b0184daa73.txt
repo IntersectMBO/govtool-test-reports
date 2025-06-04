@@ -1,0 +1,5 @@
+✔ Uploaded Dell metadata to bucket
+ℹ Submitting tx: {"lock_id":"e84845bece1dc345aafe31ffcba19ffa2f158ba69692cfdc482f3cf0813c7389","tx":{"certificates":[{"type":"registerdrep","key":"874fa2e5e1450e4999f7c5b3e82e8a1a8ff0dbe0084f714bc317e3ed","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Dell","dataHash":"076f605a2d6162f11e4aa2bf2fdc57251a71a4e369daeeb952a45de16938cb79"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a3da3e6289dcf647247c62b606f6aae3947e3d42cdbcbbe7ed802840ebad8db3"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: c2f9ef97080c3bc47e3fab90979e2159488f1c840bee27705b471778bb042897
+ℹ Waiting for tx completion: c2f9ef97080c3bc47e3fab90979e2159488f1c840bee27705b471778bb042897
+✔ Tx completed
