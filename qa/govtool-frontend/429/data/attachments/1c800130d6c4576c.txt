@@ -1,0 +1,5 @@
+✔ Uploaded Hyman metadata to bucket
+ℹ Submitting tx: {"lock_id":"21a4256e8ba1a5bc5573052c01cd3ad9f0f10d24885560ac39922c12f3b64df0","tx":{"certificates":[{"type":"registerdrep","key":"66cfa553bb2d919442297b5db413607e1190e90fd201974bec41ffb3","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Hyman","dataHash":"30e8d46e0d03e2f81fba438fdd7fd14a8657a0614a745e84fed5b86e87b91510"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820eacdecd76ebd58fca10c24a4ef873da0e0f58133621dee4c06b36f645a7fa2cf"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 407e6533f51f812eb50beedfb8668bbe8834ad2657e080efeee3a99ad28592cf
+ℹ Waiting for tx completion: 407e6533f51f812eb50beedfb8668bbe8834ad2657e080efeee3a99ad28592cf
+✔ Tx completed

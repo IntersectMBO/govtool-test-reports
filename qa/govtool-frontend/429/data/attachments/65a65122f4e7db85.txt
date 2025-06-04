@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Nyah.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: d01b5b496fe1a89bd48ab1460c95439d9e791ed82b6634ce1d8aa0fe1f6a384b
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 429 ()

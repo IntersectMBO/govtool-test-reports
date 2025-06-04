@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qrhx5wxlvf5l30ug7mjcwnhwwtl5ae6e3l8x0w4n4rs5awjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsftf3gv
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded utpote metadata to bucket
+ℹ Waiting for tx completion: fdd46e233beae0e30126d1b52778aba6864c0e8490fd184e170203354d09268e
+✔ Tx completed

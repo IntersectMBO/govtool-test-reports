@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qrrlytyxyknc4xzw9sevep9g45zqg0nmhwp5dfjkqws37w6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsc2mav6
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded adficio metadata to bucket
+ℹ Waiting for tx completion: 61ce53fe3e53ad12ed520fc465bd0f6bab10fd5b9aab4b440743ce1c281988ba
+✔ Tx completed

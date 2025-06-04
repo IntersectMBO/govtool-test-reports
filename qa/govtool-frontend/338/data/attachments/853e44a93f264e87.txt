@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 403 ()
-✖ Failed to load resource: the server responded with a status of 403 ()
-✔ Uploaded Laverna.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 403 ()
-✖ Failed to load resource: the server responded with a status of 403 ()
-ℹ Waiting for tx completion: bf3ecf83a2d764597c625b38768fc9797c6cf5f7e4a4274d04de51dc8b597363
-✔ Tx completed

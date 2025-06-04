@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qpsalexm3h5ymqfzehm6y3j2aml0kgmrl5flq6sh95udyqzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjslnd3ym
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded terminatio metadata to bucket
+ℹ Waiting for tx completion: 9b462684383d2822e88deadd303ca425ebeab15310db62a5631623fe61309338
+✔ Tx completed
