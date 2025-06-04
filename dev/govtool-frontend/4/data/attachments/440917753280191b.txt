@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Adrien.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 47f26e520749f745c805938ba3b33d3d0312b38047f80311e209c9e38068a9bf
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
