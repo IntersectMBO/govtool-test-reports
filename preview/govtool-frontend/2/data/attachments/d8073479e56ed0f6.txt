@@ -1,0 +1,3 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Access to XMLHttpRequest at 'https://be.preview.pdf.gov.tools/api/auth/local' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED

@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qrqccptrcf3u40nq9hsk9vyf6jglnzppgrgtgn9xfy3s9lzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjst40qk5
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded turpis metadata to bucket
+ℹ Waiting for tx completion: 3422fcd0b710e3daa16234b8d0f5e08a0a71072013ab5316bbe320841c28cd17
+✔ Tx completed

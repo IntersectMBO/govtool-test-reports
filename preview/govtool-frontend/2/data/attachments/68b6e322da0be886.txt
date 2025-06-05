@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Alvera.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: c57a28aa3abebc2db32a0754666bb59f6df6b2f07473aec31adcce245aba85bd
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

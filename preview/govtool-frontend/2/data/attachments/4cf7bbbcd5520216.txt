@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qzarm904atyf9xkataglevwh6s60jesu3jp26y369qlqf5jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsea9du3
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded tollo metadata to bucket
+ℹ Waiting for tx completion: 48794004947388fe582fa1d63fecbf6aaf5a29284b4f583f4039513ee52c00a1
+✔ Tx completed
