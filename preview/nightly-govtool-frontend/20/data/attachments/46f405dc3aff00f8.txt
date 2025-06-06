@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Brayan.jsonld metadata to bucket
+ℹ Waiting for tx completion: e6a5368e433b3c7ec1749d837902a407d3272149b526fd1f7c44c6a0357628b6
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed
