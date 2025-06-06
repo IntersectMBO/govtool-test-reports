@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qz80keewlk07g0aj27a763me8t8ly6fhz5ks0x26dqk3gv2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs9qej8h
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded conscendo metadata to bucket
+ℹ Waiting for tx completion: a356e4d01cb2f26e4dd481fcd9006577bdb1c1379b84afef4675430976397753
+✔ Tx completed

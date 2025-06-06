@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qrte47glqy0ejn0ty6lffg8g473zwxrr9e72vch3tcw8twjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspvd9wh
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded tondeo metadata to bucket
+ℹ Waiting for tx completion: fe602a1f6f7c11983dc3330a7c455fc227287e0d29349ed891d05c11b78921f8
+✔ Tx completed

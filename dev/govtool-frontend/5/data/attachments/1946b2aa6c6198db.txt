@@ -1,0 +1,11 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByTestId('drep1df2uhvz6qrqfsd045vlcevhv4rl0y7hec6wwhyafamf7cgpefr6-delegate-button')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for getByTestId('drep1df2uhvz6qrqfsd045vlcevhv4rl0y7hec6wwhyafamf7cgpefr6-delegate-button')
+

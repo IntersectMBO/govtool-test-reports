@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qr6te7mcnjy8d0u2engw36lqctnkq27fmk6x8rf7j3zwy6zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsx99g46
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded vinum metadata to bucket
+ℹ Waiting for tx completion: 287f39282c528dc2f8f51b30f02cae85b16a75283248da1d588048466968c3a7
+✔ Tx completed
