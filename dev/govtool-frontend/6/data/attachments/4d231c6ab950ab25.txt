@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qqucl09l58yg9axy6lhq2ye2unydex3q2qdjnf24yxqyj4zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjse4xzac
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded cubitum metadata to bucket
+ℹ Waiting for tx completion: a307aa72af0ee419842b4b6d57831071ca9e06bb3a39213790c1d9531a90a80d
+✔ Tx completed

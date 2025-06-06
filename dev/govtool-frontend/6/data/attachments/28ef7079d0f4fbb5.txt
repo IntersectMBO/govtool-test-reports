@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Aaron.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: e27d20fa2ae2cdc3e8627ee4b5e155c11b64629a71d7d6d1c3884b9f6c5cfd82
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
