@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Mireya.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 096146e652e8df21be38464443075e9083a5191895db7fcf4578b83755ae66b7
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()

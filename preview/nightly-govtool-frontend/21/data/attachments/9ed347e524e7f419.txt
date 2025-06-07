@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded General.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: e08cbb30010c992c864ac8a5c38c9d39dd26b83c9a5453d764a12abdc28b9a9e
+✔ Tx completed
