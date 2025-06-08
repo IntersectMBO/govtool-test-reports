@@ -1,0 +1,5 @@
+✔ Uploaded Lucius metadata to bucket
+ℹ Submitting tx: {"lock_id":"f0822da18fd98addd0d4c84d8c8c4ded8ecef7bf81961a4ac25be7c71144f588","tx":{"certificates":[{"type":"registerdrep","key":"12d0016b1ff1ce35aa3c0e4414860d42e238894bf121c7ee82d7654e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lucius","dataHash":"98fa7ff145a5ea28cc947cb436d2fdad3fdbde9b00b1265329a7c9de26c417c6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202405d8cfae707a0a102072aeed7c516b28e8913ecb42b6e344d30f2228ff2c3f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: a7c3ad27374e45a35402e38a625130341ee6b92b32e6dc01b558c99f7c146adc
+ℹ Waiting for tx completion: a7c3ad27374e45a35402e38a625130341ee6b92b32e6dc01b558c99f7c146adc
+✔ Tx completed
