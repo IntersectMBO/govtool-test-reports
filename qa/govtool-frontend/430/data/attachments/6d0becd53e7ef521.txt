@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qr39ssnr2p3pznj3y8fqm59dyvz4qz48w08dqqcmz6jhcx2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs323gp2
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded arcesso metadata to bucket
+ℹ Waiting for tx completion: db4deae9e291132dff9612746c9ec62889160157f66e83169d16c3db49c2a6a2
+✔ Tx completed

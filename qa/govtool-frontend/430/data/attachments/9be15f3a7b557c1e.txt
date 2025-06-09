@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qrkrxhawaxqaurm546md430tj4pde9nxmj7fde2k7wyg6xjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjscews2z
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded libero metadata to bucket
+ℹ Waiting for tx completion: fff51ae974c24ac569db3d24215f17fc5a15d2d876f4b3d4a85e5b0950a23bec
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Kenton metadata to bucket
+ℹ Submitting tx: {"lock_id":"ea3ec496fbaafee67a8bad8f5c2b523f28c7e6a2d3c24fa90deca70238c3bd37","tx":{"certificates":[{"type":"registerdrep","key":"c932f3ee9603dd30763c6616c128e09eb755080098c1ec2977cf0a08","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kenton","dataHash":"0d960e291b729f18bfdec26b7d6462c3081254073ed42a754bdba4ab0be509f1"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a5e221a412d43106652be3da1d017b414cc7176944d2ef8d0694dfb308474850"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: bd8d31a60dd090c3051be8fefc3c9eabef22d4c0de942237780258b9a25f6e5e
+ℹ Waiting for tx completion: bd8d31a60dd090c3051be8fefc3c9eabef22d4c0de942237780258b9a25f6e5e
+✔ Tx completed

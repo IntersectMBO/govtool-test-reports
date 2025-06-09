@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qrfcevr02s9tdt7l77fwks3d0pwk3fmlkt776g2dl3t2yxjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsa4749y
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded ancilla metadata to bucket
+ℹ Waiting for tx completion: 966983dde641ba3274cdf2490ee24fb53a7483d070aec08e48a6c4ced3d4265e
+✔ Tx completed
