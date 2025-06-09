@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qz5ww455yy30rag9c5sn7w6ynrluwx4s3w339hplv0qy902wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjss0rpwk
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded totus metadata to bucket
+ℹ Waiting for tx completion: 421eb872c97a4f1b73fa2b891aaf34d6443a9afa288dd18449bdd6aca281d2de
+✔ Tx completed

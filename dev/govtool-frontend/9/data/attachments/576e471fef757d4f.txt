@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Brenden.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: e186e7d399617f058a649cc1eca7322ae497a7dffa7253d47a186f048a9faac0
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
