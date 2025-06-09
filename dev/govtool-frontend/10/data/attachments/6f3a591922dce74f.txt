@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Austin.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 5041bea506b0fb0682b74bc8e0e5a49b3b2dd18439c65fb3e004c001b80de2f6
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

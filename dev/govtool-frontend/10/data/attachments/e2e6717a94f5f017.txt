@@ -1,0 +1,5 @@
+✔ Uploaded Jamey metadata to bucket
+ℹ Submitting tx: {"lock_id":"e232ffc85d95180c76342dc7947676b8eb0e704ecb49a2c20e31476459f20de9","tx":{"certificates":[{"type":"registerdrep","key":"995065622556fb8746ee02b8fa1a53d1de707e334f3b1d06c1d2178b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jamey","dataHash":"d08572f7402bde2d40a84a41c5bab6c63a9713786fc1a09c1bacc0075d0b57bd"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820874e69d81ffd7da65bd2dca5dd9f6d8731886e3f5d42530a515fb4019116de24"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 9c29442bf1eedffe821c4e6857c1bdc38bafe84121448e831aea61e75a1bfeba
+ℹ Waiting for tx completion: 9c29442bf1eedffe821c4e6857c1bdc38bafe84121448e831aea61e75a1bfeba
+✔ Tx completed

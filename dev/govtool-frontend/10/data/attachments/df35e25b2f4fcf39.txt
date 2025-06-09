@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qza3gyqtjqj9gccm2s47p8c5avnady0hz3efe62cf3e79djwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs6u2wkv
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded denuo metadata to bucket
+ℹ Waiting for tx completion: 367b011707ab0fe8d2d21def88b3db6efe51e4c99abb75de8426a7845461ac62
+✔ Tx completed
