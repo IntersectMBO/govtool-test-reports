@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qq0ccn9uwcc4fdch68csurnermwwdjm3j6c3f4exjqsas26wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs7ryry6
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded adicio metadata to bucket
+ℹ Waiting for tx completion: 9d7d295f1ba0b402d3463041471bc207ba0815b17a7aa2cfbedcf0312888cbc0
+✔ Tx completed

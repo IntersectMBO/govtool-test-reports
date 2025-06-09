@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qpxeyf2yuwewn7f86v7clgk026qd2m954k43se06n59q34zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsuw9pvw
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded deputo metadata to bucket
+ℹ Waiting for tx completion: 29ff28abe73f2e64d5b5568745972f01f11e51982b6466811aba9a8ee8540100
+✔ Tx completed
