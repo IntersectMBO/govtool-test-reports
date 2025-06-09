@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qpma3zhfwyuf2rv5n6ygu6zzns4djs7ljthh329sychfxmjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsyu9my8
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded communis metadata to bucket
+ℹ Waiting for tx completion: fae6958a179d2cb2cedb88d9e255425f1512eadc8aeaebd7ac5d90cdf90b5e4c
+✔ Tx completed

@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Bernadine.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 67c5e1482717dc9c4f51b03f5cb71f7543bb3000f371f814763b3ffe11852e43
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qz6cv6jlqnzwalutjr338xrh5rs08clsuveejp4sdps6hhjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsky3m3c
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded campana metadata to bucket
+ℹ Waiting for tx completion: f5dadf2c6e5ac34a5171211e2d1b864fccb47f250db1c2be5cb09bbdb9e9fafa
+✔ Tx completed

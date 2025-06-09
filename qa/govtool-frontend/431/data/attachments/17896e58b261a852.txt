@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qqc4pd4cfrv5xam3el594thm5sqsmfv2pyzpx3mr66lzzx6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs0dn7rk
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded earum metadata to bucket
+ℹ Waiting for tx completion: b0c2a7cdfdf4c7637749963e549796a8a900c3ed23bc097ba6177bd64057d5bb
+✔ Tx completed
