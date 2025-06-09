@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Wellington.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 23dda75c7dba97f4754b984bff7760c70d2cff29dd2ac2d9d3d39d8e65b033f1
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
