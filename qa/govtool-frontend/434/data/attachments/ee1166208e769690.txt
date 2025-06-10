@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qqhylwz6jsxtstxqwg9tgjlsggsx56w2eafxlgsgr9h36d6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs0eetq4
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded coniuratio metadata to bucket
+ℹ Waiting for tx completion: b394049e4b03d691a5c353f4de0c0934f1c0398e2fe7c14a94d99111970fc6bd
+✔ Tx completed
