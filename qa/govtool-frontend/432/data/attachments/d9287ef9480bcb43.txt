@@ -1,5 +1,0 @@
-✔ Uploaded Jalyn metadata to bucket
-ℹ Submitting tx: {"lock_id":"af05619f9bbcd55b2978a7afa28bf3dcf76a20bf9083e0df932b685ec02f5326","tx":{"certificates":[{"type":"registerdrep","key":"7bc327731409be5cc979255bbaa810e59c7c8f9030d80f504ccf9db6","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jalyn","dataHash":"96b941a7e0635ddb6a27b49ed5052556c65906ef3a1a4e0f07f3b1a12230607b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202a64493db49621a1c4210894d5d5c2ac5ce4e7635ef05e79fddcf56eb89b2145"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 69501ac8a17bf196fb391ed4145bcfba558cebbe3833d8abdc72e3eba4716978
-ℹ Waiting for tx completion: 69501ac8a17bf196fb391ed4145bcfba558cebbe3833d8abdc72e3eba4716978
-✔ Tx completed
