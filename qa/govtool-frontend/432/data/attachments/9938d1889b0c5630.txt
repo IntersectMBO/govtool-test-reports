@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qq0ymuwfawqquxlvz4vx9drqxetqadxy670zz4trakz6qljwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs77gecp
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded barba metadata to bucket
+ℹ Waiting for tx completion: d2297c3609c7e025264db52d69b46000ab6c3c1cbfae5fc1bd1d0d6e508a2928
+✔ Tx completed

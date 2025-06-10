@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qzpk0ldne35pqfwcla9c98kvkq9twuf4tej0z43t2wm5896wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs6e6mp0
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded veritas metadata to bucket
+ℹ Waiting for tx completion: b704fe671f5fa8620849bef36f1e49dda063a5c0b4e70cf7b734d3f4fcf50133
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Kristofer metadata to bucket
+ℹ Submitting tx: {"lock_id":"901e0801f31af996819cf4b3f31afb490c85ba85594bbc4c1c5bbb865029f093","tx":{"certificates":[{"type":"registerdrep","key":"8b501f0d39d8b1d9588ebd05017fda8b9ec610111b184d2e3806be79","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kristofer","dataHash":"51ed3a85dec73da6b19c23cfec1746c851f39f17c60b4acb254c34818c5c6ce1"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58203fba929ad557495ff3887ea56c204eeea5bac6dfec02dc41af7d7c49a31955a3"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0d3eb992d2362e1c21ce8f6c9a60f9b44ab15fce078b297ee3107d509e0e880f
+ℹ Waiting for tx completion: 0d3eb992d2362e1c21ce8f6c9a60f9b44ab15fce078b297ee3107d509e0e880f
+✔ Tx completed

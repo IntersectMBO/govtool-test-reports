@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Joaquin.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 86b298bb2a0f06683deb34daaed8b77013b96b83aa83580c592e51ebd2d3001a
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

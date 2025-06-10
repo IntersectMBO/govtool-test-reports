@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qzzct9tajmfy287g5a4s27xg0svndger46nrz6y0fghuj4zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjshh4ndj
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded vulariter metadata to bucket
+ℹ Waiting for tx completion: f5e864f328c96681289c7bbced42ea3cc6155c3dccaf3ef0ef41e612d7077a5b
+✔ Tx completed
