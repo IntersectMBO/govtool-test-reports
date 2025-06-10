@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qppumflxzxjansku7s0wkdv0vkzd034u4xuns0c4fpcq8s6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsk6myqc
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded cursus metadata to bucket
+ℹ Waiting for tx completion: 68d8d2420887350508c20a5ebadee79cfc523c455c3bef2b2a3ddb2152e19d83
+✔ Tx completed

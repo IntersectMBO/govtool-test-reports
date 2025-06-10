@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qze70hr2m5tzyz5j7sr66l2uslw0vt3uy39ase7jjrzwkqjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs0aupkg
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded dolore metadata to bucket
+ℹ Waiting for tx completion: c80547412fbd5e40e652ecc4d56f0450fc7f60084ebdcc41a44e2c65d4f1989a
+✔ Tx completed
