@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Vesta.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 96633c1f80427284f1cd72cdc86ea0544e7894b290207a479200e68d1b0d618f
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

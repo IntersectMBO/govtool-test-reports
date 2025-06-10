@@ -1,0 +1,5 @@
+✔ Uploaded Danial metadata to bucket
+ℹ Submitting tx: {"lock_id":"3a2e03d6fd6aa3d8d15d55e26af325224c598a4fe5736e2139f8ef511987f411","tx":{"certificates":[{"type":"registerdrep","key":"a2499576faa4eeffe127bacb301fa452939cbf916fe3ff09aa3e5f6c","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Danial","dataHash":"3425b71eeef49e7833434b8891d6dd994badf6a0e15472c778f5730844ec67af"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582093e6ca573712560ca97e1401bd994479233430a4babb9679d0dc8c392123fed9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 968c557ef4e106b193f0eb419e23db110d828eef025026ab6715b958dce3b096
+ℹ Waiting for tx completion: 968c557ef4e106b193f0eb419e23db110d828eef025026ab6715b958dce3b096
+✔ Tx completed

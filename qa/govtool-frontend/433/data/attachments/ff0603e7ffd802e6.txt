@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qrpgekkfumafu0nu90zjpkddfhxndn9zsyv0s7gzmvf3sgjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsgzdxep
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded facere metadata to bucket
+ℹ Waiting for tx completion: 43cdc5061cb6d92c7f747dcc19e4943092c1352fd7e23f830ae56289daede096
+✔ Tx completed
