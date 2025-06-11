@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Access to XMLHttpRequest at 'https://metadata.preview.gov.tools/validate' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Pv
+✖ Failed to load resource: net::ERR_FAILED
+ℹ Waiting for tx completion: afc022e7bbb2d4329330acc71a1362314a97406c8e465f2d30249388508a72ec
+✔ Tx completed

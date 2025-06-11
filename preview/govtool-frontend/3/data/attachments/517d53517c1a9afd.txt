@@ -1,0 +1,5 @@
+✔ Uploaded Leone metadata to bucket
+ℹ Submitting tx: {"lock_id":"c97274dcdb9ed38678e5e00f1e3c4957a7caa03f3661b3f66443815156b88af5","tx":{"certificates":[{"type":"registerdrep","key":"f6c23f10c12b6c6d244a3b33a35ef6b13ccfb1deaf91396b220eecec","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Leone","dataHash":"6b0a04d0231377344e379130c7f6e5a6d41dd392e9e0eb4799333912d57b66d5"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58204bdde67c9bf4e4cb79aa5342c392eb29aefa8eea6ea76492bb822ddb868b7d0b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0c5d1f8c0d8ee32e2a859e419dd7a02e38869367886974a4d79e5e0953692024
+ℹ Waiting for tx completion: 0c5d1f8c0d8ee32e2a859e419dd7a02e38869367886974a4d79e5e0953692024
+✔ Tx completed

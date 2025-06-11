@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qqrm94va8gl8zdnffnzyvn0d6nup2cv3vp4n7h562w8529jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs4gz3rm
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded spiculum metadata to bucket
+ℹ Waiting for tx completion: 01bbc98965bcc172e384736688eafdb0b7bd8205ecc211ce711c3201ffba1b1c
+✔ Tx completed

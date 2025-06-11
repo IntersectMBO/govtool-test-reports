@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qqeayztdxyuxghvwafdzzhtx72dfr9lmtclq4cf5qwftuu2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs85yf4t
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded deprimo metadata to bucket
+ℹ Waiting for tx completion: 96076e40e7624004851d2fca9ae6e86e2566d2a5a62c16117914918c35b2f94f
+✔ Tx completed

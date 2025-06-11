@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qruvt3mfqdhgwlep5vjlhwqgf7w58cqdr57xn0ne76yzq26wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsfku0y4
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded voveo metadata to bucket
+ℹ Waiting for tx completion: b54501e37b024e33940bd42a91e43c1c545e5ac7e9f954c1ed4b0310d6cb237a
+✔ Tx completed
