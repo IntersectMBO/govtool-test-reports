@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Felix.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 4f4bc5ea5786c69f142e2d5a12c554dce897ebdf6609ffcb65d1566b25112955
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
