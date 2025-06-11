@@ -1,5 +1,0 @@
-✔ Uploaded Leora metadata to bucket
-ℹ Submitting tx: {"lock_id":"51c90cab50551159725c27527982cf057b92ee2cae3e2a88c6ba551c4cbe7fc6","tx":{"certificates":[{"type":"registerdrep","key":"268d90a98731bbda28560c63504b3a96f3d1d7f3f8de386f5996c383","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Leora","dataHash":"3e920193813d4435b0cf28b59b611e7f449c247bc91fd33341b8c4921bfcf8d3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202f7efed88b3316d65c34ffd15108f63aeb2ef219bb3bbede22f8f3d236a1fd04"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: c88ccda7e36e8f3f3c283db7811c193df491199837cc32d489d4d00d62386e9a
-ℹ Waiting for tx completion: c88ccda7e36e8f3f3c283db7811c193df491199837cc32d489d4d00d62386e9a
-✔ Tx completed
