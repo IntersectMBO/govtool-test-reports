@@ -1,0 +1,5 @@
+✔ Uploaded Vincent metadata to bucket
+ℹ Submitting tx: {"lock_id":"18e6d422ca65b1d5fdd1e071cc61c4bb61832b46a96457d09d751c544b2535c8","tx":{"certificates":[{"type":"registerdrep","key":"df00dd20de8486e00c194ea8ad6a2016718e6fb87e7b93dc1499ebe2","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Vincent","dataHash":"6db815291cac90c50ee1f789621b3b541af523c505f36ae428b90518c29eea50"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820b3fb112a686cf15138e3cb036f9d155b109ffa4dd5220b2ba4a23545944a8142"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 3990e6aca7666bc5250004339e07ef1a6b1148cd4987e1c1e319d766538f3fed
+ℹ Waiting for tx completion: 3990e6aca7666bc5250004339e07ef1a6b1148cd4987e1c1e319d766538f3fed
+✔ Tx completed

@@ -1,5 +1,0 @@
-✔ Uploaded Amara metadata to bucket
-ℹ Submitting tx: {"lock_id":"52b5c7b37de2452164b9a991093f4ca2eb74fa76ebbce0a2a1b3e5af2ebefe1f","tx":{"certificates":[{"type":"registerdrep","key":"c7e883138d86d6e88f3fb21aed1b21fdf69f0909184df8c46c9c3cf9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Amara","dataHash":"aaac8e7f9c0df63f62833bb8e092f40e92294977c1b93bf2c134686f0ca0520f"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582079d8b21c8b8a9815696213079c1f5fee7fbb48d62f29c14c26f42f06adb42f66"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: ed4f741448610ad1206dc4799a02526e9607f66f794bf5666aeaf7a83e1ad8fe
-ℹ Waiting for tx completion: ed4f741448610ad1206dc4799a02526e9607f66f794bf5666aeaf7a83e1ad8fe
-✔ Tx completed
