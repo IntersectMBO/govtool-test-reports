@@ -1,0 +1,5 @@
+✔ Uploaded Hal metadata to bucket
+ℹ Submitting tx: {"lock_id":"10f8f93a84e1049d9ad0a12d07508b93bc91f700e869b79796e22849005928a9","tx":{"certificates":[{"type":"registerdrep","key":"9008655945837d923c764c1940b98e86486767b58b12d9a5201d40c3","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Hal","dataHash":"6ca2e78b82268ce9206f788dddae760cdb2fca52c6982037fa5f3b21a9d5053e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e6b041eed826d8ff0138b99e9320723a440da16ce407aa6f6d668a6a9807dfad"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: c20e692e011da1a07571a9c6c5b918aeea6be333b3b5e7e5fe179a482785b93d
+ℹ Waiting for tx completion: c20e692e011da1a07571a9c6c5b918aeea6be333b3b5e7e5fe179a482785b93d
+✔ Tx completed
