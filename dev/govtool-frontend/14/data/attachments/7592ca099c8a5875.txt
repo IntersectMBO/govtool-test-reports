@@ -1,0 +1,5 @@
+✔ Uploaded Jimmy metadata to bucket
+ℹ Submitting tx: {"lock_id":"b6c1ad8785b68358e0079c7e8acd42eef87d3ed4af2d1a53815024a9159715ac","tx":{"certificates":[{"type":"registerdrep","key":"ea6ec084d5ac57a78b3fe402bb8c141fa248ac7558e4eb14c6f6a6c3","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jimmy","dataHash":"f0d520cbd13fb6f1aa6bf852896775e72b163ce49aa2b9de39c52b5047f0e75b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820b56d9a4355eca24d71ab19b6fe149b2fcbb26e6c5152ff40f41a0ead7866a1d0"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 899a83ab574997d8e90db5fe9eac44a7e1a0e90450bd0ae06544489bb50bb34e
+ℹ Waiting for tx completion: 899a83ab574997d8e90db5fe9eac44a7e1a0e90450bd0ae06544489bb50bb34e
+✔ Tx completed

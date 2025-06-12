@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Aidan.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: c0c311bbf7bdfae1754105d0fcd43ec18ecae17719120c17e764cc8344d34a2c
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
