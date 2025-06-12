@@ -1,8 +1,0 @@
-ℹ Retring the function 
-ℹ Retring the function 
-ℹ Retring the function 
-ℹ Retring the function 
-ℹ Submitting tx: {"lock_id":"21fc3f47527ac3d076a316cae42907917483cfab3bc48ce94fe4510427c7b7f0","tx":{"certificates":[{"type":"deregisterdrep","key":"50b10dd6fcf27669424fba1675b0d818aca6b06a605295df661c336f"},{"type":"deregisterdrep","key":"34af8dff04838a1680f539f440dbaa29de61224249ce4d7881a32f58"},{"type":"deregisterdrep","key":"4591751b613d5474b3dd88a702b2237e6a29e9577aee85e19303066f"}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202953f34d889b6244b65d9096c2ecaf57246502a0f6c2e6241211040f3a76106e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58204fd868e8164c928c511ec2084d9b1693970e6517c8dd571f3cb5c217d1810a03"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a78e990e5a183fa83030bfbe9de8cb1a57ffa19df6ec235817602b676f919770"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"inputs":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd","changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: b0a71f065e7a9a9f44bc5402ff5807f173d4abb1f0d0d83b759baa3923cb96c8
-ℹ Waiting for tx completion: b0a71f065e7a9a9f44bc5402ff5807f173d4abb1f0d0d83b759baa3923cb96c8
-✔ Tx completed
