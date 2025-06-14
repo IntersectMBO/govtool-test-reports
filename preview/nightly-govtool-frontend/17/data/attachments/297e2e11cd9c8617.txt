@@ -1,5 +1,0 @@
-✔ Uploaded Erik metadata to bucket
-ℹ Submitting tx: {"lock_id":"f6e75a73a2d914f9fe5d0dff7fa0b1b5d7c41e10dfbdbb32ccc62752b12a1375","tx":{"certificates":[{"type":"registerdrep","key":"8632887d125310e361b735ced8ca5b7577e5f8a11d4e7eca51ec4846","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Erik","dataHash":"24068d504a755134aa836c087520dda523e91ce382e66280c4cfa94cdac6878e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58201b3add3c2e1f3d221753a32c676f52d8e5eefdfaf08e72360faf53ce39e82fbb"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: d2ff0f36068a4782c392e7c7538847204a9cee34437013887870044124c94c69
-ℹ Waiting for tx completion: d2ff0f36068a4782c392e7c7538847204a9cee34437013887870044124c94c69
-✔ Tx completed
