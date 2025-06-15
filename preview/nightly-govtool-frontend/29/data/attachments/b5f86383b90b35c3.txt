@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Citlalli.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 8566d81b103ce557ee0c10f51e8fdadb910c343c6c95b20eb5670e48fab1d4c6
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
