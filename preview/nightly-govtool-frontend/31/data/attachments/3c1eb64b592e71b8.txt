@@ -1,0 +1,5 @@
+✔ Uploaded Verdie metadata to bucket
+ℹ Submitting tx: {"lock_id":"1bd492501f1bcfa3c9e1ecc2b6b73ad2a6b54021221c9c0abb7b2d54738b9741","tx":{"certificates":[{"type":"registerdrep","key":"4b03560a86eb13034212dcc88b082ff18defc0f22fbe4830ad84b748","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Verdie","dataHash":"d692bb6b12a805b8c3fa4acab416310c0bfe056814373edd502810d7bc591c60"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582082ce9eb5476c0bde2aaa6ab68f60a9ace83fd75ba9e1c5927021313718bed86c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: d2e355f657fd292ef09df59db1938aa2dec14f89d5811c14bced6bc0bddf8567
+ℹ Waiting for tx completion: d2e355f657fd292ef09df59db1938aa2dec14f89d5811c14bced6bc0bddf8567
+✔ Tx completed

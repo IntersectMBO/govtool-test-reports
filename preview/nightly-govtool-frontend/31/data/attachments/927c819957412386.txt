@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Ewell.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 8fb7c5ed3d88d2c925212782e1aa3c3eeeb47b74bf4e4a3c302f42cb98f5a1d0
+✔ Tx completed
