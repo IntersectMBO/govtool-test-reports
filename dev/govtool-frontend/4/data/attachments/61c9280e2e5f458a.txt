@@ -1,5 +1,0 @@
-✔ Uploaded Kamron metadata to bucket
-ℹ Submitting tx: {"lock_id":"c5d4ae26a0d02a1f22ab27ff63e7e899d2a663d6081f14950a7653331b466b25","tx":{"certificates":[{"type":"registerdrep","key":"b3589787dc32fe5b86c61960ea8db9571c131227580c8298560f9f53","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kamron","dataHash":"eb62efdbb25d0b5703f38cf88ad0595fe2971a7723a377b50d0dab9503d0145f"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582034c8120d4eb4349cc218de0f793fee86f313cedbfc2fc345243ece9426855b0a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 305aafc5e3465a1dd6ce03597d338de0caa5e269d2e2916fc669c87878d6d192
-ℹ Waiting for tx completion: 305aafc5e3465a1dd6ce03597d338de0caa5e269d2e2916fc669c87878d6d192
-✔ Tx completed

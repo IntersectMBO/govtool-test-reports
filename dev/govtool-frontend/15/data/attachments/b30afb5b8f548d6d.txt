@@ -1,0 +1,5 @@
+✔ Uploaded Agustin metadata to bucket
+ℹ Submitting tx: {"lock_id":"6166d5d4ebc5ac0e51c787e5f2ad5cf5ba75766524f16e2b16a3d8c163426111","tx":{"certificates":[{"type":"registerdrep","key":"20f7b53cea66a7d7f14e4d23560b7b008d1fd9df2cf4870754daa334","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Agustin","dataHash":"a058b7a48f3d84682fea09b4f925a0043e136aefb4ace7f509b78137198b30ca"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582093cca39ab8f9ab3590cb9a697348fa066c0b9fb1c410f9d63562f3e8e8d578c2"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 50e692876237997e688caeff612b43d90900d67058f57bb3e8de3e83b630c5d6
+ℹ Waiting for tx completion: 50e692876237997e688caeff612b43d90900d67058f57bb3e8de3e83b630c5d6
+✔ Tx completed

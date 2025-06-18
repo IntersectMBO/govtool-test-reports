@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Prince.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 38593d10f2a2994ec5fb98a8025548e8991a65819fb8911997327505b3378466
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
