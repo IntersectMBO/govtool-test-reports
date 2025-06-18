@@ -1,0 +1,13 @@
+✔ Uploaded Henry metadata to bucket
+✔ Uploaded Simeon metadata to bucket
+ℹ Submitting tx: {"lock_id":"d4394375965fc296d9501212c0367fb452a331aa2a13661f9735f47a1229bf71","tx":{"certificates":[{"type":"registerdrep","key":"dae6514fb7b29d3f17d18229910ed703e4cb335daf559be12397e32d","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Henry","dataHash":"400c6b295bf86202cc4ef88c44b5aa7540f998936f7d9833cb9cd21c64f3b611"}},{"type":"registerdrep","key":"3ea6801dd86b9e81cc42262609898c3ef99428f339ab5265b0aac025","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Simeon","dataHash":"0b5c1d3b726f259263de93a7834b1290a99b474418ab3a24a8f39b497567ba4b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207dbeaf411ce6bb9b89b8d6b90acfafbf09b38254d9c09ff24fdd8384268e3013"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a2fb66d8c15dbd3fa6bb8a66a478bea39cc73d5022149d47f5c0814e84755402"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0bcca9fd5887bcc1b5a7607e13d46aea14efe920d1ae873f19975d9020876fe7
+ℹ Waiting for tx completion: 0bcca9fd5887bcc1b5a7607e13d46aea14efe920d1ae873f19975d9020876fe7
+✖ Failed due to Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+
+Call Log:
+- Test timeout of 240000ms exceeded
+ℹ Retring the function pollTransaction

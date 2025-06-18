@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Hillary.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: e9ea8f0f81360803405001aae5f1da35aea83f7e2c8185556d69d1ee438c7c8e
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Tx completed

@@ -1,5 +1,0 @@
-✔ Uploaded Albin metadata to bucket
-ℹ Submitting tx: {"lock_id":"8a20b3b5cec77e456cddcdaf9bf66ec51ee5a0a84603d1ccf29ddc0980281ae1","tx":{"certificates":[{"type":"registerdrep","key":"2ce9905b95e6f4a76063b785749dc0370b4f641fb2701b48edaf0a4b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Albin","dataHash":"d6cf22a8af7e4288dc9fbe9697c81db834e29bf1e9048b5dda8dd9805d469dbb"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ebb611868af28f291455a484c39ab775c8bb4862e495c9f0dd646913f9010170"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: e7a425bbc47b11f50e1875da5d4d0e214622d145c0c66ffcc083740136129667
-ℹ Waiting for tx completion: e7a425bbc47b11f50e1875da5d4d0e214622d145c0c66ffcc083740136129667
-✔ Tx completed
