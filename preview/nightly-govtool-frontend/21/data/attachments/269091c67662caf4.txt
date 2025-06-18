@@ -1,5 +1,0 @@
-✔ Uploaded Nia metadata to bucket
-ℹ Submitting tx: {"lock_id":"1ea3fba8d6c9e056e1d15726f57fcfbcc4d6e5f97225747fab02ee2df140f47f","tx":{"certificates":[{"type":"registerdrep","key":"192390d3f3b0bd931b41d9ad2de5f0160881bd4caaeb88042f5b7233","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Nia","dataHash":"c6a74114889c96e00bfe61e5f8ce72615ff811b79df55b9ae88099235129f544"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820fe404649c2a293ce8914afe0c9a143f09b7c264b6445b51c0d5844257010ece0"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: b0a92e382104dabd26c2f5c48f75bd6b8cc68bb947d376696a8cf293a10c67f2
-ℹ Waiting for tx completion: b0a92e382104dabd26c2f5c48f75bd6b8cc68bb947d376696a8cf293a10c67f2
-✔ Tx completed
