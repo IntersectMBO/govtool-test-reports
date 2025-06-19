@@ -1,0 +1,5 @@
+✔ Uploaded Francis metadata to bucket
+ℹ Submitting tx: {"lock_id":"965ade09faa89dc952fe462436cbf7aaadd5999cda72d0b788be8e40e18e1715","tx":{"certificates":[{"type":"registerdrep","key":"3f607eb148123ca0065cd68eb980229564682a2bd1bf4c18215b2ef6","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Francis","dataHash":"47a20c34872c858eee903abf2fd539e6e2e2e30291f1b679a9040acb0d992bb9"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a87bab7e9f8ec64f8809d5a2ed72bd15c514a99efc75eddda07095a2d34ed973"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: b5ba4e522d7222eb09e03e053c722a53036f95f1b7d480cc8124100651950df3
+ℹ Waiting for tx completion: b5ba4e522d7222eb09e03e053c722a53036f95f1b7d480cc8124100651950df3
+✔ Tx completed

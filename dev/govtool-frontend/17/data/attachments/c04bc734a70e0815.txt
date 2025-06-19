@@ -1,0 +1,10 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Neoma.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 5ec0675a650b35d5668bde354559a2e0574b295938136e821f9cce4b148aac00
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

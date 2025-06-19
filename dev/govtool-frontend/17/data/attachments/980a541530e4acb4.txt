@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qrxhg8z5lfeuj8mgvy82qpuytjaedf6k426r83k62g7hqv2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs8e2lfc
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded pecco metadata to bucket
+ℹ Waiting for tx completion: 407042379e3fd3a651c86279334d8353e86baa7821f17c2f4449824efce1b485
+✔ Tx completed

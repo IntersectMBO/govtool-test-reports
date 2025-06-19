@@ -1,9 +1,0 @@
-wallet balance 100022
-wallet address addr_test1qppcrl82gaqunz80c74kepepwaarnxxncxqspp84dnwp9a2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsrcrx49
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-Username is already set
-✔ Uploaded claustrum metadata to bucket
-ℹ Waiting for tx completion: d868110fdb7588ff49d159970e6194f11def6f7389b02444637137716512066d
-✔ Tx completed

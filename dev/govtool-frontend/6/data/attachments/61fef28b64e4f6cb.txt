@@ -1,5 +1,0 @@
-✔ Uploaded Parker metadata to bucket
-ℹ Submitting tx: {"lock_id":"d92c5dfbc8acf9093c3d46ca454229b2e7b19fe0d23acfc11a6c773e5601956c","tx":{"certificates":[{"type":"registerdrep","key":"401b6ced4bc107c6ec8184e444d698064777237a7889c565da27d538","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Parker","dataHash":"0b233601d020f2be5b5213f691016371fe2c063a9108a254e182f453e157a2c2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ca9ec35e4be811754013690a280740fed85c2a0fc1f84ccdb74fb7f13a3eb59b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: fd0459734c47888ededcdd6a60e3fe85650189954b6c168a339dcc03f646be76
-ℹ Waiting for tx completion: fd0459734c47888ededcdd6a60e3fe85650189954b6c168a339dcc03f646be76
-✔ Tx completed

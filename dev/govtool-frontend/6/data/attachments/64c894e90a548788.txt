@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Camila.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 5c061021f8f491993221685261027b7c6e27d5ba3323d603fa3d60133366fe65
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Tx completed

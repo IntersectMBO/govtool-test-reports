@@ -1,9 +1,0 @@
-wallet balance 100022
-wallet address addr_test1qqv92hsl2du2rjsnhv42l2tenwc66mm90j4x8samrg8cpa2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjstxu86s
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-Username is already set
-✔ Uploaded appello metadata to bucket
-ℹ Waiting for tx completion: 78f46d64ad3564207bc4a3a8d2b22e1f424b4c6afd6323616f38662f2f77c9d7
-✔ Tx completed

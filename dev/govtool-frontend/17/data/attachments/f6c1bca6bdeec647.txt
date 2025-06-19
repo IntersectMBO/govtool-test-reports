@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qz62e7k54ewtw97cgmlgj2qr0csrt680nrpwj9jtzjpcw86wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs3tv5e2
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded atque metadata to bucket
+ℹ Waiting for tx completion: 7f630df922fd14374ce402ed989d928817c56fd185a4c76a359c5a8c689a676e
+✔ Tx completed
