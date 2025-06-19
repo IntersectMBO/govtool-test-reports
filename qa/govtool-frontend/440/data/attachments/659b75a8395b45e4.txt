@@ -1,0 +1,5 @@
+✔ Uploaded Martine metadata to bucket
+ℹ Submitting tx: {"lock_id":"e1874c8ca72a1d0937e28c366067358442270a4ec90a7fa4aef051d94124c875","tx":{"certificates":[{"type":"registerdrep","key":"cb6be5404dd388eff9d847c898d30c5e3a9c2cafe80ff807bc874f01","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Martine","dataHash":"399e285ef95b348870e9bc927713468f17765caadcd6ea2df60697a0f2657105"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582045f1198c5e91bd06e99ad9119af309481ee92ed14b9b5519224788dddb704a8f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 9c198feb4fc9892f289a2ad53c2397f27a50c373ee3518aa28a687eec17229d6
+ℹ Waiting for tx completion: 9c198feb4fc9892f289a2ad53c2397f27a50c373ee3518aa28a687eec17229d6
+✔ Tx completed

@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Demetrius.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 837dbea8b378f62b773f89b86b7721d9bad011cc6df4342ab7e7eaba1405f7d6
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 429 ()

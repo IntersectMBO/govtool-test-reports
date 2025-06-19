@@ -1,6 +1,0 @@
-✔ Uploaded Travon.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: e9eaa778e798f95cf8313e98973aa59c8b1dec4e4406ad7ef5d836b63561c37a
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()

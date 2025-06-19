@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded guardrail-script metadata to bucket
-✔ Uploaded clarus metadata to bucket
-ℹ Waiting for tx completion: 21d701a2e3d5f9090b7828a986ab41cf6abcd9da2e851bdc6f54395750c99378
-✔ Tx completed
