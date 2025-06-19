@@ -1,4 +1,0 @@
-✔ Uploaded Arvilla.jsonld metadata to bucket
-ℹ Waiting for tx completion: 7af910b5f60d31cc68f6425d94064ad7f1db271cfca8620fb1a0acc2cc35c702
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Tx completed

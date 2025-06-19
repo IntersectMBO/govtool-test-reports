@@ -1,0 +1,5 @@
+✔ Uploaded Alison metadata to bucket
+ℹ Submitting tx: {"lock_id":"9706ae283ac46f883b66ef2e458ae6e916188595e4d657e8e4c149e32650e168","tx":{"certificates":[{"type":"registerdrep","key":"734a4499f2683d6c3c02cd095d1b4c385f24fcf4b5b92e5fc64b0e79","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Alison","dataHash":"ceaa3b148a52833e8b1fcacee52314f34340997e7ea1f362f0be4295e519c6f1"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820fae245d67743b67453af05732c477c0fee44bfd82a805a3b80f00e0b37b9e154"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: dc859f082c1852357736b124a469e6c01693647733845d7f59b0760b8ff03f7e
+ℹ Waiting for tx completion: dc859f082c1852357736b124a469e6c01693647733845d7f59b0760b8ff03f7e
+✔ Tx completed

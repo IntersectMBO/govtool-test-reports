@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Dexter.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: e17d07b97fa4d9f03371e48822d463abfc5a0bcf1e0b72876fae0ff35f71ae65
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 429 ()
