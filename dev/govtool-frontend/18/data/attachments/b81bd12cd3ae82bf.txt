@@ -1,0 +1,5 @@
+✔ Uploaded Krystel metadata to bucket
+ℹ Submitting tx: {"lock_id":"c68fb1e8223dd9704163aa3995f2beb55771c63da8e809e534e34de909670de8","tx":{"certificates":[{"type":"registerdrep","key":"0982763abdb38d911fe5e68e853c1a9caab86a6214c5879e18cbc67b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Krystel","dataHash":"8b697235cb55b5590430e6ec35f290355c482926e82701dfdfa2a9e64cd72179"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58203e1436461125e26d14ebcf0a6abcce51cbcd8a23d2aa8035aa4a8e2253fee54d"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: f4ccc877dfec8d17fd3f7929fcf6f14016c4d2850b63f6f9aa3914eef05e334e
+ℹ Waiting for tx completion: f4ccc877dfec8d17fd3f7929fcf6f14016c4d2850b63f6f9aa3914eef05e334e
+✔ Tx completed

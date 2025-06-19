@@ -1,5 +1,0 @@
-✔ Uploaded Aiden metadata to bucket
-ℹ Submitting tx: {"lock_id":"dbca262153d91c16f75a87768749ad7b8ef40bd7f8011ecb66da7e6a822d7b94","tx":{"certificates":[{"type":"registerdrep","key":"9d19c232140fd7e88c03d6536f42997b281fc2ea83cd004070bc51b1","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Aiden","dataHash":"ab776ab955a3d6fa39f5de7a6df6fb9f998344408a00e5b8b299aab634b83371"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e519b7b1703cb71f97a0be65a0d171559f02d361de66e42cdc7d319d4393374a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: dfc3aa97a8f36ec5c6276cc77f13f2acb9506f0b070f3d65e49b5fac0c08bf91
-ℹ Waiting for tx completion: dfc3aa97a8f36ec5c6276cc77f13f2acb9506f0b070f3d65e49b5fac0c08bf91
-✔ Tx completed

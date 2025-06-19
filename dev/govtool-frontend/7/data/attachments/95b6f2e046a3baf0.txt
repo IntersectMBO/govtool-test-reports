@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Alphonso.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 524469467c72019f129756b864be6237c8039a7d131f8ff793221ab8e72d9768
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

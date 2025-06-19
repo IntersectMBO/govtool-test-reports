@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Ryder.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: d0fc1e776d74cc70834616467f025a657830311462061e0d7ab8fc5b7632a667
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
