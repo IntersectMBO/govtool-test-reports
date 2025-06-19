@@ -1,0 +1,5 @@
+✔ Uploaded Lourdes metadata to bucket
+ℹ Submitting tx: {"lock_id":"8021a0fc01e77a16f95a491fd1046af348e2d41c7c49d39cce9fd56b010e61f7","tx":{"certificates":[{"type":"registerdrep","key":"43fd03ca00ef75a5c59bad5da8846af7a2656b9f6e745a90a2c0fda6","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lourdes","dataHash":"cb4841caa8cf66b6e78f403f91ac442fe560fc3a8427fa9d04eaa0f671fd9603"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58201c2dd2e2596dae91b08caf20ce1b9d46ded91e809800381aeccb8edde2c42ac8"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: ae94e5167d8eb78a003ab0ce47843f572b8860f2501faf2fdd2510c07ca14796
+ℹ Waiting for tx completion: ae94e5167d8eb78a003ab0ce47843f572b8860f2501faf2fdd2510c07ca14796
+✔ Tx completed

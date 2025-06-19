@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Kieran.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 8c875191046d2eb8d2cc1afdd9b71b8f5e7384feaaaed4d6ee8d800ca84379c3
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
