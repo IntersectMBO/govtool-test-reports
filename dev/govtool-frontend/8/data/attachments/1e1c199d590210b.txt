@@ -1,9 +1,0 @@
-wallet balance 100022
-wallet address addr_test1qrwpev3qamvn4e5czurtgqlkg26x2yhvnyqxptt24xmy4czwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs044ehr
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-Username is already set
-✔ Uploaded tempus metadata to bucket
-ℹ Waiting for tx completion: 241b9d8d5ace4c945a897a37eb3aa78b5d768d1893b73a923db20ce29b0d4462
-✔ Tx completed

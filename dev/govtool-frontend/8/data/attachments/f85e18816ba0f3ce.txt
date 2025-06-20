@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Aletha.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 9769f88aef79972b19ad73861fba6603e7360cf7e9825f5166ed14ad67b4f348
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Tx completed

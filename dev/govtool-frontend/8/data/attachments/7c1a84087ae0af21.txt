@@ -1,5 +1,0 @@
-✔ Uploaded Jordi metadata to bucket
-ℹ Submitting tx: {"lock_id":"9f1e961893337e3ddb5143181caf0f99fef3b77baf576115df525c3e04d33600","tx":{"certificates":[{"type":"registerdrep","key":"4b3a8638631928e18fa50e87f685eadbe007d97971c2274778661c27","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jordi","dataHash":"b23ae30863abc8e9d4585274e82d821491f14d486d7a3e767228d962a5aed2dc"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820b1403903d4ff8de746a038afd5f60042f7efe206075479e87b180530df71ad6f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 66715bba18bf8f371c6150b51d989d41c998c8fce86ba97d75725210ae39d1a5
-ℹ Waiting for tx completion: 66715bba18bf8f371c6150b51d989d41c998c8fce86ba97d75725210ae39d1a5
-✔ Tx completed

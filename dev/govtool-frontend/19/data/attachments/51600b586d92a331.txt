@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qpgez3gnm80muke33xngwrjjv4zq0lyw3jsh9kcdrvqxptzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs2ffqs7
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded catena metadata to bucket
+ℹ Waiting for tx completion: 3d573646d495b939ad019afc2653fbad023615b4ee5643d41fd9fa9cdb91fe29
+✔ Tx completed

@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Karelle.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: e0026ffe077228097a7297774d2a62c2d2e2cdbcb9cb1b52cd3db2ac6470667e
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
