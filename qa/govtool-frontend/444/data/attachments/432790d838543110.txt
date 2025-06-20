@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qpe5jrgfsfnud8rv6kk3pqh3kqafax46syxe5egj6fdtzm6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsmana5h
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded agnosco metadata to bucket
+ℹ Waiting for tx completion: 53c8f53341f486ddc07e0c288d56f4c622110a65edf3ab3e48d9d8622bacd687
+✔ Tx completed

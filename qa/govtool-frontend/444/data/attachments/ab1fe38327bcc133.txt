@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qrhkuqvlflmvh2j0njxgypwucrgg4ssujzwmlf9ldtn6rd6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjstkh9n5
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded rerum metadata to bucket
+ℹ Waiting for tx completion: 089f3236e50a5fc27e8c3ef725230dc8231ab4262909902f4351b9ab9aa3b5a2
+✔ Tx completed

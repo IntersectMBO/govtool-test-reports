@@ -1,0 +1,5 @@
+✔ Uploaded Sean metadata to bucket
+ℹ Submitting tx: {"lock_id":"802589ea209cdf31d1381827dc96a9ccdfa0c642a78bcfd980e6a34c11bea7c4","tx":{"certificates":[{"type":"registerdrep","key":"2445a4f9c03780eca33b5f996e3687433dfb93ff8be2c57dce0864fd","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Sean","dataHash":"5f72fea357edeaf3f46daaaebf3a938bcdf685a311fffe7b9716ee34bf84ca3d"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58209bf5284cb49fd3fddbb65262b5ddc02eb184cd08e28a449e411f9e59dc88b399"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 1b12ffd352993adec51fd04b9061d1e57a5b02620ede7cd754fea8cb7b3c806a
+ℹ Waiting for tx completion: 1b12ffd352993adec51fd04b9061d1e57a5b02620ede7cd754fea8cb7b3c806a
+✔ Tx completed

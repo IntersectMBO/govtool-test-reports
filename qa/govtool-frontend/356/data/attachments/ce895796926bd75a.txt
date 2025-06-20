@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded clamo metadata to bucket
-ℹ Waiting for tx completion: b52734bd7ed3496b5128887ee9a73c5056e6ccbf2afe65fbea05f8819cc60142
-✔ Tx completed

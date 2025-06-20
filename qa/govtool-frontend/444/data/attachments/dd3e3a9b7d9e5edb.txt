@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Alexandrea.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: e0e1d8fc7ba448e4b8684cf76254c2befecd1f080f4e5b29b26180f043a3573e
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed
