@@ -1,0 +1,5 @@
+✔ Uploaded Drew metadata to bucket
+ℹ Submitting tx: {"lock_id":"058155ac6d33b4d622d2077d2fb36b40b03fecc8ed5d1e0c449e2481ab76bd93","tx":{"certificates":[{"type":"registerdrep","key":"dbd7d41950d4bed936944e9f3e8f3e1064cd108266d69813f4411cae","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Drew","dataHash":"2d4c737314e56e3c4a93a0bc86e89b72b6ddbc18e1030ce457137617c4ea5c28"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58206a6493a3ed1847eea2b0a83702b8d98813e45f8d2f7ff166d40240b8755eba2e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 657ff2c8999268f63c77b454b8bc1522d1e9513149fe449f7a9d834d6d2e0dbe
+ℹ Waiting for tx completion: 657ff2c8999268f63c77b454b8bc1522d1e9513149fe449f7a9d834d6d2e0dbe
+✔ Tx completed

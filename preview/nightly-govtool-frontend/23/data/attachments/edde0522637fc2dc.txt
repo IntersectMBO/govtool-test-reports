@@ -1,5 +1,0 @@
-✔ Uploaded Dovie metadata to bucket
-ℹ Submitting tx: {"lock_id":"7957adf022dbc575195b33a0650782f8fd7dadad49d8144d06fb7d5096032033","tx":{"certificates":[{"type":"registerdrep","key":"c837e5a98454e737cd8fffe1b43598c5577f6338c2c2bce1c70eaa35","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Dovie","dataHash":"379f5a8a4809e352652cc08cc86c614646ee203bb7dde202348ee5b061213086"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582088afae0930a137a94de9b0a128c3476c3387fc5c38a3c40d75c6153549dfade8"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 9590f1c647322b3cc216a13f94240e7797a06136961389ed0a2112c8754be106
-ℹ Waiting for tx completion: 9590f1c647322b3cc216a13f94240e7797a06136961389ed0a2112c8754be106
-✔ Tx completed
