@@ -1,0 +1,5 @@
+✔ Uploaded Juanita metadata to bucket
+ℹ Submitting tx: {"lock_id":"130659b0ddba1dd21524e1103f78a4f7b5a3ad8bacb9c39281abbdebd5e63f61","tx":{"certificates":[{"type":"registerdrep","key":"c3d7df32c1a0268f09e99e0b96670c1ec8e3d4861d284a39896b4079","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Juanita","dataHash":"b77c7d09746704e818ac12bc8a77604c0ab1776591b3cdb25502d94a1118b32f"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207bea93435590b80a5c14287e4d8f12be7ae12534e5553c5a9cd8f8b39ccd38f0"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2f4266b7d4e2fc3fd78fba1b615e35df9af4e67246b283b311f0d8fe38cdf4bd
+ℹ Waiting for tx completion: 2f4266b7d4e2fc3fd78fba1b615e35df9af4e67246b283b311f0d8fe38cdf4bd
+✔ Tx completed

@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qp485h8nmt0q435amk0fq2lrm960l93whm6e269qlzwm942wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs8a3fta
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded depopulo metadata to bucket
+ℹ Waiting for tx completion: c47663b0b03a45e0a417f8d3cab992e6ba8c03ed25b43254b4d593139ef87f9f
+✔ Tx completed

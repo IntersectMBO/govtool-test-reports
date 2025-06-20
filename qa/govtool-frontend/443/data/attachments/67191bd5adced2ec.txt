@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Amira.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 94cc598fb7a5e575cb1c951c762e8e806fdfd8b54808f8fe5572dd9b87c68857
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
