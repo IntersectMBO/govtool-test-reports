@@ -1,0 +1,5 @@
+✔ Uploaded Darrick metadata to bucket
+ℹ Submitting tx: {"lock_id":"3b014d4c1d9d2a027acbd0de7a492c7fa3960253cb88637c3ffe18f0a33cffb0","tx":{"certificates":[{"type":"registerdrep","key":"10f510d0b52c578dd7f4a2acd1e18c53d558f814747aaef1f700e287","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Darrick","dataHash":"3fc5eea5054f05d5f05eb26d002927739163733d2aa7af7e1d76ed265c3427d6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207510bac5094476e6063c6cba81dc3d15efc56f66955359eb5f81429c05df549f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 261e66114dd175ec20031eb624b5d34fbbc4b80a14df61c32b4bdcef6b6adcca
+ℹ Waiting for tx completion: 261e66114dd175ec20031eb624b5d34fbbc4b80a14df61c32b4bdcef6b6adcca
+✔ Tx completed

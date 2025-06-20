@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Laverne.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: cb4a96b2bb9676d03f74d7beff4412581830e830f8476338e2c13c8a26e50c2b
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qpvcxnn7u3t0h478e2u5nfds2gagfz9ryh4pqh72303450zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs9zg0n9
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded aiunt metadata to bucket
+ℹ Waiting for tx completion: 1e64237d1a8593b3150e5baa7930a22420df5a371c2815df389adbf0c6ea900e
+✔ Tx completed

@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qr9trvcsjgsshus7ewy5ekhcm0zqd7lgpqcldgt5ga2n0mzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjscl4v20
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded cinis metadata to bucket
+ℹ Waiting for tx completion: 90c124b693fe2bddc19b4cd0a4e7af92f4b668355e5e8607b828c753d66dbbfc
+✔ Tx completed
