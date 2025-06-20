@@ -1,0 +1,5 @@
+✔ Uploaded Deanna metadata to bucket
+ℹ Submitting tx: {"lock_id":"f753ab2889439d83dfd48d9566eaef475588bbb80e80586fa46005142134c980","tx":{"certificates":[{"type":"registerdrep","key":"ca377071e9cfaf4dbbdde62c27012e57ff6103eedbc68542a36606a8","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Deanna","dataHash":"45aae6c52f09ef22b394df3684485c3e24c67c66c9ff521f510e44b5ac7edad5"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208a19394a20797d6c284776d191f37e3872558f0b1c154cc12d11e95255d5406d"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: d9770e9619081c0b864f91eda6e0ae6b9c3fd2f4cb6dfecc2a5094f8f877acd6
+ℹ Waiting for tx completion: d9770e9619081c0b864f91eda6e0ae6b9c3fd2f4cb6dfecc2a5094f8f877acd6
+✔ Tx completed

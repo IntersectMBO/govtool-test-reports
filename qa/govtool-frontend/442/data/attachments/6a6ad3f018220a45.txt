@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qpcsl9rwwpfz2atpjv0guej3phfc3dry9utkes2nkm5298zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs42ryvf
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded somnus metadata to bucket
+ℹ Waiting for tx completion: 88f29172775d69e08b2efd09d82e5d80e2139a58d53401984f47ae1e44b4017f
+✔ Tx completed
