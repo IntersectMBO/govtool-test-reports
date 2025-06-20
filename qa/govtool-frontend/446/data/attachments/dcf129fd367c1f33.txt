@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qrvyqqs7pprxhzt5v8scxdd6y4r0qtwcmhujt2z0qsnvvn6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs5plgcy
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded talis metadata to bucket
+ℹ Waiting for tx completion: 95397b0cfc90f7e5264d22672c54a2a94d382c185cffc49b1965fb5aa09bd1b7
+✔ Tx completed

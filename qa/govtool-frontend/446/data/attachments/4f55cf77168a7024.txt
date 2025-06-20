@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qpuvehvp70xc8dsj75qe9ty3drzylkndgke4xaglmrzxmuzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs9rctxj
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded guardrail-script metadata to bucket
+✔ Uploaded suppellex metadata to bucket
+ℹ Waiting for tx completion: c7747cf7075ccac195e66d6bc26b6b30bba5e8dda6039a9b1be4e360f66d6d29
+✔ Tx completed

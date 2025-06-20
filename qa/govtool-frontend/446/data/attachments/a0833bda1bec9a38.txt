@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qpt68haavngqznldr5m2v4ut5nhv5zasy28t834wrfdgyv2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsgdwyve
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded baiulus metadata to bucket
+ℹ Waiting for tx completion: edb2ee8bb89fef3972c1e812abf5ec6ff9052dee85ba40b4c2d94b15ad0fe112
+✔ Tx completed

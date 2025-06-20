@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Alene.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: a5772e3fd01eccedb7bb7705a0b676109fa9bbf33597f9c0cde45de2d48df67a
+✔ Tx completed
