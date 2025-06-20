@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qquuznxdn2v3w2us4tft33mkgyw90hgxtu243t88hghqwujwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs3w0pa7
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded ustulo metadata to bucket
+ℹ Waiting for tx completion: 045bbfb7ec34ec5e5a4fe110a59cfe0ce799018cef0d68483ec2b704f6503b9f
+✔ Tx completed

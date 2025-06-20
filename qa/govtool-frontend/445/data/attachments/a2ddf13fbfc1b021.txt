@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Easton.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: e1cfde66c2e81aa47db8eb1bccf61c3bf6f65e4d241b800118842921c45fdb96
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

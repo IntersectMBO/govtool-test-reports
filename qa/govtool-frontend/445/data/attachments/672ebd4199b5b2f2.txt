@@ -1,0 +1,5 @@
+✔ Uploaded Deondre metadata to bucket
+ℹ Submitting tx: {"lock_id":"4aca29422dce163b81c9638d45f5342b9c4a3a556d40625718ce69d431733eb2","tx":{"certificates":[{"type":"registerdrep","key":"663f225eb566acfca72b88f132b5ce83399638c883b3e80ba9b41a61","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Deondre","dataHash":"199a39057d05f37b11bc7c880d98d8b8b301a47d2b67d4ade0d5693d5e52c695"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58205f886b5a6068ce1736c7776e7596e96c37510b786dd4d34f09a2f05f8fb846ad"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 8968c97b89ca1b46a18995c2370971cd9e27fecc2fec9dd15c9f06f87ff6325b
+ℹ Waiting for tx completion: 8968c97b89ca1b46a18995c2370971cd9e27fecc2fec9dd15c9f06f87ff6325b
+✔ Tx completed
