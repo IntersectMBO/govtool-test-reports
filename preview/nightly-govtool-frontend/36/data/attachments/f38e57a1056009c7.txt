@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Anastasia.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 4adc04b3749c172a8feedb8d770650d587213c2efe3a3f89c293888f8d1f6636
+✔ Tx completed
