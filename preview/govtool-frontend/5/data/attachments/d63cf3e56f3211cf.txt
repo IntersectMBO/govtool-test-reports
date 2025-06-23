@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qpetn4dxwpla9ledthgla59rkk3xppyuk8y547fufl3zw66wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsefddvv
+✖ Failed to load resource: the server responded with a status of 406 ()
+Username is already set
+✔ Uploaded vociferor metadata to bucket
+ℹ Waiting for tx completion: 2d2583372c7f377d8b2b7c23b987c05fbb732db6fe268ac24598db2aed25fc1f
+✔ Tx completed

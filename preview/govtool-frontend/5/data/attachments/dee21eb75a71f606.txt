@@ -1,0 +1,5 @@
+✔ Uploaded Kendrick metadata to bucket
+ℹ Submitting tx: {"lock_id":"b57cff112fc81b6b0a0b1c6ab046b3ca43418129346de371b88e00ea3d7d73a3","tx":{"certificates":[{"type":"registerdrep","key":"d90def32bb11f42c5be1eef5cdb4da137f633f1ec9429aa02cf865e4","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kendrick","dataHash":"f4c037d6b01c9a3aefd65f54f02bb046711f0ca12e02ed9825c0f94e080970ae"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582038b8265b6157193497f0887c7dc2a20601d075de7aefadead293151dd7c1149b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 5c7c799cf8c50eac92a14301716ecb9dd1e08d4a5a98629bfe1d6a04884cf325
+ℹ Waiting for tx completion: 5c7c799cf8c50eac92a14301716ecb9dd1e08d4a5a98629bfe1d6a04884cf325
+✔ Tx completed
