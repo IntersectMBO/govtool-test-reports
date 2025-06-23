@@ -1,0 +1,5 @@
+✔ Uploaded Granville metadata to bucket
+ℹ Submitting tx: {"lock_id":"d9da78e6148e3f44f42bbf1f99e99b07928ddce4b533dc572fc71eff663f60ef","tx":{"certificates":[{"type":"registerdrep","key":"31bed7bbecc2b1082ece177bed80a045e446a72f0ef4996a21b3dbaf","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Granville","dataHash":"46e45698eaea56272fc7b1315d58fcfea0e515bd375e609f620fc062cc5c3b01"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820965f50ae000c1e1804971619445c627d0e4e6afd711c20a4811b4c44dca1c91c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 279b709690283346e0f2f5b5771c2c8bbed4130e8557a831c6f1d836c0a4ed2c
+ℹ Waiting for tx completion: 279b709690283346e0f2f5b5771c2c8bbed4130e8557a831c6f1d836c0a4ed2c
+✔ Tx completed

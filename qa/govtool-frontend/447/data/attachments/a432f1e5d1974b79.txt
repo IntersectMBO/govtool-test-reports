@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qpm99frdz0enzvw942kgjrvd9hmg42cfnqpywsu2y6yw03zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjshhnam2
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded adnuo metadata to bucket
+ℹ Waiting for tx completion: b6d859d6147f42f543425bf634fd2ac3191190b65f408568a7e0bdbfe12d124b
+✔ Tx completed

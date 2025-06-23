@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qqvcqpah9vm0p2tl08l5z4lrx6mysj440h8cslrpej9yyp2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjskeut85
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded viridis metadata to bucket
+ℹ Waiting for tx completion: 9f39edbac6756832b61f7c0f654a840968e9d40ed0c9cd3ad51111ec6a4d2c1e
+✔ Tx completed

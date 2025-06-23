@@ -1,0 +1,10 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Kraig.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 515bbe49bbf88396e9cb6168e7d01050bd739a19e9e333de4c56eccd0a7f9bd6
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed
