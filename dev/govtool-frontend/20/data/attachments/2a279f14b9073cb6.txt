@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qzzn07lvmvpp4fqt7ujmx9pwwq4pfp4a60e42yjdjmv5fpzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsh06mvc
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded creta metadata to bucket
+ℹ Waiting for tx completion: c04ddd6f03fa07fee9e55a37a472bc8f6b021c27a1eba3ede53086d59075ef86
+✔ Tx completed

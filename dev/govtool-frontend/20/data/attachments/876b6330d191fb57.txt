@@ -1,0 +1,5 @@
+✔ Uploaded Vesta metadata to bucket
+ℹ Submitting tx: {"lock_id":"c5ab8648b9dc137183a649f45bdce360d8b2daa53b2082b7e5c2b6c51ae6ee35","tx":{"certificates":[{"type":"registerdrep","key":"78c6b6bc358da333a63d24c3efc2ec1c981f74e3a7ecb89aa3991acf","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Vesta","dataHash":"2b371af3ce1a4151990212668b1b12642314dfe633ac14f97d767772dc9f8857"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e00e5812f6a91f153be9f708ba4daf95342423ce50fac64c343d23d19df38a32"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 1465e0c159d9e3e56b69e7eacb208c41862b3c883f4e2410e81fcd962777f54d
+ℹ Waiting for tx completion: 1465e0c159d9e3e56b69e7eacb208c41862b3c883f4e2410e81fcd962777f54d
+✔ Tx completed

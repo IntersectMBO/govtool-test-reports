@@ -1,9 +1,0 @@
-wallet balance 100022
-wallet address addr_test1qrmk0rj0svcjeznzpclxnhlc4q272fzu2usmyx4asqud4u6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs62k4qz
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-Username is already set
-✔ Uploaded speculum metadata to bucket
-ℹ Waiting for tx completion: ae8cfd6c59800e4b6f03a6f07510e322f2381c1d77b34a803000dd9b1198ff6c
-✔ Tx completed

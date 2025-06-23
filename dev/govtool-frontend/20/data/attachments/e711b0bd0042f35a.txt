@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qp88327fmqjzlupx8wh0q3g5sgk0sl9v48pnejpjgtr3a62wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs9nfkvn
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded vehemens metadata to bucket
+ℹ Waiting for tx completion: 4f25b3fffda8ef20bc8a5ccf1fb6e9a7ab267046c49a6d70bc9e642d0d049868
+✔ Tx completed

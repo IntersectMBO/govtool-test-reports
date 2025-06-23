@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qzw5hpaqewnvuzgpzkeshh24np9egl53yakwzdndhzdjgpzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs6uj3tq
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded audeo metadata to bucket
+ℹ Waiting for tx completion: 9c3fb610a10177fe027342d961414a452a1ecef50d260f03a21140c9fbfad3d4
+✔ Tx completed

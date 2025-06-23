@@ -1,5 +1,0 @@
-✔ Uploaded Louvenia metadata to bucket
-ℹ Submitting tx: {"lock_id":"6268a33a3a8031c919f528559f1b3bf8e67acb2fe78bf85c4d41f2bfceafe0fa","tx":{"certificates":[{"type":"registerdrep","key":"455c0d914ffc5d03ece30e2ebd2c869e3be6cfc5202bc69cf6a60648","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Louvenia","dataHash":"fc180ae01835a7f6d178aeb8405e09c355582ed8cfbd0f25e9478f1d4e41b7d5"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58209fcf34801007166c0b44da29f88456396a87dc21eddc956b9e514763dc845dca"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: f0a1ed8abc32388b3575ac0ba2b048bc6b642758670c14712dc503ce87dd4310
-ℹ Waiting for tx completion: f0a1ed8abc32388b3575ac0ba2b048bc6b642758670c14712dc503ce87dd4310
-✔ Tx completed

@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Madilyn.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 703eee9f0bf86c45fd0f4b0cfe5fb275df0c26d63bd4748a4c5f16451be2532e
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed

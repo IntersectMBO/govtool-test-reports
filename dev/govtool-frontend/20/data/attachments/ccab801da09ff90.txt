@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Jaime.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 140641968e4afb357fabc06f6c7894a7de468026131ae1b806b34ad37a26a31b
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
