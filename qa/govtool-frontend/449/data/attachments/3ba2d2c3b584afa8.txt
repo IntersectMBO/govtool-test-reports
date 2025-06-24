@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qpwv8gza9pke7vg7267zuyamx0fwkqlhcxg7ycla8senazzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsg8pd50
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded veritatis metadata to bucket
+ℹ Waiting for tx completion: ce9d5fa77e3d43011d94e5b1573cae04681789d7a415593667423963c6cad440
+✔ Tx completed

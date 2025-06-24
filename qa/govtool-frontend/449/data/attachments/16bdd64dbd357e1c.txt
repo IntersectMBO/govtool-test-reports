@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qrqgx73phxmpdzuhae7jujrh0gzm709hq783wjq7zj2kwa2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs47jfmn
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded vergo metadata to bucket
+ℹ Waiting for tx completion: 9b03d71c32bc16b3e0e8f71fdb389df4698c47d0d3b951a461e3a7a45434ebaf
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Nathanael metadata to bucket
+ℹ Submitting tx: {"lock_id":"4a18978898023a4306ce5d29034c5ea3161be2d03cad8a4b54ed69c290b9427e","tx":{"certificates":[{"type":"registerdrep","key":"5f0804ae860946c0e9e3f8fe285741e911278351c43d8fb98f1f4ea2","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Nathanael","dataHash":"fdbb6f6e9fe1bea0ced3e7ddab3fb2486c420fc87d996cbd174602410bad3ade"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820fc7a7b10b14d184ea5aeccfa4c7ee0b95788ff062b62b38573ca139f6b61a178"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: f27fda10afd017021bd58d5d505ef959fabdec23e77028b780e9051b3c02a63a
+ℹ Waiting for tx completion: f27fda10afd017021bd58d5d505ef959fabdec23e77028b780e9051b3c02a63a
+✔ Tx completed
