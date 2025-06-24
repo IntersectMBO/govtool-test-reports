@@ -1,5 +1,0 @@
-✔ Uploaded Lila metadata to bucket
-ℹ Submitting tx: {"lock_id":"1bd86e0515730599a6e2d3c478ab13c14c86a279502b010430c6fb05fb0034dd","tx":{"certificates":[{"type":"registerdrep","key":"4135e97dca42186ebca2fd443f5d9de1160d8466ce5581735458b1c6","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lila","dataHash":"8f4cecd8baa79d220884e217bba2beaa872525e8b05480ac2aae786b203a7b13"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208c73b68b8e94c32ee10658a4eb0bb20dab5975e9abfab2af6448f60f0a7e5a95"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 902f5d8ce0c9b741dde866206266b7c75889869753623cc16b34f97ab4efd98b
-ℹ Waiting for tx completion: 902f5d8ce0c9b741dde866206266b7c75889869753623cc16b34f97ab4efd98b
-✔ Tx completed
