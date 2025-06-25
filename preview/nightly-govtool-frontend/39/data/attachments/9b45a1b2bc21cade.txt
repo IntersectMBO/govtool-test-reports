@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Rosanna.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: f925b789d37c10cb7fd8e83f6ecab36815ef342ee019f57d3c8de77b15f98cf7
+✔ Tx completed
