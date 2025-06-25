@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Cicero.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 5d8bd7bdb34a2760cd2e484c74481c4f8c29aa979ad97ff66380881409f4b2d0
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

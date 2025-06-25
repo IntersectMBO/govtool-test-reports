@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded guardrail-script metadata to bucket
-✔ Uploaded dolores metadata to bucket
-ℹ Waiting for tx completion: 579dec175c9d4adeed04094dcb6b17d97d90258080fa7ec8c550744dbd2b4709
-✔ Tx completed
