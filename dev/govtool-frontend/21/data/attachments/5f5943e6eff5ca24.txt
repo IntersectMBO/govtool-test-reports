@@ -1,0 +1,5 @@
+✔ Uploaded Glennie metadata to bucket
+ℹ Submitting tx: {"lock_id":"da2a7ac25437d2a9748d392daae010f0041c9b7b373bc1c1b691dc5a860edad9","tx":{"certificates":[{"type":"registerdrep","key":"a84cc151a6bfc8981e98fe30b33465bdbe9d595716cfed22fa564ce9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Glennie","dataHash":"977deaad992eab19ac3bf6e7c7f031344a87bd38a78441ca780fbb1d3b00e212"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820979fdbb1de7067f56ba3c9206a16c63b65720279f486d376b2517552c1e848c9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: ef8c9e120858081ac2ad92b0bf453c771e3c5cf290455bca7da3d1c8559d20eb
+ℹ Waiting for tx completion: ef8c9e120858081ac2ad92b0bf453c771e3c5cf290455bca7da3d1c8559d20eb
+✔ Tx completed

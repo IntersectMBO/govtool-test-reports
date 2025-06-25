@@ -1,9 +1,0 @@
-wallet balance 100022
-wallet address addr_test1qrn3nek3kmzjrjeq7k794qwangheeatm99xa3nqtv4htvmjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs0u4cpx
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-Username is already set
-✔ Uploaded doloremque metadata to bucket
-ℹ Waiting for tx completion: 55fad6273140901441c4c8dacec01b6def32e21252a00198584d95bb07594ccc
-✔ Tx completed
