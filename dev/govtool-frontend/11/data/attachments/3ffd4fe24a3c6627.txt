@@ -1,9 +1,0 @@
-wallet balance 100022
-wallet address addr_test1qq5lcq05l9q0yuvdr038unqcrc9ag8p5vdetrmu2j25np22wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsxxygmr
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-Username is already set
-✔ Uploaded confugo metadata to bucket
-ℹ Waiting for tx completion: fc565958197c8074027b13b92943ff223aa9549a6f8323b536bcebbc8c5f63db
-✔ Tx completed

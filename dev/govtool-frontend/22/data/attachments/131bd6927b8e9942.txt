@@ -1,0 +1,5 @@
+✔ Uploaded Alec metadata to bucket
+ℹ Submitting tx: {"lock_id":"4c67531ebf5c3b5dcd7fc02d4660b171aac53f03ba458554e9954ea1a3398812","tx":{"certificates":[{"type":"registerdrep","key":"fdfd38a3b987d2ce70c08c8ba6a233f22c6d0c906f762cf8354ea88b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Alec","dataHash":"f018fb77459ead8fb7947cbf65e22e4e4fe7b0ac328b94f94fbc04882984455b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582082e5551b752cbecd04472902dfff85b7b210397300e79775f3a284bf8a720b93"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: c439b7122e723011b4427e5bfe20b64fc4774e6c3cf436fd7310681ce1863d24
+ℹ Waiting for tx completion: c439b7122e723011b4427e5bfe20b64fc4774e6c3cf436fd7310681ce1863d24
+✔ Tx completed

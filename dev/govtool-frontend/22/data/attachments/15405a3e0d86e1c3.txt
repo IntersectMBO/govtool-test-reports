@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qp35trwsrpjvslqxp9dvcs2pjdgadpl8qs5feem2tlevzjzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs85ddjs
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded ultio metadata to bucket
+ℹ Waiting for tx completion: d63d93d5ac4a178ac4382f657f5bf35fab0352cff83ad0697ef1afff2e44e40b
+✔ Tx completed

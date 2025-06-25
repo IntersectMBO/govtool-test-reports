@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qq7ckzcv6gld6pm8plvgnknek2ek8xwwddxmu0rkgrmyq3jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs5rrddd
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded absum metadata to bucket
+ℹ Waiting for tx completion: 16d11d0a34d76bffbb394c71b6b04696d80373b12b8dc849ccd0d981e91c66e5
+✔ Tx completed

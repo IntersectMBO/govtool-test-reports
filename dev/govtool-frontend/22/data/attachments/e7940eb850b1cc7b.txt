@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qzzwf5dvm4e6qscgt4umd5v3h0gjpgx9vmurennn3tqm502wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs0efnj3
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded soluta metadata to bucket
+ℹ Waiting for tx completion: 25a4950cce9344fe4f2053864e6ebeb95e8db4223add76426b3829bb49b61e6a
+✔ Tx completed

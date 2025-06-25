@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Bryana.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 1fdd68094c188376318a361440ca991bf3a63d61c377fac6e2411233aa91f6ec
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
