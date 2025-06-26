@@ -1,0 +1,5 @@
+✔ Uploaded Pearlie metadata to bucket
+ℹ Submitting tx: {"lock_id":"2ababec1c1ba58dfae08a7f415d14f0cdd5847999a7f443455c008d8355c9df8","tx":{"certificates":[{"type":"registerdrep","key":"97b8c407c0375ecd99470c60acd8d7ad2f9c507724ab3f89d57ace12","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Pearlie","dataHash":"32bedfd21d9591c97e3108e0e034fb5c5dcebf8168206c905d06a6045dedae0f"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58209773aa98223191a55d5b028f7b9384c89f2afcc8a3467878d145a91bb133172f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 64cd24af24090348bf01468dd22f7c056258bfa3d0cd8bba08ebe5e49254c0f8
+ℹ Waiting for tx completion: 64cd24af24090348bf01468dd22f7c056258bfa3d0cd8bba08ebe5e49254c0f8
+✔ Tx completed

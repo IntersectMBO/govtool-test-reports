@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrayhlp6cw7mwzq7shwcqmstm93lrryduaruds9trtmlvfjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjszu0dnx
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded bardus metadata to bucket
+ℹ Waiting for tx completion: eede35403b0f5d3db8e6fe80a038f24c498c5b4675817e32a67e338f29511d94
+✔ Tx completed

@@ -1,0 +1,7 @@
+wallet balance 100022
+wallet address addr_test1qq0w4hwxj3n3fezsm47pffzvz02wmgdl9lcu080p0e48czjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsd6jsyw
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+4

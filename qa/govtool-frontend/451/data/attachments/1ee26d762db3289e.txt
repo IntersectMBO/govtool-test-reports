@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Oliver.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 4e7db6b9ce024b9757abc2bf58a44ca8a175c7106485a691ab88239556c4738c
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

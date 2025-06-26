@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qqw0mayed6m7svpjnk08lh9w3pd6kky48fh8cvmsuqfc4czwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs9rarmw
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded sodalitas metadata to bucket
+ℹ Waiting for tx completion: 220603e9e9e6c2a70f6f2bf7106b4785bc3782d48ede023a2978d8c859659930
+✔ Tx completed

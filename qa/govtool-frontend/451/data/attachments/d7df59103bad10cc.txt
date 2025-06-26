@@ -1,0 +1,11 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Lawson.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 50fbd9e1bc89aabf60a1134d668668c2ecb770adbb0ee4a7294d125f07dc8bb0
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

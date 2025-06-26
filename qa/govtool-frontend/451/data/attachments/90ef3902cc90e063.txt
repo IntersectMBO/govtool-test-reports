@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qpj37e9kehxsexfa88dmkzjuwattflzc2wqemu5aehfqlf6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsp43vju
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded tabernus metadata to bucket
+ℹ Waiting for tx completion: 5bddbfe1369d16e10d04d91a5e63c04c69a2dcaf5102193297aafa3237b40fda
+✔ Tx completed
