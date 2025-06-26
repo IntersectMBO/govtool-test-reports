@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qzh0cp8rlufhfcgukcj0pg8zvflcncy0p2qy9k29hxphgejwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsjlzqzt
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded conspergo metadata to bucket
+ℹ Waiting for tx completion: 7a842af03bc52941d862fcfd953b77ad0d81a953877ae9a637006eeedd98e452
+✔ Tx completed

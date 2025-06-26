@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Myriam.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 6251c18145bf0eb5fb86fbde7b946ee9ac8c50f9c8b69ea4c6b699a0591210bc
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qp44mrtft7fjsxmkz5xys6ccwkpdydj8j27lu3zxtlwl2jjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsy7aj8n
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded auxilium metadata to bucket
+ℹ Waiting for tx completion: 0d732b47248d70a8aa61e3560f3fddcaf3809d82c065cbdfaa36f7931db637d7
+✔ Tx completed

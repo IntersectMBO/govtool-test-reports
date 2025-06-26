@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qprvmjjsjqdzguwz5g2yne7kjvxagqwmlv82n274mxv29hzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsxn0h70
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded volutabrum metadata to bucket
+ℹ Waiting for tx completion: 13d810a893a70a0a3a0be9a94d7957fadd7dd3d43b7ad9b50a746fd8cabf0188
+✔ Tx completed

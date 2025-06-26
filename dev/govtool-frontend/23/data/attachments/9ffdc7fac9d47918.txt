@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qrswyqps3gqmhw8mr4stn3pc4cce607eh4yprj34whm7z22wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsjcq2u8
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+4
+✔ Uploaded avaritia metadata to bucket

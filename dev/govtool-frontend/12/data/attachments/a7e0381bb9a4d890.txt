@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Salvador.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: aada4d701543d1c7a6906f8007e47ee34e4441bf06c766fce1dfc59ad2911f5e
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Tx completed

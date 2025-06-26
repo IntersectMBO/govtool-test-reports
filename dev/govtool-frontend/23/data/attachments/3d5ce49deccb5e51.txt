@@ -1,0 +1,11 @@
+wallet balance 100022
+wallet address addr_test1qqzw0u7ml98qr4r6utjafhym8qgd4x9kxvmx25fuv2c6ax6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsgm0th4
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded guardrail-script metadata to bucket
+2
+✔ Uploaded desipio metadata to bucket
+ℹ Waiting for tx completion: 1482e4c7e59a4deda6397aaaa8f2d912563fbdad92906ef10a9fcab8321d2ed3
+✔ Tx completed

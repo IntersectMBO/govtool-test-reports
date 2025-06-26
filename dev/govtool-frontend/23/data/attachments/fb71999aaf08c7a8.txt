@@ -1,0 +1,5 @@
+✔ Uploaded Carrie metadata to bucket
+ℹ Submitting tx: {"lock_id":"641edda9610e089d67f2f8f4e9415d2a8ee2892cb656b7f46e9e7c54a1bd0f1f","tx":{"certificates":[{"type":"registerdrep","key":"46ba894e8de2e243ee8da74620264ddd65ba601ad82ccc66b93b89f7","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Carrie","dataHash":"943adbd557f4139ee4aaf3693db634dd97148b0681c12fed39f9a290d56dce6c"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820b180ffc01f88d80e1da7713bae52ce9523de4905f9df494c663754e6c326bebe"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 18178ca955212fe6c12ead2f7b01f46cb259fe862413012f7bdc54364fa9e19a
+ℹ Waiting for tx completion: 18178ca955212fe6c12ead2f7b01f46cb259fe862413012f7bdc54364fa9e19a
+✔ Tx completed

@@ -1,5 +1,0 @@
-✔ Uploaded Fermin metadata to bucket
-ℹ Submitting tx: {"lock_id":"2c22372412bb859632206abf49c4a4bf235e9621bcd9628af4eb20c3bbd5bd5b","tx":{"certificates":[{"type":"registerdrep","key":"79d464fa798112604c8f9d7c08de735cb6f53a20b17b6042d58dbd86","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Fermin","dataHash":"de3a7113af62c49cd9e455ecebe3b9813070a697d0458bbf47c24d32d4ad8d3d"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d675e29241f1233d621997733477d579d24c1916cb815c0267aacbced5b6b94e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: f1a540d7ed3183c644f1ff539fadab1e84e56232a5ca0b44a32c2bc0e34fab04
-ℹ Waiting for tx completion: f1a540d7ed3183c644f1ff539fadab1e84e56232a5ca0b44a32c2bc0e34fab04
-✔ Tx completed
