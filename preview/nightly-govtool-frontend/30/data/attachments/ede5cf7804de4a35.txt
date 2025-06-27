@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Lowell.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 891d6c2cfd5fb45dbd8059a451c1927b92fc5903876475d2149769d3c7dca3f7
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()

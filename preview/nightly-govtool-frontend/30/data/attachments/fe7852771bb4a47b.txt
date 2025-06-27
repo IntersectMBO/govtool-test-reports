@@ -1,5 +1,0 @@
-✔ Uploaded Caden metadata to bucket
-ℹ Submitting tx: {"lock_id":"2e29e8ae0b26e1b25cf7e298d169f39971bf8678c82e57298e3cca8b3d547a51","tx":{"certificates":[{"type":"registerdrep","key":"98f1052aee47e3ee95c33a8c00427db65217cd62aa66c18dbc90389b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Caden","dataHash":"e3a71f8ca72ed00f69f5070ed259e4603c52d04aca8409be9a4a184ab015ec19"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582051ef074fcff71d0c258f9e627ad810b28bd8b59ca589a0b6f7272f795a79da46"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 6723ebf1b51f278303214dec22c890bf0521f4478d07d81ddb3ad410c9e68785
-ℹ Waiting for tx completion: 6723ebf1b51f278303214dec22c890bf0521f4478d07d81ddb3ad410c9e68785
-✔ Tx completed

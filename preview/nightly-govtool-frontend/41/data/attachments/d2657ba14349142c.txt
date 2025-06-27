@@ -1,0 +1,5 @@
+✔ Uploaded Conner metadata to bucket
+ℹ Submitting tx: {"lock_id":"43b61cfb0f2bed42b99e9e673518f654c3ec78136a03982249f9fc9ad307eef3","tx":{"certificates":[{"type":"registerdrep","key":"74377b1aa9546ac559c337000b8b33840382a464a29a16934ef1a79b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Conner","dataHash":"34709feeff71831fbb74e0368b3d84b1b3002e41f61a795862f2639242d86356"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ca8606c6827c640d432dc3d087876109186cdcb24508063cb4e6acc6be36878d"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 27298741bcf8d1740c32a3c0845dcec500dfcf54d01d52bde84c866073e36d84
+ℹ Waiting for tx completion: 27298741bcf8d1740c32a3c0845dcec500dfcf54d01d52bde84c866073e36d84
+✔ Tx completed
