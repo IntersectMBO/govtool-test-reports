@@ -1,0 +1,5 @@
+✔ Uploaded Kiara metadata to bucket
+ℹ Submitting tx: {"lock_id":"80388d806055ce06e73835caa44af1761475596ca25ea840c45e90d192a1c2d4","tx":{"certificates":[{"type":"registerdrep","key":"2d7ce252f0b8297eee399116a7e710bab2acfedff638a395f994954c","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kiara","dataHash":"f51d1c2aa4747a63cc7fc87e8d61c884993c9f41405c1712c21b5a26814b5b8d"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820061f6a7bd86e8084be6e946f1ea08a3aeac7bdca2f47c453e3018f1a7e636da5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 9a1b34bd0a35b6beb42d923729ce42a4aa13d38a8b9566a9386931afda7d6771
+ℹ Waiting for tx completion: 9a1b34bd0a35b6beb42d923729ce42a4aa13d38a8b9566a9386931afda7d6771
+✔ Tx completed
