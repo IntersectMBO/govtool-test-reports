@@ -1,0 +1,5 @@
+✔ Uploaded Fern metadata to bucket
+ℹ Submitting tx: {"lock_id":"ba7f2563d86200e6dcf815881f8e1479f7b02add7cce96d75e32c2f522aadb07","tx":{"certificates":[{"type":"registerdrep","key":"d93a5fc501e5a968c4086539f00daea13ed46ce4fbc54e95f6d9d7a1","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Fern","dataHash":"13e88b1e8756dbdc4ce9269ea8e77f8dfb6b1847b701ec556b0b259b67bb3359"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820293ed31155bfa7cb8faee22e791f93837f4033a12ebea481aa5053b8ad94e758"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 5754a9cf7d8ec41c23656d0debea08274e80251227d56cd8225119b8cc376fb8
+ℹ Waiting for tx completion: 5754a9cf7d8ec41c23656d0debea08274e80251227d56cd8225119b8cc376fb8
+✔ Tx completed
