@@ -1,0 +1,5 @@
+✔ Uploaded Oren metadata to bucket
+ℹ Submitting tx: {"lock_id":"3783b051e91a7748087a65d15e9752a3926b42674f115004e2999e442b717428","tx":{"certificates":[{"type":"registerdrep","key":"9081b86d5b80ddf5aa665f7c9b6471a49b1b027c1dc9b20ec14843a8","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Oren","dataHash":"097331bc0f8583ea653ed20cbb817bc2101101777f56ecf83df74ff9ca89fc3e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582094a2277bec5b80a2f6ed3826b8bb37eb43128e421c6ab6f880080304a61ff616"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: e84ffd9419eaa6b7ae85e20ca6cbd8b511775aa047056d21a5ec3eb1522a3105
+ℹ Waiting for tx completion: e84ffd9419eaa6b7ae85e20ca6cbd8b511775aa047056d21a5ec3eb1522a3105
+✔ Tx completed

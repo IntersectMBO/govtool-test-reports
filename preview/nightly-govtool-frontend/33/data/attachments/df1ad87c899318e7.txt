@@ -1,5 +1,0 @@
-✔ Uploaded Kattie metadata to bucket
-ℹ Submitting tx: {"lock_id":"7e9d31820e0dc93bdfc2081965c53c4d00a7ebb68a14d443a2ddd5a1aada66c9","tx":{"certificates":[{"type":"registerdrep","key":"be789720d43ad46857314cbd2460666a08c0adb085cd1b37e8fe9258","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kattie","dataHash":"1facdaa0169deb3e400998fe8097f82586a3e90a4bc5269553f996fc8a1e5de2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208e2626a77d7e68e5c17f88ad2e2f20f0b06841f919fff4865ffccf27db9d052a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 97e627bde0eb7fda6ca9aaf2410c781d7b607196135db7bd8149a8d413fe30d5
-ℹ Waiting for tx completion: 97e627bde0eb7fda6ca9aaf2410c781d7b607196135db7bd8149a8d413fe30d5
-✔ Tx completed
