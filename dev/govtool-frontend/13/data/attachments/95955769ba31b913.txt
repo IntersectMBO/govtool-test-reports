@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Lorena.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: a128e215e1a63dcddb0157c5ca0595a8ff1ff8462f4d7a6bdd7c2f5f3d56a90b
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Tx completed

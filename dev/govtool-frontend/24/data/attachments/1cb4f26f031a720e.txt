@@ -1,0 +1,5 @@
+✔ Uploaded Novella metadata to bucket
+ℹ Submitting tx: {"lock_id":"a59d18bbd2acb6ae765a8e7111cb4d2b73faaf84ef099e1306e689ae8560f62a","tx":{"certificates":[{"type":"registerdrep","key":"1693ae03a391fca97355ea2f3e38ef77150ba384be6862be9c166be0","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Novella","dataHash":"fd983a98ee49208988059753bc536104f4efecae8d3811807af902624584e3c5"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58203634a97f31ae43d6e39a05118bcf2a095f86b0aa3111525e6dc6179eb0b89437"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 5c52691bbdf17cd3c9dfcd803bae902a6096e9983d0c015b41b309e6f2624543
+ℹ Waiting for tx completion: 5c52691bbdf17cd3c9dfcd803bae902a6096e9983d0c015b41b309e6f2624543
+✔ Tx completed

@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Bernardo.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: eca4039af7f0a9da98c639691cdfc5021ca5d9c2fd241d5b39d96cda0e33a3d3
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

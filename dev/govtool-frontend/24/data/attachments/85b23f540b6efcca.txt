@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrkk67fr6hadhjj920vj4r0fr2m2pwfeqhesjg5aqw73n26wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsxahmq9
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded deinde metadata to bucket
+ℹ Waiting for tx completion: 8f6918be1e1762cae1a378882d0b4037e0e7176ce69ce4f874a170edbc4d837d
+✔ Tx completed
