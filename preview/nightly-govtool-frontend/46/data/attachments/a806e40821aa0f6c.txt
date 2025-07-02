@@ -1,0 +1,5 @@
+✔ Uploaded Alessandro metadata to bucket
+ℹ Submitting tx: {"lock_id":"077cac7d82836ebd1dbf47c467d94bf4ef8d16fab1bc5741f0d9e24680f674f3","tx":{"certificates":[{"type":"registerdrep","key":"83e9021d9b610cc48c40f1eae263d4ba98de1b8ea5804137c3273b25","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Alessandro","dataHash":"d03a3ecde87250b8aeca4fa14fe4c70aa5de41e68b61ac2d115a127245152b90"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820b28f8afc40ab34d07ecc43a5ad6ab44e54a2a2a5e5591b254d43d73357a264fa"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 7d89d3c8faf4310e87e7d21c4f6c5ca59e693332863223c3f5b2a34a538ef76d
+ℹ Waiting for tx completion: 7d89d3c8faf4310e87e7d21c4f6c5ca59e693332863223c3f5b2a34a538ef76d
+✔ Tx completed
