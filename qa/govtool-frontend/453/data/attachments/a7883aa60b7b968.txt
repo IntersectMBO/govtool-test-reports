@@ -1,0 +1,10 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Aiyana.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 519396660ea6b502f6c3bdd10935da755c9840eb95e61b6eec16574d00ffd8df
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

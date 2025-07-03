@@ -1,0 +1,5 @@
+✔ Uploaded Laurel metadata to bucket
+ℹ Submitting tx: {"lock_id":"1927338d4695de9a05c22a14929971e937b3cd1ad5ee7ebb7e3022e26dd67be4","tx":{"certificates":[{"type":"registerdrep","key":"becf53da891a535e10d0f36f94b3e85b159e4e19253aac0fac505ff1","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Laurel","dataHash":"46fe1affe420d112d2328e48e209f1774f79055e3134c27c13cd02e8c24ecd66"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a02b2da6fc876da9dc1b3dff9b3160426fb24854cf19d1ef88f6ba10d08dc4f9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2f8513d9ff2c0fb6b317e55c7de2a9fd499c38c760f377316ff3157555a43cdf
+ℹ Waiting for tx completion: 2f8513d9ff2c0fb6b317e55c7de2a9fd499c38c760f377316ff3157555a43cdf
+✔ Tx completed

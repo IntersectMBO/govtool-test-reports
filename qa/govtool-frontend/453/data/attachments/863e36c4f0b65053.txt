@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Erik.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 557a4c0e69abae5d548f5104e50eefbc929cc55196f731e95348d1abc45faeb6
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
