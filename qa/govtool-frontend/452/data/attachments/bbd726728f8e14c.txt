@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Josue.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 610b7bccc39291e787e1a69914b3a72ffea6bb60b056cf2d024d9d0b1e419328
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

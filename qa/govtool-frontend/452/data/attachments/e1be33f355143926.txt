@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qztph4g067c8e9uyjzpf6u9e3qhytpfxeluqf67rhzftsqjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsf7t0km
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded desparatus metadata to bucket
+ℹ Waiting for tx completion: 232497c020efb3d8d1ed309709ad18bc42a63d8e81c6529e135a654b8923053c
+✔ Tx completed
