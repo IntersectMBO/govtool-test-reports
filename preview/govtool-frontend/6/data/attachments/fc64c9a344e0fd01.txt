@@ -1,0 +1,5 @@
+✔ Uploaded Cody metadata to bucket
+ℹ Submitting tx: {"lock_id":"28c3a094382cad766a8b60ff844767d02c347262f8ef392f9f46e1d5386e97f9","tx":{"certificates":[{"type":"registerdrep","key":"3cc4ad0d80d958b6a7cf00cabd42ffce0d23832dee3f106aee145f4b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Cody","dataHash":"5329714f38e3f18afa2030a29d8fd7438d984f2e4182e1b7bba31580df99ca7b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202bf52bbc0da638fb150ec179236726b37aca14c1e96aebc1dbf6d8b249b4d8b9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 5f60d67719e6355b4c117a2037ce2b875b8b19a26b21bc7ac5b970b78c76bf5a
+ℹ Waiting for tx completion: 5f60d67719e6355b4c117a2037ce2b875b8b19a26b21bc7ac5b970b78c76bf5a
+✔ Tx completed

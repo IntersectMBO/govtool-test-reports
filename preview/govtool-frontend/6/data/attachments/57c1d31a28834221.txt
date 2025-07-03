@@ -1,0 +1,17 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 4057b8ccca0a332d35f25ff78205aa60420aec3ac66505e4c9cd116bc8155fda
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 400 ()
+✖ Timed out 90000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByTestId('alert-warning').getByText('Transaction in progress')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 90000ms
+  - waiting for getByTestId('alert-warning').getByText('Transaction in progress')
+
