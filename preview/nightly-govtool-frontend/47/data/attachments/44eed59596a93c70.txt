@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Virgie.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 2855c64a8ce778ce504d0f28b80cd5ced174a3f6eac26b7f1cef00c145825f3d
+✔ Tx completed
