@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Samanta.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: b8f77b749f2ae824c108709efbfb12925fbc0c8c9f8b7b255115ab15eb21d312
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
