@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Emma.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 0eb666ef2ff1aa90cfc1377b8c5716dbde7d1ed674fa129cab407fc1e031f20c
-✔ Tx completed

@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Jett.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 012d8ae649887dd5ff86f2e463c68aa011af637bf4b2fd2a8af6a1a523a17877
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Maud metadata to bucket
+ℹ Submitting tx: {"lock_id":"bff0cc7918fb1d957801f7187cba71c06177ff6110946bee380a828a02a34e64","tx":{"certificates":[{"type":"registerdrep","key":"5203a22d5bd3731402e7f73783ed0f45bb1a9b041234dc7de34d9301","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Maud","dataHash":"6ec254cd59cf0f202fd971e6897e78836b42c2957c8adaf857094bb15e6e055d"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582079f7b007a4f18b0a0edd0be100a4676ed58a44f1bd47695d37819ffedf156f9c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: d18232e6be52328acbdc8e6e3c209fa84cb08664f53526bbe5c827a19bb6d75a
+ℹ Waiting for tx completion: d18232e6be52328acbdc8e6e3c209fa84cb08664f53526bbe5c827a19bb6d75a
+✔ Tx completed
