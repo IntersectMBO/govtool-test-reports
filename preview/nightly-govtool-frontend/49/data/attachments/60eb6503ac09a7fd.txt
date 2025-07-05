@@ -1,0 +1,5 @@
+✔ Uploaded Neha metadata to bucket
+ℹ Submitting tx: {"lock_id":"704fa17d9c5b93f1d1d8f932c1e03c715f0b5df7a54a4d186c575aca1a6c0ca6","tx":{"certificates":[{"type":"registerdrep","key":"e4e6b089940692767c27ebcfa68a6e4f8bc458bd441067bf865bb2f2","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Neha","dataHash":"9c569c22d6794c2822cd0af49bd33f53e7499e572a0c131f388ab1a7fb5f4433"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d2aa3b92e71ff8d2845a8aa968da011b54f127dc0ad793799e5a9c2ee41e758d"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 76205230a538ea4eb38bdeacfa56500c8f65d3c2c545b761bdd6e6a519b53a5f
+ℹ Waiting for tx completion: 76205230a538ea4eb38bdeacfa56500c8f65d3c2c545b761bdd6e6a519b53a5f
+✔ Tx completed
