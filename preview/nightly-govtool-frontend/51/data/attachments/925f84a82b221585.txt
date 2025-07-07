@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Elza.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 0b9c1574ceefe13cd000c1ae8fdb60e2dc8c7815d88cbcc9eea489caeabdd7ae
+✔ Tx completed

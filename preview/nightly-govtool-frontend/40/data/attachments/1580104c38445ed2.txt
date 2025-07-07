@@ -1,5 +1,0 @@
-✔ Uploaded Kristian metadata to bucket
-ℹ Submitting tx: {"lock_id":"e1fcff8eabee6eb6d440cd6a76bf4d4451921f5427d882e5f1bfa99d6cbc6392","tx":{"certificates":[{"type":"registerdrep","key":"d3302368ddede9887a38ae56daec7008664143d2f516b74ffcae473a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kristian","dataHash":"894e0ab7a6f370da724a33a1acc44159e70636600d157a30e2547f98a625c994"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582093489ca539d96756326e813290cadb232bdfd7805a146ac2252ee8d2d278810a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: df43dd29ca4920029477a7a3bf9b5dbf45b82dbaf55f3a77cfddd7cb48290dcc
-ℹ Waiting for tx completion: df43dd29ca4920029477a7a3bf9b5dbf45b82dbaf55f3a77cfddd7cb48290dcc
-✔ Tx completed
