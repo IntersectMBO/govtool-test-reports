@@ -1,0 +1,5 @@
+✔ Uploaded Hassie metadata to bucket
+ℹ Submitting tx: {"lock_id":"e85c1bd68205e8b29c81781c1267aa5146929fd1f14e6febc97a2da7e2923f47","tx":{"certificates":[{"type":"registerdrep","key":"f36e820312f2a4fc74ececd216219a6b2ae51086a996b1fa1202d54e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Hassie","dataHash":"4997abbb9f7ed93184793d9b3a13242e5a65e50d86af714212a5fae1f252b2b3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820c29a6074cc4a4aaa23c6f560e3093f246cc3ccf271002520884b2a67818e69c2"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 14a82cc48d9622b7af5b753f20929551a6a4a8465d724c6a47de86d97586efa4
+ℹ Waiting for tx completion: 14a82cc48d9622b7af5b753f20929551a6a4a8465d724c6a47de86d97586efa4
+✔ Tx completed

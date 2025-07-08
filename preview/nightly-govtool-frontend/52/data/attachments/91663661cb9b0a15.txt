@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Ariel.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 0bfe3d107dc569db469ee6df6a663057e0228130fe3e140c970c4d0e1a45b4cc
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
