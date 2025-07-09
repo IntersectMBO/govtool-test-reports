@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qzxat6vzl3my7rq5mqxdtay3n4u6vw85j2szj2rddmte4w6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsvsmvjc
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded cattus metadata to bucket
+ℹ Waiting for tx completion: 1ed2479b2abab685bd0c148e880d9b4c006bf21991b0b5a0000e66df62d6ee4a
+✔ Tx completed

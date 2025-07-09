@@ -1,0 +1,5 @@
+✔ Uploaded Gudrun metadata to bucket
+ℹ Submitting tx: {"lock_id":"8673946c6031fcde52ea1ce0e81f7057712b177754c1e1e6ad05ff2ae8229487","tx":{"certificates":[{"type":"registerdrep","key":"aaa89927fc081a1185b6a04a83fcc92cb6ac0359be64438c94ce2aa4","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Gudrun","dataHash":"9614b921fca9e3b449bedd1df63d8d98202cd89489a97ed9b40277cbddc23aba"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200759a35d58e55003922985ac9369a8e51b945c8959f97ad544904dfe3781f5b8"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 15d85c5c64ed3da13a5e09ad5a47186db24895a96845627c5c3f4e01f57295a2
+ℹ Waiting for tx completion: 15d85c5c64ed3da13a5e09ad5a47186db24895a96845627c5c3f4e01f57295a2
+✔ Tx completed
