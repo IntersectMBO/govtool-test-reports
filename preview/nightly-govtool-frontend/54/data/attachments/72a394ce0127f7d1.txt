@@ -1,0 +1,5 @@
+✔ Uploaded Ignacio metadata to bucket
+ℹ Submitting tx: {"lock_id":"81a4cc84e5588cd33eea718e69bb0bd665506485758a0620617b1d210e016fb2","tx":{"certificates":[{"type":"registerdrep","key":"c95a8115bacff3b9d68c25d05b8745ab00423025de2a9e79d9f64c8b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Ignacio","dataHash":"4beeb4f0e1c907edb84e4bc78dbe1ad70e7f60860f5fc7fcf9d9a3366ca3478c"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200bb816a746ede10ad840815ddcf047dde3278652c9e8f831f983079872352dc5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 4c4e7f95fa817b16f98d22f4c962cee6667304df9d94c558ce5d2c8c6f1a2f15
+ℹ Waiting for tx completion: 4c4e7f95fa817b16f98d22f4c962cee6667304df9d94c558ce5d2c8c6f1a2f15
+✔ Tx completed
