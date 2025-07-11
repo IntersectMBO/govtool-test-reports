@@ -1,0 +1,5 @@
+✔ Uploaded Kelly metadata to bucket
+ℹ Submitting tx: {"lock_id":"82c8d85482daf585645159c16246fcc6e93850d000542c2460fa4a1388650e99","tx":{"certificates":[{"type":"registerdrep","key":"2d6b92d4d4b010d38acea539de5e302ca12c8b5888386e72709a6558","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kelly","dataHash":"55481f2bece7300e28adfd5ea38303105a3dab82562298b55480badf929c28df"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58206e95075a32ccf5484795b37791b5e2867d5b1e6262033992b7d6011943f47e47"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 963a5e8c6826ce921836e1ab28d1b68e206396d5ada10a49faa2bf91c20c730b
+ℹ Waiting for tx completion: 963a5e8c6826ce921836e1ab28d1b68e206396d5ada10a49faa2bf91c20c730b
+✔ Tx completed
