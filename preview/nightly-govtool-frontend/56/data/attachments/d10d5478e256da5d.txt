@@ -1,0 +1,5 @@
+✔ Uploaded Olaf metadata to bucket
+ℹ Submitting tx: {"lock_id":"21ff03bb7c0136ee5b9a7f20a0ce1dbf90fa51b5e75348a4f90eaec934aa5885","tx":{"certificates":[{"type":"registerdrep","key":"fc469c69bc35b3b94920e2a924dc65cc678f49df7dd1f427c105447d","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Olaf","dataHash":"2e4b6098b3626de494411dc337a684b7eb213cb4f5cf07461fe815433d74416c"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820439895792a00d62dc2b4835b369a6a6f979405c04371ed74bcf965cf306146af"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 582cec7639e19fb7bddc40a588d3d075abe52c097dfc72e8ca76f010581b243b
+ℹ Waiting for tx completion: 582cec7639e19fb7bddc40a588d3d075abe52c097dfc72e8ca76f010581b243b
+✔ Tx completed

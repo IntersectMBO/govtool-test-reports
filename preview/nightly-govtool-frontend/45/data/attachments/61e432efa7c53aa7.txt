@@ -1,5 +1,0 @@
-✔ Uploaded Watson metadata to bucket
-ℹ Submitting tx: {"lock_id":"8d3ff0fde58ad2cf879389fd6f577419c729c9bca7ce21b554fb8f2b1cfeae2e","tx":{"certificates":[{"type":"registerdrep","key":"f05df19f697b69f8002bf5ac2c8315e3b8c32f513c6ad3b48603529f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Watson","dataHash":"7386190528f3b3c89b86dd5ec58047c89c852b452c1702ad8c00e65f42e97651"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d6b44a1bef0d0658d5819e6b812c808540d207d7fd03debe60c6ecfd19d9a61c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 95ea0491cc4eb4f7ef36f9d71112470afbd704a51e523c44de371c9b0c6d27b5
-ℹ Waiting for tx completion: 95ea0491cc4eb4f7ef36f9d71112470afbd704a51e523c44de371c9b0c6d27b5
-✔ Tx completed
