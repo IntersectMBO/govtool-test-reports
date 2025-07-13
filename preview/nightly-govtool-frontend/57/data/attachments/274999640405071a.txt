@@ -1,0 +1,5 @@
+✔ Uploaded Demario metadata to bucket
+ℹ Submitting tx: {"lock_id":"3ec1d030c2cfa3d7090922ac91bdc070c3835b350ab7eaf61b8c0ade99817f78","tx":{"certificates":[{"type":"registerdrep","key":"80d5469081d9ff237e21d43b77148c67f44c21b6e73915451ca78b4a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Demario","dataHash":"b19cae1fc58661ad531bf62f9998bc07a23a9c0072798e8c6efbb4f9fe03972a"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a526c427dc26434cc602771c05204c21e772d4cf745b7702211c48ac8de4c3fb"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0488062091d7085c619e1cf010383aeaf4f4c8aa6c61e406ec9968a57f44f529
+ℹ Waiting for tx completion: 0488062091d7085c619e1cf010383aeaf4f4c8aa6c61e406ec9968a57f44f529
+✔ Tx completed
