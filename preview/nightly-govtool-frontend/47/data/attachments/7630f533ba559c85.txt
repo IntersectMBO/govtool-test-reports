@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Laurie.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 90b0a1ca552fd5592081fed7d8a0224f0e74b7e9a0b1884c705969bb0e8b41f5
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()
