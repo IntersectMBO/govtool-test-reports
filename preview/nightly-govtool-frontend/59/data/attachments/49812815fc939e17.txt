@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Filiberto.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 0d84d8d126c4ac899832200fd00aded66c8258b674c8a28cb03b59c4f6d2eba0
+✔ Tx completed

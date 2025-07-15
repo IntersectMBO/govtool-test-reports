@@ -1,0 +1,5 @@
+✔ Uploaded Laney metadata to bucket
+ℹ Submitting tx: {"lock_id":"125030b03cceb66d7fa0aef297b599d57801d3af5aa5b3cdd937183c8c910178","tx":{"certificates":[{"type":"registerdrep","key":"3b6ed6288a9a4c85712e6fda335153a7f90782e3c930a536d20663f9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Laney","dataHash":"6daec886c5f114f3721894cf2e654473a29e606d1beb2979ceb1ce263869b6a0"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820bc8d08103f054d7664bc4f0e909c1f7bd62f151b313732dd12684d256dbd65be"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: c04b711d421e4ed4a8deeeb749a6ef778803a814995112f33977c3477814954e
+ℹ Waiting for tx completion: c04b711d421e4ed4a8deeeb749a6ef778803a814995112f33977c3477814954e
+✔ Tx completed
