@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrz248lczxjjfzztjsvwgsmhfqp4hkmv39g99jrj3vgct6zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsxfu3sl
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded balbus metadata to bucket
+ℹ Waiting for tx completion: 8af5b074dba810db7fe35540702f825f746d5ae3206daad6d1796de803fb436f
+✔ Tx completed

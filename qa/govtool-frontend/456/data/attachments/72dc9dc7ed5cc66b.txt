@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qpf4jnxwkup4qdrzemt70sz7vtpzuwvsq2zhrzkgp7m8gjjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsxxdcfa
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded arceo metadata to bucket
+ℹ Waiting for tx completion: 8aa05d17cd9dc3aa4e8b9b5bddaef91d5fe4dd18519939d6205cf23e9c5037d4
+✔ Tx completed

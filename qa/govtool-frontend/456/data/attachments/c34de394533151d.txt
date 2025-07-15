@@ -1,0 +1,5 @@
+✔ Uploaded Avery metadata to bucket
+ℹ Submitting tx: {"lock_id":"e2c70022309437f83656e1f786329c0157d41c56821b453c5eb9ddb0ec1a07be","tx":{"certificates":[{"type":"registerdrep","key":"530f2b5eb946fa377c1db75d2d6e376ce1bbe26bfe679049c40b8f2d","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Avery","dataHash":"d754fc700c8a08f056f4f389a39a0d6925e11822f65302194578c7e37af9584d"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582052257274ed53572adf183810d2dfd9335c2842b46d7dced9d0fdea5a1f8b89cb"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 76dcbc11c68a865483f031d46a8455914c28cfb6e2b9209e19c1f7c4698ff34c
+ℹ Waiting for tx completion: 76dcbc11c68a865483f031d46a8455914c28cfb6e2b9209e19c1f7c4698ff34c
+✔ Tx completed
