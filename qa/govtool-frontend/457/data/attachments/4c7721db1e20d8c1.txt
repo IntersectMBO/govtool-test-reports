@@ -1,0 +1,5 @@
+✔ Uploaded Cleo metadata to bucket
+ℹ Submitting tx: {"lock_id":"52881bf3b13572584bde48f1657e1c8d577a81e449e515cbfea6810d239f0091","tx":{"certificates":[{"type":"registerdrep","key":"998a1579a384168191a4e78ee2aff1a0112403496e340e45d5707f8e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Cleo","dataHash":"54586cde97019a5b28045f136db46c4233a6e72ac4f5b7a4bf22d72e985dc867"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a4ad56236d01c56baaa7a8f7655cbacc28f49ee0e59062cd9c9b8d6031c39f0d"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 91954ca0b8627ada3ebf32be0dd235df2695ff7e1688ac3d1ec0246e26f3e635
+ℹ Waiting for tx completion: 91954ca0b8627ada3ebf32be0dd235df2695ff7e1688ac3d1ec0246e26f3e635
+✔ Tx completed
