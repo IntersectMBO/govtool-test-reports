@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Emmet.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: b98e59e22fbeac4a9937398c9abaae8d5e6d2ba161abe85a3df6d0e1628946c8
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Access to XMLHttpRequest at 'https://z6b8d2f7a-z2f6a992f-gtw.z937eb260.rustrocks.fr/validate' from origin 'https://p80-z6b8d2f7a-ze34e4cb2-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Yv
+✖ Failed to load resource: net::ERR_FAILED
+ℹ Waiting for tx completion: f6da3eca6fc4f3c7b0559cc7899d4221200982ec546bc28886021c9fdfb396e2
+✔ Tx completed

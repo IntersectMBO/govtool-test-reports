@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Sydney.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 12bce1f13eb0249c71510b5a9ee82b767196983f5a7e483d9818a4a8afcf5b9b
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
