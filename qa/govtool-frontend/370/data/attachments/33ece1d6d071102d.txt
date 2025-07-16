@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Charity.jsonld metadata to bucket
-ℹ Waiting for tx completion: 5d98abdab941ba74ff5e29509da9472442a75634bd8e0890a0b8e9914d986dbf
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()

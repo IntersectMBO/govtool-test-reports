@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Adrian.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: bf3e09518c27881c03a6a2abb5e4c58be5c38847dd9d2571742714ffbac4f6e9
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

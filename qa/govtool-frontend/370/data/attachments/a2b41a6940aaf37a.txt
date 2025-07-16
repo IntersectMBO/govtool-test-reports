@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded nobis metadata to bucket
-ℹ Waiting for tx completion: 51e231130b0e52fda769cd3cba95cabdf53d857a8293a7de5bdcd93efde36fb0
-✔ Tx completed

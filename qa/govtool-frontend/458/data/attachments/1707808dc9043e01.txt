@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrygnl455z7ueaylnfh7adeapvfhp2emqv9mga942kdcxxzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjstd0350
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded aestivus metadata to bucket
+ℹ Waiting for tx completion: d452eac46c394950b4d70508f748e98424ab19329e8be715b88c47018cdc8480
+✔ Tx completed

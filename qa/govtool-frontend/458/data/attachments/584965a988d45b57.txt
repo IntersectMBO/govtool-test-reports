@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Emmanuel.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: a5d21468e056a90eae4e744ce1fa7367311d241c9558783e16325059fb56230e
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
