@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Delpha.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 66667f5ecf5648a328daa0f74d135253b6c45220bd14118a4dad21b6ec3e511c
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

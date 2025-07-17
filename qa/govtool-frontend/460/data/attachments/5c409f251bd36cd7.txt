@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qqhmctjw24rglz3n3fh02q4ezd9kscp8y6q080msqydjttjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs9nyqre
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded xiphias metadata to bucket
+ℹ Waiting for tx completion: 331b2bf476a9a2c344b29767e278f4e7c3f015b3c827e27f6a6fbd2b1e3d2252
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Carroll metadata to bucket
+ℹ Submitting tx: {"lock_id":"2077e86f751fa84b78ad012f669a3bd7ac9e5b8d892c8dd5ffe1c86aa3539b91","tx":{"certificates":[{"type":"registerdrep","key":"e7ba9ef2e03cf5c17ecdbbf115c48de067c6e64dd83c8655e45ae477","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Carroll","dataHash":"e979ff5f509b0e588d5fdaa6e32387246a165a7c9f128da8113dff4a87decfb8"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820afa483d76848c7b5f5419b1f895aba2f5f8403e9ee7a4ebfc417a97a7c750361"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 052d36bca1ebaa298424d4eca6ce43a82dade97e7e47ec0577f14863acd9a029
+ℹ Waiting for tx completion: 052d36bca1ebaa298424d4eca6ce43a82dade97e7e47ec0577f14863acd9a029
+✔ Tx completed

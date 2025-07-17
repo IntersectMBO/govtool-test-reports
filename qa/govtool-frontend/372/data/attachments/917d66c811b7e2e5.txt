@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded timor metadata to bucket
-ℹ Waiting for tx completion: 20e4c0acd3059ec9e49b8310ea8da3ffbbad5aa56ed5cd4376c8890c6fbdf693
-✔ Tx completed
