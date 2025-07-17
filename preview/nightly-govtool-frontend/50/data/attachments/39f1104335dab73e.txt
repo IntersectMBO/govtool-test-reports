@@ -1,5 +1,0 @@
-✔ Uploaded Willow metadata to bucket
-ℹ Submitting tx: {"lock_id":"da0941ea3129ae9597d65f27d548a5c4fdf4d38212e65790410ae4891950f23c","tx":{"certificates":[{"type":"registerdrep","key":"27febd12d3fd0cabe8af88e71a3965b9920f2e601b3b145258bed242","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Willow","dataHash":"e7614e43f6386b9aad14acee5f5866d185465302cd096b083b04c8f0145ff23a"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820b3a6e6380295cd405dbce7b30ddb1a5ebb54b1c8f9013199cb176ee2580e9fb3"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 6025669bfe6cccb9d2fb01ee3690c93ed79e8d7853a4edf614d270cde3a920e6
-ℹ Waiting for tx completion: 6025669bfe6cccb9d2fb01ee3690c93ed79e8d7853a4edf614d270cde3a920e6
-✔ Tx completed
