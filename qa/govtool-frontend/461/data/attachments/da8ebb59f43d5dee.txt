@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Armand.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 5890c98c9f7ba91b2f693f92bed510e6b58964ff929e5f09ae71c8f9a060baa8
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qqm66p8xw3krg6zww4f3chlpu2v6fxkz3ahufywvkw5vdajwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjshddls0
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded umquam metadata to bucket
+ℹ Waiting for tx completion: c7093489c0ce5b0430e4ee755927c0292a7fa0fe79bff46a27925c7032f20753
+✔ Tx completed

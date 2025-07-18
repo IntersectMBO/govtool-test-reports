@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qp9fy6w7lxygvl4axdqh6xudfn67u040l67d5fh43yk80cjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjshzvry6
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded alienus metadata to bucket
+✖ Failed to load resource: the server responded with a status of 400 ()
