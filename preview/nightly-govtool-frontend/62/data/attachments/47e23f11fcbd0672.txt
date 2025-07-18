@@ -1,0 +1,5 @@
+✔ Uploaded Chelsie metadata to bucket
+ℹ Submitting tx: {"lock_id":"ad86b5db9e3ca6581e0de3db28e5b2c4e0f999ce8584c4d41cbc3c34196d1324","tx":{"certificates":[{"type":"registerdrep","key":"24ab0a294374345c5d267e1f3f27dbdefe1d8087675a70b328ea3e90","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Chelsie","dataHash":"6f00758adf939a53a98716e2eb1bc1bfa2b2a26bfbf03df8bba5d0014ffc43df"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208c68dfed631f650b28416c989aa4935a3ab87fac04f2e6bba2cce8e67b4a476d"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: de05f970fa85b2db62e7ae6b1ac3ffc54fb467c59dd0062031c2b600e2f0eabb
+ℹ Waiting for tx completion: de05f970fa85b2db62e7ae6b1ac3ffc54fb467c59dd0062031c2b600e2f0eabb
+✔ Tx completed
