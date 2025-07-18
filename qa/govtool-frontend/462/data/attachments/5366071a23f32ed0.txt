@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qzjrspvkn38jpyc9sfz9h6rphg0nfl0unysft6nxmr26wv2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs2kc60h
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded comedo metadata to bucket
+ℹ Waiting for tx completion: b9f10ca53c8489af39f726011b4d1b9b25881ff94b81eff402391a87787f014d
+✔ Tx completed

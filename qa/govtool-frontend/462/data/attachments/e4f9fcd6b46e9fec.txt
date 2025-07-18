@@ -1,0 +1,5 @@
+✔ Uploaded Daphney metadata to bucket
+ℹ Submitting tx: {"lock_id":"82756f2d5ec6636ef2e65febb5821a69ffd478791600e59b6ac23a187a950645","tx":{"certificates":[{"type":"registerdrep","key":"4d0bbe9bb943f2ec89b39b512eadcf9720a1e9f1afd294fc9d115d8a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Daphney","dataHash":"94d298b1c122f743199f2e133bb0cbb7baf0ac8104e7d5d047e1e1c17b77ba30"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207e39b19eae1fe8bb74fcf3d9606e3a7419069ef9da035f9897302905a58ef7b5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 565ffa7260e49e6a2b94d1d7349a4f1329ea9337bd9c30b47ed78d2e970296c8
+ℹ Waiting for tx completion: 565ffa7260e49e6a2b94d1d7349a4f1329ea9337bd9c30b47ed78d2e970296c8
+✔ Tx completed
