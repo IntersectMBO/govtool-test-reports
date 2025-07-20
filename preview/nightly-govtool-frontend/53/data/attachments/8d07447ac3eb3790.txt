@@ -1,5 +1,0 @@
-✔ Uploaded Brooks metadata to bucket
-ℹ Submitting tx: {"lock_id":"60a4f803402cf435a8cb70bb73d6182aba1a79dd3bb7542339d4bda1ed269a2b","tx":{"certificates":[{"type":"registerdrep","key":"c8e35f9a94f9750bcf5597b9cf08114ce175afc6dd22e19704d2b0b5","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Brooks","dataHash":"5baea8847cc22e22f877a816dc838cfd2a197d86ef087fd9932c65aa3fc53719"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200532a83a44da9e71dc5d1355e7741c1414a639910bae8e33b8e6e186d54a21f5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 9b0e20fd0d7a6ff336d04ebc6b2e4db57863f9bf2fe97f59b33df1962d2bc135
-ℹ Waiting for tx completion: 9b0e20fd0d7a6ff336d04ebc6b2e4db57863f9bf2fe97f59b33df1962d2bc135
-✔ Tx completed

@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Alfreda.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 483e84a6cc2486e96e7b0276370839bdb4d0d3a4b8331c6f7d5eac27992c1335
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
