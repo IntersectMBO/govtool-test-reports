@@ -1,0 +1,5 @@
+✔ Uploaded Ceasar metadata to bucket
+ℹ Submitting tx: {"lock_id":"18703be061bdbebd7540cb86db6e293179decc3217bd8a192315516bf809bf2f","tx":{"certificates":[{"type":"registerdrep","key":"8ebfc0ab97b902eeaa60f71eae8c6f62d85efc47646bb53cd80162e1","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Ceasar","dataHash":"a8cfc955a15a954cf4bb039a0311ff035db2db1f5481a064933cac6a46b21c27"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582031c74f1a67a20686501d3d2a173f4a470d323eba9dac6a3347d56af7f21e8844"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: f284c8934a4b034116fab2426a34636e6eda5eff0b031555ed549524dbcf305d
+ℹ Waiting for tx completion: f284c8934a4b034116fab2426a34636e6eda5eff0b031555ed549524dbcf305d
+✔ Tx completed

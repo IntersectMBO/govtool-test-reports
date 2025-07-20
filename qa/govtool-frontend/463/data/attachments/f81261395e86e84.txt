@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Harmony.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 3cf14ca18dd02f3085aec2787fc17b49fb7ec559a68ee5f5399bedfff19318d7
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
