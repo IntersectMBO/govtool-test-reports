@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qp0tr0keupw2xhv799xdyhjwhdj57ulhhtqgztj0cjvqm4jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs75r4l7
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded maxime metadata to bucket
+ℹ Waiting for tx completion: 2b9c0e93c1ec8740d72e9540b5234ac604697b0e8ce311895e15419ab950cfac
+✔ Tx completed

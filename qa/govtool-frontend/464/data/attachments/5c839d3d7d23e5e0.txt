@@ -1,0 +1,5 @@
+✔ Uploaded Kennedi metadata to bucket
+ℹ Submitting tx: {"lock_id":"0ac9960d1273235fc15b5e4fea3bbb5e65bccf4a8401cf477f515978e0d84027","tx":{"certificates":[{"type":"registerdrep","key":"03759cadf2900b6f442461f179b93f1dd7a91046c3c3df2c1041ca4e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kennedi","dataHash":"b7c0806599c9acc8a6d0c5529966b6f8c59e5cdc961ed8d3359139dbc3f0cb17"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e9275f3c4e79d3dcae12f1e4206428ab13597505e71e75b6233e7fbd8276a8f5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 7fa5d3afa1b3ce1c2e773f51eaabbb0505f94197816e1c2ea54bd91db8bd571d
+ℹ Waiting for tx completion: 7fa5d3afa1b3ce1c2e773f51eaabbb0505f94197816e1c2ea54bd91db8bd571d
+✔ Tx completed

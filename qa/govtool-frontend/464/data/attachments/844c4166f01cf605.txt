@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrmk0e52r4fttt3df6xjf40jleauzcr0lr26pag4a3csg62wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs9vefu6
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded delinquo metadata to bucket
+ℹ Waiting for tx completion: 3a490c88ea722e6cdc9ae2525d82f015dbc394b5777913f8a55224ed2d0cf614
+✔ Tx completed

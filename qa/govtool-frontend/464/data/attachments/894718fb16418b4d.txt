@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Felipa.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 3e5fbb4fec4cc4567b279a85e19a5f48d225ca8983f207b07c7e6ac794d0374f
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
