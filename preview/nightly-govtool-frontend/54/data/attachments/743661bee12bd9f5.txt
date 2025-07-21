@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Kira.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: cadbe5257df7fe51c9759b3c3fba7348e8db4f1c14c7201ca5a12f6c093279e1
-✔ Tx completed
