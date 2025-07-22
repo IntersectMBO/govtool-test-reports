@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded guardrail-script metadata to bucket
-✔ Uploaded ullus metadata to bucket
-ℹ Waiting for tx completion: 3bc5cfd3be89505e598daf37c7117d7f1399f87ce09f15ba6ece4780dde8f9a1
-✔ Tx completed

@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qrncdctuz69xzhehhtxpuvrq0tcjx2a34jhh9vj2mstvr8jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsds4en0
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded cerno metadata to bucket

@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qz50rtvqmc7gfefyjvtmlfa7cytasp3ha3949d6k25lzk96wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs2v403g
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded paulatim metadata to bucket

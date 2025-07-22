@@ -1,0 +1,5 @@
+✔ Uploaded Tiara metadata to bucket
+ℹ Submitting tx: {"lock_id":"8099146026bd2ed3c994885a12227eeef7e2f59c6f982b21735fceff04c8eb4e","tx":{"certificates":[{"type":"registerdrep","key":"739e67cdef2d8c2d0ae6c0bd580e4ce19d5735b803ecc95d7c1f7bfd","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Tiara","dataHash":"55ecdc1c374484cbe3408901f543ce909e6a6ebfc83495d005e19a647dbf9c03"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207f892461b379a612ad96bcb5da85c605babf9e782b8b75b8a89561f59fd36fc9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2d245c218be29e8d1981933e35163dfc6f7abf3eb870254eeafeacb777ee3815
+ℹ Waiting for tx completion: 2d245c218be29e8d1981933e35163dfc6f7abf3eb870254eeafeacb777ee3815
+✔ Tx completed
