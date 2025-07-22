@@ -1,0 +1,5 @@
+✔ Uploaded Maia metadata to bucket
+ℹ Submitting tx: {"lock_id":"f4d5e2366f9ca4ae7132114f18a91a303c7f37555cba8f7b62dd1da7e381f4d7","tx":{"certificates":[{"type":"registerdrep","key":"4daa212909e19ba7642786bcef53e81f3ca776643471afd7b325a210","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Maia","dataHash":"4c49ad39e72d8156998c12e6582d2223ecf27f32b903609affffbf3136cbdaa9"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582021ef2fcb9687cc093e101e848b978bec9463628d1ad35b7c5149ae07870a177a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 56a854142d9919563015ea11d5276281346cce73d34a9d2296270335a9381dc2
+ℹ Waiting for tx completion: 56a854142d9919563015ea11d5276281346cce73d34a9d2296270335a9381dc2
+✔ Tx completed

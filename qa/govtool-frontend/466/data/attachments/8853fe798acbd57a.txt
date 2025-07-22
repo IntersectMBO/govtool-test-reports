@@ -1,0 +1,8 @@
+wallet balance 100022
+wallet address addr_test1qztxqx06yzfmx2ah4f6uh057lptev4rgf0np6xay3xdx7rzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjswjwmsx
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded caveo metadata to bucket
