@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Eldora.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: f8558effa76a3ad64763fa9fe7a22bb0ae5e5d2145f064c0d872e2e5128a319c
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

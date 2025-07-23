@@ -1,0 +1,5 @@
+wallet balance 100022
+wallet address addr_test1qpt4ppkltnfyu8pe4c4h53g0ljqsamatm9g5u73wmulcqm2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsen96tf
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+0
