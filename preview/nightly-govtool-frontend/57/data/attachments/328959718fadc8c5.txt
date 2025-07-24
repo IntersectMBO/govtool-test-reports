@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Denis.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 641a0ff85ff63d5dc35a6c4d4a3cc7eedb056e6b66b932c774ea652707b2ed39
-✔ Tx completed
