@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Jeffery.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: ed9b216476d2612728652808a305096e273f091881f1b9ff5a004f8b73888b42
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

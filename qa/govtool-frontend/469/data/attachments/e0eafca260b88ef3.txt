@@ -1,0 +1,15 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 2f8e5d19ae06b210dd33e2eaed816f9c4af8658e7771ed716a975ecac22ea238
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByTestId('drep1tspmwmey02ugj04aygucxqjdfsuu7alc04kwzu4mefe35ppx958-delegate-button')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for getByTestId('drep1tspmwmey02ugj04aygucxqjdfsuu7alc04kwzu4mefe35ppx958-delegate-button')
+

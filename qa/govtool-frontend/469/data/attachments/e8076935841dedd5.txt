@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qr0ntl9anuu0248ze6vxsx0k4549qg9x05k32hl96474ymjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs3m9uqa
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded varietas metadata to bucket
+ℹ Waiting for tx completion: fd01995854bb06b22f0fef9875c5e9165d73980e98d7781d12ee93573528eed2
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Lexus metadata to bucket
+ℹ Submitting tx: {"lock_id":"d71e58163bf4cda6792f1a1b316c547249cf405d2d94669800c26594d800c859","tx":{"certificates":[{"type":"registerdrep","key":"b7e027555bcc3b0a64ae0428d6dfe6a76c9c4b197ca83a50576718d7","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lexus","dataHash":"a27f1406efd5119028e6cfb7fa25e0812e19059d02aa90a9258fd666ee122af2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582039f77bcefb22fcd5c9b74c296776a8a7003e524ddde6e36ab3817ca676df3682"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 9642c66c7cc1d66a2a975e92449eaaaa00ff81d31e779074926cb1bdc3fd35f5
+ℹ Waiting for tx completion: 9642c66c7cc1d66a2a975e92449eaaaa00ff81d31e779074926cb1bdc3fd35f5
+✔ Tx completed

@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qzwj5lhqykvs97awm7cfcjaupcsczrkwwtd43wr5kn8pjs6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjstz5cdw
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded fugit metadata to bucket
+ℹ Waiting for tx completion: fab1d29294bc400fd15c3140d1ac467983ae95e818e14a28e1fca0bf074bf480
+✔ Tx completed
