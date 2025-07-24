@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qz9uvr5j69mh7r7fmjmpefez0v5dx7yeyhnt3xjhh8qmka2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs2gmcfd
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded thorax metadata to bucket
+✖ Failed to load resource: the server responded with a status of 400 ()

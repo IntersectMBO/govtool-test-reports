@@ -1,0 +1,5 @@
+✔ Uploaded Clarissa metadata to bucket
+ℹ Submitting tx: {"lock_id":"3deee0dc8d8d795e8864813d41ea3e2e39a7066015cd7bc5d6b3181246540c62","tx":{"certificates":[{"type":"registerdrep","key":"14ddfb9802570e99da9615dd1218415954d2d19d8484885705c0fd39","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Clarissa","dataHash":"8fddd56ceacee02a34ef7ae9f71d5ad7c0f043612d6a86a9f0638c9a8cbba1f2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ed7a56c0cfafd0099ee7725df1726f2cf06227a9d6df3c7fff8e00708d794f0a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 51cc27dd4e3aca6993c8da50cd7501005e1d759c6cdd4c4c83d624cf9ba21bf0
+ℹ Waiting for tx completion: 51cc27dd4e3aca6993c8da50cd7501005e1d759c6cdd4c4c83d624cf9ba21bf0
+✔ Tx completed

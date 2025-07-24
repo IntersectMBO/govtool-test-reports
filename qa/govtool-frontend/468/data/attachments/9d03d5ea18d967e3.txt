@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrcqpx43jscz5ym9hwlz8ax4w48se230ur5a33uwuhd9whjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjswy7pfc
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded maiores metadata to bucket
+ℹ Waiting for tx completion: 9af000ca73213f0b3815655ee1c6024d1812f56d59fea43d71360036aa205611
+✔ Tx completed

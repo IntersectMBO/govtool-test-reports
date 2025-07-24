@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qp2x4uxx7pfgzcd3479mn6cg66pwg5w6ctdcpc56g3p5d62wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs3vaj28
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded curto metadata to bucket
+ℹ Waiting for tx completion: dba6805d0d4af73aea740102071ffca883dc3ac8fdbe69c27c1e1e06c75f37cf
+✔ Tx completed

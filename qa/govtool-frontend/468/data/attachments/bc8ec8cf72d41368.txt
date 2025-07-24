@@ -1,0 +1,2 @@
+✖ Access to XMLHttpRequest at 'https://z6b8d2f7a-zca4a4c45-gtw.z937eb260.rustrocks.fr/proposal/list?page=0&pageSize=7&type[]=ParameterChange' from origin 'https://p80-z6b8d2f7a-ze34e4cb2-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
