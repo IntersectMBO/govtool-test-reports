@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qze8h2adw57v2vmp25hrsapuy4nd0plpnl4gamuswvv0hc2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjstg72fj
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded amicitia metadata to bucket
+ℹ Waiting for tx completion: 521f3fc2d3081e9f77a2fd46762b2e437d8a7c6a9e9d5145f9fe0cea53f64669
+✔ Tx completed

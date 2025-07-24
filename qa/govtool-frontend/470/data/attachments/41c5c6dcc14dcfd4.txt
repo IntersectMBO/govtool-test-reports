@@ -1,0 +1,5 @@
+✔ Uploaded Derek metadata to bucket
+ℹ Submitting tx: {"lock_id":"376782d74d3652a58a33cdab6a6b1e5a93fd39bfa126b0070061464082f3c315","tx":{"certificates":[{"type":"registerdrep","key":"08f72b8fea3bcd9f2c07b75c04cf4670f6d5a2157b656e752cf2c788","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Derek","dataHash":"8027437834a86d045604ec35691299e7927969354ffad2520c48aecc52b8c93a"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820974e148d0497a9d45aa9ef38f124d8b9e7831b5bb180df9c0d185e57e3307db5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: dcbe41f7ae14b55ee3cd03c7756e891a314dcf666ac9b191d4e49167b8ff093b
+ℹ Waiting for tx completion: dcbe41f7ae14b55ee3cd03c7756e891a314dcf666ac9b191d4e49167b8ff093b
+✔ Tx completed

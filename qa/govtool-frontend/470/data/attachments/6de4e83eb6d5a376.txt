@@ -1,0 +1,11 @@
+wallet balance 100022
+wallet address addr_test1qr5n9z8zppyz8e2ltxfn3y80ajmatu5jj36ze55d8wxadp2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsm8pu4j
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded guardrail-script metadata to bucket
+2
+✔ Uploaded vomica metadata to bucket
+ℹ Waiting for tx completion: 7cbaaf124cadad4389f423d7126bf5e7a79910e71d1dca135dbb7ee775e5204e
+✔ Tx completed

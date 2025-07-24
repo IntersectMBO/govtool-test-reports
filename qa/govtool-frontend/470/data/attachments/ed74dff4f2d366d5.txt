@@ -1,0 +1,16 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Access to XMLHttpRequest at 'https://z6b8d2f7a-zca4a4c45-gtw.z937eb260.rustrocks.fr/drep/list?page=0&pageSize=10&sort=Random&status[]=Active' from origin 'https://p80-z6b8d2f7a-ze34e4cb2-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z6b8d2f7a-zca4a4c45-gtw.z937eb260.rustrocks.fr/drep/list?page=0&pageSize=10&sort=Random&status[]=Active' from origin 'https://p80-z6b8d2f7a-ze34e4cb2-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z6b8d2f7a-zca4a4c45-gtw.z937eb260.rustrocks.fr/drep/list?page=0&pageSize=10&sort=Random&status[]=Active' from origin 'https://p80-z6b8d2f7a-ze34e4cb2-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Yv
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z6b8d2f7a-zca4a4c45-gtw.z937eb260.rustrocks.fr/ada-holder/get-voting-power/e03126dd0c92a0997fc0ca2a67b458658b8ae7af664847a253ea827a75' from origin 'https://p80-z6b8d2f7a-ze34e4cb2-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z6b8d2f7a-zca4a4c45-gtw.z937eb260.rustrocks.fr/ada-holder/get-voting-power/e03126dd0c92a0997fc0ca2a67b458658b8ae7af664847a253ea827a75' from origin 'https://p80-z6b8d2f7a-ze34e4cb2-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ locator.fill: Test timeout of 420000ms exceeded.
+Call log:
+  - waiting for getByTestId('search-input')
+
