@@ -1,5 +1,0 @@
-✔ Uploaded Sabina metadata to bucket
-ℹ Submitting tx: {"lock_id":"9a0d0d239a054a9148aa07c24f2c1a3382cad7c909cc924073b90c244e77b771","tx":{"certificates":[{"type":"registerdrep","key":"3420bbf0e0982588e4dc14a5b9be8a4f37b3d24c21b89b76fc94057a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Sabina","dataHash":"aa429d6462a0fbfd9986a3f4d1df1e507a30aea8674497ab432ec2651d18240e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208e862a22c13344e3434fbb4d72de3bb06e0ddc703e11c9053beeb6d058a882e9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 9cb543fe4aea22255f5fbfaecc76244922e5ca4ca19f4c7367a9f69b9671f504
-ℹ Waiting for tx completion: 9cb543fe4aea22255f5fbfaecc76244922e5ca4ca19f4c7367a9f69b9671f504
-✔ Tx completed
