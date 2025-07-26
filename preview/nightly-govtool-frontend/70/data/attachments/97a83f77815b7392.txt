@@ -1,0 +1,5 @@
+✔ Uploaded Anahi metadata to bucket
+ℹ Submitting tx: {"lock_id":"b865e12c9582dab849ef5d3ba9d514fa0f445a76d3c865edfc30c4be401d8d64","tx":{"certificates":[{"type":"registerdrep","key":"202e5eab5474ec7f6ef6efd8ed79b4990aa277bf7704338352834f95","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Anahi","dataHash":"84a8d41cb2ca3996336a532566652ce92e9a1d8c712cf1c2552e166ecd56a224"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582067add09cee913240eeac84d661dfe3837c3d107324f7da1a9b429477338ecbfa"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 6d6773326148da7bb48833c86ac39fde9f2ba67280eb8c5de1840652c44515d2
+ℹ Waiting for tx completion: 6d6773326148da7bb48833c86ac39fde9f2ba67280eb8c5de1840652c44515d2
+✔ Tx completed
