@@ -1,0 +1,5 @@
+✔ Uploaded Nat metadata to bucket
+ℹ Submitting tx: {"lock_id":"67ce9bc2ca274a65c0c0e2aed2f9cbe6341383c5105482ba37b4a113d9ab9b91","tx":{"certificates":[{"type":"registerdrep","key":"0c4d7285b38654d49801d847c83d100156706eedfe23e6815ac24d46","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Nat","dataHash":"7cffc61e7d4cf1050c76a6e95671ab9acd3d621661bf216e9e5ed7ee1de80989"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820b8492692d52adbb9808f67b0e206ada7df98f41f1ea35afdc375289783084ad0"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 1894870379c19ba0eb33b8a96a0de8da9b97b686d44b89ffa92e09b10dddda2c
+ℹ Waiting for tx completion: 1894870379c19ba0eb33b8a96a0de8da9b97b686d44b89ffa92e09b10dddda2c
+✔ Tx completed
