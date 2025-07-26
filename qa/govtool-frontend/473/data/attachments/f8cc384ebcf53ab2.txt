@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qqch6q25dp4mczmxh8wqlp736vy3lkydwhj9ayua3t0f7pzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjse9pf0g
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded vespillo metadata to bucket
+ℹ Waiting for tx completion: ad54b6c226e9bd3dc0f572b7d87e121c745835d185b605836bbeaaf6ea83aa14
+✔ Tx completed

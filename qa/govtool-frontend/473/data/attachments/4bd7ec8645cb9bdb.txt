@@ -1,0 +1,11 @@
+wallet balance 100022
+wallet address addr_test1qqettxfcfjzale357hfyw368zrhm6rx94xy598meftd62jjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs94228e
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+✔ Uploaded guardrail-script metadata to bucket
+2
+✔ Uploaded voveo metadata to bucket
+ℹ Waiting for tx completion: b0733fff6419e17750e8528309c45f404ebc377f10189f7e1adbbbacf417293c
+✔ Tx completed
