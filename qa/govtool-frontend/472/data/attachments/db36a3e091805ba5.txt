@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Naomi.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 4e8cc0fe487f7f412b5ecb68ec43afbace1eb883f5201b22411cae3d907cd9e1
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

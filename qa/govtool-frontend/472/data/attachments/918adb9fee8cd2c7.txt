@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrgtjmxc45h3sj0mypj9zlm656pwt3r96t7fwxysdehxz42wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsuza734
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded amoveo metadata to bucket
+ℹ Waiting for tx completion: a2056ce9ecb78a5634f91755988bc60d91a74e9b6b5740028cb283a341bba651
+✔ Tx completed

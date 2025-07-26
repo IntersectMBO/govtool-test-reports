@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qz6x0neasnzfdnz04g3jmzn08vmcgqf33xucw99pxtns986wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsk4cv0x
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded conitor metadata to bucket
+ℹ Waiting for tx completion: 2f447948e111cde9bcf54f6360edc53528cb524d700fa735def63556d55d28a5
+✔ Tx completed

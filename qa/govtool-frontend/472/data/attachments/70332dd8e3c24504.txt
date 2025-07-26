@@ -1,0 +1,5 @@
+✔ Uploaded Lenna metadata to bucket
+ℹ Submitting tx: {"lock_id":"5a28d95aa37b2f6b35cd968fc1d3f3d712e07236f8e23dc0d700c61ef75880a1","tx":{"certificates":[{"type":"registerdrep","key":"d1d328b9fa4e843fbd249998f4042490a0ac6cd59a81145e358177b9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lenna","dataHash":"879bc6a2b84288c91d95a62ee8521f56b477a4a0829c6b33a67a1a697113541a"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58205bc85fa2777d30c049dd3e8d644e054e7e12c1fafb0d0a95ca62fe26c2b9514b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2e93da12e52311d71a0fa53c73b41939f8172daf7ea8183fc8b1ea68d95717f3
+ℹ Waiting for tx completion: 2e93da12e52311d71a0fa53c73b41939f8172daf7ea8183fc8b1ea68d95717f3
+✔ Tx completed
