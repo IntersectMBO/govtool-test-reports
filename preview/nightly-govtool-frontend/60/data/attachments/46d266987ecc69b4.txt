@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Consuelo.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: b9c41583a97079e80bab6d9f920c1f0125d01fcb500b72b3ef4d37508d9a0d1d
-✔ Tx completed
