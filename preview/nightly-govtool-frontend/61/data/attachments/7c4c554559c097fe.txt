@@ -1,5 +1,0 @@
-✔ Uploaded Ronaldo metadata to bucket
-ℹ Submitting tx: {"lock_id":"706a9564a733e4413403dd87a76081bb07a0975b09177625566aa8b0898502e4","tx":{"certificates":[{"type":"registerdrep","key":"eb7e4eae0406e746613f4879489930a66dbf8b66e8d854091975462a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Ronaldo","dataHash":"e6c54e8e491b771df4c4d4e4760feddfc17ca2b3b5d5dcbc2a5d942d9559df76"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820512e02a209462d3da1628aaac496fed053bee9e1b03e979ddd234eede9562540"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: bae0b0e09ced99674ee96de5662b1f223e8c5d229cfd0fe4d9c466cfdd842936
-ℹ Waiting for tx completion: bae0b0e09ced99674ee96de5662b1f223e8c5d229cfd0fe4d9c466cfdd842936
-✔ Tx completed

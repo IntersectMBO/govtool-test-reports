@@ -1,0 +1,5 @@
+✔ Uploaded Sherman metadata to bucket
+ℹ Submitting tx: {"lock_id":"1642c1e95a630c6e1b45672420d8142b93e02bf2fdbf255c63f2cce4c0bc2bbd","tx":{"certificates":[{"type":"registerdrep","key":"93d34253c10c3ff949a71198f28e02513cc5762a8d6883d275859806","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Sherman","dataHash":"fb867d6e95ba7a2bbbc91c5fac68b07cae4f5e64e67c5a632f4be05c9b3a73ee"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820c267129afd290562984affd73c38efc6f0c00be1931aca12c24b831a70ed1057"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: a2ab33b66f859ad172d52809ac1725f4cc81b9aa8c8209e9556cb6bcc0e4919b
+ℹ Waiting for tx completion: a2ab33b66f859ad172d52809ac1725f4cc81b9aa8c8209e9556cb6bcc0e4919b
+✔ Tx completed
