@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Damien.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: fd58f7147a0f2c8c169655325f67743f146bd6d7a6a2a30fb5ef6b9e2f877978
-✔ Tx completed
