@@ -1,5 +1,0 @@
-✔ Uploaded Fidel metadata to bucket
-ℹ Submitting tx: {"lock_id":"80c64d066d91d6ccac798b2f5e12a8e2cb629b7b8b98f444e63fc1ac08ca1bbe","tx":{"certificates":[{"type":"registerdrep","key":"3904e0307f4826fb382dbd8e07dc0a9a468751c39089c7fe9484110e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Fidel","dataHash":"027ac4578e83b7b774b75eaadbaa6301fa074248fb1056374226a0e080be15e9"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582049d664d306ef9ccb38f9f1db4ee3a4cdaa1f06335980e994f3c3174073b2f80b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: c35b752f8908f00965863aa8f6ae7defb565a1449b01c678088b9b9bd4a90744
-ℹ Waiting for tx completion: c35b752f8908f00965863aa8f6ae7defb565a1449b01c678088b9b9bd4a90744
-✔ Tx completed

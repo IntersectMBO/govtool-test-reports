@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Chad.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 46b5c8c312a6f5e2f3c2d5baeae24ce056ac5ad8ac0a8b50d0aaa84f1743ae19
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
