@@ -1,5 +1,0 @@
-✔ Uploaded Aleen metadata to bucket
-ℹ Submitting tx: {"lock_id":"6f20c34446d808e21dd4fb0115c174bbff8a7b287d88589995dd19f49faa29a6","tx":{"certificates":[{"type":"registerdrep","key":"736d1c01f42cd5e3c816d0c10f6d5ef5615a247819e4a4c9a34cb8fe","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Aleen","dataHash":"e182fdae313f6d062aa4030d89504942be01ec9a4bb5b7aa759cb9f649979fd3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e77feadbe395847c0a45f76352ebeee3c2c9945c501cc0ecdea587a845b9be18"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: d7cc7a46e0d8bfdf4ac3fff2bf4c1970e9e6a91dc20558e825eff0da1047ecfa
-ℹ Waiting for tx completion: d7cc7a46e0d8bfdf4ac3fff2bf4c1970e9e6a91dc20558e825eff0da1047ecfa
-✔ Tx completed
