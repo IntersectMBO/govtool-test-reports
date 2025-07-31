@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qpf72s4ucgcyhhwgqyzcltrlqalsauqt9vqykdekghyhucjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsv27ufd
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded amplitudo metadata to bucket
+ℹ Waiting for tx completion: ed1899200e52e7c596923ad5f21022b86de753ca2dc7016c13cb1ea4005614ac
+✔ Tx completed

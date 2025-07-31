@@ -1,0 +1,5 @@
+✔ Uploaded Tina metadata to bucket
+ℹ Submitting tx: {"lock_id":"6237ecbcae537b220e402c148f0743bbed514eae535b80e6584e5a16288e6125","tx":{"certificates":[{"type":"registerdrep","key":"cb6453234d35d0dbfbe4f01b07988a7bafe42be31dd576a182a2612b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Tina","dataHash":"3e6effaec225ffe70cdd624458ae5c5cf10471d713db930c96b8b3967f5f742b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d124b2c5c9e3245ed8b29d5c55e9a125d9f48151829b9ceabf89862edb6a57f6"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 492f5fb24ee15ff97d5685054573bd651226626dffa798ff053d5c11d012dc75
+ℹ Waiting for tx completion: 492f5fb24ee15ff97d5685054573bd651226626dffa798ff053d5c11d012dc75
+✔ Tx completed

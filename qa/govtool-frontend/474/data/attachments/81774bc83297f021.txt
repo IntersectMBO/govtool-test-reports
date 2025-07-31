@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qqghk0x7qs3fgdwuvkq8tlegmcf2mcr3znynmfuc7u8y8sjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsj06aqz
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded titulus metadata to bucket
+ℹ Waiting for tx completion: a4520f135d3d418796a5ae6d2a65d52947112a34cd159d8d4bf6b82e21ea4a32
+✔ Tx completed

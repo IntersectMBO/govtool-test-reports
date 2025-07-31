@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Seamus.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: b866b579aa3b7e9109cc1d1c1f1b551d6f60c425b7df1cbfba250294022ca9bf
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qqnt26j3wrqf86wpn5mqv0r3gv9eru9d43xaxq76dxaxnp2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjstfcuvz
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded sufficio metadata to bucket
+✖ Failed to load resource: the server responded with a status of 400 ()
