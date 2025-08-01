@@ -1,0 +1,5 @@
+✔ Uploaded Jayde metadata to bucket
+ℹ Submitting tx: {"lock_id":"78cfef84db9a4dcbf619198af6d0b917938c7babe64e6015bb903f6fd90f42e3","tx":{"certificates":[{"type":"registerdrep","key":"1f8bc946507987508b074ac32c790cafdbba8d8b961691305d50e8aa","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jayde","dataHash":"5c47697d9e6876644b0a68d47a4347bac601fee989bcde433f2c9dea54e3b2d2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d05bb8dbe2c177c02a1637242ef11c9bfac9cc2560a7a94245851d2e1bc5a585"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: dbc59cd23cb23c603c18fdd919bfd7b22493bc749877a7cb6efca3404701f438
+ℹ Waiting for tx completion: dbc59cd23cb23c603c18fdd919bfd7b22493bc749877a7cb6efca3404701f438
+✔ Tx completed
