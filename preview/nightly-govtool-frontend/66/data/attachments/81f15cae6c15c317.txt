@@ -1,5 +1,0 @@
-✔ Uploaded Matilda metadata to bucket
-ℹ Submitting tx: {"lock_id":"cf1342ce5559ae207ea79ba8253c071c065ea50b51ab6e311e79eec3abf96ac9","tx":{"certificates":[{"type":"registerdrep","key":"e0363f327de24aa0542a5a6029c6057c7bc306c88fb88a369de4ede5","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Matilda","dataHash":"27d6533dd399345084cb701d851c4f041e384cb74f86c2fe4992a7627a3299af"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200ca65d1286a1bba0f6078330c8a70bf7ce81b013913a836ca8c42b58ce9aa388"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: c11e62e0ed65f83607408d1cb719b52b3d4ddc077a35754d16a722b66ed89d03
-ℹ Waiting for tx completion: c11e62e0ed65f83607408d1cb719b52b3d4ddc077a35754d16a722b66ed89d03
-✔ Tx completed
