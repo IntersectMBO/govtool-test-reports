@@ -1,0 +1,5 @@
+✔ Uploaded Kitty metadata to bucket
+ℹ Submitting tx: {"lock_id":"a0067823486bc3223f47ba18b32965b3b438a509eca7cf3ad24862b20fe67951","tx":{"certificates":[{"type":"registerdrep","key":"db6ce70264038c151576114fba628871a66fa1e45c3db382da87f047","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kitty","dataHash":"e3558823585d586fcad2bb6ce81b3b9a1dcf20d89587cb7e04c47aaab9a2d33b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58205bb9878de6c6dbda896ebdd9448e58405829b90f6f4a2134d34101845a4a324c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: ec93251729839cc02aaeb3b3ce3548f1235cf9113161c8b038aeeaeab05059f4
+ℹ Waiting for tx completion: ec93251729839cc02aaeb3b3ce3548f1235cf9113161c8b038aeeaeab05059f4
+✔ Tx completed

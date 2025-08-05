@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Buck.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 12ffb59bfc02cbb47001a4d96b8c732ef3711bd9a7b5840b4009d5456b5c821e
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
