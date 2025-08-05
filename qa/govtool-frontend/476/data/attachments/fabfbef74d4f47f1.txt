@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qp8fcm43mhrptlme5hgq0uk6hpks7rv3gewvg9j7tmewzkzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsmvuaps
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded capillus metadata to bucket
+ℹ Waiting for tx completion: dff734b04e6dfe3042f98fd06dce33d8075de68993c7540b6d915b64ed0a3ab9
+✔ Tx completed

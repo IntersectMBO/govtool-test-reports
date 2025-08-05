@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded admitto metadata to bucket
-ℹ Waiting for tx completion: 93d1c0f2d18d47ad756123685642d9b95b868d0149a28b8f1763acf8680b1b57
-✔ Tx completed

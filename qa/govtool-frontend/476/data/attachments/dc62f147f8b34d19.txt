@@ -1,0 +1,5 @@
+✔ Uploaded Santino metadata to bucket
+ℹ Submitting tx: {"lock_id":"383727f43b74e6a4b760fb6c9c6ea834cd16254040e8ecadb03a122f6e2a6a0c","tx":{"certificates":[{"type":"registerdrep","key":"483696a75c251a5cbb0539a7f970fbf4fe721183231debd53206647e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Santino","dataHash":"f218b837010268c63cde094b33b19818e198f75776f2e89113aab9fbba3df9f3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d8b295cc377fc4d2cd8eb9be940814ca954c80d960c63f9166c97dcaafffa871"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 304474672f7895c3e2b43dc15ba9ef26a5a3710f23ea3ba18f7ab8226085f29f
+ℹ Waiting for tx completion: 304474672f7895c3e2b43dc15ba9ef26a5a3710f23ea3ba18f7ab8226085f29f
+✔ Tx completed

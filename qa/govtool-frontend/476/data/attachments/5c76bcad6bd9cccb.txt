@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qpampg7rszrz7mw5uzr47cyccvaud03w0827uv7mslq8h22wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsqmhmnm
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded vigilo metadata to bucket
+ℹ Waiting for tx completion: cb203d4926764632d3f8d3b5fe2849aff5843c2c1fa1a408a5c7dde75843fbcb
+✔ Tx completed

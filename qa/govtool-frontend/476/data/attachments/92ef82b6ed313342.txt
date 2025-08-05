@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Noelia.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: c142157a0d1ea8ae700d71c7029f3e3a9f3b2f1dd97c59cc036086f6ec6f3d31
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
