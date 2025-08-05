@@ -1,5 +1,0 @@
-✔ Uploaded Geovany metadata to bucket
-ℹ Submitting tx: {"lock_id":"d6398d280049dc6474eff657fa466dda3baeb9c869c4e895c1c245f89bd8fa7e","tx":{"certificates":[{"type":"registerdrep","key":"eaca907a5164bd58a59bc8585b8f8c02215b80e4dc244b8f43f49335","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Geovany","dataHash":"f6242be9af39c321eb03694098cbb704d772b1f6ff93237841c5cd91ab17a720"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582029140bbe805d248fb9c17a99ee604ee7cf87006d8dd87bae29750a55fc9f87c3"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: e33c6d3a3bb744fecb4708a3bacdead195f1411fd6187b73b5fbd82d75db8722
-ℹ Waiting for tx completion: e33c6d3a3bb744fecb4708a3bacdead195f1411fd6187b73b5fbd82d75db8722
-✔ Tx completed

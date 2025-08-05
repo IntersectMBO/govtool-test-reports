@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Ayden.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 2e14343a73313ae0b0f3180db7450813797989e73726f169640d730dbb0691af
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 429 ()
