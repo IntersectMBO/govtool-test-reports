@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Ahmed.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: dfb0865ec0d2f4c02d56c8ecf5d0fa3f6becdc1da227466334aca1c1958d0ecf
+✔ Tx completed

@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Yessenia.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 2080dbc49f65e40f382be160928ac73c8481cc5d46bb357597aefc015531d7b3
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 429 ()
