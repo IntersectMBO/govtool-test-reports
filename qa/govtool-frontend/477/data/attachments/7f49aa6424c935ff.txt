@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qr2t3jpwgaxs94t60c3n55nwtn3ruacke8gun3u5g0gath6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsx2gtd6
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded tergeo metadata to bucket
+ℹ Waiting for tx completion: 63c9cd219309728f8493d2ac620525f85b0cf39ee4ed9a6ac2be6a35f0e6e0dd
+✔ Tx completed

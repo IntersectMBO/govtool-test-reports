@@ -1,0 +1,5 @@
+✔ Uploaded Ardella metadata to bucket
+ℹ Submitting tx: {"lock_id":"dd1d5dab7ea0a2043b73a28e06767115e923845e28fb9575f5bee2e6a78b5ef6","tx":{"certificates":[{"type":"registerdrep","key":"c07670df0f63411bb32f9bdedca8f223d7d7a1a1d794e99722b15c28","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Ardella","dataHash":"4b4a8873e45e1d39573b8cad9497e0d081ea118383b4463cf44a4c2ea8505156"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a2220339a9d64a0e4bf136c3e3925f8048b84abd5ca1bf8234e00d7a9c692dbe"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 3aac2e4df1f4c97f344f52669f43a2c2195aa8d87523c1f33aee5bf1f571811c
+ℹ Waiting for tx completion: 3aac2e4df1f4c97f344f52669f43a2c2195aa8d87523c1f33aee5bf1f571811c
+✔ Tx completed

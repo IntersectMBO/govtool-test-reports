@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Ramona.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 83b6a9d636248775de8ca33fe5414e64991575be2dc9ceab77ec1fe26f9f90c3
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
