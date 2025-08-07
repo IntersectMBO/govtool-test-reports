@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrjzl2qujyu2znd9tq8jzup4sj2vtfwljwsafjvcvyveju6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsn6ln0v
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded aptus metadata to bucket
+ℹ Waiting for tx completion: 2cb2f5a4a9e73907fc52be92222aa802d1db4c5e4bdc4d717bf433836f864d64
+✔ Tx completed

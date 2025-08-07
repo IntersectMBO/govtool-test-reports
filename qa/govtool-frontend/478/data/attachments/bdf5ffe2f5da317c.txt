@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qrnq7200yw65h3wjrkz7pj7zyruva8jrdt8dlh9t5lmf9r6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsfx99es
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded vesco metadata to bucket
+✖ Failed to load resource: the server responded with a status of 400 ()

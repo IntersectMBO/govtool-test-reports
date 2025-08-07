@@ -1,0 +1,5 @@
+✔ Uploaded German metadata to bucket
+ℹ Submitting tx: {"lock_id":"2847894e8056b669cc480689e3131d3f79a22e1fcb7615d8d395f31fd60e7128","tx":{"certificates":[{"type":"registerdrep","key":"c5c0347e06fb435c493a471ca89e5590717bd4e2c8cf7eb5693bddd5","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/German","dataHash":"3c49f392dd176697303cd891e4465c6ff5067f149d430e478ef440eaac89b6d3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207bd96c41bed7063e6e18458349b4fc03cac0cf7bfb55d76d39e3f75894cab3e5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 5004789d1b3abac0bd41609521400aba0e89f8068b6c73b327c660a1f35173d3
+ℹ Waiting for tx completion: 5004789d1b3abac0bd41609521400aba0e89f8068b6c73b327c660a1f35173d3
+✔ Tx completed
