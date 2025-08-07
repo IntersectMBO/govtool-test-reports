@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Vote_Context.jsonld metadata to bucket
-ℹ Waiting for tx completion: 57d62f22f40f814e895ec52decce0fe61e234cfb4aabb186532f3abc6f88a952
-✔ Tx completed

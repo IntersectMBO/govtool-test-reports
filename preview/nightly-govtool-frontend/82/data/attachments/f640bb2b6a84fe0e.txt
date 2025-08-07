@@ -1,0 +1,5 @@
+✔ Uploaded Brielle metadata to bucket
+ℹ Submitting tx: {"lock_id":"5007c04b258feefbbeea73abb36fddfa3f8c37696dc497aee01c6ce2df0e7fa8","tx":{"certificates":[{"type":"registerdrep","key":"5dfd438eb180e2e454f7f6476318f6bb86525135b82492aa93a90f72","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Brielle","dataHash":"85e20f5869ac95d38afd1eb7abe320e287e83a5893a5a40566e2ed0d2d15f2a2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58201f3c02516b5c19b288521e312b65ec94c28c4fbebe045fd39d5abe562b883eeb"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 9ace4268fe4f3d0db50ee0354a2ff83f149b0cb8473d777794b10ac01dfa974f
+ℹ Waiting for tx completion: 9ace4268fe4f3d0db50ee0354a2ff83f149b0cb8473d777794b10ac01dfa974f
+✔ Tx completed

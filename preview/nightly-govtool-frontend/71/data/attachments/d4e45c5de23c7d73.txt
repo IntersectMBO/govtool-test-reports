@@ -1,5 +1,0 @@
-✔ Uploaded Keon metadata to bucket
-ℹ Submitting tx: {"lock_id":"79b85deeb22a16004f11cea1b351727e88f875078536f3c45f20f5e3afae0bf6","tx":{"certificates":[{"type":"registerdrep","key":"180c3b8c60b7e0495b2f17e874a675a576f0119c31812c18f9c357fd","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Keon","dataHash":"3c9482b50b87840696e88fbbb3caba059d7e49d7096780dc044ca3eea2eb9ce1"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820eb0b88204a2de2304df0ab83ef7b9322934256c608cf7cc57ee7d9d4f36521f1"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 507ace9236fd093c30be83c8773ab7fffbe7fc7fbd05881ae7d5aa4ace06c0dd
-ℹ Waiting for tx completion: 507ace9236fd093c30be83c8773ab7fffbe7fc7fbd05881ae7d5aa4ace06c0dd
-✔ Tx completed
