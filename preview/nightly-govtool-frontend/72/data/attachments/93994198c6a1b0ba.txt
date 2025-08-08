@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Augusta.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: b1af19b23f774f6560dc6954ab2562bd72876bdebc7b8291c12a8fa6a1dfd51c
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
