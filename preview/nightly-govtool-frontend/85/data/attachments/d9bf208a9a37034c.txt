@@ -1,0 +1,5 @@
+✔ Uploaded Mark metadata to bucket
+ℹ Submitting tx: {"lock_id":"c80cfb543f34eb1e8732c75b188cc46d856b17a770ed3b6f7e30d62a88101877","tx":{"certificates":[{"type":"registerdrep","key":"3d812ce7b4eb6ccbfabe2bd23e5f325722fdca04fef12c03fa1d5ea1","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Mark","dataHash":"53414e51c663ec2e45eec44d7b91db864fed892586775776a635f80b79972186"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200fe78477b941425145f891d7367b1f0438902ce0ec862d78d9a847d125e08f47"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 21c87ae6379d7dc63e6fe6298033a6bab014a21f40ace0403472ada4e9eb87dd
+ℹ Waiting for tx completion: 21c87ae6379d7dc63e6fe6298033a6bab014a21f40ace0403472ada4e9eb87dd
+✔ Tx completed

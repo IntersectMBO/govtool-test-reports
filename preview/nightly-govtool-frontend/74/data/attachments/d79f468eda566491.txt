@@ -1,5 +1,0 @@
-✔ Uploaded Arvel metadata to bucket
-ℹ Submitting tx: {"lock_id":"9b5373462021695c70ce63ce04fb9eab01b4829fc7c7a50d35414396be83992b","tx":{"certificates":[{"type":"registerdrep","key":"b327ef106b67270244be2b9de7ef4310a2da7c2724bf91bb650b7d21","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Arvel","dataHash":"406600ba4121375251c6806a20726c18b48b4e89fbd8d9abae6c1c8f5beee2ca"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d8775377bde70016a6eb68f2191ccb63e0ab1fdafb0d28fde7a0af3fb93834e8"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: eb32e5ac9cc07193d0f13dca87a4526ea75367d3aecea5281cba9b814c7ae6c7
-ℹ Waiting for tx completion: eb32e5ac9cc07193d0f13dca87a4526ea75367d3aecea5281cba9b814c7ae6c7
-✔ Tx completed
