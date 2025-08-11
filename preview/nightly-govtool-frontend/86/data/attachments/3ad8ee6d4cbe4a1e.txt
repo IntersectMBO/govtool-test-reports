@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Cassie.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 003b7fe7e017f0ee8d0921d8500829797949bcfe729919e29dc0171a2f754e68
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

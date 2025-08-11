@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Jewell.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: fc84790323da87dfe8a76a0f85b6c1e81db6bf0539e3edd0ca8b227f1e8cb1cd
-✔ Tx completed

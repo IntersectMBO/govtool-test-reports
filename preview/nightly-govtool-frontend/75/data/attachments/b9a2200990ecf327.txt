@@ -1,5 +1,0 @@
-✔ Uploaded Royce metadata to bucket
-ℹ Submitting tx: {"lock_id":"a9e98ab88aaf633b5e3bdfc0c0f0e5a0720b395b2ba3d88d6eae03855394a3d4","tx":{"certificates":[{"type":"registerdrep","key":"93f69a5ae471e07c3903909e8b5a5e65a21458ef69255e8a6b12b373","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Royce","dataHash":"22b2f4cda1744bf6897310b7054578167d1a401c1e3c3796b18149b37eb8cced"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820cbd4b59b883af456167c2d6041ba85c6e4656c190c376d2286a1a2deba3e1efd"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: aa4073577d7b69fa5a621ef2c5995c7bfa2f24abd01b4b8a2a223466b60ea1fc
-ℹ Waiting for tx completion: aa4073577d7b69fa5a621ef2c5995c7bfa2f24abd01b4b8a2a223466b60ea1fc
-✔ Tx completed
