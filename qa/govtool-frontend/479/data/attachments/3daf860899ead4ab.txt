@@ -1,0 +1,5 @@
+✔ Uploaded Tavares metadata to bucket
+ℹ Submitting tx: {"lock_id":"0c6ce713cd13c817a270585571b7053a368de0ad2cf24b181bcbc924e6e17737","tx":{"certificates":[{"type":"registerdrep","key":"60ea2a5c3227da3012e3d8b08a7b3db5b2344c31499d4ef2d33f109f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Tavares","dataHash":"3c54672dc9a5628b39eac241f3622162435d8fc9c39b0664f1f39b8d65666d4c"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820619b97c7c63e02f9ab838167f0b4168fe6387d3d4c088b08043eed9d8266f260"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: ed318cf1393b5472a6e4cb1fb1ce1e9d3d1b588de84629fce43d8734261f327d
+ℹ Waiting for tx completion: ed318cf1393b5472a6e4cb1fb1ce1e9d3d1b588de84629fce43d8734261f327d
+✔ Tx completed

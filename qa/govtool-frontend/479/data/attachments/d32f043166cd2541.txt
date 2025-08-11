@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qq76r8ar6756ryve4z9ntnfvr2rcffpgs8qzgza0jv6e37zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsthf6v8
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded decumbo metadata to bucket
+ℹ Waiting for tx completion: 910199f3c5a5d58c2342285fc40837a0f7041925580705f3adc083ece0f06d3d
+✔ Tx completed

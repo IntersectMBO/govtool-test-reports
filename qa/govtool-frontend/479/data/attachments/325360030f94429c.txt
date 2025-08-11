@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Brisa.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 92c8b53b5e82174977be1dba5a4def3107e257bf46b19afb5a0da226c9430ecd
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
