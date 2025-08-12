@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qqjfs9r2qm07gpkv6xfff452hdye6xvras8udm8lgtqzwt2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs8z085v
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded solum metadata to bucket
+ℹ Waiting for tx completion: c0e00ebc54c36b14481817a2c3e4f3add52c4d4c5b5cd360c8e7846258f6c2a5
+✔ Tx completed

@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrlalmueau08xcdsqd4f8s9x0m096d6p7mvks95qyt7epj6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsrdwar8
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded delibero metadata to bucket
+ℹ Waiting for tx completion: 8a7817094435edde3f223b5dccc17cde1ff4e08617fd265d3912c36eacd6c81e
+✔ Tx completed

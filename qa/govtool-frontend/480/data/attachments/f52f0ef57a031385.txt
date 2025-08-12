@@ -1,0 +1,5 @@
+✔ Uploaded Garnett metadata to bucket
+ℹ Submitting tx: {"lock_id":"1d6ac23b7b157fe5a818da70d0faff85d700307bfca68fef7a337992529b9a52","tx":{"certificates":[{"type":"registerdrep","key":"93277389475920e103da91ade887d94a6ffa680d29f22ac484cdd9fd","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Garnett","dataHash":"44d87698e351261ad6b44ce9bf8d5f86ec3a530fe7da31721eb6d2018f72973d"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ba81caecc827420302669ac2b7e21ecf0e977faef534c37ee727bfca1db6d374"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 15edc75ef36d744b16537ca45e77fb4ccd7263d307bbab0c3d23cb1d128fdd85
+ℹ Waiting for tx completion: 15edc75ef36d744b16537ca45e77fb4ccd7263d307bbab0c3d23cb1d128fdd85
+✔ Tx completed
