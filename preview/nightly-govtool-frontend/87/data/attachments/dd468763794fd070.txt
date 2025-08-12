@@ -1,0 +1,5 @@
+✔ Uploaded Reynold metadata to bucket
+ℹ Submitting tx: {"lock_id":"f7e5d9975a74a9c597ffc4c8d7e7939d57c1ea901277d07dc892b7252b24aa07","tx":{"certificates":[{"type":"registerdrep","key":"62b55b97ae4b9ac88f7532d21af7c1db6b5ab17227bf6b3577de8b38","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Reynold","dataHash":"ddfebc7593141dec0f35b01ff2e5987aeac4eef2827c2d79fbb23e99e0792ada"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200501dd35803188b682f9ad957c010b849a5921b4c2aba1cdbb2dd371598f2d2f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0ba574bbc0f46452a665c990d8dcb9b081659661e766f831a963aa94c0f33e83
+ℹ Waiting for tx completion: 0ba574bbc0f46452a665c990d8dcb9b081659661e766f831a963aa94c0f33e83
+✔ Tx completed
