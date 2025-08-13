@@ -1,5 +1,0 @@
-✔ Uploaded Wilton metadata to bucket
-ℹ Submitting tx: {"lock_id":"1afad6bb9e4d99aed4201090a8e2bdcb48c870b2f0babbd25f5ff087619fe5c7","tx":{"certificates":[{"type":"registerdrep","key":"6303246049f406f68d974e9e61afc8dbb8ed2e8ef86653ddf2d6c865","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Wilton","dataHash":"ef218aa2d346ff3bdf3043256897a36e88f7db53a4b1c452f17302ce4c755d6a"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820fa9a42a755df1e4354b142c6ba73a3dcb1c8c70e1ee222a9585258f5a5a17d54"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 8bcad005f1df835a9c92d0ea1eb8e0f1c429ba4bf5349ebd2ee3fb675512fd08
-ℹ Waiting for tx completion: 8bcad005f1df835a9c92d0ea1eb8e0f1c429ba4bf5349ebd2ee3fb675512fd08
-✔ Tx completed
