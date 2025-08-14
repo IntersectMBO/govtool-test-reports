@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Isaiah.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 926e0ba274e4dd271d00d44356db3b884bb38b42ac0652cf1c1902b6ec76c7dd
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

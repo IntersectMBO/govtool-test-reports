@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qznetmc0m6all7jsdup35rnsfc0a5c4xwpcu38ezsha7srzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsjs9r9q
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded laborum metadata to bucket
+ℹ Waiting for tx completion: d359c9e2359bb236cec93cb7586b4fbb7e26c4c3b13dca3d041a9b760decbb12
+✔ Tx completed

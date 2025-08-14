@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qzrtyu2u640ea34k67q4sugqnd8tthwmf75rrtxvdjaaa6zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs2ecwzu
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded tabella metadata to bucket
+ℹ Waiting for tx completion: f32cfcdec4c257b0ed4af87030f5e59f0c757c0850e33553f842fee33544c6b7
+✔ Tx completed
