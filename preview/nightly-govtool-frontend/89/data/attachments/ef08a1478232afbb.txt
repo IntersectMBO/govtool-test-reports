@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Dustin.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: ea95fe36a0106c7d50bdaf62d9f8a600e8a0fc9438212e3c461294d7383bcf69
+✔ Tx completed

@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Florine.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 291840da854ffb00362b89b1e974ce66e2a38c4050ddb9d1ddd9da1ed2b536e8
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

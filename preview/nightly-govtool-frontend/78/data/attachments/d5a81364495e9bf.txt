@@ -1,5 +1,0 @@
-✔ Uploaded Yazmin metadata to bucket
-ℹ Submitting tx: {"lock_id":"e6ee1a7286c7be0a4591665c9041cb4e99225b2ac5680db433208aa8916419e1","tx":{"certificates":[{"type":"registerdrep","key":"5019a9126ae74df4c9758623cbe5b4e9cbe014446298f9793f0fe9b0","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Yazmin","dataHash":"fbd1b1d0da458cc59f2bda90555c7d1e624510465d4284d13449b0ead12122af"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582056baecaab19e1514d6db94d62561c7d22ceda45e693962c93b7b28d18e5ca3e1"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: d6027a74405c4a0af0c5bd49d9fb6671654ca44700d1e2b39592410c9ce42dce
-ℹ Waiting for tx completion: d6027a74405c4a0af0c5bd49d9fb6671654ca44700d1e2b39592410c9ce42dce
-✔ Tx completed
