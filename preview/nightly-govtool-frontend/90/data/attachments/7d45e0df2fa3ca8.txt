@@ -1,0 +1,5 @@
+✔ Uploaded Helga metadata to bucket
+ℹ Submitting tx: {"lock_id":"df31e8ca4aca34020868af54a86ea16991c0fd2b45f34ee4c6dd4e9fa829a376","tx":{"certificates":[{"type":"registerdrep","key":"5db22a92d934a9105596ee74e6263dd2b4161349bc2f988ca3c7c59a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Helga","dataHash":"bfc00c8922ee677d83a2086fe93d6cb72f21ce049eaf5e6d5cb4b32af52e38f9"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820296ebc3cf636155bc337d0ff172976b88d710b4194935aa3796d9ec895d1a36d"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 65dc336b77252af4834b66e3a72587ce1937346fcdba147b8b9b0fd5c37e73e9
+ℹ Waiting for tx completion: 65dc336b77252af4834b66e3a72587ce1937346fcdba147b8b9b0fd5c37e73e9
+✔ Tx completed

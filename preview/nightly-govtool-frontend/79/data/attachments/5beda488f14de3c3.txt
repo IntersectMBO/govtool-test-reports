@@ -1,5 +1,0 @@
-✔ Uploaded Paige metadata to bucket
-ℹ Submitting tx: {"lock_id":"c02573d50eb3dab28beb7e54d07f0672b7fda63edc65b67b3e50c01ffbec3458","tx":{"certificates":[{"type":"registerdrep","key":"c867cfd6987e23efb08620551d8b7f38a55354f7db857b3cdc599a53","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Paige","dataHash":"2a4ec9dd16652cf79731959fc8d0496b17144f884f817faba8f814c48f54030b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200b32e95430f161db76a14164a00e0d2b151921aced157e71541b41f90441785c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: f28c627ac7ada7848afe2ceac19cb8a239f8f0e401fb132bd2bc64c0f91a977b
-ℹ Waiting for tx completion: f28c627ac7ada7848afe2ceac19cb8a239f8f0e401fb132bd2bc64c0f91a977b
-✔ Tx completed
