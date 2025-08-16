@@ -1,0 +1,5 @@
+✔ Uploaded Norberto metadata to bucket
+ℹ Submitting tx: {"lock_id":"865a263837a689273d9dc414322cf0559e4e328f1f1121bf407fe92bd2c8a11f","tx":{"certificates":[{"type":"registerdrep","key":"d3709a84fa37f0e406e58dcaace0495e515ce0a36fdae62860d69085","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Norberto","dataHash":"519cbe374806243d439419b026bcb3b729c76a616c4ae61e3a3119e760185f93"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207c20d8125818243f9b946efd85c53352d2c3380d4cd20268d85c7b5af30ea060"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: c962dcf84b61a3752bb8ec953a56a930bacbd8f59e857f170e560234845c349d
+ℹ Waiting for tx completion: c962dcf84b61a3752bb8ec953a56a930bacbd8f59e857f170e560234845c349d
+✔ Tx completed
