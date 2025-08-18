@@ -1,0 +1,5 @@
+✔ Uploaded Velma metadata to bucket
+ℹ Submitting tx: {"lock_id":"68efcf20aa8a33f6a86825e41cf8e627c100503f20390c5226ddf58ab6b866b0","tx":{"certificates":[{"type":"registerdrep","key":"79412698f2d8ca691f0878e353831ca45255448e83ac8484eefc1083","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Velma","dataHash":"42a6b5316f8d287629f33c8ab5c2645945cf86f3f5099e7bb40dedad8d4bcc54"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820f108cf26fa4e3aa548e8a8920ed63a5d6bbdc55d5576e4e26948c21f5513f924"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: d750af80baf328cae22bf4c816b3ba446c3fed1cb04f3a5b7d8fd572231c625e
+ℹ Waiting for tx completion: d750af80baf328cae22bf4c816b3ba446c3fed1cb04f3a5b7d8fd572231c625e
+✔ Tx completed

@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Elian.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 2661414571c7e793553e931109c845207b23bcb6a1178938deaac381a5fac90f
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

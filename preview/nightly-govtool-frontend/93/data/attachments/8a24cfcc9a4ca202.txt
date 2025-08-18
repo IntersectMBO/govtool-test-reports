@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Thora.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 7917ab8608fbe726daf3c6d19e2161aa7fef59a5dec096e76fbe6fabdccfbf95
+✔ Tx completed

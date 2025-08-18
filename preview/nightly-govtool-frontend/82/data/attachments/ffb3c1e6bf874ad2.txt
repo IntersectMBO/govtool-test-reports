@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Lee.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: ab19b4be056eda09f257d1ad0dddb5b4e8acd2fdc295cb83a3bd001dce2d3147
-✔ Tx completed
