@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Willis.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 52abd5085cd4aa55476309353fbd68090849aa1c874bbe8d85cbb8a429604713
-✔ Tx completed

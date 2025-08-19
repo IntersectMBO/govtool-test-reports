@@ -1,5 +1,0 @@
-ℹ Retring the function queryProtocolParams
-ℹ Submitting tx: {"lock_id":"bbdd36ef5debd0c133a7525e5350f0fa75e12ebd3f37688b78fb9a8eb5f92ae0","tx":{"outputs":[{"address":"addr_test1qqscmmh6s8kp4790dyn49aygktzdjd5kxn5jxxgjfuzys2zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsz0mfuj","value":100022000000}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 03efb26080156b4ccc757f9cc3163c3d854322aac775a2e105834d353f761c73
-ℹ Waiting for tx completion: 03efb26080156b4ccc757f9cc3163c3d854322aac775a2e105834d353f761c73
-✔ Tx completed

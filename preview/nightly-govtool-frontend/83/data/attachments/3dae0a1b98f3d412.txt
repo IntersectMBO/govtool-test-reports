@@ -1,5 +1,0 @@
-✔ Uploaded Daisy metadata to bucket
-ℹ Submitting tx: {"lock_id":"a43ce847de93a800e4eeb668ef8283a4832214b4dbb0dbd497654ab0eeff5fc4","tx":{"certificates":[{"type":"registerdrep","key":"7587bcf1ecbe1d0a1d4b443d6fdd6bb6bde5cefd1a7abb817c7db356","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Daisy","dataHash":"a7958ede164da16f41b6e7ce73fa2ae8d43cfb83e45269607de8a191515c6256"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820b119de28b8d9ca3ca7274de7f8a18745a0be57e1cd5e2bdd3afadf3bdfe4ef26"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 5ccfa3bbc5cc9de49942b6a247e9b1a578949050a8120ac15ce7c4f77c185e94
-ℹ Waiting for tx completion: 5ccfa3bbc5cc9de49942b6a247e9b1a578949050a8120ac15ce7c4f77c185e94
-✔ Tx completed
