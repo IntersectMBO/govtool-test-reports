@@ -1,0 +1,5 @@
+✔ Uploaded Herta metadata to bucket
+ℹ Submitting tx: {"lock_id":"eeccee6968d9109db4ae07c7183ad382a114a9398b59d7d529c34a798858ade1","tx":{"certificates":[{"type":"registerdrep","key":"a8012746a36835eedbc5a42519ec73f7bfe9168bd9b840defa664910","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Herta","dataHash":"691525d8b7de4198dae7269c35a8f384c9252702fabaab7026939b9dd12b8fbb"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58203e74ee24a77f838aae6cce262a45655e1ab9b4d3f4813cead4403ab227fce497"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 3e70d5e3ea247d9db3ff2609ee39ecfce1fec0065e02772cf461f564334bb241
+ℹ Waiting for tx completion: 3e70d5e3ea247d9db3ff2609ee39ecfce1fec0065e02772cf461f564334bb241
+✔ Tx completed

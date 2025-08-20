@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Elissa.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 0cc0e0710dd86a6ca4a7e66ce6464806a16633691ffa56d36b250c357d87a1fa
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
