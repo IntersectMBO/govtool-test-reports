@@ -1,0 +1,5 @@
+✔ Uploaded Clementine metadata to bucket
+ℹ Submitting tx: {"lock_id":"45d40117cb164dbabe5f504538c3c65595fd087cc888e500e94b124176fa05ac","tx":{"certificates":[{"type":"registerdrep","key":"b9f6a32a9bd75b6945ecd14a1653165fe1fe496c8a7c8f5ae9ea1964","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Clementine","dataHash":"cd6f668c68c5d446e3fca2ee5c5cfdf57de3d8b86aa0ef7310c3ab963c8460d7"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58206ef68328a0d15f9242021a2afea5875fc12efb209dd57802fbeb6ed6b3e918e5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2f4d9c6882c4a127fabb231e0f08a4a9561fab25ea03d19add6eb6408b6b1b37
+ℹ Waiting for tx completion: 2f4d9c6882c4a127fabb231e0f08a4a9561fab25ea03d19add6eb6408b6b1b37
+✔ Tx completed

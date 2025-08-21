@@ -1,0 +1,13 @@
+✔ Uploaded Vena metadata to bucket
+✔ Uploaded Lenna metadata to bucket
+ℹ Submitting tx: {"lock_id":"ba533e1c9fe96b31fff350a9ce49a64eae8fb5c36e9b9466f363d4b0a29966e2","tx":{"certificates":[{"type":"registerdrep","key":"fbe4f19b3964ce26117cd48bdf1a5ec67afce0f9c15cb665b3c2005a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Vena","dataHash":"d521f48e377384b6376db9a38e735d92e34364ccebfdfad8edd2bc1c0b25dcb5"}},{"type":"registerdrep","key":"752d0aab36611de0407f2a030ba546fec172b87b730454ebb435ed7f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lenna","dataHash":"e4cc6d070324fdf7c7cc17d2ad6fbb73c68ad956ada3958800c0099ade6bae79"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820922028d9ba7527b03985943032fa259b0431920800d6eaec8c4debaa5552a6eb"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820db5433f52875c48c962cfd8aa38356f5eb3963136bb0df8d0b604c9c1d0d189f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 3a627f4a4672cf42b11356517c677e8ef900aca7d7445d109fddd85eddbc9727
+ℹ Waiting for tx completion: 3a627f4a4672cf42b11356517c677e8ef900aca7d7445d109fddd85eddbc9727
+✖ Failed due to Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+
+Call Log:
+- Test timeout of 240000ms exceeded
+ℹ Retrying the function pollTransaction
