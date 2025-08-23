@@ -1,0 +1,5 @@
+✔ Uploaded Cameron metadata to bucket
+ℹ Submitting tx: {"lock_id":"1ceb137ef6f64cdfa45621831e3092e0b9f52ca0453d8ff2d940108be942229f","tx":{"certificates":[{"type":"registerdrep","key":"6932186a530833b459dd354e1f98e5ab32b499f8e499474a4e7826bd","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Cameron","dataHash":"f7932a8143c2fb489010afc3ff55f3359d48b57496693d5f80f54eae6a8adac6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582044fcb1e4031670d0f93bf2b4b12d90ed33ffe189727e59853a1708e1bdfb1978"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 55874d319ead43cea681e27b3f27f955befa73fea3274068003b5c3a797a8fa6
+ℹ Waiting for tx completion: 55874d319ead43cea681e27b3f27f955befa73fea3274068003b5c3a797a8fa6
+✔ Tx completed
