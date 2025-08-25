@@ -1,0 +1,5 @@
+✔ Uploaded Rosamond metadata to bucket
+ℹ Submitting tx: {"lock_id":"0e7c35a0de2005d5e267db6a38ab0429bf67bd3f745b6d8c0c4743f57e9b22ca","tx":{"certificates":[{"type":"registerdrep","key":"5840a587f85e99f51050d6ee8b8638aeadf9a94a75f67bfa4a0f08f1","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Rosamond","dataHash":"0365bfe439e9f5a26d75f51b04e484aeabb0234d1feb240d5ef2a28150cb13cc"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820927082b7f0bce5ff0bdb275d4ec1b5a4c4386228d3573c1eea00101c41f4434f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 220ea3a1367a88c51a5f4020f60090d32ac71b7c5b9460a53798fdba2d4cbb23
+ℹ Waiting for tx completion: 220ea3a1367a88c51a5f4020f60090d32ac71b7c5b9460a53798fdba2d4cbb23
+✔ Tx completed

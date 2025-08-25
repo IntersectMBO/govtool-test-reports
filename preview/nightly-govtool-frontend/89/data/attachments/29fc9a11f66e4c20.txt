@@ -1,5 +1,0 @@
-✔ Uploaded Gage metadata to bucket
-ℹ Submitting tx: {"lock_id":"59a63a9d365cf1c88f6239e2f1ea75bb37f7703803427fb5443461b53188f739","tx":{"certificates":[{"type":"registerdrep","key":"d505365fa5b77fda288eeefc1a80365aad4b726cf20a53db43ed75ba","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Gage","dataHash":"dba7155a903629fa33a509e8a6a0d68348b134ed88ed25eb05e0b0fb02d54d25"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582086b8d489a28742663acf4e35df5b1a3031618d3b12e8707e3c2ec1b0c316e654"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: f02c70e73e74b2280c09b3740cc432ea6538c7c3d18b5d30032647e7cc9a53b8
-ℹ Waiting for tx completion: f02c70e73e74b2280c09b3740cc432ea6538c7c3d18b5d30032647e7cc9a53b8
-✔ Tx completed
