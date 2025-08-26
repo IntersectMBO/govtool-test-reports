@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Ephraim.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 28b6e8ae5f2238d3727bffb3f937eb972d5da4100bf2bb082d7205f312e33cb8
+✔ Tx completed
