@@ -1,0 +1,14 @@
+✖ Access to fetch at 'https://preview.api.handle.me/handles/87182e8a4a9c79ca3bd6beb3065ff43f5fa62d5eae00452a022b6902' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✔ Uploaded Samanta.jsonld metadata to bucket
+ℹ Waiting for tx completion: cc0483b8b6c31669fc59ebf2bceb861a24ff160d92d2c5c1460156e6cfb72cd1
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed
+✖ Access to fetch at 'https://preview.api.handle.me/handles/drep1suvzazj2n3uu5w7kh6esvhl58a06vt274cqy22sz9d5syr6g5uh' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to fetch at 'https://preview.api.handle.me/handles/87182e8a4a9c79ca3bd6beb3065ff43f5fa62d5eae00452a022b6902' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to fetch at 'https://preview.api.handle.me/handles/drep1suvzazj2n3uu5w7kh6esvhl58a06vt274cqy22sz9d5syr6g5uh' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Failed to load resource: the server responded with a status of 406 ()

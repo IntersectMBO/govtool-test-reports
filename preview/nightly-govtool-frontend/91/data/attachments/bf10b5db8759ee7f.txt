@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Enoch.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: fcb96f83351a1cca259cef0439e25828b9d6dd543146d8ac2aebb178a183ff8b
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()

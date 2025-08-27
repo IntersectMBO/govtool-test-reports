@@ -1,0 +1,5 @@
+✔ Uploaded Allen metadata to bucket
+ℹ Submitting tx: {"lock_id":"0c74475473240489ea2d802b27869f5c0c4db6f19044996cee671254f088c97d","tx":{"certificates":[{"type":"registerdrep","key":"016609fcf892e2dca69c7af0eb9b297a0adb321262b2d91be4af772a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Allen","dataHash":"59edcfe9f5f2625d5e178eddc885cbd4360597272083db6f67c7ed8a569d2c5e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820589bbf865209a116fcc976d594803bf4702979ffa8d3173224aa35f26224d2f5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 160cdfe9aca0aa4113bf95c658b5ef4761389c17fed5b8d6c022e902a86d137e
+ℹ Waiting for tx completion: 160cdfe9aca0aa4113bf95c658b5ef4761389c17fed5b8d6c022e902a86d137e
+✔ Tx completed
