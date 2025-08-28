@@ -1,5 +1,0 @@
-✔ Uploaded Alfred metadata to bucket
-ℹ Submitting tx: {"lock_id":"143c7844ed0ee72746cba7256fefef22fc0afccccff64d2e483caec78c9ae0cb","tx":{"certificates":[{"type":"registerdrep","key":"44286d75b6fb973741be2673f412502f32eb3ac97077c9298634115e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Alfred","dataHash":"6feb1809751dbf1ec6eecd33e97c70b2ea166a562c3a4e31a0f56df5e479d2db"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582098d440e06a3593b855c418131d779f7f12bfc1eadae6ff281c132149f5a0ffba"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 695961d41d491882ea7681593ab33f7d869cb8646050400d85313a45f5a3552f
-ℹ Waiting for tx completion: 695961d41d491882ea7681593ab33f7d869cb8646050400d85313a45f5a3552f
-✔ Tx completed

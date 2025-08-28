@@ -1,0 +1,5 @@
+✔ Uploaded Earnestine metadata to bucket
+ℹ Submitting tx: {"lock_id":"e81ccb5892dde768ca3bc673a78b0103900cf1122a85455c2d6f2db1ba75d7c7","tx":{"certificates":[{"type":"registerdrep","key":"75150900d5aa7489d244929f92fe05f54ec3d8cc4e505eb83b4a1384","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Earnestine","dataHash":"b768464de20e76b38e3c55f4bd0f9bd4485154848145e3b5a6e5df56bf058e09"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582059562137a70fed6babf1d6fcf251fa0687def39392946ab576244dfc99e12f76"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: bb47a5744a0e004646dbd1d519966f228f2e9ae03361b44493ee16f61960425f
+ℹ Waiting for tx completion: bb47a5744a0e004646dbd1d519966f228f2e9ae03361b44493ee16f61960425f
+✔ Tx completed
