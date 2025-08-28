@@ -1,0 +1,27 @@
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/epoch/params' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/epoch/params' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/epoch/params' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/epoch/params' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Jv
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/network/info' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/network/info' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/network/info' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/network/info' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Jv
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/drep/info/f5fc6f6eaf1b63310bb35bd27aea35c0a79304a62c549ad12b98eb9c' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/ada-holder/get-current-delegation/e06e9d845c4dab18bb80751be2a53981804888e8e8998783bc2ceec4a0' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://z78acf3c2-z5575152b-gtw.z937eb260.rustrocks.fr/ada-holder/get-voting-power/e06e9d845c4dab18bb80751be2a53981804888e8e8998783bc2ceec4a0' from origin 'https://p80-z78acf3c2-zded6a792-gtw.z937eb260.rustrocks.fr' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Jv
+✖ Jv

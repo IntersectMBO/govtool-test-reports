@@ -1,0 +1,5 @@
+✔ Uploaded Annabelle metadata to bucket
+ℹ Submitting tx: {"lock_id":"f8807e56c121a7987c34e19947d29dc94cd84dda9c8e7c3292d687cfeae150c2","tx":{"certificates":[{"type":"registerdrep","key":"601fa23a3821bcf91b481a2438b332855ff18dcd703a37215a2a41d8","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Annabelle","dataHash":"4394d7aab8feed9eb136c9c4efc182feb38ec0ba9cb44d1065c8f94fead77f4d"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820119d0307115d73377d2331b3f8af069de54a87ab5efdc3926d97a9f8fa00b1b5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 239a6abd2c698c98a92f35244884d41b89e250f664437babf382fda74e060060
+ℹ Waiting for tx completion: 239a6abd2c698c98a92f35244884d41b89e250f664437babf382fda74e060060
+✔ Tx completed
