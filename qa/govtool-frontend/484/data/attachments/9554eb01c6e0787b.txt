@@ -1,0 +1,5 @@
+✔ Uploaded Leatha metadata to bucket
+ℹ Submitting tx: {"lock_id":"17384f864d98ada1f8fb59e76f5228c83f508ddc8a2c1d06df632bfb51306d1e","tx":{"certificates":[{"type":"registerdrep","key":"2f1a7668d0af88a3cfb131c23fe7a1a29bb814075d5dd02e6893bd0d","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Leatha","dataHash":"5e1069adb0d5f50170a97f5db622d9c8d35a9c3b87661f2fb776f9f51d47b647"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ce2606715824c9755c9c6d317d400d26a26450d6a16717443d1e935b042bd86e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 1e86a8ac41e8ec8ea19d68c82bfccfe8a842b20ae4b9742fcec16a68b2f70506
+ℹ Waiting for tx completion: 1e86a8ac41e8ec8ea19d68c82bfccfe8a842b20ae4b9742fcec16a68b2f70506
+✔ Tx completed

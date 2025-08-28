@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrr4jwzp3y74xs9r9ex54trkkaq92lscynrw57r0uxh5p86wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsskntry
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded amplus metadata to bucket
+ℹ Waiting for tx completion: 8ae8fc0231eebc5f969a4fc8eed5eefa108c95b616c44ee51ceacf15f848fa13
+✔ Tx completed

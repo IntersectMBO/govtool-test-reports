@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qq2h4glvhl8suhhem0yu4zzl72qng2ervrauy95kpepkz26wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsj6pdcr
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded casus metadata to bucket
+ℹ Waiting for tx completion: 0a1b85087d36dbb3619969853642d87290443ae7d8d877ad83360661d50a1e17
+✔ Tx completed
