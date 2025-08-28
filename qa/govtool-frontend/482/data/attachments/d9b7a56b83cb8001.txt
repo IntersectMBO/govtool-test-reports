@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Rhett.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: e6024c92570d92b67ca14764d8a2154a3c2ee7690a766021af2cd471ce734f11
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qq6u2rt6npvw78yeq2dw37hhrlpsgtplwmzdpkra09s8smzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjshj5zu9
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded clementia metadata to bucket
+ℹ Waiting for tx completion: a9c30fb09a8cd05f2ad48061a0d0c2c620ba5ea742087f499cab2ed179c250e2
+✔ Tx completed
