@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qr479crh2n2rkjqjpmnqn0ryus4t4kg3nduavaj3e3rx0hjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsy8jnw7
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded demitto metadata to bucket
+✖ Failed to load resource: the server responded with a status of 400 ()

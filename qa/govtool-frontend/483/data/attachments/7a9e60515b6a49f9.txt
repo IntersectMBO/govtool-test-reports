@@ -1,0 +1,5 @@
+✔ Uploaded Amaya metadata to bucket
+ℹ Submitting tx: {"lock_id":"4af7f54b645c3ebbc494817257db431abd1e6df2e509815ab6be618235a86491","tx":{"certificates":[{"type":"registerdrep","key":"c2960ffd84fef0b23cc32ed555c49acef47512a220af438e91629470","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Amaya","dataHash":"9eb5232bf159033531296a957940133bfcbba0b2aae5abee083e4622061158e2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ea10d7cc55a089e9ba1e6af03c6aa7bb390a87d705e86c68dbc6f7b7221bf36b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: b655f9440bb366a7e5515927d895c34fe34a186b780f720567e80581ef1bc3d7
+ℹ Waiting for tx completion: b655f9440bb366a7e5515927d895c34fe34a186b780f720567e80581ef1bc3d7
+✔ Tx completed

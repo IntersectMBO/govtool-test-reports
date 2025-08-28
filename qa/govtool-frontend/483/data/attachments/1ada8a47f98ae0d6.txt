@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Jayson.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: ca06990519d7b916407b7f59128875e85a91e029f3efa85fbd3d323eb667dd5a
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

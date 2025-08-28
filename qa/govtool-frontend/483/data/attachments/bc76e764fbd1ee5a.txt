@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qqwjg2j8r332zevty2v8ujsuaes6ckheyu49zzjy0yly8y6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsvkj4x3
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded atavus metadata to bucket
+ℹ Waiting for tx completion: 2d911d427d44d62692d8449a1658c03e34851412911b17e9f7eff0ecc694bb33
+✔ Tx completed
