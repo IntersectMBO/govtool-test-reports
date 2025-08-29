@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Tabitha.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: ae57f731ec64f493a9a92c19ad1eeb7b545c4bdac13a4d7f408c434e0ae5f653
+✔ Tx completed
