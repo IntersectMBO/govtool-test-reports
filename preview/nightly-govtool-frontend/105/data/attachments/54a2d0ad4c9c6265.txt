@@ -1,0 +1,5 @@
+✔ Uploaded Rahul metadata to bucket
+ℹ Submitting tx: {"lock_id":"49cac8745a1cbbe22583623e5ef90d44d77001eb22a73cf45247615c20f7e5ad","tx":{"certificates":[{"type":"registerdrep","key":"2fdd3cdc96236c50243ad41c39c299280cbce7600cdb2f40d2a04d19","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Rahul","dataHash":"cdb847b14a50b6f7841d6cf1289876b5659b2cba9b086c52d1592a63554342e6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820028c341954a5b91dc00e86e2dc199443f0c7d83ea80b48fc1c89eaa2082bafe5"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 25a344ad4a2f4ea20a41e8077e092ed19185dbe009c3dba0c55832ac061da084
+ℹ Waiting for tx completion: 25a344ad4a2f4ea20a41e8077e092ed19185dbe009c3dba0c55832ac061da084
+✔ Tx completed

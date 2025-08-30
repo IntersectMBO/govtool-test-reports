@@ -1,5 +1,0 @@
-✔ Uploaded Peggie metadata to bucket
-ℹ Submitting tx: {"lock_id":"18b6faa5c455ae5d896c60a645ebb1f5b635f64a29b7d533fa6b42efb56edc47","tx":{"certificates":[{"type":"registerdrep","key":"e82552ab5a36c5be2e77f9b89ca9409176fea5dd190ef14450ce1cfd","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Peggie","dataHash":"f9ea8012386923928a46428dac03e6d7c05e6beb2d059068a3cb685b10d16063"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820f9eb38ddf4fa101246e6bea089ec8765dee3c04473cc160e91da285b1eb38ed2"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: c8af5d00ec032a7a61b87064f569804d6c871ab09cf95736888675ca30c9bcda
-ℹ Waiting for tx completion: c8af5d00ec032a7a61b87064f569804d6c871ab09cf95736888675ca30c9bcda
-✔ Tx completed
