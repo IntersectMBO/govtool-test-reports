@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Jannie.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 509e67d35b95bcdff97cf059a55485c36567ce872b5ba34f92ddbbad248588c5
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Tx completed
