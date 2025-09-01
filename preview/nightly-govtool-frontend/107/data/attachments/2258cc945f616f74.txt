@@ -1,0 +1,5 @@
+✔ Uploaded Charlene metadata to bucket
+ℹ Submitting tx: {"lock_id":"4307c81a87019a049d7ccfc98f86b78c529257b3c6804e0a68aa3b9d2071c134","tx":{"certificates":[{"type":"registerdrep","key":"8bbe303b53e8b7096d84697e8ef4a32966a163e5c8ee388eaa604a33","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Charlene","dataHash":"f5dce0f8d4cd73afea84105eb13c990483e43a1c830a9b7cc58f4a39de0ddeea"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200354546e1909c536ccfa2f6800f4c91bb56c7a6a254800b1595902be3025aaa9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0480db1ae3984637e5924e944b40a71ec00254015a504dca7ea96f60c4c6abbc
+ℹ Waiting for tx completion: 0480db1ae3984637e5924e944b40a71ec00254015a504dca7ea96f60c4c6abbc
+✔ Tx completed
