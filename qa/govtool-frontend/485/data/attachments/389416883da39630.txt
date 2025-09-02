@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Xavier.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: cedeccef5f4336a4144ce41bc84bce6e273aa682c85b8983f596da2e8af243bc
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

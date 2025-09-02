@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Syble.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 1ba92f8ddc4817040455f34b746ffaac888a01dafdf864bacf31e6e26b76855f
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed
