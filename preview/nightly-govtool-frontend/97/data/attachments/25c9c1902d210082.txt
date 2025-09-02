@@ -1,5 +1,0 @@
-✔ Uploaded Betty metadata to bucket
-ℹ Submitting tx: {"lock_id":"79501842c30f7a3e87cafd796f7347a1f130cf62c7437bc337b591e543c5d1ed","tx":{"certificates":[{"type":"registerdrep","key":"d2e9712d8bfe66aa399ca40d9556f6397b31720b08edd0b6c9d7b3c5","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Betty","dataHash":"0b2046ed0d59b8393e4eec19168c71e1c5fa04a8856e1c64ec09391ecd3603ca"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58201043858bfb7aded9fda5be6824f5c9b3212bfe9d0c22009a6f1e6a9ebe8c09da"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 3d6115608950c3aa6857b5aadaa6e4e86b171ea2397c8a4660b7c46f510df33b
-ℹ Waiting for tx completion: 3d6115608950c3aa6857b5aadaa6e4e86b171ea2397c8a4660b7c46f510df33b
-✔ Tx completed

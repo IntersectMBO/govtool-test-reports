@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Eloy.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: bdd3c55c69d0ece8cff3b1eda4fce12986d1a15340d00dadf1c2ac49cfb094c2
-✔ Tx completed

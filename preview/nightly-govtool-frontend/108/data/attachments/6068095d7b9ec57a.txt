@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Felicita.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: fcdd6bf630c32b105fded49b36ca26c6f5c6d3d24e7813ff4ea3abbd790abb17
+✔ Tx completed
