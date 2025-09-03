@@ -1,0 +1,13 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Access to XMLHttpRequest at 'https://metadata.preview.gov.tools/validate' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Jv
+✖ Failed to load resource: net::ERR_FAILED
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: e8952691c436d6852b6af149e2a0bb9b5621571c68fbd964957bb5699fc1f68a
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ locator.click: Test ended.
+Call log:
+  - waiting for getByTestId('download-and-store-yourself-option-button')
+
