@@ -1,0 +1,5 @@
+✔ Uploaded Delfina metadata to bucket
+ℹ Submitting tx: {"lock_id":"bb2d06b41d3643bf0783823557564002198f8b02659ddf9a3dc34550727b6ce7","tx":{"certificates":[{"type":"registerdrep","key":"0cea46e720302c11f7b69ad3ba4f66cd1e6f229e9a089d802d1b0d8f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Delfina","dataHash":"b90d3ae78fd8bf3426d0670a58c6603bf16f69928c6a4a5cfa1f18c6d9fd1cfd"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e50303548131f01801cac951d04444c033b66f1b19360d008b006ebcb02e6334"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: eb814581d602ec2027e51ee3a39614dda275362df55cd5b769bbfd1e796140a4
+ℹ Waiting for tx completion: eb814581d602ec2027e51ee3a39614dda275362df55cd5b769bbfd1e796140a4
+✔ Tx completed

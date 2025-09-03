@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Otilia.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 48bd3b2c803560a447f04ef1cdf0354702b31289f3ccd53d7130ee93160435e1
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

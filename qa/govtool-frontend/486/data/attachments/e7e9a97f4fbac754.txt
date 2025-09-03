@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Lazaro.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 6b17ba3e1180b7f2e2a173cc7d08bef322784cf09911862e8d03f5abfb0a6722
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Tx completed
