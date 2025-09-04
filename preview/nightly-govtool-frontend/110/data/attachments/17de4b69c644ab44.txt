@@ -1,0 +1,5 @@
+✔ Uploaded Aubree metadata to bucket
+ℹ Submitting tx: {"lock_id":"5c260f5b3856cd10c01637e73ef6691939ae0ac7c84f473d1bca151d614327ea","tx":{"certificates":[{"type":"registerdrep","key":"50a2d2fd787616d33f57deea61235b409200e5f81a43643f47227dbc","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Aubree","dataHash":"c2e8dcde721fc918db4ad06e402ae8e0684be9c48ad26183c743eea9d0cf49e1"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58207d78c9828f1bfdd2264695b131b03a53fdb5b95de180226e7f991b91e56778ab"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: ebd4938e991cf4148b47bfbe1bbaaa6947dad92dd1ef90b256c2beece78eb3b4
+ℹ Waiting for tx completion: ebd4938e991cf4148b47bfbe1bbaaa6947dad92dd1ef90b256c2beece78eb3b4
+✔ Tx completed

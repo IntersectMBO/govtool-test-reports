@@ -1,5 +1,0 @@
-✔ Uploaded Adrienne metadata to bucket
-ℹ Submitting tx: {"lock_id":"3430d2df6f96eb1cb65bc6369270f0cb7ce80fd176b38911ffab270faa70dd3c","tx":{"certificates":[{"type":"registerdrep","key":"7f146a90cdf27867fddaa8caee2bc3dd3009a39a672ad2fd88eeb6fb","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Adrienne","dataHash":"07f8c86d1712eb325945a10bb1d72d69a4ecc90287875b2d110793a9a7dddd59"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200c48f2cf8d8cd0b685de185396de85218459dacc277998331d039df4db92fd18"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 0b29ee0648034e5946b9a2aa4e17d8858e9c6bec9b9514f76127fcaffac12e77
-ℹ Waiting for tx completion: 0b29ee0648034e5946b9a2aa4e17d8858e9c6bec9b9514f76127fcaffac12e77
-✔ Tx completed
