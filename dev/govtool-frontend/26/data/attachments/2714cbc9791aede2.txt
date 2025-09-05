@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qpu0g5mwjcarqd7fjy79cn42zv3any83nsphuh05udw4tdzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsmjsn2v
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded adsuesco metadata to bucket
+ℹ Waiting for tx completion: fe5a5790a32f592371f79d5d166c187ef372248d4f41e8625ec0135330055a6a
+✔ Tx completed

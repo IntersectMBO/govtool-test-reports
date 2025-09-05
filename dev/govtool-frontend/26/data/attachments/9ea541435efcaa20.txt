@@ -1,0 +1,5 @@
+✔ Uploaded Toby metadata to bucket
+ℹ Submitting tx: {"lock_id":"49a17d57160f18840c831c018463db99060881e8d486c97058e88ac4bf48381f","tx":{"certificates":[{"type":"registerdrep","key":"017b50e67909fb4474737ba4632f8960c127527bdad8c4ade4e26bc6","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Toby","dataHash":"3ff764ee0a14f9b8a04bc99816be2063e3f97a5fe8770e9dcfb8f2d94ba4a36e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582026c82e4dddea197f5bc07228da605ac6a9650f255e9fa5ebf5e2a647abb578ed"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: be3a805021cc6810abe255fe354eea9c0bd6f92e1efe23796c411055c27b8577
+ℹ Waiting for tx completion: be3a805021cc6810abe255fe354eea9c0bd6f92e1efe23796c411055c27b8577
+✔ Tx completed
