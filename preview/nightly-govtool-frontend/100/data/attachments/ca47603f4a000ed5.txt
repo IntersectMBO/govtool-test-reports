@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Mario.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 02d23aeaf041d177a4236e6c379a2af4da97678b80bd389f3b2ecc6c2d445370
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
