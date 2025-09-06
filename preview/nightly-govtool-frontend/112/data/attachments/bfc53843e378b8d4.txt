@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Raul.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: af87ae159d4018e5cb40e572d4206009bbf15c5370c16f8da56f8fa8c1d0066e
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

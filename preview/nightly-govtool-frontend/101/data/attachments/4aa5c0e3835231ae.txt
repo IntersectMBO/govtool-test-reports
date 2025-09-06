@@ -1,5 +1,0 @@
-✔ Uploaded Kyla metadata to bucket
-ℹ Submitting tx: {"lock_id":"39338901f018522c568291c218cef0d5b2a64eab26dcb25359d18988d7988f32","tx":{"certificates":[{"type":"registerdrep","key":"208d43931ceeeeb65727f7763874fceaad6e72e8dd4898e5ca274013","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kyla","dataHash":"773fc00cc8bc78a21dbdb1988e0ef6e810e197f5849fdbc52253e5527789856e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820654821ad230f5f5dfbd242940b91340ca804e5f4547b835a820158a7562e34d0"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 31def177cf93d8e02bfce465e9e97412da6d38ae36e493e5d016f7d3c47d7966
-ℹ Waiting for tx completion: 31def177cf93d8e02bfce465e9e97412da6d38ae36e493e5d016f7d3c47d7966
-✔ Tx completed
