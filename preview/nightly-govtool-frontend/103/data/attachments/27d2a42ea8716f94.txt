@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Providenci.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 5ee4becdc64e9e63aa8b65ac0f01e6dc74dec497dd6c3c06510b2e2e257f0098
-✔ Tx completed

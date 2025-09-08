@@ -1,9 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: cc96f5eff14730a5607cacbd9e2eaa5f5aea2cb0687e33792604423097001fa2
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ locator.click: Test ended.
-Call log:
-  - waiting for getByTestId('download-and-store-yourself-option-button')
-
