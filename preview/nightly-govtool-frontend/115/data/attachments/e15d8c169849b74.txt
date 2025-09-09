@@ -1,0 +1,5 @@
+✔ Uploaded Katelin metadata to bucket
+ℹ Submitting tx: {"lock_id":"ceba15905084491981b97ecc0f9844373444f22658839a222738e428e53be758","tx":{"certificates":[{"type":"registerdrep","key":"7481e3debf2fa57957692696e949e9752100baa93b2e60498b51309c","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Katelin","dataHash":"f29d0df3b3af5cb87e6e5c06b25de71daea087ad57e782782f3d1b51c566affb"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58201f18cd918e0d06d96d652dadbbdeb33de7d8dab1c1c10889e8a96a5b500a3a0f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 857a07732a801034dccc8a303c447f11a5f0cc641ae95aa5efd3c06c782fdfd6
+ℹ Waiting for tx completion: 857a07732a801034dccc8a303c447f11a5f0cc641ae95aa5efd3c06c782fdfd6
+✔ Tx completed
