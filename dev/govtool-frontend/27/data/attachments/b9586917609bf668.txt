@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Opal.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 2c904de2bc1b004c85870982db37ba73003eecdb0c890a8dbfb21927888f3434
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

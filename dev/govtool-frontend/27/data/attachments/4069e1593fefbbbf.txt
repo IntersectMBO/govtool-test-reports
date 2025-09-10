@@ -1,0 +1,5 @@
+✔ Uploaded Josiane metadata to bucket
+ℹ Submitting tx: {"lock_id":"9cfbb91011f7bd24277d6c96f71279ccf37322c95051f61ecb1985fb2b8257ad","tx":{"certificates":[{"type":"registerdrep","key":"27fbd68e28214d947ab0381529b77f208512f7c41090a3b169ea4330","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Josiane","dataHash":"03278aaa4bd3293e4240d01f02d315f84bf90450e76dea27f3f6716067abdf69"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820eb2dbb656814712b620e9a934b29809ef9af105b66d38ab469d328626a494b96"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 002ace0df2805324904a8d49611bd83e9e43b0ad8795a2de4371619e6391d5f1
+ℹ Waiting for tx completion: 002ace0df2805324904a8d49611bd83e9e43b0ad8795a2de4371619e6391d5f1
+✔ Tx completed

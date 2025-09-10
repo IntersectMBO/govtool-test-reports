@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrhgr7freldwwzlwtdqyajl969yvzeqg0r7ztkvn54g70xzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsg335k7
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded careo metadata to bucket
+ℹ Waiting for tx completion: bf6b7873129d809784da74010ff3089694fab9c915408424003c5910f40eeada
+✔ Tx completed
