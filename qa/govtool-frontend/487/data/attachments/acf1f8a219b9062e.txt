@@ -1,0 +1,5 @@
+✔ Uploaded Keyshawn metadata to bucket
+ℹ Submitting tx: {"lock_id":"2c88e74eefc825e1409c127d5d2a3745c27248a953ffd3ecb7a5b84403ca6d2b","tx":{"certificates":[{"type":"registerdrep","key":"a83979a8314049fda817c4b528bc5b0a72ef322c41d31a43f407f955","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Keyshawn","dataHash":"10296d93fc06a8f8dc3ccd60b192df8f617a8f07576ef325bda1edb6f7edcd79"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58204605ec69fab51da0ae1faa20d62bc9f1b45a9e9f2ff70859eca031640220b2a7"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 992b97359837e6a805dadd21a119e709dac0b5699ba45baba4f34483b5bcd874
+ℹ Waiting for tx completion: 992b97359837e6a805dadd21a119e709dac0b5699ba45baba4f34483b5bcd874
+✔ Tx completed

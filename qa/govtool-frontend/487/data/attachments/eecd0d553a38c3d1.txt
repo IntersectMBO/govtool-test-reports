@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Jayne.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: dc3a1aba68a3f061e9629a25d80e86a8be7030db35db6eaa91ee04c210658f98
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

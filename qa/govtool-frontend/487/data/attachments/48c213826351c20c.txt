@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qpxa62l37lzvmswnl7y0q32r9jgrfrg76grr82ryvjv42z2wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsm6t3r7
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded pauci metadata to bucket
+ℹ Waiting for tx completion: 1d38d34b3ddf69e81d942d657041f416a19ea3228e95ac2375a545cc98f377c6
+✔ Tx completed

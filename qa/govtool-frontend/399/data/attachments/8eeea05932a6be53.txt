@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded guardrail-script metadata to bucket
-✔ Uploaded xiphias metadata to bucket
-ℹ Waiting for tx completion: 8f35c5d186d9251e1ad3927b4ca54b96f595ec9a004d3f452ea78669ce97ef5b
-✔ Tx completed
