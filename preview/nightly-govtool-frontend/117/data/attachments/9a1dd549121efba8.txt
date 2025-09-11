@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Josefina.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: d5d70fd405a07ad2baf0dbe77ff1c873428a6fb8a8bf790ed550bb31c0c533bc
+✔ Tx completed

@@ -1,5 +1,0 @@
-✔ Uploaded Brain metadata to bucket
-ℹ Submitting tx: {"lock_id":"b76ca3792c6f8008cfade3ba78f71aba56a03919b3d040fac064d602689c2d94","tx":{"certificates":[{"type":"registerdrep","key":"c820d636065093eb7d4e996063e2ff83a220dc81cf3a95d56ebd673d","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Brain","dataHash":"1998a8a9c180143293d7137f95dbb1858609391363dd6a267b6e3b01386e0fcc"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582096e7d3af2c933d4a484290bf8639f501d6810b313db65638121431487ecc53f6"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 5b11ed8cb2a3fcb0cb925264f11b0d79959f8c2aacd277b0d4e85d1ebbeca0af
-ℹ Waiting for tx completion: 5b11ed8cb2a3fcb0cb925264f11b0d79959f8c2aacd277b0d4e85d1ebbeca0af
-✔ Tx completed
