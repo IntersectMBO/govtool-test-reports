@@ -1,0 +1,11 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Oswald.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 3f1c3dedfe5a6d110e0e5dba61b98f1865f0c907e0eeba386210ac90b10b3a3e
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
