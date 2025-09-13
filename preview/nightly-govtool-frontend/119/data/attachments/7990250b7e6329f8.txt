@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Kattie.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 21670372ae884cea98d07e0205c244dcdf48be96d3bfb2160d16a6a3f498545f
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

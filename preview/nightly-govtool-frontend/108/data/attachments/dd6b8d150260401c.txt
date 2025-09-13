@@ -1,9 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Edwin.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: da090cfec68a66bd9a64bbb31e8cb604ee2cba2d57a20ca51c67b1e8c8a35e7d
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
