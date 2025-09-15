@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Dagmar.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 10a0f5777cb3510d69f32f6a53675ba18f7a36efdfb0dda3a42ad79ba38e064c
-✔ Tx completed
