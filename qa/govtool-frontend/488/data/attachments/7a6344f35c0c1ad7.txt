@@ -1,0 +1,9 @@
+wallet balance 100022
+wallet address addr_test1qzq4kqhlekdrsfc2r9rkxqagahgn0p3m7fwdnxq4ptgdt3jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs3rw0a5
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+3
+✔ Uploaded veritas metadata to bucket
+✖ Failed to load resource: the server responded with a status of 400 ()

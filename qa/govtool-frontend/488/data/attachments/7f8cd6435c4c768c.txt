@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qrhrj3nc0d54gsevtawyschs5qlgnzl5tnqpdyx8992mg8jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsxgke5v
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded cernuus metadata to bucket
+ℹ Waiting for tx completion: a2177cd0c302a53aa09d85210f8f9cb7a5a3d3fbf97321ba63e0ab3ab2fa1fcf
+✔ Tx completed

@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qr5hp87lelrpxwsdkzjagx4jllttjga24hr83pyenw4wgl6wvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsjjrpan
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+0
+✔ Uploaded subiungo metadata to bucket
+ℹ Waiting for tx completion: 1cc18a6faccadd2b033a0f5e839fa51c61f96125a42d8a94add4b273e607777e
+✔ Tx completed

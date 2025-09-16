@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Francesca.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 33b76f4e260e999e8bb0dc071429220fffed509879782ba5921777db147d0569
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
