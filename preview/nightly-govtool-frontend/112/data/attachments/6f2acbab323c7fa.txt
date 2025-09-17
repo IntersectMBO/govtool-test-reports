@@ -1,5 +1,0 @@
-✔ Uploaded Nelle metadata to bucket
-ℹ Submitting tx: {"lock_id":"f29156c019f99fe81ff8e265390a5b397dd65cb111927cceed1783f6ef427625","tx":{"certificates":[{"type":"registerdrep","key":"ebf2859484584deca420efc10cac1b6dde0433e7a0639ef444f6bdd1","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Nelle","dataHash":"d075b942a9ed41d54ce8b8dc733af55067a373e69b8b62027e6820b6ac810d59"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58204ac18ac578618aa16d122a1e6d6dd819814a3110568d24c596644b368698babc"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 3a5958a4640b1a5e44e8105f8cb782050c1096c2aad35de1d44ad16da9caa98a
-ℹ Waiting for tx completion: 3a5958a4640b1a5e44e8105f8cb782050c1096c2aad35de1d44ad16da9caa98a
-✔ Tx completed
