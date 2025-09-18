@@ -1,0 +1,5 @@
+✔ Uploaded Delmer metadata to bucket
+ℹ Submitting tx: {"lock_id":"927d3d5fb23b9cec65a3df232ca0bd55eeb2853b6828bcb776ae48448031c924","tx":{"certificates":[{"type":"registerdrep","key":"aec0277933020879895a858291e5d1df6c6f682f0ead7df03acfca22","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Delmer","dataHash":"874ecc8cf73d835e53353275054d337f29c640d1fa1a243c6f4ed0f70d868ddd"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582067c0c05d791025804f4d4508cc7d8183f5522e28232f0141525f7b2c95282e44"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0e2fb7e15a4f83e7bdb9e3f11e0a7430b9d78853ff678d476882d14d8f6a558c
+ℹ Waiting for tx completion: 0e2fb7e15a4f83e7bdb9e3f11e0a7430b9d78853ff678d476882d14d8f6a558c
+✔ Tx completed
