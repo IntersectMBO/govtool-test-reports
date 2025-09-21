@@ -1,5 +1,0 @@
-✔ Uploaded Terrance metadata to bucket
-ℹ Submitting tx: {"lock_id":"1d600c564723e1c4997675de37a7d5368fc5d9afd7c72dcdb2b2f891348fc2b1","tx":{"certificates":[{"type":"registerdrep","key":"ad84178b26a429229cee3ca93b038073276b9998c65849fe529ecb17","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Terrance","dataHash":"8eb33ef68fb7f31e3d35d12832eb6408bfa0458efb3333e79769795b07c3a9f7"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ea5915a7adbf9338a98896a7bfcc9d580950c27c41b946a557b69977a87e8c00"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: adf5231d8345e7bdf4df7c58bdf2b9d5230297bb160879ebc654b29af87b993c
-ℹ Waiting for tx completion: adf5231d8345e7bdf4df7c58bdf2b9d5230297bb160879ebc654b29af87b993c
-✔ Tx completed

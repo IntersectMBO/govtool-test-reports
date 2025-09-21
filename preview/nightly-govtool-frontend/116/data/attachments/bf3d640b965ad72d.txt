@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Salma.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 37f6cfdeddd5cc202be7e91502518c0a5457f817f8af808bba2b80c2a57b3bcf
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
