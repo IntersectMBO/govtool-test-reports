@@ -1,5 +1,0 @@
-✔ Uploaded Waino metadata to bucket
-ℹ Submitting tx: {"lock_id":"cea5e0c40af65ca10121403d6e88ba217800dec045ce384e298872c9790b3b82","tx":{"certificates":[{"type":"registerdrep","key":"cd9767edfa79352bc32914dcfb70aaefe94907640b8d0d3df0fbda5e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Waino","dataHash":"e2df68c05b88830cae6734f56b77ae0d292a8d32c09069a701fd5ed756d809fd"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e9a4c9afae4ee3ef3cb7de34634ae614ebf57796de9b06713244c47953895bfc"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 9029bda4d423b9aabf7b0852163dad8731c4d1c313df9c4b57ddc751f9737787
-ℹ Waiting for tx completion: 9029bda4d423b9aabf7b0852163dad8731c4d1c313df9c4b57ddc751f9737787
-✔ Tx completed
