@@ -1,5 +1,0 @@
-✔ Uploaded Katlynn metadata to bucket
-ℹ Submitting tx: {"lock_id":"9d9e59b13555f1e8b81970f28aa9559f805af53586071c633beaddc781e17498","tx":{"certificates":[{"type":"registerdrep","key":"923f02ad89c2f8e1f878a6a93fb10b971899d6c8abe351f770c2553f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Katlynn","dataHash":"2b54c5c63a2d5bdb520fea776923475db51c7d3aaa4c09539b75c78e98f110cb"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582056bfcd52a426130010260340577265ef6f757a5b8f119d53fd4842b04b7a2e97"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 511c96dd55470aa1fdc76465630f78d69b4c2f6abe1093fffd71726b0a894c75
-ℹ Waiting for tx completion: 511c96dd55470aa1fdc76465630f78d69b4c2f6abe1093fffd71726b0a894c75
-✔ Tx completed
