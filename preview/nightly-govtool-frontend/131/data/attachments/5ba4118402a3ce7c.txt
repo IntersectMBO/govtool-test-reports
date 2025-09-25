@@ -1,0 +1,5 @@
+✔ Uploaded Dominique metadata to bucket
+ℹ Submitting tx: {"lock_id":"d9bf2803b4966e8324a5a122ad1612d5822e59f8f5a4358b164a922494a1490d","tx":{"certificates":[{"type":"registerdrep","key":"e05d6659d4df862f046e80050d75cc2ae6f228c8bbb29c6d5c757ba8","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Dominique","dataHash":"5649cae531d7fd88263208e722a9c13710031cc754dfa83ee4143fc1aef85952"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820dfd1b8e52fc98bfac6c5c0513f64835857d8cc6215acf9704ca35b5ee2e22b88"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: da72adcc07630385c53ca6c4be9f2da0d20b0e0acf29ab028b909895f879dd47
+ℹ Waiting for tx completion: da72adcc07630385c53ca6c4be9f2da0d20b0e0acf29ab028b909895f879dd47
+✔ Tx completed

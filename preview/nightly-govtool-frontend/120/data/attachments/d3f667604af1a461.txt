@@ -1,5 +1,0 @@
-✔ Uploaded Golda metadata to bucket
-ℹ Submitting tx: {"lock_id":"ab704548c41d30d9f441c65addfe63be2a7510d15d288f425b7c8d02e82da800","tx":{"certificates":[{"type":"registerdrep","key":"5250934b924fcf3066821441d07dafcadc93376dd8fae43d62362006","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Golda","dataHash":"99ae8e69942065f55945cb96d7ddcd07559c01d876e3a59c50e606d349e2fe90"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58205f26b591ccaa068991db3e36ba254698ae4cb7fa3fd4156d975b73db83d6c130"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 082090ed24eb1fff3ac4065dfc82db534888f2b000898a6c7442ffd469192aef
-ℹ Waiting for tx completion: 082090ed24eb1fff3ac4065dfc82db534888f2b000898a6c7442ffd469192aef
-✔ Tx completed

@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Beau.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: e0cf3d2e9fe8dc34eeec52ef28db756ae1e096ecdcfd0adca62843a4faed42c5
-✔ Tx completed
