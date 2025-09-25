@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Kale.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: a517f531a7bbd914ba4a0d2e03b0ba788465d833a85050e24083a7fab38dc9f9
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

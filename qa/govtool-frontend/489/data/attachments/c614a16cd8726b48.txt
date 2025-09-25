@@ -1,0 +1,5 @@
+✔ Uploaded Laisha metadata to bucket
+ℹ Submitting tx: {"lock_id":"16dfa84ebf43bb269f4bedd8304ea938edf24d2107298ea4dd4cf57910233f68","tx":{"certificates":[{"type":"registerdrep","key":"8029776747e7790fa1f1e93a694433cfe2b68bc1dd45f8ce5aa8468c","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Laisha","dataHash":"e6b88f0981b904fa0e72a87ccb7c01b98fd578fbea82bb989fd9216637585ebb"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582053426665f03bf756a9eb8772dafc8065432b398281e3fd7aed665d63f66ecb47"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 300705defa14b0a305e49d62f99564e35b8996b5cf0eb1484c9cf0737f975f70
+ℹ Waiting for tx completion: 300705defa14b0a305e49d62f99564e35b8996b5cf0eb1484c9cf0737f975f70
+✔ Tx completed
