@@ -1,5 +1,0 @@
-✔ Uploaded Bruce metadata to bucket
-ℹ Submitting tx: {"lock_id":"10975a5e3fa91c98ae39c53427e12eedcc7a5004d636e71dda7500317f26cde6","tx":{"certificates":[{"type":"registerdrep","key":"35880a1cb5cce2904e47de10f442891413d7b628edb375b35f1b0b2b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Bruce","dataHash":"9e1e1a13960adf71eac1c21f8b704f56df0f6fe932046ce2aca4d1aed30c9209"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a00384a59a78ca4fda134254eba4fffd46a16659ce2c4a6945cac1c11f337e55"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 1521cc4432f1446a20d4aad3a8c8b513017dcba980025a6242d62e060330c46c
-ℹ Waiting for tx completion: 1521cc4432f1446a20d4aad3a8c8b513017dcba980025a6242d62e060330c46c
-✔ Tx completed

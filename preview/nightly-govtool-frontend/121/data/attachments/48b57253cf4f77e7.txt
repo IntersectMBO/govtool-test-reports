@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Caitlyn.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 4cf3672ac2d5c79cdafaf624a0b01e1d6b7e86b997af6218ba3a4f50583a138a
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
