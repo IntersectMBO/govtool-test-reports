@@ -1,5 +1,0 @@
-✔ Uploaded Margot metadata to bucket
-ℹ Submitting tx: {"lock_id":"49913ca6e7dd1965a9e69b1cfeff411545d7ff211abc8f6014757382000eaa89","tx":{"certificates":[{"type":"registerdrep","key":"d64e19b691ea5cde6b07fc108e57769209deab828665e4a1585a75de","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Margot","dataHash":"d22aa66517fd1826a9ac96bce3708700843314fbf94bd50193061015b793ee53"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58204f447db04e18787799c6aef3cb41e445d88ee735079a7128e2ec19bdf029106b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: cddfa6d19b9b4822417b7ec5c539a42c0afa507d959d3d90d78a4875d7e99cd4
-ℹ Waiting for tx completion: cddfa6d19b9b4822417b7ec5c539a42c0afa507d959d3d90d78a4875d7e99cd4
-✔ Tx completed

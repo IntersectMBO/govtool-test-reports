@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Eileen.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: ddf30e67bf809a1aa539112ab4ae7dd5c2236e9ed006076cc620db3382629e69
+✔ Tx completed

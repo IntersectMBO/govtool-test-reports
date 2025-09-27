@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Muhammad.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: b41db46f01c1547293a99bb08f8206c9dfdf4e393d32c00ad9a70dcd5ab9f68a
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Tx completed

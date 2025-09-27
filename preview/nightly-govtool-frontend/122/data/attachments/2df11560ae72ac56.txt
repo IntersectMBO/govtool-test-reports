@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Jettie.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 16ab3970c6ff0319232aed2b19159d097379a9b864cf5729d5b3e1141aaa19a5
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()
