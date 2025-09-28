@@ -1,5 +1,0 @@
-✔ Uploaded Mac metadata to bucket
-ℹ Submitting tx: {"lock_id":"95b26f0d181ada71ad2d4c3cf802f630a1aeb74232bcd0e7da0e81b56e264f3c","tx":{"certificates":[{"type":"registerdrep","key":"7bbfa7b6a140883d35248ed8f07d0dfa2768e91488f5a624ba34ba76","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Mac","dataHash":"8f373c899b691f7c27b561c3b16032e9d38e9a8964c0f32e461e04d007248b11"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58204819309243404cf098f9da9b503c320152c09cfd1cd5dc42c605972393aa17cb"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 5e1a4638a30cdb1a913a17fe2352c823f654c88b74789e45ea32c87487b4d90d
-ℹ Waiting for tx completion: 5e1a4638a30cdb1a913a17fe2352c823f654c88b74789e45ea32c87487b4d90d
-✔ Tx completed
