@@ -1,5 +1,0 @@
-✔ Uploaded Antonia metadata to bucket
-ℹ Submitting tx: {"lock_id":"fcf8c9735aade6a3424afcd92dd5de4c0a993a655d92d8ef93235374a5ff417b","tx":{"certificates":[{"type":"registerdrep","key":"f29309c0842321d793d048695f5613d9af2c6b18f3424162e252506d","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Antonia","dataHash":"97fc0cb90d37aa1bf8833437e49945b8659b8a8f6a836ab0b8d17fb9d641f6e0"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582082b668d99a7cfc54fca7073f027a0e9d53f6f2605b69128743cb55adf8984768"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 7da205cc8f820ed9efa944c3da24f541d288b62049b8633f1fc1553af334ce7b
-ℹ Waiting for tx completion: 7da205cc8f820ed9efa944c3da24f541d288b62049b8633f1fc1553af334ce7b
-✔ Tx completed
