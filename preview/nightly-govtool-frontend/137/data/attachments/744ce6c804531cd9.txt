@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Milan.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 380d57790b6c1f3362a826f435842ecc281b2e62b40e6852d380839f4ec2b628
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Jarrell.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 6f83feb84a00ef937e73de54836d2d456bbc1083e2860d2d606d95450eaa3827
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

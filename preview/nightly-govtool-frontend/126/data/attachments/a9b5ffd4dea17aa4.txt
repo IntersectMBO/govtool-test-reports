@@ -1,5 +1,0 @@
-✔ Uploaded Lavada metadata to bucket
-ℹ Submitting tx: {"lock_id":"3177a0df3fdcdbf6e2343cd31787eae9fdc608d29226ecab04f2f0e922864158","tx":{"certificates":[{"type":"registerdrep","key":"03c786e7d76bc6709acb5566c41b768a3a75687b180fc00f1da95080","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lavada","dataHash":"4c461034d631195c7e2be1843b6a2369885a7ce59c36775ef1c3b5ac3ccf8e97"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200c057a167c6993ee4613efad3e88777045304e48bc3d891dc52670bbabc6adf3"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: f52c36f5fad1ce1999d64b7b4cbeaf3657e48cd5c4f887dbf4c37e05b879795b
-ℹ Waiting for tx completion: f52c36f5fad1ce1999d64b7b4cbeaf3657e48cd5c4f887dbf4c37e05b879795b
-✔ Tx completed
