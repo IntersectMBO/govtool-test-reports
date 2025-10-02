@@ -1,5 +1,0 @@
-✔ Uploaded Emilio metadata to bucket
-ℹ Submitting tx: {"lock_id":"215ee4244f6f3516c9e2cbe83cd037521bb3e40d850044db095a2ac44ab71eb2","tx":{"certificates":[{"type":"registerdrep","key":"628608794322362714cfefc45e0304a81a95657e73b10da96ea21014","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Emilio","dataHash":"2a24af26176b24ec5eca7d8923a2d9d757daace65fcf0ed6808d83ed26f0075f"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582029a639737b3f58295d286ee33f56cb2f7421eb0b51d5bf7a43455be2c6fe6485"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: fef397404871a0eb1c7b7ca9bf2f394782223b62a6eb3026449d1710c47744c0
-ℹ Waiting for tx completion: fef397404871a0eb1c7b7ca9bf2f394782223b62a6eb3026449d1710c47744c0
-✔ Tx completed

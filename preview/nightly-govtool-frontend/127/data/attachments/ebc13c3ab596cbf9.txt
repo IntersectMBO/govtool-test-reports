@@ -1,9 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Jerad.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 016c8bf6993241613ada7b428426e83a2c0fc6b77c966ccb98f181cd70fea048
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()
