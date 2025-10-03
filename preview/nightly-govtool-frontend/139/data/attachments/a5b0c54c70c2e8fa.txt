@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Onie.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 132a4f66357fc6ebc35e08fcc4a76661fdc87271b44cdff7aa293f9de84755c4
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 429 ()
