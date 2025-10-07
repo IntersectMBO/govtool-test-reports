@@ -1,5 +1,0 @@
-✔ Uploaded Maria metadata to bucket
-ℹ Submitting tx: {"lock_id":"a786e607c54f046c578dc1b5e6303b95e70e027e9233b340dc8db0233c0b95d0","tx":{"certificates":[{"type":"registerdrep","key":"105770877fddc4b23a32013e748825b7f85573d766a095c1d35002bf","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Maria","dataHash":"dae7dce29c7ecb347282941ea5f239b07853590260d19196cdc1033b3ec242e6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58203bf3ef31972aac415aac12cfebedce782bc35ef877bd6ce4e7dc0cd4b33dd458"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 712c1a629ba1b295f1abc9d78b1675bd4f773147cb3d5ebe0d8946fcb77f1fec
-ℹ Waiting for tx completion: 712c1a629ba1b295f1abc9d78b1675bd4f773147cb3d5ebe0d8946fcb77f1fec
-✔ Tx completed
