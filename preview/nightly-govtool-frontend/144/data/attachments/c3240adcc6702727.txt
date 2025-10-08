@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Wayne.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: d71bb804b2d27d83feac53dbce910fc950b0a4cd66fa7053a7cf7eb9491daab7
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

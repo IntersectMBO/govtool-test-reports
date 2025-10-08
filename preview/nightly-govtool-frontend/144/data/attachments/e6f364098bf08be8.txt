@@ -1,0 +1,12 @@
+✔ Uploaded Frieda metadata to bucket
+ℹ Submitting tx: {"lock_id":"9c3c6ff2cbd4703ba8111fd55b68a51f927afc5a378e640d117b7dbcf70e5b31","tx":{"certificates":[{"type":"registerdrep","key":"e491d9b6f09b36c3d69c872eee9c19af390511aa419be8da96c9aeb8","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Frieda","dataHash":"ebd085b67cb3b81a8e32ae7cf8bd5cf5ecd2c8a227dd36b17174ac7f076a91c3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e099289328b5d51841e81846f43022a1d29b739315ddcbd33b6f11e98c91e177"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: defd8dc24892886acc0688f83ba55f5dee13863d8d722db9ae25d7991d774c0c
+ℹ Waiting for tx completion: defd8dc24892886acc0688f83ba55f5dee13863d8d722db9ae25d7991d774c0c
+✖ Failed due to Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+
+Call Log:
+- Test timeout of 240000ms exceeded
+ℹ Retrying the function pollTransaction
