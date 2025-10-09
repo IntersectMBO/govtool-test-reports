@@ -1,0 +1,5 @@
+✔ Uploaded Karen metadata to bucket
+ℹ Submitting tx: {"lock_id":"2412ad08184795c4eca34d8770c869d0a1a77935f2681584b701fe7d66eb15d8","tx":{"certificates":[{"type":"registerdrep","key":"fa0b797aa3c206eb0be8e2c2d303b60d72318264ea2188395cb1ef41","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Karen","dataHash":"d6286a5962c82af67c360d26a862a9a329c467cefa4be3c818195888fb455c7f"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820362232f276fe4546568e85a1cf99d30c1108863e72434abece5abd7d3c7e259c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 080ab1c3be6f12dadc5a9a34776d5672d7f3fca46adfc6469580c8d71521a95d
+ℹ Waiting for tx completion: 080ab1c3be6f12dadc5a9a34776d5672d7f3fca46adfc6469580c8d71521a95d
+✔ Tx completed
