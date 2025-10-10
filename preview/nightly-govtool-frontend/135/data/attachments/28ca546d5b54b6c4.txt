@@ -1,5 +1,0 @@
-✔ Uploaded Karlie metadata to bucket
-ℹ Submitting tx: {"lock_id":"7b4a327630e67c450dd7cdc0f85154894d3c25471740c65677c948f34474ddbf","tx":{"certificates":[{"type":"registerdrep","key":"8b94ee37cb15bca92c87146198c450f63da082545b7346cf90c0e4cb","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Karlie","dataHash":"2ccada80de5fa5efce86e53ca45ce95053f5981896fdd79376cbfea6bb1e7466"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820fdf31ccd01ef81ef1edb5970fe442bab1141d31ccc0ba9f018404e10041a90fe"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 26d51fa9920afdde02836df31e9aa9d557fda896511355a1e5dd45f95c47304d
-ℹ Waiting for tx completion: 26d51fa9920afdde02836df31e9aa9d557fda896511355a1e5dd45f95c47304d
-✔ Tx completed

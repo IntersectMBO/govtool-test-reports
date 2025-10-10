@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Donald.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: d30bfc2e304dbd55f9d961c9071a8b46ac5494f3f233f813f9d4685136e7d221
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

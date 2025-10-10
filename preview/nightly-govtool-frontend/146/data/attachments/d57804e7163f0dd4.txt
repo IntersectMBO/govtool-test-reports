@@ -1,0 +1,36 @@
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+ℹ Retrying the function frontend sort validation of SoonestToExpire and filter InfoAction
+expect(received).toHaveLength(expected)
+
+Expected length: 6
+Received length: 10
+Received array:  [{"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=0"}, {"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=1"}, {"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=2"}, {"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=3"}, {"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=4"}, {"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=5"}, {"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=6"}, {"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=7"}, {"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=8"}, {"_frame": {"_guid": "frame@48886635fc6827bca3a155834fdea851", "_type": "Frame"}, "_selector": "[data-testid=\"govaction-InfoAction-card\"] >> nth=9"}]
