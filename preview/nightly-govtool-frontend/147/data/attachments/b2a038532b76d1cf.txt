@@ -1,0 +1,5 @@
+✔ Uploaded Rebekah metadata to bucket
+ℹ Submitting tx: {"lock_id":"4302d1bf4e951bd7b1a818f5ffae6909906c2e8813a3fb6443b58ac49bf4f803","tx":{"certificates":[{"type":"registerdrep","key":"7ceb7c75f88ffb8de2218007b3fe0254c554996fef08cab4a4ee7028","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Rebekah","dataHash":"68e60f63b126cb5b5b691e53aa1f98639feac8ac86c918bc4bed732f95706fad"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582078a8b173d3374aecd1cb721dcec38788134f0a2f6646447361a4d505ec263a67"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: ec7ce1dc4b45e0c01a6556c0395bbae2e770cabca7b76aaacb3ae18fd3c31f0c
+ℹ Waiting for tx completion: ec7ce1dc4b45e0c01a6556c0395bbae2e770cabca7b76aaacb3ae18fd3c31f0c
+✔ Tx completed

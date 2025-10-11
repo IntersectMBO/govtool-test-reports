@@ -1,5 +1,0 @@
-✔ Uploaded Velda metadata to bucket
-ℹ Submitting tx: {"lock_id":"ef1d2721f0d4a519c643c678fec08eb0d51b6679a437250b32edefcac8c62453","tx":{"certificates":[{"type":"registerdrep","key":"9ea903997efa2011f0963905e96437c25865315c5597a735e4cde1ae","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Velda","dataHash":"ea92611c7f57081348535fdb16aa61c894354b505e8d61fdcd0a54cc539a29c6"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a7c3e693748e4043e4de54bc9fcf502f7252f71c8d6fea75dbdd3a3f2f542842"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: cbc1ea315bdc334b5ec968e19b31f3ca57a73dae92d93c927f3ad47c13fe5c24
-ℹ Waiting for tx completion: cbc1ea315bdc334b5ec968e19b31f3ca57a73dae92d93c927f3ad47c13fe5c24
-✔ Tx completed
