@@ -1,5 +1,0 @@
-✔ Uploaded Berta metadata to bucket
-ℹ Submitting tx: {"lock_id":"bc621802b36220c9104788ccdb8d716c970469d6460ff0ef6e0172c49725e366","tx":{"certificates":[{"type":"registerdrep","key":"6392710f288b21f0317fe8e9fa89026cb22b45e2d87f589adf265eca","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Berta","dataHash":"6c32d409778369de6d2c419f16097ca38d97de3250a359558662acef327e8962"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820360e52fe07b807ac7f04c9a9f92fde7dc161a66e4a85baa16b882875c5270a4e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 562f420a1a4eeb780172040fe569f7a22e8e7d6ec40b5513ed50454a9d4acb02
-ℹ Waiting for tx completion: 562f420a1a4eeb780172040fe569f7a22e8e7d6ec40b5513ed50454a9d4acb02
-✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Abbie metadata to bucket
+ℹ Submitting tx: {"lock_id":"fafe377ad4c2eb500c3e3edd58d57f6dd55bdbea39540e8bede9e8c29ac1f922","tx":{"certificates":[{"type":"registerdrep","key":"c7eb60e7d58b9c677917b5f6ed5fcb7c17b2fe4bf8a0b6f4ff4806bb","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Abbie","dataHash":"c3f627c70b3b9af6845b713763aec858165e16ce65a75992939a949a2fb833d0"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820be7d584472c95a28b6ad267efd5e3cedf9b0dbf8db2d75089c82284098a1bb59"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 9482aba19a5b44479cbd7d0708ba225bb78b3c81477e2e7adbab279c11e98fda
+ℹ Waiting for tx completion: 9482aba19a5b44479cbd7d0708ba225bb78b3c81477e2e7adbab279c11e98fda
+✔ Tx completed

@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Austen.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 5bc6ab3f710f4f72394f47f528cf9d0a8892218da81ae15d0b07adb0c0cad949
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

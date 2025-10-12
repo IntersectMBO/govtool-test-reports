@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Yoshiko.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: ad8a3f600945026fd3fd9a62f8dcc204c3fc4070d1ecc78bd5ba961d13580397
+✔ Tx completed
