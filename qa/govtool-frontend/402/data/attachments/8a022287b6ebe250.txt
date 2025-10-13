@@ -1,7 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Ashton.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 11377e3325b03681852ff4efc493ca763bc294e44a6a47c509d1e24ae6c65bf7
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

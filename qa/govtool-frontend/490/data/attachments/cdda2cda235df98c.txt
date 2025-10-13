@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Uploaded Carley.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: b3c5fe77cb5f6f12610bad8395371d288f16caf8f85a06f007dc7165b790beab
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,5 @@
+✔ Uploaded Zena metadata to bucket
+ℹ Submitting tx: {"lock_id":"4dbeeee4c81a10f4ff15512add433b2c490e17e1abc84a7c6dd61385c3c2a099","tx":{"certificates":[{"type":"registerdrep","key":"1f3709b6ff75fa92a8afe1ad2bf6c4a617a22aae382c16c63454d478","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Zena","dataHash":"9e0ca0020c627600818b0bbfa47ce7dffc6081198fb22a96e2532cfc7146b230"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820110fe6d83be6757045f696d93dbe3fa49abd541e6586cca31ebb7b8999f7afba"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: f2b28531757af498a014c26318afb2ee1da5502a0e5c860d56b7f9e5421d053e
+ℹ Waiting for tx completion: f2b28531757af498a014c26318afb2ee1da5502a0e5c860d56b7f9e5421d053e
+✔ Tx completed

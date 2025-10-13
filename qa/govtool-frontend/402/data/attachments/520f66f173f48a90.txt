@@ -1,5 +1,0 @@
-✔ Uploaded Dixie metadata to bucket
-ℹ Submitting tx: {"lock_id":"7818eecf6483d6b145e5d8760b4eeaaac124b0d840d90935c0365bbd4d5acc05","tx":{"certificates":[{"type":"registerdrep","key":"d1908be322cebab3853adf2a104b393e5c39ad48298ba2ff77cc08e3","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Dixie","dataHash":"38004983ab53529ffd6073012344988dfb5417337be181cf3d60edfcd104eb72"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820bd84fc1faece0afd1ebb51d7cd7ea269ae884f6aae869793352c03b7eac31c8b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 8df745b5e9d494d0857f0d55aa2c7752082c0a6de6da02140733a1d46e8e85a3
-ℹ Waiting for tx completion: 8df745b5e9d494d0857f0d55aa2c7752082c0a6de6da02140733a1d46e8e85a3
-✔ Tx completed

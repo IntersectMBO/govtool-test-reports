@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qz0mr6tgr8l8ck5tt4uc4q2e8nlnysmumeuaysndnp8slqjwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs80l4v6
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded asperiores metadata to bucket
+ℹ Waiting for tx completion: bc90ebf48728b86225d17b67c30b76e8067bb6f9172dc733c175b7a2e65863aa
+✔ Tx completed
