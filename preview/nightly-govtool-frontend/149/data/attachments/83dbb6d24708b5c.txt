@@ -1,0 +1,5 @@
+✔ Uploaded Rowena metadata to bucket
+ℹ Submitting tx: {"lock_id":"38ffc753019882ced22b071e5bc631d25d313e1bcf565237024097da575e1dda","tx":{"certificates":[{"type":"registerdrep","key":"5e68b63f56ffa21a5eb31ea0114a2d98de67be0b31653e3004dd482a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Rowena","dataHash":"42f5b98f2b8b7d84b31ec3c1d4db48ae89498d02dec7425427e79896ad699d6d"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820efebe6ee21fc96ca0e6f35157c9525eafa3f6f96f91d99492e736652ac9c5c61"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: a6d9c26eab722e526094c3ec946b8864cc81ca21dd50c11ed2ce658f73a5dc07
+ℹ Waiting for tx completion: a6d9c26eab722e526094c3ec946b8864cc81ca21dd50c11ed2ce658f73a5dc07
+✔ Tx completed

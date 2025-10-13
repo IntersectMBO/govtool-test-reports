@@ -1,5 +1,0 @@
-wallet balance 100022
-wallet address addr_test1qrsrwkcc8mv37n52fr6snfzrr2jcgf07dse7ns9zzulgh0jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsrjkamr
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded guardrail-script metadata to bucket
-2

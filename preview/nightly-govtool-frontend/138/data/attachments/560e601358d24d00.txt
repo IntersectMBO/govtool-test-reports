@@ -1,5 +1,0 @@
-✔ Uploaded Tyson metadata to bucket
-ℹ Submitting tx: {"lock_id":"d4e118b592fbc18592520f2637e785a98adae1c2daed1016c192b025f33bd025","tx":{"certificates":[{"type":"registerdrep","key":"50705f7cd9f64197a60268882c6e402001931607834113a7b103c4ca","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Tyson","dataHash":"327582c3e1ac370b1dd57a6f62bea0400ff8df1bfdf3f6c934f0c140c08d3cf0"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d22072db0f02d70013a12b1c1e3fad6363fb4e6343e850c78729bd530f8cceff"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: ab522c6e9ad6c855d0b9ba177a112d1f23364e6c15a755027e611d0c59ec99f5
-ℹ Waiting for tx completion: ab522c6e9ad6c855d0b9ba177a112d1f23364e6c15a755027e611d0c59ec99f5
-✔ Tx completed
