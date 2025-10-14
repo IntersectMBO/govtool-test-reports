@@ -1,5 +1,0 @@
-✔ Uploaded Tess metadata to bucket
-ℹ Submitting tx: {"lock_id":"cbce4dcb277120414f2405a4f050a3af65ef2800f3505fdee84245d075e1b949","tx":{"certificates":[{"type":"registerdrep","key":"93a00b019ebbd3ba9b1c8cef4d4a8e1469fedad6995e979fc42485c8","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Tess","dataHash":"1a55cd74ae9ace6bd9f78b8ee7750166754bd1f3380d2e7f4937529d68e738b4"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582066c5ebf49830c21a8066cbfcfaa545c7a8bea37d4d769e14c7a3b67ef08fccce"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: eb29f40eb54b4e3a826667e6852fff5de8455a5277f6d23a9d91d7884e0034c4
-ℹ Waiting for tx completion: eb29f40eb54b4e3a826667e6852fff5de8455a5277f6d23a9d91d7884e0034c4
-✔ Tx completed
