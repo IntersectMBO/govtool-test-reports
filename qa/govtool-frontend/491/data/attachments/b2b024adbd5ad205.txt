@@ -1,0 +1,5 @@
+✔ Uploaded Robyn metadata to bucket
+ℹ Submitting tx: {"lock_id":"d6735a5382ea07e3fb4ead583fd66f82c8e78f37d5f213d259d54fb796697a1a","tx":{"certificates":[{"type":"registerdrep","key":"a950c60a798b28503fb449a2cfb2b500436e571cd8e5967ab12e211c","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Robyn","dataHash":"6d3578fde7d2fdfb2b0ac2f1be75c5427c978cb568e3dc0d4d0467a5fd9a0df9"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820262f89f2ca138c6ec65d0cd0d18ff3071f8d660df65a46e21bb25c6de5b44b10"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 569fc744afcf1dfc8113124edd3ae0d63cd814ab1a875d4ff6a1b6050de1b24b
+ℹ Waiting for tx completion: 569fc744afcf1dfc8113124edd3ae0d63cd814ab1a875d4ff6a1b6050de1b24b
+✔ Tx completed

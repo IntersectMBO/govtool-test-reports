@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Ford.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: f74ea15b18ff02aedd13a655fc5f74750a6d621420cd550ec0e45ff293ca68e6
+✖ Failed to load resource: the server responded with a status of 429 ()
+✔ Tx completed

@@ -1,0 +1,10 @@
+wallet balance 100022
+wallet address addr_test1qp5agwrwvtvnvj7t2sfws3hqe9dxzf0qx58pu4c2p5gmp2zwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjsw20v4e
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+Username is already set
+1
+✔ Uploaded auctus metadata to bucket
+ℹ Waiting for tx completion: 37559b4aa253eeb418e586fabe719f898a5ac47a84c22c84a4535108a5c7ff16
+✔ Tx completed

@@ -1,7 +1,0 @@
-✖ Access to fetch at 'https://preview.api.handle.me/handles/ea606237ae9745154ca1c725b998451ccf851b6ba5a051b23404b725' from origin 'https://govtool.cardanoapi.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-✖ Failed to load resource: net::ERR_FAILED
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: eac065e2791b2e38b4974859fdebe3ee65a4ba1ca62a09f94225ec9afd051b54
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()
