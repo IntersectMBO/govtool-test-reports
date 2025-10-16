@@ -1,0 +1,5 @@
+✔ Uploaded Pascale metadata to bucket
+ℹ Submitting tx: {"lock_id":"c244ca543db2b4fbd401f51b18574594becd2a3b5de8241bb95c7d939d5edecd","tx":{"certificates":[{"type":"registerdrep","key":"99ae944704bcf79def5b38efe37612fbba1e77887e7decf8fcaeb472","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Pascale","dataHash":"47f041189fbd691fe3b5e9ae7bd7e9f039f0d59983b4239340a9de67b9b71664"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200d1a5dd9eb9619226d71e9ce14f2c08071ca84cd2e8da5c2e55c26015f40be2f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 8df62ba4cf6a47bc4a856a524664913284193c07991589dcab954b44edd0d1fb
+ℹ Waiting for tx completion: 8df62ba4cf6a47bc4a856a524664913284193c07991589dcab954b44edd0d1fb
+✔ Tx completed

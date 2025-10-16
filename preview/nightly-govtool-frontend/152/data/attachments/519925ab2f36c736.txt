@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Marta.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: fb708ecfc527c94d7969bfd994a81c0f0fc5b166c508fbf19d2ff452d1e7e42a
+✔ Tx completed
