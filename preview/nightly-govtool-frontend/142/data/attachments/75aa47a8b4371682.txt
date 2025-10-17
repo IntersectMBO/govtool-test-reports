@@ -1,5 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 7ed69717685d5e690f633c8d9619fcac05ce8ebdbd814a5f58610a4a5f80cc1b
-✔ Tx completed
-ℹ Retrying the function Retrying to get the first proposal

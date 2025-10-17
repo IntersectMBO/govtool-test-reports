@@ -1,0 +1,11 @@
+ℹ Submitting tx: {"lock_id":"7ca4b67ad0de2da1f51c5bc7ae9e768f7c8887ecdfa2cdf8c55468cf984cf819","tx":{"outputs":[{"address":"addr_test1qqwtqxp6yun03klcjkl8k27lq43nuwvh6admtxlahkhe8yzwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjs3jrt2d","value":100022000000}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 583b1287aacf5e37de51e591086e6ad775b1881a78a9ed0f004e15782291d289
+ℹ Waiting for tx completion: 583b1287aacf5e37de51e591086e6ad775b1881a78a9ed0f004e15782291d289
+✖ Failed due to Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+
+Call Log:
+- Test timeout of 240000ms exceeded
+ℹ Retrying the function pollTransaction
