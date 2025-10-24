@@ -1,0 +1,5 @@
+✔ Uploaded Clyde metadata to bucket
+ℹ Submitting tx: {"lock_id":"c81cc3549c994dc3ec24b5369d736554b00af2bede06a95538195cb8314a5a3c","tx":{"certificates":[{"type":"registerdrep","key":"ed7b35ba74f2a965818679044c9399724df96e70e103a392258f378e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Clyde","dataHash":"02c41198c95806891396309d6c370190dfadb6acc01413949f5bac075689c3ee"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582092379c543e469b24502ed531d3ab26ca90159840212e6c300852787417120ca3"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 18197d4da6907b4c7f113e5f5d9731bfe2f55b42c5a3dcd10cb575bb01f533b8
+ℹ Waiting for tx completion: 18197d4da6907b4c7f113e5f5d9731bfe2f55b42c5a3dcd10cb575bb01f533b8
+✔ Tx completed

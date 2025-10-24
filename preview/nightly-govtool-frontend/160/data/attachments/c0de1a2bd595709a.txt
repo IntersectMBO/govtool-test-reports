@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Cooper.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: c8ea3d1faac8121a9941910daaa2f31f2410b559b262f687df00b1782b43a1df
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
