@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Lillie.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 58fcef56b92e6b7afbd568cf17e14bf89831b4a13d7a8618b146df7161d29930
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

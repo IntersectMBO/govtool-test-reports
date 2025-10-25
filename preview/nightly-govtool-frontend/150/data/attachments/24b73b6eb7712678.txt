@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Dana.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 6f01cfedf93530a51315aaea2aea37e7e116cb37d0ffe64772123dba7fb84dec
-✔ Tx completed
