@@ -1,0 +1,5 @@
+✔ Uploaded Stevie metadata to bucket
+ℹ Submitting tx: {"lock_id":"f821a3ec292d50e2a67bf066d657f7dad3046c6ab989107b789ea9ebe205f628","tx":{"certificates":[{"type":"registerdrep","key":"c24a18dc3ffeae1d715957840feb500a06750565ac27a5ce52d543e3","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Stevie","dataHash":"303020e1b27a4047bf054c948977508b85f5807055027b6159a7e6baa5cfc400"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ac2110d5e5b9e25f87eb35d5103a4848aafa630e6392b32224322f5ad86a3cdb"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 6359fd1d9ddd53160d0f66ad6651f1a85f640420519996340345a796b69152ce
+ℹ Waiting for tx completion: 6359fd1d9ddd53160d0f66ad6651f1a85f640420519996340345a796b69152ce
+✔ Tx completed
