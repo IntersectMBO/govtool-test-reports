@@ -1,0 +1,7 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Maria.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: db2d4a22ad4d90a674d9fe0214599d2c14fbc17a976dfa16096172dffa17c0dd
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Catherine.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 3e32fc7885b01b345c4b11bc69d4dcc18b177d08784fcf7468a2cb57bc6793ed
-✔ Tx completed
