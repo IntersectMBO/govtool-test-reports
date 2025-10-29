@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Ellie.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: d6ff988964c49b1d4fa7f2454e49b3c032b4e4cf228ff61e532afb1b41cc74d6
-✔ Tx completed

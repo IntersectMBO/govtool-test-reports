@@ -1,5 +1,0 @@
-✔ Uploaded Rex metadata to bucket
-ℹ Submitting tx: {"lock_id":"34d25b21651031d94ec1d4faea7181144d0f2ae1a95689c4c12f83542876fe4e","tx":{"certificates":[{"type":"registerdrep","key":"207cbe8c7eeeec0867259b67305f1fc9604375c3406a15a75fe06649","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Rex","dataHash":"b212a999a0eaf52dff22d7d029336ad0634c4f0fd3e2192fdce946e76d0c5c35"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820419f2b9a5409ddd5702c4263cd7087272af1942250bfd203497b1b29fc70ad23"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 244e73097e75af4dda856844954ca8bff0df94491b5cfc0c33c26ed764f173c3
-ℹ Waiting for tx completion: 244e73097e75af4dda856844954ca8bff0df94491b5cfc0c33c26ed764f173c3
-✔ Tx completed
