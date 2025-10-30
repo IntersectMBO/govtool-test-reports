@@ -1,5 +1,0 @@
-✔ Uploaded Giovanny metadata to bucket
-ℹ Submitting tx: {"lock_id":"777cb57e9c2e4b62208ad6e0d8f0efd043fa466bbbc2b3fdf50d5e61c1dd3ee8","tx":{"certificates":[{"type":"registerdrep","key":"30e200840dde43e54cf48cd8917c0ddc01efe30e3425c1148c9fa8f4","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Giovanny","dataHash":"db039b934b8bd23f5c9e799b9bc74a5e8428716fc15772bce1c53d6aecc4c72e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582038a5f1909117f3b644ab38480c897a743e239b3491dab34658d4c4deb9949e0c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 6a7943a736e9da04b7b5e22b7afa08b5a8dc8c4692d2d55460014f9ae3027b2b
-ℹ Waiting for tx completion: 6a7943a736e9da04b7b5e22b7afa08b5a8dc8c4692d2d55460014f9ae3027b2b
-✔ Tx completed
