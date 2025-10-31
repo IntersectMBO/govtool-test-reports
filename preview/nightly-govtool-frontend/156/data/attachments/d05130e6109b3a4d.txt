@@ -1,5 +1,0 @@
-✔ Uploaded Brown metadata to bucket
-ℹ Submitting tx: {"lock_id":"51f42ca71dfa64876fc871461d53c14fb1034b8b33827013cdb4624f7cd5b1ff","tx":{"certificates":[{"type":"registerdrep","key":"42f16e9f5c6e282b642ca4138a89593a083e39f6dc3cf96ea24fa413","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Brown","dataHash":"84082b17316a6dfacd955b8c873b430d9748ebf285004bee6a41b490fdd099a2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582066c21f6630ab74c895ee5d017f8e868e7e698ee20452c7d8038024032a40a548"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 8f444765badb0123d9e74f097d4a70823dc725a1a08dd17fc8cbf09f95dce0af
-ℹ Waiting for tx completion: 8f444765badb0123d9e74f097d4a70823dc725a1a08dd17fc8cbf09f95dce0af
-✔ Tx completed
