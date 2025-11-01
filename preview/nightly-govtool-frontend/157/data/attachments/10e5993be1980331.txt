@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Alberta.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: b39d7f03237b74f0a15785b53d1f94ecbeffb6464524deeea3fd1b3d1da4c124
-✔ Tx completed

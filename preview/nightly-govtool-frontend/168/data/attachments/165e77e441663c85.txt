@@ -1,0 +1,5 @@
+✔ Uploaded Carlos metadata to bucket
+ℹ Submitting tx: {"lock_id":"e2d5a9b1fd80e01e9fdbfa2d0872fdf63f3320b8dc572f36e437e82d1ebf3c0f","tx":{"certificates":[{"type":"registerdrep","key":"f0740bf7776963761343e2bc79835b579156309e4d520a1edac709a7","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Carlos","dataHash":"3488574d7c7323c4dcac252c2e4a246f98afbef48e9dc48e3cd0a8529b5766d7"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a65fb8c4c037462c66a30414221e7fb45b791586d02a61aef2c9e9ab85ecd1a7"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: dc7f0ab307552287f976930255fafee3d295979b73abbeb866975a55a2bb9669
+ℹ Waiting for tx completion: dc7f0ab307552287f976930255fafee3d295979b73abbeb866975a55a2bb9669
+✔ Tx completed
