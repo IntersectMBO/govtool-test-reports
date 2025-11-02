@@ -1,5 +1,0 @@
-✔ Uploaded Kiel metadata to bucket
-ℹ Submitting tx: {"lock_id":"7845b6e4ca7c6a54b112e6fc4b319df26e9c01ae4b73cc783c109100b1f023c1","tx":{"certificates":[{"type":"registerdrep","key":"c04cf621b4776f97d41ac70e3031d81f9b9873f6165948073a80433d","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Kiel","dataHash":"c3a112b563b594d5b25856b53b4c879c965c22569600dee6c4d4c0655f9ad858"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200185d6ed7c0902614b639388adc57619c12dce33714254cf8cc2c5115e5fa74a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 7c0e3a09a2ffbdadd107f5d4f7578e36e31517fb3f4e81c2b18bef585745cdd7
-ℹ Waiting for tx completion: 7c0e3a09a2ffbdadd107f5d4f7578e36e31517fb3f4e81c2b18bef585745cdd7
-✔ Tx completed

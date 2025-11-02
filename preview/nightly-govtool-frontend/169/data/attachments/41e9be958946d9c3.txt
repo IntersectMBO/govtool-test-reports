@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Candelario.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Waiting for tx completion: 129643c885a73917cab3c033db7a6e9f0240d79c2e2e6cd374a1841cd692dfeb
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()

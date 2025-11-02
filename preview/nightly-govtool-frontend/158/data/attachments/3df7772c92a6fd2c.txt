@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Fannie.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 2eca86f4dcece8fd19cf121f4a509b2dbe40f4f52d3981295c12e82190453935
-✔ Tx completed
