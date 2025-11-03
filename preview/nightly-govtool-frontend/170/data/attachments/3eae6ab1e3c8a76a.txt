@@ -1,0 +1,5 @@
+✔ Uploaded Jess metadata to bucket
+ℹ Submitting tx: {"lock_id":"6b8d90c7f29a0672a48227096c99f3ec1b25ad6b99f8ff0b5ba308cd45f9a40f","tx":{"certificates":[{"type":"registerdrep","key":"889cdea83a8919be73f48e9fed8a4871996f6ef7c558368a966ec387","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jess","dataHash":"f6733041305bed72ba8bdb5956a2563a55b408770f645656fbfd87a6a86b5b77"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820d166fcf8a309c9b5b1a96c400d16add63d5230faa54879bbe16301938d1668a3"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2164acd84c77eb4c397912d65be6ea8d9fd99aa3b93038969869eabc4b1092d3
+ℹ Waiting for tx completion: 2164acd84c77eb4c397912d65be6ea8d9fd99aa3b93038969869eabc4b1092d3
+✔ Tx completed

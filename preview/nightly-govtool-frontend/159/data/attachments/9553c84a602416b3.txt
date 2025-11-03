@@ -1,5 +1,0 @@
-✔ Uploaded Era metadata to bucket
-ℹ Submitting tx: {"lock_id":"2192b0b87f35660b6f613fcd70224f46d9c5951f39b8598956836a5d3b91bc7e","tx":{"certificates":[{"type":"registerdrep","key":"e2c6d15b01fa2c95fb8a3cab104b25031bfc7cd7fbc23d4b6e461653","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Era","dataHash":"c57eaa9405066d55d7bafb09429ce90cf6deb4aacde918bf5fb5a1e58cbc8c0e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820ec89acd9fff6ccc9a8295d89c6570a75bdd79d5ff82847b11bff5adab785b322"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 6c429c87155db33e71c3776e5370292a34e6211cba36fe4d7e956c6fff1f1730
-ℹ Waiting for tx completion: 6c429c87155db33e71c3776e5370292a34e6211cba36fe4d7e956c6fff1f1730
-✔ Tx completed
