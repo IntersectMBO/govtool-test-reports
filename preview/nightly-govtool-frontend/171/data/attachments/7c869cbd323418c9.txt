@@ -1,0 +1,5 @@
+✔ Uploaded Adah metadata to bucket
+ℹ Submitting tx: {"lock_id":"7cc5abd2b149c1af3f4a668025726b1688e57556bc3b0c4e4e4a6015fcb44a7d","tx":{"certificates":[{"type":"registerdrep","key":"e68e9a8449434674f26028e3485c307096a5930c4e3f231c358d38ef","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Adah","dataHash":"eb8435e43ea9a0aef025448ad3e1bf893f64a404118bbb24dfeb912b865a768a"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58200eae2ec27bf08a3583e478811edcabb3dc450c5e3989a7f423b44d00808c0a4c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 6b88a9ef3ac112956c89d36662cf72e3cbb887b4bdd15687b8482e2bfbf8f022
+ℹ Waiting for tx completion: 6b88a9ef3ac112956c89d36662cf72e3cbb887b4bdd15687b8482e2bfbf8f022
+✔ Tx completed
