@@ -1,5 +1,0 @@
-✔ Uploaded Maxime metadata to bucket
-ℹ Submitting tx: {"lock_id":"54f71dd30591c027fc04a0982aadf1969b5592ba1b5d935c518aeb0acac6d1cf","tx":{"certificates":[{"type":"registerdrep","key":"4ae591cacc407fe8200125110a87cec570c1d9309eacf5f242edfec4","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Maxime","dataHash":"4872024e1cd21bfa38edae9a9744384088831da6418ea60d2507aed8a4cb3458"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820b3425e27166a14b4c95b6a8505b0f328c151c17a9683ea12648f9560a169102c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 92e48e607c783f410548330da8e791421e31a03dcca83b92fd9b413a8e4b4e97
-ℹ Waiting for tx completion: 92e48e607c783f410548330da8e791421e31a03dcca83b92fd9b413a8e4b4e97
-✔ Tx completed
