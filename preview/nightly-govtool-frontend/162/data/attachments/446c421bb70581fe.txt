@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Maryse.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 468dfd1b704e87a8d7b165023986d148df9118ed9ca3c8dcd4af3ba7c0bb2b5d
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

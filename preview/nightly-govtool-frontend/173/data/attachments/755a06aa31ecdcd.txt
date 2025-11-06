@@ -1,0 +1,6 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Kavon.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 63d89356e5bdd243b651281b48374e5494b563a41f9ad029034e275dae73bdee
+✔ Tx completed

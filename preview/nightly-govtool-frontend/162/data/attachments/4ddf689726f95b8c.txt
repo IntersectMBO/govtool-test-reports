@@ -1,5 +1,0 @@
-✔ Uploaded Bonnie metadata to bucket
-ℹ Submitting tx: {"lock_id":"b70e629809295d13df865bf44a0a52c5d34f7d08aff2da5f66e6192ade9b9cfd","tx":{"certificates":[{"type":"registerdrep","key":"39ccb01461b6e275128b4dc2ab9f1193a6d636733c7e2982d5b94d38","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Bonnie","dataHash":"3a5067ac0c8575c30bffc63b54dad443aa9b0a1acec292d777cfc8b7d2cbf5ec"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820fb56ff8fa9ff6fdb4738e71f1126de9db88c63ad561e51e1c0ce359d381e2a0c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: a41923908dea36733568743312134249b649dbce53fc085d50b97b8837451ae5
-ℹ Waiting for tx completion: a41923908dea36733568743312134249b649dbce53fc085d50b97b8837451ae5
-✔ Tx completed
