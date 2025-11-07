@@ -1,0 +1,5 @@
+✔ Uploaded Stanford metadata to bucket
+ℹ Submitting tx: {"lock_id":"a72fee0dcf3dce1817544aafea0a312f91cadf7d2b56547fdc5ea1022a71f78e","tx":{"certificates":[{"type":"registerdrep","key":"ba0f62f6a05f38222f59ed192bbce64e4f535e109319afd71799ddee","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Stanford","dataHash":"19a190df397f40dec40a43b912f55729a43058a28bdfc9f76cf14b3402630dee"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820aba161b6ce438497717477f1aab382a56500b6ec1d8d65d0d472b789fa0a7f1c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 6f7366a02c777226b3d3c8abd4dfe8cf36202ebb7676993ce8b83f62293fecf1
+ℹ Waiting for tx completion: 6f7366a02c777226b3d3c8abd4dfe8cf36202ebb7676993ce8b83f62293fecf1
+✔ Tx completed

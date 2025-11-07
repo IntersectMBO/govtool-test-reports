@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Kenyon.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 45e423fe738c8599b12212271e534dc6199664bbafd04b819f89ae3739067260
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()
