@@ -1,5 +1,0 @@
-✔ Uploaded Leonardo metadata to bucket
-ℹ Submitting tx: {"lock_id":"8fdbebc141f1d666dfd12d10cda5144fd89fad851099fce27c011085912307f4","tx":{"certificates":[{"type":"registerdrep","key":"2f36fda4bfaf18a67859107b22eca4c2b57885f0e31563f7b41a04cc","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Leonardo","dataHash":"5aee5d4fefb6bff6c135f9ac101cad4ff35aef416caef20c3e9cbc999cf71ce3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820449800f663bc6d1b5c6ff22eaa7fede78bc8434c5b52b4d09ca7b7bdb89a697e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: a362fe216cdc12b02631856935efe97878d4feec45eeb4ccd00c70c4b61744a6
-ℹ Waiting for tx completion: a362fe216cdc12b02631856935efe97878d4feec45eeb4ccd00c70c4b61744a6
-✔ Tx completed

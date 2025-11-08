@@ -1,0 +1,9 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Burdette.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: bc5a2e92b595871d67b7c3cf5684bf8e477931a4180849b9512ff0e25e691a53
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
