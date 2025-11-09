@@ -1,5 +1,0 @@
-✔ Uploaded Hilario metadata to bucket
-ℹ Submitting tx: {"lock_id":"8298797e48678d8d8e6ffe74a32fa65a92d385837705de2fa9be0b37f75a7fa8","tx":{"certificates":[{"type":"registerdrep","key":"05cd397706dd856b087a1f6c632fbdc3dd7db3e3b429bdcc792e07ba","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Hilario","dataHash":"4be48343d0c47e88071a325eb4368f18449a0c14c2540e8d8aea0d3df81c7e5b"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820146fb89252c5e1a4b0b5996df97d801af81d093ed6aedac687da9ae09b5d8839"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 24110cc4c4358a2176e0875ad0259abb4b869df3a7ed5e12cdcd0770d949991c
-ℹ Waiting for tx completion: 24110cc4c4358a2176e0875ad0259abb4b869df3a7ed5e12cdcd0770d949991c
-✔ Tx completed

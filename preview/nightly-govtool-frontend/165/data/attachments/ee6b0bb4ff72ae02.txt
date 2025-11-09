@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Janae.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 48e1f30c1aa2948b225137d48904f6a2916d13dc278c5a9b430f3f8b59a2b802
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

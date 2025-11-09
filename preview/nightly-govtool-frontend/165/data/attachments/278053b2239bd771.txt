@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Lola.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: aa093c281d956bdca3c977054b3e9b5cc8267f11d2923a28e0d1e6cf3fd244f2
-✔ Tx completed

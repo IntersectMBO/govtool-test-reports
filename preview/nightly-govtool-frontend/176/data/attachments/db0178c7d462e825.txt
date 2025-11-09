@@ -1,0 +1,5 @@
+✔ Uploaded Rylee metadata to bucket
+ℹ Submitting tx: {"lock_id":"528149dce9acc808f4496311beb6a7d07e573e801b68a90151e89998405f6018","tx":{"certificates":[{"type":"registerdrep","key":"a15ef140e8abc12baefe5b27ac8792e4e9fed6568410a18c314e5d95","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Rylee","dataHash":"176026853b7d66f5bff7f1d7d7b061919375a336b6aef8e6d96e0af4f6f38b09"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582045c9f8e0c6837ec359272026efea6a1a08d0d4101e9d289aa64141bfb02b7ff9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 139010ac22fc213e1dc72aa7b48aa793871cc0f58112ec1aac8426c28a851048
+ℹ Waiting for tx completion: 139010ac22fc213e1dc72aa7b48aa793871cc0f58112ec1aac8426c28a851048
+✔ Tx completed
