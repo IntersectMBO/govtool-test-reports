@@ -1,9 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-✔ Uploaded Ernestine.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: f215d2ae3edadf0b3915f899330b8369df0a3b8ea9cb33cb9defe0d9a3fa4140
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()

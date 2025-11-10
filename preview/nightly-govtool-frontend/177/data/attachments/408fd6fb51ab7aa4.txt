@@ -1,0 +1,13 @@
+✖ Access to fetch at 'https://preview.api.handle.me/handles/e153b23fd17c43c60ceb2539724e01386e0c2b4188c50f4c8d454a42' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to fetch at 'https://preview.api.handle.me/handles/e153b23fd17c43c60ceb2539724e01386e0c2b4188c50f4c8d454a42' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+ℹ Waiting for tx completion: bc0f3bb38da76e07db6c5980a9c3f246d1477919ede9ca48888edbb74b286d6c
+✔ Tx completed
+✖ Access to fetch at 'https://preview.api.handle.me/handles/e153b23fd17c43c60ceb2539724e01386e0c2b4188c50f4c8d454a42' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED
+✔ Uploaded Vote_Context.jsonld metadata to bucket
+ℹ Waiting for tx completion: d7a670e115a28f0a18eef87cb3de6b2c47b3be52f69912e222d5c83ae769bba3
+✔ Tx completed
+✖ Access to fetch at 'https://preview.api.handle.me/handles/e153b23fd17c43c60ceb2539724e01386e0c2b4188c50f4c8d454a42' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+✖ Failed to load resource: net::ERR_FAILED

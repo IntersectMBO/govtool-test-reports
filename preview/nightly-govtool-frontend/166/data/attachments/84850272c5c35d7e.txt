@@ -1,5 +1,0 @@
-✔ Uploaded Jamir metadata to bucket
-ℹ Submitting tx: {"lock_id":"5bc17afd1bf6f65c1ef4257de96c5c7406711b71261336c733f4e4bb134a451f","tx":{"certificates":[{"type":"registerdrep","key":"0e3226de7ee47ca0ad866adcf7dd627ac7ed8bec80298e52cb9e193a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jamir","dataHash":"8995dc773a0ff8c265b2139afc02bd07882425d70fca7c0fa728a27ce6d0cf17"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820decade93ad72fb1a4362083ad1d80877e0b8e6b44e110cdb4d3042a08333a08e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: a6e4017e001cf48b4b41b12f9a84c54e21e1bac039413829fa4b41a3f45af969
-ℹ Waiting for tx completion: a6e4017e001cf48b4b41b12f9a84c54e21e1bac039413829fa4b41a3f45af969
-✔ Tx completed
