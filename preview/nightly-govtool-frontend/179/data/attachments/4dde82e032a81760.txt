@@ -1,0 +1,5 @@
+✔ Uploaded Fatima metadata to bucket
+ℹ Submitting tx: {"lock_id":"78a06948ea11ff33bd397a962b08e6cfec75aefc97fc004c0cdf7d4145758f71","tx":{"certificates":[{"type":"registerdrep","key":"15903de02d686fc7056417eb907a9d05082987abc2c33faf8ba18e44","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Fatima","dataHash":"8906c2b55cedd12046a4d2b7d1dd3e3007028d459ccb6ab734f66e4fd87161c4"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820587349537d5b13f5f78369a423342f2afd7d55bb76bab136c4062c88e323817f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 24ddf03cd2486738aeab962e4406661a588a463ab01316ca07f85cffcd5a1bbe
+ℹ Waiting for tx completion: 24ddf03cd2486738aeab962e4406661a588a463ab01316ca07f85cffcd5a1bbe
+✔ Tx completed

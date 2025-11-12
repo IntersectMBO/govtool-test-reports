@@ -1,8 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Stevie.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 429 ()
-ℹ Waiting for tx completion: 7a716fb3ca156fe97013d76cf851f69ca531d7c16cef956cb1a585e25a909b2e
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 429 ()
