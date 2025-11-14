@@ -1,0 +1,5 @@
+✔ Uploaded Herbert metadata to bucket
+ℹ Submitting tx: {"lock_id":"8de7fb8a023903193b1aa15c598766b5820065537ee1ce13e3d98f03cbd5651f","tx":{"certificates":[{"type":"registerdrep","key":"1186e910cc47bbd5dc5b5d03adfb7335ada9ddfcfad735ff630e1231","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Herbert","dataHash":"7b8fbeaf76225457a552afbf49dc9b8a6f05369be8108b49aacf684b54b58ea7"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202f0735264d05539b7c185fde34f58850acf11a7f7a61b380d10588cba6278d24"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 92d92eb637a61071844c5fd2c2c9d02eeeb9d83100000241c968a3fc09469cb0
+ℹ Waiting for tx completion: 92d92eb637a61071844c5fd2c2c9d02eeeb9d83100000241c968a3fc09469cb0
+✔ Tx completed

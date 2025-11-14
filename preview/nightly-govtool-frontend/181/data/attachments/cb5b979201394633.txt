@@ -1,0 +1,8 @@
+✖ Failed to load resource: the server responded with a status of 406 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+✔ Uploaded Kyleigh.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 429 ()
+✖ Failed to load resource: the server responded with a status of 406 ()
+ℹ Waiting for tx completion: 1077482325e026a09b609b1f82ca7d6f8a65ac0624e56a1dce50ac519eb6ce2a
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 406 ()
