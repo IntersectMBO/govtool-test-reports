@@ -1,5 +1,0 @@
-✔ Uploaded Lilian metadata to bucket
-ℹ Submitting tx: {"lock_id":"cddc2a640de4283bd9f17c8e2d0a315b302d2e8b5d4b73c5a8747ca18197cecb","tx":{"certificates":[{"type":"registerdrep","key":"c896821f43e2468f1d4e46d908a0ca1c0fd22614bff7530151fc690c","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lilian","dataHash":"fae2a19151354a5b80206faf35fb43fcfa6b8a0c7eb951c4d12d85d370359e94"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58201cbe799e13e10ff682de27ca3ccfbd23e014fb15558360bd6de44876ba125b6b"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 832b0248e43e3436156220aaaafb7fce0e12b5b17601b3b4e1a24422934a6d5d
-ℹ Waiting for tx completion: 832b0248e43e3436156220aaaafb7fce0e12b5b17601b3b4e1a24422934a6d5d
-✔ Tx completed

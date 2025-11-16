@@ -1,0 +1,5 @@
+✔ Uploaded Aniya metadata to bucket
+ℹ Submitting tx: {"lock_id":"201254e6a532e65dc253466472d35ec9f8cb6946ac4cc57dca949a5beacf5dd2","tx":{"certificates":[{"type":"registerdrep","key":"efb86939b534fff8a210646c227e9d70486ee65aef8313b1c7d4b096","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Aniya","dataHash":"a11e9e85ae1d987f2528348a2f7f05083433d727a39fe86b86ee0098b690fde5"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820485423edbf9ad4f3cce9f36211a53773ea570e701567a2393cb8ff5d5ce6cd03"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: a481d4de423f4da7468c475e2c44ad60012e15ac8151e34c6ec49ed2f97d40e6
+ℹ Waiting for tx completion: a481d4de423f4da7468c475e2c44ad60012e15ac8151e34c6ec49ed2f97d40e6
+✔ Tx completed
