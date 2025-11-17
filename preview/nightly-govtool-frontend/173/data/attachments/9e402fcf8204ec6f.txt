@@ -1,5 +1,0 @@
-✔ Uploaded Garrison metadata to bucket
-ℹ Submitting tx: {"lock_id":"b39bb520a285c3009a7370627fb6fedb29e5ea31d727dc401a9dd75a167dd984","tx":{"certificates":[{"type":"registerdrep","key":"8aec66a222a16e0c9142f580733b352ab2fbc9e7bc97bd93b09cd24a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Garrison","dataHash":"1c822582ebd7e298d810c46922c832cd65c5703a16bbfe56b8b79d2c2dc0fc3f"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202e357ce8a519650cb90a7d8dc0054c7b8d720dddf81ffc34fabb51140d819ef6"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: a99fd2771e5dea819f3634db33537642ec72be63f8590693ef8ba9bd717023b9
-ℹ Waiting for tx completion: a99fd2771e5dea819f3634db33537642ec72be63f8590693ef8ba9bd717023b9
-✔ Tx completed
