@@ -1,0 +1,5 @@
+✔ Uploaded Wallace metadata to bucket
+ℹ Submitting tx: {"lock_id":"aa708519c3bf57efdf4f9ea3d8f732481b65dae4bef1aeda4f648ad0a0e0d363","tx":{"certificates":[{"type":"registerdrep","key":"8b9d257ffc6fea752cbaf3fb263439f76f089501558cf7d826ee9b1a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Wallace","dataHash":"cbc79baaf4392c65c5feee43da963a0a72219b97276e972723192331788cd6d3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582061bc9c188f6665a07598dce8a689140fcab14d6e26a0c2ff015ac76f90fbae2f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2f1423777b1cae0b4d17860bf172f653a48c70faacb0b93c6a16f98fd68df599
+ℹ Waiting for tx completion: 2f1423777b1cae0b4d17860bf172f653a48c70faacb0b93c6a16f98fd68df599
+✔ Tx completed

@@ -1,8 +1,0 @@
-✖ Access to fetch at 'https://preview.api.handle.me/handles/7ef70d8ebdd195ea98da5ebd48fba3f2da2087a154db5e07eb0acd69' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-✖ Failed to load resource: net::ERR_FAILED
-✖ Access to fetch at 'https://preview.api.handle.me/handles/7ef70d8ebdd195ea98da5ebd48fba3f2da2087a154db5e07eb0acd69' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-✖ Failed to load resource: net::ERR_FAILED
-ℹ Waiting for tx completion: 7055d0a897d9864e4f35c65ddc7e37e36cb3d7a386a1e540b760a81eece2ec2b
-✔ Tx completed
-✖ Access to fetch at 'https://preview.api.handle.me/handles/7ef70d8ebdd195ea98da5ebd48fba3f2da2087a154db5e07eb0acd69' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-✖ Failed to load resource: net::ERR_FAILED
