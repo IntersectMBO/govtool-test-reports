@@ -1,5 +1,0 @@
-✔ Uploaded Loy metadata to bucket
-ℹ Submitting tx: {"lock_id":"47ff4a1b329e283b89acc89bbb67f1c0366361581c5433027919a86a9aa40299","tx":{"certificates":[{"type":"registerdrep","key":"b8ab26105d42a1fdedfcd0036e9c675869cb3c11b387e0924e82a6c9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Loy","dataHash":"74b094bbbd19ef4cf9e73e6ff52dbd3d8998be0818bac9caa816276aa084ad43"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582014f5120e9d524f87240780fd1930d101f8602f6779a4c2d4a1979565428d6d1a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 39564fabafac12704f80bd1e730b1f1f97bbffe742be01e446721b3b6ec17367
-ℹ Waiting for tx completion: 39564fabafac12704f80bd1e730b1f1f97bbffe742be01e446721b3b6ec17367
-✔ Tx completed
