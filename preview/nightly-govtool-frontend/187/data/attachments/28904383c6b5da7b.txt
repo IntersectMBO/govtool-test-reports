@@ -1,6 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Shea.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 79dd6049ae36a29eb488580df71d9f4280b335bcaefea98b3d55ac2f35ca347b
-✔ Tx completed
