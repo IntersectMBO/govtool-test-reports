@@ -1,0 +1,5 @@
+✔ Uploaded Janice metadata to bucket
+ℹ Submitting tx: {"lock_id":"b3261d6a3d2834268b61c1af537d0fe65a5bab3dfa767cffeeba0b66f9ca24f6","tx":{"certificates":[{"type":"registerdrep","key":"db8eb949fae771cd975094988842333e39ba4f65cc81eab38980a373","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Janice","dataHash":"047ad0bec58e9adcbc063df55b56f45c394945b8f43bf4afc2dd6659695e6ffa"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582087ff78d94d1effdfb497487413d0a8e3a52e14efc8338350368ec08114548156"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 9eab054d2a25801355365dff682ff97f8d7b93ef159f38e230889200a8cd1716
+ℹ Waiting for tx completion: 9eab054d2a25801355365dff682ff97f8d7b93ef159f38e230889200a8cd1716
+✔ Tx completed
