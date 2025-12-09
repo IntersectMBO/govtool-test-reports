@@ -1,0 +1,5 @@
+✔ Uploaded Horacio metadata to bucket
+ℹ Submitting tx: {"lock_id":"cba3e0f7797e4363b7a7e0402d97c4e897f2f39ca4971750a3c61a04b4e42606","tx":{"certificates":[{"type":"registerdrep","key":"047122ad2161732181f3762e817f4b926049016d73176d08f5b1366f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Horacio","dataHash":"b2ebb95a5da1f5dacbc31ba410b687a62c641f8c5de9cbb7167fa2d51c0510e2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58202796154714d2692d7c3caa74353daccac9359d04b5a3145e2179824c0d1bbfce"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0b37a32cf69796ba4ebf45b2a92ef3a9bc294ca0570aa92e0da8794016a70e1a
+ℹ Waiting for tx completion: 0b37a32cf69796ba4ebf45b2a92ef3a9bc294ca0570aa92e0da8794016a70e1a
+✔ Tx completed
