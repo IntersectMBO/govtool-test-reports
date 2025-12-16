@@ -1,0 +1,5 @@
+✔ Uploaded Fernando metadata to bucket
+ℹ Submitting tx: {"lock_id":"5a7012e10346a68b80325e47e209c0a60800c96adde022ea4fb0c5f00a392a3d","tx":{"certificates":[{"type":"registerdrep","key":"5cbfa4ab2b45da0fa8c48f87c38730f4f236073efa94b6da315c232b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Fernando","dataHash":"4970983e7fb7f925565c2fff1c6ef9ab3eb653899459934d83bca3831f3c5289"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208821e5b0c7d8b121cba70a00877bc12bbf187c60e3fcb262750b8f96a011cb4a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: e79e6fbbf2eb03721b7e5b1cd324ee7572d7468a2e0dc00a59f02871aea9eae4
+ℹ Waiting for tx completion: e79e6fbbf2eb03721b7e5b1cd324ee7572d7468a2e0dc00a59f02871aea9eae4
+✔ Tx completed
