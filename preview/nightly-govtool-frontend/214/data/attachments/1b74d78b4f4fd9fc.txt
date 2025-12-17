@@ -1,0 +1,5 @@
+✔ Uploaded Carolina metadata to bucket
+ℹ Submitting tx: {"lock_id":"d933005ce52ab25532e35c8eef6240ce80e6bca3ca479865581f614ac67dbc39","tx":{"certificates":[{"type":"registerdrep","key":"6d250b243426397e144d4ed7d0477c93f8568741b061d0e2256d1a3a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Carolina","dataHash":"e77c6248e9ea1018eb9d35f93689871e9d6ed897f459aa596f400d8f8ab65e90"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582001793480da9a22a683f2668f9fc7a2110cc49cce658aa4f64c50cdc0222bf531"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0cb121bc0d69524ab3c327734317a80412899592c5f3c86844a7dabc83a16f4d
+ℹ Waiting for tx completion: 0cb121bc0d69524ab3c327734317a80412899592c5f3c86844a7dabc83a16f4d
+✔ Tx completed
