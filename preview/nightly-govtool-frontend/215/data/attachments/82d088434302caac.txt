@@ -1,0 +1,5 @@
+✔ Uploaded Casimer metadata to bucket
+ℹ Submitting tx: {"lock_id":"dd4b267ceddafdfd6e05916986a7b7cbc792bbca2547ebc8a90635217fad8f6d","tx":{"certificates":[{"type":"registerdrep","key":"9a38f189ec12e16a74e96da1f114dbd592d841f5b04b7c99f2c3d29c","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Casimer","dataHash":"4bbcb849c7ed9d5bd789b7538832de715176131a36a3aef617596344c9d5b399"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582032acc8b1c224fc765d0a441ea715b267bb6d534cf0db5a3f310a4ce1f1e22c40"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 3f680f5ce799cb0f4f06619a8fd4557564b516412f396d81fb57abed275e8ac6
+ℹ Waiting for tx completion: 3f680f5ce799cb0f4f06619a8fd4557564b516412f396d81fb57abed275e8ac6
+✔ Tx completed
