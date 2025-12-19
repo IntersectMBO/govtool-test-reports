@@ -1,5 +1,0 @@
-✔ Uploaded Emory metadata to bucket
-ℹ Submitting tx: {"lock_id":"e09bba431805702c0dc651e783d39dbf3f6cad1c6267a8d69057eebc0571f304","tx":{"certificates":[{"type":"registerdrep","key":"771ad688dc12917e5d00e485ed7ecbfffc45db24f1be4bc4de2c0f0c","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Emory","dataHash":"55989b40997258c522fd35252c7e192c73b96c5ce0a5d64d30f76144ff2e0ff4"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820c8977ec7f9098ab058cfe78b40f4aa3d43c2bbd3adc5e1b3c42b21673d0a23ff"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 4a1726fd8c60bb1e379f4e5a8941f3a589c6a50867c056acb86ebf97d6f882fe
-ℹ Waiting for tx completion: 4a1726fd8c60bb1e379f4e5a8941f3a589c6a50867c056acb86ebf97d6f882fe
-✔ Tx completed
