@@ -1,0 +1,5 @@
+✔ Uploaded Lamont metadata to bucket
+ℹ Submitting tx: {"lock_id":"b6524cf74ee4b1768c7b58bb682a8ccd9afe701d57656dc9506f09f26f81ce57","tx":{"certificates":[{"type":"registerdrep","key":"670bf5629287b027ba834d828cb3ba1c544329b3a57c105931c6de92","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lamont","dataHash":"e1a77ba22dcd6b7994de1b30c0289c3a59d8d982e8f70ac47906e720f8b68bd1"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582086d95752a4670abf8959e289302f4469bb22f37807de4866414cb13cf040667e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 211df5da2d94f0e1aaae14daf5cda6b3511560a9e63e5684f638c35b1352f132
+ℹ Waiting for tx completion: 211df5da2d94f0e1aaae14daf5cda6b3511560a9e63e5684f638c35b1352f132
+✔ Tx completed

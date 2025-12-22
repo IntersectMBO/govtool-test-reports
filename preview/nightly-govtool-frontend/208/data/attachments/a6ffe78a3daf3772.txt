@@ -1,9 +1,0 @@
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✔ Uploaded Alexanne.jsonld metadata to bucket
-✖ Failed to load resource: the server responded with a status of 429 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-✖ Failed to load resource: the server responded with a status of 406 ()
-ℹ Waiting for tx completion: 083ef7a914942df8c445e99c0f1720e6d9858b8a04c040d35f2eb9c60c63da8f
-✔ Tx completed
-✖ Failed to load resource: the server responded with a status of 406 ()

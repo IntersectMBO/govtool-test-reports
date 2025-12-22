@@ -1,5 +1,0 @@
-✔ Uploaded Esperanza metadata to bucket
-ℹ Submitting tx: {"lock_id":"c7022acadd1bddff62e4618336360cacadaab5ffddd85d7e88fbe86f2b897533","tx":{"certificates":[{"type":"registerdrep","key":"a2c352553c6ceb10a45b33bdb33899b1980376bfa4a5ca3519ea35cd","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Esperanza","dataHash":"6e93921056916e98e032e191044b90d1c69e18adc45d9a8df726f4f7b216ba9a"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58204098a13c66a0cc6c8e9c3e30f4a21da14a8e4914f6758a91a85fae36a0d1c03a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 9af60d1b0fdca72e1c0b5f15ae0096be0d11de9a6a1f0e191cf3f42aecff88cd
-ℹ Waiting for tx completion: 9af60d1b0fdca72e1c0b5f15ae0096be0d11de9a6a1f0e191cf3f42aecff88cd
-✔ Tx completed
