@@ -1,0 +1,5 @@
+✔ Uploaded Vallie metadata to bucket
+ℹ Submitting tx: {"lock_id":"07668f9274f787025fda877f1f5b37d93832f16c05baa3958a58d1f9cbd3f0b6","tx":{"certificates":[{"type":"registerdrep","key":"4ba65b1eb896509c2c41924604652e36b406dee450bb8741d3af54b9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Vallie","dataHash":"0d3c601c2bd35ce4509590586d1f7eb3e980b54da06499af8894bc26de399831"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582093710185da258bb344679eac81139e90ab0c03b44d293889b03ea5fa20c30a00"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 9921b3f300c669d4feac2a570280ca077ffd3563250d9ce3b05e5e8fe6fee916
+ℹ Waiting for tx completion: 9921b3f300c669d4feac2a570280ca077ffd3563250d9ce3b05e5e8fe6fee916
+✔ Tx completed
