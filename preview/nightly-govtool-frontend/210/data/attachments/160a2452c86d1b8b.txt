@@ -1,5 +1,0 @@
-✔ Uploaded Lisette metadata to bucket
-ℹ Submitting tx: {"lock_id":"952bddad06389774ec3bb60e05cfb2203b867403686cf4488bebb28fb8f842cc","tx":{"certificates":[{"type":"registerdrep","key":"e2bac3e4d6750673a541d057d66ea791cec39aeeaea7c31d7455ce36","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lisette","dataHash":"701a91898a57518b1db9049f0aa1e0299bc1709a12338b4f0cee71d2de09f762"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208c53aa836295853d7c05499b80b77658f1cf969027a1260fa8cbc4ce3c354e6e"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: b3371c7a1a146334417738489691b3f3e5bcb364925b288ab6c1123387a4e7aa
-ℹ Waiting for tx completion: b3371c7a1a146334417738489691b3f3e5bcb364925b288ab6c1123387a4e7aa
-✔ Tx completed

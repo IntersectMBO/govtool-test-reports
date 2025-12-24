@@ -1,0 +1,5 @@
+✔ Uploaded Jarvis metadata to bucket
+ℹ Submitting tx: {"lock_id":"9730bcfa90e8df17ee9b68c1b7eb9220d6c7c1348a496b2cc28fa33b819f3dd2","tx":{"certificates":[{"type":"registerdrep","key":"e24338799c541c5af0f68e41af26319400121bf136bdb56564da64ae","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jarvis","dataHash":"ab7643e44e14f183f8699d658ad59a84100abbf88b71fc0d2d5d18d137bf0e30"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820cb9c9ce39d84f0ea9a5627bc8d15d5486c88af615dabf4ec2c1eed535791f8c9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 928b04a515de53fc0d8e523d698e616e5128b4e5f866030efbb4ef6e63a5318e
+ℹ Waiting for tx completion: 928b04a515de53fc0d8e523d698e616e5128b4e5f866030efbb4ef6e63a5318e
+✔ Tx completed
