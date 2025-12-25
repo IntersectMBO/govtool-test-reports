@@ -1,0 +1,5 @@
+✔ Uploaded Josue metadata to bucket
+ℹ Submitting tx: {"lock_id":"2893d51347387081d2124fd9760e524605b56b4937032f7f68983a4896eb8237","tx":{"certificates":[{"type":"registerdrep","key":"414b479813f56eff23199b0607de11156044e24c598e82a41b7ed008","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Josue","dataHash":"b751999cead17419de62db3a46d1bf07c5441dbb544451b6cbb2d774e27bde4e"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820634d65dbf539fa5ea41dc13c7c633ef801e23fea956bc104ce144a0bb891be2a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: a4fd5d9445880186f5f97b5ff099401dd4567c32536092b67c6df9620652a345
+ℹ Waiting for tx completion: a4fd5d9445880186f5f97b5ff099401dd4567c32536092b67c6df9620652a345
+✔ Tx completed

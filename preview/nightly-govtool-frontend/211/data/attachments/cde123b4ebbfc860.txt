@@ -1,5 +1,0 @@
-✔ Uploaded Lorenza metadata to bucket
-ℹ Submitting tx: {"lock_id":"dd778c21a60cba0ae3d2977d3c67de1ca23490ecb882c10a76209d14d63479a2","tx":{"certificates":[{"type":"registerdrep","key":"adfeeeb107c3727d0c6f5b740138da8e50f47295c7816566d85159d1","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Lorenza","dataHash":"9a0795760315f5ee6c5e8b497d51d7820cef4a1dbd1ed9735e6c15e42dff70ae"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820f595c84a8566aec70a53ca7a718e28dc045b72c83670e8f016d62fc49705e088"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 01cb55dbba13e1d5f01989022c43f44402a5cac43a61dacf49fb7a7ea6fcfa20
-ℹ Waiting for tx completion: 01cb55dbba13e1d5f01989022c43f44402a5cac43a61dacf49fb7a7ea6fcfa20
-✔ Tx completed
