@@ -1,5 +1,0 @@
-✔ Uploaded Donnie metadata to bucket
-ℹ Submitting tx: {"lock_id":"a5b0c65d09b34178b5cc74f84db955fef9dbffbb1969e2e29426e7c42c41d0aa","tx":{"certificates":[{"type":"registerdrep","key":"26bc8148d1a465cb0e66a3de23344c798ffd890a8c6206cc6deae227","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Donnie","dataHash":"e422d0927201615aa453a6b0b0f848faa35064bde96deaaeaa6fea1b4e26fad8"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820afb1ecb3a63db40dacb17cc9514366b596b54609f711855352b7b193ea289411"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 8d4e4a11efeb58b1e4b82099060adc6002bc63892ed32e873e61b978b06123e4
-ℹ Waiting for tx completion: 8d4e4a11efeb58b1e4b82099060adc6002bc63892ed32e873e61b978b06123e4
-✔ Tx completed
