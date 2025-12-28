@@ -1,0 +1,12 @@
+✔ Uploaded Sonia metadata to bucket
+ℹ Submitting tx: {"lock_id":"ad2de2d1e610a0ecc49d17044edc87ff5596c4b94a14550c7a9a331609a34122","tx":{"certificates":[{"type":"registerdrep","key":"a20ae49f23837ae8bdb38f00a95b48cc2d7ad8dcd5f314db8f513c26","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Sonia","dataHash":"1066ec64d94c35810374049945b9adae4b8d25ff814740fa651a59fd49e53199"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820925dcb836b9174eb9e97e1109e650174c82f3cf7a8b205716549e69ba8735e32"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 9977212e32447a17f19491859606f7b915471cf7d77144bf0e58624567c608cd
+ℹ Waiting for tx completion: 9977212e32447a17f19491859606f7b915471cf7d77144bf0e58624567c608cd
+✖ Failed due to Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+
+Call Log:
+- Test timeout of 240000ms exceeded
+ℹ Retrying the function pollTransaction
