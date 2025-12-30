@@ -1,5 +1,0 @@
-✔ Uploaded Theo metadata to bucket
-ℹ Submitting tx: {"lock_id":"6deb3c049f2c262c2085e3240ee2d687fb8ca7b3a5ebb75908a71ab505637836","tx":{"certificates":[{"type":"registerdrep","key":"45ab98c687513bf55f5478932e8e80b487a394a3a30a193bc7e92c3e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Theo","dataHash":"1ec9973bda11efdbdd78a070512a60533e6b877f24c486fdfa476888bb7f7ad3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820895f8802a77e7efc1d4f2807269d168163c6ddccd6d7c34a92fc82191368e7fe"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 67257ad15441eeec3efaf8833731336b0ea4cf8314f67033f97c72f689a1fb66
-ℹ Waiting for tx completion: 67257ad15441eeec3efaf8833731336b0ea4cf8314f67033f97c72f689a1fb66
-✔ Tx completed
