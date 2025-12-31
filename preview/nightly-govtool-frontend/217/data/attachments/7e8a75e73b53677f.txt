@@ -1,5 +1,0 @@
-✔ Uploaded Ashton metadata to bucket
-ℹ Submitting tx: {"lock_id":"8f8bbc12774ffb0b13c29135d321c93fadf5a6785b85655871230190add7455d","tx":{"certificates":[{"type":"registerdrep","key":"8f89e026ffe7397c6c39c489e006cff937e6bb27add9f8f8e0fa17e3","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Ashton","dataHash":"586eb37c254f769ff3a963dc8b1f5cfcabab3aa164c5bf77c3d6032b4a98e5aa"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e10d8c0f36e7bad5efbb93488750d05fd7fd5086bf045ced8c61ea9215529238"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 5636ec6b775cb61a25053850be72432a75d39fb84eb1e3db982c31d1f191bf4d
-ℹ Waiting for tx completion: 5636ec6b775cb61a25053850be72432a75d39fb84eb1e3db982c31d1f191bf4d
-✔ Tx completed
