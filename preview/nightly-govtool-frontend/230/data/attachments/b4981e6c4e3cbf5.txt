@@ -1,0 +1,5 @@
+✔ Uploaded Jackson metadata to bucket
+ℹ Submitting tx: {"lock_id":"0aa7fc7dabbfd740b88a632e769a7b8fee65a97757fc9c45a8d1db50dfa9ffb0","tx":{"certificates":[{"type":"registerdrep","key":"99ac4040bfaed74ff6f10c948bf960260eb43524f59bee0ebcb264a9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Jackson","dataHash":"d9e88f30d10a73cd6517f4ed1cf9551b24d12a006ddfc68a1e98d8f72e4165b5"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820536821cba624be7db87990f0fc0bf104a375cbb68f7f46bd92dae4d5b3b23acb"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: e957c72a456a2eaf5b08d53eaa40d359426e0629bb918d1d1457fb9022c82608
+ℹ Waiting for tx completion: e957c72a456a2eaf5b08d53eaa40d359426e0629bb918d1d1457fb9022c82608
+✔ Tx completed
