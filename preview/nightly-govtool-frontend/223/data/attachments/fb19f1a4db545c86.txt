@@ -1,5 +1,0 @@
-✔ Uploaded Elian metadata to bucket
-ℹ Submitting tx: {"lock_id":"baf9cc0cad85669e97a1c811270f0e353ca7933e745ccb74c6fc6df1310663df","tx":{"certificates":[{"type":"registerdrep","key":"841eb91a248b3465fffcc03d3fe0f6cd0a2e46fde0abf4ff0504fe5e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Elian","dataHash":"fcdbf3eda7994819c99c6260a5b20671aa738537eec8c46f8a9c3e2350b19ef3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820f202c4fdba4e44bd1245e664616f665e53835efcfb5181aac5f6370ee9b2d0b9"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: af1f66079798faca2efa888bfd47cf70883a555f7e6ce284e4e4ea0ce34b1af2
-ℹ Waiting for tx completion: af1f66079798faca2efa888bfd47cf70883a555f7e6ce284e4e4ea0ce34b1af2
-✔ Tx completed
