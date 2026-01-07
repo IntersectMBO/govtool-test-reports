@@ -1,0 +1,5 @@
+✔ Uploaded Queenie metadata to bucket
+ℹ Submitting tx: {"lock_id":"949bc0d818d41404366ec946fb9ab539974b66c91930f9f8b303ae5620167964","tx":{"certificates":[{"type":"registerdrep","key":"4750512b4d955062a183684999844107f598364dd692aac3536c7d82","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Queenie","dataHash":"d4144fe50d01505b710228b98b9db2437dee1b52bea3ff61c584e6c552c8b0bd"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820110503e5bf84f5de7755f358ff69def0bc11dbfafb028403bcf7f91250a4b22d"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: dacb72194d4198e6294027259703f8ab9d8ad3d2d6f9f27b97807318975e7b7e
+ℹ Waiting for tx completion: dacb72194d4198e6294027259703f8ab9d8ad3d2d6f9f27b97807318975e7b7e
+✔ Tx completed

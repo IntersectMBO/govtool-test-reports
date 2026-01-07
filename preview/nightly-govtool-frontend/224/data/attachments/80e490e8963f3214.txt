@@ -1,5 +1,0 @@
-✔ Uploaded Winona metadata to bucket
-ℹ Submitting tx: {"lock_id":"f92ec73e402391c79165c1c0f4436ec3d19d55f95b100fdab0f762d36622ba58","tx":{"certificates":[{"type":"registerdrep","key":"f2e3df8307bb53d5e1ce8e347917a2e4f9700cf994a184380d826e1e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Winona","dataHash":"849e62f75aa381c825f6dac2f97d7c6cdaac28a9b4a928e8e803344cf539ba54"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820e0da2608927b2022062545aad137f7221e28b538de7967039e6bb20ee153c215"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: fdb5a9580004b91f39b5ad36e7ca887d1ebd1e80baa05a88c9d11a2caec53b95
-ℹ Waiting for tx completion: fdb5a9580004b91f39b5ad36e7ca887d1ebd1e80baa05a88c9d11a2caec53b95
-✔ Tx completed
