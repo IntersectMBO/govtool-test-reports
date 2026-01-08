@@ -1,0 +1,5 @@
+✔ Uploaded Amely metadata to bucket
+ℹ Submitting tx: {"lock_id":"b2a00d89ff5fde26d499956f34ca24fc2716ecd98db8576fda8092f944af4ab3","tx":{"certificates":[{"type":"registerdrep","key":"d36baf9988d9303e912002dcd390e3f1e2cda492b3f914ede680cb45","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Amely","dataHash":"6a3f67cc117c095c8cf3493ef6b6a327a0264df651df0b0122c73df3394a15c7"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58209c2f7cbd37b7f331399fd4355bd0e31223274ef72f9c40b23546a84fa3873ff4"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 446c93860355ed16cf52224d576a217554b8bec10f8d88adc736b0f1852624cc
+ℹ Waiting for tx completion: 446c93860355ed16cf52224d576a217554b8bec10f8d88adc736b0f1852624cc
+✔ Tx completed
