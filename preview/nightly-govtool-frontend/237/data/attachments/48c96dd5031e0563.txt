@@ -1,0 +1,5 @@
+✔ Uploaded Adelbert metadata to bucket
+ℹ Submitting tx: {"lock_id":"ca811444d30fd745e700f4c2170fbb68add6811fe7ffb929f81201ce13bd5a3a","tx":{"certificates":[{"type":"registerdrep","key":"142adf99f33e37f58f19510acb1990598d3ed71f25706e9bbda3bc6f","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Adelbert","dataHash":"684c2c6eda9a1061c137de0725266544acb7b36090fef5572599dde8a21716e1"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208d4e27a38f581782c3556a99b61dc8f5d2a27b51f634905256c568f829cffe91"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: c3883250a5304a1ae7bf7389b3d2458266eb61dd0ad557c2a71f5e23ada61d93
+ℹ Waiting for tx completion: c3883250a5304a1ae7bf7389b3d2458266eb61dd0ad557c2a71f5e23ada61d93
+✔ Tx completed

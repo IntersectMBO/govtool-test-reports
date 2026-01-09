@@ -1,5 +1,0 @@
-✔ Uploaded Desiree metadata to bucket
-ℹ Submitting tx: {"lock_id":"6127b95f036c9d9f32565b616c6cc73f635cbdbf0fe1e8ed21688161a3ab83c5","tx":{"certificates":[{"type":"registerdrep","key":"929b020daf9f866ad5571fa09effe0bfee2815c1c53a6768664d5b46","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Desiree","dataHash":"b44f0cb5a2e1c4ac0e1a722a0514400a6590c0d2a12970c30021e6781bdb4f79"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820a60c7988af4c8b5bc7f80d2f04fe75aed35c604d2e42da4aec6eeaa66fdd6bbd"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 90bff61916c204e57034425752fca956c2710a2c49c7d46e94cf4a5758724596
-ℹ Waiting for tx completion: 90bff61916c204e57034425752fca956c2710a2c49c7d46e94cf4a5758724596
-✔ Tx completed
