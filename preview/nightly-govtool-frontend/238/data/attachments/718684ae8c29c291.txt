@@ -1,0 +1,5 @@
+✔ Uploaded Nelson metadata to bucket
+ℹ Submitting tx: {"lock_id":"09cac5f6c845da46c2164b4e27d1fd6165afed7cd4564196fe469b0580da0dd7","tx":{"certificates":[{"type":"registerdrep","key":"4177bd5ba524b32f1bedb44a3c113df9b24318508424145a987eb704","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Nelson","dataHash":"cda00f2d091081ce65533f15d87bf6180728328703e765b1faae4a1bdd085539"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582002a766009954eb22d61efd6391788ae20e5957e4ecfc988342201250821ba6bf"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 263c9f94bbf17e05b5f90a9b3036bfcbaf400957ba4152c56eafa045b36b0c17
+ℹ Waiting for tx completion: 263c9f94bbf17e05b5f90a9b3036bfcbaf400957ba4152c56eafa045b36b0c17
+✔ Tx completed

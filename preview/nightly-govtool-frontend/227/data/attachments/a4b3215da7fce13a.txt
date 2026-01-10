@@ -1,5 +1,0 @@
-✔ Uploaded Isaias metadata to bucket
-ℹ Submitting tx: {"lock_id":"d9257f6457eb79eea90e34d4a1a58fb4d0d33082e7702a65cc04e43db15d001e","tx":{"certificates":[{"type":"registerdrep","key":"f02ea88b3deb3a454ffef963ca70438ceccaad21a0c1adb9eb77686a","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Isaias","dataHash":"063146aa9055c0d814de01578b0ced10d48137daf0367ad9cd92a1d751c01bb2"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58209840bf1b90adc80e04e46fb3bcb2331e5373fc3e9014daf2cbe848ed2db1ea66"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: ebc8bb57f2a97506b0403a1cbc9ef17e6a4993f444902705d894458f36627d00
-ℹ Waiting for tx completion: ebc8bb57f2a97506b0403a1cbc9ef17e6a4993f444902705d894458f36627d00
-✔ Tx completed

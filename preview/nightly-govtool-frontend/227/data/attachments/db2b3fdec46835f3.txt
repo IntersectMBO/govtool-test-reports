@@ -1,3 +1,0 @@
-✖ Access to fetch at 'https://preview.api.handle.me/handles/90a1a710d5ec7405995b6662691f5c6b4882045b2678dc83547258bd' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-✖ Failed to load resource: net::ERR_FAILED
-✔ Uploaded Test.jsonld metadata to bucket
