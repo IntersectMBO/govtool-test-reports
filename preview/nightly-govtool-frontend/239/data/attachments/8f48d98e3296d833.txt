@@ -1,0 +1,5 @@
+✔ Uploaded Sophie metadata to bucket
+ℹ Submitting tx: {"lock_id":"23045a45f3dfa1191b6def1c0e2134373f8de6f0b80565eda872a884ba647ffc","tx":{"certificates":[{"type":"registerdrep","key":"c0583fa708c993c5603dde44a8767bd2c17381c71045efadbbb67991","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Sophie","dataHash":"9cf7d5fea2884bc3cfb462cf328f71f50daf9a1b18f2a40f0ff205c9fcb9270d"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820043cfa97c27ac3c931448b88224c27fc551af82c16a3ecec40c15c4f073886e6"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: f7d92f710f6b69592d5bfe38afa76fb5c334e87677069c2721b00081fadd545f
+ℹ Waiting for tx completion: f7d92f710f6b69592d5bfe38afa76fb5c334e87677069c2721b00081fadd545f
+✔ Tx completed
