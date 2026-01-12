@@ -1,0 +1,5 @@
+✔ Uploaded Tristin metadata to bucket
+ℹ Submitting tx: {"lock_id":"04a76da40ccb87725d6a53b4c16a04607ef310509204b93dafdb73d78655f5fa","tx":{"certificates":[{"type":"registerdrep","key":"8fa80e09b16cb71fec9066fded10c406fbde83b299555dfd86210ee6","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Tristin","dataHash":"dc0a1acb96977bf1089bb1eaf291afd96367d159cb7ed82a159f2a301dee05c8"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820efe5481a9218cd043fbba008750e631009ef1234619964f42ac251534e64ef29"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 375181b0a97fc15ebbc7b0b030a63edf7fcef5bb0e8744541dab88f96f83bf51
+ℹ Waiting for tx completion: 375181b0a97fc15ebbc7b0b030a63edf7fcef5bb0e8744541dab88f96f83bf51
+✔ Tx completed
