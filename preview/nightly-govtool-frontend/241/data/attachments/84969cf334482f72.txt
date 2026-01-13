@@ -1,0 +1,5 @@
+✔ Uploaded Graham metadata to bucket
+ℹ Submitting tx: {"lock_id":"5484b8d5e7d60360cdc280bfa7fceecb20570c93df35f5038328fd7946a63f79","tx":{"certificates":[{"type":"registerdrep","key":"ec8ed81389fa6597923b41f9b36d3d7b7b1c7f83d46fe85005ba5c85","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Graham","dataHash":"dd5f5c4c114e48ae9e7dabc3c9c1dca69bb80a7176cf90085d22a81266f0b2d0"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820c97a5b3055ac88710f682077e4f343b218c07f3bda6b6ce1c7ff8f20cb1e7943"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 5df3ef99c6a75326d73d5b7f84dc7ab213cd308de6e15f32d6310faf7a85e89f
+ℹ Waiting for tx completion: 5df3ef99c6a75326d73d5b7f84dc7ab213cd308de6e15f32d6310faf7a85e89f
+✔ Tx completed
