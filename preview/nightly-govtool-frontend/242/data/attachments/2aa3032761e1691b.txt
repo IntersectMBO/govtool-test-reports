@@ -1,0 +1,5 @@
+✔ Uploaded Thalia metadata to bucket
+ℹ Submitting tx: {"lock_id":"71fadfb455669f77be06aefb84889595fa9fb466d2bc5ebfd29c184eb8fb5a02","tx":{"certificates":[{"type":"registerdrep","key":"8fba3652a11cd7d123ea718158ff260481b7c2bb32d01e2708f9251e","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Thalia","dataHash":"30b3d238de6b1f723f02e6e16c19adf848d9f07eef1d1a3570f47ff3cfa901de"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208b51971c0e64ad9ee50ed482c1b31ca50ad174b32929a867124587a8fc52eb4a"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 36b334acfb0ba730af6b8aa94aa57e0166e217ab3554e22d6a7f897ea457b8ed
+ℹ Waiting for tx completion: 36b334acfb0ba730af6b8aa94aa57e0166e217ab3554e22d6a7f897ea457b8ed
+✔ Tx completed
