@@ -1,0 +1,5 @@
+✔ Uploaded Bret metadata to bucket
+ℹ Submitting tx: {"lock_id":"f4ebdd5368a2c73c38a5bf46f4f506aa95e3cc71b9c2836f1c398d1960c98d81","tx":{"certificates":[{"type":"registerdrep","key":"e8f82eb86a02fca3a4e6cf6eb99b60b3c73ae97a3602c3c00bf547a7","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Bret","dataHash":"5533eb0c38b9e6850cbdf8bfa4a888037bf125f4f30701d3fd5554783cc5e4a5"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"582045d3fe99efef3590c18f26620ea9fb639b0b14c9413b3286ee2d917602edf96f"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 0e42cc0d2d7a68f4852b63ad090a8d0694c644395d755ab04e60a4e659cf7544
+ℹ Waiting for tx completion: 0e42cc0d2d7a68f4852b63ad090a8d0694c644395d755ab04e60a4e659cf7544
+✔ Tx completed

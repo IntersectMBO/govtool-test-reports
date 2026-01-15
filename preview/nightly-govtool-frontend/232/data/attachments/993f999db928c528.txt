@@ -1,5 +1,0 @@
-✔ Uploaded Joel metadata to bucket
-ℹ Submitting tx: {"lock_id":"14c1ab41e5a2947e4d01f5e93d939f198fd27f907411332c29e5b481fc57c37e","tx":{"certificates":[{"type":"registerdrep","key":"b9bf33e8cfe69be1444e829a4ab40074b1ab486e4003a5cd70fe515b","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Joel","dataHash":"e1066b98fba96404927540bd60f3e127b71f7ba82dc7ae85865062afad1077b3"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58203e8db62771ec7c92fe1494d59e45287fc5639401f2019c41758411e69b866607"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: fd7db204fa7716baa601a0435dfb571afe694558fc8ac11d3267772464ab2b43
-ℹ Waiting for tx completion: fd7db204fa7716baa601a0435dfb571afe694558fc8ac11d3267772464ab2b43
-✔ Tx completed
