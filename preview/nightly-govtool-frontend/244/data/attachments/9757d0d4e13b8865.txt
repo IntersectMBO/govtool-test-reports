@@ -1,0 +1,5 @@
+✔ Uploaded Nella metadata to bucket
+ℹ Submitting tx: {"lock_id":"80416b851050789b98c3c102dcd8a9be57af82689685b6c63452785ee6939f0d","tx":{"certificates":[{"type":"registerdrep","key":"8cbc3565655efe0e95f04643201159e4000db3a7656170dcab5a66b5","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Nella","dataHash":"6103547db7b41559b2520112467a51a0fef31eba6f9207e5ad361b9cbd076112"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820690af3fcb7785856fb3ea5815cd88268b999c7b8ea1eb4f7c2ed8bd489ad8741"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 98faf70a7a525136ea5c063f729439271aaf15c58cb0fd2d6521962596bfdebb
+ℹ Waiting for tx completion: 98faf70a7a525136ea5c063f729439271aaf15c58cb0fd2d6521962596bfdebb
+✔ Tx completed

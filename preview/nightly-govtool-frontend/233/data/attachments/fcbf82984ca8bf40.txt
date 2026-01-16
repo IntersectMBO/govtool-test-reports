@@ -1,5 +1,0 @@
-✔ Uploaded Humberto metadata to bucket
-ℹ Submitting tx: {"lock_id":"6d03951092d37b1c772fb8ea82a8269abdda63c98bcf290c4db2fe55ba798bf3","tx":{"certificates":[{"type":"registerdrep","key":"b937205ddb8524432eb5ca148d0c0b13e880ce1295d2a1545f59a1de","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Humberto","dataHash":"94d77072913617a50de73ec8e3d355ec3bbcaf1b7f09ed38633b6daf9ece5066"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58209d53708a8d3844faee42bf5a8c230d3062d1837352877ad4c561ae3b8cc1c846"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 447961195c59ebea430d8d2495cd6a889012fbae788eaaba8bdcf6f234d1ecec
-ℹ Waiting for tx completion: 447961195c59ebea430d8d2495cd6a889012fbae788eaaba8bdcf6f234d1ecec
-✔ Tx completed
