@@ -1,0 +1,5 @@
+✔ Uploaded Ophelia metadata to bucket
+ℹ Submitting tx: {"lock_id":"3440d34273ef60ae1f85e5ebec0d32fa3ed213930d3a00a7067d883ecf019139","tx":{"certificates":[{"type":"registerdrep","key":"53c190d179aaee1b4e26886fa281ce3da4a1cc30a6fc9a889c99d714","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Ophelia","dataHash":"322652b5c3c17a7dd5315778a75412330f6ebecf25002d641df0a91be2dc752c"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"58208b0da222289a6335e1ea2fb93ba47e4142bdec97ec188b74f3cc25fe4f8837ad"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2c691087c31d0ed632ebad32c303e99b1cb758b0f8811814ab2e636555e6104d
+ℹ Waiting for tx completion: 2c691087c31d0ed632ebad32c303e99b1cb758b0f8811814ab2e636555e6104d
+✔ Tx completed

@@ -1,5 +1,0 @@
-✔ Uploaded Deon metadata to bucket
-ℹ Submitting tx: {"lock_id":"5ea7b447199c02f3d2e1ca89eee7be89ee41b61ceb4c2b3b32f9840836627079","tx":{"certificates":[{"type":"registerdrep","key":"dceaede2574de8281e20954b07744c78858cdf7f556f0d241783aeed","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Deon","dataHash":"56ac1fc214fed3bbd5519176e7dfabca4faf6f559786d831828f86c4d6565f1f"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820be2fd3cca72684e2002982b839931fc48a0817ef6ee2f6961ecfa0b88d25fa1c"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
-✔ Tx submitted: 2caf909504ea0bd46a091e8f073b4ecc5b258bfd8a6cf59d17576e9496d67f42
-ℹ Waiting for tx completion: 2caf909504ea0bd46a091e8f073b4ecc5b258bfd8a6cf59d17576e9496d67f42
-✔ Tx completed
