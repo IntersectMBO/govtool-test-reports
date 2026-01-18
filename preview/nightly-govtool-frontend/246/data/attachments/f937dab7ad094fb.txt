@@ -1,0 +1,5 @@
+✔ Uploaded Shaniya metadata to bucket
+ℹ Submitting tx: {"lock_id":"6a5e16e3727ea198ed5e413e771c7b63a3fa09b1fe0cd3e885e931feb2e2179b","tx":{"certificates":[{"type":"registerdrep","key":"5d2de287f68e56f4f2f31372e45194453def14bb049aa4e479fb2be9","anchor":{"url":"https://metadata-govtool.cardanoapi.io/data/Shaniya","dataHash":"a1fe1f88b17ef1925deb678c39809cbdc906cbe270aacb558d5a412a0978aeea"}}],"selections":[{"type":"PaymentSigningKeyShelley_ed25519","description":"Stake Signing Key","cborHex":"5820458c316d3c903b2d080e9a030bcb4dc3750f32db7e2bf988f52ec1c669b30998"},{"type":"PaymentSigningKeyShelley_ed25519","description":"Payment Signing Key","cborHex":"58207c0ea07b5eb00a808de0735aa8e093ad0f257c293efbe3c5a44948eeeff38baf"},"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"],"changeAddress":"addr_test1qz3hqauh86zjg2c3wdqueava97mc4llr5pv5fvyfcgjc84jwvs0cxwl8qfkejj8ld2mp0ygjx9n2rjz0tr75w2ntxwjspd08dd"}}
+✔ Tx submitted: 2ed1847e63ee586f8a39ed271cba0755190b93f941adb676b0cd85c355212f42
+ℹ Waiting for tx completion: 2ed1847e63ee586f8a39ed271cba0755190b93f941adb676b0cd85c355212f42
+✔ Tx completed
