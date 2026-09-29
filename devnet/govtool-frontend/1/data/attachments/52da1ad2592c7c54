@@ -1,0 +1,215 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 5-proposal-functionality/proposalFunctionality.spec.ts >> Bad Proposals >> 5G. Should show warning in bad governance action proposal to the users to visit the site at their own risk, when external url is opened
+- Location: tests/5-proposal-functionality/proposalFunctionality.spec.ts:24:7
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByText('Be careful')
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 5000ms
+  - waiting for getByText('Be careful')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: "Network: undefined"
+      - generic [ref=e7]: "|"
+      - link [ref=e8] [cursor=pointer]:
+        - /url: https://gov.tools/
+        - text: Go to Mainnet
+    - img [ref=e9]
+    - generic [ref=e10]:
+      - banner [ref=e12]:
+        - generic [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - img [ref=e15]
+          - generic [ref=e16]:
+            - button [ref=e17] [cursor=pointer]: Connect
+            - img [ref=e18]
+      - generic [ref=e21]:
+        - paragraph [ref=e23]: Live Voting
+        - generic [ref=e24]:
+          - link [ref=e25] [cursor=pointer]:
+            - /url: /governance_actions
+            - paragraph [ref=e26]: Live Voting
+          - separator [ref=e27]
+          - paragraph [ref=e28]: Data Missing
+        - generic [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+          - paragraph [ref=e31]: Back
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - heading [level=1] [ref=e37]: Data Missing
+            - generic [ref=e38]:
+              - paragraph [ref=e39]: The data that was originally used when this Governance Action was created has not been found.
+              - paragraph [ref=e40]: GovTool uses external sources for Governance Action data, and these sources are maintained by the proposers of the Actions. This error means that GovTool cannot locate the data on the URL specified when the Governance Action was originally posted.
+              - text: Learn more
+            - generic [ref=e41]:
+              - heading [level=2] [ref=e43]: "Governance Action Type:"
+              - paragraph [ref=e46]: Treasury Withdrawal
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - paragraph [ref=e49]: "Submitted: 29th May 2024 (Epoch 349)"
+                - img [ref=e50]
+              - generic [ref=e52]:
+                - paragraph [ref=e53]: "Expires: 4th Jun 2024 (Epoch 355)"
+                - img [ref=e54]
+            - button [active] [ref=e56] [cursor=pointer]:
+              - paragraph [ref=e57]: See external data
+              - img [ref=e58]
+            - generic [ref=e59]:
+              - heading [level=2] [ref=e61]: "Governance Action ID:"
+              - generic [ref=e62]:
+                - paragraph [ref=e63]: gov_action15y4ljy5dfgkqyk9fgfa5war4dd4fu8t0auzsz80vyrfg32pwskgqqvqnjwj
+                - img [ref=e65] [cursor=pointer]
+            - generic [ref=e66]:
+              - heading [level=2] [ref=e68]: "Legacy Governance Action ID (CIP-105):"
+              - generic [ref=e69]:
+                - paragraph [ref=e70]: a12bf9128d4a2c0258a9427b4774756b6a9e1d6fef05011dec20d288a82e8590#0
+                - img [ref=e72] [cursor=pointer]
+            - generic [ref=e75]:
+              - heading [level=2] [ref=e77]: Metadata anchor link
+              - generic [ref=e78]:
+                - paragraph [ref=e79]: https://metadata.cardanoapi.io/data/Treasuy.jsonld
+                - img [ref=e81] [cursor=pointer]
+            - generic [ref=e82]:
+              - heading [level=2] [ref=e84]: Metadata anchor hash
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: 37ac1dcf986c08517f2f64a0b70a6b5b3c72ac608b6f8e94ba532e8f4817361
+                - img [ref=e88] [cursor=pointer]
+            - generic [ref=e89]:
+              - heading [level=2] [ref=e91]: Author(s)
+              - generic [ref=e93]: No data available
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - paragraph [ref=e97]: Votes submitted
+            - paragraph [ref=e98]: for this Governance Action
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - paragraph [ref=e101]: DReps
+                - generic [ref=e102]:
+                  - paragraph [ref=e103]: Ratification Threshold
+                  - paragraph [ref=e104]: 67%
+                - generic [ref=e105]:
+                  - paragraph [ref=e107]: "Yes"
+                  - paragraph [ref=e109]: ₳ 0
+                - generic [ref=e110]:
+                  - paragraph [ref=e112]: Abstain
+                  - paragraph [ref=e114]: ₳ 0
+                - generic [ref=e115]:
+                  - paragraph [ref=e117]: "No"
+                  - paragraph [ref=e119]: ₳ 0
+              - generic [ref=e120]:
+                - paragraph [ref=e121]: Constitutional Committee
+                - generic [ref=e122]:
+                  - paragraph [ref=e123]: Ratification Threshold
+                  - paragraph [ref=e124]: 67%
+                - generic [ref=e125]:
+                  - paragraph [ref=e127]: Constitutional
+                  - paragraph [ref=e129]: NaN%
+                - paragraph [ref=e132]: Abstain
+                - generic [ref=e133]:
+                  - paragraph [ref=e135]: Unconstitutional
+                  - paragraph [ref=e137]: NaN%
+                - generic [ref=e138]:
+                  - paragraph [ref=e140]: Not voted
+                  - generic [ref=e141]:
+                    - paragraph [ref=e142]: NaN
+                    - paragraph [ref=e143]: NaN%
+      - contentinfo [ref=e144]:
+        - paragraph [ref=e145]: © 2026 GovTool
+        - generic [ref=e146]:
+          - generic [ref=e147] [cursor=pointer]: Privacy policy
+          - generic [ref=e148] [cursor=pointer]: Terms of Use
+        - generic [ref=e149]:
+          - button [ref=e150] [cursor=pointer]:
+            - img [ref=e152]
+            - text: Help
+          - button [ref=e153] [cursor=pointer]: Feedback
+    - img [ref=e154]
+  - generic [ref=e157]:
+    - img "close" [ref=e158] [cursor=pointer]
+    - img "Status icon" [ref=e159]
+    - paragraph [ref=e160]: External Link Safety
+    - generic [ref=e161]:
+      - paragraph [ref=e162]: "This is an external link:"
+      - paragraph [ref=e163]: https://metadata.cardanoapi.io/data/Treasuy.jsonld
+      - paragraph [ref=e164]: Exercise caution and verify the website's authenticity before sharing personal information. To proceed, click 'Continue'. To stay on Cardano, click 'Cancel'.
+    - generic [ref=e165]:
+      - button "Continue" [ref=e166] [cursor=pointer]: Continue
+      - button "Cancel" [ref=e167] [cursor=pointer]: Cancel
+```
+
+# Test source
+
+```ts
+  1  | import { test } from "@fixtures/walletExtension";
+  2  | import { setAllureEpic } from "@helpers/allure";
+  3  | import GovernanceActionsPage from "@pages/governanceActionsPage";
+  4  | import { expect } from "@playwright/test";
+  5  | const invalidInfinityProposals = require("../../lib/_mock/invalidInfinityProposals.json");
+  6  | 
+  7  | test.beforeEach(async () => {
+  8  |   await setAllureEpic("5. Proposal functionality");
+  9  | });
+  10 | test.describe("Bad Proposals", () => {
+  11 |   let govActionsPage: GovernanceActionsPage;
+  12 | 
+  13 |   test.beforeEach(async ({ page }) => {
+  14 |     await page.route("**/proposal/list?**", async (route) =>
+  15 |       route.fulfill({
+  16 |         body: JSON.stringify(invalidInfinityProposals),
+  17 |       })
+  18 |     );
+  19 | 
+  20 |     govActionsPage = new GovernanceActionsPage(page);
+  21 |     await govActionsPage.goto();
+  22 |   });
+  23 | 
+  24 |   test("5G. Should show warning in bad governance action proposal to the users to visit the site at their own risk, when external url is opened", async () => {
+  25 |     const govActionDetailsPage = await govActionsPage.viewFirstProposal();
+  26 | 
+  27 |     await govActionDetailsPage.externalModalBtn.click();
+  28 | 
+  29 |     await expect(govActionDetailsPage.externalLinkModal).toBeVisible();
+  30 |     await expect(
+  31 |       govActionDetailsPage.currentPage.getByText("Be careful", {
+  32 |         exact: false,
+  33 |       })
+> 34 |     ).toBeVisible();
+     |       ^ Error: expect(locator).toBeVisible() failed
+  35 |   });
+  36 | 
+  37 |   test("5H. Should open a new tab in Bad governance action proposal, when external URL is opened", async ({
+  38 |     page,
+  39 |   }) => {
+  40 |     const govActionDetailsPage = await govActionsPage.viewFirstProposal();
+  41 | 
+  42 |     await govActionDetailsPage.externalModalBtn.click();
+  43 |     await govActionDetailsPage.continueModalBtn.click();
+  44 |     const existingPages = page.context().pages();
+  45 |     expect(existingPages).toHaveLength(1);
+  46 |   });
+  47 | });
+  48 | 
+```

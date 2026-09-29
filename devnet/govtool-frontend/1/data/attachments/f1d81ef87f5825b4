@@ -1,0 +1,140 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 3-drep-registration/dRepRegistration.dRep.spec.ts >> Temporary DReps >> 3Q Should not list dRep in the dRep directory when 'doNotList' is checked during registration
+- Location: tests/3-drep-registration/dRepRegistration.dRep.spec.ts:134:7
+
+# Error details
+
+```
+Error: DRep with id drep1gfq2n9rup44vpwg0rh5uczzkh48j09m78lulhg5d0d5ugxan7az is found in the list
+
+expect(locator).toBeVisible() failed
+
+Locator: getByText('No DReps found')
+Expected: visible
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+  - DRep with id drep1gfq2n9rup44vpwg0rh5uczzkh48j09m78lulhg5d0d5ugxan7az is found in the list with timeout 60000ms
+  - waiting for getByText('No DReps found')
+
+```
+
+# Test source
+
+```ts
+  123 |       .textContent();
+  124 | 
+  125 |     return filters.includes(dRepType);
+  126 |   }
+  127 | 
+  128 |   async sortDRep(option: string) {}
+  129 | 
+  130 |   async getDRepsResponseFromApi(option: string): Promise<IDRep[]> {
+  131 |     const responsePromise = this.page.waitForResponse((response) =>
+  132 |       response.url().includes(`&sort=${option}`)
+  133 |     );
+  134 | 
+  135 |     await this.page.getByTestId(`${option}-radio`).click();
+  136 |     const response = await responsePromise;
+  137 | 
+  138 |     return (await response.json()).elements;
+  139 |   }
+  140 | 
+  141 |   async sortAndValidate(
+  142 |     option: string,
+  143 |     validationFn: (p1: IDRep, p2: IDRep) => boolean
+  144 |   ) {
+  145 |     const dRepList = await this.getDRepsResponseFromApi(option);
+  146 | 
+  147 |     // API validation
+  148 |     for (let i = 0; i <= dRepList.length - 2; i++) {
+  149 |       const isValid = validationFn(dRepList[i], dRepList[i + 1]);
+  150 |       expect(isValid).toBe(true);
+  151 |     }
+  152 | 
+  153 |     await functionWaitedAssert(
+  154 |       async () => {
+  155 |         // Frontend validation
+  156 |         const cip105DRepListFE = await this.getAllListedCIP105DRepIds();
+  157 |         const cip129DRepListFE = await this.getAllListedCIP129DRepIds();
+  158 | 
+  159 |         const cip129DRepListApi = dRepList.map(
+  160 |           (dRep) => convertDRep(dRep.drepId, dRep.isScriptBased).cip129
+  161 |         );
+  162 | 
+  163 |         const cip105DRepListApi = dRepList.map(
+  164 |           (dRep) => convertDRep(dRep.drepId, dRep.isScriptBased).cip105
+  165 |         );
+  166 | 
+  167 |         for (let i = 0; i <= cip105DRepListFE.length - 1; i++) {
+  168 |           await expect(cip129DRepListFE[i], {
+  169 |             message: `Cip129 dRep Id from Api:${cip129DRepListApi[i]} is not equal to ${await cip129DRepListFE[i].textContent()} on sort ${option}`,
+  170 |           }).toHaveText(cip129DRepListApi[i]);
+  171 |           await expect(cip105DRepListFE[i], {
+  172 |             message: `Cip105 dRep Id from Api:${cip105DRepListApi} is not equal to ${await cip105DRepListFE[i].textContent()}  on sort ${option}`,
+  173 |           }).toHaveText(`(CIP-105) ${cip105DRepListApi[i]}`);
+  174 |         }
+  175 |       },
+  176 |       { name: `frontend sort validation of ${option}` }
+  177 |     );
+  178 |   }
+  179 |   getDRepCard(dRepId: string) {
+  180 |     return this.page.getByTestId(`${dRepId}-drep-card`);
+  181 |   }
+  182 | 
+  183 |   async getAllListedCIP105DRepIds() {
+  184 |     const dRepCards = await this.getAllListedDReps();
+  185 | 
+  186 |     return dRepCards.map((dRep) =>
+  187 |       dRep.locator('[data-testid$="-copy-id-button"]').last()
+  188 |     );
+  189 |   }
+  190 | 
+  191 |   async getAllListedCIP129DRepIds() {
+  192 |     const dRepCards = await this.getAllListedDReps();
+  193 | 
+  194 |     return dRepCards.map((dRep) =>
+  195 |       dRep.locator('[data-testid$="-copy-id-button"]').first()
+  196 |     );
+  197 |   }
+  198 | 
+  199 |   async getAllListedDReps() {
+  200 |     await expect(this.searchInput).toBeVisible({ timeout: 60_000 });
+  201 | 
+  202 |     await waitedLoop(async () => {
+  203 |       return (
+  204 |         (await this.page.locator('[data-testid$="-drep-card"]').count()) > 0
+  205 |       );
+  206 |     });
+  207 | 
+  208 |     return this.page.locator('[data-testid$="-drep-card"]').all();
+  209 |   }
+  210 | 
+  211 |   async verifyDRepInList(dRepId: string) {
+  212 |     await this.goto();
+  213 | 
+  214 |     await this.searchInput.fill(dRepId);
+  215 |     const isEmptyContainerVisible = await this.page
+  216 |       .getByText("No DReps found")
+  217 |       .isVisible();
+  218 | 
+  219 |     await expect(this.page.getByText("No DReps found"), {
+  220 |       message:
+  221 |         !isEmptyContainerVisible &&
+  222 |         `DRep with id ${dRepId} is found in the list`,
+> 223 |     }).toBeVisible({
+      |        ^ Error: DRep with id drep1gfq2n9rup44vpwg0rh5uczzkh48j09m78lulhg5d0d5ugxan7az is found in the list
+  224 |       timeout: 60_000,
+  225 |     });
+  226 |   }
+  227 | }
+  228 | 
+```
