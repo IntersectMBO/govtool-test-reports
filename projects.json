@@ -3,6 +3,11 @@
   "description": "A collection of test reports for GovTool",
   "tests": [
     {
+      "name": "Devnet",
+      "description": "Tests conducted in a local devnet",
+      "tests": [{ "name": "govtool-frontend" }, { "name": "govtool-backend" }]
+    },
+    {
       "name": "QA Deployment",
       "description": "Tests executed in the QA deployment environment",
       "tests": [{ "name": "govtool-frontend" }, { "name": "govtool-backend" }]
