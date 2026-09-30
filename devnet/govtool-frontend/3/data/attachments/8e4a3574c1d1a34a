@@ -1,0 +1,148 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 7-proposal-submission/proposalSubmission.ga.spec.ts >> Proposed as a governance action >> 7P. Should navigate to the edit proposal page when 'goto data edit screen' is selected if data does not match the anchor URL
+- Location: tests/7-proposal-submission/proposalSubmission.ga.spec.ts:177:7
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByTestId('governance-action-type')
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 5000ms
+  - waiting for getByTestId('governance-action-type')
+
+```
+
+# Test source
+
+```ts
+  100 |     proposalId = await proposalSubmissionPage.createProposal(
+  101 |       wallet.stakeAddress
+  102 |     );
+  103 |     await detailsPage.submitAsGABtn.click();
+  104 |     await proposalSubmissionPage.currentPage
+  105 |       .getByTestId("agree-checkbox")
+  106 |       .click();
+  107 |     await proposalSubmissionPage.continueBtn.click();
+  108 |   });
+  109 | 
+  110 |   test.afterEach(async () => {
+  111 |     await skipIfMainnet();
+  112 |     // cleanup: nothing to delete when beforeEach failed before creating it
+  113 |     if (!proposalDiscussionDetailPage || proposalId === undefined) return;
+  114 |     const detailsPage = proposalDiscussionDetailPage;
+  115 |     await detailsPage.goto(proposalId);
+  116 | 
+  117 |     // After the reload pdf-ui shows either the sign-in link or, once signed
+  118 |     // in, the owner's menu; the link takes a few seconds to appear, so wait
+  119 |     // for one of them rather than checking right away.
+  120 |     await expect(
+  121 |       detailsPage.verifyIdentityBtn.or(detailsPage.menuBtn).first()
+  122 |     ).toBeVisible({ timeout: 60_000 });
+  123 |     if (await detailsPage.verifyIdentityBtn.isVisible()) {
+  124 |       await detailsPage.verifyIdentity();
+  125 |     }
+  126 | 
+  127 |     await detailsPage.deleteProposal();
+  128 |   });
+  129 | 
+  130 |   test.describe("Metadata anchor validation", () => {
+  131 |     test("7J_1. Should accept valid metadata anchor on proposal submission", async () => {
+  132 |       test.slow(); // Brute-force testing with 50 random data
+  133 |       for (let i = 0; i < 50; i++) {
+  134 |         await proposalSubmissionPage.metadataUrlInput.fill(mockValid.url());
+  135 |         await expect(
+  136 |           proposalSubmissionPage.currentPage.getByTestId("url-input-error-text")
+  137 |         ).toBeHidden();
+  138 |       }
+  139 |     });
+  140 | 
+  141 |     test("7J_2. Should reject invalid metadata anchor on proposal submission", async () => {
+  142 |       test.slow(); // Brute-force testing with 50 random data
+  143 |       for (let i = 0; i < 50; i++) {
+  144 |         await proposalSubmissionPage.metadataUrlInput.fill(
+  145 |           mockInvalid.url(false)
+  146 |         );
+  147 |         await expect(
+  148 |           proposalSubmissionPage.currentPage.getByTestId("url-input-error-text")
+  149 |         ).toBeVisible();
+  150 |       }
+  151 | 
+  152 |       const sentenceWithoutSpace = faker.lorem
+  153 |         .sentence(128)
+  154 |         .replace(/[\s.]/g, "");
+  155 |       const metadataAnchorGreaterThan128Bytes =
+  156 |         faker.internet.url({ appendSlash: true }) + sentenceWithoutSpace;
+  157 | 
+  158 |       await proposalSubmissionPage.metadataUrlInput.fill(
+  159 |         metadataAnchorGreaterThan128Bytes
+  160 |       );
+  161 | 
+  162 |       await expect(
+  163 |         proposalSubmissionPage.currentPage.getByTestId("url-input-error-text")
+  164 |       ).toBeVisible(); // BUG better to add different test id compare to invalid url testid
+  165 |     });
+  166 |   });
+  167 | 
+  168 |   test("7K. Should reject invalid proposal metadata", async () => {
+  169 |     await proposalSubmissionPage.metadataUrlInput.fill(faker.internet.url());
+  170 |     await proposalSubmissionPage.submitBtn.click();
+  171 | 
+  172 |     await expect(
+  173 |       proposalSubmissionPage.currentPage.getByTestId("url-error-modal-title")
+  174 |     ).toHaveText(/the url you entered cannot be found/i);
+  175 |   });
+  176 | 
+  177 |   test("7P. Should navigate to the edit proposal page when 'goto data edit screen' is selected if data does not match the anchor URL", async () => {
+  178 |     const invalidMetadataAnchorUrl = "https://www.google.com";
+  179 | 
+  180 |     await proposalSubmissionPage.metadataUrlInput.fill(
+  181 |       invalidMetadataAnchorUrl
+  182 |     );
+  183 |     await proposalSubmissionPage.submitBtn.click();
+  184 | 
+  185 |     await expect(
+  186 |       proposalSubmissionPage.currentPage.getByTestId("data-not-match-modal")
+  187 |     ).toBeVisible();
+  188 |     await expect(
+  189 |       proposalSubmissionPage.currentPage.getByTestId(
+  190 |         "data-not-match-modal-go-to-data-button"
+  191 |       )
+  192 |     ).toBeVisible();
+  193 | 
+  194 |     await proposalSubmissionPage.currentPage
+  195 |       .getByTestId("data-not-match-modal-go-to-data-button")
+  196 |       .click();
+  197 | 
+  198 |     await expect(
+  199 |       proposalSubmissionPage.currentPage.getByTestId("governance-action-type")
+> 200 |     ).toBeVisible();
+      |       ^ Error: expect(locator).toBeVisible() failed
+  201 |     await expect(
+  202 |       proposalSubmissionPage.currentPage.getByTestId("title-input")
+  203 |     ).toBeVisible();
+  204 |     await expect(
+  205 |       proposalSubmissionPage.currentPage.getByTestId("abstract-input")
+  206 |     ).toBeVisible();
+  207 |     await expect(
+  208 |       proposalSubmissionPage.currentPage.getByTestId("motivation-input")
+  209 |     ).toBeVisible();
+  210 |     await expect(
+  211 |       proposalSubmissionPage.currentPage.getByTestId("rationale-input")
+  212 |     ).toBeVisible();
+  213 |   });
+  214 | });
+  215 | 
+```
