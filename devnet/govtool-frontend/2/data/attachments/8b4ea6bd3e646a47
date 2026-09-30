@@ -1,0 +1,16 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 5-proposal-functionality/proposalFunctionality.dRep.spec.ts >> Check voting power >> 5K. Should return deposit on DRep retirement
+- Location: tests/5-proposal-functionality/proposalFunctionality.dRep.spec.ts:316:7
+
+# Error details
+
+```
+Test timeout of 450000ms exceeded.
+```
