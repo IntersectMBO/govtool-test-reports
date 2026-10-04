@@ -1,0 +1,7 @@
+✖ Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID
+✖ Failed to load resource: the server responded with a status of 400 ()
+✖ Failed to load resource: the server responded with a status of 400 ()
+✖ Failed to load resource: the server responded with a status of 400 ()
+✖ Access to fetch at 'https://o4507027845021696.ingest.us.sentry.io/api/4507101527277568/envelope/?sentry_version=7&sentry_key=69300ede4a476619986b4f6c4f3193d4&sentry_client=sentry.javascript.react%2F10.69.0' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Failed to load resource: the server responded with a status of 400 ()
