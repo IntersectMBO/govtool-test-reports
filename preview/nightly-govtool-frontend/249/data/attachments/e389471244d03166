@@ -1,0 +1,285 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: cip179/survey.spec.ts >> 179-2C: required answers block signing; clearing optional answers omits them
+- Location: tests/cip179/survey.spec.ts:196:5
+
+# Error details
+
+```
+Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 3
+
+- Array []
++ Array [
++   "Request failed with status code 405",
++ ]
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: "Network: Preview"
+      - generic [ref=e7]: "|"
+      - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+        - /url: https://gov.tools/
+    - img "bg-orange" [ref=e9]
+    - generic [ref=e11]:
+      - navigation [ref=e12]:
+        - link "app-logo" [ref=e14] [cursor=pointer]:
+          - /url: /dashboard
+          - img "app-logo" [ref=e15]
+        - generic [ref=e16]:
+          - paragraph [ref=e18]: ₳ 0
+          - button "drawer" [ref=e19] [cursor=pointer]:
+            - img "drawer" [ref=e20]
+      - paragraph [ref=e23]: Live Voting
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - textbox "Search..." [ref=e30]
+          - generic [ref=e32]:
+            - img "filter" [ref=e34] [cursor=pointer]
+            - img "sort" [ref=e36] [cursor=pointer]
+        - tablist "Governance Actions tabs" [ref=e40]:
+          - tab "To vote" [selected] [ref=e41] [cursor=pointer]
+          - tab "Voted on by me" [ref=e42] [cursor=pointer]
+        - tabpanel [ref=e45]:
+          - paragraph [ref=e47]: No results for the search.
+        - tabpanel
+      - contentinfo [ref=e48]:
+        - paragraph [ref=e49]: © 2026 GovTool
+        - generic [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]: Privacy policy
+          - generic [ref=e52] [cursor=pointer]: Terms of Use
+        - generic [ref=e53]:
+          - button "helpIcon Help" [ref=e54] [cursor=pointer]:
+            - img "helpIcon" [ref=e56]
+            - text: Help
+          - button "Subscribe to updates" [ref=e57] [cursor=pointer]: Subscribe to updates
+          - button "Feedback" [ref=e58] [cursor=pointer]: Feedback
+    - img "bg-blue" [ref=e59]
+  - alert [ref=e60]:
+    - img [ref=e62]
+    - generic [ref=e64]: Vote submitted
+    - button "Close" [ref=e66] [cursor=pointer]:
+      - img [ref=e67]
+```
+
+# Test source
+
+```ts
+  117 |     if (mode === "verified")
+  118 |       await expect(
+  119 |         page.getByRole("heading", { name: "External survey", exact: true })
+  120 |       ).toBeVisible();
+  121 |     else
+  122 |       await expect(
+  123 |         page.getByText(/External presentation unavailable:/)
+  124 |       ).toBeVisible();
+  125 |     await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  126 |     await page
+  127 |       .getByRole("radio", {
+  128 |         name: mode === "verified" ? "External A" : "Option 1",
+  129 |         exact: true,
+  130 |       })
+  131 |       .check();
+  132 |     await submitVote(page);
+  133 |     await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  134 |     expect(checkTransaction(fixture.transactions)).toEqual([[1, 0, 0]]);
+  135 |     expect(fixture.errors).toEqual([]);
+  136 |   });
+  137 | }
+  138 | 
+  139 | test("179-3F: unsupported optional custom methods can be omitted", async ({
+  140 |   page,
+  141 | }) => {
+  142 |   const fixture = await setup(page, {
+  143 |     survey: definition({
+  144 |       questions: [
+  145 |         questions[0],
+  146 |         {
+  147 |           type: "custom",
+  148 |           prompt: "Custom method",
+  149 |           methodSchema: {
+  150 |             uri: "https://fixture.invalid/schema",
+  151 |             hash: new Uint8Array(32),
+  152 |           },
+  153 |         },
+  154 |       ],
+  155 |     }),
+  156 |   });
+  157 |   await openVote(page);
+  158 |   await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  159 |   await expect(
+  160 |     page.getByText("This custom survey method is not supported by GovTool.")
+  161 |   ).toBeVisible();
+  162 |   await page.getByRole("radio", { name: "Usability", exact: true }).check();
+  163 |   await submitVote(page);
+  164 |   await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  165 |   expect(checkTransaction(fixture.transactions)).toEqual([[1, 0, 0]]);
+  166 | });
+  167 | 
+  168 | for (const [name, options] of [
+  169 |   ["no linked survey", { linked: false }],
+  170 |   ["explicitly disabled", { enabled: false }],
+  171 |   ["participation declined", {}],
+  172 | ] as const) {
+  173 |   test(`179-2B: ordinary voting is preserved with ${name}`, async ({
+  174 |     page,
+  175 |   }) => {
+  176 |     const fixture = await setup(page, options);
+  177 |     await openVote(page);
+  178 |     if (name === "participation declined") {
+  179 |       await expect(
+  180 |         page.getByRole("checkbox", { name: /Include a survey/ })
+  181 |       ).not.toBeChecked();
+  182 |     } else {
+  183 |       await expect(
+  184 |         page.getByRole("checkbox", { name: /Include a survey/ })
+  185 |       ).toHaveCount(0);
+  186 |     }
+  187 |     await submitVote(page);
+  188 |     await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  189 |     expect(checkTransaction(fixture.transactions)).toBeUndefined();
+  190 |     if (name !== "participation declined")
+  191 |       expect(fixture.requests.some((p) => p.includes("/survey/"))).toBe(false);
+  192 |     expect(fixture.errors).toEqual([]);
+  193 |   });
+  194 | }
+  195 | 
+  196 | test("179-2C: required answers block signing; clearing optional answers omits them", async ({
+  197 |   page,
+  198 | }) => {
+  199 |   const fixture = await setup(page);
+  200 |   await openVote(page);
+  201 |   await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  202 |   await page.getByRole("slider").press("Home");
+  203 |   await submitVote(page);
+  204 |   await expect(page.getByTestId("vote-context-modal")).toBeVisible();
+  205 |   expect(fixture.transactions.unsigned).toHaveLength(0);
+  206 |   await page.getByTestId("cancel-modal-button").click();
+  207 |   await page.getByRole("radio", { name: "Usability", exact: true }).check();
+  208 |   await page
+  209 |     .getByRole("button", {
+  210 |       name: "Clear answer: Choose a percentage",
+  211 |       exact: true,
+  212 |     })
+  213 |     .click();
+  214 |   await submitVote(page);
+  215 |   await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  216 |   expect(checkTransaction(fixture.transactions)).toEqual([[1, 0, 0]]);
+> 217 |   expect(fixture.errors).toEqual([]);
+      |                          ^ Error: expect(received).toEqual(expected) // deep equality
+  218 | });
+  219 | 
+  220 | test("179-2D: numeric controls respect bounds, steps and explicit zero", async ({
+  221 |   page,
+  222 | }) => {
+  223 |   const fixture = await setup(page, {
+  224 |     survey: definition({
+  225 |       questions: [
+  226 |         ...questions,
+  227 |         {
+  228 |           type: "numericRange",
+  229 |           prompt: "Signed steps",
+  230 |           constraints: { min: -5n, max: 4n, step: 2n },
+  231 |         },
+  232 |         {
+  233 |           type: "numericRange",
+  234 |           prompt: "Fixed value",
+  235 |           constraints: { min: 7n, max: 7n },
+  236 |         },
+  237 |         {
+  238 |           type: "numericRange",
+  239 |           prompt: "Large integer",
+  240 |           constraints: { min: 0n, max: 18446744073709551615n },
+  241 |         },
+  242 |       ],
+  243 |     }),
+  244 |   });
+  245 |   await openVote(page);
+  246 |   await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  247 |   await page.getByRole("radio", { name: "Usability", exact: true }).check();
+  248 |   await expect(page.getByRole("textbox")).toHaveCount(0);
+  249 |   const percent = page.getByRole("slider", { name: "Choose a percentage" });
+  250 |   await percent.press("End");
+  251 |   await percent.press("ArrowRight");
+  252 |   await expect(percent).toHaveAttribute("aria-valuetext", "50");
+  253 |   await percent.press("Home");
+  254 |   await percent.press("ArrowLeft");
+  255 |   await expect(percent).toHaveAttribute("aria-valuetext", "0");
+  256 |   const signed = page.getByRole("slider", { name: "Signed steps" });
+  257 |   await signed.press("End");
+  258 |   await expect(signed).toHaveAttribute("aria-valuetext", "3");
+  259 |   await page
+  260 |     .getByRole("button", { name: "Select 7: Fixed value", exact: true })
+  261 |     .click();
+  262 |   await page
+  263 |     .getByRole("button", { name: "Maximum: Large integer", exact: true })
+  264 |     .click();
+  265 |   await page
+  266 |     .getByRole("button", { name: "Decrease: Large integer", exact: true })
+  267 |     .click();
+  268 |   await submitVote(page);
+  269 |   await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  270 |   expect(checkTransaction(fixture.transactions)).toEqual([
+  271 |     [1, 0, 0],
+  272 |     [4, 1, 0],
+  273 |     [4, 2, 3],
+  274 |     [4, 3, 7],
+  275 |     [4, 4, 18446744073709551614n],
+  276 |   ]);
+  277 |   expect(fixture.errors).toEqual([]);
+  278 | });
+  279 | 
+  280 | test("179-2E: selection, ranking, rating and allocation retain their answer types", async ({
+  281 |   page,
+  282 | }) => {
+  283 |   const opts = (labels: string[]) => ({ type: "options" as const, labels });
+  284 |   const fixture = await setup(page, {
+  285 |     survey: definition({
+  286 |       questions: [
+  287 |         questions[0],
+  288 |         {
+  289 |           type: "multiSelect",
+  290 |           prompt: "Select topics",
+  291 |           options: opts(["Topic A", "Topic B"]),
+  292 |           minSelections: 1,
+  293 |           maxSelections: 1,
+  294 |         },
+  295 |         {
+  296 |           type: "ranking",
+  297 |           prompt: "Rank topics",
+  298 |           options: opts(["Rank A", "Rank B"]),
+  299 |           minRanked: 1,
+  300 |           maxRanked: 2,
+  301 |         },
+  302 |         {
+  303 |           type: "rating",
+  304 |           prompt: "Numeric rating",
+  305 |           options: opts(["Rate A", "Rate B"]),
+  306 |           scale: { type: "numeric", constraints: { min: 0n, max: 5n } },
+  307 |           requireAll: false,
+  308 |         },
+  309 |         {
+  310 |           type: "rating",
+  311 |           prompt: "Label rating",
+  312 |           options: opts(["Guide", "Tutorial"]),
+  313 |           scale: { type: "labels", labels: ["Poor", "Useful"] },
+  314 |           requireAll: false,
+  315 |         },
+  316 |         {
+  317 |           type: "pointsAllocation",
+```
