@@ -1,0 +1,195 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 7-proposal-submission/proposalSubmission.loggedin.pd.spec.ts >> Proposal created logged state >> Accept valid data >> 7E_1. Should accept valid data in info action proposal form
+- Location: tests/7-proposal-submission/proposalSubmission.loggedin.pd.spec.ts:34:11
+
+# Error details
+
+```
+Error: TEST_WALLET_MNEMONIC is not set
+```
+
+# Test source
+
+```ts
+  1   | import environments from "@constants/environments";
+  2   | import { bech32 } from "bech32";
+  3   | import { createHash, randomBytes } from "crypto";
+  4   | import * as fs from "fs";
+  5   | import { Ed25519KeyAsync } from "libcardano";
+  6   | import { HdWallet, ShelleyWallet, SimpleCip30Wallet } from "libcardano-wallet";
+  7   | import * as lockfile from "lockfile";
+  8   | import path = require("path");
+  9   | import { blockfrostSubmitter, kuber, queryService } from "./services";
+  10  | 
+  11  | const network = environments.networkId as 0 | 1;
+  12  | 
+  13  | /**
+  14  |  * A test wallet: one CIP-1852 account of TEST_WALLET_MNEMONIC, picked by name.
+  15  |  * The same name gives the same wallet everywhere in a run, so a setup step and
+  16  |  * the tests that rely on it share a wallet by agreeing on its name. Keys stay
+  17  |  * in this process; tests and pages see only the public details.
+  18  |  */
+  19  | export type TestWallet = {
+  20  |   name: string;
+  21  |   account: number;
+  22  |   signer: SimpleCip30Wallet;
+  23  |   address: string;
+  24  |   /** Bech32 reward address (stake_test1… / stake1…). */
+  25  |   stakeAddress: string;
+  26  |   /** Reward address bytes, hex. */
+  27  |   rewardAddress: string;
+  28  |   /** CIP-105 DRep id (drep1…). */
+  29  |   dRepId: string;
+  30  |   payment: { public: string; pkh: string };
+  31  |   stake: { public: string; pkh: string };
+  32  |   dRep: { public: string; pkh: string };
+  33  | };
+  34  | 
+  35  | /** Written once per run by the global setup; see hdRunSetup.ts. */
+  36  | export const HD_RUN_FILE = path.resolve(__dirname, "../_mock/hdRun.json");
+  37  | 
+  38  | const FAUCET_LOCK = path.resolve(__dirname, "../../.faucet.lock");
+  39  | 
+  40  | /** The run id that, with a wallet's name, picks its account. */
+  41  | export function runId(): string {
+  42  |   if (process.env.HD_RUN_ID) return process.env.HD_RUN_ID;
+  43  |   return JSON.parse(fs.readFileSync(HD_RUN_FILE, "utf-8")).runId;
+  44  | }
+  45  | 
+  46  | /**
+  47  |  * The hardened account index for a name in this run: 31 bits of a hash of the
+  48  |  * run id and the name. A new run id each run gives every run fresh accounts;
+  49  |  * collisions across thousands of runs are negligible in 2^31.
+  50  |  */
+  51  | export function accountFor(name: string): number {
+  52  |   const digest = createHash("sha256").update(`${runId()}:${name}`).digest();
+  53  |   return digest.readUInt32BE(0) & 0x7fffffff;
+  54  | }
+  55  | 
+  56  | /** Random per test process: a worker restart or a rerun gets a new one. */
+  57  | const PROCESS_NONCE = randomBytes(4).toString("hex");
+  58  | 
+  59  | /**
+  60  |  * A name no earlier process has used, so `testWallet` of it is a new account
+  61  |  * with no chain history, even when HD_RUN_ID pins the run. For tests that need
+  62  |  * a clean state (not delegated, not registered as a DRep) and change it. The
+  63  |  * name is stable within one worker process, so a serial describe can share it.
+  64  |  */
+  65  | export function singleUseWalletName(name: string): string {
+  66  |   return `${name}@${PROCESS_NONCE}`;
+  67  | }
+  68  | 
+  69  | let root: Promise<HdWallet> | undefined;
+  70  | 
+  71  | function rootWallet(): Promise<HdWallet> {
+  72  |   const mnemonic = process.env.TEST_WALLET_MNEMONIC;
+> 73  |   if (!mnemonic) throw new Error("TEST_WALLET_MNEMONIC is not set");
+      |                        ^ Error: TEST_WALLET_MNEMONIC is not set
+  74  |   root ??= HdWallet.fromMnemonicString(mnemonic);
+  75  |   return root;
+  76  | }
+  77  | 
+  78  | const cache = new Map<string, Promise<TestWallet>>();
+  79  | 
+  80  | /** The wallet with this name in this run. */
+  81  | export function testWallet(name: string): Promise<TestWallet> {
+  82  |   let wallet = cache.get(name);
+  83  |   if (!wallet) {
+  84  |     wallet = deriveTestWallet(name);
+  85  |     cache.set(name, wallet);
+  86  |   }
+  87  |   return wallet;
+  88  | }
+  89  | 
+  90  | async function deriveTestWallet(name: string): Promise<TestWallet> {
+  91  |   const account = accountFor(name);
+  92  |   const shelley = await (
+  93  |     await rootWallet()
+  94  |   ).getAccount(account).then((a) => a.singleAddressWallet(0));
+  95  |   const key = (k: { publicBytes(): Buffer; publicKeyHash(): Buffer }) => ({
+  96  |     public: k.publicBytes().toString("hex"),
+  97  |     pkh: k.publicKeyHash().toString("hex"),
+  98  |   });
+  99  |   const dRep = key(shelley.dRepKey!);
+  100 |   return {
+  101 |     name,
+  102 |     account,
+  103 |     signer: new SimpleCip30Wallet(queryService, blockfrostSubmitter, shelley, network),
+  104 |     address: shelley.addressBech32(network),
+  105 |     stakeAddress: shelley.stakeAddressBech32(network)!,
+  106 |     rewardAddress: shelley.stakeAddressBytes(network)!.toString("hex"),
+  107 |     dRepId: bech32.encode("drep", bech32.toWords(Buffer.from(dRep.pkh, "hex"))),
+  108 |     payment: key(shelley.paymentKey),
+  109 |     stake: key(shelley.stakeKey!),
+  110 |     dRep,
+  111 |   };
+  112 | }
+  113 | 
+  114 | /**
+  115 |  * A new random wallet with no funds and no chain history, for tests that only
+  116 |  * need a wallet to exist. Not recoverable, so never fund one. `networkId`
+  117 |  * overrides the network it reports, for the wrong-network test.
+  118 |  */
+  119 | export async function randomWallet(
+  120 |   networkId: 0 | 1 = network
+  121 | ): Promise<SimpleCip30Wallet> {
+  122 |   return new SimpleCip30Wallet(
+  123 |     queryService,
+  124 |     blockfrostSubmitter,
+  125 |     await ShelleyWallet.generate(),
+  126 |     networkId
+  127 |   );
+  128 | }
+  129 | 
+  130 | /** A random address on the test network, for forms that ask for one. */
+  131 | export async function randomAddress(): Promise<string> {
+  132 |   return (await ShelleyWallet.generate()).addressBech32(network);
+  133 | }
+  134 | 
+  135 | /** A random reward (stake) address on the test network. */
+  136 | export async function randomStakeAddress(): Promise<string> {
+  137 |   return (await ShelleyWallet.generate()).stakeAddressBech32(network)!;
+  138 | }
+  139 | 
+  140 | export async function faucetWallet(): Promise<SimpleCip30Wallet> {
+  141 |   const payment = await Ed25519KeyAsync.fromPrivateKeyHex(
+  142 |     environments.faucet.payment.private
+  143 |   );
+  144 |   const stake = await Ed25519KeyAsync.fromPrivateKeyHex(
+  145 |     environments.faucet.stake.private
+  146 |   );
+  147 |   return new SimpleCip30Wallet(
+  148 |     queryService,
+  149 |     blockfrostSubmitter,
+  150 |     new ShelleyWallet(payment, stake),
+  151 |     network
+  152 |   );
+  153 | }
+  154 | 
+  155 | export async function lovelaceBalance(
+  156 |   wallet: SimpleCip30Wallet | TestWallet | string
+  157 | ): Promise<bigint> {
+  158 |   const address =
+  159 |     typeof wallet === "string"
+  160 |       ? wallet
+  161 |       : "address" in wallet
+  162 |         ? wallet.address
+  163 |         : wallet.wallet.addressBech32(network);
+  164 |   const utxos = await kuber.queryUTxOByAddress(address);
+  165 |   return utxos.reduce(
+  166 |     (sum, utxo) => sum + BigInt(utxo.txOut.value.lovelace),
+  167 |     BigInt(0)
+  168 |   );
+  169 | }
+  170 | 
+  171 | export async function adaBalance(
+  172 |   wallet: SimpleCip30Wallet | TestWallet | string
+  173 | ): Promise<number> {
+```

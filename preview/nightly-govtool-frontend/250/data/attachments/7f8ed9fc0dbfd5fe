@@ -1,0 +1,188 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 10-feedback/chatwoot.spec.ts >> 10C. Should type a message in the chat composer
+- Location: tests/10-feedback/chatwoot.spec.ts:30:5
+
+# Error details
+
+```
+Test timeout of 180000ms exceeded.
+```
+
+```
+Error: locator.fill: Test timeout of 180000ms exceeded.
+Call log:
+  - waiting for locator('#chatwoot_live_chat_widget').contentFrame().getByPlaceholder(/type your message/i)
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: "Network: Preview"
+      - generic [ref=e7]: "|"
+      - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+        - /url: https://gov.tools/
+    - img "bg-orange" [ref=e9]
+    - banner [ref=e11]:
+      - generic [ref=e12]:
+        - link "app-logo" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "app-logo" [ref=e14]
+        - generic [ref=e15]:
+          - button "Connect" [ref=e16] [cursor=pointer]: Connect
+          - img "drawer-icon" [ref=e17]
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - paragraph [ref=e22]: Cardano Governance Tool
+          - paragraph [ref=e23]: Cardano Governance lets Ada holders have a say in the network's future. You can vote directly, find someone to represent you, or become a representative for others. You can also propose changes in the network yourself, put these up for discussion and eventually, a vote. Learn more about governance in the guide, or have a look around the app and see Cardano Governance in action.
+          - button "Participate now" [ref=e24] [cursor=pointer]:
+            - text: Participate now
+            - img [ref=e26]
+        - img "hero" [ref=e29]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - img "action-card" [ref=e34]
+              - paragraph [ref=e35]: Delegate your Voting Power
+              - paragraph [ref=e36]: Find a DRep to vote on your behalf.
+            - generic [ref=e37]:
+              - button "View DRep Directory" [ref=e38] [cursor=pointer]: View DRep Directory
+              - button "Learn more" [ref=e39] [cursor=pointer]: Learn more
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - img "action-card" [ref=e42]
+              - paragraph [ref=e43]: Become a DRep
+              - paragraph [ref=e44]: Accept delegated voting power from other Ada holders, and combine it with your own voting power. Vote with the accumulated Power on Governance Actions.
+            - generic [ref=e45]:
+              - button "Connect to Register" [ref=e46] [cursor=pointer]: Connect to Register
+              - button "Learn more" [ref=e47] [cursor=pointer]: Learn more
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - img "action-card" [ref=e50]
+              - paragraph [ref=e51]: Become a Direct Voter
+              - paragraph [ref=e52]: Vote on Governance Actions using your own voting power
+            - generic [ref=e53]:
+              - button "Connect to Register" [ref=e54] [cursor=pointer]: Connect to Register
+              - button "Learn more" [ref=e55] [cursor=pointer]: Learn more
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - img "action-card" [ref=e58]
+              - paragraph [ref=e59]: View Governance Actions
+              - paragraph [ref=e60]: See all the Governance Actions submitted on chain.
+            - button "View Governance Actions" [ref=e62] [cursor=pointer]: View Governance Actions
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - img "action-card" [ref=e65]
+              - paragraph [ref=e66]: Propose a Governance Action
+              - paragraph [ref=e67]: Submit your proposal for a Governance Action.
+            - generic [ref=e68]:
+              - button "Connect to Propose" [ref=e69] [cursor=pointer]: Connect to Propose
+              - button "View Proposals" [ref=e70] [cursor=pointer]: View Proposals
+        - generic [ref=e71]:
+          - paragraph [ref=e72]: Useful links
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Check the Constitutional Committee Portal
+              - paragraph [ref=e76]: See Interim Cardano Constitution and Constitutional committee votes rationales
+              - link "CC Portal link" [ref=e77] [cursor=pointer]:
+                - /url: https://constitution.gov.tools
+                - paragraph [ref=e78]: CC Portal
+                - img "link" [ref=e79]
+            - generic [ref=e80]:
+              - paragraph [ref=e81]: Intersect website
+              - paragraph [ref=e82]: Intersect is a member-based organization for the Cardano ecosystem — putting the community at the center of Cardano’s development
+              - link "Intersect website link" [ref=e83] [cursor=pointer]:
+                - /url: https://www.intersectmbo.org/
+                - paragraph [ref=e84]: Intersect website
+                - img "link" [ref=e85]
+      - contentinfo [ref=e86]:
+        - paragraph [ref=e87]: © 2026 GovTool
+        - generic [ref=e88]:
+          - generic [ref=e89] [cursor=pointer]: Privacy policy
+          - generic [ref=e90] [cursor=pointer]: Terms of Use
+        - generic [ref=e91]:
+          - button "helpIcon Help" [ref=e92] [cursor=pointer]:
+            - img "helpIcon" [ref=e94]
+            - text: Help
+          - button "Subscribe to updates" [ref=e95] [cursor=pointer]: Subscribe to updates
+          - button "Feedback" [active] [ref=e96] [cursor=pointer]: Feedback
+    - img "bg-blue" [ref=e97]
+  - iframe [ref=e99]:
+    - generic [ref=f1e5]:
+      - banner [ref=f1e7]:
+        - button [ref=f1e10] [cursor=pointer]:
+          - img [ref=f1e11]
+        - heading "Assistance and Feedback" [level=2] [ref=f1e13]
+        - paragraph [ref=f1e14]:
+          - paragraph [ref=f1e15]:
+            - text: If you have suggestion or issues, you can also create them directly in
+            - link "GitHub" [ref=f1e16] [cursor=pointer]:
+              - /url: https://github.com/intersectmbo/govtool/issues
+      - generic [ref=f1e18]:
+        - generic [ref=f1e20]:
+          - generic [ref=f1e21]: We are away at the moment
+          - generic [ref=f1e22]: We will be back as soon as possible
+        - button "Start Conversation" [ref=f1e23] [cursor=pointer]:
+          - generic [ref=f1e24]: Start Conversation
+      - link "Chatwoot Powered by Chatwoot" [ref=f1e27] [cursor=pointer]:
+        - /url: https://www.chatwoot.com/?utm_source=preview.gov.tools&utm_medium=widget&utm_campaign=branding
+        - img "Chatwoot" [ref=f1e28]
+        - generic [ref=f1e29]: Powered by Chatwoot
+```
+
+# Test source
+
+```ts
+  1  | import { faker } from "@faker-js/faker";
+  2  | import { test } from "@fixtures/walletExtension";
+  3  | import { setAllureEpic } from "@helpers/allure";
+  4  | import { expect } from "@playwright/test";
+  5  | 
+  6  | const CHATWOOT_WIDGET_IFRAME = "#chatwoot_live_chat_widget";
+  7  | 
+  8  | test.beforeEach(async ({ page }) => {
+  9  |   await setAllureEpic("10. Feedback");
+  10 |   await page.goto("/");
+  11 |   await page.waitForTimeout(2_000); // wait until page load properly
+  12 | 
+  13 |   await page.getByTestId("feedback-footer-button").click();
+  14 | });
+  15 | 
+  16 | test("10A. Should open the Chatwoot widget from the feedback button", async ({
+  17 |   page,
+  18 | }) => {
+  19 |   await expect(page.locator(CHATWOOT_WIDGET_IFRAME)).toBeVisible();
+  20 | });
+  21 | 
+  22 | test("10B. Should display the chat composer inside the widget", async ({
+  23 |   page,
+  24 | }) => {
+  25 |   const widget = page.frameLocator(CHATWOOT_WIDGET_IFRAME);
+  26 | 
+  27 |   await expect(widget.getByPlaceholder(/type your message/i)).toBeVisible();
+  28 | });
+  29 | 
+  30 | test("10C. Should type a message in the chat composer", async ({ page }) => {
+  31 |   const widget = page.frameLocator(CHATWOOT_WIDGET_IFRAME);
+  32 |   const message = faker.lorem.sentence();
+  33 | 
+  34 |   const composer = widget.getByPlaceholder(/type your message/i);
+> 35 |   await composer.fill(message);
+     |                  ^ Error: locator.fill: Test timeout of 180000ms exceeded.
+  36 | 
+  37 |   await expect(composer).toHaveValue(message);
+  38 | });
+  39 | 
+```
