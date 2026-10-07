@@ -1,0 +1,170 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 9-governance-action-history/governance-action-history.spec.ts >> GovernanceAction details >> 9G_1. Should display correct vote counts on actionRecord details page in disconnect state
+- Location: tests/9-governance-action-history/governance-action-history.spec.ts:87:7
+
+# Error details
+
+```
+TimeoutError: page.waitForResponse: Timeout 60000ms exceeded while waiting for event "response"
+```
+
+# Test source
+
+```ts
+  472 |     }
+  473 | 
+  474 |     return {
+  475 |       governanceActionId: updatedGovernanceActionId,
+  476 |       governanceActionTitle: updatedGovernanceActionTitle,
+  477 |     };
+  478 |   }
+  479 | 
+  480 |   async searchGovernanceActionHistoryById(governanceActionId: string) {
+  481 |     await this.searchInput.fill(governanceActionId);
+  482 | 
+  483 |     try {
+  484 |       await expect(
+  485 |         this.page.getByRole("progressbar").getByRole("img")
+  486 |       ).toBeVisible();
+  487 |     } catch (error) {
+  488 |       // Handle the case where the progress bar is not visible
+  489 |       console.warn("Progress bar not visible, proceeding with search.");
+  490 |     }
+  491 |     await functionWaitedAssert(
+  492 |       async () => {
+  493 |         const idSearchGovernanceActionHistoryCards = await this.getAllGovernanceActionHistory();
+  494 |         expect(idSearchGovernanceActionHistoryCards.length, {
+  495 |           message:
+  496 |             idSearchGovernanceActionHistoryCards.length == 0 && "No governance actions found",
+  497 |         }).toBeGreaterThan(0);
+  498 |         for (const actionRecordCard of idSearchGovernanceActionHistoryCards) {
+  499 |           const id = await actionRecordCard
+  500 |             .locator('[data-testid$="-CIP-105-id"]')
+  501 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  502 |           expect(id.replace(/^.*ID/, "")).toContain(governanceActionId);
+  503 |         }
+  504 |       },
+  505 |       { name: "search by id" }
+  506 |     );
+  507 |   }
+  508 | 
+  509 |   async searchGovernanceActionHistoryByTitle(governanceActionTitle: string) {
+  510 |     await this.searchInput.fill(governanceActionTitle);
+  511 |     try {
+  512 |       await expect(
+  513 |         this.page.getByRole("progressbar").getByRole("img")
+  514 |       ).toBeVisible();
+  515 |     } catch (error) {
+  516 |       // Handle the case where the progress bar is not visible
+  517 |       console.warn("Progress bar not visible, proceeding with search.");
+  518 |     }
+  519 | 
+  520 |     await functionWaitedAssert(
+  521 |       async () => {
+  522 |         const titleSearchGovernanceActionHistoryCards = await this.getAllGovernanceActionHistory();
+  523 |         expect(titleSearchGovernanceActionHistoryCards.length, {
+  524 |           message:
+  525 |             titleSearchGovernanceActionHistoryCards.length == 0 &&
+  526 |             "No governance actions found",
+  527 |         }).toBeGreaterThan(0);
+  528 |         for (const actionRecordCard of titleSearchGovernanceActionHistoryCards) {
+  529 |           const title = await actionRecordCard
+  530 |             .locator('[data-testid$="-card-title"]')
+  531 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  532 |           expect(title.toLowerCase()).toContain(
+  533 |             governanceActionTitle.toLowerCase()
+  534 |           );
+  535 |         }
+  536 |       },
+  537 |       { name: "search by title" }
+  538 |     );
+  539 |   }
+  540 | 
+  541 |   async shouldCopyGovernanceActionId(governanceActionId: string) {
+  542 |     await this.searchInput.fill(governanceActionId);
+  543 | 
+  544 |     await this.page
+  545 |       .getByTestId(`${governanceActionId}-CIP-105-id`)
+  546 |       .getByTestId("copy-button")
+  547 |       .click();
+  548 |     await expect(this.page.getByText("Copied to clipboard")).toBeVisible({
+  549 |       timeout: 60_000,
+  550 |     });
+  551 |     const copiedTextDRepDirectory = await this.page.evaluate(() =>
+  552 |       navigator.clipboard.readText()
+  553 |     );
+  554 |     expect(copiedTextDRepDirectory).toEqual(governanceActionId);
+  555 |   }
+  556 | 
+  557 |   async navigateToFilteredProposalDetail(
+  558 |     browser: Browser,
+  559 |     filterKey: string,
+  560 |     isLoggedIn: boolean
+  561 |   ) {
+  562 |     let page: Page;
+  563 |     if (!isLoggedIn) {
+  564 |       page = await browser.newPage();
+  565 |     } else {
+  566 |       page = await createNewPageWithWallet(browser, {
+  567 |         wallet: await testWallet("user01"),
+  568 |       });
+  569 |     }
+  570 |     injectLogger(page);
+  571 | 
+> 572 |     const actionRecordListResponsePromise = page.waitForResponse(
+      |                                                  ^ TimeoutError: page.waitForResponse: Timeout 60000ms exceeded while waiting for event "response"
+  573 |       (response) =>
+  574 |         response
+  575 |           .url()
+  576 |           .includes(`governance-actions?search=&filters=${filterKey}`),
+  577 |       { timeout: 60_000 }
+  578 |     );
+  579 | 
+  580 |     const actionRecordPage = new GovernanceActionHistoryPage(page);
+  581 |     await actionRecordPage.goto({ filter: filterKey });
+  582 | 
+  583 |     const actionRecordListResponse = await actionRecordListResponsePromise;
+  584 |     const proposals = await actionRecordListResponse.json();
+  585 | 
+  586 |     if (proposals.length === 0) {
+  587 |       expect(true, "No proposals found!").toBeTruthy();
+  588 |       return {
+  589 |         govActionDetailsPage: null,
+  590 |         actionRecordResponsePromise: null,
+  591 |       };
+  592 |     }
+  593 | 
+  594 |     expect(
+  595 |       proposals.length,
+  596 |       proposals.length == 0 && "No proposals found!"
+  597 |     ).toBeGreaterThan(0);
+  598 | 
+  599 |     const { index: governanceActionIndex, tx_hash: governanceTransactionHash } =
+  600 |       proposals[0];
+  601 | 
+  602 |     const actionRecordResponsePromise = page.waitForResponse(
+  603 |       (response) =>
+  604 |         response
+  605 |           .url()
+  606 |           .includes(
+  607 |             `governance-actions/${governanceTransactionHash}?index=${governanceActionIndex}`
+  608 |           ),
+  609 |       { timeout: 120_000 }
+  610 |     );
+  611 | 
+  612 |     const govActionDetailsPage = await actionRecordPage.viewFirstGovernanceActionHistory();
+  613 |     return {
+  614 |       govActionDetailsPage,
+  615 |       actionRecordResponsePromise,
+  616 |     };
+  617 |   }
+  618 | }
+  619 | 
+```

@@ -1,0 +1,131 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 2-delegation/delegation.spec.ts >> DRep dependent tests >> 2P. Should enable sharing of DRep details
+- Location: tests/2-delegation/delegation.spec.ts:174:7
+
+# Error details
+
+```
+Error: Share button not found
+
+expect(received).toBeTruthy()
+
+Received: false
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - banner [ref=e12]:
+      - generic [ref=e13]:
+        - link "app-logo" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - img "app-logo" [ref=e15]
+        - generic [ref=e16]:
+          - button "Connect" [ref=e17] [cursor=pointer]: Connect
+          - img "drawer-icon" [ref=e18]
+    - paragraph [ref=e22]: DRep Directory
+    - generic [ref=e24]:
+      - generic [ref=e25] [cursor=pointer]:
+        - img [ref=e26]
+        - paragraph [ref=e28]: Go to DRep Directory
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e33]:
+            - img "drep-image" [ref=e35]
+            - heading "bob" [level=1] [ref=e36]
+          - generic [ref=e37]:
+            - heading "DRep ID" [level=2] [ref=e39]
+            - button "drep1ytak734u2yted9qllpf84fswjk3hervhmz4hkkefx65c0pcw06he8" [ref=e41] [cursor=pointer]:
+              - paragraph [ref=e42]: drep1ytak734u2yted9qllpf84fswjk3hervhmz4hkkefx65c0pcw06he8
+          - generic [ref=e43]:
+            - heading "Legacy DRep ID (CIP-105)" [level=2] [ref=e45]
+            - button "drep1ldh5d0z3z7tfg8lc2fa2vr545d7gm97c4da4k2fk4xrcwr2px7f" [ref=e47] [cursor=pointer]:
+              - paragraph [ref=e48]: drep1ldh5d0z3z7tfg8lc2fa2vr545d7gm97c4da4k2fk4xrcwr2px7f
+          - generic [ref=e49]:
+            - heading "Status" [level=2] [ref=e51]
+            - generic [ref=e54]: Active
+          - generic [ref=e55]:
+            - heading "Voting power" [level=2] [ref=e57]
+            - paragraph [ref=e59]: ₳ 9,154
+        - button "Connect to delegate" [ref=e60] [cursor=pointer]: Connect to delegate
+        - generic [ref=e61]:
+          - heading "Objectives" [level=2] [ref=e63]
+          - paragraph [ref=e65]: builder
+        - generic [ref=e66]:
+          - heading "Metadata URL" [level=2] [ref=e68]
+          - link "https://raw.githubusercontent.com/hodlonaut/a/refs/heads/master/bob.jsonld link" [ref=e70] [cursor=pointer]:
+            - /url: https://raw.githubusercontent.com/hodlonaut/a/refs/heads/master/bob.jsonld
+            - paragraph [ref=e71]: https://raw.githubusercontent.com/hodlonaut/a/refs/heads/master/bob.jsonld
+            - img "link" [ref=e72]
+        - generic [ref=e73]:
+          - heading "Metadata Hash" [level=2] [ref=e75]
+          - button "3f9d730bf2f21fe8c30621745132bc246774dde1575152a1ac7c26accf5220a0" [ref=e77] [cursor=pointer]:
+            - paragraph [ref=e78]: 3f9d730bf2f21fe8c30621745132bc246774dde1575152a1ac7c26accf5220a0
+    - contentinfo [ref=e79]:
+      - paragraph [ref=e80]: © 2026 GovTool
+      - generic [ref=e81]:
+        - generic [ref=e82] [cursor=pointer]: Privacy policy
+        - generic [ref=e83] [cursor=pointer]: Terms of Use
+      - generic [ref=e84]:
+        - button "helpIcon Help" [ref=e85] [cursor=pointer]:
+          - img "helpIcon" [ref=e87]
+          - text: Help
+        - button "Subscribe to updates" [ref=e88] [cursor=pointer]: Subscribe to updates
+        - button "Feedback" [ref=e89] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e90]
+```
+
+# Test source
+
+```ts
+  1  | import { expect, Page } from "@playwright/test";
+  2  | 
+  3  | export default class DRepDetailsPage {
+  4  |   readonly copyIdBtn = this.page.getByTestId("copy-drep-id-button");
+  5  |   readonly delegateBtn = this.page.getByTestId("delegate-button");
+  6  |   readonly shareBtn = this.page.getByTestId("share-button");
+  7  | 
+  8  |   constructor(private readonly page: Page) {}
+  9  | 
+  10 |   async goto(dRepId: string) {
+  11 |     await this.page.goto(`/connected/drep_directory/${dRepId}`);
+  12 |   }
+  13 | 
+  14 |   async shareLink() {
+  15 |     const isShareButtonVisible = await this.page
+  16 |       .waitForSelector(`[data-testid="share-button"]`, { timeout: 60_000 })
+  17 |       .then(() => true)
+  18 |       .catch(() => false);
+  19 | 
+  20 |     if (isShareButtonVisible) {
+  21 |       await this.shareBtn.click();
+  22 |     } else {
+> 23 |       expect(false, "Share button not found").toBeTruthy();
+     |                                               ^ Error: Share button not found
+  24 |     }
+  25 | 
+  26 |     await this.page
+  27 |       .getByTestId("copy-link-from-share-button")
+  28 |       .click()
+  29 |       .catch(() => {
+  30 |         expect(false, "Copy link button not found").toBeTruthy();
+  31 |       });
+  32 |   }
+  33 | }
+  34 | 
+```
