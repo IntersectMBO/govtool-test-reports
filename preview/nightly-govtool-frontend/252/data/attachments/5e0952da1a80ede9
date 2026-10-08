@@ -1,0 +1,259 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: cip179/survey.spec.ts >> 179-3D: non-DRep users cannot sign survey votes
+- Location: tests/cip179/survey.spec.ts:430:7
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByRole('heading', { name: 'Survey-linked Info Action', exact: true })
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Survey-linked Info Action', exact: true })
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e11]:
+    - navigation [ref=e12]:
+      - link "app-logo" [ref=e14] [cursor=pointer]:
+        - /url: /dashboard
+        - img "app-logo" [ref=e15]
+      - button "drawer" [ref=e17] [cursor=pointer]:
+        - img "drawer" [ref=e18]
+    - paragraph [ref=e21]: Live Voting
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - link "Live Voting" [ref=e24] [cursor=pointer]:
+          - /url: /connected/governance_actions
+          - paragraph [ref=e25]: Live Voting
+        - separator [ref=e26]
+        - paragraph [ref=e27]: Survey-linked Info Action
+      - generic [ref=e28] [cursor=pointer]:
+        - img "arrow" [ref=e29]
+        - paragraph [ref=e30]: Back
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e51]:
+            - heading "Abstract" [level=2] [ref=e53]
+            - paragraph [ref=e56]: A test governance action.
+          - generic [ref=e57]:
+            - heading "Motivation" [level=2] [ref=e59]
+            - paragraph [ref=e62]: Improve governance.
+          - generic [ref=e63]:
+            - heading "Rationale" [level=2] [ref=e65]
+            - paragraph [ref=e68]: Gather feedback.
+          - generic [ref=e69]:
+            - heading "Author(s)" [level=2] [ref=e71]
+            - generic [ref=e73]: No data available
+        - generic [ref=e75]:
+          - img "ga icon" [ref=e76]
+          - paragraph [ref=e77]: Votes submitted
+          - paragraph [ref=e78]: for this Governance Action
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - paragraph [ref=e81]: DReps
+              - generic [ref=e82]:
+                - paragraph [ref=e84]: "Yes"
+                - generic [ref=e85]:
+                  - paragraph [ref=e86]: ₳ 0
+                  - paragraph [ref=e87]: 0.00%
+              - generic [ref=e88]:
+                - paragraph [ref=e90]: Abstain
+                - paragraph [ref=e92]: ₳ 0
+              - generic [ref=e93]:
+                - paragraph [ref=e95]: "No"
+                - generic [ref=e96]:
+                  - paragraph [ref=e97]: ₳ 0
+                  - paragraph [ref=e98]: 0.00%
+              - generic [ref=e99]:
+                - paragraph [ref=e101]: Not voted
+                - generic [ref=e102]:
+                  - paragraph [ref=e103]: ₳ 0
+                  - paragraph [ref=e104]: 100.00%
+            - generic [ref=e105]:
+              - paragraph [ref=e106]: SPOs
+              - generic [ref=e107]:
+                - paragraph [ref=e109]: "Yes"
+                - generic [ref=e110]:
+                  - paragraph [ref=e111]: ₳ 0
+                  - paragraph [ref=e112]: 0.00%
+              - generic [ref=e113]:
+                - paragraph [ref=e115]: Abstain
+                - paragraph [ref=e117]: ₳ 0
+              - generic [ref=e118]:
+                - paragraph [ref=e120]: "No"
+                - generic [ref=e121]:
+                  - paragraph [ref=e122]: ₳ 0
+                  - paragraph [ref=e123]: 0.00%
+              - generic [ref=e124]:
+                - paragraph [ref=e126]: Not voted
+                - generic [ref=e127]:
+                  - paragraph [ref=e128]: ₳ 0
+                  - paragraph [ref=e129]: 100.00%
+            - generic [ref=e130]:
+              - paragraph [ref=e131]: Constitutional Committee
+              - generic [ref=e132]:
+                - paragraph [ref=e134]: Constitutional
+                - generic [ref=e135]:
+                  - paragraph [ref=e136]: "0"
+                  - paragraph [ref=e137]: 0.00%
+              - generic [ref=e138]:
+                - paragraph [ref=e140]: Abstain
+                - paragraph [ref=e142]: "0"
+              - generic [ref=e143]:
+                - paragraph [ref=e145]: Unconstitutional
+                - generic [ref=e146]:
+                  - paragraph [ref=e147]: "0"
+                  - paragraph [ref=e148]: 0.00%
+              - generic [ref=e149]:
+                - paragraph [ref=e151]: Not voted
+                - generic [ref=e152]:
+                  - paragraph [ref=e153]: "3"
+                  - paragraph [ref=e154]: 100.00%
+    - contentinfo [ref=e155]:
+      - paragraph [ref=e156]: © 2026 GovTool
+      - generic [ref=e157]:
+        - generic [ref=e158] [cursor=pointer]: Privacy policy
+        - generic [ref=e159] [cursor=pointer]: Terms of Use
+      - generic [ref=e160]:
+        - button "helpIcon Help" [ref=e161] [cursor=pointer]:
+          - img "helpIcon" [ref=e163]
+          - text: Help
+        - button "Subscribe to updates" [ref=e164] [cursor=pointer]: Subscribe to updates
+        - button "Feedback" [ref=e165] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e166]
+```
+
+# Test source
+
+```ts
+  342 |   await expect(
+  343 |     page.getByText("Complete the selected survey response before submitting.")
+  344 |   ).toBeVisible();
+  345 |   await page
+  346 |     .getByRole("spinbutton", { name: "Testing", exact: true })
+  347 |     .fill("6");
+  348 |   await expect(
+  349 |     page.getByText("Complete the selected survey response before submitting.")
+  350 |   ).toHaveCount(0);
+  351 |   await submitVote(page);
+  352 |   await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  353 |   expect(checkTransaction(fixture.transactions)).toEqual([
+  354 |     [1, 0, 0],
+  355 |     [2, 1, [0]],
+  356 |     [3, 2, [1, 0]],
+  357 |     [6, 3, [[0, 0]]],
+  358 |     [6, 4, [[0, 1]]],
+  359 |     [
+  360 |       5,
+  361 |       5,
+  362 |       [
+  363 |         [0, 4],
+  364 |         [1, 6],
+  365 |       ],
+  366 |     ],
+  367 |   ]);
+  368 |   expect(fixture.errors).toEqual([]);
+  369 | });
+  370 | 
+  371 | for (const [name, options] of [
+  372 |   ["unavailable definition", { surveyStatus: 404 }],
+  373 |   ["wrong reference", { envelope: { ...envelope(), txId: "cd".repeat(32) } }],
+  374 |   ["wrong expiry", { survey: definition({ endEpoch: 529 }) }],
+  375 |   [
+  376 |     "oversized survey",
+  377 |     {
+  378 |       survey: definition({
+  379 |         questions: Array.from({ length: 101 }, () => questions[0]),
+  380 |       }),
+  381 |     },
+  382 |   ],
+  383 | ] as const) {
+  384 |   test(`179-3A: ${name} does not break ordinary voting`, async ({ page }) => {
+  385 |     const fixture = await setup(page, options);
+  386 |     await openVote(page);
+  387 |     await expect(
+  388 |       page.getByText(/Linked survey response unavailable:/)
+  389 |     ).toBeVisible();
+  390 |     await expect(
+  391 |       page.getByRole("checkbox", { name: /Include a survey/ })
+  392 |     ).toHaveCount(0);
+  393 |     await submitVote(page);
+  394 |     await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  395 |     expect(checkTransaction(fixture.transactions)).toBeUndefined();
+  396 |     expect(fixture.errors).toEqual([]);
+  397 |   });
+  398 | }
+  399 | 
+  400 | test("179-3B: ineligible roles cannot attach a survey response", async ({
+  401 |   page,
+  402 | }) => {
+  403 |   const fixture = await setup(page, {
+  404 |     survey: definition({ eligibleRoles: [1] }),
+  405 |   });
+  406 |   await openVote(page);
+  407 |   await expect(page.getByText(/does not accept DRep responses/)).toBeVisible();
+  408 |   await expect(
+  409 |     page.getByRole("checkbox", { name: /Include a survey/ })
+  410 |   ).toHaveCount(0);
+  411 |   await submitVote(page);
+  412 |   await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  413 |   expect(checkTransaction(fixture.transactions)).toBeUndefined();
+  414 | });
+  415 | 
+  416 | test("179-3C: declining wallet signing never submits a transaction", async ({
+  417 |   page,
+  418 | }) => {
+  419 |   const fixture = await setup(page, { rejectSigning: true });
+  420 |   await openVote(page);
+  421 |   await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  422 |   await page.getByRole("radio", { name: "Usability", exact: true }).check();
+  423 |   await submitVote(page);
+  424 |   await expect(page.getByTestId("vote-transaction-error-modal")).toBeVisible();
+  425 |   expect(fixture.transactions.unsigned).toHaveLength(1);
+  426 |   expect(fixture.transactions.signed).toHaveLength(0);
+  427 | });
+  428 | 
+  429 | for (const connected of [false, true]) {
+  430 |   test(`179-3D: ${connected ? "non-DRep" : "disconnected"} users cannot sign survey votes`, async ({
+  431 |     page,
+  432 |   }) => {
+  433 |     const fixture = await setup(page, { connected, registered: false });
+  434 |     await page.goto(
+  435 |       `/${connected ? "connected/" : ""}governance_actions/${actionHash}#0`
+  436 |     );
+  437 |     await expect(
+  438 |       page.getByRole("heading", {
+  439 |         name: "Survey-linked Info Action",
+  440 |         exact: true,
+  441 |       })
+> 442 |     ).toBeVisible();
+      |       ^ Error: expect(locator).toBeVisible() failed
+  443 |     await expect(page.getByTestId("vote-button")).toHaveCount(0);
+  444 |     expect(fixture.transactions.unsigned).toHaveLength(0);
+  445 |   });
+  446 | }
+  447 | 
+```

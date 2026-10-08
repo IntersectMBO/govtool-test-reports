@@ -1,0 +1,290 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 6-miscellaneous/miscellaneous.spec.ts >> 6M. Should navigate between footer links
+- Location: tests/6-miscellaneous/miscellaneous.spec.ts:105:5
+
+# Error details
+
+```
+Error: expect(page).toHaveURL(expected) failed
+
+Expected: "https://docs.gov.tools/legal/privacy-policy"
+Received: "https://docs.intersectmbo.org/intersect-knowledge-base/legal/policies-and-conditions/intersect-internal-policies/privacy-policy"
+Timeout:  5000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 5000ms
+    9 × unexpected value "https://docs.intersectmbo.org/intersect-knowledge-base/legal/policies-and-conditions/intersect-internal-policies/privacy-policy"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - banner [ref=e11]:
+    - generic [ref=e12]:
+      - link "app-logo" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img "app-logo" [ref=e14]
+      - navigation [ref=e15]:
+        - generic [ref=e16]:
+          - link "Home" [ref=e18] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=e19]: Home
+          - link "DRep Directory" [ref=e21] [cursor=pointer]:
+            - /url: /drep_directory
+            - paragraph [ref=e22]: DRep Directory
+          - link "Budget Proposals" [ref=e24] [cursor=pointer]:
+            - /url: /budget_discussion
+            - paragraph [ref=e25]: Budget Proposals
+          - paragraph [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]:
+              - text: Governance Actions
+              - img "dropdown-icon" [ref=e29]
+          - link "Guides" [ref=e31] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=e32]: Guides
+          - link "FAQs" [ref=e34] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=e35]: FAQs
+          - button "Connect Wallet" [ref=e37] [cursor=pointer]: Connect Wallet
+  - generic [ref=e38]:
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: Cardano Governance Tool
+        - paragraph [ref=e42]: Cardano Governance lets Ada holders have a say in the network's future. You can vote directly, find someone to represent you, or become a representative for others. You can also propose changes in the network yourself, put these up for discussion and eventually, a vote. Learn more about governance in the guide, or have a look around the app and see Cardano Governance in action.
+        - button "Participate now" [ref=e43] [cursor=pointer]:
+          - text: Participate now
+          - img [ref=e45]
+      - img "hero" [ref=e48]
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - img "action-card" [ref=e53]
+            - paragraph [ref=e54]: Delegate your Voting Power
+            - paragraph [ref=e55]: Find a DRep to vote on your behalf.
+          - generic [ref=e56]:
+            - button "View DRep Directory" [ref=e57] [cursor=pointer]: View DRep Directory
+            - button "Learn more" [ref=e58] [cursor=pointer]: Learn more
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - img "action-card" [ref=e61]
+            - paragraph [ref=e62]: Become a DRep
+            - paragraph [ref=e63]: Accept delegated voting power from other Ada holders, and combine it with your own voting power. Vote with the accumulated Power on Governance Actions.
+          - generic [ref=e64]:
+            - button "Connect to Register" [ref=e65] [cursor=pointer]: Connect to Register
+            - button "Learn more" [ref=e66] [cursor=pointer]: Learn more
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - img "action-card" [ref=e69]
+            - paragraph [ref=e70]: Become a Direct Voter
+            - paragraph [ref=e71]: Vote on Governance Actions using your own voting power
+          - generic [ref=e72]:
+            - button "Connect to Register" [ref=e73] [cursor=pointer]: Connect to Register
+            - button "Learn more" [ref=e74] [cursor=pointer]: Learn more
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - img "action-card" [ref=e77]
+            - paragraph [ref=e78]: View Governance Actions
+            - paragraph [ref=e79]: See all the Governance Actions submitted on chain.
+          - button "View Governance Actions" [ref=e81] [cursor=pointer]: View Governance Actions
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - img "action-card" [ref=e84]
+            - paragraph [ref=e85]: Propose a Governance Action
+            - paragraph [ref=e86]: Submit your proposal for a Governance Action.
+          - generic [ref=e87]:
+            - button "Connect to Propose" [ref=e88] [cursor=pointer]: Connect to Propose
+            - button "View Proposals" [ref=e89] [cursor=pointer]: View Proposals
+      - generic [ref=e90]:
+        - paragraph [ref=e91]: Useful links
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - paragraph [ref=e94]: Check the Constitutional Committee Portal
+            - paragraph [ref=e95]: See Interim Cardano Constitution and Constitutional committee votes rationales
+            - link "CC Portal link" [ref=e96] [cursor=pointer]:
+              - /url: https://constitution.gov.tools
+              - paragraph [ref=e97]: CC Portal
+              - img "link" [ref=e98]
+          - generic [ref=e99]:
+            - paragraph [ref=e100]: Intersect website
+            - paragraph [ref=e101]: Intersect is a member-based organization for the Cardano ecosystem — putting the community at the center of Cardano’s development
+            - link "Intersect website link" [ref=e102] [cursor=pointer]:
+              - /url: https://www.intersectmbo.org/
+              - paragraph [ref=e103]: Intersect website
+              - img "link" [ref=e104]
+    - contentinfo [ref=e105]:
+      - paragraph [ref=e106]: © 2026 GovTool
+      - generic [ref=e107]:
+        - generic [ref=e108] [cursor=pointer]: Privacy policy
+        - generic [ref=e109] [cursor=pointer]: Terms of Use
+      - generic [ref=e110]:
+        - button "helpIcon Help" [ref=e111] [cursor=pointer]:
+          - img "helpIcon" [ref=e113]
+          - text: Help
+        - button "Subscribe to updates" [ref=e114] [cursor=pointer]: Subscribe to updates
+        - button "Feedback" [ref=e115] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e116]
+```
+
+# Test source
+
+```ts
+  12  | import { test } from "@fixtures/walletExtension";
+  13  | import { setAllureEpic } from "@helpers/allure";
+  14  | import { isMobile, openDrawer } from "@helpers/mobile";
+  15  | import { expect, Page } from "@playwright/test";
+  16  | import environments from "lib/constants/environments";
+  17  | 
+  18  | test.beforeEach(async () => {
+  19  |   await setAllureEpic("6. Miscellaneous");
+  20  | });
+  21  | 
+  22  | test("6C. Navigation within the dApp", async ({ page, context }) => {
+  23  |   await page.goto("/");
+  24  | 
+  25  |   const navbarLinks = [
+  26  |     { testId: "dashboard-link", url: `${environments.frontendUrl}/` },
+  27  |     { testId: "drep-directory-link", urlPattern: /\/drep_directory/ },
+  28  |     { testId: "budget-discussion-link", urlPattern: /\/budget_discussion/ },
+  29  |     {
+  30  |       testId: "proposed-governance-actions-link",
+  31  |       urlPattern: /\/proposal_discussion/,
+  32  |       isDropdownContent: true,
+  33  |     },
+  34  |     {
+  35  |       testId: "governance-actions-link",
+  36  |       urlPattern: /\/governance_actions/,
+  37  |       isDropdownContent: true,
+  38  |     },
+  39  |     {
+  40  |       testId: "governance-actions-governance-actions-link",
+  41  |       urlPattern: /\/governance_actions\/history/,
+  42  |       isDropdownContent: true,
+  43  |     },
+  44  |   ];
+  45  | 
+  46  |   for (const link of navbarLinks) {
+  47  |     if (isMobile(page)) {
+  48  |       await openDrawer(page);
+  49  |     }
+  50  | 
+  51  |     if (!isMobile(page) && !!link.isDropdownContent) {
+  52  |       await page.getByTestId("governance-actions").click();
+  53  |     }
+  54  |     await page.getByTestId(link.testId).click();
+  55  | 
+  56  |     if (link.url) {
+  57  |       expect(page.url()).toEqual(link.url);
+  58  |     } else {
+  59  |       await expect(page).toHaveURL(link.urlPattern);
+  60  |     }
+  61  |   }
+  62  | 
+  63  |   const externalLinks = [
+  64  |     { testId: "guides-link", url: GUIDES_DOC_URL },
+  65  |     { testId: "faqs-link", url: FAQS_DOC_URL },
+  66  |   ];
+  67  | 
+  68  |   for (const link of externalLinks) {
+  69  |     if (isMobile(page)) {
+  70  |       await openDrawer(page);
+  71  |     }
+  72  |     const [newPage] = await Promise.all([
+  73  |       context.waitForEvent("page"),
+  74  |       page.getByTestId(link.testId).click(),
+  75  |     ]);
+  76  |     await expect(newPage).toHaveURL(link.url);
+  77  |   }
+  78  | });
+  79  | 
+  80  | test("6D. Should open Sanchonet docs in a new tab when clicking `Learn More` on dashboards in disconnected state.", async ({
+  81  |   page,
+  82  |   context,
+  83  | }) => {
+  84  |   await page.goto("/");
+  85  | 
+  86  |   const [delegationLearnMorepage] = await Promise.all([
+  87  |     context.waitForEvent("page"),
+  88  |     page.getByTestId("delegate-learn-more-button").click(),
+  89  |   ]);
+  90  |   await expect(delegationLearnMorepage).toHaveURL(DELEGATION_DOC_URL);
+  91  | 
+  92  |   const [registerLearnMorepage] = await Promise.all([
+  93  |     context.waitForEvent("page"),
+  94  |     page.getByTestId("d-rep-learn-more-button").click(),
+  95  |   ]);
+  96  |   await expect(registerLearnMorepage).toHaveURL(REGISTER_DREP_DOC_URL);
+  97  | 
+  98  |   const [directVoterLearnMorepage] = await Promise.all([
+  99  |     context.waitForEvent("page"),
+  100 |     page.getByTestId("direct-voter-learn-more-button").click(),
+  101 |   ]);
+  102 |   await expect(directVoterLearnMorepage).toHaveURL(DIRECT_VOTER_DOC_URL);
+  103 | });
+  104 | 
+  105 | test("6M. Should navigate between footer links", async ({ page, context }) => {
+  106 |   await page.goto("/");
+  107 | 
+  108 |   const [privacyPolicy] = await Promise.all([
+  109 |     context.waitForEvent("page"),
+  110 |     page.getByTestId("privacy-policy-footer-link").click(),
+  111 |   ]);
+> 112 |   await expect(privacyPolicy).toHaveURL(PRIVACY_POLICY);
+      |                               ^ Error: expect(page).toHaveURL(expected) failed
+  113 | 
+  114 |   const [termsAndConditions] = await Promise.all([
+  115 |     context.waitForEvent("page"),
+  116 |     page.getByTestId("terms-of-use-footer-link").click(),
+  117 |   ]);
+  118 |   await expect(termsAndConditions).toHaveURL(TERMS_AND_CONDITIONS);
+  119 | 
+  120 |   const [helpUrl] = await Promise.all([
+  121 |     context.waitForEvent("page"),
+  122 |     page.getByTestId("help-footer-button").click(),
+  123 |   ]);
+  124 |   await expect(helpUrl).toHaveURL(HELP_DOC_URL);
+  125 | });
+  126 | 
+  127 | test("6O. Should display proper network name", async ({ page }) => {
+  128 |   await page.route("**/network/info", async (route) => {
+  129 |     // Fetch the original response from the server
+  130 |     const response = await route.fetch();
+  131 |     const json = await response.json();
+  132 | 
+  133 |     const networkNames = ["sanchonet", "preview"];
+  134 |     // update network name
+  135 |     json["networkName"] =
+  136 |       networkNames[Math.floor(Math.random() * networkNames.length)];
+  137 |     await route.fulfill({
+  138 |       status: 200,
+  139 |       contentType: "application/json",
+  140 |       body: JSON.stringify(json),
+  141 |     });
+  142 |   });
+  143 |   const responsePromise = page.waitForResponse("**/network/info");
+  144 |   await page.goto("/");
+  145 | 
+  146 |   const response = await responsePromise;
+  147 |   const responseBody = await response.json();
+  148 | 
+  149 |   await expect(page.getByTestId("system-network-name")).toHaveText(
+  150 |     new RegExp(responseBody["networkName"], "i")
+  151 |   );
+  152 | });
+  153 | 
+```

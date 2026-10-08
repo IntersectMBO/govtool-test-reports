@@ -1,0 +1,372 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 9-governance-action-history/governance-action-history.spec.ts >> Governance action history page >> 9A_1. Should access governance action history page in disconnect state
+- Location: tests/9-governance-action-history/governance-action-history.spec.ts:21:7
+
+# Error details
+
+```
+Test timeout of 180000ms exceeded.
+```
+
+```
+Error: locator.click: Test timeout of 180000ms exceeded.
+Call log:
+  - waiting for getByTestId('governance-actions-governance-actions-link')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: "Network: Preview"
+      - generic [ref=e7]: "|"
+      - link [ref=e8] [cursor=pointer]:
+        - /url: https://gov.tools/
+        - text: Go to Mainnet
+    - img [ref=e9]
+    - banner [ref=e11]:
+      - generic [ref=e12]:
+        - link [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+        - generic [ref=e15]:
+          - button [ref=e16] [cursor=pointer]: Connect
+          - img [ref=e17]
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - paragraph [ref=e22]: Cardano Governance Tool
+          - paragraph [ref=e23]: Cardano Governance lets Ada holders have a say in the network's future. You can vote directly, find someone to represent you, or become a representative for others. You can also propose changes in the network yourself, put these up for discussion and eventually, a vote. Learn more about governance in the guide, or have a look around the app and see Cardano Governance in action.
+          - button [ref=e24] [cursor=pointer]:
+            - text: Participate now
+            - img [ref=e26]
+        - img [ref=e29]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - img [ref=e34]
+              - paragraph [ref=e35]: Delegate your Voting Power
+              - paragraph [ref=e36]: Find a DRep to vote on your behalf.
+            - generic [ref=e37]:
+              - button [ref=e38] [cursor=pointer]: View DRep Directory
+              - button [ref=e39] [cursor=pointer]: Learn more
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - img [ref=e42]
+              - paragraph [ref=e43]: Become a DRep
+              - paragraph [ref=e44]: Accept delegated voting power from other Ada holders, and combine it with your own voting power. Vote with the accumulated Power on Governance Actions.
+            - generic [ref=e45]:
+              - button [ref=e46] [cursor=pointer]: Connect to Register
+              - button [ref=e47] [cursor=pointer]: Learn more
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - img [ref=e50]
+              - paragraph [ref=e51]: Become a Direct Voter
+              - paragraph [ref=e52]: Vote on Governance Actions using your own voting power
+            - generic [ref=e53]:
+              - button [ref=e54] [cursor=pointer]: Connect to Register
+              - button [ref=e55] [cursor=pointer]: Learn more
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - img [ref=e58]
+              - paragraph [ref=e59]: View Governance Actions
+              - paragraph [ref=e60]: See all the Governance Actions submitted on chain.
+            - button [ref=e62] [cursor=pointer]: View Governance Actions
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - img [ref=e65]
+              - paragraph [ref=e66]: Propose a Governance Action
+              - paragraph [ref=e67]: Submit your proposal for a Governance Action.
+            - generic [ref=e68]:
+              - button [ref=e69] [cursor=pointer]: Connect to Propose
+              - button [ref=e70] [cursor=pointer]: View Proposals
+        - generic [ref=e71]:
+          - paragraph [ref=e72]: Useful links
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Check the Constitutional Committee Portal
+              - paragraph [ref=e76]: See Interim Cardano Constitution and Constitutional committee votes rationales
+              - link [ref=e77] [cursor=pointer]:
+                - /url: https://constitution.gov.tools
+                - paragraph [ref=e78]: CC Portal
+                - img [ref=e79]
+            - generic [ref=e80]:
+              - paragraph [ref=e81]: Intersect website
+              - paragraph [ref=e82]: Intersect is a member-based organization for the Cardano ecosystem — putting the community at the center of Cardano’s development
+              - link [ref=e83] [cursor=pointer]:
+                - /url: https://www.intersectmbo.org/
+                - paragraph [ref=e84]: Intersect website
+                - img [ref=e85]
+      - contentinfo [ref=e86]:
+        - paragraph [ref=e87]: © 2026 GovTool
+        - generic [ref=e88]:
+          - generic [ref=e89] [cursor=pointer]: Privacy policy
+          - generic [ref=e90] [cursor=pointer]: Terms of Use
+        - generic [ref=e91]:
+          - button [ref=e92] [cursor=pointer]:
+            - img [ref=e94]
+            - text: Help
+          - button [ref=e95] [cursor=pointer]: Subscribe to updates
+          - button [ref=e96] [cursor=pointer]: Feedback
+    - img [ref=e97]
+  - generic [active] [ref=e99]:
+    - img "bg-orange" [ref=e100]
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - link "app-logo" [ref=e103] [cursor=pointer]:
+          - /url: /dashboard
+          - img "app-logo" [ref=e104]
+        - button "close-drawer" [ref=e105] [cursor=pointer]:
+          - img "close-drawer" [ref=e106]
+      - button "Connect your wallet" [ref=e107] [cursor=pointer]: Connect your wallet
+      - generic [ref=e109]:
+        - link "Home" [ref=e111] [cursor=pointer]:
+          - /url: /
+          - paragraph [ref=e112]: Home
+        - link "DRep Directory" [ref=e114] [cursor=pointer]:
+          - /url: /drep_directory
+          - paragraph [ref=e115]: DRep Directory
+        - link "Budget Proposals" [ref=e117] [cursor=pointer]:
+          - /url: /budget_discussion
+          - paragraph [ref=e118]: Budget Proposals
+        - link "Governance Actions" [ref=e120] [cursor=pointer]:
+          - /url: /
+          - paragraph [ref=e121]: Governance Actions
+        - link "Proposals" [ref=e123] [cursor=pointer]:
+          - /url: /proposal_discussion
+          - paragraph [ref=e124]: Proposals
+        - link "Live Voting" [ref=e126] [cursor=pointer]:
+          - /url: /governance_actions
+          - paragraph [ref=e127]: Live Voting
+        - link "Outcomes" [ref=e129] [cursor=pointer]:
+          - /url: /outcomes
+          - paragraph [ref=e130]: Outcomes
+        - link "Guides" [ref=e132] [cursor=pointer]:
+          - /url: /
+          - paragraph [ref=e133]: Guides
+        - link "FAQs" [ref=e135] [cursor=pointer]:
+          - /url: /
+          - paragraph [ref=e136]: FAQs
+    - generic [ref=e137]:
+      - img "help" [ref=e138]
+      - paragraph [ref=e139]: Help
+    - img "bg-blue" [ref=e140]
+```
+
+# Test source
+
+```ts
+  172 |     filterKey?: string
+  173 |   ) {
+  174 |     const sortType = this.getSortType(sortOption);
+  175 |     const responsePromise = this.page.waitForResponse((response) =>
+  176 |       response
+  177 |         .url()
+  178 |         .includes(
+  179 |           filterKey
+  180 |             ? `&filters=${filterKey}&sort=${sortType}`
+  181 |             : `&sort=${sortType}`
+  182 |         )
+  183 |     );
+  184 | 
+  185 |     await this.page.getByTestId(this.getSortTestId(sortOption)).click();
+  186 | 
+  187 |     const response = await responsePromise;
+  188 |     const actionRecordProposalList: actionRecordProposal[] = await response.json();
+  189 | 
+  190 |     // API validation
+  191 |     if (actionRecordProposalList.length <= 1) return;
+  192 | 
+  193 |     for (let i = 0; i <= actionRecordProposalList.length - 2; i++) {
+  194 |       const isValid = validationFn(
+  195 |         actionRecordProposalList[i],
+  196 |         actionRecordProposalList[i + 1]
+  197 |       );
+  198 |       expect(isValid).toBe(true);
+  199 |     }
+  200 | 
+  201 |     await expect(
+  202 |       this.page.getByRole("progressbar").getByRole("img")
+  203 |     ).toBeHidden({ timeout: 20_000 });
+  204 | 
+  205 |     await functionWaitedAssert(
+  206 |       async () => {
+  207 |         const actionRecordCards = await this.getAllGovernanceActionHistory();
+  208 |         for (const [index, actionRecordCard] of actionRecordCards.entries()) {
+  209 |           const actionRecordProposalFromAPI = actionRecordProposalList[index];
+  210 |           const proposalTypeFromUI = await actionRecordCard
+  211 |             .locator('[data-testid$="-type"]')
+  212 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  213 |           const proposalTypeFromApi = actionRecordType[actionRecordProposalFromAPI.type];
+  214 | 
+  215 |           const cip105IdFromUI = await actionRecordCard
+  216 |             .locator('[data-testid$="-CIP-105-id"]')
+  217 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  218 |           const cip105IdFromApi = `${actionRecordProposalFromAPI.tx_hash}#${actionRecordProposalFromAPI.index}`;
+  219 | 
+  220 |           expect(proposalTypeFromUI.replace(/^.*Type/, "")).toContain(
+  221 |             proposalTypeFromApi
+  222 |           );
+  223 | 
+  224 |           expect(cip105IdFromUI.replace(/^.*ID/, "")).toContain(
+  225 |             cip105IdFromApi
+  226 |           );
+  227 |         }
+  228 |       },
+  229 |       {
+  230 |         name: `frontend sort validation of ${sortOption} and filter ${filterKey}`,
+  231 |       }
+  232 |     );
+  233 |   }
+  234 | 
+  235 |   async _validateFiltersInGovernanceActionHistoryCard(
+  236 |     proposalCard: Locator,
+  237 |     filters: string[]
+  238 |   ): Promise<boolean> {
+  239 |     const type = await proposalCard
+  240 |       .locator('[data-testid$="-type"]')
+  241 |       .textContent({ timeout: CARD_READ_TIMEOUT });
+  242 |     const actionRecordType = type.replace(/^.*Type/, "");
+  243 |     return filters.includes(actionRecordType);
+  244 |   }
+  245 | 
+  246 |   async _validateStatusFiltersInGovernanceActionHistoryCard(
+  247 |     proposalCard: Locator,
+  248 |     filters: string[]
+  249 |   ): Promise<boolean> {
+  250 |     const status = await proposalCard
+  251 |       .locator('[data-testid$="-status"]')
+  252 |       .textContent({ timeout: CARD_READ_TIMEOUT });
+  253 |     const actionRecordStatus = actionRecordStatusType.filter((statusType) => {
+  254 |       if (statusType === "Live") {
+  255 |         return "In Progress";
+  256 |       }
+  257 |       return status.includes(statusType);
+  258 |     });
+  259 |     return actionRecordStatus.some((status) => filters.includes(status));
+  260 |   }
+  261 | 
+  262 |   async shouldAccessPage(isLoggedIn = false) {
+  263 |     await this.page.goto("/");
+  264 | 
+  265 |     if (isMobile(this.page)) {
+  266 |       await this.page.getByTestId("open-drawer-button").click();
+  267 |     } else {
+  268 |       if (!isLoggedIn) {
+  269 |         await this.page.getByTestId("governance-actions").click();
+  270 |       }
+  271 |     }
+> 272 |     await this.page.getByTestId("governance-actions-governance-actions-link").click();
+      |                                                                               ^ Error: locator.click: Test timeout of 180000ms exceeded.
+  273 | 
+  274 |     if (!isMobile(this.page) && !isLoggedIn) {
+  275 |       await this.page.getByTestId("governance-actions").click();
+  276 |     }
+  277 | 
+  278 |     await expect(this.page.getByText(/Governance action history/i)).toHaveCount(2);
+  279 |   }
+  280 | 
+  281 |   async filterGovernanceActionHistory() {
+  282 |     await this.filterBtn.click();
+  283 |     const filterOptionNames = Object.values(actionRecordType);
+  284 | 
+  285 |     // proposal type filter
+  286 |     await this.applyAndValidateFilters(
+  287 |       filterOptionNames,
+  288 |       this._validateFiltersInGovernanceActionHistoryCard
+  289 |     );
+  290 | 
+  291 |     // proposal status filter
+  292 |     await this.applyAndValidateFilters(
+  293 |       status,
+  294 |       this._validateStatusFiltersInGovernanceActionHistoryCard
+  295 |     );
+  296 |   }
+  297 | 
+  298 |   async sortGovernanceActionHistory() {
+  299 |     await this.sortBtn.click();
+  300 | 
+  301 |     await this.sortAndValidate(
+  302 |       SortOption.NewestFirst,
+  303 |       (p1, p2) => p1.expiry_date >= p2.time
+  304 |     );
+  305 | 
+  306 |     await this.sortAndValidate(
+  307 |       SortOption.OldestFirst,
+  308 |       (p1, p2) => p1.expiry_date <= p2.expiry_date
+  309 |     );
+  310 | 
+  311 |     await this.sortAndValidate(
+  312 |       SortOption.HighestAmountYesVote,
+  313 |       (p1, p2) => parseInt(p1.yes_votes) >= parseInt(p2.yes_votes)
+  314 |     );
+  315 |   }
+  316 | 
+  317 |   async filterAndSortGovernanceActionHistory() {
+  318 |     const filterOptionKeys = Object.keys(actionRecordType);
+  319 |     const filterOptionNames = Object.values(actionRecordType);
+  320 | 
+  321 |     const choice = Math.floor(Math.random() * filterOptionKeys.length);
+  322 |     await this.goto({ filter: filterOptionKeys[choice] });
+  323 |     await this.sortBtn.click();
+  324 | 
+  325 |     await this.sortAndValidate(
+  326 |       SortOption.OldestFirst,
+  327 |       (p1, p2) => p1.expiry_date <= p2.expiry_date
+  328 |     );
+  329 | 
+  330 |     await this.validateFilters(
+  331 |       [filterOptionNames[choice]],
+  332 |       this._validateFiltersInGovernanceActionHistoryCard
+  333 |     );
+  334 |   }
+  335 | 
+  336 |   // Cards show the date that ended the action (Enacted, Not Ratified,
+  337 |   // Expired) or, while live, its expiry, so only the expired filter can
+  338 |   // promise an "Expired" date on every card.
+  339 |   async verifyAllGovernanceActionHistoryAreExpired() {
+  340 |     await this.goto({ status: "expired" });
+  341 |     const proposalCards = await this.getAllGovernanceActionHistory();
+  342 | 
+  343 |     for (const proposalCard of proposalCards) {
+  344 |       const expiryDateEl = proposalCard.locator(
+  345 |         '[data-testid$="-Expired-date"]'
+  346 |       );
+  347 |       await expect(expiryDateEl).toBeVisible();
+  348 |       // e.g. "Expired: Thu Oct 01, 2026 (Epoch 2883)"
+  349 |       const match = (await expiryDateEl.innerText()).match(
+  350 |         /(\w{3}) (\d{1,2}), (\d{4})/
+  351 |       );
+  352 |       expect(match, "expired date is not readable").not.toBeNull();
+  353 |       const expiryDate = new Date(`${match[1]} ${match[2]}, ${match[3]}`);
+  354 |       expect(new Date() >= expiryDate).toBeTruthy();
+  355 |     }
+  356 |   }
+  357 | 
+  358 |   async VerifyLoadMoreGovernanceActionHistory() {
+  359 |     const responsePromise = this.page.waitForResponse((response) =>
+  360 |       response
+  361 |         .url()
+  362 |         .includes(`governance-actions?search=&filters=&sort=newestFirst&page=2`)
+  363 |     );
+  364 |     await this.goto();
+  365 | 
+  366 |     let governanceActionIdsBefore: String[];
+  367 |     let governanceActionIdsAfter: String[];
+  368 | 
+  369 |     await functionWaitedAssert(
+  370 |       async () => {
+  371 |         governanceActionIdsBefore =
+  372 |           await this.getAllListedCIP105GovernanceIds();
+```
