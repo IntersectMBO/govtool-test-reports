@@ -1,0 +1,37 @@
+✖ Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+Sorting Oldest: 1745884800000 before 1744761600000
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false

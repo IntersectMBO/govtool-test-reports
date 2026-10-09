@@ -1,0 +1,284 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 11-budget-proposals-archive/budgetProposalsArchive.spec.ts >> 11A_2. Should open the archive from Useful links
+- Location: tests/11-budget-proposals-archive/budgetProposalsArchive.spec.ts:55:5
+
+# Error details
+
+```
+Test timeout of 180000ms exceeded.
+```
+
+```
+Error: locator.click: Test timeout of 180000ms exceeded.
+Call log:
+  - waiting for getByTestId('useful-link-budgetProposalsArchive')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - banner [ref=e11]:
+    - generic [ref=e12]:
+      - link "app-logo" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img "app-logo" [ref=e14]
+      - generic [ref=e15]:
+        - button "Connect" [ref=e16] [cursor=pointer]: Connect
+        - img "drawer-icon" [ref=e17]
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - paragraph [ref=e22]: Cardano Governance Tool
+        - paragraph [ref=e23]: Cardano Governance lets Ada holders have a say in the network's future. You can vote directly, find someone to represent you, or become a representative for others. You can also propose changes in the network yourself, put these up for discussion and eventually, a vote. Learn more about governance in the guide, or have a look around the app and see Cardano Governance in action.
+        - button "Participate now" [ref=e24] [cursor=pointer]:
+          - text: Participate now
+          - img [ref=e26]
+      - img "hero" [ref=e29]
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - img "action-card" [ref=e34]
+            - paragraph [ref=e35]: Delegate your Voting Power
+            - paragraph [ref=e36]: Find a DRep to vote on your behalf.
+          - generic [ref=e37]:
+            - button "View DRep Directory" [ref=e38] [cursor=pointer]: View DRep Directory
+            - button "Learn more" [ref=e39] [cursor=pointer]: Learn more
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - img "action-card" [ref=e42]
+            - paragraph [ref=e43]: Become a DRep
+            - paragraph [ref=e44]: Accept delegated voting power from other Ada holders, and combine it with your own voting power. Vote with the accumulated Power on Governance Actions.
+          - generic [ref=e45]:
+            - button "Connect to Register" [ref=e46] [cursor=pointer]: Connect to Register
+            - button "Learn more" [ref=e47] [cursor=pointer]: Learn more
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - img "action-card" [ref=e50]
+            - paragraph [ref=e51]: Become a Direct Voter
+            - paragraph [ref=e52]: Vote on Governance Actions using your own voting power
+          - generic [ref=e53]:
+            - button "Connect to Register" [ref=e54] [cursor=pointer]: Connect to Register
+            - button "Learn more" [ref=e55] [cursor=pointer]: Learn more
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - img "action-card" [ref=e58]
+            - paragraph [ref=e59]: View Governance Actions
+            - paragraph [ref=e60]: See all the Governance Actions submitted on chain.
+          - button "View Governance Actions" [ref=e62] [cursor=pointer]: View Governance Actions
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - img "action-card" [ref=e65]
+            - paragraph [ref=e66]: Propose a Governance Action
+            - paragraph [ref=e67]: Submit your proposal for a Governance Action.
+          - generic [ref=e68]:
+            - button "Connect to Propose" [ref=e69] [cursor=pointer]: Connect to Propose
+            - button "View Proposals" [ref=e70] [cursor=pointer]: View Proposals
+      - generic [ref=e71]:
+        - paragraph [ref=e72]: Useful links
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: Check the Constitutional Committee Portal
+            - paragraph [ref=e76]: See Interim Cardano Constitution and Constitutional committee votes rationales
+            - link "CC Portal link" [ref=e77] [cursor=pointer]:
+              - /url: https://constitution.gov.tools
+              - paragraph [ref=e78]: CC Portal
+              - img "link" [ref=e79]
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: Intersect website
+            - paragraph [ref=e82]: Intersect is a member-based organization for the Cardano ecosystem — putting the community at the center of Cardano’s development
+            - link "Intersect website link" [ref=e83] [cursor=pointer]:
+              - /url: https://www.intersectmbo.org/
+              - paragraph [ref=e84]: Intersect website
+              - img "link" [ref=e85]
+    - contentinfo [ref=e86]:
+      - paragraph [ref=e87]: © 2026 GovTool
+      - generic [ref=e88]:
+        - generic [ref=e89] [cursor=pointer]: Privacy policy
+        - generic [ref=e90] [cursor=pointer]: Terms of Use
+      - generic [ref=e91]:
+        - button "helpIcon Help" [ref=e92] [cursor=pointer]:
+          - img "helpIcon" [ref=e94]
+          - text: Help
+        - button "Subscribe to updates" [ref=e95] [cursor=pointer]: Subscribe to updates
+        - button "Feedback" [ref=e96] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e97]
+```
+
+# Test source
+
+```ts
+  1   | import environments from "@constants/environments";
+  2   | import { test } from "@fixtures/walletExtension";
+  3   | import { setAllureEpic } from "@helpers/allure";
+  4   | import { injectLogger } from "@helpers/page";
+  5   | import { extractProposalIdFromUrl } from "@helpers/string";
+  6   | import BudgetDiscussionDetailsPage from "@pages/budgetDiscussionDetailsPage";
+  7   | import BudgetDiscussionPage, {
+  8   |   BUDGET_ARCHIVE_PATH,
+  9   |   BUDGET_DISCUSSION_API,
+  10  | } from "@pages/budgetDiscussionPage";
+  11  | import { expect, Locator, Page } from "@playwright/test";
+  12  | import { BudgetArchiveListItem, BudgetDiscussionEnum } from "@types";
+  13  | 
+  14  | // The 2025 budget proposals are a read-only archive served from static files
+  15  | // under /budget-proposals-2025; nothing here calls a backend for them.
+  16  | 
+  17  | test.beforeEach(async ({}) => {
+  18  |   await setAllureEpic("11. Budget Proposals Archive");
+  19  | });
+  20  | 
+  21  | const recordBudgetDiscussionApiCalls = (page: Page) => {
+  22  |   const calls: string[] = [];
+  23  |   page.on("request", (request) => {
+  24  |     if (BUDGET_DISCUSSION_API.test(request.url())) calls.push(request.url());
+  25  |   });
+  26  |   return calls;
+  27  | };
+  28  | 
+  29  | const pickDiscussion = (
+  30  |   items: BudgetArchiveListItem[],
+  31  |   predicate: (item: BudgetArchiveListItem) => boolean
+  32  | ) => {
+  33  |   const item = items.find(predicate);
+  34  |   expect(item, "No archived budget proposal matches").toBeTruthy();
+  35  |   return item;
+  36  | };
+  37  | 
+  38  | test("11A. Should show the budget proposals archive in disconnect state", async ({
+  39  |   page,
+  40  | }) => {
+  41  |   const apiCalls = recordBudgetDiscussionApiCalls(page);
+  42  |   const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  43  |   await budgetDiscussionPage.goto();
+  44  | 
+  45  |   await expect(budgetDiscussionPage.archiveBanner).toBeVisible();
+  46  |   await expect(
+  47  |     page.getByRole("heading", { name: "2025 Budget Proposals" })
+  48  |   ).toBeVisible();
+  49  |   await expect(
+  50  |     page.getByTestId("propose-a-budget-discussion-button")
+  51  |   ).toHaveCount(0);
+  52  |   expect(apiCalls).toEqual([]);
+  53  | });
+  54  | 
+  55  | test("11A_2. Should open the archive from Useful links", async ({ page }) => {
+  56  |   await page.goto("/");
+> 57  |   await page.getByTestId("useful-link-budgetProposalsArchive").click();
+      |                                                                ^ Error: locator.click: Test timeout of 180000ms exceeded.
+  58  | 
+  59  |   await expect(page).toHaveURL(/\/budget_discussion$/);
+  60  |   await expect(new BudgetDiscussionPage(page).archiveBanner).toBeVisible();
+  61  | });
+  62  | 
+  63  | test.describe("Budget proposals archive list", () => {
+  64  |   let budgetDiscussionPage: BudgetDiscussionPage;
+  65  | 
+  66  |   test.beforeEach(async ({ page }) => {
+  67  |     budgetDiscussionPage = new BudgetDiscussionPage(page);
+  68  |     await budgetDiscussionPage.goto();
+  69  |   });
+  70  | 
+  71  |   test("11B_1. Should search budget proposals by title", async () => {
+  72  |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  73  |     const proposalName =
+  74  |       items[Math.floor(Math.random() * items.length)].attributes
+  75  |         .bd_proposal_detail.data.attributes.proposal_name;
+  76  | 
+  77  |     await budgetDiscussionPage.searchInput.fill(proposalName);
+  78  | 
+  79  |     await expect(async () => {
+  80  |       const proposalCards = await budgetDiscussionPage.getAllProposals();
+  81  |       for (const proposalCard of proposalCards) {
+  82  |         const title = await proposalCard
+  83  |           .getByTestId("budget-discussion-title")
+  84  |           .textContent();
+  85  |         expect(title.toLowerCase()).toContain(proposalName.toLowerCase());
+  86  |       }
+  87  |     }).toPass();
+  88  |   });
+  89  | 
+  90  |   test("11B_2. Should filter budget proposals by categories", async () => {
+  91  |     test.slow();
+  92  |     await budgetDiscussionPage.filterBtn.click();
+  93  | 
+  94  |     await budgetDiscussionPage.applyAndValidateFilters(
+  95  |       Object.values(BudgetDiscussionEnum),
+  96  |       budgetDiscussionPage._validateTypeFiltersInProposalCard
+  97  |     );
+  98  |   });
+  99  | 
+  100 |   test("11B_3. Should sort budget proposals", async () => {
+  101 |     test.slow();
+  102 |     await budgetDiscussionPage.showAll(BudgetDiscussionEnum.Core);
+  103 | 
+  104 |     const title = (card: Locator) =>
+  105 |       card.getByTestId("budget-discussion-title").innerText();
+  106 |     const proposer = async (card: Locator) =>
+  107 |       (await card.getByTestId("budget-discussion-creator").innerText()).replace(
+  108 |         /^@/,
+  109 |         ""
+  110 |       );
+  111 |     const comments = async (card: Locator) =>
+  112 |       Number(await card.locator('[data-testid$="-comment-count"]').innerText());
+  113 |     const proposedOn = async (card: Locator) =>
+  114 |       Date.parse(await card.getByTestId("proposed-date").innerText());
+  115 |     const ascending = (a: string, b: string) =>
+  116 |       a.localeCompare(b, undefined, { sensitivity: "base" }) <= 0;
+  117 |     const descending = (a: string, b: string) => ascending(b, a);
+  118 | 
+  119 |     await budgetDiscussionPage.sortAndValidate(
+  120 |       "Oldest",
+  121 |       proposedOn,
+  122 |       (a, b) => a <= b
+  123 |     );
+  124 |     await budgetDiscussionPage.sortAndValidate(
+  125 |       "Newest",
+  126 |       proposedOn,
+  127 |       (a, b) => a >= b
+  128 |     );
+  129 |     await budgetDiscussionPage.sortAndValidate(
+  130 |       "Most comments",
+  131 |       comments,
+  132 |       (a, b) => a >= b
+  133 |     );
+  134 |     await budgetDiscussionPage.sortAndValidate(
+  135 |       "Least comments",
+  136 |       comments,
+  137 |       (a, b) => a <= b
+  138 |     );
+  139 |     await budgetDiscussionPage.sortAndValidate("Name A-Z", title, ascending);
+  140 |     await budgetDiscussionPage.sortAndValidate("Name Z-A", title, descending);
+  141 |     await budgetDiscussionPage.sortAndValidate(
+  142 |       "Proposer A-Z",
+  143 |       proposer,
+  144 |       ascending
+  145 |     );
+  146 |     await budgetDiscussionPage.sortAndValidate(
+  147 |       "Proposer Z-A",
+  148 |       proposer,
+  149 |       descending
+  150 |     );
+  151 |   });
+  152 | });
+  153 | 
+  154 | test("11C. Should show every proposal of a category on its category page", async ({
+  155 |   browser,
+  156 | }) => {
+  157 |   await Promise.all(
+```

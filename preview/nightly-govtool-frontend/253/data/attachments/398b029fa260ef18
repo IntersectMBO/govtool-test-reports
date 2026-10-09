@@ -1,0 +1,299 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 4-proposal-visibility/proposalVisibility.spec.ts >> Invalid Live voting Metadata >> 4P_4: Should display Data Not Verifiable message in live voting when metadata hash and URL do not match and is incorrect ga format
+- Location: tests/4-proposal-visibility/proposalVisibility.spec.ts:323:9
+
+# Error details
+
+```
+Error: The URL "https://metadata-govtool.cardanoapi.io/data/playwright-247df42604aed8d5-incorrect-format.json" and hash "b0a32a81a5a7d323e69a3ccdb51ff637ffd2d3f9321aae3cf437b7f8f1fe5eed" do not match the expected properties for type "Data Not Verifiable".
+
+expect(locator).toHaveText(expected) failed
+
+Locator:  getByTestId('governance-action-details-card-header')
+Expected: "Data Not Verifiable"
+Received: "Data Formatted Incorrectly"
+Timeout:  60000ms
+
+Call log:
+  - The URL "https://metadata-govtool.cardanoapi.io/data/playwright-247df42604aed8d5-incorrect-format.json" and hash "b0a32a81a5a7d323e69a3ccdb51ff637ffd2d3f9321aae3cf437b7f8f1fe5eed" do not match the expected properties for type "Data Not Verifiable". with timeout 60000ms
+  - waiting for getByTestId('governance-action-details-card-header')
+    3 × locator resolved to <div class="MuiBox-root css-1uk3csp" data-testid="governance-action-details-card-header">…</div>
+      - unexpected value "[Preview test] Governance Improvement Survey"
+    60 × locator resolved to <div class="MuiBox-root css-1uk3csp" data-testid="governance-action-details-card-header">…</div>
+       - unexpected value "Data Formatted Incorrectly"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - banner [ref=e12]:
+      - generic [ref=e13]:
+        - link "app-logo" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - img "app-logo" [ref=e15]
+        - generic [ref=e16]:
+          - button "Connect" [ref=e17] [cursor=pointer]: Connect
+          - img "drawer-icon" [ref=e18]
+    - generic [ref=e21]:
+      - paragraph [ref=e23]: Live Voting
+      - generic [ref=e24]:
+        - link "Live Voting" [ref=e25] [cursor=pointer]:
+          - /url: /governance_actions
+          - paragraph [ref=e26]: Live Voting
+        - separator [ref=e27]
+        - paragraph [ref=e28]: Data Formatted Incorrectly
+      - generic [ref=e29] [cursor=pointer]:
+        - img "arrow" [ref=e30]
+        - paragraph [ref=e31]: Back
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - heading "Data Formatted Incorrectly" [level=1] [ref=e37]
+          - generic [ref=e38]:
+            - paragraph [ref=e39]: The data that was originally used when this Governance Action was created has been formatted incorrectly.
+            - paragraph [ref=e40]: GovTool uses external sources for Governance Action data, and these sources are maintained by the proposers of the Actions. This error means that the data stored by the Proposer does not match the data format as defined by the Cardano community.
+            - text: Learn more
+          - generic [ref=e41]:
+            - heading "Governance Action Type:" [level=2] [ref=e43]
+            - paragraph [ref=e46]: Info Action
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: "Submitted: 9th Sep 2026 (Epoch 1415)"
+              - img [ref=e50]
+            - generic [ref=e52]:
+              - paragraph [ref=e53]: "Expires: 10th Oct 2026 (Epoch 1446)"
+              - img [ref=e54]
+          - button "See external data external link" [ref=e56] [cursor=pointer]:
+            - paragraph [ref=e57]: See external data
+            - img "external link" [ref=e58]
+          - generic [ref=e59]:
+            - heading "Governance Action ID:" [level=2] [ref=e61]
+            - generic [ref=e62]:
+              - paragraph [ref=e63]: gov_action10hpyyz2ny63mpq9gvm5xrrtapahh7q5fc049jv6zy3vshz8p8hmsqfy4mfw
+              - img "copy" [ref=e65] [cursor=pointer]
+          - generic [ref=e66]:
+            - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e68]
+            - generic [ref=e69]:
+              - paragraph [ref=e70]: 7dc242095326a3b080a866e8618d7d0f6f7f0289c3ea59334224590b88e13df7#0
+              - img "copy" [ref=e72] [cursor=pointer]
+          - generic [ref=e74]:
+            - tablist "basic tabs example"
+          - generic [ref=e75]:
+            - heading "Metadata anchor link" [level=2] [ref=e77]
+            - generic [ref=e78]:
+              - paragraph [ref=e79]: https://metadata-govtool.cardanoapi.io/data/playwright-247df42604aed8d5-incorrect-format.json
+              - img "link" [ref=e81] [cursor=pointer]
+          - generic [ref=e82]:
+            - heading "Metadata anchor hash" [level=2] [ref=e84]
+            - generic [ref=e85]:
+              - paragraph [ref=e86]: b0a32a81a5a7d323e69a3ccdb51ff637ffd2d3f9321aae3cf437b7f8f1fe5eed
+              - img "copy" [ref=e88] [cursor=pointer]
+          - generic [ref=e89]:
+            - heading "Author(s)" [level=2] [ref=e91]
+            - generic [ref=e93]: No data available
+        - generic [ref=e95]:
+          - img "ga icon" [ref=e96]
+          - paragraph [ref=e97]: Votes submitted
+          - paragraph [ref=e98]: for this Governance Action
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - paragraph [ref=e101]: DReps
+              - generic [ref=e102]:
+                - paragraph [ref=e104]: "Yes"
+                - generic [ref=e105]:
+                  - paragraph [ref=e106]: ₳ 209.53k
+                  - paragraph [ref=e107]: 4.98%
+              - generic [ref=e108]:
+                - paragraph [ref=e110]: Abstain
+                - paragraph [ref=e112]: ₳ 143.71M
+              - generic [ref=e113]:
+                - paragraph [ref=e115]: "No"
+                - generic [ref=e116]:
+                  - paragraph [ref=e117]: ₳ 3.73M
+                  - paragraph [ref=e118]: 88.60%
+              - generic [ref=e119]:
+                - paragraph [ref=e121]: Not voted
+                - generic [ref=e122]:
+                  - paragraph [ref=e123]: ₳ 4.03M
+                  - paragraph [ref=e124]: 6.42%
+            - generic [ref=e125]:
+              - paragraph [ref=e126]: SPOs
+              - generic [ref=e127]:
+                - paragraph [ref=e129]: "Yes"
+                - generic [ref=e130]:
+                  - paragraph [ref=e131]: ₳ 0
+                  - paragraph [ref=e132]: 0.00%
+              - generic [ref=e133]:
+                - paragraph [ref=e135]: Abstain
+                - paragraph [ref=e137]: ₳ 278.41M
+              - generic [ref=e138]:
+                - paragraph [ref=e140]: "No"
+                - generic [ref=e141]:
+                  - paragraph [ref=e142]: ₳ 1.48M
+                  - paragraph [ref=e143]: 0.09%
+              - generic [ref=e144]:
+                - paragraph [ref=e146]: Not voted
+                - generic [ref=e147]:
+                  - paragraph [ref=e148]: ₳ 1.30B
+                  - paragraph [ref=e149]: 99.91%
+            - generic [ref=e150]:
+              - paragraph [ref=e151]: Constitutional Committee
+              - generic [ref=e152]:
+                - paragraph [ref=e154]: Constitutional
+                - generic [ref=e155]:
+                  - paragraph [ref=e156]: "0"
+                  - paragraph [ref=e157]: 0.00%
+              - generic [ref=e158]:
+                - paragraph [ref=e160]: Abstain
+                - paragraph [ref=e162]: "0"
+              - generic [ref=e163]:
+                - paragraph [ref=e165]: Unconstitutional
+                - generic [ref=e166]:
+                  - paragraph [ref=e167]: "0"
+                  - paragraph [ref=e168]: 0.00%
+              - generic [ref=e169]:
+                - paragraph [ref=e171]: Not voted
+                - generic [ref=e172]:
+                  - paragraph [ref=e173]: "3"
+                  - paragraph [ref=e174]: 100.00%
+    - contentinfo [ref=e175]:
+      - paragraph [ref=e176]: © 2026 GovTool
+      - generic [ref=e177]:
+        - generic [ref=e178] [cursor=pointer]: Privacy policy
+        - generic [ref=e179] [cursor=pointer]: Terms of Use
+      - generic [ref=e180]:
+        - button "helpIcon Help" [ref=e181] [cursor=pointer]:
+          - img "helpIcon" [ref=e183]
+          - text: Help
+        - button "Subscribe to updates" [ref=e184] [cursor=pointer]: Subscribe to updates
+        - button "Feedback" [ref=e185] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e186]
+```
+
+# Test source
+
+```ts
+  254 |   const uniqueProposalTypes = Array.from(
+  255 |     new Map(proposals.map((proposal) => [proposal.type, proposal])).values()
+  256 |   );
+  257 | 
+  258 |   await Promise.all(
+  259 |     uniqueProposalTypes.map(async (proposalToCheck) => {
+  260 |       const newPage = await browser.newPage();
+  261 |       injectLogger(newPage);
+  262 |       const totalStakeResponsePromise = newPage.waitForResponse((response) =>
+  263 |         response.url().includes(`network/total-stake`)
+  264 |       );
+  265 |       const govActionDetailsPage = new GovernanceActionDetailsPage(newPage);
+  266 |       await govActionDetailsPage.goto(
+  267 |         `${proposalToCheck.txHash}#${proposalToCheck.index}`
+  268 |       );
+  269 | 
+  270 |       const dRepTotalAbstainVote =
+  271 |         await govActionDetailsPage.getDRepTotalAbstainVoted(
+  272 |           proposalToCheck,
+  273 |           totalStakeResponsePromise
+  274 |         );
+  275 | 
+  276 |       // check dRep votes
+  277 |       if (await areDRepVoteTotalsDisplayed(proposalToCheck)) {
+  278 |         await expect(govActionDetailsPage.dRepYesVotes).toHaveText(
+  279 |           `₳ ${correctVoteAdaFormat(proposalToCheck.dRepYesVotes)}`
+  280 |         );
+  281 |         await expect(govActionDetailsPage.dRepAbstainVotes).toHaveText(
+  282 |           `₳ ${correctVoteAdaFormat(dRepTotalAbstainVote)}`
+  283 |         );
+  284 |         await expect(govActionDetailsPage.dRepNoVotes).toHaveText(
+  285 |           `₳ ${correctVoteAdaFormat(proposalToCheck.dRepNoVotes)}`
+  286 |         );
+  287 |       }
+  288 |       // check sPos votes
+  289 |       if (await areSPOVoteTotalsDisplayed(proposalToCheck)) {
+  290 |         await expect(govActionDetailsPage.sPosYesVotes).toHaveText(
+  291 |           `₳ ${correctVoteAdaFormat(proposalToCheck.poolYesVotes)}`
+  292 |         );
+  293 |         await expect(govActionDetailsPage.sPosAbstainVotes).toHaveText(
+  294 |           `₳ ${correctVoteAdaFormat(proposalToCheck.poolAbstainVotes)}`
+  295 |         );
+  296 |         await expect(govActionDetailsPage.sPosNoVotes).toHaveText(
+  297 |           `₳ ${correctVoteAdaFormat(proposalToCheck.poolNoVotes)}`
+  298 |         );
+  299 |       }
+  300 | 
+  301 |       // check ccCommittee votes
+  302 |       if (areCCVoteTotalsDisplayed(proposalToCheck)) {
+  303 |         await expect(govActionDetailsPage.ccCommitteeYesVotes).toHaveText(
+  304 |           `${proposalToCheck.ccYesVotes}`
+  305 |         );
+  306 |         await expect(govActionDetailsPage.ccCommitteeAbstainVotes).toHaveText(
+  307 |           `${proposalToCheck.ccAbstainVotes}`
+  308 |         );
+  309 |         await expect(govActionDetailsPage.ccCommitteeNoVotes).toHaveText(
+  310 |           `${proposalToCheck.ccNoVotes}`
+  311 |         );
+  312 |       }
+  313 |     })
+  314 |   );
+  315 | });
+  316 | 
+  317 | test.describe("Invalid Live voting Metadata", () => {
+  318 |   test.beforeAll(async () => {
+  319 |     await ensureInvalidMetadataFixtures();
+  320 |   });
+  321 | 
+  322 |   InvalidMetadata.forEach(({ type, reason, url, hash }, index) => {
+  323 |     test(`4P_${index + 1}: Should display ${type} message in live voting when ${reason}`, async ({
+  324 |       page,
+  325 |     }) => {
+  326 |       const proposal: IProposal = {
+  327 |         ...infoTypeProposal.elements[0],
+  328 |         url,
+  329 |         metadataHash: hash,
+  330 |       };
+  331 |       const liveProposalResponse: PaginatedLiveProposal = {
+  332 |         ...infoTypeProposal,
+  333 |         elements: [proposal],
+  334 |       };
+  335 | 
+  336 |       await page.route("**/proposal/list?**", async (route) =>
+  337 |         route.fulfill({
+  338 |           body: JSON.stringify(liveProposalResponse),
+  339 |         })
+  340 |       );
+  341 | 
+  342 |       const governanceActionPage = new GovernanceActionsPage(page);
+  343 |       await governanceActionPage.goto();
+  344 |       await governanceActionPage.viewFirstProposal();
+  345 | 
+  346 |       const governanceActionTitle = await page
+  347 |         .getByTestId("governance-action-details-card-header")
+  348 |         .textContent();
+  349 | 
+  350 |       await expect(
+  351 |         page.getByTestId("governance-action-details-card-header"),
+  352 |         governanceActionTitle.toLowerCase() !== type.toLowerCase() &&
+  353 |           `The URL "${url}" and hash "${hash}" do not match the expected properties for type "${type}".`
+> 354 |       ).toHaveText(type, { timeout: 60_000, ignoreCase: true });
+      |         ^ Error: The URL "https://metadata-govtool.cardanoapi.io/data/playwright-247df42604aed8d5-incorrect-format.json" and hash "b0a32a81a5a7d323e69a3ccdb51ff637ffd2d3f9321aae3cf437b7f8f1fe5eed" do not match the expected properties for type "Data Not Verifiable".
+  355 |       await expect(page.getByText("Learn more")).toBeVisible();
+  356 |       await expect(page.getByTestId("external-modal-button")).toBeVisible();
+  357 |     });
+  358 |   });
+  359 | });
+  360 | 
+```
