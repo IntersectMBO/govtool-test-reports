@@ -1,0 +1,16 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 7-proposal-submission/proposalSubmission.loggedin.pd.spec.ts >> Proposal Draft >> 7M_5. Should edit a hard fork proposal draft
+- Location: tests/7-proposal-submission/proposalSubmission.loggedin.pd.spec.ts:461:9
+
+# Error details
+
+```
+Test timeout of 270000ms exceeded.
+```

@@ -1,0 +1,148 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 7-proposal-submission/proposalSubmission.ga.spec.ts >> Proposed as a governance action >> 7P. Should navigate to the edit proposal page when 'goto data edit screen' is selected if data does not match the anchor URL
+- Location: tests/7-proposal-submission/proposalSubmission.ga.spec.ts:185:7
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByTestId('governance-action-type')
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 5000ms
+  - waiting for getByTestId('governance-action-type')
+
+```
+
+# Test source
+
+```ts
+  110 |     );
+  111 |     await detailsPage.submitAsGABtn.click();
+  112 |     await proposalSubmissionPage.currentPage
+  113 |       .getByTestId("agree-checkbox")
+  114 |       .click();
+  115 |     await proposalSubmissionPage.continueBtn.click();
+  116 |   });
+  117 | 
+  118 |   test.afterEach(async () => {
+  119 |     await skipIfMainnet();
+  120 |     // cleanup: nothing to delete when beforeEach failed before creating it
+  121 |     if (!proposalDiscussionDetailPage || proposalId === undefined) return;
+  122 |     const detailsPage = proposalDiscussionDetailPage;
+  123 |     await detailsPage.goto(proposalId);
+  124 | 
+  125 |     // After the reload pdf-ui shows either the sign-in link or, once signed
+  126 |     // in, the owner's menu; the link takes a few seconds to appear, so wait
+  127 |     // for one of them rather than checking right away.
+  128 |     await expect(
+  129 |       detailsPage.verifyIdentityBtn.or(detailsPage.menuBtn).first()
+  130 |     ).toBeVisible({ timeout: 60_000 });
+  131 |     if (await detailsPage.verifyIdentityBtn.isVisible()) {
+  132 |       await detailsPage.verifyIdentity();
+  133 |     }
+  134 | 
+  135 |     await detailsPage.deleteProposal();
+  136 |   });
+  137 | 
+  138 |   test.describe("Metadata anchor validation", () => {
+  139 |     test("7J_1. Should accept valid metadata anchor on proposal submission", async () => {
+  140 |       test.slow(); // Brute-force testing with 50 random data
+  141 |       for (let i = 0; i < 50; i++) {
+  142 |         await proposalSubmissionPage.metadataUrlInput.fill(mockValid.url());
+  143 |         await expect(
+  144 |           proposalSubmissionPage.currentPage.getByTestId("url-input-error-text")
+  145 |         ).toBeHidden();
+  146 |       }
+  147 |     });
+  148 | 
+  149 |     test("7J_2. Should reject invalid metadata anchor on proposal submission", async () => {
+  150 |       test.slow(); // Brute-force testing with 50 random data
+  151 |       for (let i = 0; i < 50; i++) {
+  152 |         await proposalSubmissionPage.metadataUrlInput.fill(
+  153 |           mockInvalid.url(false)
+  154 |         );
+  155 |         await expect(
+  156 |           proposalSubmissionPage.currentPage.getByTestId("url-input-error-text")
+  157 |         ).toBeVisible();
+  158 |       }
+  159 | 
+  160 |       const sentenceWithoutSpace = faker.lorem
+  161 |         .sentence(128)
+  162 |         .replace(/[\s.]/g, "");
+  163 |       const metadataAnchorGreaterThan128Bytes =
+  164 |         faker.internet.url({ appendSlash: true }) + sentenceWithoutSpace;
+  165 | 
+  166 |       await proposalSubmissionPage.metadataUrlInput.fill(
+  167 |         metadataAnchorGreaterThan128Bytes
+  168 |       );
+  169 | 
+  170 |       await expect(
+  171 |         proposalSubmissionPage.currentPage.getByTestId("url-input-error-text")
+  172 |       ).toBeVisible(); // BUG better to add different test id compare to invalid url testid
+  173 |     });
+  174 |   });
+  175 | 
+  176 |   test("7K. Should reject invalid proposal metadata", async () => {
+  177 |     await proposalSubmissionPage.metadataUrlInput.fill(faker.internet.url());
+  178 |     await proposalSubmissionPage.submitBtn.click();
+  179 | 
+  180 |     await expect(
+  181 |       proposalSubmissionPage.currentPage.getByTestId("url-error-modal-title")
+  182 |     ).toHaveText(/the url you entered cannot be found/i);
+  183 |   });
+  184 | 
+  185 |   test("7P. Should navigate to the edit proposal page when 'goto data edit screen' is selected if data does not match the anchor URL", async () => {
+  186 |     const invalidMetadataAnchorUrl = "https://www.google.com";
+  187 | 
+  188 |     await proposalSubmissionPage.metadataUrlInput.fill(
+  189 |       invalidMetadataAnchorUrl
+  190 |     );
+  191 |     await proposalSubmissionPage.submitBtn.click();
+  192 | 
+  193 |     // An HTML page is a hash mismatch through the metadata service and a
+  194 |     // format error through the backend's own fetch; both offer the edit screen.
+  195 |     const page = proposalSubmissionPage.currentPage;
+  196 |     const goToDataButton = page
+  197 |       .getByTestId("data-not-match-modal-go-to-data-button")
+  198 |       .or(page.getByTestId("metadata-error-modal-go-to-data-button"));
+  199 |     await expect(
+  200 |       page
+  201 |         .getByTestId("data-not-match-modal")
+  202 |         .or(page.getByTestId("metadata-error-modal"))
+  203 |     ).toBeVisible();
+  204 |     await expect(goToDataButton).toBeVisible();
+  205 | 
+  206 |     await goToDataButton.click();
+  207 | 
+  208 |     await expect(
+  209 |       proposalSubmissionPage.currentPage.getByTestId("governance-action-type")
+> 210 |     ).toBeVisible();
+      |       ^ Error: expect(locator).toBeVisible() failed
+  211 |     await expect(
+  212 |       proposalSubmissionPage.currentPage.getByTestId("title-input")
+  213 |     ).toBeVisible();
+  214 |     await expect(
+  215 |       proposalSubmissionPage.currentPage.getByTestId("abstract-input")
+  216 |     ).toBeVisible();
+  217 |     await expect(
+  218 |       proposalSubmissionPage.currentPage.getByTestId("motivation-input")
+  219 |     ).toBeVisible();
+  220 |     await expect(
+  221 |       proposalSubmissionPage.currentPage.getByTestId("rationale-input")
+  222 |     ).toBeVisible();
+  223 |   });
+  224 | });
+  225 | 
+```

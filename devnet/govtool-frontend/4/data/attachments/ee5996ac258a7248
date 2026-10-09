@@ -1,0 +1,16 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 7-proposal-submission/proposalSubmission.loggedin.pd.spec.ts >> Proposal Draft >> 7N. Should submit a draft proposal
+- Location: tests/7-proposal-submission/proposalSubmission.loggedin.pd.spec.ts:541:7
+
+# Error details
+
+```
+Test timeout of 270000ms exceeded.
+```

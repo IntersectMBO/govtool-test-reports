@@ -1,0 +1,144 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 2-delegation/delegation.dRep.spec.ts >> 2N. Should show DRep information on details page
+- Location: tests/2-delegation/delegation.dRep.spec.ts:18:5
+
+# Error details
+
+```
+Error: expect(locator).toContainText(expected) failed
+
+Locator: getByTestId('dRep-id-display-card-dashboard')
+Expected substring: "drep1a8khqr4py0q5xtngcheexdz7glkan6endk4hj273qlm42zvrpn9"
+Timeout: 120000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toContainText" with timeout 120000ms
+  - waiting for getByTestId('dRep-id-display-card-dashboard')
+
+```
+
+# Test source
+
+```ts
+  1   | import environments from "@constants/environments";
+  2   | import { faker } from "@faker-js/faker";
+  3   | import { test } from "@fixtures/walletExtension";
+  4   | import { setAllureEpic } from "@helpers/allure";
+  5   | import { skipIfMainnet } from "@helpers/cardano";
+  6   | import { createNewPageWithWallet } from "@helpers/page";
+  7   | import DRepRegistrationPage from "@pages/dRepRegistrationPage";
+  8   | import { expect } from "@playwright/test";
+  9   | import { LinkType } from "@types";
+  10  | import { singleUseWalletName } from "lib/wallet/testWallets";
+  11  | import { stakeRegisteredWallet } from "lib/wallet/transactions";
+  12  | 
+  13  | test.beforeEach(async () => {
+  14  |   await setAllureEpic("2. Delegation");
+  15  |   await skipIfMainnet();
+  16  | });
+  17  | 
+  18  | test("2N. Should show DRep information on details page", async ({
+  19  |   browser,
+  20  | }, testInfo) => {
+  21  |   test.setTimeout(testInfo.timeout + 2 * environments.txTimeOut);
+  22  | 
+  23  |   // Registers as a DRep: single use, with a registered stake key as the old
+  24  |   // registerDRep wallets had.
+  25  |   const wallet = await stakeRegisteredWallet(
+  26  |     singleUseWalletName("2N:dRep"),
+  27  |     600
+  28  |   );
+  29  | 
+  30  |   const dRepPage = await createNewPageWithWallet(browser, { wallet });
+  31  | 
+  32  |   const dRepRegistrationPage = new DRepRegistrationPage(dRepPage);
+  33  |   await dRepRegistrationPage.goto();
+  34  | 
+  35  |   const name = faker.person.firstName();
+  36  |   const objectives = faker.lorem.paragraph(2);
+  37  |   const motivations = faker.lorem.paragraph(2);
+  38  |   const qualifications = faker.lorem.paragraph(2);
+  39  |   const paymentAddress = wallet.address;
+  40  |   const linksReferenceLinks: LinkType[] = [
+  41  |     {
+  42  |       url: faker.internet.url(),
+  43  |       description: faker.internet.displayName(),
+  44  |     },
+  45  |   ];
+  46  | 
+  47  |   const identityReferenceLinks: LinkType[] = [
+  48  |     {
+  49  |       url: faker.internet.url(),
+  50  |       description: faker.internet.displayName(),
+  51  |     },
+  52  |   ];
+  53  | 
+  54  |   await expect(dRepPage.getByTestId("alert-success")).not.toBeVisible();
+  55  | 
+  56  |   await dRepRegistrationPage.register({
+  57  |     name,
+  58  |     objectives,
+  59  |     motivations,
+  60  |     qualifications,
+  61  |     paymentAddress,
+  62  |     linksReferenceLinks,
+  63  |     identityReferenceLinks,
+  64  |   });
+  65  | 
+  66  |   await dRepRegistrationPage.confirmBtn.click();
+  67  | 
+  68  |   // Add an assertion to prevent clicking on "View Your dRep Details".
+  69  |   // The card shows once the registration is on chain and the frontend's
+  70  |   // 15 s status check has read it back, which on preview takes longer than
+  71  |   // a minute.
+  72  |   await expect(
+  73  |     dRepPage.getByTestId("dRep-id-display-card-dashboard")
+> 74  |   ).toContainText(wallet.dRepId, { timeout: environments.txTimeOut });
+      |     ^ Error: expect(locator).toContainText(expected) failed
+  75  |   await dRepPage.getByTestId("view-drep-details-button").click();
+  76  | 
+  77  |   // Verification
+  78  |   await expect(dRepPage.getByTestId("copy-drep-id-button")).toHaveText(
+  79  |     wallet.dRepId
+  80  |   );
+  81  |   await expect(dRepPage.getByTestId("copy-payment-address-button")).toHaveText(
+  82  |     paymentAddress,
+  83  |     {
+  84  |       timeout: 60_000,
+  85  |     }
+  86  |   );
+  87  |   await expect(dRepPage.getByTestId("Active-pill")).toHaveText("Active");
+  88  |   await expect(dRepPage.getByTestId("voting-power")).toHaveText("₳ 0");
+  89  | 
+  90  |   await expect(
+  91  |     dRepPage.getByTestId("objectives-info-item-description")
+  92  |   ).toHaveText(objectives);
+  93  |   await expect(
+  94  |     dRepPage.getByTestId("motivations-info-item-description")
+  95  |   ).toHaveText(motivations);
+  96  |   await expect(
+  97  |     dRepPage.getByTestId("qualifications-info-item-description")
+  98  |   ).toHaveText(qualifications);
+  99  | 
+  100 |   for (const link of linksReferenceLinks) {
+  101 |     await expect(
+  102 |       dRepPage.getByTestId(`${link.description.toLowerCase()}-link`)
+  103 |     ).toHaveText(link.url);
+  104 |   }
+  105 | 
+  106 |   for (const link of identityReferenceLinks) {
+  107 |     await expect(
+  108 |       dRepPage.getByTestId(`${link.description.toLowerCase()}-link`)
+  109 |     ).toHaveText(link.url);
+  110 |   }
+  111 | });
+  112 | 
+```

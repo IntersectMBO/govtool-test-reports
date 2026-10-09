@@ -1,0 +1,198 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 7-proposal-submission/proposalSubmission.ga.spec.ts >> 7H_5. Should submit a hard fork proposal as governance action
+- Location: tests/7-proposal-submission/proposalSubmission.ga.spec.ts:34:7
+
+# Error details
+
+```
+Error: expect(locator).toHaveText(expected) failed
+
+Locator: getByTestId('ga-submitted-modal-title')
+Expected pattern: /governance action submitted!/i
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toHaveText" with timeout 60000ms
+  - waiting for getByTestId('ga-submitted-modal-title')
+
+```
+
+# Test source
+
+```ts
+  1   | import environments from "@constants/environments";
+  2   | import { test } from "@fixtures/proposal";
+  3   | import { setAllureEpic } from "@helpers/allure";
+  4   | import { createNewPageWithWallet, logWalletDetails } from "@helpers/page";
+  5   | import { waitForTxConfirmation } from "@helpers/transaction";
+  6   | import ProposalDiscussionPage from "@pages/proposalDiscussionPage";
+  7   | import ProposalSubmissionPage from "@pages/proposalSubmissionPage";
+  8   | import { expect } from "@playwright/test";
+  9   | import { skipIfMainnet, skipIfScheduledWorkflow } from "@helpers/cardano";
+  10  | import { valid as mockValid, invalid as mockInvalid } from "@mock/index";
+  11  | import { getProposalType } from "@helpers/index";
+  12  | import { faker } from "@faker-js/faker";
+  13  | import ProposalDiscussionDetailsPage from "@pages/proposalDiscussionDetailsPage";
+  14  | import kuberService from "@services/kuberService";
+  15  | import { TestWallet } from "lib/wallet/testWallets";
+  16  | import { stakeRegisteredWallet } from "lib/wallet/transactions";
+  17  | 
+  18  | test.beforeEach(async () => {
+  19  |   await setAllureEpic("7. Proposal submission");
+  20  |   await skipIfMainnet();
+  21  | });
+  22  | 
+  23  | /**
+  24  |  * The named wallet, funded with the governance action deposit and fees. Its
+  25  |  * stake key, the deposit return account, is registered, as the faucet stake
+  26  |  * key the old proposal wallets used was.
+  27  |  */
+  28  | async function proposalSubmissionWallet(name: string): Promise<TestWallet> {
+  29  |   const { govActionDeposit } = await kuberService.queryProtocolParams();
+  30  |   return stakeRegisteredWallet(name, govActionDeposit / 1_000_000 + 22);
+  31  | }
+  32  | 
+  33  | getProposalType().forEach((proposalType, index) => {
+  34  |   test(`7H_${index + 1}. Should submit a ${proposalType.toLocaleLowerCase()} proposal as governance action`, async ({
+  35  |     browser,
+  36  |   }, testInfo) => {
+  37  |     await skipIfScheduledWorkflow();
+  38  |     test.setTimeout(testInfo.timeout + 2 * environments.txTimeOut);
+  39  | 
+  40  |     const wallet = await proposalSubmissionWallet(`7H_${index + 1}:proposer`);
+  41  | 
+  42  |     await logWalletDetails(wallet.address);
+  43  | 
+  44  |     const userPage = await createNewPageWithWallet(browser, { wallet });
+  45  | 
+  46  |     const proposalDiscussionPage = new ProposalDiscussionPage(userPage);
+  47  |     await proposalDiscussionPage.goto();
+  48  |     await proposalDiscussionPage.verifyIdentity();
+  49  | 
+  50  |     const proposalSubmissionPage = new ProposalSubmissionPage(userPage);
+  51  |     await proposalSubmissionPage.proposalCreateBtn.click();
+  52  |     await proposalDiscussionPage.continueBtn.click();
+  53  | 
+  54  |     await proposalSubmissionPage.createProposal(
+  55  |       wallet.stakeAddress,
+  56  |       proposalType
+  57  |     );
+  58  | 
+  59  |     await userPage.getByTestId("submit-as-GA-button").click();
+  60  | 
+  61  |     await userPage.getByTestId("agree-checkbox").click();
+  62  |     proposalSubmissionPage.continueBtn.click();
+  63  | 
+  64  |     await proposalSubmissionPage.fillUpValidMetadata();
+  65  | 
+> 66  |     await expect(userPage.getByTestId("ga-submitted-modal-title")).toHaveText(
+      |                                                                    ^ Error: expect(locator).toHaveText(expected) failed
+  67  |       /governance action submitted!/i,
+  68  |       {
+  69  |         timeout: 60_000,
+  70  |       }
+  71  |     );
+  72  | 
+  73  |     await waitForTxConfirmation(userPage);
+  74  |   });
+  75  | });
+  76  | 
+  77  | test.describe("Proposed as a governance action", async () => {
+  78  |   let proposalSubmissionPage: ProposalSubmissionPage;
+  79  |   let proposalDiscussionDetailPage: ProposalDiscussionDetailsPage | undefined;
+  80  |   let proposalId: number | undefined;
+  81  |   let wallet: TestWallet;
+  82  | 
+  83  |   // Once per worker: on a fresh run the wallet needs a faucet transfer, a
+  84  |   // stake registration and Blockfrost to index it, three waits of up to
+  85  |   // txTimeOut each, which overran a single test's budget (7J_1, 7J_2). None
+  86  |   // of these tests submits a transaction, so the funding lasts.
+  87  |   test.beforeAll(async () => {
+  88  |     test.setTimeout(3 * environments.txTimeOut + 120_000);
+  89  |     wallet = await proposalSubmissionWallet("7:gaProposer");
+  90  |     await logWalletDetails(wallet.address);
+  91  |   });
+  92  | 
+  93  |   test.beforeEach(async ({ browser }, testInfo) => {
+  94  |     test.setTimeout(testInfo.timeout + environments.txTimeOut);
+  95  |     // Left unset if this hook fails early, so afterEach has nothing to delete
+  96  |     // rather than the previous test's proposal.
+  97  |     proposalDiscussionDetailPage = undefined;
+  98  |     proposalId = undefined;
+  99  | 
+  100 |     const page = await createNewPageWithWallet(browser, { wallet });
+  101 | 
+  102 |     proposalSubmissionPage = new ProposalSubmissionPage(page);
+  103 |     await proposalSubmissionPage.goto();
+  104 | 
+  105 |     const detailsPage = new ProposalDiscussionDetailsPage(page);
+  106 |     proposalDiscussionDetailPage = detailsPage;
+  107 | 
+  108 |     proposalId = await proposalSubmissionPage.createProposal(
+  109 |       wallet.stakeAddress
+  110 |     );
+  111 |     await detailsPage.submitAsGABtn.click();
+  112 |     await proposalSubmissionPage.currentPage
+  113 |       .getByTestId("agree-checkbox")
+  114 |       .click();
+  115 |     await proposalSubmissionPage.continueBtn.click();
+  116 |   });
+  117 | 
+  118 |   test.afterEach(async () => {
+  119 |     await skipIfMainnet();
+  120 |     // cleanup: nothing to delete when beforeEach failed before creating it
+  121 |     if (!proposalDiscussionDetailPage || proposalId === undefined) return;
+  122 |     const detailsPage = proposalDiscussionDetailPage;
+  123 |     await detailsPage.goto(proposalId);
+  124 | 
+  125 |     // After the reload pdf-ui shows either the sign-in link or, once signed
+  126 |     // in, the owner's menu; the link takes a few seconds to appear, so wait
+  127 |     // for one of them rather than checking right away.
+  128 |     await expect(
+  129 |       detailsPage.verifyIdentityBtn.or(detailsPage.menuBtn).first()
+  130 |     ).toBeVisible({ timeout: 60_000 });
+  131 |     if (await detailsPage.verifyIdentityBtn.isVisible()) {
+  132 |       await detailsPage.verifyIdentity();
+  133 |     }
+  134 | 
+  135 |     await detailsPage.deleteProposal();
+  136 |   });
+  137 | 
+  138 |   test.describe("Metadata anchor validation", () => {
+  139 |     test("7J_1. Should accept valid metadata anchor on proposal submission", async () => {
+  140 |       test.slow(); // Brute-force testing with 50 random data
+  141 |       for (let i = 0; i < 50; i++) {
+  142 |         await proposalSubmissionPage.metadataUrlInput.fill(mockValid.url());
+  143 |         await expect(
+  144 |           proposalSubmissionPage.currentPage.getByTestId("url-input-error-text")
+  145 |         ).toBeHidden();
+  146 |       }
+  147 |     });
+  148 | 
+  149 |     test("7J_2. Should reject invalid metadata anchor on proposal submission", async () => {
+  150 |       test.slow(); // Brute-force testing with 50 random data
+  151 |       for (let i = 0; i < 50; i++) {
+  152 |         await proposalSubmissionPage.metadataUrlInput.fill(
+  153 |           mockInvalid.url(false)
+  154 |         );
+  155 |         await expect(
+  156 |           proposalSubmissionPage.currentPage.getByTestId("url-input-error-text")
+  157 |         ).toBeVisible();
+  158 |       }
+  159 | 
+  160 |       const sentenceWithoutSpace = faker.lorem
+  161 |         .sentence(128)
+  162 |         .replace(/[\s.]/g, "");
+  163 |       const metadataAnchorGreaterThan128Bytes =
+  164 |         faker.internet.url({ appendSlash: true }) + sentenceWithoutSpace;
+  165 | 
+  166 |       await proposalSubmissionPage.metadataUrlInput.fill(
+```
