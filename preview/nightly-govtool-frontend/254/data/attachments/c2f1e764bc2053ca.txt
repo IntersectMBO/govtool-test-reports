@@ -1,0 +1,5 @@
+✖ Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID
+✖ Access to XMLHttpRequest at 'https://pdf.preview.gov.tools/api/governance-action-types' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED
+✖ Access to XMLHttpRequest at 'https://pdf.preview.gov.tools/api/auth/challenge?identifier=e0cec500cbf8ca45ebd5c01af8e0144ad585d2dee9ae6d0699a3a849b1' from origin 'https://preview.gov.tools' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+✖ Failed to load resource: net::ERR_FAILED

@@ -1,0 +1,174 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 6-miscellaneous/miscellaneous.loggedin.spec.ts >> Temporary user >> 6J. Should add a username.
+- Location: tests/6-miscellaneous/miscellaneous.loggedin.spec.ts:123:7
+
+# Error details
+
+```
+Test timeout of 180000ms exceeded.
+```
+
+```
+Error: locator.fill: Test timeout of 180000ms exceeded.
+Call log:
+  - waiting for getByTestId('username-input')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - link "app-logo" [ref=e12] [cursor=pointer]:
+        - /url: /dashboard
+        - img "app-logo" [ref=e13]
+      - generic [ref=e14]:
+        - link "icon Home" [ref=e16] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e17]:
+            - img "icon" [ref=e18]
+            - paragraph [ref=e19]: Home
+        - link "icon DRep Directory" [ref=e21] [cursor=pointer]:
+          - /url: /connected/drep_directory
+          - generic [ref=e22]:
+            - img "icon" [ref=e23]
+            - paragraph [ref=e24]: DRep Directory
+        - link "icon Budget Proposals" [ref=e26] [cursor=pointer]:
+          - /url: /budget_discussion
+          - generic [ref=e27]:
+            - img "icon" [ref=e28]
+            - paragraph [ref=e29]: Budget Proposals
+        - generic [ref=e30]:
+          - link "icon Governance Actions" [ref=e31] [cursor=pointer]:
+            - /url: /connected/governance_actions
+            - generic [ref=e32]:
+              - img "icon" [ref=e33]
+              - paragraph [ref=e34]: Governance Actions
+          - generic [ref=e35]:
+            - link "Proposals" [ref=e36] [cursor=pointer]:
+              - /url: /proposal_discussion
+              - generic [ref=e37]:
+                - img [ref=e39]
+                - paragraph [ref=e41]: Proposals
+            - link "icon Live Voting" [ref=e42] [cursor=pointer]:
+              - /url: /connected/governance_actions
+              - generic [ref=e43]:
+                - img "icon" [ref=e44]
+                - paragraph [ref=e45]: Live Voting
+            - link "icon Outcomes" [ref=e46] [cursor=pointer]:
+              - /url: /outcomes
+              - generic [ref=e47]:
+                - img "icon" [ref=e48]
+                - paragraph [ref=e49]: Outcomes
+        - link "icon Guides" [ref=e51] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e52]:
+            - img "icon" [ref=e53]
+            - paragraph [ref=e54]: Guides
+        - link "icon FAQs" [ref=e56] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e57]:
+            - img "icon" [ref=e58]
+            - paragraph [ref=e59]: FAQs
+      - generic [ref=e62]:
+        - paragraph [ref=e63]: "Connected Wallet:"
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: 00b3684751d362997226db6cdacd6ef8c9290e20411490764fda6f375a1748074569765573e2f8f9fd2dacfdd60985b634e1be918a8b9e54af
+          - button "Disconnect" [ref=e66] [cursor=pointer]: Disconnect
+    - generic [ref=e67]:
+      - navigation [ref=e68]:
+        - paragraph [ref=e70]: Proposals
+      - generic [ref=e78]:
+        - heading "Proposed Governance Actions" [level=1] [ref=e80]
+        - generic [ref=e82]:
+          - button "Propose a Governance Action" [disabled]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: To submit a proposal, you need to
+            - paragraph [ref=e86]:
+              - generic [ref=e87] [cursor=pointer]: connect a Cardano wallet
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - textbox "Search..." [ref=e94]
+          - group
+        - generic [ref=e96]:
+          - button "Filter:" [ref=e97] [cursor=pointer]:
+            - text: "Filter:"
+            - img [ref=e99]
+          - 'button "Sort: Newest" [ref=e101] [cursor=pointer]':
+            - text: "Sort: Newest"
+            - img [ref=e103]
+      - contentinfo [ref=e105]:
+        - paragraph [ref=e106]: © 2026 GovTool
+        - generic [ref=e107]:
+          - generic [ref=e108] [cursor=pointer]: Privacy policy
+          - generic [ref=e109] [cursor=pointer]: Terms of Use
+        - generic [ref=e110]:
+          - button "helpIcon Help" [ref=e111] [cursor=pointer]:
+            - img "helpIcon" [ref=e113]
+            - text: Help
+          - button "Subscribe to updates" [ref=e114] [cursor=pointer]: Subscribe to updates
+          - button "Feedback" [ref=e115] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e116]
+```
+
+# Test source
+
+```ts
+  1  | import { valid as mockValid } from "@mock/index";
+  2  | import { expect, Page } from "@playwright/test";
+  3  | 
+  4  | /** Sets the pdf username through the "setup your username" modal. */
+  5  | export async function setPdfUsername(page: Page, name: string) {
+> 6  |   await page.getByTestId("username-input").fill(name);
+     |                                            ^ Error: locator.fill: Test timeout of 180000ms exceeded.
+  7  | 
+  8  |   const proceedBtn = page.getByTestId("proceed-button");
+  9  |   await proceedBtn.click();
+  10 |   await proceedBtn.click();
+  11 | 
+  12 |   await page.getByTestId("close-button").click();
+  13 | }
+  14 | 
+  15 | /**
+  16 |  * Call right after clicking `verify-user-link`. Test wallets are new each run,
+  17 |  * so the first pdf sign-in has no username and pdf-ui opens the "setup your
+  18 |  * username" modal. Waits until the sign-in either opens that modal, which then
+  19 |  * gets a unique valid username, or completes for a user that already has one.
+  20 |  * Returns whether a username was set.
+  21 |  */
+  22 | export async function setUsernameIfPrompted(
+  23 |   page: Page,
+  24 |   timeout = 30_000
+  25 | ): Promise<boolean> {
+  26 |   const modal = page.getByTestId("setup-username-modal");
+  27 |   // pdf-ui shows one of these links until the user is signed in and named.
+  28 |   const pending = page
+  29 |     .getByTestId("verify-user-link")
+  30 |     .or(page.getByTestId("create-govtool-display-name-link"));
+  31 | 
+  32 |   let prompted = false;
+  33 |   await expect(async () => {
+  34 |     prompted = await modal.isVisible();
+  35 |     if (!prompted) expect(await pending.count()).toBe(0);
+  36 |   }, "pdf sign-in did not complete").toPass({ timeout });
+  37 | 
+  38 |   if (prompted) await setPdfUsername(page, mockValid.username());
+  39 |   return prompted;
+  40 | }
+  41 | 
+```

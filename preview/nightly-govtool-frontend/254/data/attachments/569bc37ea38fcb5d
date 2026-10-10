@@ -1,0 +1,223 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 11-budget-proposals-archive/budgetProposalsArchive.spec.ts >> 11C. Should show every proposal of a category on its category page
+- Location: tests/11-budget-proposals-archive/budgetProposalsArchive.spec.ts:154:5
+
+# Error details
+
+```
+SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+```
+
+# Test source
+
+```ts
+  65  | 
+  66  |   test.beforeEach(async ({ page }) => {
+  67  |     budgetDiscussionPage = new BudgetDiscussionPage(page);
+  68  |     await budgetDiscussionPage.goto();
+  69  |   });
+  70  | 
+  71  |   test("11B_1. Should search budget proposals by title", async () => {
+  72  |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  73  |     const proposalName =
+  74  |       items[Math.floor(Math.random() * items.length)].attributes
+  75  |         .bd_proposal_detail.data.attributes.proposal_name;
+  76  | 
+  77  |     await budgetDiscussionPage.searchInput.fill(proposalName);
+  78  | 
+  79  |     await expect(async () => {
+  80  |       const proposalCards = await budgetDiscussionPage.getAllProposals();
+  81  |       for (const proposalCard of proposalCards) {
+  82  |         const title = await proposalCard
+  83  |           .getByTestId("budget-discussion-title")
+  84  |           .textContent();
+  85  |         expect(title.toLowerCase()).toContain(proposalName.toLowerCase());
+  86  |       }
+  87  |     }).toPass();
+  88  |   });
+  89  | 
+  90  |   test("11B_2. Should filter budget proposals by categories", async () => {
+  91  |     test.slow();
+  92  |     await budgetDiscussionPage.filterBtn.click();
+  93  | 
+  94  |     await budgetDiscussionPage.applyAndValidateFilters(
+  95  |       Object.values(BudgetDiscussionEnum),
+  96  |       budgetDiscussionPage._validateTypeFiltersInProposalCard
+  97  |     );
+  98  |   });
+  99  | 
+  100 |   test("11B_3. Should sort budget proposals", async () => {
+  101 |     test.slow();
+  102 |     await budgetDiscussionPage.showAll(BudgetDiscussionEnum.Core);
+  103 | 
+  104 |     const title = (card: Locator) =>
+  105 |       card.getByTestId("budget-discussion-title").innerText();
+  106 |     const proposer = async (card: Locator) =>
+  107 |       (await card.getByTestId("budget-discussion-creator").innerText()).replace(
+  108 |         /^@/,
+  109 |         ""
+  110 |       );
+  111 |     const comments = async (card: Locator) =>
+  112 |       Number(await card.locator('[data-testid$="-comment-count"]').innerText());
+  113 |     const proposedOn = async (card: Locator) =>
+  114 |       Date.parse(await card.getByTestId("proposed-date").innerText());
+  115 |     const ascending = (a: string, b: string) =>
+  116 |       a.localeCompare(b, undefined, { sensitivity: "base" }) <= 0;
+  117 |     const descending = (a: string, b: string) => ascending(b, a);
+  118 | 
+  119 |     await budgetDiscussionPage.sortAndValidate(
+  120 |       "Oldest",
+  121 |       proposedOn,
+  122 |       (a, b) => a <= b
+  123 |     );
+  124 |     await budgetDiscussionPage.sortAndValidate(
+  125 |       "Newest",
+  126 |       proposedOn,
+  127 |       (a, b) => a >= b
+  128 |     );
+  129 |     await budgetDiscussionPage.sortAndValidate(
+  130 |       "Most comments",
+  131 |       comments,
+  132 |       (a, b) => a >= b
+  133 |     );
+  134 |     await budgetDiscussionPage.sortAndValidate(
+  135 |       "Least comments",
+  136 |       comments,
+  137 |       (a, b) => a <= b
+  138 |     );
+  139 |     await budgetDiscussionPage.sortAndValidate("Name A-Z", title, ascending);
+  140 |     await budgetDiscussionPage.sortAndValidate("Name Z-A", title, descending);
+  141 |     await budgetDiscussionPage.sortAndValidate(
+  142 |       "Proposer A-Z",
+  143 |       proposer,
+  144 |       ascending
+  145 |     );
+  146 |     await budgetDiscussionPage.sortAndValidate(
+  147 |       "Proposer Z-A",
+  148 |       proposer,
+  149 |       descending
+  150 |     );
+  151 |   });
+  152 | });
+  153 | 
+  154 | test("11C. Should show every proposal of a category on its category page", async ({
+  155 |   browser,
+  156 | }) => {
+  157 |   await Promise.all(
+  158 |     Object.values(BudgetDiscussionEnum).map(async (category) => {
+  159 |       const context = await browser.newContext();
+  160 |       const page = await context.newPage();
+  161 |       injectLogger(page);
+  162 | 
+  163 |       const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  164 |       await budgetDiscussionPage.goto();
+> 165 |       const { items } = await budgetDiscussionPage.fetchArchiveList();
+      |                         ^ SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+  166 |       const expectedType =
+  167 |         category === BudgetDiscussionEnum.NoCategory
+  168 |           ? "None of these"
+  169 |           : category;
+  170 |       const expectedCount = items.filter(
+  171 |         (item) =>
+  172 |           item.attributes.bd_psapb.data.attributes.type_name.data.attributes
+  173 |             .type_name === expectedType
+  174 |       ).length;
+  175 | 
+  176 |       await budgetDiscussionPage.showAll(category);
+  177 |       await expect(page).toHaveURL(/\/budget_discussion\/category\//);
+  178 |       await expect(budgetDiscussionPage.backToListBtn).toBeVisible();
+  179 | 
+  180 |       const proposalCards = await budgetDiscussionPage.getAllProposals();
+  181 |       expect(proposalCards).toHaveLength(expectedCount);
+  182 |       for (const proposalCard of proposalCards) {
+  183 |         await expect(
+  184 |           proposalCard.getByTestId("budget-discussion-type")
+  185 |         ).toHaveText(expectedType);
+  186 |       }
+  187 |       await context.close();
+  188 |     })
+  189 |   );
+  190 | });
+  191 | 
+  192 | test("11D. Should share an archived budget proposal", async ({
+  193 |   page,
+  194 |   context,
+  195 | }) => {
+  196 |   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+  197 |   const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  198 |   await budgetDiscussionPage.goto();
+  199 | 
+  200 |   const budgetDiscussionDetailsPage =
+  201 |     await budgetDiscussionPage.viewFirstProposal();
+  202 |   await budgetDiscussionDetailsPage.titleContent.waitFor();
+  203 |   const proposalId = extractProposalIdFromUrl(page.url());
+  204 | 
+  205 |   await budgetDiscussionDetailsPage.shareBtn.click();
+  206 |   await budgetDiscussionDetailsPage.copyLinkBtn.click();
+  207 |   await expect(budgetDiscussionDetailsPage.copyLinkText).toBeVisible();
+  208 | 
+  209 |   const copiedText = await page.evaluate(() => navigator.clipboard.readText());
+  210 |   expect(copiedText).toEqual(
+  211 |     `${environments.frontendUrl}/budget_discussion/${proposalId}`
+  212 |   );
+  213 | });
+  214 | 
+  215 | test.describe("Archived budget proposal details", () => {
+  216 |   let budgetDiscussionPage: BudgetDiscussionPage;
+  217 |   let budgetDiscussionDetailsPage: BudgetDiscussionDetailsPage;
+  218 |   let apiCalls: string[];
+  219 | 
+  220 |   test.beforeEach(async ({ page }) => {
+  221 |     apiCalls = recordBudgetDiscussionApiCalls(page);
+  222 |     budgetDiscussionPage = new BudgetDiscussionPage(page);
+  223 |     budgetDiscussionDetailsPage = new BudgetDiscussionDetailsPage(page);
+  224 |   });
+  225 | 
+  226 |   test.afterEach(() => {
+  227 |     expect(apiCalls).toEqual([]);
+  228 |   });
+  229 | 
+  230 |   test("11E. Should show the comment count and every comment thread", async ({
+  231 |     page,
+  232 |   }) => {
+  233 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  234 |     const discussion = pickDiscussion(
+  235 |       items,
+  236 |       (item) => item.attributes.prop_comments_number > 25
+  237 |     );
+  238 |     const responsePromise = page.waitForResponse(
+  239 |       `**${BUDGET_ARCHIVE_PATH}/${discussion.attributes.master_id}.json`
+  240 |     );
+  241 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  242 |     const { comments } = await (await responsePromise).json();
+  243 | 
+  244 |     const total = comments.length;
+  245 |     await expect(budgetDiscussionDetailsPage.totalComments).toHaveText(
+  246 |       total > 99 ? "99+" : `${total}`
+  247 |     );
+  248 | 
+  249 |     const threads = comments.filter(
+  250 |       (comment) => comment.attributes.comment_parent_id === null
+  251 |     ).length;
+  252 |     await expect(budgetDiscussionDetailsPage.commentCards).toHaveCount(
+  253 |       Math.min(threads, 25)
+  254 |     );
+  255 |     while (await budgetDiscussionDetailsPage.loadMoreCommentsBtn.isVisible()) {
+  256 |       await budgetDiscussionDetailsPage.loadMoreCommentsBtn.click();
+  257 |     }
+  258 |     await expect(budgetDiscussionDetailsPage.commentCards).toHaveCount(threads);
+  259 |   });
+  260 | 
+  261 |   test("11F. Should be read-only", async () => {
+  262 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  263 |     const discussion = pickDiscussion(
+  264 |       items,
+  265 |       (item) => item.attributes.prop_comments_number > 0 && !!item.archive.poll
+```

@@ -1,0 +1,241 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 6-miscellaneous/miscellaneous.loggedin.spec.ts >> Temporary user >> 6L. Should reject invalid username.
+- Location: tests/6-miscellaneous/miscellaneous.loggedin.spec.ts:138:7
+
+# Error details
+
+```
+Test timeout of 180000ms exceeded.
+```
+
+```
+Error: locator.fill: Test timeout of 180000ms exceeded.
+Call log:
+  - waiting for getByTestId('username-input')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - link "app-logo" [ref=e12] [cursor=pointer]:
+        - /url: /dashboard
+        - img "app-logo" [ref=e13]
+      - generic [ref=e14]:
+        - link "icon Home" [ref=e16] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e17]:
+            - img "icon" [ref=e18]
+            - paragraph [ref=e19]: Home
+        - link "icon DRep Directory" [ref=e21] [cursor=pointer]:
+          - /url: /connected/drep_directory
+          - generic [ref=e22]:
+            - img "icon" [ref=e23]
+            - paragraph [ref=e24]: DRep Directory
+        - link "icon Budget Proposals" [ref=e26] [cursor=pointer]:
+          - /url: /budget_discussion
+          - generic [ref=e27]:
+            - img "icon" [ref=e28]
+            - paragraph [ref=e29]: Budget Proposals
+        - generic [ref=e30]:
+          - link "icon Governance Actions" [ref=e31] [cursor=pointer]:
+            - /url: /connected/governance_actions
+            - generic [ref=e32]:
+              - img "icon" [ref=e33]
+              - paragraph [ref=e34]: Governance Actions
+          - generic [ref=e35]:
+            - link "Proposals" [ref=e36] [cursor=pointer]:
+              - /url: /proposal_discussion
+              - generic [ref=e37]:
+                - img [ref=e39]
+                - paragraph [ref=e41]: Proposals
+            - link "icon Live Voting" [ref=e42] [cursor=pointer]:
+              - /url: /connected/governance_actions
+              - generic [ref=e43]:
+                - img "icon" [ref=e44]
+                - paragraph [ref=e45]: Live Voting
+            - link "icon Outcomes" [ref=e46] [cursor=pointer]:
+              - /url: /outcomes
+              - generic [ref=e47]:
+                - img "icon" [ref=e48]
+                - paragraph [ref=e49]: Outcomes
+        - link "icon Guides" [ref=e51] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e52]:
+            - img "icon" [ref=e53]
+            - paragraph [ref=e54]: Guides
+        - link "icon FAQs" [ref=e56] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e57]:
+            - img "icon" [ref=e58]
+            - paragraph [ref=e59]: FAQs
+      - generic [ref=e62]:
+        - paragraph [ref=e63]: "Connected Wallet:"
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: 0012fa0acc7675b72b7a516ac6c7fe8e668f0b0b7b277e7852d0a3845ea73300d43255d604fdfcefdbb5a405be0c1f83718fa7debce0aa72d0
+          - button "Disconnect" [ref=e66] [cursor=pointer]: Disconnect
+    - generic [ref=e67]:
+      - navigation [ref=e68]:
+        - paragraph [ref=e70]: Proposals
+      - generic [ref=e78]:
+        - heading "Proposed Governance Actions" [level=1] [ref=e80]
+        - generic [ref=e82]:
+          - button "Propose a Governance Action" [disabled]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: To submit a proposal, you need to
+            - paragraph [ref=e86]:
+              - generic [ref=e87] [cursor=pointer]: connect a Cardano wallet
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - textbox "Search..." [ref=e94]
+          - group
+        - generic [ref=e96]:
+          - button "Filter:" [ref=e97] [cursor=pointer]:
+            - text: "Filter:"
+            - img [ref=e99]
+          - 'button "Sort: Newest" [ref=e101] [cursor=pointer]':
+            - text: "Sort: Newest"
+            - img [ref=e103]
+      - contentinfo [ref=e105]:
+        - paragraph [ref=e106]: © 2026 GovTool
+        - generic [ref=e107]:
+          - generic [ref=e108] [cursor=pointer]: Privacy policy
+          - generic [ref=e109] [cursor=pointer]: Terms of Use
+        - generic [ref=e110]:
+          - button "helpIcon Help" [ref=e111] [cursor=pointer]:
+            - img "helpIcon" [ref=e113]
+            - text: Help
+          - button "Subscribe to updates" [ref=e114] [cursor=pointer]: Subscribe to updates
+          - button "Feedback" [ref=e115] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e116]
+```
+
+# Test source
+
+```ts
+  40  | 
+  41  |     const [registerLearnMorepage] = await Promise.all([
+  42  |       context.waitForEvent("page"),
+  43  |       page.getByTestId("d-rep-learn-more-button").click(),
+  44  |     ]);
+  45  |     await expect(registerLearnMorepage).toHaveURL(
+  46  |       docsPage(REGISTER_DREP_DOC_URL)
+  47  |     );
+  48  | 
+  49  |     const [directVoterLearnMorepage] = await Promise.all([
+  50  |       context.waitForEvent("page"),
+  51  |       page.getByTestId("direct-voter-learn-more-button").first().click(),
+  52  |     ]);
+  53  |     await expect(directVoterLearnMorepage).toHaveURL(
+  54  |       docsPage(DIRECT_VOTER_DOC_URL)
+  55  |     );
+  56  | 
+  57  |     const [GA_LearnMorepage] = await Promise.all([
+  58  |       context.waitForEvent("page"),
+  59  |       page.getByTestId("list-gov-actions-learn-more-button").click(),
+  60  |     ]);
+  61  |     await expect(GA_LearnMorepage).toHaveURL(
+  62  |       docsPage(GOVERNANCE_ACTION_DOC_URL)
+  63  |     );
+  64  | 
+  65  |     const [proposed_GA_VoterLearnMorepage] = await Promise.all([
+  66  |       context.waitForEvent("page"),
+  67  |       page.getByTestId("propose-gov-action-learn-more-button").click(),
+  68  |     ]);
+  69  |     await expect(proposed_GA_VoterLearnMorepage).toHaveURL(
+  70  |       docsPage(PROPOSE_GOVERNANCE_ACTION_DOC_URL)
+  71  |     );
+  72  |   });
+  73  | 
+  74  |   test("6F. Should open sanchonet docs in a new tab when clicking `info` button of abstain and signal-no-confidence card", async ({
+  75  |     page,
+  76  |     context,
+  77  |   }) => {
+  78  |     const dRepDirectoryPage = new DRepDirectoryPage(page);
+  79  |     await dRepDirectoryPage.goto();
+  80  | 
+  81  |     await dRepDirectoryPage.automaticDelegationOptionsDropdown.click();
+  82  | 
+  83  |     const [abstain_Info_Page] = await Promise.all([
+  84  |       context.waitForEvent("page"),
+  85  |       dRepDirectoryPage.abstainInfoButton.click(),
+  86  |     ]);
+  87  |     await expect(abstain_Info_Page).toHaveURL(docsPage(ABSTAIN_VOTE_DOC_URL));
+  88  | 
+  89  |     const [signal_No_Confidence_Info_Page] = await Promise.all([
+  90  |       context.waitForEvent("page"),
+  91  |       dRepDirectoryPage.signalNoConfidenceInfoButton.click(),
+  92  |     ]);
+  93  |     await expect(signal_No_Confidence_Info_Page).toHaveURL(
+  94  |       docsPage(SIGNAL_NO_CONFIDENCE_VOTE_DOC_URL)
+  95  |     );
+  96  |   });
+  97  | 
+  98  |   test("6I. Should prompt for a username after clicking on proposal discussion link if username is not set", async ({
+  99  |     page,
+  100 |   }) => {
+  101 |     await page.goto("/");
+  102 |     await page.getByTestId("proposal-discussion-link").click();
+  103 |     await page.getByTestId("verify-user-link").first().click();
+  104 | 
+  105 |     await expect(page.getByTestId("setup-username-modal")).toBeVisible();
+  106 |     await expect(page.getByTestId("username-input")).toBeVisible();
+  107 |   });
+  108 | });
+  109 | 
+  110 | test.describe("Temporary user", () => {
+  111 |   let userPage: Page;
+  112 |   let proposalDiscussionPage: ProposalDiscussionPage;
+  113 | 
+  114 |   test.beforeEach(async ({ page }) => {
+  115 |     await connectTestWallet(page, await randomWallet());
+  116 |     userPage = page;
+  117 | 
+  118 |     proposalDiscussionPage = new ProposalDiscussionPage(userPage);
+  119 |     await proposalDiscussionPage.goto();
+  120 |     await proposalDiscussionPage.verifyIdentityBtn.click();
+  121 |   });
+  122 | 
+  123 |   test("6J. Should add a username.", async () => {
+  124 |     await proposalDiscussionPage.setUsername(mockValid.username());
+  125 |   });
+  126 | 
+  127 |   test("6K. Should accept valid username.", async () => {
+  128 |     for (let i = 0; i < 100; i++) {
+  129 |       await userPage.getByTestId("username-input").fill(mockValid.username());
+  130 | 
+  131 |       await expect(
+  132 |         userPage.getByTestId("username-error-text")
+  133 |       ).not.toBeVisible();
+  134 |       await expect(userPage.getByTestId("proceed-button")).toBeEnabled();
+  135 |     }
+  136 |   });
+  137 | 
+  138 |   test("6L. Should reject invalid username.", async () => {
+  139 |     for (let i = 0; i < 100; i++) {
+> 140 |       await userPage.getByTestId("username-input").fill(mockInvalid.username());
+      |                                                    ^ Error: locator.fill: Test timeout of 180000ms exceeded.
+  141 | 
+  142 |       await expect(userPage.getByTestId("username-error-text")).toBeVisible();
+  143 |       await expect(userPage.getByTestId("proceed-button")).toBeDisabled();
+  144 |     }
+  145 |   });
+  146 | });
+  147 | 
+```

@@ -1,0 +1,223 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 11-budget-proposals-archive/budgetProposalsArchive.spec.ts >> Archived budget proposal details >> 11E. Should show the comment count and every comment thread
+- Location: tests/11-budget-proposals-archive/budgetProposalsArchive.spec.ts:230:7
+
+# Error details
+
+```
+SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+```
+
+# Test source
+
+```ts
+  133 |     );
+  134 |     await budgetDiscussionPage.sortAndValidate(
+  135 |       "Least comments",
+  136 |       comments,
+  137 |       (a, b) => a <= b
+  138 |     );
+  139 |     await budgetDiscussionPage.sortAndValidate("Name A-Z", title, ascending);
+  140 |     await budgetDiscussionPage.sortAndValidate("Name Z-A", title, descending);
+  141 |     await budgetDiscussionPage.sortAndValidate(
+  142 |       "Proposer A-Z",
+  143 |       proposer,
+  144 |       ascending
+  145 |     );
+  146 |     await budgetDiscussionPage.sortAndValidate(
+  147 |       "Proposer Z-A",
+  148 |       proposer,
+  149 |       descending
+  150 |     );
+  151 |   });
+  152 | });
+  153 | 
+  154 | test("11C. Should show every proposal of a category on its category page", async ({
+  155 |   browser,
+  156 | }) => {
+  157 |   await Promise.all(
+  158 |     Object.values(BudgetDiscussionEnum).map(async (category) => {
+  159 |       const context = await browser.newContext();
+  160 |       const page = await context.newPage();
+  161 |       injectLogger(page);
+  162 | 
+  163 |       const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  164 |       await budgetDiscussionPage.goto();
+  165 |       const { items } = await budgetDiscussionPage.fetchArchiveList();
+  166 |       const expectedType =
+  167 |         category === BudgetDiscussionEnum.NoCategory
+  168 |           ? "None of these"
+  169 |           : category;
+  170 |       const expectedCount = items.filter(
+  171 |         (item) =>
+  172 |           item.attributes.bd_psapb.data.attributes.type_name.data.attributes
+  173 |             .type_name === expectedType
+  174 |       ).length;
+  175 | 
+  176 |       await budgetDiscussionPage.showAll(category);
+  177 |       await expect(page).toHaveURL(/\/budget_discussion\/category\//);
+  178 |       await expect(budgetDiscussionPage.backToListBtn).toBeVisible();
+  179 | 
+  180 |       const proposalCards = await budgetDiscussionPage.getAllProposals();
+  181 |       expect(proposalCards).toHaveLength(expectedCount);
+  182 |       for (const proposalCard of proposalCards) {
+  183 |         await expect(
+  184 |           proposalCard.getByTestId("budget-discussion-type")
+  185 |         ).toHaveText(expectedType);
+  186 |       }
+  187 |       await context.close();
+  188 |     })
+  189 |   );
+  190 | });
+  191 | 
+  192 | test("11D. Should share an archived budget proposal", async ({
+  193 |   page,
+  194 |   context,
+  195 | }) => {
+  196 |   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+  197 |   const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  198 |   await budgetDiscussionPage.goto();
+  199 | 
+  200 |   const budgetDiscussionDetailsPage =
+  201 |     await budgetDiscussionPage.viewFirstProposal();
+  202 |   await budgetDiscussionDetailsPage.titleContent.waitFor();
+  203 |   const proposalId = extractProposalIdFromUrl(page.url());
+  204 | 
+  205 |   await budgetDiscussionDetailsPage.shareBtn.click();
+  206 |   await budgetDiscussionDetailsPage.copyLinkBtn.click();
+  207 |   await expect(budgetDiscussionDetailsPage.copyLinkText).toBeVisible();
+  208 | 
+  209 |   const copiedText = await page.evaluate(() => navigator.clipboard.readText());
+  210 |   expect(copiedText).toEqual(
+  211 |     `${environments.frontendUrl}/budget_discussion/${proposalId}`
+  212 |   );
+  213 | });
+  214 | 
+  215 | test.describe("Archived budget proposal details", () => {
+  216 |   let budgetDiscussionPage: BudgetDiscussionPage;
+  217 |   let budgetDiscussionDetailsPage: BudgetDiscussionDetailsPage;
+  218 |   let apiCalls: string[];
+  219 | 
+  220 |   test.beforeEach(async ({ page }) => {
+  221 |     apiCalls = recordBudgetDiscussionApiCalls(page);
+  222 |     budgetDiscussionPage = new BudgetDiscussionPage(page);
+  223 |     budgetDiscussionDetailsPage = new BudgetDiscussionDetailsPage(page);
+  224 |   });
+  225 | 
+  226 |   test.afterEach(() => {
+  227 |     expect(apiCalls).toEqual([]);
+  228 |   });
+  229 | 
+  230 |   test("11E. Should show the comment count and every comment thread", async ({
+  231 |     page,
+  232 |   }) => {
+> 233 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+      |                       ^ SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+  234 |     const discussion = pickDiscussion(
+  235 |       items,
+  236 |       (item) => item.attributes.prop_comments_number > 25
+  237 |     );
+  238 |     const responsePromise = page.waitForResponse(
+  239 |       `**${BUDGET_ARCHIVE_PATH}/${discussion.attributes.master_id}.json`
+  240 |     );
+  241 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  242 |     const { comments } = await (await responsePromise).json();
+  243 | 
+  244 |     const total = comments.length;
+  245 |     await expect(budgetDiscussionDetailsPage.totalComments).toHaveText(
+  246 |       total > 99 ? "99+" : `${total}`
+  247 |     );
+  248 | 
+  249 |     const threads = comments.filter(
+  250 |       (comment) => comment.attributes.comment_parent_id === null
+  251 |     ).length;
+  252 |     await expect(budgetDiscussionDetailsPage.commentCards).toHaveCount(
+  253 |       Math.min(threads, 25)
+  254 |     );
+  255 |     while (await budgetDiscussionDetailsPage.loadMoreCommentsBtn.isVisible()) {
+  256 |       await budgetDiscussionDetailsPage.loadMoreCommentsBtn.click();
+  257 |     }
+  258 |     await expect(budgetDiscussionDetailsPage.commentCards).toHaveCount(threads);
+  259 |   });
+  260 | 
+  261 |   test("11F. Should be read-only", async () => {
+  262 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  263 |     const discussion = pickDiscussion(
+  264 |       items,
+  265 |       (item) => item.attributes.prop_comments_number > 0 && !!item.archive.poll
+  266 |     );
+  267 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  268 |     await expect(
+  269 |       budgetDiscussionDetailsPage.commentCards.first()
+  270 |     ).toBeVisible();
+  271 | 
+  272 |     await expect(budgetDiscussionDetailsPage.commentInput).toHaveCount(0);
+  273 |     await expect(budgetDiscussionDetailsPage.commentBtn).toHaveCount(0);
+  274 |     await expect(budgetDiscussionDetailsPage.replyBtn).toHaveCount(0);
+  275 |     await expect(budgetDiscussionDetailsPage.pollYesBtn).toHaveCount(0);
+  276 |     await expect(budgetDiscussionDetailsPage.pollNoBtn).toHaveCount(0);
+  277 |     await expect(budgetDiscussionDetailsPage.menuButton).toHaveCount(0);
+  278 |   });
+  279 | 
+  280 |   test("11G. Should show the final poll totals", async () => {
+  281 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  282 |     const discussion = pickDiscussion(
+  283 |       items,
+  284 |       (item) =>
+  285 |         item.archive.poll && item.archive.poll.yes + item.archive.poll.no > 0
+  286 |     );
+  287 |     const { yes, no } = discussion.archive.poll;
+  288 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  289 | 
+  290 |     await expect(budgetDiscussionDetailsPage.pollTotalVotes).toHaveText(
+  291 |       `Total votes: ${yes + no}`
+  292 |     );
+  293 |     await expect(budgetDiscussionDetailsPage.pollYesCount).toContainText(
+  294 |       `Yes: ${yes}`
+  295 |     );
+  296 |     await expect(budgetDiscussionDetailsPage.pollNoCount).toContainText(
+  297 |       `No: ${no}`
+  298 |     );
+  299 |   });
+  300 | 
+  301 |   test("11H. Should list every version", async ({ isMobile }) => {
+  302 |     // On a small screen the version list sits behind its own button.
+  303 |     test.skip(isMobile, "Desktop version list only");
+  304 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  305 |     const discussion = pickDiscussion(
+  306 |       items,
+  307 |       (item) => item.archive.versions > 2
+  308 |     );
+  309 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  310 | 
+  311 |     await budgetDiscussionDetailsPage.reviewVersionsBtn.click();
+  312 |     const dialog = budgetDiscussionDetailsPage.reviewVersionsDialog;
+  313 |     await expect(dialog).toBeVisible();
+  314 |     const versions = dialog.getByRole("listitem");
+  315 |     await expect(versions).toHaveCount(discussion.archive.versions);
+  316 |     await expect(versions.filter({ hasText: "(Final)" })).toHaveCount(1);
+  317 |   });
+  318 | });
+  319 | 
+  320 | test.describe("Old budget discussion links", () => {
+  321 |   test("11I_1. Should open a proposal from its old link", async ({ page }) => {
+  322 |     const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  323 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  324 |     const discussion = items[0];
+  325 | 
+  326 |     const budgetDiscussionDetailsPage = new BudgetDiscussionDetailsPage(page);
+  327 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  328 |     await expect(budgetDiscussionDetailsPage.titleContent).toHaveText(
+  329 |       discussion.attributes.bd_proposal_detail.data.attributes.proposal_name
+  330 |     );
+  331 |   });
+  332 | 
+  333 |   test("11I_2. Should redirect the propose page to the archive", async ({
+```

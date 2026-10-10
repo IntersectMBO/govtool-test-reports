@@ -1,0 +1,37 @@
+✖ Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID
+✖ Failed to load resource: the server responded with a status of 429 ()
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+ℹ Retrying the function 
+Sorting Oldest: 1745884800000 before 1744761600000
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
