@@ -1,0 +1,190 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 2-delegation/delegation.spec.ts >> DRep dependent tests >> 2L. Should copy DRepId
+- Location: tests/2-delegation/delegation.spec.ts:214:7
+
+# Error details
+
+```
+TypeError: Cannot read properties of undefined (reading 'givenName')
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - banner [ref=e12]:
+      - generic [ref=e13]:
+        - link "app-logo" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - img "app-logo" [ref=e15]
+        - generic [ref=e16]:
+          - button "Connect" [ref=e17] [cursor=pointer]: Connect
+          - img "drawer-icon" [ref=e18]
+    - paragraph [ref=e22]: DRep Directory
+    - progressbar [ref=e26]:
+      - img [ref=e27]
+    - contentinfo [ref=e29]:
+      - paragraph [ref=e30]: © 2026 GovTool
+      - generic [ref=e31]:
+        - generic [ref=e32] [cursor=pointer]: Privacy policy
+        - generic [ref=e33] [cursor=pointer]: Terms of Use
+      - generic [ref=e34]:
+        - button "helpIcon Help" [ref=e35] [cursor=pointer]:
+          - img "helpIcon" [ref=e37]
+          - text: Help
+        - button "Subscribe to updates" [ref=e38] [cursor=pointer]: Subscribe to updates
+        - button "Feedback" [ref=e39] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e40]
+```
+
+# Test source
+
+```ts
+  1   | import DRepDirectoryPage from "@pages/dRepDirectoryPage";
+  2   | import { expect, Page } from "@playwright/test";
+  3   | import { IDRep, IDRepInfo } from "@types";
+  4   | import { bech32 } from "bech32";
+  5   | import * as crypto from "crypto";
+  6   | import { functionWaitedAssert } from "./waitedLoop";
+  7   | import {
+  8   |   invalid,
+  9   |   invalid as mockInvalid,
+  10  |   valid as mockValid,
+  11  | } from "@mock/index";
+  12  | import { faker } from "@faker-js/faker";
+  13  | import { randomAddress } from "lib/wallet/testWallets";
+  14  | 
+  15  | export async function fetchFirstActiveDRepDetails(page: Page) {
+  16  |   let dRepGivenName: string;
+  17  |   let dRepId: string;
+  18  |   let dRepDirectoryPage: DRepDirectoryPage;
+  19  |   let routePath = "**/drep/list?page=0&pageSize=5&sort=Activity&**";
+  20  |   await page.route(
+  21  |     routePath,
+  22  |     async (route) => {
+  23  |       const response = await route.fetch();
+  24  |       const json = await response.json();
+  25  |       const elements = json["elements"].filter(
+  26  |         (element: IDRep) =>
+  27  |           element.givenName != null &&
+  28  |           !element.isScriptBased &&
+  29  |           element.status == "Active"
+  30  |       );
+  31  |       dRepGivenName =
+> 32  |         elements[Math.floor(Math.random() * elements.length)]["givenName"];
+      |                                                              ^ TypeError: Cannot read properties of undefined (reading 'givenName')
+  33  |       dRepId = json["elements"][0]["view"];
+  34  |       await route.fulfill({
+  35  |         status: 200,
+  36  |         contentType: "application/json",
+  37  |         body: JSON.stringify(json),
+  38  |       });
+  39  |     }
+  40  |   );
+  41  | 
+  42  |   const responsePromise = page.waitForResponse(
+  43  |     routePath
+  44  |   );
+  45  | 
+  46  |   await functionWaitedAssert(
+  47  |     async () => {
+  48  |       dRepDirectoryPage = new DRepDirectoryPage(page);
+  49  |       await dRepDirectoryPage.goto();
+  50  |       await responsePromise;
+  51  | 
+  52  |       await dRepDirectoryPage.searchInput.click();
+  53  |       await dRepDirectoryPage.searchInput.fill(dRepId);
+  54  |       await expect(page.getByTestId(`${dRepId}-copy-id-button`)).toBeVisible({
+  55  |         timeout: 20_000,
+  56  |       });
+  57  |     },
+  58  |     {
+  59  |       name: "because the selected dRep ID has the 'doNotList' flag set to true",
+  60  |       message: "DRep not found",
+  61  |     }
+  62  |   );
+  63  |   return { dRepGivenName, dRepId, dRepDirectoryPage };
+  64  | }
+  65  | 
+  66  | export async function calculateImageSHA256(imageUrl: string) {
+  67  |   const toHex = (buffer: ArrayBuffer) => {
+  68  |     return Array.from(new Uint8Array(buffer))
+  69  |       .map((byte) => byte.toString(16).padStart(2, "0"))
+  70  |       .join("");
+  71  |   };
+  72  |   try {
+  73  |     if (imageUrl == "") {
+  74  |       return "";
+  75  |     }
+  76  |     const response = await fetch(imageUrl);
+  77  |     if (!response.ok) {
+  78  |       throw new Error(`Failed to fetch image: ${response.statusText}`);
+  79  |     }
+  80  |     const arrayBuffer = await response.arrayBuffer();
+  81  |     const hashBuffer = await crypto.subtle.digest("SHA-256", arrayBuffer);
+  82  |     return toHex(hashBuffer);
+  83  |   } catch (error) {
+  84  |     console.error("Error calculating SHA256:", error);
+  85  |     return null;
+  86  |   }
+  87  | }
+  88  | 
+  89  | export function fromHex(prefix: string, hex: string) {
+  90  |   return bech32.encode(prefix, bech32.toWords(Buffer.from(hex, "hex")));
+  91  | }
+  92  | 
+  93  | export function tohex(drepId: string) {
+  94  |   return Buffer.from(
+  95  |     bech32.fromWords(bech32.decode(drepId, 100).words)
+  96  |   ).toString("hex");
+  97  | }
+  98  | 
+  99  | export function convertDRep(
+  100 |   drepId: string,
+  101 |   script = false
+  102 | ): { cip129: string; cip105: string } {
+  103 |   const hexPattern = /^[0-9a-fA-F]+$/;
+  104 |   let cip129DRep: string;
+  105 |   let cip129DrepHex: string;
+  106 |   let cip105DRep: string;
+  107 |   const prefix = script ? "23" : "22";
+  108 |   const addPrefix = (hex: string) => {
+  109 |     if (hex.length === 56) {
+  110 |       return prefix + hex;
+  111 |     } else if (hex.length === 58) {
+  112 |       return hex;
+  113 |     } else {
+  114 |       throw new Error("Invalid DRep hex length");
+  115 |     }
+  116 |   };
+  117 |   const drepIdFromHex = (prefix: string, hex: string) => {
+  118 |     return fromHex(prefix, hex);
+  119 |   };
+  120 |   if (hexPattern.test(drepId)) {
+  121 |     cip129DrepHex = addPrefix(drepId);
+  122 |   } else {
+  123 |     try {
+  124 |       const decodedHex = tohex(drepId);
+  125 |       cip129DrepHex = addPrefix(decodedHex);
+  126 |     } catch (error: any) {
+  127 |       throw new Error("Invalid DRep Bech32 format");
+  128 |     }
+  129 |   }
+  130 |   cip105DRep = drepIdFromHex(
+  131 |     cip129DrepHex.slice(0, 2) == "22" ? "drep" : "drep_script",
+  132 |     cip129DrepHex.slice(-56)
+```

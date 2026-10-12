@@ -1,0 +1,217 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 11-budget-proposals-archive/budgetProposalsArchive.spec.ts >> Old budget discussion links >> 11I_2. Should redirect the propose page to the archive
+- Location: tests/11-budget-proposals-archive/budgetProposalsArchive.spec.ts:333:7
+
+# Error details
+
+```
+Error: expect(page).toHaveURL(expected) failed
+
+Expected pattern: /\/budget_discussion$/
+Received string:  "https://preview.gov.tools/budget_discussion/propose"
+Timeout: 5000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 5000ms
+    8 × unexpected value "https://preview.gov.tools/budget_discussion/propose"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - generic [ref=e9]:
+    - banner [ref=e11]:
+      - generic [ref=e12]:
+        - link "app-logo" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "app-logo" [ref=e14]
+        - generic [ref=e15]:
+          - button "Connect" [ref=e16] [cursor=pointer]: Connect
+          - img "drawer-icon" [ref=e17]
+    - generic [ref=e20]:
+      - progressbar [ref=e22]:
+        - img [ref=e23]
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - heading "Proposed Governance Actions" [level=1] [ref=e31]
+          - generic [ref=e33]:
+            - button "Propose a Governance Action" [disabled]
+            - generic [ref=e35]:
+              - paragraph [ref=e36]: To submit a proposal, you need to
+              - paragraph [ref=e37]:
+                - generic [ref=e38] [cursor=pointer]: connect a Cardano wallet
+          - generic [ref=e41]:
+            - img [ref=e43]
+            - textbox "Search..." [ref=e45]
+            - group
+          - generic [ref=e47]:
+            - button "Filter:" [ref=e48] [cursor=pointer]:
+              - text: "Filter:"
+              - img [ref=e50]
+            - 'button "Sort: Newest" [ref=e52] [cursor=pointer]':
+              - text: "Sort: Newest"
+              - img [ref=e54]
+        - generic [ref=e56]:
+          - generic [ref=e58]:
+            - heading "Info Action" [level=2] [ref=e61]
+            - generic [ref=e64]:
+              - heading "No proposals found" [level=6] [ref=e65]
+              - paragraph [ref=e66]: Please try a different search
+          - generic [ref=e68]:
+            - heading "Treasury requests" [level=2] [ref=e71]
+            - generic [ref=e74]:
+              - heading "No proposals found" [level=6] [ref=e75]
+              - paragraph [ref=e76]: Please try a different search
+          - generic [ref=e78]:
+            - heading "Updates to the Constitution" [level=2] [ref=e81]
+            - generic [ref=e84]:
+              - heading "No proposals found" [level=6] [ref=e85]
+              - paragraph [ref=e86]: Please try a different search
+          - generic [ref=e88]:
+            - heading "Motion of No Confidence" [level=2] [ref=e91]
+            - generic [ref=e94]:
+              - heading "No proposals found" [level=6] [ref=e95]
+              - paragraph [ref=e96]: Please try a different search
+    - contentinfo [ref=e97]:
+      - paragraph [ref=e98]: © 2026 GovTool
+      - generic [ref=e99]:
+        - generic [ref=e100] [cursor=pointer]: Privacy policy
+        - generic [ref=e101] [cursor=pointer]: Terms of Use
+      - generic [ref=e102]:
+        - button "helpIcon Help" [ref=e103] [cursor=pointer]:
+          - img "helpIcon" [ref=e105]
+          - text: Help
+        - button "Subscribe to updates" [ref=e106] [cursor=pointer]: Subscribe to updates
+        - button "Feedback" [ref=e107] [cursor=pointer]: Feedback
+```
+
+# Test source
+
+```ts
+  237 |     );
+  238 |     const responsePromise = page.waitForResponse(
+  239 |       `**${BUDGET_ARCHIVE_PATH}/${discussion.attributes.master_id}.json`
+  240 |     );
+  241 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  242 |     const { comments } = await (await responsePromise).json();
+  243 | 
+  244 |     const total = comments.length;
+  245 |     await expect(budgetDiscussionDetailsPage.totalComments).toHaveText(
+  246 |       total > 99 ? "99+" : `${total}`
+  247 |     );
+  248 | 
+  249 |     const threads = comments.filter(
+  250 |       (comment) => comment.attributes.comment_parent_id === null
+  251 |     ).length;
+  252 |     await expect(budgetDiscussionDetailsPage.commentCards).toHaveCount(
+  253 |       Math.min(threads, 25)
+  254 |     );
+  255 |     while (await budgetDiscussionDetailsPage.loadMoreCommentsBtn.isVisible()) {
+  256 |       await budgetDiscussionDetailsPage.loadMoreCommentsBtn.click();
+  257 |     }
+  258 |     await expect(budgetDiscussionDetailsPage.commentCards).toHaveCount(threads);
+  259 |   });
+  260 | 
+  261 |   test("11F. Should be read-only", async () => {
+  262 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  263 |     const discussion = pickDiscussion(
+  264 |       items,
+  265 |       (item) => item.attributes.prop_comments_number > 0 && !!item.archive.poll
+  266 |     );
+  267 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  268 |     await expect(
+  269 |       budgetDiscussionDetailsPage.commentCards.first()
+  270 |     ).toBeVisible();
+  271 | 
+  272 |     await expect(budgetDiscussionDetailsPage.commentInput).toHaveCount(0);
+  273 |     await expect(budgetDiscussionDetailsPage.commentBtn).toHaveCount(0);
+  274 |     await expect(budgetDiscussionDetailsPage.replyBtn).toHaveCount(0);
+  275 |     await expect(budgetDiscussionDetailsPage.pollYesBtn).toHaveCount(0);
+  276 |     await expect(budgetDiscussionDetailsPage.pollNoBtn).toHaveCount(0);
+  277 |     await expect(budgetDiscussionDetailsPage.menuButton).toHaveCount(0);
+  278 |   });
+  279 | 
+  280 |   test("11G. Should show the final poll totals", async () => {
+  281 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  282 |     const discussion = pickDiscussion(
+  283 |       items,
+  284 |       (item) =>
+  285 |         item.archive.poll && item.archive.poll.yes + item.archive.poll.no > 0
+  286 |     );
+  287 |     const { yes, no } = discussion.archive.poll;
+  288 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  289 | 
+  290 |     await expect(budgetDiscussionDetailsPage.pollTotalVotes).toHaveText(
+  291 |       `Total votes: ${yes + no}`
+  292 |     );
+  293 |     await expect(budgetDiscussionDetailsPage.pollYesCount).toContainText(
+  294 |       `Yes: ${yes}`
+  295 |     );
+  296 |     await expect(budgetDiscussionDetailsPage.pollNoCount).toContainText(
+  297 |       `No: ${no}`
+  298 |     );
+  299 |   });
+  300 | 
+  301 |   test("11H. Should list every version", async ({ isMobile }) => {
+  302 |     // On a small screen the version list sits behind its own button.
+  303 |     test.skip(isMobile, "Desktop version list only");
+  304 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  305 |     const discussion = pickDiscussion(
+  306 |       items,
+  307 |       (item) => item.archive.versions > 2
+  308 |     );
+  309 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  310 | 
+  311 |     await budgetDiscussionDetailsPage.reviewVersionsBtn.click();
+  312 |     const dialog = budgetDiscussionDetailsPage.reviewVersionsDialog;
+  313 |     await expect(dialog).toBeVisible();
+  314 |     const versions = dialog.getByRole("listitem");
+  315 |     await expect(versions).toHaveCount(discussion.archive.versions);
+  316 |     await expect(versions.filter({ hasText: "(Final)" })).toHaveCount(1);
+  317 |   });
+  318 | });
+  319 | 
+  320 | test.describe("Old budget discussion links", () => {
+  321 |   test("11I_1. Should open a proposal from its old link", async ({ page }) => {
+  322 |     const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  323 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  324 |     const discussion = items[0];
+  325 | 
+  326 |     const budgetDiscussionDetailsPage = new BudgetDiscussionDetailsPage(page);
+  327 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  328 |     await expect(budgetDiscussionDetailsPage.titleContent).toHaveText(
+  329 |       discussion.attributes.bd_proposal_detail.data.attributes.proposal_name
+  330 |     );
+  331 |   });
+  332 | 
+  333 |   test("11I_2. Should redirect the propose page to the archive", async ({
+  334 |     page,
+  335 |   }) => {
+  336 |     await page.goto(`${environments.frontendUrl}/budget_discussion/propose`);
+> 337 |     await expect(page).toHaveURL(/\/budget_discussion$/);
+      |                        ^ Error: expect(page).toHaveURL(expected) failed
+  338 |   });
+  339 | 
+  340 |   test("11I_3. Should redirect an unknown proposal to the archive", async ({
+  341 |     page,
+  342 |   }) => {
+  343 |     await page.goto(`${environments.frontendUrl}/budget_discussion/99999999`);
+  344 |     await expect(page).toHaveURL(/\/budget_discussion$/);
+  345 |   });
+  346 | });
+  347 | 
+```

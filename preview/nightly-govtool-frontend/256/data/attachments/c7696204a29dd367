@@ -1,0 +1,302 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: cip179/survey.spec.ts >> 179-3D: non-DRep users cannot sign survey votes
+- Location: tests/cip179/survey.spec.ts:430:7
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByRole('heading', { name: 'Survey-linked Info Action', exact: true })
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Survey-linked Info Action', exact: true })
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - link "app-logo" [ref=e12] [cursor=pointer]:
+        - /url: /dashboard
+        - img "app-logo" [ref=e13]
+      - generic [ref=e14]:
+        - link "icon Home" [ref=e16] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e17]:
+            - img "icon" [ref=e18]
+            - paragraph [ref=e19]: Home
+        - link "icon DRep Directory" [ref=e21] [cursor=pointer]:
+          - /url: /connected/drep_directory
+          - generic [ref=e22]:
+            - img "icon" [ref=e23]
+            - paragraph [ref=e24]: DRep Directory
+        - link "icon Budget Proposals" [ref=e26] [cursor=pointer]:
+          - /url: /budget_discussion
+          - generic [ref=e27]:
+            - img "icon" [ref=e28]
+            - paragraph [ref=e29]: Budget Proposals
+        - generic [ref=e30]:
+          - link "icon Governance Actions" [ref=e31] [cursor=pointer]:
+            - /url: /connected/governance_actions
+            - generic [ref=e32]:
+              - img "icon" [ref=e33]
+              - paragraph [ref=e34]: Governance Actions
+          - link "icon Live Voting" [ref=e36] [cursor=pointer]:
+            - /url: /connected/governance_actions
+            - generic [ref=e37]:
+              - img "icon" [ref=e38]
+              - paragraph [ref=e39]: Live Voting
+        - link "icon Guides" [ref=e41] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e42]:
+            - img "icon" [ref=e43]
+            - paragraph [ref=e44]: Guides
+        - link "icon FAQs" [ref=e46] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e47]:
+            - img "icon" [ref=e48]
+            - paragraph [ref=e49]: FAQs
+      - generic [ref=e52]:
+        - paragraph [ref=e53]: "Connected Wallet:"
+        - generic [ref=e54]:
+          - paragraph [ref=e55]: 008b218424ad74df25d35c2ea8e094a4c5c5aeb2cbb4424193315693138b218424ad74df25d35c2ea8e094a4c5c5aeb2cbb442419331569313
+          - button "Disconnect" [ref=e56] [cursor=pointer]: Disconnect
+    - generic [ref=e57]:
+      - navigation [ref=e58]:
+        - paragraph [ref=e60]: Live Voting
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - link "Live Voting" [ref=e63] [cursor=pointer]:
+            - /url: /connected/governance_actions
+            - paragraph [ref=e64]: Live Voting
+          - separator [ref=e65]
+          - paragraph [ref=e66]: Survey-linked Info Action
+        - generic [ref=e67] [cursor=pointer]:
+          - img "arrow" [ref=e68]
+          - paragraph [ref=e69]: Back
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - button [ref=e76] [cursor=pointer]
+            - generic [ref=e91]:
+              - heading "Abstract" [level=2] [ref=e93]
+              - paragraph [ref=e96]: A test governance action.
+            - generic [ref=e97]:
+              - heading "Motivation" [level=2] [ref=e99]
+              - paragraph [ref=e102]: Improve governance.
+            - generic [ref=e103]:
+              - heading "Rationale" [level=2] [ref=e105]
+              - paragraph [ref=e108]: Gather feedback.
+            - generic [ref=e109]:
+              - heading "Author(s)" [level=2] [ref=e111]
+              - generic [ref=e113]: No data available
+          - generic [ref=e115]:
+            - img "ga icon" [ref=e116]
+            - paragraph [ref=e117]: Votes submitted
+            - paragraph [ref=e118]: for this Governance Action
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - paragraph [ref=e121]: DReps
+                - generic [ref=e122]:
+                  - paragraph [ref=e124]: "Yes"
+                  - generic [ref=e125]:
+                    - paragraph [ref=e126]: ₳ 0
+                    - paragraph [ref=e127]: 0.00%
+                - generic [ref=e128]:
+                  - paragraph [ref=e130]: Abstain
+                  - paragraph [ref=e132]: ₳ 0
+                - generic [ref=e133]:
+                  - paragraph [ref=e135]: "No"
+                  - generic [ref=e136]:
+                    - paragraph [ref=e137]: ₳ 0
+                    - paragraph [ref=e138]: 0.00%
+                - generic [ref=e139]:
+                  - paragraph [ref=e141]: Not voted
+                  - generic [ref=e142]:
+                    - paragraph [ref=e143]: ₳ 0
+                    - paragraph [ref=e144]: 100.00%
+              - generic [ref=e145]:
+                - paragraph [ref=e146]: SPOs
+                - generic [ref=e147]:
+                  - paragraph [ref=e149]: "Yes"
+                  - generic [ref=e150]:
+                    - paragraph [ref=e151]: ₳ 0
+                    - paragraph [ref=e152]: 0.00%
+                - generic [ref=e153]:
+                  - paragraph [ref=e155]: Abstain
+                  - paragraph [ref=e157]: ₳ 0
+                - generic [ref=e158]:
+                  - paragraph [ref=e160]: "No"
+                  - generic [ref=e161]:
+                    - paragraph [ref=e162]: ₳ 0
+                    - paragraph [ref=e163]: 0.00%
+                - generic [ref=e164]:
+                  - paragraph [ref=e166]: Not voted
+                  - generic [ref=e167]:
+                    - paragraph [ref=e168]: ₳ 0
+                    - paragraph [ref=e169]: 100.00%
+              - generic [ref=e170]:
+                - paragraph [ref=e171]: Constitutional Committee
+                - generic [ref=e172]:
+                  - paragraph [ref=e174]: Constitutional
+                  - generic [ref=e175]:
+                    - paragraph [ref=e176]: "0"
+                    - paragraph [ref=e177]: 0.00%
+                - generic [ref=e178]:
+                  - paragraph [ref=e180]: Abstain
+                  - paragraph [ref=e182]: "0"
+                - generic [ref=e183]:
+                  - paragraph [ref=e185]: Unconstitutional
+                  - generic [ref=e186]:
+                    - paragraph [ref=e187]: "0"
+                    - paragraph [ref=e188]: 0.00%
+                - generic [ref=e189]:
+                  - paragraph [ref=e191]: Not voted
+                  - generic [ref=e192]:
+                    - paragraph [ref=e193]: "3"
+                    - paragraph [ref=e194]: 100.00%
+      - contentinfo [ref=e195]:
+        - paragraph [ref=e196]: © 2026 GovTool
+        - generic [ref=e197]:
+          - generic [ref=e198] [cursor=pointer]: Privacy policy
+          - generic [ref=e199] [cursor=pointer]: Terms of Use
+        - generic [ref=e200]:
+          - button "helpIcon Help" [ref=e201] [cursor=pointer]:
+            - img "helpIcon" [ref=e203]
+            - text: Help
+          - button "Subscribe to updates" [ref=e204] [cursor=pointer]: Subscribe to updates
+          - button "Feedback" [ref=e205] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e206]
+```
+
+# Test source
+
+```ts
+  342 |   await expect(
+  343 |     page.getByText("Complete the selected survey response before submitting.")
+  344 |   ).toBeVisible();
+  345 |   await page
+  346 |     .getByRole("spinbutton", { name: "Testing", exact: true })
+  347 |     .fill("6");
+  348 |   await expect(
+  349 |     page.getByText("Complete the selected survey response before submitting.")
+  350 |   ).toHaveCount(0);
+  351 |   await submitVote(page);
+  352 |   await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  353 |   expect(checkTransaction(fixture.transactions)).toEqual([
+  354 |     [1, 0, 0],
+  355 |     [2, 1, [0]],
+  356 |     [3, 2, [1, 0]],
+  357 |     [6, 3, [[0, 0]]],
+  358 |     [6, 4, [[0, 1]]],
+  359 |     [
+  360 |       5,
+  361 |       5,
+  362 |       [
+  363 |         [0, 4],
+  364 |         [1, 6],
+  365 |       ],
+  366 |     ],
+  367 |   ]);
+  368 |   expect(fixture.errors).toEqual([]);
+  369 | });
+  370 | 
+  371 | for (const [name, options] of [
+  372 |   ["unavailable definition", { surveyStatus: 404 }],
+  373 |   ["wrong reference", { envelope: { ...envelope(), txId: "cd".repeat(32) } }],
+  374 |   ["wrong expiry", { survey: definition({ endEpoch: 529 }) }],
+  375 |   [
+  376 |     "oversized survey",
+  377 |     {
+  378 |       survey: definition({
+  379 |         questions: Array.from({ length: 101 }, () => questions[0]),
+  380 |       }),
+  381 |     },
+  382 |   ],
+  383 | ] as const) {
+  384 |   test(`179-3A: ${name} does not break ordinary voting`, async ({ page }) => {
+  385 |     const fixture = await setup(page, options);
+  386 |     await openVote(page);
+  387 |     await expect(
+  388 |       page.getByText(/Linked survey response unavailable:/)
+  389 |     ).toBeVisible();
+  390 |     await expect(
+  391 |       page.getByRole("checkbox", { name: /Include a survey/ })
+  392 |     ).toHaveCount(0);
+  393 |     await submitVote(page);
+  394 |     await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  395 |     expect(checkTransaction(fixture.transactions)).toBeUndefined();
+  396 |     expect(fixture.errors).toEqual([]);
+  397 |   });
+  398 | }
+  399 | 
+  400 | test("179-3B: ineligible roles cannot attach a survey response", async ({
+  401 |   page,
+  402 | }) => {
+  403 |   const fixture = await setup(page, {
+  404 |     survey: definition({ eligibleRoles: [1] }),
+  405 |   });
+  406 |   await openVote(page);
+  407 |   await expect(page.getByText(/does not accept DRep responses/)).toBeVisible();
+  408 |   await expect(
+  409 |     page.getByRole("checkbox", { name: /Include a survey/ })
+  410 |   ).toHaveCount(0);
+  411 |   await submitVote(page);
+  412 |   await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  413 |   expect(checkTransaction(fixture.transactions)).toBeUndefined();
+  414 | });
+  415 | 
+  416 | test("179-3C: declining wallet signing never submits a transaction", async ({
+  417 |   page,
+  418 | }) => {
+  419 |   const fixture = await setup(page, { rejectSigning: true });
+  420 |   await openVote(page);
+  421 |   await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  422 |   await page.getByRole("radio", { name: "Usability", exact: true }).check();
+  423 |   await submitVote(page);
+  424 |   await expect(page.getByTestId("vote-transaction-error-modal")).toBeVisible();
+  425 |   expect(fixture.transactions.unsigned).toHaveLength(1);
+  426 |   expect(fixture.transactions.signed).toHaveLength(0);
+  427 | });
+  428 | 
+  429 | for (const connected of [false, true]) {
+  430 |   test(`179-3D: ${connected ? "non-DRep" : "disconnected"} users cannot sign survey votes`, async ({
+  431 |     page,
+  432 |   }) => {
+  433 |     const fixture = await setup(page, { connected, registered: false });
+  434 |     await page.goto(
+  435 |       `/${connected ? "connected/" : ""}governance_actions/${actionHash}#0`
+  436 |     );
+  437 |     await expect(
+  438 |       page.getByRole("heading", {
+  439 |         name: "Survey-linked Info Action",
+  440 |         exact: true,
+  441 |       })
+> 442 |     ).toBeVisible();
+      |       ^ Error: expect(locator).toBeVisible() failed
+  443 |     await expect(page.getByTestId("vote-button")).toHaveCount(0);
+  444 |     expect(fixture.transactions.unsigned).toHaveLength(0);
+  445 |   });
+  446 | }
+  447 | 
+```

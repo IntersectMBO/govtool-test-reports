@@ -1,0 +1,202 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 9-governance-action-history/governance-action-history.spec.ts >> GovernanceAction details >> Invalid GovernanceAction Metadata >> 9H_3A: Should display "Data Not Verifiable" message in governanceActionHistory when metadata hash and URL do not match. in disconnect state
+- Location: tests/9-governance-action-history/governance-action-history.spec.ts:101:11
+
+# Error details
+
+```
+Test timeout of 180000ms exceeded.
+```
+
+```
+Error: locator.click: Test timeout of 180000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid$="-view-details"]').first()
+
+```
+
+# Test source
+
+```ts
+  1   | import environments from "@constants/environments";
+  2   | import { actionRecordStatusType } from "@constants/index";
+  3   | import { toCamelCase } from "@helpers/string";
+  4   | import { functionWaitedAssert, waitedLoop } from "@helpers/waitedLoop";
+  5   | import { Browser, expect, Locator, Page } from "@playwright/test";
+  6   | import { actionRecordMetadata, actionRecordProposal, actionRecordType } from "@types";
+  7   | import GovernanceActionHistoryDetailsPage from "./governanceActionHistoryDetailsPage";
+  8   | import { isMobile } from "@helpers/mobile";
+  9   | import extractExpiryDateFromText from "@helpers/extractExpiryDateFromText";
+  10  | import { createNewPageWithWallet, injectLogger } from "@helpers/page";
+  11  | import { testWallet } from "lib/wallet/testWallets";
+  12  | 
+  13  | const status = ["Expired", "Ratified", "Enacted", "Live"];
+  14  | 
+  15  | enum SortOption {
+  16  |   SoonToExpire = "Soon to expire",
+  17  |   NewestFirst = "Newest first",
+  18  |   OldestFirst = "Oldest first",
+  19  |   HighestAmountYesVote = "Highest amount of yes votes",
+  20  | }
+  21  | 
+  22  | // Card reads run inside retry loops: a filter or sort change can replace
+  23  | // the cards between counting and reading them, and an unbounded read then
+  24  | // waits for a card that is gone until the test times out.
+  25  | const CARD_READ_TIMEOUT = 10_000;
+  26  | 
+  27  | export default class GovernanceActionHistoryPage {
+  28  |   // Buttons
+  29  |   readonly filterBtn = this.page.getByTestId("filters-button");
+  30  |   readonly sortBtn = this.page.getByTestId("sort-button");
+  31  |   readonly showMoreBtn = this.page.getByTestId("show-more-button");
+  32  |   readonly metadataErrorLearnMoreBtn = this.page.getByTestId(
+  33  |     "metadata-error-learn-more"
+  34  |   );
+  35  | 
+  36  |   //inputs
+  37  |   readonly searchInput = this.page.getByTestId("search-input");
+  38  | 
+  39  |   readonly title = this.page.getByTestId("single-action-title");
+  40  | 
+  41  |   constructor(private readonly page: Page) {}
+  42  | 
+  43  |   async goto(
+  44  |     params: { filter?: string; sort?: string; status?: string } = {}
+  45  |   ): Promise<void> {
+  46  |     const { filter, sort = "newestFirst", status } = params;
+  47  |     const url = new URL(`${environments.frontendUrl}/governance_actions/history`);
+  48  |     url.searchParams.append("sort", sort);
+  49  |     if (filter) {
+  50  |       url.searchParams.append("type", filter);
+  51  |     }
+  52  |     if (status) {
+  53  |       url.searchParams.append("status", status);
+  54  |     }
+  55  |     await this.page.goto(url.toString());
+  56  |   }
+  57  | 
+  58  |   async getAllListedCIP105GovernanceIds(): Promise<string[]> {
+  59  |     const dRepCards = await this.getAllGovernanceActionHistory();
+  60  |     const dRepIds = [];
+  61  | 
+  62  |     for (const dRep of dRepCards) {
+  63  |       const dRepIdTextContent = await dRep
+  64  |         .locator('[data-testid$="-CIP-105-id"]')
+  65  |         .textContent({ timeout: CARD_READ_TIMEOUT });
+  66  |       dRepIds.push(dRepIdTextContent.replace(/^.*ID/, ""));
+  67  |     }
+  68  | 
+  69  |     return dRepIds;
+  70  |   }
+  71  | 
+  72  |   async viewFirstGovernanceActionHistory(): Promise<GovernanceActionHistoryDetailsPage> {
+> 73  |     await this.page.locator('[data-testid$="-view-details"]').first().click();
+      |                                                                       ^ Error: locator.click: Test timeout of 180000ms exceeded.
+  74  |     return new GovernanceActionHistoryDetailsPage(this.page);
+  75  |   }
+  76  | 
+  77  |   async getAllGovernanceActionHistory(): Promise<Locator[]> {
+  78  |     await waitedLoop(async () => {
+  79  |       return (
+  80  |         (await this.page.locator('[data-testid$="-governance-action-card"]').count()) >
+  81  |           0 ||
+  82  |         (await this.page.getByText("No governance actions found").isVisible())
+  83  |       );
+  84  |     });
+  85  |     return await this.page.locator('[data-testid$="-governance-action-card"]').all();
+  86  |   }
+  87  | 
+  88  |   async clickCheckboxByNames(names: string[]) {
+  89  |     const formattedNames = names.map((name) =>
+  90  |       name === "Info Action" ? "Info" : name
+  91  |     );
+  92  |     for (const name of formattedNames) {
+  93  |       const testId = name.toLowerCase().replace(/ /g, "-");
+  94  |       await this.page.getByTestId(`${testId}-checkbox`).click();
+  95  |     }
+  96  |   }
+  97  | 
+  98  |   async filterProposalByNames(names: string[]) {
+  99  |     await this.clickCheckboxByNames(names);
+  100 |   }
+  101 | 
+  102 |   async unFilterProposalByNames(names: string[]) {
+  103 |     await this.clickCheckboxByNames(names);
+  104 |   }
+  105 | 
+  106 |   async applyAndValidateFilters(
+  107 |     filters: string[],
+  108 |     validateFunction: (proposalCard: any, filters: string[]) => Promise<boolean>
+  109 |   ) {
+  110 |     await this.page.waitForTimeout(4_000); // wait for the proposals to load
+  111 |     // single filter
+  112 |     for (const filter of filters) {
+  113 |       await this.filterProposalByNames([filter]);
+  114 |       await this.validateFilters([filter], validateFunction);
+  115 |       await this.unFilterProposalByNames([filter]);
+  116 |     }
+  117 | 
+  118 |     // multiple filter
+  119 |     const multipleFilters = [...filters];
+  120 |     while (multipleFilters.length > 1) {
+  121 |       await this.filterProposalByNames(multipleFilters);
+  122 |       await this.validateFilters(multipleFilters, validateFunction);
+  123 |       await this.unFilterProposalByNames(multipleFilters);
+  124 |       multipleFilters.pop();
+  125 |     }
+  126 |   }
+  127 | 
+  128 |   async validateFilters(
+  129 |     filters: string[],
+  130 |     validateFunction: (proposalCard: any, filters: string[]) => Promise<boolean>
+  131 |   ) {
+  132 |     await functionWaitedAssert(
+  133 |       async () => {
+  134 |         const proposalCards = await this.getAllGovernanceActionHistory();
+  135 |         for (const proposalCard of proposalCards) {
+  136 |           if (await proposalCard.isVisible()) {
+  137 |             const type = await proposalCard
+  138 |               .locator('[data-testid$="-type"]')
+  139 |               .textContent({ timeout: CARD_READ_TIMEOUT });
+  140 |             const actionRecordType = type.replace(/^.*Type/, "");
+  141 |             const hasFilter = await validateFunction(proposalCard, filters);
+  142 |             if (!hasFilter) {
+  143 |               const errorMessage = `An actionRecord type ${actionRecordType} does not contain on ${filters}`;
+  144 |               throw errorMessage;
+  145 |             }
+  146 |             expect(hasFilter).toBe(true);
+  147 |           }
+  148 |         }
+  149 |       },
+  150 |       {
+  151 |         name: "validateFilters",
+  152 |       }
+  153 |     );
+  154 |   }
+  155 | 
+  156 |   getSortType(sortOption: string) {
+  157 |     let sortType = sortOption;
+  158 |     if (sortOption === "Highest amount of yes votes") {
+  159 |       sortType = "Highest yes votes";
+  160 |     }
+  161 |     return toCamelCase(sortType);
+  162 |   }
+  163 | 
+  164 |   getSortTestId(sortOption: string) {
+  165 |     const sortType = this.getSortType(sortOption);
+  166 |     return sortType.toLowerCase().replace(/[\s.]/g, "") + "-radio";
+  167 |   }
+  168 | 
+  169 |   async sortAndValidate(
+  170 |     sortOption: string,
+  171 |     validationFn: (p1: actionRecordProposal, p2: actionRecordProposal) => boolean,
+  172 |     filterKey?: string
+  173 |   ) {
+```
