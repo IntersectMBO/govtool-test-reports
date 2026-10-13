@@ -1,0 +1,2 @@
+✖ Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID
+ℹ Retrying the function because the selected dRep ID has the 'doNotList' flag set to true

@@ -1,0 +1,285 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: cip179/survey.spec.ts >> 179-3E: external presentation hash mismatch
+- Location: tests/cip179/survey.spec.ts:83:7
+
+# Error details
+
+```
+Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 3
+
+- Array []
++ Array [
++   "Request failed with status code 405",
++ ]
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: "Network: Preview"
+      - generic [ref=e7]: "|"
+      - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+        - /url: https://gov.tools/
+    - img "bg-orange" [ref=e9]
+    - generic [ref=e11]:
+      - navigation [ref=e12]:
+        - link "app-logo" [ref=e14] [cursor=pointer]:
+          - /url: /dashboard
+          - img "app-logo" [ref=e15]
+        - generic [ref=e16]:
+          - paragraph [ref=e18]: ₳ 0
+          - button "drawer" [ref=e19] [cursor=pointer]:
+            - img "drawer" [ref=e20]
+      - paragraph [ref=e23]: Live Voting
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - textbox "Search..." [ref=e30]
+          - generic [ref=e32]:
+            - img "filter" [ref=e34] [cursor=pointer]
+            - img "sort" [ref=e36] [cursor=pointer]
+        - tablist "Governance Actions tabs" [ref=e40]:
+          - tab "To vote" [selected] [ref=e41] [cursor=pointer]
+          - tab "Voted on by me" [ref=e42] [cursor=pointer]
+        - tabpanel [ref=e45]:
+          - paragraph [ref=e47]: No results for the search.
+        - tabpanel
+      - contentinfo [ref=e48]:
+        - paragraph [ref=e49]: © 2026 GovTool
+        - generic [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]: Privacy policy
+          - generic [ref=e52] [cursor=pointer]: Terms of Use
+        - generic [ref=e53]:
+          - button "helpIcon Help" [ref=e54] [cursor=pointer]:
+            - img "helpIcon" [ref=e56]
+            - text: Help
+          - button "Subscribe to updates" [ref=e57] [cursor=pointer]: Subscribe to updates
+          - button "Feedback" [ref=e58] [cursor=pointer]: Feedback
+    - img "bg-blue" [ref=e59]
+  - alert [ref=e60]:
+    - img [ref=e62]
+    - generic [ref=e64]: Wallet connected
+    - button "Close" [ref=e66] [cursor=pointer]:
+      - img [ref=e67]
+```
+
+# Test source
+
+```ts
+  35  |     [4, 1, 1],
+  36  |   ]);
+  37  |   expect(fixture.errors).toEqual([]);
+  38  | });
+  39  | 
+  40  | test("179-2F: sealed responses encrypt the selected answers before signing", async ({
+  41  |   page,
+  42  | }) => {
+  43  |   const fixture = await setup(page, {
+  44  |     survey: definition({
+  45  |       submissionMode: {
+  46  |         type: "sealed",
+  47  |         chainHash: QUICKNET_CHAIN_HASH,
+  48  |         round: 1000,
+  49  |         paddingSize: 64,
+  50  |       },
+  51  |     }),
+  52  |   });
+  53  |   await openVote(page);
+  54  |   await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  55  |   await page.getByRole("radio", { name: "Usability", exact: true }).check();
+  56  |   await submitVote(page);
+  57  |   await expect
+  58  |     .poll(() => fixture.transactions.signed.length, { timeout: 20_000 })
+  59  |     .toBe(1);
+  60  |   const chunks = checkTransaction(fixture.transactions);
+  61  |   const ciphertext = Buffer.concat(Array.isArray(chunks) ? chunks : [chunks]);
+  62  |   expect(ciphertext.toString("utf8")).toContain("age-encryption.org/v1");
+  63  |   // Public historical quicknet beacon: https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/1000
+  64  |   // Past round permits offline verification, not confidentiality for a real survey.
+  65  |   const plaintext = await decryptWithBeacon(ciphertext, {
+  66  |     round: 1000,
+  67  |     randomness:
+  68  |       "fe290beca10872ef2fb164d2aa4442de4566183ec51c56ff3cd603d930e54fdd",
+  69  |     signature:
+  70  |       "b44679b9a59af2ec876b1a6b1ad52ea9b1615fc3982b19576350f93447cb1125e342b73a8dd2bacbe47e4b6b63ed5e39",
+  71  |   });
+  72  |   expect(new Decoder().decodeMultiple(plaintext)[0]).toEqual([[1, 0, 0]]);
+  73  |   expect(plaintext.length).toBe(64);
+  74  |   expect(fixture.errors).toEqual([]);
+  75  | });
+  76  | 
+  77  | for (const mode of [
+  78  |   "verified",
+  79  |   "hash mismatch",
+  80  |   "invalid fields",
+  81  |   "unavailable",
+  82  | ] as const) {
+  83  |   test(`179-3E: external presentation ${mode}`, async ({ page }) => {
+  84  |     const body = JSON.stringify({
+  85  |       specVersion: 5,
+  86  |       kind: "cardano-survey-presentation",
+  87  |       title: "External survey",
+  88  |       questions: [
+  89  |         {
+  90  |           prompt: mode === "invalid fields" ? {} : "External question",
+  91  |           options: ["External A", "External B"],
+  92  |         },
+  93  |       ],
+  94  |     });
+  95  |     const fixture = await setup(page, {
+  96  |       survey: definition({
+  97  |         title: "",
+  98  |         questions: [
+  99  |           {
+  100 |             type: "singleChoice",
+  101 |             prompt: "",
+  102 |             options: { type: "count", count: 2 },
+  103 |             required: true,
+  104 |           },
+  105 |         ],
+  106 |         contentAnchor: {
+  107 |           uri: "https://fixture.invalid/presentation.json",
+  108 |           hash:
+  109 |             mode === "hash mismatch"
+  110 |               ? new Uint8Array(32)
+  111 |               : blake2b(body, undefined, 32),
+  112 |         },
+  113 |       }),
+  114 |       presentation: { body, status: mode === "unavailable" ? 404 : 200 },
+  115 |     });
+  116 |     await openVote(page);
+  117 |     if (mode === "verified")
+  118 |       await expect(
+  119 |         page.getByRole("heading", { name: "External survey", exact: true })
+  120 |       ).toBeVisible();
+  121 |     else
+  122 |       await expect(
+  123 |         page.getByText(/External presentation unavailable:/)
+  124 |       ).toBeVisible();
+  125 |     await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  126 |     await page
+  127 |       .getByRole("radio", {
+  128 |         name: mode === "verified" ? "External A" : "Option 1",
+  129 |         exact: true,
+  130 |       })
+  131 |       .check();
+  132 |     await submitVote(page);
+  133 |     await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  134 |     expect(checkTransaction(fixture.transactions)).toEqual([[1, 0, 0]]);
+> 135 |     expect(fixture.errors).toEqual([]);
+      |                            ^ Error: expect(received).toEqual(expected) // deep equality
+  136 |   });
+  137 | }
+  138 | 
+  139 | test("179-3F: unsupported optional custom methods can be omitted", async ({
+  140 |   page,
+  141 | }) => {
+  142 |   const fixture = await setup(page, {
+  143 |     survey: definition({
+  144 |       questions: [
+  145 |         questions[0],
+  146 |         {
+  147 |           type: "custom",
+  148 |           prompt: "Custom method",
+  149 |           methodSchema: {
+  150 |             uri: "https://fixture.invalid/schema",
+  151 |             hash: new Uint8Array(32),
+  152 |           },
+  153 |         },
+  154 |       ],
+  155 |     }),
+  156 |   });
+  157 |   await openVote(page);
+  158 |   await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  159 |   await expect(
+  160 |     page.getByText("This custom survey method is not supported by GovTool.")
+  161 |   ).toBeVisible();
+  162 |   await page.getByRole("radio", { name: "Usability", exact: true }).check();
+  163 |   await submitVote(page);
+  164 |   await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  165 |   expect(checkTransaction(fixture.transactions)).toEqual([[1, 0, 0]]);
+  166 | });
+  167 | 
+  168 | for (const [name, options] of [
+  169 |   ["no linked survey", { linked: false }],
+  170 |   ["explicitly disabled", { enabled: false }],
+  171 |   ["participation declined", {}],
+  172 | ] as const) {
+  173 |   test(`179-2B: ordinary voting is preserved with ${name}`, async ({
+  174 |     page,
+  175 |   }) => {
+  176 |     const fixture = await setup(page, options);
+  177 |     await openVote(page);
+  178 |     if (name === "participation declined") {
+  179 |       await expect(
+  180 |         page.getByRole("checkbox", { name: /Include a survey/ })
+  181 |       ).not.toBeChecked();
+  182 |     } else {
+  183 |       await expect(
+  184 |         page.getByRole("checkbox", { name: /Include a survey/ })
+  185 |       ).toHaveCount(0);
+  186 |     }
+  187 |     await submitVote(page);
+  188 |     await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  189 |     expect(checkTransaction(fixture.transactions)).toBeUndefined();
+  190 |     if (name !== "participation declined")
+  191 |       expect(fixture.requests.some((p) => p.includes("/survey/"))).toBe(false);
+  192 |     expect(fixture.errors).toEqual([]);
+  193 |   });
+  194 | }
+  195 | 
+  196 | test("179-2C: required answers block signing; clearing optional answers omits them", async ({
+  197 |   page,
+  198 | }) => {
+  199 |   const fixture = await setup(page);
+  200 |   await openVote(page);
+  201 |   await page.getByRole("checkbox", { name: /Include a survey/ }).check();
+  202 |   await page.getByRole("slider").press("Home");
+  203 |   await submitVote(page);
+  204 |   await expect(page.getByTestId("vote-context-modal")).toBeVisible();
+  205 |   expect(fixture.transactions.unsigned).toHaveLength(0);
+  206 |   await page.getByTestId("cancel-modal-button").click();
+  207 |   await page.getByRole("radio", { name: "Usability", exact: true }).check();
+  208 |   await page
+  209 |     .getByRole("button", {
+  210 |       name: "Clear answer: Choose a percentage",
+  211 |       exact: true,
+  212 |     })
+  213 |     .click();
+  214 |   await submitVote(page);
+  215 |   await expect.poll(() => fixture.transactions.signed.length).toBe(1);
+  216 |   expect(checkTransaction(fixture.transactions)).toEqual([[1, 0, 0]]);
+  217 |   expect(fixture.errors).toEqual([]);
+  218 | });
+  219 | 
+  220 | test("179-2D: numeric controls respect bounds, steps and explicit zero", async ({
+  221 |   page,
+  222 | }) => {
+  223 |   const fixture = await setup(page, {
+  224 |     survey: definition({
+  225 |       questions: [
+  226 |         ...questions,
+  227 |         {
+  228 |           type: "numericRange",
+  229 |           prompt: "Signed steps",
+  230 |           constraints: { min: -5n, max: 4n, step: 2n },
+  231 |         },
+  232 |         {
+  233 |           type: "numericRange",
+  234 |           prompt: "Fixed value",
+  235 |           constraints: { min: 7n, max: 7n },
+```
