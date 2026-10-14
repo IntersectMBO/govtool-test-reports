@@ -1,0 +1,544 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 4-proposal-visibility/proposalVisibility.dRep.spec.ts >> Check vote count >> 4G. Should display correct vote counts on governance details page for DRep
+- Location: tests/4-proposal-visibility/proposalVisibility.dRep.spec.ts:117:7
+
+# Error details
+
+```
+Error: expect(locator).toHaveText(expected) failed
+
+Locator:  getByTestId('submitted-votes-sPos-no')
+Expected: "₳ 65.14M"
+Received: "₳ 65.90M"
+Timeout:  5000ms
+
+Call log:
+  - Expect "toHaveText" with timeout 5000ms
+  - waiting for getByTestId('submitted-votes-sPos-no')
+    9 × locator resolved to <p data-testid="submitted-votes-sPos-no" class="MuiTypography-root MuiTypography-body1 css-a9gdxx">₳ 65.90M</p>
+      - unexpected value "₳ 65.90M"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: undefined"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - link "app-logo" [ref=e12] [cursor=pointer]:
+        - /url: /dashboard
+        - img "app-logo" [ref=e13]
+      - generic [ref=e14]:
+        - link "icon Home" [ref=e16] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e17]:
+            - img "icon" [ref=e18]
+            - paragraph [ref=e19]: Home
+        - link "icon DRep Directory" [ref=e21] [cursor=pointer]:
+          - /url: /connected/drep_directory
+          - generic [ref=e22]:
+            - img "icon" [ref=e23]
+            - paragraph [ref=e24]: DRep Directory
+        - generic [ref=e25]:
+          - link "icon Governance Actions" [ref=e26] [cursor=pointer]:
+            - /url: /connected/governance_actions
+            - generic [ref=e27]:
+              - img "icon" [ref=e28]
+              - paragraph [ref=e29]: Governance Actions
+          - generic [ref=e30]:
+            - link "Proposals" [ref=e31] [cursor=pointer]:
+              - /url: /proposal_discussion
+              - generic [ref=e32]:
+                - img [ref=e34]
+                - paragraph [ref=e36]: Proposals
+            - link "icon Live Voting" [ref=e37] [cursor=pointer]:
+              - /url: /connected/governance_actions
+              - generic [ref=e38]:
+                - img "icon" [ref=e39]
+                - paragraph [ref=e40]: Live Voting
+            - link "icon Governance action history" [ref=e41] [cursor=pointer]:
+              - /url: /governance_actions/history
+              - generic [ref=e42]:
+                - img "icon" [ref=e43]
+                - paragraph [ref=e44]: Governance action history
+        - link "icon Guides" [ref=e46] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e47]:
+            - img "icon" [ref=e48]
+            - paragraph [ref=e49]: Guides
+        - link "icon FAQs" [ref=e51] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e52]:
+            - img "icon" [ref=e53]
+            - paragraph [ref=e54]: FAQs
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - paragraph [ref=e58]: "My DRep ID:"
+            - img "copy" [ref=e59] [cursor=pointer]
+          - paragraph [ref=e61]: drep1phdgz8mgy3q9yn545d60xvtzuxf66vku6wmtx9gvccs0y2wcp2m
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: "Connected Wallet:"
+          - generic [ref=e65]:
+            - paragraph [ref=e66]: 00822b46c30062b28fb364df5a80facc72b823d08be2440bed7a13238d2a38d616ed6eedf5b66f74915a98bb1121f5eaa17b95ecc75771b447
+            - button "Disconnect" [ref=e67] [cursor=pointer]: Disconnect
+    - generic [ref=e68]:
+      - navigation [ref=e69]:
+        - paragraph [ref=e71]: Live Voting
+        - generic [ref=e73]:
+          - img [ref=e74]
+          - paragraph [ref=e76]: "Voting power:"
+          - paragraph [ref=e77]: ₳ 0
+      - generic [ref=e78]:
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - img [ref=e82]
+            - textbox "Search..." [ref=e84]
+          - generic [ref=e86]:
+            - generic [ref=e87] [cursor=pointer]:
+              - img "filter" [ref=e88]
+              - paragraph [ref=e89]: Filter
+            - generic [ref=e90] [cursor=pointer]:
+              - img "sort" [ref=e91]
+              - paragraph [ref=e92]: Sort
+        - tablist "Governance Actions tabs" [ref=e96]:
+          - tab "To vote" [selected] [ref=e97] [cursor=pointer]
+          - tab "Voted on by me" [ref=e98] [cursor=pointer]
+        - tabpanel [ref=e101]:
+          - generic [ref=e103]:
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - paragraph [ref=e108]: Tametsi contabesco accusamus sunt mollitia fuga.
+                - generic [ref=e109]:
+                  - heading "Governance Action Type:" [level=2] [ref=e111]
+                  - paragraph [ref=e114]: No Confidence
+                - generic [ref=e115]:
+                  - generic [ref=e116]:
+                    - paragraph [ref=e117]: "Submitted: 14th Oct 2026 (Epoch 11)"
+                    - img [ref=e118]
+                  - generic [ref=e120]:
+                    - paragraph [ref=e121]: "Expires: 16th Oct 2026 (Epoch 2892)"
+                    - img [ref=e122]
+                - generic [ref=e124]:
+                  - heading "Governance Action ID:" [level=2] [ref=e126]
+                  - generic [ref=e127]:
+                    - paragraph [ref=e128]: gov_action1rvuzn8crashea5mf9thjgxnfxruyhkrr65t8x3ufupfqr0et7fjqqn4uhhv
+                    - img "copy" [ref=e130] [cursor=pointer]
+                - generic [ref=e131]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e133]
+                  - generic [ref=e134]:
+                    - paragraph [ref=e135]: 1b38299f03ec2f9ed3692aef241a6930f84bd863d516734789e05201bf2bf264#0
+                    - img "copy" [ref=e137] [cursor=pointer]
+              - link "View Details and Vote" [ref=e139] [cursor=pointer]:
+                - /url: /connected/governance_actions/1b38299f03ec2f9ed3692aef241a6930f84bd863d516734789e05201bf2bf264#0
+                - text: View Details and Vote
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - paragraph [ref=e144]: Video volubilis crinis porro perferendis celebrer.
+                - generic [ref=e145]:
+                  - heading "Governance Action Type:" [level=2] [ref=e147]
+                  - paragraph [ref=e150]: Update to the Constitution
+                - generic [ref=e151]:
+                  - generic [ref=e152]:
+                    - paragraph [ref=e153]: "Submitted: 14th Oct 2026 (Epoch 11)"
+                    - img [ref=e154]
+                  - generic [ref=e156]:
+                    - paragraph [ref=e157]: "Expires: 16th Oct 2026 (Epoch 2892)"
+                    - img [ref=e158]
+                - generic [ref=e160]:
+                  - heading "Governance Action ID:" [level=2] [ref=e162]
+                  - generic [ref=e163]:
+                    - paragraph [ref=e164]: gov_action1snxzexzupceuxqu54p7yuumx6qc7h39zw5d98lz65erqwjer8pwsq4juhnd
+                    - img "copy" [ref=e166] [cursor=pointer]
+                - generic [ref=e167]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e169]
+                  - generic [ref=e170]:
+                    - paragraph [ref=e171]: 84cc2c985c0e33c30394a87c4e7366d031ebc4a2751a53fc5aa646074b23385d#0
+                    - img "copy" [ref=e173] [cursor=pointer]
+              - link "View Details and Vote" [ref=e175] [cursor=pointer]:
+                - /url: /connected/governance_actions/84cc2c985c0e33c30394a87c4e7366d031ebc4a2751a53fc5aa646074b23385d#0
+                - text: View Details and Vote
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - paragraph [ref=e180]: Cognomen temperantia dolores solvo suscipio succedo.
+                - generic [ref=e181]:
+                  - heading "Governance Action Type:" [level=2] [ref=e183]
+                  - paragraph [ref=e186]: Info Action
+                - generic [ref=e187]:
+                  - generic [ref=e188]:
+                    - paragraph [ref=e189]: "Submitted: 14th Oct 2026 (Epoch 10)"
+                    - img [ref=e190]
+                  - generic [ref=e192]:
+                    - paragraph [ref=e193]: "Expires: 16th Oct 2026 (Epoch 2891)"
+                    - img [ref=e194]
+                - generic [ref=e196]:
+                  - heading "Governance Action ID:" [level=2] [ref=e198]
+                  - generic [ref=e199]:
+                    - paragraph [ref=e200]: gov_action1h5mmg9jye6eudlwuh4622mxrxh0pa4v2mznkprxaza9eqnn8rspsq766cpe
+                    - img "copy" [ref=e202] [cursor=pointer]
+                - generic [ref=e203]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e205]
+                  - generic [ref=e206]:
+                    - paragraph [ref=e207]: bd37b41644ceb3c6fddcbd74a56cc335de1ed58ad8a7608cdd174b904e671c03#0
+                    - img "copy" [ref=e209] [cursor=pointer]
+              - link "View Details and Vote" [ref=e211] [cursor=pointer]:
+                - /url: /connected/governance_actions/bd37b41644ceb3c6fddcbd74a56cc335de1ed58ad8a7608cdd174b904e671c03#0
+                - text: View Details and Vote
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - paragraph [ref=e216]: Devnet constitution proposal 20261014T113148
+                - generic [ref=e217]:
+                  - heading "Governance Action Type:" [level=2] [ref=e219]
+                  - paragraph [ref=e222]: Update to the Constitution
+                - generic [ref=e223]:
+                  - generic [ref=e224]:
+                    - paragraph [ref=e225]: "Submitted: 14th Oct 2026 (Epoch 5)"
+                    - img [ref=e226]
+                  - generic [ref=e228]:
+                    - paragraph [ref=e229]: "Expires: 16th Oct 2026 (Epoch 2886)"
+                    - img [ref=e230]
+                - generic [ref=e232]:
+                  - heading "Governance Action ID:" [level=2] [ref=e234]
+                  - generic [ref=e235]:
+                    - paragraph [ref=e236]: gov_action1ftfu9fem3aftk9qgpgsf2lahx60qcv23tla4dzeqnmvat6wjq8fqqv78zte
+                    - img "copy" [ref=e238] [cursor=pointer]
+                - generic [ref=e239]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e241]
+                  - generic [ref=e242]:
+                    - paragraph [ref=e243]: 4ad3c2a73b8f52bb14080a20957fb7369e0c31515ffb568b209ed9d5e9d201d2#0
+                    - img "copy" [ref=e245] [cursor=pointer]
+              - link "View Details and Vote" [ref=e247] [cursor=pointer]:
+                - /url: /connected/governance_actions/4ad3c2a73b8f52bb14080a20957fb7369e0c31515ffb568b209ed9d5e9d201d2#0
+                - text: View Details and Vote
+            - generic [ref=e249]:
+              - generic [ref=e250]:
+                - paragraph [ref=e252]: Devnet committee proposal 20261014T113148
+                - generic [ref=e253]:
+                  - heading "Governance Action Type:" [level=2] [ref=e255]
+                  - paragraph [ref=e258]: New Committee
+                - generic [ref=e259]:
+                  - generic [ref=e260]:
+                    - paragraph [ref=e261]: "Submitted: 14th Oct 2026 (Epoch 5)"
+                    - img [ref=e262]
+                  - generic [ref=e264]:
+                    - paragraph [ref=e265]: "Expires: 16th Oct 2026 (Epoch 2886)"
+                    - img [ref=e266]
+                - generic [ref=e268]:
+                  - heading "Governance Action ID:" [level=2] [ref=e270]
+                  - generic [ref=e271]:
+                    - paragraph [ref=e272]: gov_action1ss0w8dede0nzg4g658tsmkthm7zuqqz5shtk3ualhvet9qxk245sq04snfx
+                    - img "copy" [ref=e274] [cursor=pointer]
+                - generic [ref=e275]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e277]
+                  - generic [ref=e278]:
+                    - paragraph [ref=e279]: 841ee3b72dcbe624551aa1d70dd977df85c0005485d768f3bfbb32b280d65569#0
+                    - img "copy" [ref=e281] [cursor=pointer]
+              - link "View Details and Vote" [ref=e283] [cursor=pointer]:
+                - /url: /connected/governance_actions/841ee3b72dcbe624551aa1d70dd977df85c0005485d768f3bfbb32b280d65569#0
+                - text: View Details and Vote
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - paragraph [ref=e288]: Devnet no-confidence proposal 20261014T113148
+                - generic [ref=e289]:
+                  - heading "Governance Action Type:" [level=2] [ref=e291]
+                  - paragraph [ref=e294]: No Confidence
+                - generic [ref=e295]:
+                  - generic [ref=e296]:
+                    - paragraph [ref=e297]: "Submitted: 14th Oct 2026 (Epoch 5)"
+                    - img [ref=e298]
+                  - generic [ref=e300]:
+                    - paragraph [ref=e301]: "Expires: 16th Oct 2026 (Epoch 2886)"
+                    - img [ref=e302]
+                - generic [ref=e304]:
+                  - heading "Governance Action ID:" [level=2] [ref=e306]
+                  - generic [ref=e307]:
+                    - paragraph [ref=e308]: gov_action1eh7x3afqt9ujcffnqazm9dv90sfl8d23t0034fglse9ludypp7rqqafxr3v
+                    - img "copy" [ref=e310] [cursor=pointer]
+                - generic [ref=e311]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e313]
+                  - generic [ref=e314]:
+                    - paragraph [ref=e315]: cdfc68f52059792c25330745b2b5857c13f3b5515bdf1aa51f864bfe34810f86#0
+                    - img "copy" [ref=e317] [cursor=pointer]
+              - link "View Details and Vote" [ref=e319] [cursor=pointer]:
+                - /url: /connected/governance_actions/cdfc68f52059792c25330745b2b5857c13f3b5515bdf1aa51f864bfe34810f86#0
+                - text: View Details and Vote
+            - generic [ref=e321]:
+              - generic [ref=e322]:
+                - paragraph [ref=e324]: Devnet hardfork proposal 20261014T113148
+                - generic [ref=e325]:
+                  - heading "Governance Action Type:" [level=2] [ref=e327]
+                  - paragraph [ref=e330]: Hard Fork
+                - generic [ref=e331]:
+                  - generic [ref=e332]:
+                    - paragraph [ref=e333]: "Submitted: 14th Oct 2026 (Epoch 5)"
+                    - img [ref=e334]
+                  - generic [ref=e336]:
+                    - paragraph [ref=e337]: "Expires: 16th Oct 2026 (Epoch 2886)"
+                    - img [ref=e338]
+                - generic [ref=e340]:
+                  - heading "Governance Action ID:" [level=2] [ref=e342]
+                  - generic [ref=e343]:
+                    - paragraph [ref=e344]: gov_action1g2padjx8apt3qj7fldl6vfwxsrzmaqfsz2pjh2csgl5a56w66vrsqy8ez5p
+                    - img "copy" [ref=e346] [cursor=pointer]
+                - generic [ref=e347]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e349]
+                  - generic [ref=e350]:
+                    - paragraph [ref=e351]: 4283d6c8c7e857104bc9fb7fa625c680c5be813012832bab1047e9da69dad307#0
+                    - img "copy" [ref=e353] [cursor=pointer]
+              - link "View Details and Vote" [ref=e355] [cursor=pointer]:
+                - /url: /connected/governance_actions/4283d6c8c7e857104bc9fb7fa625c680c5be813012832bab1047e9da69dad307#0
+                - text: View Details and Vote
+            - generic [ref=e357]:
+              - generic [ref=e358]:
+                - paragraph [ref=e360]: Devnet parameter proposal 20261014T113148
+                - generic [ref=e361]:
+                  - heading "Governance Action Type:" [level=2] [ref=e363]
+                  - paragraph [ref=e366]: Protocol Parameter Change
+                - generic [ref=e367]:
+                  - generic [ref=e368]:
+                    - paragraph [ref=e369]: "Submitted: 14th Oct 2026 (Epoch 5)"
+                    - img [ref=e370]
+                  - generic [ref=e372]:
+                    - paragraph [ref=e373]: "Expires: 16th Oct 2026 (Epoch 2886)"
+                    - img [ref=e374]
+                - generic [ref=e376]:
+                  - heading "Governance Action ID:" [level=2] [ref=e378]
+                  - generic [ref=e379]:
+                    - paragraph [ref=e380]: gov_action1lxcp8gckcweeauvlh05ehdgagpk7z5razkq4n9ljnqda6j8yc48sq9lct5c
+                    - img "copy" [ref=e382] [cursor=pointer]
+                - generic [ref=e383]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e385]
+                  - generic [ref=e386]:
+                    - paragraph [ref=e387]: f9b013a316c3b39ef19fbbe99bb51d406de1507d15815997f2981bdd48e4c54f#0
+                    - img "copy" [ref=e389] [cursor=pointer]
+              - link "View Details and Vote" [ref=e391] [cursor=pointer]:
+                - /url: /connected/governance_actions/f9b013a316c3b39ef19fbbe99bb51d406de1507d15815997f2981bdd48e4c54f#0
+                - text: View Details and Vote
+            - generic [ref=e393]:
+              - generic [ref=e394]:
+                - paragraph [ref=e396]: Devnet treasury proposal 20261014T113148
+                - generic [ref=e397]:
+                  - heading "Governance Action Type:" [level=2] [ref=e399]
+                  - paragraph [ref=e402]: Treasury Withdrawal
+                - generic [ref=e403]:
+                  - generic [ref=e404]:
+                    - paragraph [ref=e405]: "Submitted: 14th Oct 2026 (Epoch 5)"
+                    - img [ref=e406]
+                  - generic [ref=e408]:
+                    - paragraph [ref=e409]: "Expires: 16th Oct 2026 (Epoch 2886)"
+                    - img [ref=e410]
+                - generic [ref=e412]:
+                  - heading "Governance Action ID:" [level=2] [ref=e414]
+                  - generic [ref=e415]:
+                    - paragraph [ref=e416]: gov_action18xf95wzjj4ltsuzp0styzaevg4ktq2kxy36pwcgwyhp3hxpetrtsqc2wuc5
+                    - img "copy" [ref=e418] [cursor=pointer]
+                - generic [ref=e419]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e421]
+                  - generic [ref=e422]:
+                    - paragraph [ref=e423]: 39925a3852957eb870417c1641772c456cb02ac6247417610e25c31b983958d7#0
+                    - img "copy" [ref=e425] [cursor=pointer]
+              - link "View Details and Vote" [ref=e427] [cursor=pointer]:
+                - /url: /connected/governance_actions/39925a3852957eb870417c1641772c456cb02ac6247417610e25c31b983958d7#0
+                - text: View Details and Vote
+            - generic [ref=e429]:
+              - generic [ref=e430]:
+                - paragraph [ref=e432]: Devnet info proposal 20261014T113148
+                - generic [ref=e433]:
+                  - heading "Governance Action Type:" [level=2] [ref=e435]
+                  - paragraph [ref=e438]: Info Action
+                - generic [ref=e439]:
+                  - generic [ref=e440]:
+                    - paragraph [ref=e441]: "Submitted: 14th Oct 2026 (Epoch 5)"
+                    - img [ref=e442]
+                  - generic [ref=e444]:
+                    - paragraph [ref=e445]: "Expires: 16th Oct 2026 (Epoch 2886)"
+                    - img [ref=e446]
+                - generic [ref=e448]:
+                  - heading "Governance Action ID:" [level=2] [ref=e450]
+                  - generic [ref=e451]:
+                    - paragraph [ref=e452]: gov_action1x45fdjmvraravkjxk3480rfymf8a49q95muw0zlwute6t873l34qqg4gfj9
+                    - img "copy" [ref=e454] [cursor=pointer]
+                - generic [ref=e455]:
+                  - heading "Legacy Governance Action ID (CIP-105):" [level=2] [ref=e457]
+                  - generic [ref=e458]:
+                    - paragraph [ref=e459]: 356896cb6c1f47d65a46b46a778d24da4fda9405a6f8e78beee2f3a59fd1fc6a#0
+                    - img "copy" [ref=e461] [cursor=pointer]
+              - link "View Details and Vote" [ref=e463] [cursor=pointer]:
+                - /url: /connected/governance_actions/356896cb6c1f47d65a46b46a778d24da4fda9405a6f8e78beee2f3a59fd1fc6a#0
+                - text: View Details and Vote
+        - tabpanel
+      - contentinfo [ref=e464]:
+        - paragraph [ref=e465]: © 2026 GovTool
+        - generic [ref=e466]:
+          - generic [ref=e467] [cursor=pointer]: Privacy policy
+          - generic [ref=e468] [cursor=pointer]: Terms of Use
+        - generic [ref=e469]:
+          - button "helpIcon Help" [ref=e470] [cursor=pointer]:
+            - img "helpIcon" [ref=e472]
+            - text: Help
+          - button "Subscribe to updates" [ref=e473] [cursor=pointer]: Subscribe to updates
+          - button "Feedback" [ref=e474] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e475]
+```
+
+# Test source
+
+```ts
+  85  |       for (let i = 0; i < 100; i++) {
+  86  |         await govActionDetailsPage.metadataUrlInput.fill(mockValid.url());
+  87  |         await expect(page.getByTestId("invalid-url-error")).toBeHidden();
+  88  |       }
+  89  |     });
+  90  | 
+  91  |     test("4O. Should reject invalid metadata anchor on vote context", async ({
+  92  |       page,
+  93  |     }) => {
+  94  |       for (let i = 0; i < 100; i++) {
+  95  |         const invalidUrl = mockInvalid.url(false);
+  96  |         await govActionDetailsPage.metadataUrlInput.fill(invalidUrl);
+  97  |         if (invalidUrl.length <= 128) {
+  98  |           await expect(page.getByTestId("invalid-url-error")).toBeVisible();
+  99  |         } else {
+  100 |           await expect(
+  101 |             page.getByTestId("url-must-be-less-than-128-bytes-error")
+  102 |           ).toBeVisible();
+  103 |         }
+  104 |       }
+  105 |     });
+  106 |   });
+  107 | });
+  108 | 
+  109 | test.describe("Check vote count", () => {
+  110 |   test.use({ walletName: "dRep01" });
+  111 | 
+  112 |   test.beforeAll(async () => {
+  113 |     test.setTimeout(2 * environments.txTimeOut);
+  114 |     await sharedDRep("dRep01");
+  115 |   });
+  116 | 
+  117 |   test("4G. Should display correct vote counts on governance details page for DRep", async ({
+  118 |     page,
+  119 |     browser,
+  120 |     wallet,
+  121 |   }) => {
+  122 |     const voteWhiteListOption = (await isBootStrapingPhase())
+  123 |       ? { InfoAction: "InfoAction" }
+  124 |       : GovernanceActionType;
+  125 |     const responsePromise = page.waitForResponse("**/proposal/list?**");
+  126 | 
+  127 |     const governanceActionsPage = new GovernanceActionsPage(page);
+  128 |     await governanceActionsPage.goto();
+  129 | 
+  130 |     const response = await responsePromise;
+  131 |     const allowedTypes = Object.values(voteWhiteListOption);
+  132 |     const proposals: IProposal[] = (await response.json()).elements.filter(
+  133 |       (proposal: IProposal) => allowedTypes.includes(proposal.type)
+  134 |     );
+  135 | 
+  136 |     const uniqueProposalTypes = Array.from(
+  137 |       new Map(proposals.map((proposal) => [proposal.type, proposal])).values()
+  138 |     );
+  139 | 
+  140 |     expect(proposals.length, "No proposals found!").toBeGreaterThan(0);
+  141 | 
+  142 |     await Promise.all(
+  143 |       uniqueProposalTypes.map(async (proposalToCheck) => {
+  144 |         const dRepPage = await createNewPageWithWallet(browser, {
+  145 |           wallet: wallet!,
+  146 |         });
+  147 | 
+  148 |         const totalStakeResponsePromise = dRepPage.waitForResponse((response) =>
+  149 |           response.url().includes(`network/total-stake`)
+  150 |         );
+  151 |         const govActionDetailsPage = new GovernanceActionDetailsPage(dRepPage);
+  152 |         await govActionDetailsPage.goto(
+  153 |           `${proposalToCheck.txHash}#${proposalToCheck.index}`
+  154 |         );
+  155 | 
+  156 |         await govActionDetailsPage.showVotesBtn.click();
+  157 | 
+  158 |         const dRepTotalAbstainVote =
+  159 |           await govActionDetailsPage.getDRepTotalAbstainVoted(
+  160 |             proposalToCheck,
+  161 |             totalStakeResponsePromise
+  162 |           );
+  163 | 
+  164 |         // check dRep votes
+  165 |         if (await areDRepVoteTotalsDisplayed(proposalToCheck)) {
+  166 |           await expect(govActionDetailsPage.dRepYesVotes).toHaveText(
+  167 |             `₳ ${correctVoteAdaFormat(proposalToCheck.dRepYesVotes)}`
+  168 |           );
+  169 |           await expect(govActionDetailsPage.dRepAbstainVotes).toHaveText(
+  170 |             `₳ ${correctVoteAdaFormat(dRepTotalAbstainVote)}`
+  171 |           );
+  172 |           await expect(govActionDetailsPage.dRepNoVotes).toHaveText(
+  173 |             `₳ ${correctVoteAdaFormat(proposalToCheck.dRepNoVotes)}`
+  174 |           );
+  175 |         }
+  176 | 
+  177 |         // check sPos votes
+  178 |         if (await areSPOVoteTotalsDisplayed(proposalToCheck)) {
+  179 |           await expect(govActionDetailsPage.sPosYesVotes).toHaveText(
+  180 |             `₳ ${correctVoteAdaFormat(proposalToCheck.poolYesVotes)}`
+  181 |           );
+  182 |           await expect(govActionDetailsPage.sPosAbstainVotes).toHaveText(
+  183 |             `₳ ${correctVoteAdaFormat(proposalToCheck.poolAbstainVotes)}`
+  184 |           );
+> 185 |           await expect(govActionDetailsPage.sPosNoVotes).toHaveText(
+      |                                                          ^ Error: expect(locator).toHaveText(expected) failed
+  186 |             `₳ ${correctVoteAdaFormat(proposalToCheck.poolNoVotes)}`
+  187 |           );
+  188 |         }
+  189 | 
+  190 |         // check ccCommittee votes
+  191 |         if (areCCVoteTotalsDisplayed(proposalToCheck)) {
+  192 |           await expect(govActionDetailsPage.ccCommitteeYesVotes).toHaveText(
+  193 |             `${proposalToCheck.ccYesVotes}`
+  194 |           );
+  195 |           await expect(govActionDetailsPage.ccCommitteeAbstainVotes).toHaveText(
+  196 |             `${proposalToCheck.ccAbstainVotes}`
+  197 |           );
+  198 |           await expect(govActionDetailsPage.ccCommitteeNoVotes).toHaveText(
+  199 |             `${proposalToCheck.ccNoVotes}`
+  200 |           );
+  201 |         }
+  202 |       })
+  203 |     );
+  204 |   });
+  205 | });
+  206 | 
+  207 | test("4F. Should Disable DRep functionality upon wallet disconnection on governance actions page", async ({
+  208 |   browser,
+  209 | }, testInfo) => {
+  210 |   test.setTimeout(testInfo.timeout + 2 * environments.txTimeOut);
+  211 | 
+  212 |   const wallet = await registeredDRepWallet("4F:dRep");
+  213 | 
+  214 |   const dRepPage = await createNewPageWithWallet(browser, { wallet });
+  215 | 
+  216 |   const governanceActionsPage = new GovernanceActionsPage(dRepPage);
+  217 |   await governanceActionsPage.goto();
+  218 | 
+  219 |   await dRepPage.getByTestId("disconnect-button").click();
+  220 | 
+  221 |   await expect(dRepPage).toHaveURL("/governance_actions");
+  222 | 
+  223 |   const govActionDetailsPage = await governanceActionsPage.viewFirstProposal();
+  224 |   await expect(govActionDetailsPage.voteBtn).not.toBeVisible();
+  225 | });
+  226 | 
+```

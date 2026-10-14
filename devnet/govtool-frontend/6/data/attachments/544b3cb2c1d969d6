@@ -1,0 +1,235 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 7-proposal-submission/proposalSubmission.loggedin.pd.spec.ts >> Proposal Draft >> 7L. Should save proposal as a draft
+- Location: tests/7-proposal-submission/proposalSubmission.loggedin.pd.spec.ts:380:7
+
+# Error details
+
+```
+Error: expect(locator).toHaveValue(expected) failed
+
+Locator:  getByTestId('major-input')
+Expected: "10"
+Received: ""
+Timeout:  5000ms
+
+Call log:
+  - Expect "toHaveValue" with timeout 5000ms
+  - waiting for getByTestId('major-input')
+    9 × locator resolved to <input value="" id="_r_cs_" required="" type="text" placeholder="" data-testid="major-input" class="MuiInputBase-input css-mevgbx"/>
+      - unexpected value ""
+
+```
+
+# Test source
+
+```ts
+  344 |     const proposalDiscussionDetailsPage = new ProposalDiscussionDetailsPage(
+  345 |       page
+  346 |     );
+  347 | 
+  348 |     try {
+  349 |       await proposalDiscussionDetailsPage.submitAsGABtn.click();
+  350 |       await expect(
+  351 |         proposalCreationPage.currentPage.getByTestId(
+  352 |           "insufficient-wallet-balance-title"
+  353 |         )
+  354 |       ).toHaveText(/Insufficient wallet balance/);
+  355 | 
+  356 |       await proposalCreationPage.currentPage
+  357 |         .getByTestId("insufficient-wallet-balance-dialog-button")
+  358 |         .click();
+  359 |     } finally {
+  360 |       await proposalDiscussionDetailsPage.deleteProposal();
+  361 |     }
+  362 |   });
+  363 | });
+  364 | 
+  365 | test.describe("Proposal Draft", () => {
+  366 |   test("7C. Should list unfinished Draft ", async ({ browser }) => {
+  367 |     await skipIfMainnet();
+  368 |     const page = await createNewPageWithWallet(browser, {
+  369 |       wallet: await testWallet("proposal03"),
+  370 |     });
+  371 |     const proposalSubmissionPage = new ProposalSubmissionPage(page);
+  372 |     const proposalType =
+  373 |       getProposalType()[Math.floor(Math.random() * getProposalType().length)];
+  374 |     await proposalSubmissionPage.createDraft(proposalType);
+  375 |     const getAllDrafts = await proposalSubmissionPage.getAllDrafts();
+  376 | 
+  377 |     expect(getAllDrafts.length).toBeGreaterThan(0);
+  378 |   });
+  379 | 
+  380 |   test("7L. Should save proposal as a draft", async ({ browser }) => {
+  381 |     await skipIfMainnet();
+  382 |     const page = await createNewPageWithWallet(browser, {
+  383 |       wallet: await testWallet("proposal04"),
+  384 |     });
+  385 | 
+  386 |     const proposalType =
+  387 |       getProposalType()[Math.floor(Math.random() * getProposalType().length)];
+  388 | 
+  389 |     const proposalSubmissionPage = new ProposalSubmissionPage(page);
+  390 |     const createProposalType = (await isBootStrapingPhase())
+  391 |       ? ProposalType.info
+  392 |       : proposalType;
+  393 |     const { proposalFormValue } =
+  394 |       await proposalSubmissionPage.createDraft(createProposalType);
+  395 |     const draftCard = proposalSubmissionPage.getFirstDraft();
+  396 |     const draftCardAllInnerText = await (await draftCard).allInnerTexts();
+  397 | 
+  398 |     expect(draftCardAllInnerText.includes(proposalFormValue.prop_name));
+  399 |     expect(draftCardAllInnerText.includes(proposalFormValue.prop_abstract));
+  400 | 
+  401 |     (await draftCard)
+  402 |       .locator('[data-testid^="draft-"][data-testid$="-start-editing"]')
+  403 |       .click();
+  404 | 
+  405 |     await expect(proposalSubmissionPage.governanceActionType).toHaveText(
+  406 |       createProposalType,
+  407 |       { timeout: 60_000 }
+  408 |     );
+  409 |     await expect(proposalSubmissionPage.titleInput).toHaveValue(
+  410 |       proposalFormValue.prop_name
+  411 |     );
+  412 |     await expect(proposalSubmissionPage.abstractInput).toHaveValue(
+  413 |       proposalFormValue.prop_abstract
+  414 |     );
+  415 |     await expect(proposalSubmissionPage.motivationInput).toHaveValue(
+  416 |       proposalFormValue.prop_motivation
+  417 |     );
+  418 |     await expect(proposalSubmissionPage.rationaleInput).toHaveValue(
+  419 |       proposalFormValue.prop_rationale
+  420 |     );
+  421 | 
+  422 |     if (createProposalType === ProposalType.treasury) {
+  423 |       await expect(proposalSubmissionPage.receivingAddressInput).toHaveValue(
+  424 |         proposalFormValue.prop_receiving_address
+  425 |       );
+  426 |       await expect(proposalSubmissionPage.amountInput).toHaveValue(
+  427 |         proposalFormValue.prop_amount
+  428 |       );
+  429 |     }
+  430 | 
+  431 |     if (createProposalType === ProposalType.updatesToTheConstitution) {
+  432 |       await expect(proposalSubmissionPage.constitutionUrlInput).toHaveValue(
+  433 |         proposalFormValue.prop_constitution_url
+  434 |       );
+  435 |       await expect(proposalSubmissionPage.guardrailsScriptUrlInput).toHaveValue(
+  436 |         proposalFormValue.prop_guardrails_script_url
+  437 |       );
+  438 |       await expect(
+  439 |         proposalSubmissionPage.guardrailsScriptHashInput
+  440 |       ).toHaveValue(proposalFormValue.prop_guardrails_script_hash);
+  441 |     }
+  442 | 
+  443 |     if (createProposalType === ProposalType.hardFork) {
+> 444 |       await expect(proposalSubmissionPage.majorInput).toHaveValue(
+      |                                                       ^ Error: expect(locator).toHaveValue(expected) failed
+  445 |         proposalFormValue.prop_major_version
+  446 |       );
+  447 |       await expect(proposalSubmissionPage.minorInput).toHaveValue(
+  448 |         proposalFormValue.prop_min_version
+  449 |       );
+  450 |     }
+  451 | 
+  452 |     await expect(proposalSubmissionPage.linkUrlInput).toHaveValue(
+  453 |       proposalFormValue.proposal_links[0].prop_link
+  454 |     );
+  455 |     await expect(proposalSubmissionPage.linkTextInput).toHaveValue(
+  456 |       proposalFormValue.proposal_links[0].prop_link_text
+  457 |     );
+  458 |   });
+  459 | 
+  460 |   getProposalType().map((proposalType, index) => {
+  461 |     test(`7M_${index + 1}. Should edit a ${proposalType.toLowerCase()} proposal draft`, async ({
+  462 |       browser,
+  463 |     }) => {
+  464 |       await skipIfMainnet();
+  465 |       test.slow();
+  466 |       const page = await createNewPageWithWallet(browser, {
+  467 |         wallet: await testWallet(getDraftProposalWalletName(proposalType)),
+  468 |       });
+  469 | 
+  470 |       const proposalSubmissionPage = new ProposalSubmissionPage(page);
+  471 |       const { proposalFormValue } = await proposalSubmissionPage.createDraft(
+  472 |         proposalType as ProposalType
+  473 |       );
+  474 |       const newTitle = faker.lorem.sentence(6);
+  475 |       const newTreasuryAddress = await randomStakeAddress();
+  476 |       const newConstitutionUrl = faker.internet.url();
+  477 | 
+  478 |       await proposalSubmissionPage.viewFirstDraft();
+  479 |       await proposalSubmissionPage.titleInput.fill(newTitle);
+  480 |       if (proposalType === ProposalType.treasury) {
+  481 |         await proposalSubmissionPage.receivingAddressInput.fill(
+  482 |           newTreasuryAddress
+  483 |         );
+  484 |       }
+  485 |       if (proposalType === ProposalType.updatesToTheConstitution) {
+  486 |         await proposalSubmissionPage.constitutionUrlInput.fill(
+  487 |           newConstitutionUrl
+  488 |         );
+  489 |       }
+  490 |       await proposalSubmissionPage.continueBtn.click();
+  491 | 
+  492 |       await expect(
+  493 |         proposalSubmissionPage.governanceActionTypeContent
+  494 |       ).toHaveText(proposalType);
+  495 |       await expect(proposalSubmissionPage.titleContent).toHaveText(newTitle);
+  496 |       await expect(proposalSubmissionPage.abstractContent).toHaveText(
+  497 |         proposalFormValue.prop_abstract
+  498 |       );
+  499 |       await expect(proposalSubmissionPage.motivationContent).toHaveText(
+  500 |         proposalFormValue.prop_motivation
+  501 |       );
+  502 |       await expect(proposalSubmissionPage.rationaleContent).toHaveText(
+  503 |         proposalFormValue.prop_rationale
+  504 |       );
+  505 |       await expect(proposalSubmissionPage.linkTextContent).toHaveText(
+  506 |         proposalFormValue.proposal_links[0].prop_link_text
+  507 |       );
+  508 | 
+  509 |       if (proposalType === ProposalType.treasury) {
+  510 |         await expect(proposalSubmissionPage.receivingAddressContent).toHaveText(
+  511 |           newTreasuryAddress
+  512 |         );
+  513 |         await expect(proposalSubmissionPage.amountContent).toHaveText(
+  514 |           adaAmountText(proposalFormValue.prop_amount)
+  515 |         );
+  516 |       }
+  517 | 
+  518 |       if (proposalType === ProposalType.updatesToTheConstitution) {
+  519 |         await expect(proposalSubmissionPage.constitutionUrlContent).toHaveText(
+  520 |           newConstitutionUrl
+  521 |         );
+  522 |         await expect(
+  523 |           proposalSubmissionPage.guardrailsScriptUrlContent
+  524 |         ).toHaveText(proposalFormValue.prop_guardrails_script_url);
+  525 |         await expect(
+  526 |           proposalSubmissionPage.guardrailsScriptHashContent
+  527 |         ).toHaveText(proposalFormValue.prop_guardrails_script_hash);
+  528 |       }
+  529 | 
+  530 |       if (proposalType === ProposalType.hardFork) {
+  531 |         await expect(proposalSubmissionPage.majorVersionContent).toHaveText(
+  532 |           proposalFormValue.prop_major_version
+  533 |         );
+  534 |         await expect(proposalSubmissionPage.minorVersionContent).toHaveText(
+  535 |           proposalFormValue.prop_min_version
+  536 |         );
+  537 |       }
+  538 |     });
+  539 |   });
+  540 | 
+  541 |   test("7N. Should submit a draft proposal", async ({ browser }) => {
+  542 |     await skipIfMainnet();
+  543 |     const page = await createNewPageWithWallet(browser, {
+  544 |       wallet: await testWallet("proposal06"),
+```
