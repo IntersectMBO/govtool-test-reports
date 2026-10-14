@@ -1,0 +1,304 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 11-budget-proposals-archive/budgetProposalsArchive.spec.ts >> Budget proposals archive list >> 11B_1. Should search budget proposals by title
+- Location: tests/11-budget-proposals-archive/budgetProposalsArchive.spec.ts:71:7
+
+# Error details
+
+```
+Error: expect(received).toContain(expected) // indexOf
+
+Expected substring: "marketing infrastructure for cardano"
+Received string:    "cardano cloud: no-compromise dapps – easy code, fully verified, serverless"
+
+Call Log:
+- Test timeout of 90000ms exceeded
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: undefined"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - banner [ref=e12]:
+      - generic [ref=e13]:
+        - link "app-logo" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - img "app-logo" [ref=e15]
+        - generic [ref=e16]:
+          - button "Connect" [ref=e17] [cursor=pointer]: Connect
+          - img "drawer-icon" [ref=e18]
+    - status [ref=e20]:
+      - paragraph [ref=e21]: The 2025 budget process is closed. This is a read-only archive of the 2025 budget proposals, their versions, DRep poll results and comments.
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "2025 Budget Proposals" [level=1] [ref=e27]
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - img [ref=e31]
+            - textbox "Search by name or proposer..." [active] [ref=e33]: Marketing Infrastructure for Cardano
+          - generic [ref=e34]:
+            - button "Filter:" [ref=e35] [cursor=pointer]: "Filter:"
+            - 'button "Sort: Newest" [ref=e37] [cursor=pointer]': "Sort: Newest"
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - heading "Marketing & Innovation" [level=2] [ref=e43]
+            - button "Show all" [ref=e44] [cursor=pointer]: Show all
+          - generic [ref=e45]:
+            - button "previous" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+            - button "next" [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - heading "Marketing Infrastructure for Cardano" [level=3] [ref=e64]
+                - heading "@adalink" [level=5] [ref=e65]
+              - button [ref=e66] [cursor=pointer]
+            - generic [ref=e67]:
+              - paragraph [ref=e68]: Budget category
+              - paragraph [ref=e70]: Marketing & Innovation
+            - generic [ref=e71]:
+              - paragraph [ref=e72]: Proposal benefit
+              - generic [ref=e74]:
+                - list [ref=e75]:
+                  - listitem [ref=e76]: "For Builders: Tools to drive product adoption, launch campaigns, and track marketing ROI transparently."
+                  - listitem [ref=e77]: "For SPOs: Access to campaign tools that reward affiliates based on delegation growth."
+                  - listitem [ref=e78]: "For Marketers & Creators: A new way to earn income through on-chain, performance-based rewards."
+                - paragraph [ref=e79]: Key…
+            - generic [ref=e80]:
+              - paragraph [ref=e81]: Budget Requested
+              - paragraph [ref=e82]: ₳ 242,800
+              - paragraph [ref=e83]: 121,400 USD
+            - generic [ref=e85]:
+              - paragraph [ref=e86]: "Proposed on: 12 April 2025"
+              - img [ref=e88]
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - button "comments" [disabled]:
+                  - img
+                  - generic "comments": "0"
+              - paragraph [ref=e92]: "Poll: Yes 1 · No 8"
+          - link "View Details" [ref=e94] [cursor=pointer]:
+            - /url: /budget_discussion/313
+            - button "View Details" [ref=e95]: View Details
+    - contentinfo [ref=e96]:
+      - paragraph [ref=e97]: © 2026 GovTool
+      - generic [ref=e98]:
+        - generic [ref=e99] [cursor=pointer]: Privacy policy
+        - generic [ref=e100] [cursor=pointer]: Terms of Use
+      - generic [ref=e101]:
+        - button "helpIcon Help" [ref=e102] [cursor=pointer]:
+          - img "helpIcon" [ref=e104]
+          - text: Help
+        - button "Subscribe to updates" [ref=e105] [cursor=pointer]: Subscribe to updates
+        - button "Feedback" [ref=e106] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e107]
+```
+
+# Test source
+
+```ts
+  1   | import environments from "@constants/environments";
+  2   | import { test } from "@fixtures/walletExtension";
+  3   | import { setAllureEpic } from "@helpers/allure";
+  4   | import { injectLogger } from "@helpers/page";
+  5   | import { extractProposalIdFromUrl } from "@helpers/string";
+  6   | import BudgetDiscussionDetailsPage from "@pages/budgetDiscussionDetailsPage";
+  7   | import BudgetDiscussionPage, {
+  8   |   BUDGET_ARCHIVE_PATH,
+  9   |   BUDGET_DISCUSSION_API,
+  10  | } from "@pages/budgetDiscussionPage";
+  11  | import { expect, Locator, Page } from "@playwright/test";
+  12  | import { BudgetArchiveListItem, BudgetDiscussionEnum } from "@types";
+  13  | 
+  14  | // The 2025 budget proposals are a read-only archive served from static files
+  15  | // under /budget-proposals-2025; nothing here calls a backend for them.
+  16  | 
+  17  | test.beforeEach(async ({}) => {
+  18  |   await setAllureEpic("11. Budget Proposals Archive");
+  19  | });
+  20  | 
+  21  | const recordBudgetDiscussionApiCalls = (page: Page) => {
+  22  |   const calls: string[] = [];
+  23  |   page.on("request", (request) => {
+  24  |     if (BUDGET_DISCUSSION_API.test(request.url())) calls.push(request.url());
+  25  |   });
+  26  |   return calls;
+  27  | };
+  28  | 
+  29  | const pickDiscussion = (
+  30  |   items: BudgetArchiveListItem[],
+  31  |   predicate: (item: BudgetArchiveListItem) => boolean
+  32  | ) => {
+  33  |   const item = items.find(predicate);
+  34  |   expect(item, "No archived budget proposal matches").toBeTruthy();
+  35  |   return item;
+  36  | };
+  37  | 
+  38  | test("11A. Should show the budget proposals archive in disconnect state", async ({
+  39  |   page,
+  40  | }) => {
+  41  |   const apiCalls = recordBudgetDiscussionApiCalls(page);
+  42  |   const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  43  |   await budgetDiscussionPage.goto();
+  44  | 
+  45  |   await expect(budgetDiscussionPage.archiveBanner).toBeVisible();
+  46  |   await expect(
+  47  |     page.getByRole("heading", { name: "2025 Budget Proposals" })
+  48  |   ).toBeVisible();
+  49  |   await expect(
+  50  |     page.getByTestId("propose-a-budget-discussion-button")
+  51  |   ).toHaveCount(0);
+  52  |   expect(apiCalls).toEqual([]);
+  53  | });
+  54  | 
+  55  | test("11A_2. Should open the archive from Useful links", async ({ page }) => {
+  56  |   await page.goto("/");
+  57  |   await page.getByTestId("useful-link-budgetProposalsArchive").click();
+  58  | 
+  59  |   await expect(page).toHaveURL(/\/budget_discussion$/);
+  60  |   await expect(new BudgetDiscussionPage(page).archiveBanner).toBeVisible();
+  61  | });
+  62  | 
+  63  | test.describe("Budget proposals archive list", () => {
+  64  |   let budgetDiscussionPage: BudgetDiscussionPage;
+  65  | 
+  66  |   test.beforeEach(async ({ page }) => {
+  67  |     budgetDiscussionPage = new BudgetDiscussionPage(page);
+  68  |     await budgetDiscussionPage.goto();
+  69  |   });
+  70  | 
+  71  |   test("11B_1. Should search budget proposals by title", async () => {
+  72  |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  73  |     const proposalName =
+  74  |       items[Math.floor(Math.random() * items.length)].attributes
+  75  |         .bd_proposal_detail.data.attributes.proposal_name;
+  76  | 
+  77  |     await budgetDiscussionPage.searchInput.fill(proposalName);
+  78  | 
+  79  |     await expect(async () => {
+  80  |       const proposalCards = await budgetDiscussionPage.getAllProposals();
+  81  |       for (const proposalCard of proposalCards) {
+  82  |         const title = await proposalCard
+  83  |           .getByTestId("budget-discussion-title")
+  84  |           .textContent();
+  85  |         expect(title.toLowerCase()).toContain(proposalName.toLowerCase());
+  86  |       }
+> 87  |     }).toPass();
+      |        ^ Error: expect(received).toContain(expected) // indexOf
+  88  |   });
+  89  | 
+  90  |   test("11B_2. Should filter budget proposals by categories", async () => {
+  91  |     test.slow();
+  92  |     await budgetDiscussionPage.filterBtn.click();
+  93  | 
+  94  |     await budgetDiscussionPage.applyAndValidateFilters(
+  95  |       Object.values(BudgetDiscussionEnum),
+  96  |       budgetDiscussionPage._validateTypeFiltersInProposalCard
+  97  |     );
+  98  |   });
+  99  | 
+  100 |   test("11B_3. Should sort budget proposals", async () => {
+  101 |     test.slow();
+  102 |     await budgetDiscussionPage.showAll(BudgetDiscussionEnum.Core);
+  103 | 
+  104 |     const title = (card: Locator) =>
+  105 |       card.getByTestId("budget-discussion-title").innerText();
+  106 |     const proposer = async (card: Locator) =>
+  107 |       (await card.getByTestId("budget-discussion-creator").innerText()).replace(
+  108 |         /^@/,
+  109 |         ""
+  110 |       );
+  111 |     const comments = async (card: Locator) =>
+  112 |       Number(await card.locator('[data-testid$="-comment-count"]').innerText());
+  113 |     const proposedOn = async (card: Locator) =>
+  114 |       Date.parse(await card.getByTestId("proposed-date").innerText());
+  115 |     const ascending = (a: string, b: string) =>
+  116 |       a.localeCompare(b, undefined, { sensitivity: "base" }) <= 0;
+  117 |     const descending = (a: string, b: string) => ascending(b, a);
+  118 | 
+  119 |     await budgetDiscussionPage.sortAndValidate(
+  120 |       "Oldest",
+  121 |       proposedOn,
+  122 |       (a, b) => a <= b
+  123 |     );
+  124 |     await budgetDiscussionPage.sortAndValidate(
+  125 |       "Newest",
+  126 |       proposedOn,
+  127 |       (a, b) => a >= b
+  128 |     );
+  129 |     await budgetDiscussionPage.sortAndValidate(
+  130 |       "Most comments",
+  131 |       comments,
+  132 |       (a, b) => a >= b
+  133 |     );
+  134 |     await budgetDiscussionPage.sortAndValidate(
+  135 |       "Least comments",
+  136 |       comments,
+  137 |       (a, b) => a <= b
+  138 |     );
+  139 |     await budgetDiscussionPage.sortAndValidate("Name A-Z", title, ascending);
+  140 |     await budgetDiscussionPage.sortAndValidate("Name Z-A", title, descending);
+  141 |     await budgetDiscussionPage.sortAndValidate(
+  142 |       "Proposer A-Z",
+  143 |       proposer,
+  144 |       ascending
+  145 |     );
+  146 |     await budgetDiscussionPage.sortAndValidate(
+  147 |       "Proposer Z-A",
+  148 |       proposer,
+  149 |       descending
+  150 |     );
+  151 |   });
+  152 | });
+  153 | 
+  154 | test("11C. Should show every proposal of a category on its category page", async ({
+  155 |   browser,
+  156 | }) => {
+  157 |   await Promise.all(
+  158 |     Object.values(BudgetDiscussionEnum).map(async (category) => {
+  159 |       const context = await browser.newContext();
+  160 |       const page = await context.newPage();
+  161 |       injectLogger(page);
+  162 | 
+  163 |       const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  164 |       await budgetDiscussionPage.goto();
+  165 |       const { items } = await budgetDiscussionPage.fetchArchiveList();
+  166 |       const expectedType =
+  167 |         category === BudgetDiscussionEnum.NoCategory
+  168 |           ? "None of these"
+  169 |           : category;
+  170 |       const expectedCount = items.filter(
+  171 |         (item) =>
+  172 |           item.attributes.bd_psapb.data.attributes.type_name.data.attributes
+  173 |             .type_name === expectedType
+  174 |       ).length;
+  175 | 
+  176 |       await budgetDiscussionPage.showAll(category);
+  177 |       await expect(page).toHaveURL(/\/budget_discussion\/category\//);
+  178 |       await expect(budgetDiscussionPage.backToListBtn).toBeVisible();
+  179 | 
+  180 |       const proposalCards = await budgetDiscussionPage.getAllProposals();
+  181 |       expect(proposalCards).toHaveLength(expectedCount);
+  182 |       for (const proposalCard of proposalCards) {
+  183 |         await expect(
+  184 |           proposalCard.getByTestId("budget-discussion-type")
+  185 |         ).toHaveText(expectedType);
+  186 |       }
+  187 |       await context.close();
+```
