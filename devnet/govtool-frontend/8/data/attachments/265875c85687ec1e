@@ -1,0 +1,788 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 9-governance-action-history/governance-action-history.loggedin.spec.ts >> Governance action history page >> 9A_2. Should access governance action history page in connected state
+- Location: tests/9-governance-action-history/governance-action-history.loggedin.spec.ts:23:7
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByRole('heading', { name: 'Historical Actions' })
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Historical Actions' })
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: undefined"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - link "app-logo" [ref=e12] [cursor=pointer]:
+        - /url: /dashboard
+        - img "app-logo" [ref=e13]
+      - generic [ref=e14]:
+        - link "icon Home" [ref=e16] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e17]:
+            - img "icon" [ref=e18]
+            - paragraph [ref=e19]: Home
+        - link "icon DRep Directory" [ref=e21] [cursor=pointer]:
+          - /url: /connected/drep_directory
+          - generic [ref=e22]:
+            - img "icon" [ref=e23]
+            - paragraph [ref=e24]: DRep Directory
+        - generic [ref=e25]:
+          - link "icon Governance Actions" [ref=e26] [cursor=pointer]:
+            - /url: /connected/governance_actions
+            - generic [ref=e27]:
+              - img "icon" [ref=e28]
+              - paragraph [ref=e29]: Governance Actions
+          - generic [ref=e30]:
+            - link "Proposals" [ref=e31] [cursor=pointer]:
+              - /url: /proposal_discussion
+              - generic [ref=e32]:
+                - img [ref=e34]
+                - paragraph [ref=e36]: Proposals
+            - link "icon Live Voting" [ref=e37] [cursor=pointer]:
+              - /url: /connected/governance_actions
+              - generic [ref=e38]:
+                - img "icon" [ref=e39]
+                - paragraph [ref=e40]: Live Voting
+            - link "icon Historical" [active] [ref=e41] [cursor=pointer]:
+              - /url: /governance_actions/history
+              - generic [ref=e42]:
+                - img "icon" [ref=e43]
+                - paragraph [ref=e44]: Historical
+        - link "icon Guides" [ref=e46] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e47]:
+            - img "icon" [ref=e48]
+            - paragraph [ref=e49]: Guides
+        - link "icon FAQs" [ref=e51] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e52]:
+            - img "icon" [ref=e53]
+            - paragraph [ref=e54]: FAQs
+      - generic [ref=e57]:
+        - paragraph [ref=e58]: "Connected Wallet:"
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: 004837aa05226e8be26adc7edbfc2618cda9cb79cf58aae50a89eaf27174733ae4567eae61e72350ee5baf5cb9e602a771eb79761212e2792b
+          - button "Disconnect" [ref=e61] [cursor=pointer]: Disconnect
+    - generic [ref=e62]:
+      - navigation [ref=e63]:
+        - paragraph [ref=e65]: Historical
+      - img "bg-orange" [ref=e66]
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - img [ref=e74]
+            - textbox "Search Action..." [ref=e76]
+          - generic [ref=e77]:
+            - button "Filters" [ref=e79] [cursor=pointer]:
+              - generic [ref=e80]:
+                - paragraph [ref=e81]: Filters
+                - img [ref=e83]
+            - 'button "Sort: Newest first" [ref=e86] [cursor=pointer]':
+              - generic [ref=e87]:
+                - paragraph [ref=e88]: "Sort: Newest first"
+                - img [ref=e90]
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - paragraph [ref=e99]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - paragraph [ref=e103]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e104]:
+                      - paragraph [ref=e105]: (Epoch 1)
+                      - img [ref=e107]
+                  - generic [ref=e109]:
+                    - paragraph [ref=e110]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e111]:
+                      - paragraph [ref=e112]: (Epoch 5)
+                      - img [ref=e114]
+                - generic [ref=e116]:
+                  - heading "Abstract" [level=2] [ref=e118]
+                  - paragraph [ref=e120]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e121]:
+                  - heading "Governance Action Type" [level=2] [ref=e123]
+                  - paragraph [ref=e126]: Treasury Withdrawals
+                - generic [ref=e128]:
+                  - paragraph [ref=e129]: Status
+                  - generic [ref=e130]:
+                    - generic [ref=e132]: Ratified
+                    - generic [ref=e134]: Enacted
+                - generic [ref=e135]:
+                  - heading "Governance Action ID" [level=2] [ref=e137]
+                  - generic [ref=e138]:
+                    - paragraph [ref=e139]: cc69b8a0631b55040ba962b32da0c854aa69024e65564e245ae80ea9523b1104#0
+                    - img "copy" [ref=e141] [cursor=pointer]
+                - generic [ref=e142]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e144]
+                  - generic [ref=e145]:
+                    - paragraph [ref=e146]: gov_action1e35m3grrrd2sgzafv2ejmgxg2j4xjqjwv4tyufz6aq82j53mzyzqqn47rgh
+                    - img "copy" [ref=e148] [cursor=pointer]
+              - link "cc69b8a0631b55040ba962b32da0c854aa69024e65564e245ae80ea9523b1104#0-view-details" [ref=e150] [cursor=pointer]:
+                - /url: /governance_actions/history/cc69b8a0631b55040ba962b32da0c854aa69024e65564e245ae80ea9523b1104#0
+                - text: View Details
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - paragraph [ref=e155]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e157]:
+                  - generic [ref=e158]:
+                    - paragraph [ref=e159]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e160]:
+                      - paragraph [ref=e161]: (Epoch 1)
+                      - img [ref=e163]
+                  - generic [ref=e165]:
+                    - paragraph [ref=e166]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e167]:
+                      - paragraph [ref=e168]: (Epoch 5)
+                      - img [ref=e170]
+                - generic [ref=e172]:
+                  - heading "Abstract" [level=2] [ref=e174]
+                  - paragraph [ref=e176]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e177]:
+                  - heading "Governance Action Type" [level=2] [ref=e179]
+                  - paragraph [ref=e182]: Treasury Withdrawals
+                - generic [ref=e184]:
+                  - paragraph [ref=e185]: Status
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Ratified
+                    - generic [ref=e190]: Enacted
+                - generic [ref=e191]:
+                  - heading "Governance Action ID" [level=2] [ref=e193]
+                  - generic [ref=e194]:
+                    - paragraph [ref=e195]: 2369b6918239120582aa68da7c2dc3a058fe905c97fdd1f57db05eee8df397fb#0
+                    - img "copy" [ref=e197] [cursor=pointer]
+                - generic [ref=e198]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e200]
+                  - generic [ref=e201]:
+                    - paragraph [ref=e202]: gov_action1yd5mdyvz8yfqtq42drd8ctwr5pv0ayzujl7aratakp0war0njlasqnu85p8
+                    - img "copy" [ref=e204] [cursor=pointer]
+              - link "2369b6918239120582aa68da7c2dc3a058fe905c97fdd1f57db05eee8df397fb#0-view-details" [ref=e206] [cursor=pointer]:
+                - /url: /governance_actions/history/2369b6918239120582aa68da7c2dc3a058fe905c97fdd1f57db05eee8df397fb#0
+                - text: View Details
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - paragraph [ref=e211]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e213]:
+                  - generic [ref=e214]:
+                    - paragraph [ref=e215]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e216]:
+                      - paragraph [ref=e217]: (Epoch 1)
+                      - img [ref=e219]
+                  - generic [ref=e221]:
+                    - paragraph [ref=e222]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e223]:
+                      - paragraph [ref=e224]: (Epoch 5)
+                      - img [ref=e226]
+                - generic [ref=e228]:
+                  - heading "Abstract" [level=2] [ref=e230]
+                  - paragraph [ref=e232]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e233]:
+                  - heading "Governance Action Type" [level=2] [ref=e235]
+                  - paragraph [ref=e238]: Treasury Withdrawals
+                - generic [ref=e240]:
+                  - paragraph [ref=e241]: Status
+                  - generic [ref=e242]:
+                    - generic [ref=e244]: Ratified
+                    - generic [ref=e246]: Enacted
+                - generic [ref=e247]:
+                  - heading "Governance Action ID" [level=2] [ref=e249]
+                  - generic [ref=e250]:
+                    - paragraph [ref=e251]: 89ef70a16dfe08c92c2acb26ee682d2fdb2aae2d3389202f464b8e1d736611a7#0
+                    - img "copy" [ref=e253] [cursor=pointer]
+                - generic [ref=e254]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e256]
+                  - generic [ref=e257]:
+                    - paragraph [ref=e258]: gov_action138hhpgtdlcyvjtp2evnwu6pd9ldj4t3dxwyjqt6xfw8p6umxzxnsq5jdgky
+                    - img "copy" [ref=e260] [cursor=pointer]
+              - link "89ef70a16dfe08c92c2acb26ee682d2fdb2aae2d3389202f464b8e1d736611a7#0-view-details" [ref=e262] [cursor=pointer]:
+                - /url: /governance_actions/history/89ef70a16dfe08c92c2acb26ee682d2fdb2aae2d3389202f464b8e1d736611a7#0
+                - text: View Details
+            - generic [ref=e264]:
+              - generic [ref=e265]:
+                - paragraph [ref=e267]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e269]:
+                  - generic [ref=e270]:
+                    - paragraph [ref=e271]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e272]:
+                      - paragraph [ref=e273]: (Epoch 1)
+                      - img [ref=e275]
+                  - generic [ref=e277]:
+                    - paragraph [ref=e278]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e279]:
+                      - paragraph [ref=e280]: (Epoch 5)
+                      - img [ref=e282]
+                - generic [ref=e284]:
+                  - heading "Abstract" [level=2] [ref=e286]
+                  - paragraph [ref=e288]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e289]:
+                  - heading "Governance Action Type" [level=2] [ref=e291]
+                  - paragraph [ref=e294]: Treasury Withdrawals
+                - generic [ref=e296]:
+                  - paragraph [ref=e297]: Status
+                  - generic [ref=e298]:
+                    - generic [ref=e300]: Ratified
+                    - generic [ref=e302]: Enacted
+                - generic [ref=e303]:
+                  - heading "Governance Action ID" [level=2] [ref=e305]
+                  - generic [ref=e306]:
+                    - paragraph [ref=e307]: 81c14c209abe6225677472ae54b3d201658a3d9f6a463387b36d0f437afa9e73#0
+                    - img "copy" [ref=e309] [cursor=pointer]
+                - generic [ref=e310]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e312]
+                  - generic [ref=e313]:
+                    - paragraph [ref=e314]: gov_action1s8q5cgy6he3z2em5w2h9fv7jq9jc50vldfrr8pand585x7h6neesqmyqzf9
+                    - img "copy" [ref=e316] [cursor=pointer]
+              - link "81c14c209abe6225677472ae54b3d201658a3d9f6a463387b36d0f437afa9e73#0-view-details" [ref=e318] [cursor=pointer]:
+                - /url: /governance_actions/history/81c14c209abe6225677472ae54b3d201658a3d9f6a463387b36d0f437afa9e73#0
+                - text: View Details
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - paragraph [ref=e323]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e325]:
+                  - generic [ref=e326]:
+                    - paragraph [ref=e327]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e328]:
+                      - paragraph [ref=e329]: (Epoch 1)
+                      - img [ref=e331]
+                  - generic [ref=e333]:
+                    - paragraph [ref=e334]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e335]:
+                      - paragraph [ref=e336]: (Epoch 5)
+                      - img [ref=e338]
+                - generic [ref=e340]:
+                  - heading "Abstract" [level=2] [ref=e342]
+                  - paragraph [ref=e344]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e345]:
+                  - heading "Governance Action Type" [level=2] [ref=e347]
+                  - paragraph [ref=e350]: Treasury Withdrawals
+                - generic [ref=e352]:
+                  - paragraph [ref=e353]: Status
+                  - generic [ref=e354]:
+                    - generic [ref=e356]: Ratified
+                    - generic [ref=e358]: Enacted
+                - generic [ref=e359]:
+                  - heading "Governance Action ID" [level=2] [ref=e361]
+                  - generic [ref=e362]:
+                    - paragraph [ref=e363]: 548a0c8ddfd6633b1064223b207cc2c66dfe1bd244ad7683f02c507f72b3bce3#0
+                    - img "copy" [ref=e365] [cursor=pointer]
+                - generic [ref=e366]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e368]
+                  - generic [ref=e369]:
+                    - paragraph [ref=e370]: gov_action12j9qerwl6e3nkyryygajqlxzceklux7jgjkhdqls93g87u4nhn3sqgpsuem
+                    - img "copy" [ref=e372] [cursor=pointer]
+              - link "548a0c8ddfd6633b1064223b207cc2c66dfe1bd244ad7683f02c507f72b3bce3#0-view-details" [ref=e374] [cursor=pointer]:
+                - /url: /governance_actions/history/548a0c8ddfd6633b1064223b207cc2c66dfe1bd244ad7683f02c507f72b3bce3#0
+                - text: View Details
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - paragraph [ref=e379]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e381]:
+                  - generic [ref=e382]:
+                    - paragraph [ref=e383]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e384]:
+                      - paragraph [ref=e385]: (Epoch 1)
+                      - img [ref=e387]
+                  - generic [ref=e389]:
+                    - paragraph [ref=e390]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e391]:
+                      - paragraph [ref=e392]: (Epoch 5)
+                      - img [ref=e394]
+                - generic [ref=e396]:
+                  - heading "Abstract" [level=2] [ref=e398]
+                  - paragraph [ref=e400]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e401]:
+                  - heading "Governance Action Type" [level=2] [ref=e403]
+                  - paragraph [ref=e406]: Treasury Withdrawals
+                - generic [ref=e408]:
+                  - paragraph [ref=e409]: Status
+                  - generic [ref=e410]:
+                    - generic [ref=e412]: Ratified
+                    - generic [ref=e414]: Enacted
+                - generic [ref=e415]:
+                  - heading "Governance Action ID" [level=2] [ref=e417]
+                  - generic [ref=e418]:
+                    - paragraph [ref=e419]: c907d27a16a4f9c50dae805b0127ea6b7cd442ad83030eacf62a6b49d75b49c5#0
+                    - img "copy" [ref=e421] [cursor=pointer]
+                - generic [ref=e422]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e424]
+                  - generic [ref=e425]:
+                    - paragraph [ref=e426]: gov_action1eyray7sk5nuu2rdwspdszfl2dd7dgs4dsvpsat8k9f45n46mf8zsq3udk9h
+                    - img "copy" [ref=e428] [cursor=pointer]
+              - link "c907d27a16a4f9c50dae805b0127ea6b7cd442ad83030eacf62a6b49d75b49c5#0-view-details" [ref=e430] [cursor=pointer]:
+                - /url: /governance_actions/history/c907d27a16a4f9c50dae805b0127ea6b7cd442ad83030eacf62a6b49d75b49c5#0
+                - text: View Details
+            - generic [ref=e432]:
+              - generic [ref=e433]:
+                - paragraph [ref=e435]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e437]:
+                  - generic [ref=e438]:
+                    - paragraph [ref=e439]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e440]:
+                      - paragraph [ref=e441]: (Epoch 1)
+                      - img [ref=e443]
+                  - generic [ref=e445]:
+                    - paragraph [ref=e446]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e447]:
+                      - paragraph [ref=e448]: (Epoch 5)
+                      - img [ref=e450]
+                - generic [ref=e452]:
+                  - heading "Abstract" [level=2] [ref=e454]
+                  - paragraph [ref=e456]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e457]:
+                  - heading "Governance Action Type" [level=2] [ref=e459]
+                  - paragraph [ref=e462]: Treasury Withdrawals
+                - generic [ref=e464]:
+                  - paragraph [ref=e465]: Status
+                  - generic [ref=e466]:
+                    - generic [ref=e468]: Ratified
+                    - generic [ref=e470]: Enacted
+                - generic [ref=e471]:
+                  - heading "Governance Action ID" [level=2] [ref=e473]
+                  - generic [ref=e474]:
+                    - paragraph [ref=e475]: 19b3a93fd6a37fed23039b57c762d062fa62dab1d760ed1f2104362e4676c031#0
+                    - img "copy" [ref=e477] [cursor=pointer]
+                - generic [ref=e478]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e480]
+                  - generic [ref=e481]:
+                    - paragraph [ref=e482]: gov_action1rxe6j07k5dl76gcrndtuwcksvtax9k436asw68epqsmzu3nkcqcsqx8690g
+                    - img "copy" [ref=e484] [cursor=pointer]
+              - link "19b3a93fd6a37fed23039b57c762d062fa62dab1d760ed1f2104362e4676c031#0-view-details" [ref=e486] [cursor=pointer]:
+                - /url: /governance_actions/history/19b3a93fd6a37fed23039b57c762d062fa62dab1d760ed1f2104362e4676c031#0
+                - text: View Details
+            - generic [ref=e488]:
+              - generic [ref=e489]:
+                - paragraph [ref=e491]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e493]:
+                  - generic [ref=e494]:
+                    - paragraph [ref=e495]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e496]:
+                      - paragraph [ref=e497]: (Epoch 1)
+                      - img [ref=e499]
+                  - generic [ref=e501]:
+                    - paragraph [ref=e502]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e503]:
+                      - paragraph [ref=e504]: (Epoch 5)
+                      - img [ref=e506]
+                - generic [ref=e508]:
+                  - heading "Abstract" [level=2] [ref=e510]
+                  - paragraph [ref=e512]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e513]:
+                  - heading "Governance Action Type" [level=2] [ref=e515]
+                  - paragraph [ref=e518]: Treasury Withdrawals
+                - generic [ref=e520]:
+                  - paragraph [ref=e521]: Status
+                  - generic [ref=e522]:
+                    - generic [ref=e524]: Ratified
+                    - generic [ref=e526]: Enacted
+                - generic [ref=e527]:
+                  - heading "Governance Action ID" [level=2] [ref=e529]
+                  - generic [ref=e530]:
+                    - paragraph [ref=e531]: 402da517f5f25d8523e0cd5e8a0fb5b49702a493fa05121f3c7b6a8c65023f95#0
+                    - img "copy" [ref=e533] [cursor=pointer]
+                - generic [ref=e534]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e536]
+                  - generic [ref=e537]:
+                    - paragraph [ref=e538]: gov_action1gqk629l47fwc2glqe40g5ra4kjts9fynlgz3y8eu0d4gcegz872sq99d9jk
+                    - img "copy" [ref=e540] [cursor=pointer]
+              - link "402da517f5f25d8523e0cd5e8a0fb5b49702a493fa05121f3c7b6a8c65023f95#0-view-details" [ref=e542] [cursor=pointer]:
+                - /url: /governance_actions/history/402da517f5f25d8523e0cd5e8a0fb5b49702a493fa05121f3c7b6a8c65023f95#0
+                - text: View Details
+            - generic [ref=e544]:
+              - generic [ref=e545]:
+                - paragraph [ref=e547]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e549]:
+                  - generic [ref=e550]:
+                    - paragraph [ref=e551]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e552]:
+                      - paragraph [ref=e553]: (Epoch 1)
+                      - img [ref=e555]
+                  - generic [ref=e557]:
+                    - paragraph [ref=e558]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e559]:
+                      - paragraph [ref=e560]: (Epoch 5)
+                      - img [ref=e562]
+                - generic [ref=e564]:
+                  - heading "Abstract" [level=2] [ref=e566]
+                  - paragraph [ref=e568]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e569]:
+                  - heading "Governance Action Type" [level=2] [ref=e571]
+                  - paragraph [ref=e574]: Treasury Withdrawals
+                - generic [ref=e576]:
+                  - paragraph [ref=e577]: Status
+                  - generic [ref=e578]:
+                    - generic [ref=e580]: Ratified
+                    - generic [ref=e582]: Enacted
+                - generic [ref=e583]:
+                  - heading "Governance Action ID" [level=2] [ref=e585]
+                  - generic [ref=e586]:
+                    - paragraph [ref=e587]: 889644747a5b2f59f518d6ee3d9c3bdb77c9d86741017ce6a505f4b4af4b6dd8#0
+                    - img "copy" [ref=e589] [cursor=pointer]
+                - generic [ref=e590]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e592]
+                  - generic [ref=e593]:
+                    - paragraph [ref=e594]: gov_action13ztygar6tvh4nagc6mhrm8pmmdmunkr8gyqhee49qh6tft6tdhvqqzwhumj
+                    - img "copy" [ref=e596] [cursor=pointer]
+              - link "889644747a5b2f59f518d6ee3d9c3bdb77c9d86741017ce6a505f4b4af4b6dd8#0-view-details" [ref=e598] [cursor=pointer]:
+                - /url: /governance_actions/history/889644747a5b2f59f518d6ee3d9c3bdb77c9d86741017ce6a505f4b4af4b6dd8#0
+                - text: View Details
+            - generic [ref=e600]:
+              - generic [ref=e601]:
+                - paragraph [ref=e603]: Devnet treasury proposal 20261015T113147
+                - generic [ref=e605]:
+                  - generic [ref=e606]:
+                    - paragraph [ref=e607]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e608]:
+                      - paragraph [ref=e609]: (Epoch 1)
+                      - img [ref=e611]
+                  - generic [ref=e613]:
+                    - paragraph [ref=e614]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e615]:
+                      - paragraph [ref=e616]: (Epoch 5)
+                      - img [ref=e618]
+                - generic [ref=e620]:
+                  - heading "Abstract" [level=2] [ref=e622]
+                  - paragraph [ref=e624]: A treasury governance action created by the adaup smoke test.
+                - generic [ref=e625]:
+                  - heading "Governance Action Type" [level=2] [ref=e627]
+                  - paragraph [ref=e630]: Treasury Withdrawals
+                - generic [ref=e632]:
+                  - paragraph [ref=e633]: Status
+                  - generic [ref=e634]:
+                    - generic [ref=e636]: Ratified
+                    - generic [ref=e638]: Enacted
+                - generic [ref=e639]:
+                  - heading "Governance Action ID" [level=2] [ref=e641]
+                  - generic [ref=e642]:
+                    - paragraph [ref=e643]: 26ce2b90038046ac7a9b20d5ee98ebd195a55fcd22edd1916c81ec95cfc0da2c#0
+                    - img "copy" [ref=e645] [cursor=pointer]
+                - generic [ref=e646]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e648]
+                  - generic [ref=e649]:
+                    - paragraph [ref=e650]: gov_action1ym8zhyqrspr2c75myr27ax8t6x262h7dytkarytvs8kftn7qmgkqq2dppmt
+                    - img "copy" [ref=e652] [cursor=pointer]
+              - link "26ce2b90038046ac7a9b20d5ee98ebd195a55fcd22edd1916c81ec95cfc0da2c#0-view-details" [ref=e654] [cursor=pointer]:
+                - /url: /governance_actions/history/26ce2b90038046ac7a9b20d5ee98ebd195a55fcd22edd1916c81ec95cfc0da2c#0
+                - text: View Details
+            - generic [ref=e656]:
+              - generic [ref=e657]:
+                - paragraph [ref=e659]: Devnet constitution proposal 20261015T113147
+                - generic [ref=e661]:
+                  - generic [ref=e662]:
+                    - paragraph [ref=e663]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e664]:
+                      - paragraph [ref=e665]: (Epoch 1)
+                      - img [ref=e667]
+                  - generic [ref=e669]:
+                    - paragraph [ref=e670]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e671]:
+                      - paragraph [ref=e672]: (Epoch 4)
+                      - img [ref=e674]
+                - generic [ref=e676]:
+                  - heading "Abstract" [level=2] [ref=e678]
+                  - paragraph [ref=e680]: A constitution governance action created by the adaup smoke test.
+                - generic [ref=e681]:
+                  - heading "Governance Action Type" [level=2] [ref=e683]
+                  - paragraph [ref=e686]: New Constitution
+                - generic [ref=e688]:
+                  - paragraph [ref=e689]: Status
+                  - generic [ref=e690]:
+                    - generic [ref=e692]: Ratified
+                    - generic [ref=e694]: Enacted
+                - generic [ref=e695]:
+                  - heading "Governance Action ID" [level=2] [ref=e697]
+                  - generic [ref=e698]:
+                    - paragraph [ref=e699]: 1a6a91ec9111fec0851cb67b8e02896552085fd983e5ac18004041fe993af570#0
+                    - img "copy" [ref=e701] [cursor=pointer]
+                - generic [ref=e702]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e704]
+                  - generic [ref=e705]:
+                    - paragraph [ref=e706]: gov_action1rf4frmy3z8lvppgukeacuq5fv4fqsh7es0j6cxqqgpqlaxf674cqqsaljr4
+                    - img "copy" [ref=e708] [cursor=pointer]
+              - link "1a6a91ec9111fec0851cb67b8e02896552085fd983e5ac18004041fe993af570#0-view-details" [ref=e710] [cursor=pointer]:
+                - /url: /governance_actions/history/1a6a91ec9111fec0851cb67b8e02896552085fd983e5ac18004041fe993af570#0
+                - text: View Details
+            - generic [ref=e712]:
+              - generic [ref=e713]:
+                - paragraph [ref=e715]: Devnet committee proposal 20261015T113147
+                - generic [ref=e717]:
+                  - generic [ref=e718]:
+                    - paragraph [ref=e719]: "Submitted: Thu Oct 15, 2026"
+                    - generic [ref=e720]:
+                      - paragraph [ref=e721]: (Epoch 1)
+                      - img [ref=e723]
+                  - generic [ref=e725]:
+                    - paragraph [ref=e726]: "Enacted: Thu Oct 15, 2026"
+                    - generic [ref=e727]:
+                      - paragraph [ref=e728]: (Epoch 3)
+                      - img [ref=e730]
+                - generic [ref=e732]:
+                  - heading "Abstract" [level=2] [ref=e734]
+                  - paragraph [ref=e736]: A committee governance action created by the adaup smoke test.
+                - generic [ref=e737]:
+                  - heading "Governance Action Type" [level=2] [ref=e739]
+                  - paragraph [ref=e742]: Update Committee
+                - generic [ref=e744]:
+                  - paragraph [ref=e745]: Status
+                  - generic [ref=e746]:
+                    - generic [ref=e748]: Ratified
+                    - generic [ref=e750]: Enacted
+                - generic [ref=e751]:
+                  - heading "Governance Action ID" [level=2] [ref=e753]
+                  - generic [ref=e754]:
+                    - paragraph [ref=e755]: 66a5e7ab5ed9cfe9d3abd3b693b8052ce496a2d3d490d09af33fa01abccd33bb#0
+                    - img "copy" [ref=e757] [cursor=pointer]
+                - generic [ref=e758]:
+                  - heading "(CIP-129) Governance Action ID" [level=2] [ref=e760]
+                  - generic [ref=e761]:
+                    - paragraph [ref=e762]: gov_action1v6j70267m887n5at6wmf8wq99njfdgkn6jgdpxhn87sp40xdxwasq926vyc
+                    - img "copy" [ref=e764] [cursor=pointer]
+              - link "66a5e7ab5ed9cfe9d3abd3b693b8052ce496a2d3d490d09af33fa01abccd33bb#0-view-details" [ref=e766] [cursor=pointer]:
+                - /url: /governance_actions/history/66a5e7ab5ed9cfe9d3abd3b693b8052ce496a2d3d490d09af33fa01abccd33bb#0
+                - text: View Details
+          - button "Show More Actions" [ref=e768] [cursor=pointer]: Show More Actions
+      - img "bg-blue" [ref=e769]
+      - contentinfo [ref=e770]:
+        - paragraph [ref=e771]: © 2026 GovTool
+        - generic [ref=e772]:
+          - generic [ref=e773] [cursor=pointer]: Privacy policy
+          - generic [ref=e774] [cursor=pointer]: Terms of Use
+        - generic [ref=e775]:
+          - button "helpIcon Help" [ref=e776] [cursor=pointer]:
+            - img "helpIcon" [ref=e778]
+            - text: Help
+          - button "Subscribe to updates" [ref=e779] [cursor=pointer]: Subscribe to updates
+          - button "Feedback" [ref=e780] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e781]
+```
+
+# Test source
+
+```ts
+  180 |             ? `&filters=${filterKey}&sort=${sortType}`
+  181 |             : `&sort=${sortType}`
+  182 |         )
+  183 |     );
+  184 | 
+  185 |     await this.page.getByTestId(this.getSortTestId(sortOption)).click();
+  186 | 
+  187 |     const response = await responsePromise;
+  188 |     const actionRecordProposalList: actionRecordProposal[] = await response.json();
+  189 | 
+  190 |     // API validation
+  191 |     if (actionRecordProposalList.length <= 1) return;
+  192 | 
+  193 |     for (let i = 0; i <= actionRecordProposalList.length - 2; i++) {
+  194 |       const isValid = validationFn(
+  195 |         actionRecordProposalList[i],
+  196 |         actionRecordProposalList[i + 1]
+  197 |       );
+  198 |       expect(isValid).toBe(true);
+  199 |     }
+  200 | 
+  201 |     await expect(
+  202 |       this.page.getByRole("progressbar").getByRole("img")
+  203 |     ).toBeHidden({ timeout: 20_000 });
+  204 | 
+  205 |     await functionWaitedAssert(
+  206 |       async () => {
+  207 |         const actionRecordCards = await this.getAllGovernanceActionHistory();
+  208 |         for (const [index, actionRecordCard] of actionRecordCards.entries()) {
+  209 |           const actionRecordProposalFromAPI = actionRecordProposalList[index];
+  210 |           const proposalTypeFromUI = await actionRecordCard
+  211 |             .locator('[data-testid$="-type"]')
+  212 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  213 |           const proposalTypeFromApi = actionRecordType[actionRecordProposalFromAPI.type];
+  214 | 
+  215 |           const cip105IdFromUI = await actionRecordCard
+  216 |             .locator('[data-testid$="-CIP-105-id"]')
+  217 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  218 |           const cip105IdFromApi = `${actionRecordProposalFromAPI.tx_hash}#${actionRecordProposalFromAPI.index}`;
+  219 | 
+  220 |           expect(proposalTypeFromUI.replace(/^.*Type/, "")).toContain(
+  221 |             proposalTypeFromApi
+  222 |           );
+  223 | 
+  224 |           expect(cip105IdFromUI.replace(/^.*ID/, "")).toContain(
+  225 |             cip105IdFromApi
+  226 |           );
+  227 |         }
+  228 |       },
+  229 |       {
+  230 |         name: `frontend sort validation of ${sortOption} and filter ${filterKey}`,
+  231 |       }
+  232 |     );
+  233 |   }
+  234 | 
+  235 |   async _validateFiltersInGovernanceActionHistoryCard(
+  236 |     proposalCard: Locator,
+  237 |     filters: string[]
+  238 |   ): Promise<boolean> {
+  239 |     const type = await proposalCard
+  240 |       .locator('[data-testid$="-type"]')
+  241 |       .textContent({ timeout: CARD_READ_TIMEOUT });
+  242 |     const actionRecordType = type.replace(/^.*Type/, "");
+  243 |     return filters.includes(actionRecordType);
+  244 |   }
+  245 | 
+  246 |   async _validateStatusFiltersInGovernanceActionHistoryCard(
+  247 |     proposalCard: Locator,
+  248 |     filters: string[]
+  249 |   ): Promise<boolean> {
+  250 |     const status = await proposalCard
+  251 |       .locator('[data-testid$="-status"]')
+  252 |       .textContent({ timeout: CARD_READ_TIMEOUT });
+  253 |     const actionRecordStatus = actionRecordStatusType.filter((statusType) => {
+  254 |       if (statusType === "Live") {
+  255 |         return "In Progress";
+  256 |       }
+  257 |       return status.includes(statusType);
+  258 |     });
+  259 |     return actionRecordStatus.some((status) => filters.includes(status));
+  260 |   }
+  261 | 
+  262 |   async shouldAccessPage(isLoggedIn = false) {
+  263 |     await this.page.goto("/");
+  264 | 
+  265 |     if (isMobile(this.page)) {
+  266 |       await this.page.getByTestId("open-drawer-button").click();
+  267 |     } else {
+  268 |       if (!isLoggedIn) {
+  269 |         await this.page.getByTestId("governance-actions").click();
+  270 |       }
+  271 |     }
+  272 |     await this.page.getByTestId("governance-actions-governance-actions-link").click();
+  273 | 
+  274 |     if (!isMobile(this.page) && !isLoggedIn) {
+  275 |       await this.page.getByTestId("governance-actions").click();
+  276 |     }
+  277 | 
+  278 |     await expect(
+  279 |       this.page.getByRole("heading", { name: "Historical Actions" })
+> 280 |     ).toBeVisible();
+      |       ^ Error: expect(locator).toBeVisible() failed
+  281 |   }
+  282 | 
+  283 |   async filterGovernanceActionHistory() {
+  284 |     await this.filterBtn.click();
+  285 |     const filterOptionNames = Object.values(actionRecordType);
+  286 | 
+  287 |     // proposal type filter
+  288 |     await this.applyAndValidateFilters(
+  289 |       filterOptionNames,
+  290 |       this._validateFiltersInGovernanceActionHistoryCard
+  291 |     );
+  292 | 
+  293 |     // proposal status filter
+  294 |     await this.applyAndValidateFilters(
+  295 |       status,
+  296 |       this._validateStatusFiltersInGovernanceActionHistoryCard
+  297 |     );
+  298 |   }
+  299 | 
+  300 |   async sortGovernanceActionHistory() {
+  301 |     await this.sortBtn.click();
+  302 | 
+  303 |     await this.sortAndValidate(
+  304 |       SortOption.NewestFirst,
+  305 |       (p1, p2) => p1.expiry_date >= p2.time
+  306 |     );
+  307 | 
+  308 |     await this.sortAndValidate(
+  309 |       SortOption.OldestFirst,
+  310 |       (p1, p2) => p1.expiry_date <= p2.expiry_date
+  311 |     );
+  312 | 
+  313 |     await this.sortAndValidate(
+  314 |       SortOption.HighestAmountYesVote,
+  315 |       (p1, p2) => parseInt(p1.yes_votes) >= parseInt(p2.yes_votes)
+  316 |     );
+  317 |   }
+  318 | 
+  319 |   async filterAndSortGovernanceActionHistory() {
+  320 |     const filterOptionKeys = Object.keys(actionRecordType);
+  321 |     const filterOptionNames = Object.values(actionRecordType);
+  322 | 
+  323 |     const choice = Math.floor(Math.random() * filterOptionKeys.length);
+  324 |     await this.goto({ filter: filterOptionKeys[choice] });
+  325 |     await this.sortBtn.click();
+  326 | 
+  327 |     await this.sortAndValidate(
+  328 |       SortOption.OldestFirst,
+  329 |       (p1, p2) => p1.expiry_date <= p2.expiry_date
+  330 |     );
+  331 | 
+  332 |     await this.validateFilters(
+  333 |       [filterOptionNames[choice]],
+  334 |       this._validateFiltersInGovernanceActionHistoryCard
+  335 |     );
+  336 |   }
+  337 | 
+  338 |   // Cards show the date that ended the action (Enacted, Not Ratified,
+  339 |   // Expired) or, while live, its expiry, so only the expired filter can
+  340 |   // promise an "Expired" date on every card.
+  341 |   async verifyAllGovernanceActionHistoryAreExpired() {
+  342 |     await this.goto({ status: "expired" });
+  343 |     const proposalCards = await this.getAllGovernanceActionHistory();
+  344 | 
+  345 |     for (const proposalCard of proposalCards) {
+  346 |       const expiryDateEl = proposalCard.locator(
+  347 |         '[data-testid$="-Expired-date"]'
+  348 |       );
+  349 |       await expect(expiryDateEl).toBeVisible();
+  350 |       // e.g. "Expired: Thu Oct 01, 2026 (Epoch 2883)"
+  351 |       const match = (await expiryDateEl.innerText()).match(
+  352 |         /(\w{3}) (\d{1,2}), (\d{4})/
+  353 |       );
+  354 |       expect(match, "expired date is not readable").not.toBeNull();
+  355 |       const expiryDate = new Date(`${match[1]} ${match[2]}, ${match[3]}`);
+  356 |       expect(new Date() >= expiryDate).toBeTruthy();
+  357 |     }
+  358 |   }
+  359 | 
+  360 |   async VerifyLoadMoreGovernanceActionHistory() {
+  361 |     const responsePromise = this.page.waitForResponse((response) =>
+  362 |       response
+  363 |         .url()
+  364 |         .includes(`governance-actions?search=&filters=&sort=newestFirst&page=2`)
+  365 |     );
+  366 |     await this.goto();
+  367 | 
+  368 |     let governanceActionIdsBefore: String[];
+  369 |     let governanceActionIdsAfter: String[];
+  370 | 
+  371 |     await functionWaitedAssert(
+  372 |       async () => {
+  373 |         governanceActionIdsBefore =
+  374 |           await this.getAllListedCIP105GovernanceIds();
+  375 |         await this.showMoreBtn.click();
+  376 |       },
+  377 |       { message: "Show more button not visible" }
+  378 |     );
+  379 | 
+  380 |     const response = await responsePromise;
+```
