@@ -1,0 +1,3155 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 11-budget-proposals-archive/budgetProposalsArchive.spec.ts >> Old budget discussion links >> 11I_2. Should redirect the propose page to the archive
+- Location: tests/11-budget-proposals-archive/budgetProposalsArchive.spec.ts:333:7
+
+# Error details
+
+```
+Error: expect(page).toHaveURL(expected) failed
+
+Expected pattern: /\/budget_discussion$/
+Received string:  "https://preview.gov.tools/budget_discussion/propose"
+Timeout: 5000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 5000ms
+    8 × unexpected value "https://preview.gov.tools/budget_discussion/propose"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: Preview"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - generic [ref=e9]:
+    - banner [ref=e11]:
+      - generic [ref=e12]:
+        - link "app-logo" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "app-logo" [ref=e14]
+        - generic [ref=e15]:
+          - button "Connect" [ref=e16] [cursor=pointer]: Connect
+          - img "drawer-icon" [ref=e17]
+    - generic [ref=e22]:
+      - generic [ref=e25]:
+        - heading "Proposed Governance Actions" [level=1] [ref=e27]
+        - generic [ref=e29]:
+          - button "Propose a Governance Action" [disabled]
+          - generic [ref=e31]:
+            - paragraph [ref=e32]: To submit a proposal, you need to
+            - paragraph [ref=e33]:
+              - generic [ref=e34] [cursor=pointer]: connect a Cardano wallet
+        - generic [ref=e37]:
+          - img [ref=e39]
+          - textbox "Search..." [ref=e41]
+          - group
+        - generic [ref=e43]:
+          - button "Filter:" [ref=e44] [cursor=pointer]:
+            - text: "Filter:"
+            - img [ref=e46]
+          - 'button "Sort: Newest" [ref=e48] [cursor=pointer]':
+            - text: "Sort: Newest"
+            - img [ref=e50]
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - heading "Info Action" [level=2] [ref=e57]
+              - button "Show all" [ref=e58] [cursor=pointer]: Show all
+            - generic [ref=e59]:
+              - button [ref=e60] [cursor=pointer]:
+                - img [ref=e61]
+              - button [ref=e63] [cursor=pointer]:
+                - img [ref=e64]
+          - generic [ref=e69]:
+            - generic "status-badge" [ref=e74]:
+              - generic [ref=e75]:
+                - generic [ref=e76]:
+                  - generic [ref=e78]:
+                    - heading "Velociter dedecor quis ipsa chirographum vulgivagus." [level=3] [ref=e79]
+                    - heading "@robin0_1791783253792" [level=5] [ref=e80]
+                  - button "Share" [ref=e82] [cursor=pointer]:
+                    - img [ref=e83]
+                - generic [ref=e85]:
+                  - generic [ref=e86]:
+                    - generic [ref=e87]:
+                      - paragraph [ref=e88]: Abstract
+                      - paragraph [ref=e91]: autem cupiditas temperantia utique concedo
+                    - generic [ref=e92]:
+                      - paragraph [ref=e93]: Governance Action Type
+                      - paragraph [ref=e94]: Info Action
+                  - generic [ref=e95]:
+                    - generic [ref=e96]:
+                      - generic "Proposal Date" [ref=e97]:
+                        - img [ref=e98]
+                      - paragraph [ref=e100]: "Proposed on: 12 October 2026"
+                    - generic [ref=e101]:
+                      - generic "Comments Number" [ref=e103]:
+                        - button "comments" [disabled]:
+                          - generic "comments":
+                            - generic: "0"
+                          - img
+                      - link "View Details" [ref=e105] [cursor=pointer]:
+                        - /url: /proposal_discussion/17020
+                        - button "View Details" [ref=e106]: View Details
+              - generic [ref=e107]: Active
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e116]:
+                    - heading [level=3] [ref=e117]: Audax demoror spero taedium caste sollers.
+                    - heading [level=5] [ref=e118]: "@robin0_1791783253792"
+                  - button [ref=e120] [cursor=pointer]:
+                    - img [ref=e121]
+                - generic [ref=e123]:
+                  - generic [ref=e124]:
+                    - generic [ref=e125]:
+                      - paragraph [ref=e126]: Abstract
+                      - paragraph [ref=e129]: subseco sonitus valeo aperte vallum
+                    - generic [ref=e130]:
+                      - paragraph [ref=e131]: Governance Action Type
+                      - paragraph [ref=e132]: Info Action
+                  - generic [ref=e133]:
+                    - generic [ref=e134]:
+                      - img [ref=e136]
+                      - paragraph [ref=e138]: "Proposed on: 12 October 2026"
+                    - generic [ref=e139]:
+                      - generic [ref=e141]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e143] [cursor=pointer]:
+                        - /url: /proposal_discussion/17019
+                        - button [ref=e144]: View Details
+              - generic [ref=e145]: Active
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - generic [ref=e152]:
+                  - generic [ref=e154]:
+                    - heading [level=3] [ref=e155]: Reiciendis claudeo balbus tot confero temporibus.
+                    - heading [level=5] [ref=e156]: "@tod_pouros_1791782627689"
+                  - button [ref=e158] [cursor=pointer]:
+                    - img [ref=e159]
+                - generic [ref=e161]:
+                  - generic [ref=e162]:
+                    - generic [ref=e163]:
+                      - paragraph [ref=e164]: Abstract
+                      - paragraph [ref=e167]: sophismata cubicularis artificiose quisquam quod
+                    - generic [ref=e168]:
+                      - paragraph [ref=e169]: Governance Action Type
+                      - paragraph [ref=e170]: Info Action
+                  - generic [ref=e171]:
+                    - generic [ref=e172]:
+                      - img [ref=e174]
+                      - paragraph [ref=e176]: "Proposed on: 12 October 2026"
+                    - generic [ref=e177]:
+                      - generic [ref=e179]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e181] [cursor=pointer]:
+                        - /url: /proposal_discussion/16998
+                        - button [ref=e182]: View Details
+              - generic [ref=e183]: Active
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - generic [ref=e192]:
+                    - heading [level=3] [ref=e193]: Sponte aspernatur arceo vos dolorum curatio.
+                    - heading [level=5] [ref=e194]: "@devyn.wuckert_1791695391827"
+                  - button [ref=e196] [cursor=pointer]:
+                    - img [ref=e197]
+                - generic [ref=e199]:
+                  - generic [ref=e200]:
+                    - generic [ref=e201]:
+                      - paragraph [ref=e202]: Abstract
+                      - paragraph [ref=e205]: bellicus abstergo caveo sophismata denego
+                    - generic [ref=e206]:
+                      - paragraph [ref=e207]: Governance Action Type
+                      - paragraph [ref=e208]: Info Action
+                  - generic [ref=e209]:
+                    - generic [ref=e210]:
+                      - img [ref=e212]
+                      - paragraph [ref=e214]: "Proposed on: 11 October 2026"
+                    - generic [ref=e215]:
+                      - generic [ref=e217]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e219] [cursor=pointer]:
+                        - /url: /proposal_discussion/16990
+                        - button [ref=e220]: View Details
+              - generic [ref=e221]: Active
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e230]:
+                    - heading [level=3] [ref=e231]: Cibo summopere delicate voro dicta amplitudo.
+                    - heading [level=5] [ref=e232]: "@devyn.wuckert_1791695391827"
+                  - button [ref=e234] [cursor=pointer]:
+                    - img [ref=e235]
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]:
+                      - paragraph [ref=e240]: Abstract
+                      - paragraph [ref=e243]: tubineus spargo alienus abstergo conventus
+                    - generic [ref=e244]:
+                      - paragraph [ref=e245]: Governance Action Type
+                      - paragraph [ref=e246]: Info Action
+                  - generic [ref=e247]:
+                    - generic [ref=e248]:
+                      - img [ref=e250]
+                      - paragraph [ref=e252]: "Proposed on: 11 October 2026"
+                    - generic [ref=e253]:
+                      - generic [ref=e255]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e257] [cursor=pointer]:
+                        - /url: /proposal_discussion/16987
+                        - button [ref=e258]: View Details
+              - generic [ref=e259]: Active
+            - generic [ref=e264]:
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - generic [ref=e268]:
+                    - heading [level=3] [ref=e269]: Spectaculum necessitatibus sumo versus arx auxilium.
+                    - heading [level=5] [ref=e270]: "@sonia97_1791610172001"
+                  - button [ref=e272] [cursor=pointer]:
+                    - img [ref=e273]
+                - generic [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - paragraph [ref=e278]: Abstract
+                      - paragraph [ref=e281]: nisi pecus tres aut ambulo
+                    - generic [ref=e282]:
+                      - paragraph [ref=e283]: Governance Action Type
+                      - paragraph [ref=e284]: Info Action
+                  - generic [ref=e285]:
+                    - generic [ref=e286]:
+                      - img [ref=e288]
+                      - paragraph [ref=e290]: "Proposed on: 10 October 2026"
+                    - generic [ref=e291]:
+                      - generic [ref=e293]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e295] [cursor=pointer]:
+                        - /url: /proposal_discussion/16974
+                        - button [ref=e296]: View Details
+              - generic [ref=e297]: Active
+            - generic [ref=e302]:
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - generic [ref=e306]:
+                    - heading [level=3] [ref=e307]: Curo esse repudiandae cursim arguo tertius.
+                    - heading [level=5] [ref=e308]: "@beaulah_wyman_1791609594603"
+                  - button [ref=e310] [cursor=pointer]:
+                    - img [ref=e311]
+                - generic [ref=e313]:
+                  - generic [ref=e314]:
+                    - generic [ref=e315]:
+                      - paragraph [ref=e316]: Abstract
+                      - paragraph [ref=e319]: ulciscor voluntarius communis virga cultellus
+                    - generic [ref=e320]:
+                      - paragraph [ref=e321]: Governance Action Type
+                      - paragraph [ref=e322]: Info Action
+                  - generic [ref=e323]:
+                    - generic [ref=e324]:
+                      - img [ref=e326]
+                      - paragraph [ref=e328]: "Proposed on: 10 October 2026"
+                    - generic [ref=e329]:
+                      - generic [ref=e331]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e333] [cursor=pointer]:
+                        - /url: /proposal_discussion/16964
+                        - button [ref=e334]: View Details
+              - generic [ref=e335]: Active
+            - generic [ref=e340]:
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - generic [ref=e344]:
+                    - heading [level=3] [ref=e345]: Tabula volo tantillus voro cerno absconditus.
+                    - heading [level=5] [ref=e346]: "@beaulah_wyman_1791609594603"
+                  - button [ref=e348] [cursor=pointer]:
+                    - img [ref=e349]
+                - generic [ref=e351]:
+                  - generic [ref=e352]:
+                    - generic [ref=e353]:
+                      - paragraph [ref=e354]: Abstract
+                      - paragraph [ref=e357]: defaeco cupiditas tardus sono terminatio
+                    - generic [ref=e358]:
+                      - paragraph [ref=e359]: Governance Action Type
+                      - paragraph [ref=e360]: Info Action
+                  - generic [ref=e361]:
+                    - generic [ref=e362]:
+                      - img [ref=e364]
+                      - paragraph [ref=e366]: "Proposed on: 10 October 2026"
+                    - generic [ref=e367]:
+                      - generic [ref=e369]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e371] [cursor=pointer]:
+                        - /url: /proposal_discussion/16963
+                        - button [ref=e372]: View Details
+              - generic [ref=e373]: Active
+            - generic [ref=e378]:
+              - generic [ref=e379]:
+                - generic [ref=e380]:
+                  - generic [ref=e382]:
+                    - heading [level=3] [ref=e383]: Consequuntur apud aeternus volo decet sollers.
+                    - heading [level=5] [ref=e384]: "@beaulah_wyman_1791609594603"
+                  - button [ref=e386] [cursor=pointer]:
+                    - img [ref=e387]
+                - generic [ref=e389]:
+                  - generic [ref=e390]:
+                    - generic [ref=e391]:
+                      - paragraph [ref=e392]: Abstract
+                      - paragraph [ref=e395]: volva contigo ars aetas crustulum
+                    - generic [ref=e396]:
+                      - paragraph [ref=e397]: Governance Action Type
+                      - paragraph [ref=e398]: Info Action
+                  - generic [ref=e399]:
+                    - generic [ref=e400]:
+                      - img [ref=e402]
+                      - paragraph [ref=e404]: "Proposed on: 10 October 2026"
+                    - generic [ref=e405]:
+                      - generic [ref=e407]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e409] [cursor=pointer]:
+                        - /url: /proposal_discussion/16951
+                        - button [ref=e410]: View Details
+              - generic [ref=e411]: Active
+            - generic [ref=e416]:
+              - generic [ref=e417]:
+                - generic [ref=e418]:
+                  - generic [ref=e420]:
+                    - heading [level=3] [ref=e421]: In triduana tempore admoneo casus delinquo.
+                    - heading [level=5] [ref=e422]: "@kristian56_1791524129258"
+                  - button [ref=e424] [cursor=pointer]:
+                    - img [ref=e425]
+                - generic [ref=e427]:
+                  - generic [ref=e428]:
+                    - generic [ref=e429]:
+                      - paragraph [ref=e430]: Abstract
+                      - paragraph [ref=e433]: comis asporto conor aegrus spero
+                    - generic [ref=e434]:
+                      - paragraph [ref=e435]: Governance Action Type
+                      - paragraph [ref=e436]: Info Action
+                  - generic [ref=e437]:
+                    - generic [ref=e438]:
+                      - img [ref=e440]
+                      - paragraph [ref=e442]: "Proposed on: 9 October 2026"
+                    - generic [ref=e443]:
+                      - generic [ref=e445]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e447] [cursor=pointer]:
+                        - /url: /proposal_discussion/16931
+                        - button [ref=e448]: View Details
+              - generic [ref=e449]: Active
+            - generic [ref=e454]:
+              - generic [ref=e455]:
+                - generic [ref=e456]:
+                  - generic [ref=e458]:
+                    - heading [level=3] [ref=e459]: Vociferor suadeo crux antea quibusdam dolor.
+                    - heading [level=5] [ref=e460]: "@kristian56_1791524129258"
+                  - button [ref=e462] [cursor=pointer]:
+                    - img [ref=e463]
+                - generic [ref=e465]:
+                  - generic [ref=e466]:
+                    - generic [ref=e467]:
+                      - paragraph [ref=e468]: Abstract
+                      - paragraph [ref=e471]: rerum amissio auctus adipiscor circumvenio
+                    - generic [ref=e472]:
+                      - paragraph [ref=e473]: Governance Action Type
+                      - paragraph [ref=e474]: Info Action
+                  - generic [ref=e475]:
+                    - generic [ref=e476]:
+                      - img [ref=e478]
+                      - paragraph [ref=e480]: "Proposed on: 9 October 2026"
+                    - generic [ref=e481]:
+                      - generic [ref=e483]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e485] [cursor=pointer]:
+                        - /url: /proposal_discussion/16928
+                        - button [ref=e486]: View Details
+              - generic [ref=e487]: Active
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - generic [ref=e494]:
+                  - generic [ref=e496]:
+                    - heading [level=3] [ref=e497]: PRoposal
+                    - heading [level=5] [ref=e498]: "@kusshal"
+                  - button [ref=e500] [cursor=pointer]:
+                    - img [ref=e501]
+                - generic [ref=e503]:
+                  - generic [ref=e504]:
+                    - generic [ref=e505]:
+                      - paragraph [ref=e506]: Abstract
+                      - paragraph [ref=e509]: FOr testing
+                    - generic [ref=e510]:
+                      - paragraph [ref=e511]: Governance Action Type
+                      - paragraph [ref=e512]: Info Action
+                  - generic [ref=e513]:
+                    - generic [ref=e514]:
+                      - img [ref=e516]
+                      - paragraph [ref=e518]: "Proposed on: 17 September 2026"
+                    - generic [ref=e519]:
+                      - generic [ref=e521]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e523] [cursor=pointer]:
+                        - /url: /proposal_discussion/16918
+                        - button [ref=e524]: View Details
+              - generic [ref=e525]: Active
+            - generic [ref=e530]:
+              - generic [ref=e531]:
+                - generic [ref=e532]:
+                  - generic [ref=e534]:
+                    - heading [level=3] [ref=e535]: Testing Issues
+                    - heading [level=5] [ref=e536]: "@nothing"
+                  - button [ref=e538] [cursor=pointer]:
+                    - img [ref=e539]
+                - generic [ref=e541]:
+                  - generic [ref=e542]:
+                    - generic [ref=e543]:
+                      - paragraph [ref=e544]: Abstract
+                      - paragraph [ref=e547]: 27 August
+                    - generic [ref=e548]:
+                      - paragraph [ref=e549]: Governance Action Type
+                      - paragraph [ref=e550]: Info Action
+                  - generic [ref=e551]:
+                    - generic [ref=e552]:
+                      - img [ref=e554]
+                      - paragraph [ref=e556]: "Proposed on: 27 August 2026"
+                    - generic [ref=e557]:
+                      - generic [ref=e559]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e561] [cursor=pointer]:
+                        - /url: /proposal_discussion/16901
+                        - button [ref=e562]: View Details
+              - generic [ref=e563]: Active
+            - generic [ref=e568]:
+              - generic [ref=e569]:
+                - generic [ref=e570]:
+                  - generic [ref=e572]:
+                    - heading [level=3] [ref=e573]: Title
+                    - heading [level=5] [ref=e574]: "@nothing"
+                  - button [ref=e576] [cursor=pointer]:
+                    - img [ref=e577]
+                - generic [ref=e579]:
+                  - generic [ref=e580]:
+                    - generic [ref=e581]:
+                      - paragraph [ref=e582]: Abstract
+                      - paragraph [ref=e585]: dvs
+                    - generic [ref=e586]:
+                      - paragraph [ref=e587]: Governance Action Type
+                      - paragraph [ref=e588]: Info Action
+                  - generic [ref=e589]:
+                    - generic [ref=e590]:
+                      - img [ref=e592]
+                      - paragraph [ref=e594]: "Proposed on: 25 August 2026"
+                    - generic [ref=e595]:
+                      - generic [ref=e597]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e599] [cursor=pointer]:
+                        - /url: /proposal_discussion/16900
+                        - button [ref=e600]: View Details
+              - generic [ref=e601]: Active
+            - generic [ref=e606]:
+              - generic [ref=e607]:
+                - generic [ref=e608]:
+                  - generic [ref=e610]:
+                    - heading [level=3] [ref=e611]: Test
+                    - heading [level=5] [ref=e612]: "@nothing"
+                  - button [ref=e614] [cursor=pointer]:
+                    - img [ref=e615]
+                - generic [ref=e617]:
+                  - generic [ref=e618]:
+                    - generic [ref=e619]:
+                      - paragraph [ref=e620]: Abstract
+                      - paragraph [ref=e623]: test
+                    - generic [ref=e624]:
+                      - paragraph [ref=e625]: Governance Action Type
+                      - paragraph [ref=e626]: Info Action
+                  - generic [ref=e627]:
+                    - generic [ref=e628]:
+                      - img [ref=e630]
+                      - paragraph [ref=e632]: "Proposed on: 25 August 2026"
+                    - generic [ref=e633]:
+                      - generic [ref=e635]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e637] [cursor=pointer]:
+                        - /url: /proposal_discussion/16899
+                        - button [ref=e638]: View Details
+              - generic [ref=e639]: Active
+            - generic [ref=e644]:
+              - generic [ref=e645]:
+                - generic [ref=e646]:
+                  - generic [ref=e648]:
+                    - heading [level=3] [ref=e649]: Test
+                    - heading [level=5] [ref=e650]: "@kushal123"
+                  - button [ref=e652] [cursor=pointer]:
+                    - img [ref=e653]
+                - generic [ref=e655]:
+                  - generic [ref=e656]:
+                    - generic [ref=e657]:
+                      - paragraph [ref=e658]: Abstract
+                      - paragraph [ref=e661]: Test
+                    - generic [ref=e662]:
+                      - paragraph [ref=e663]: Governance Action Type
+                      - paragraph [ref=e664]: Info Action
+                  - generic [ref=e665]:
+                    - generic [ref=e666]:
+                      - img [ref=e668]
+                      - paragraph [ref=e670]: "Proposed on: 25 August 2026"
+                    - generic [ref=e671]:
+                      - generic [ref=e673]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e675] [cursor=pointer]:
+                        - /url: /proposal_discussion/16898
+                        - button [ref=e676]: View Details
+              - generic [ref=e677]: Active
+            - generic [ref=e682]:
+              - generic [ref=e683]:
+                - generic [ref=e684]:
+                  - generic [ref=e686]:
+                    - heading [level=3] [ref=e687]: Usque argentum antea voluptates virtus caecus.
+                    - heading [level=5] [ref=e688]: "@andres.spencer_1777015323782"
+                  - button [ref=e690] [cursor=pointer]:
+                    - img [ref=e691]
+                - generic [ref=e693]:
+                  - generic [ref=e694]:
+                    - generic [ref=e695]:
+                      - paragraph [ref=e696]: Abstract
+                      - paragraph [ref=e699]: audeo arx coepi commodo arguo
+                    - generic [ref=e700]:
+                      - paragraph [ref=e701]: Governance Action Type
+                      - paragraph [ref=e702]: Info Action
+                  - generic [ref=e703]:
+                    - generic [ref=e704]:
+                      - img [ref=e706]
+                      - paragraph [ref=e708]: "Proposed on: 18 August 2026"
+                    - generic [ref=e709]:
+                      - generic [ref=e711]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e713] [cursor=pointer]:
+                        - /url: /proposal_discussion/16897
+                        - button [ref=e714]: View Details
+              - generic [ref=e715]: Active
+            - generic [ref=e720]:
+              - generic [ref=e721]:
+                - generic [ref=e722]:
+                  - generic [ref=e724]:
+                    - heading [level=3] [ref=e725]: Apostolus vociferor aegre conicio appositus stella.
+                    - heading [level=5] [ref=e726]: "@andres.spencer_1777015323782"
+                  - button [ref=e728] [cursor=pointer]:
+                    - img [ref=e729]
+                - generic [ref=e731]:
+                  - generic [ref=e732]:
+                    - generic [ref=e733]:
+                      - paragraph [ref=e734]: Abstract
+                      - paragraph [ref=e737]: cenaculum tristis damnatio aiunt aranea
+                    - generic [ref=e738]:
+                      - paragraph [ref=e739]: Governance Action Type
+                      - paragraph [ref=e740]: Info Action
+                  - generic [ref=e741]:
+                    - generic [ref=e742]:
+                      - img [ref=e744]
+                      - paragraph [ref=e746]: "Proposed on: 18 August 2026"
+                    - generic [ref=e747]:
+                      - generic [ref=e749]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e751] [cursor=pointer]:
+                        - /url: /proposal_discussion/16888
+                        - button [ref=e752]: View Details
+              - generic [ref=e753]: Active
+            - generic [ref=e758]:
+              - generic [ref=e759]:
+                - generic [ref=e760]:
+                  - generic [ref=e762]:
+                    - heading [level=3] [ref=e763]: Suffoco vaco thalassinus arx sub cupiditas.
+                    - heading [level=5] [ref=e764]: "@mathilde.prosacco_178703991037"
+                  - button [ref=e766] [cursor=pointer]:
+                    - img [ref=e767]
+                - generic [ref=e769]:
+                  - generic [ref=e770]:
+                    - generic [ref=e771]:
+                      - paragraph [ref=e772]: Abstract
+                      - paragraph [ref=e775]: venia condico aperte nisi quos
+                    - generic [ref=e776]:
+                      - paragraph [ref=e777]: Governance Action Type
+                      - paragraph [ref=e778]: Info Action
+                  - generic [ref=e779]:
+                    - generic [ref=e780]:
+                      - img [ref=e782]
+                      - paragraph [ref=e784]: "Proposed on: 18 August 2026"
+                    - generic [ref=e785]:
+                      - generic [ref=e787]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e789] [cursor=pointer]:
+                        - /url: /proposal_discussion/16881
+                        - button [ref=e790]: View Details
+              - generic [ref=e791]: Active
+            - generic [ref=e796]:
+              - generic [ref=e797]:
+                - generic [ref=e798]:
+                  - generic [ref=e800]:
+                    - heading [level=3] [ref=e801]: Sulum tutis adflicto adfectus aggero cubitum.
+                    - heading [level=5] [ref=e802]: "@mathilde.prosacco_178703991037"
+                  - button [ref=e804] [cursor=pointer]:
+                    - img [ref=e805]
+                - generic [ref=e807]:
+                  - generic [ref=e808]:
+                    - generic [ref=e809]:
+                      - paragraph [ref=e810]: Abstract
+                      - paragraph [ref=e813]: basium tepidus cervus vinculum depromo
+                    - generic [ref=e814]:
+                      - paragraph [ref=e815]: Governance Action Type
+                      - paragraph [ref=e816]: Info Action
+                  - generic [ref=e817]:
+                    - generic [ref=e818]:
+                      - img [ref=e820]
+                      - paragraph [ref=e822]: "Proposed on: 18 August 2026"
+                    - generic [ref=e823]:
+                      - generic [ref=e825]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e827] [cursor=pointer]:
+                        - /url: /proposal_discussion/16879
+                        - button [ref=e828]: View Details
+              - generic [ref=e829]: Active
+            - generic [ref=e834]:
+              - generic [ref=e835]:
+                - generic [ref=e836]:
+                  - generic [ref=e838]:
+                    - heading [level=3] [ref=e839]: Vilis damno allatus corrigo clementia acies.
+                    - heading [level=5] [ref=e840]: "@alfreda_tillman84_178701513964"
+                  - button [ref=e842] [cursor=pointer]:
+                    - img [ref=e843]
+                - generic [ref=e845]:
+                  - generic [ref=e846]:
+                    - generic [ref=e847]:
+                      - paragraph [ref=e848]: Abstract
+                      - paragraph [ref=e851]: pecto utpote quibusdam solus surgo
+                    - generic [ref=e852]:
+                      - paragraph [ref=e853]: Governance Action Type
+                      - paragraph [ref=e854]: Info Action
+                  - generic [ref=e855]:
+                    - generic [ref=e856]:
+                      - img [ref=e858]
+                      - paragraph [ref=e860]: "Proposed on: 18 August 2026"
+                    - generic [ref=e861]:
+                      - generic [ref=e863]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e865] [cursor=pointer]:
+                        - /url: /proposal_discussion/16857
+                        - button [ref=e866]: View Details
+              - generic [ref=e867]: Active
+            - generic [ref=e872]:
+              - generic [ref=e873]:
+                - generic [ref=e874]:
+                  - generic [ref=e876]:
+                    - heading [level=3] [ref=e877]: Venia agnosco crux carbo verbum caritas.
+                    - heading [level=5] [ref=e878]: "@alfreda_tillman84_178701513964"
+                  - button [ref=e880] [cursor=pointer]:
+                    - img [ref=e881]
+                - generic [ref=e883]:
+                  - generic [ref=e884]:
+                    - generic [ref=e885]:
+                      - paragraph [ref=e886]: Abstract
+                      - paragraph [ref=e889]: urbs crudelis decens cerno aveho
+                    - generic [ref=e890]:
+                      - paragraph [ref=e891]: Governance Action Type
+                      - paragraph [ref=e892]: Info Action
+                  - generic [ref=e893]:
+                    - generic [ref=e894]:
+                      - img [ref=e896]
+                      - paragraph [ref=e898]: "Proposed on: 18 August 2026"
+                    - generic [ref=e899]:
+                      - generic [ref=e901]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e903] [cursor=pointer]:
+                        - /url: /proposal_discussion/16856
+                        - button [ref=e904]: View Details
+              - generic [ref=e905]: Active
+            - generic [ref=e910]:
+              - generic [ref=e911]:
+                - generic [ref=e912]:
+                  - generic [ref=e914]:
+                    - heading [level=3] [ref=e915]: Vinitor validus defendo vehemens demoror utroque.
+                    - heading [level=5] [ref=e916]: "@andres.spencer_1777015323782"
+                  - button [ref=e918] [cursor=pointer]:
+                    - img [ref=e919]
+                - generic [ref=e921]:
+                  - generic [ref=e922]:
+                    - generic [ref=e923]:
+                      - paragraph [ref=e924]: Abstract
+                      - paragraph [ref=e927]: defungo ter tabesco annus textus
+                    - generic [ref=e928]:
+                      - paragraph [ref=e929]: Governance Action Type
+                      - paragraph [ref=e930]: Info Action
+                  - generic [ref=e931]:
+                    - generic [ref=e932]:
+                      - img [ref=e934]
+                      - paragraph [ref=e936]: "Proposed on: 17 August 2026"
+                    - generic [ref=e937]:
+                      - generic [ref=e939]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e941] [cursor=pointer]:
+                        - /url: /proposal_discussion/16834
+                        - button [ref=e942]: View Details
+              - generic [ref=e943]: Active
+            - generic [ref=e948]:
+              - generic [ref=e949]:
+                - generic [ref=e950]:
+                  - generic [ref=e952]:
+                    - heading [level=3] [ref=e953]: Accendo apto demulceo volva adopto vado.
+                    - heading [level=5] [ref=e954]: "@betsy48_1786950528029"
+                  - button [ref=e956] [cursor=pointer]:
+                    - img [ref=e957]
+                - generic [ref=e959]:
+                  - generic [ref=e960]:
+                    - generic [ref=e961]:
+                      - paragraph [ref=e962]: Abstract
+                      - paragraph [ref=e965]: adsuesco aestus suus adsidue somnus
+                    - generic [ref=e966]:
+                      - paragraph [ref=e967]: Governance Action Type
+                      - paragraph [ref=e968]: Info Action
+                  - generic [ref=e969]:
+                    - generic [ref=e970]:
+                      - img [ref=e972]
+                      - paragraph [ref=e974]: "Proposed on: 17 August 2026"
+                    - generic [ref=e975]:
+                      - generic [ref=e977]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e979] [cursor=pointer]:
+                        - /url: /proposal_discussion/16825
+                        - button [ref=e980]: View Details
+              - generic [ref=e981]: Active
+            - generic [ref=e986]:
+              - generic [ref=e987]:
+                - generic [ref=e988]:
+                  - generic [ref=e990]:
+                    - heading [level=3] [ref=e991]: Complectus celo atrox vorago velut tollo.
+                    - heading [level=5] [ref=e992]: "@andres.spencer_1777015323782"
+                  - button [ref=e994] [cursor=pointer]:
+                    - img [ref=e995]
+                - generic [ref=e997]:
+                  - generic [ref=e998]:
+                    - generic [ref=e999]:
+                      - paragraph [ref=e1000]: Abstract
+                      - paragraph [ref=e1003]: ago charisma tenuis ceno virgo
+                    - generic [ref=e1004]:
+                      - paragraph [ref=e1005]: Governance Action Type
+                      - paragraph [ref=e1006]: Info Action
+                  - generic [ref=e1007]:
+                    - generic [ref=e1008]:
+                      - img [ref=e1010]
+                      - paragraph [ref=e1012]: "Proposed on: 3 June 2026"
+                    - generic [ref=e1013]:
+                      - generic [ref=e1015]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1017] [cursor=pointer]:
+                        - /url: /proposal_discussion/16789
+                        - button [ref=e1018]: View Details
+              - generic [ref=e1019]: Active
+        - generic [ref=e1021]:
+          - generic [ref=e1022]:
+            - generic [ref=e1023]:
+              - heading "Treasury requests" [level=2] [ref=e1024]
+              - button "Show all" [ref=e1025] [cursor=pointer]: Show all
+            - generic [ref=e1026]:
+              - button [ref=e1027] [cursor=pointer]:
+                - img [ref=e1028]
+              - button [ref=e1030] [cursor=pointer]:
+                - img [ref=e1031]
+          - generic [ref=e1036]:
+            - generic "status-badge" [ref=e1041]:
+              - generic [ref=e1042]:
+                - generic [ref=e1043]:
+                  - generic [ref=e1045]:
+                    - heading "Termes bis tertius ratione delinquo virtus." [level=3] [ref=e1046]
+                    - heading "@tod_pouros_1791782627689" [level=5] [ref=e1047]
+                  - button "Share" [ref=e1049] [cursor=pointer]:
+                    - img [ref=e1050]
+                - generic [ref=e1052]:
+                  - generic [ref=e1053]:
+                    - generic [ref=e1054]:
+                      - paragraph [ref=e1055]: Abstract
+                      - paragraph [ref=e1058]: vae dolores cunae usitas arbitro
+                    - generic [ref=e1059]:
+                      - paragraph [ref=e1060]: Governance Action Type
+                      - paragraph [ref=e1061]: Treasury requests
+                  - generic [ref=e1062]:
+                    - generic [ref=e1063]:
+                      - generic "Proposal Date" [ref=e1064]:
+                        - img [ref=e1065]
+                      - paragraph [ref=e1067]: "Proposed on: 12 October 2026"
+                    - generic [ref=e1068]:
+                      - generic "Comments Number" [ref=e1070]:
+                        - button "comments" [disabled]:
+                          - generic "comments":
+                            - generic: "0"
+                          - img
+                      - link "View Details" [ref=e1072] [cursor=pointer]:
+                        - /url: /proposal_discussion/17009
+                        - button "View Details" [ref=e1073]: View Details
+              - generic [ref=e1074]: Active
+            - generic [ref=e1079]:
+              - generic [ref=e1080]:
+                - generic [ref=e1081]:
+                  - generic [ref=e1083]:
+                    - heading [level=3] [ref=e1084]: Dolor fugit alo inventore thermae testimonium.
+                    - heading [level=5] [ref=e1085]: "@tod_pouros_1791782627689"
+                  - button [ref=e1087] [cursor=pointer]:
+                    - img [ref=e1088]
+                - generic [ref=e1090]:
+                  - generic [ref=e1091]:
+                    - generic [ref=e1092]:
+                      - paragraph [ref=e1093]: Abstract
+                      - paragraph [ref=e1096]: defendo rem spiritus auctus attero
+                    - generic [ref=e1097]:
+                      - paragraph [ref=e1098]: Governance Action Type
+                      - paragraph [ref=e1099]: Treasury requests
+                  - generic [ref=e1100]:
+                    - generic [ref=e1101]:
+                      - img [ref=e1103]
+                      - paragraph [ref=e1105]: "Proposed on: 12 October 2026"
+                    - generic [ref=e1106]:
+                      - generic [ref=e1108]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1110] [cursor=pointer]:
+                        - /url: /proposal_discussion/17002
+                        - button [ref=e1111]: View Details
+              - generic [ref=e1112]: Active
+            - generic [ref=e1117]:
+              - generic [ref=e1118]:
+                - generic [ref=e1119]:
+                  - generic [ref=e1121]:
+                    - heading [level=3] [ref=e1122]: Impedit terreo animus quibusdam defero brevis.
+                    - heading [level=5] [ref=e1123]: "@tod_pouros_1791782627689"
+                  - button [ref=e1125] [cursor=pointer]:
+                    - img [ref=e1126]
+                - generic [ref=e1128]:
+                  - generic [ref=e1129]:
+                    - generic [ref=e1130]:
+                      - paragraph [ref=e1131]: Abstract
+                      - paragraph [ref=e1134]: dens cubo caritas abundans tyrannus
+                    - generic [ref=e1135]:
+                      - paragraph [ref=e1136]: Governance Action Type
+                      - paragraph [ref=e1137]: Treasury requests
+                  - generic [ref=e1138]:
+                    - generic [ref=e1139]:
+                      - img [ref=e1141]
+                      - paragraph [ref=e1143]: "Proposed on: 12 October 2026"
+                    - generic [ref=e1144]:
+                      - generic [ref=e1146]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1148] [cursor=pointer]:
+                        - /url: /proposal_discussion/16999
+                        - button [ref=e1149]: View Details
+              - generic [ref=e1150]: Active
+            - generic [ref=e1155]:
+              - generic [ref=e1156]:
+                - generic [ref=e1157]:
+                  - generic [ref=e1159]:
+                    - heading [level=3] [ref=e1160]: Iusto eius assentator ver vesco earum.
+                    - heading [level=5] [ref=e1161]: "@devyn.wuckert_1791695391827"
+                  - button [ref=e1163] [cursor=pointer]:
+                    - img [ref=e1164]
+                - generic [ref=e1166]:
+                  - generic [ref=e1167]:
+                    - generic [ref=e1168]:
+                      - paragraph [ref=e1169]: Abstract
+                      - paragraph [ref=e1172]: coma certus virgo curtus atqui
+                    - generic [ref=e1173]:
+                      - paragraph [ref=e1174]: Governance Action Type
+                      - paragraph [ref=e1175]: Treasury requests
+                  - generic [ref=e1176]:
+                    - generic [ref=e1177]:
+                      - img [ref=e1179]
+                      - paragraph [ref=e1181]: "Proposed on: 11 October 2026"
+                    - generic [ref=e1182]:
+                      - generic [ref=e1184]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1186] [cursor=pointer]:
+                        - /url: /proposal_discussion/16992
+                        - button [ref=e1187]: View Details
+              - generic [ref=e1188]: Active
+            - generic [ref=e1193]:
+              - generic [ref=e1194]:
+                - generic [ref=e1195]:
+                  - generic [ref=e1197]:
+                    - heading [level=3] [ref=e1198]: Uter stipes vobis adeo cotidie aggredior.
+                    - heading [level=5] [ref=e1199]: "@devyn.wuckert_1791695391827"
+                  - button [ref=e1201] [cursor=pointer]:
+                    - img [ref=e1202]
+                - generic [ref=e1204]:
+                  - generic [ref=e1205]:
+                    - generic [ref=e1206]:
+                      - paragraph [ref=e1207]: Abstract
+                      - paragraph [ref=e1210]: caveo aqua causa synagoga quia
+                    - generic [ref=e1211]:
+                      - paragraph [ref=e1212]: Governance Action Type
+                      - paragraph [ref=e1213]: Treasury requests
+                  - generic [ref=e1214]:
+                    - generic [ref=e1215]:
+                      - img [ref=e1217]
+                      - paragraph [ref=e1219]: "Proposed on: 11 October 2026"
+                    - generic [ref=e1220]:
+                      - generic [ref=e1222]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1224] [cursor=pointer]:
+                        - /url: /proposal_discussion/16976
+                        - button [ref=e1225]: View Details
+              - generic [ref=e1226]: Active
+            - generic [ref=e1231]:
+              - generic [ref=e1232]:
+                - generic [ref=e1233]:
+                  - generic [ref=e1235]:
+                    - heading [level=3] [ref=e1236]: Odit tero tertius atrocitas attero patria.
+                    - heading [level=5] [ref=e1237]: "@sonia97_1791610172001"
+                  - button [ref=e1239] [cursor=pointer]:
+                    - img [ref=e1240]
+                - generic [ref=e1242]:
+                  - generic [ref=e1243]:
+                    - generic [ref=e1244]:
+                      - paragraph [ref=e1245]: Abstract
+                      - paragraph [ref=e1248]: vicinus synagoga convoco tricesimus ventus
+                    - generic [ref=e1249]:
+                      - paragraph [ref=e1250]: Governance Action Type
+                      - paragraph [ref=e1251]: Treasury requests
+                  - generic [ref=e1252]:
+                    - generic [ref=e1253]:
+                      - img [ref=e1255]
+                      - paragraph [ref=e1257]: "Proposed on: 10 October 2026"
+                    - generic [ref=e1258]:
+                      - generic [ref=e1260]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1262] [cursor=pointer]:
+                        - /url: /proposal_discussion/16973
+                        - button [ref=e1263]: View Details
+              - generic [ref=e1264]: Active
+            - generic [ref=e1269]:
+              - generic [ref=e1270]:
+                - generic [ref=e1271]:
+                  - generic [ref=e1273]:
+                    - heading [level=3] [ref=e1274]: Traho spiritus tumultus magnam valens cunabula.
+                    - heading [level=5] [ref=e1275]: "@beaulah_wyman_1791609594603"
+                  - button [ref=e1277] [cursor=pointer]:
+                    - img [ref=e1278]
+                - generic [ref=e1280]:
+                  - generic [ref=e1281]:
+                    - generic [ref=e1282]:
+                      - paragraph [ref=e1283]: Abstract
+                      - paragraph [ref=e1286]: vespillo ago avarus sodalitas repellat
+                    - generic [ref=e1287]:
+                      - paragraph [ref=e1288]: Governance Action Type
+                      - paragraph [ref=e1289]: Treasury requests
+                  - generic [ref=e1290]:
+                    - generic [ref=e1291]:
+                      - img [ref=e1293]
+                      - paragraph [ref=e1295]: "Proposed on: 10 October 2026"
+                    - generic [ref=e1296]:
+                      - generic [ref=e1298]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1300] [cursor=pointer]:
+                        - /url: /proposal_discussion/16970
+                        - button [ref=e1301]: View Details
+              - generic [ref=e1302]: Active
+            - generic [ref=e1307]:
+              - generic [ref=e1308]:
+                - generic [ref=e1309]:
+                  - generic [ref=e1311]:
+                    - heading [level=3] [ref=e1312]: Aggero speciosus sum ultio nisi delectatio.
+                    - heading [level=5] [ref=e1313]: "@beaulah_wyman_1791609594603"
+                  - button [ref=e1315] [cursor=pointer]:
+                    - img [ref=e1316]
+                - generic [ref=e1318]:
+                  - generic [ref=e1319]:
+                    - generic [ref=e1320]:
+                      - paragraph [ref=e1321]: Abstract
+                      - paragraph [ref=e1324]: vigor cado causa eum stips
+                    - generic [ref=e1325]:
+                      - paragraph [ref=e1326]: Governance Action Type
+                      - paragraph [ref=e1327]: Treasury requests
+                  - generic [ref=e1328]:
+                    - generic [ref=e1329]:
+                      - img [ref=e1331]
+                      - paragraph [ref=e1333]: "Proposed on: 10 October 2026"
+                    - generic [ref=e1334]:
+                      - generic [ref=e1336]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1338] [cursor=pointer]:
+                        - /url: /proposal_discussion/16952
+                        - button [ref=e1339]: View Details
+              - generic [ref=e1340]: Active
+            - generic [ref=e1345]:
+              - generic [ref=e1346]:
+                - generic [ref=e1347]:
+                  - generic [ref=e1349]:
+                    - heading [level=3] [ref=e1350]: Claustrum conitor decretum alius sursum tot.
+                    - heading [level=5] [ref=e1351]: "@kristian56_1791524129258"
+                  - button [ref=e1353] [cursor=pointer]:
+                    - img [ref=e1354]
+                - generic [ref=e1356]:
+                  - generic [ref=e1357]:
+                    - generic [ref=e1358]:
+                      - paragraph [ref=e1359]: Abstract
+                      - paragraph [ref=e1362]: terror angelus coepi aestas cuppedia
+                    - generic [ref=e1363]:
+                      - paragraph [ref=e1364]: Governance Action Type
+                      - paragraph [ref=e1365]: Treasury requests
+                  - generic [ref=e1366]:
+                    - generic [ref=e1367]:
+                      - img [ref=e1369]
+                      - paragraph [ref=e1371]: "Proposed on: 9 October 2026"
+                    - generic [ref=e1372]:
+                      - generic [ref=e1374]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1376] [cursor=pointer]:
+                        - /url: /proposal_discussion/16946
+                        - button [ref=e1377]: View Details
+              - generic [ref=e1378]: Active
+            - generic [ref=e1383]:
+              - generic [ref=e1384]:
+                - generic [ref=e1385]:
+                  - generic [ref=e1387]:
+                    - heading [level=3] [ref=e1388]: Volaticus est conventus vado ambulo delego.
+                    - heading [level=5] [ref=e1389]: "@kristian56_1791524129258"
+                  - button [ref=e1391] [cursor=pointer]:
+                    - img [ref=e1392]
+                - generic [ref=e1394]:
+                  - generic [ref=e1395]:
+                    - generic [ref=e1396]:
+                      - paragraph [ref=e1397]: Abstract
+                      - paragraph [ref=e1400]: aspicio avarus auditor dolore amor
+                    - generic [ref=e1401]:
+                      - paragraph [ref=e1402]: Governance Action Type
+                      - paragraph [ref=e1403]: Treasury requests
+                  - generic [ref=e1404]:
+                    - generic [ref=e1405]:
+                      - img [ref=e1407]
+                      - paragraph [ref=e1409]: "Proposed on: 9 October 2026"
+                    - generic [ref=e1410]:
+                      - generic [ref=e1412]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1414] [cursor=pointer]:
+                        - /url: /proposal_discussion/16927
+                        - button [ref=e1415]: View Details
+              - generic [ref=e1416]: Active
+            - generic [ref=e1421]:
+              - generic [ref=e1422]:
+                - generic [ref=e1423]:
+                  - generic [ref=e1425]:
+                    - heading [level=3] [ref=e1426]: Demum tametsi suadeo perspiciatis canto accusator.
+                    - heading [level=5] [ref=e1427]: "@andres.spencer_1777015323782"
+                  - button [ref=e1429] [cursor=pointer]:
+                    - img [ref=e1430]
+                - generic [ref=e1432]:
+                  - generic [ref=e1433]:
+                    - generic [ref=e1434]:
+                      - paragraph [ref=e1435]: Abstract
+                      - paragraph [ref=e1438]: consectetur cibo cum placeat spoliatio
+                    - generic [ref=e1439]:
+                      - paragraph [ref=e1440]: Governance Action Type
+                      - paragraph [ref=e1441]: Treasury requests
+                  - generic [ref=e1442]:
+                    - generic [ref=e1443]:
+                      - img [ref=e1445]
+                      - paragraph [ref=e1447]: "Proposed on: 18 August 2026"
+                    - generic [ref=e1448]:
+                      - generic [ref=e1450]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1452] [cursor=pointer]:
+                        - /url: /proposal_discussion/16890
+                        - button [ref=e1453]: View Details
+              - generic [ref=e1454]: Active
+            - generic [ref=e1459]:
+              - generic [ref=e1460]:
+                - generic [ref=e1461]:
+                  - generic [ref=e1463]:
+                    - heading [level=3] [ref=e1464]: Deripio praesentium conor subiungo nihil strenuus.
+                    - heading [level=5] [ref=e1465]: "@andres.spencer_1777015323782"
+                  - button [ref=e1467] [cursor=pointer]:
+                    - img [ref=e1468]
+                - generic [ref=e1470]:
+                  - generic [ref=e1471]:
+                    - generic [ref=e1472]:
+                      - paragraph [ref=e1473]: Abstract
+                      - paragraph [ref=e1476]: triduana agnosco volutabrum ipsam vergo
+                    - generic [ref=e1477]:
+                      - paragraph [ref=e1478]: Governance Action Type
+                      - paragraph [ref=e1479]: Treasury requests
+                  - generic [ref=e1480]:
+                    - generic [ref=e1481]:
+                      - img [ref=e1483]
+                      - paragraph [ref=e1485]: "Proposed on: 17 August 2026"
+                    - generic [ref=e1486]:
+                      - generic [ref=e1488]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1490] [cursor=pointer]:
+                        - /url: /proposal_discussion/16836
+                        - button [ref=e1491]: View Details
+              - generic [ref=e1492]: Active
+            - generic [ref=e1497]:
+              - generic [ref=e1498]:
+                - generic [ref=e1499]:
+                  - generic [ref=e1501]:
+                    - heading [level=3] [ref=e1502]: this is a test of treasury application on preview
+                    - heading [level=5] [ref=e1503]: "@kal"
+                  - button [ref=e1505] [cursor=pointer]:
+                    - img [ref=e1506]
+                - generic [ref=e1508]:
+                  - generic [ref=e1509]:
+                    - generic [ref=e1510]:
+                      - paragraph [ref=e1511]: Abstract
+                      - paragraph [ref=e1514]: this is a test of treasury application on preview
+                    - generic [ref=e1515]:
+                      - paragraph [ref=e1516]: Governance Action Type
+                      - paragraph [ref=e1517]: Treasury requests
+                  - generic [ref=e1518]:
+                    - generic [ref=e1519]:
+                      - img [ref=e1521]
+                      - paragraph [ref=e1523]: "Proposed on: 4 July 2026"
+                    - generic [ref=e1524]:
+                      - generic [ref=e1526]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1528] [cursor=pointer]:
+                        - /url: /proposal_discussion/16804
+                        - button [ref=e1529]: View Details
+              - generic [ref=e1530]: Active
+            - generic [ref=e1535]:
+              - generic [ref=e1536]:
+                - generic [ref=e1537]:
+                  - generic [ref=e1539]:
+                    - heading [level=3] [ref=e1540]: Test Proposal
+                    - heading [level=5] [ref=e1541]: "@test_account1"
+                  - button [ref=e1543] [cursor=pointer]:
+                    - img [ref=e1544]
+                - generic [ref=e1546]:
+                  - generic [ref=e1547]:
+                    - generic [ref=e1548]:
+                      - paragraph [ref=e1549]: Abstract
+                      - paragraph [ref=e1552]: Test Proposal Abstract
+                    - generic [ref=e1553]:
+                      - paragraph [ref=e1554]: Governance Action Type
+                      - paragraph [ref=e1555]: Treasury requests
+                  - generic [ref=e1556]:
+                    - generic [ref=e1557]:
+                      - img [ref=e1559]
+                      - paragraph [ref=e1561]: "Proposed on: 1 July 2026"
+                    - generic [ref=e1562]:
+                      - generic [ref=e1564]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1566] [cursor=pointer]:
+                        - /url: /proposal_discussion/16802
+                        - button [ref=e1567]: View Details
+              - generic [ref=e1568]: Active
+            - generic [ref=e1573]:
+              - generic [ref=e1574]:
+                - generic [ref=e1575]:
+                  - generic [ref=e1577]:
+                    - heading [level=3] [ref=e1578]: Test Title
+                    - heading [level=5] [ref=e1579]: "@testnet_user"
+                  - button [ref=e1581] [cursor=pointer]:
+                    - img [ref=e1582]
+                - generic [ref=e1584]:
+                  - generic [ref=e1585]:
+                    - generic [ref=e1586]:
+                      - paragraph [ref=e1587]: Abstract
+                      - paragraph [ref=e1590]: Test Abstract
+                    - generic [ref=e1591]:
+                      - paragraph [ref=e1592]: Governance Action Type
+                      - paragraph [ref=e1593]: Treasury requests
+                  - generic [ref=e1594]:
+                    - generic [ref=e1595]:
+                      - img [ref=e1597]
+                      - paragraph [ref=e1599]: "Proposed on: 18 June 2026"
+                    - generic [ref=e1600]:
+                      - generic [ref=e1602]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1604] [cursor=pointer]:
+                        - /url: /proposal_discussion/16794
+                        - button [ref=e1605]: View Details
+              - generic [ref=e1606]: Active
+            - generic [ref=e1611]:
+              - generic [ref=e1612]:
+                - generic [ref=e1613]:
+                  - generic [ref=e1615]:
+                    - heading [level=3] [ref=e1616]: Nobis currus verecundia curo cetera reprehenderit.
+                    - heading [level=5] [ref=e1617]: "@andres.spencer_1777015323782"
+                  - button [ref=e1619] [cursor=pointer]:
+                    - img [ref=e1620]
+                - generic [ref=e1622]:
+                  - generic [ref=e1623]:
+                    - generic [ref=e1624]:
+                      - paragraph [ref=e1625]: Abstract
+                      - paragraph [ref=e1628]: vae pectus curia turbo harum
+                    - generic [ref=e1629]:
+                      - paragraph [ref=e1630]: Governance Action Type
+                      - paragraph [ref=e1631]: Treasury requests
+                  - generic [ref=e1632]:
+                    - generic [ref=e1633]:
+                      - img [ref=e1635]
+                      - paragraph [ref=e1637]: "Proposed on: 3 June 2026"
+                    - generic [ref=e1638]:
+                      - generic [ref=e1640]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1642] [cursor=pointer]:
+                        - /url: /proposal_discussion/16786
+                        - button [ref=e1643]: View Details
+              - generic [ref=e1644]: Active
+            - generic [ref=e1649]:
+              - generic [ref=e1650]:
+                - generic [ref=e1651]:
+                  - generic [ref=e1653]:
+                    - heading [level=3] [ref=e1654]: Valens debilito vulpes denuo capto stipes.
+                    - heading [level=5] [ref=e1655]: "@andres.spencer_1777015323782"
+                  - button [ref=e1657] [cursor=pointer]:
+                    - img [ref=e1658]
+                - generic [ref=e1660]:
+                  - generic [ref=e1661]:
+                    - generic [ref=e1662]:
+                      - paragraph [ref=e1663]: Abstract
+                      - paragraph [ref=e1666]: venio cibus atavus coadunatio contego
+                    - generic [ref=e1667]:
+                      - paragraph [ref=e1668]: Governance Action Type
+                      - paragraph [ref=e1669]: Treasury requests
+                  - generic [ref=e1670]:
+                    - generic [ref=e1671]:
+                      - img [ref=e1673]
+                      - paragraph [ref=e1675]: "Proposed on: 3 June 2026"
+                    - generic [ref=e1676]:
+                      - generic [ref=e1678]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1680] [cursor=pointer]:
+                        - /url: /proposal_discussion/16764
+                        - button [ref=e1681]: View Details
+              - generic [ref=e1682]: Active
+            - generic [ref=e1687]:
+              - generic [ref=e1688]:
+                - generic [ref=e1689]:
+                  - generic [ref=e1691]:
+                    - heading [level=3] [ref=e1692]: Traho caelum summa sto crustulum cognatus.
+                    - heading [level=5] [ref=e1693]: "@andres.spencer_1777015323782"
+                  - button [ref=e1695] [cursor=pointer]:
+                    - img [ref=e1696]
+                - generic [ref=e1698]:
+                  - generic [ref=e1699]:
+                    - generic [ref=e1700]:
+                      - paragraph [ref=e1701]: Abstract
+                      - paragraph [ref=e1704]: deripio ver amo ullam utilis
+                    - generic [ref=e1705]:
+                      - paragraph [ref=e1706]: Governance Action Type
+                      - paragraph [ref=e1707]: Treasury requests
+                  - generic [ref=e1708]:
+                    - generic [ref=e1709]:
+                      - img [ref=e1711]
+                      - paragraph [ref=e1713]: "Proposed on: 3 June 2026"
+                    - generic [ref=e1714]:
+                      - generic [ref=e1716]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1718] [cursor=pointer]:
+                        - /url: /proposal_discussion/16739
+                        - button [ref=e1719]: View Details
+              - generic [ref=e1720]: Active
+            - generic [ref=e1725]:
+              - generic [ref=e1726]:
+                - generic [ref=e1727]:
+                  - generic [ref=e1729]:
+                    - heading [level=3] [ref=e1730]: "Scalus: Cardano’s Application Platform for Building, Launching, and Scaling"
+                    - heading [level=5] [ref=e1731]: "@atlanter"
+                  - button [ref=e1733] [cursor=pointer]:
+                    - img [ref=e1734]
+                - generic [ref=e1736]:
+                  - generic [ref=e1737]:
+                    - generic [ref=e1738]:
+                      - paragraph [ref=e1739]: Abstract
+                      - paragraph [ref=e1742]:
+                        - text: "Cardano is moving. Protocol upgrades, critical integrations, DeFi liquidity, and VC capital are aligning. But the next bottleneck is no longer core infrastructure, it is application delivery.\\n\\nTeams still struggle to ship non-trivial applications because they must master and assemble too many moving parts themselves: smart contracts, formal verification, chain access, operations, and scaling. The ecosystem does not lack tools. It lacks an integrated application platform that has it all and just works.\\n\\n"
+                        - link [ref=e1743] [cursor=pointer]:
+                          - /url: https://scalus.org/
+                          - text: Scalus
+                        - text: was built to address exactly this bottleneck. It is an established Cardano smart contract and dApp development platform built by
+                        - link [ref=e1744] [cursor=pointer]:
+                          - /url: https://lantr.io/
+                          - text: Lantr Engineering
+                        - text: ", with three years of continuous delivery, ecosystem adoption, and integrations. Hydrozoa and Bifrost build on it. MeshJS SDK, Cardano Client Lib, and Evolution SDK integrate it. \\n\\nThis proposal extends Scalus from a development environment into a full application platform: one coherent stack to build, verify, launch, and scale Cardano applications, with it's own L1 node, native L2 integration, formal verification, and production-grade runtime capabilities.\\n\\nLantr Engineering requests ₳8,503,000 (including 10% contingency) from the Cardano Treasury for a 12-month delivery period (June 2026 to May 2027).\\n\\nBy the end of this period, both existing Cardano builders and new Java, Scala, and Kotlin teams entering the ecosystem will be able to develop and operate mission-critical and scalable applications on a unified JVM-native platform, reducing setup complexity while improving self-sovereignty and time to market.\\n\\nFor Cardano, that means a stronger application layer: more serious teams shipping, more resilient infrastructure in production, and a faster path to the applications that drive transactions, users, and TVL."
+                    - generic [ref=e1745]:
+                      - paragraph [ref=e1746]: Governance Action Type
+                      - paragraph [ref=e1747]: Treasury requests
+                  - generic [ref=e1748]:
+                    - generic [ref=e1749]:
+                      - img [ref=e1751]
+                      - paragraph [ref=e1753]: "Proposed on: 13 May 2026"
+                    - generic [ref=e1754]:
+                      - generic [ref=e1756]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1758] [cursor=pointer]:
+                        - /url: /proposal_discussion/16702
+                        - button [ref=e1759]: View Details
+              - generic [ref=e1760]: Active
+            - generic [ref=e1765]:
+              - generic [ref=e1766]:
+                - generic [ref=e1767]:
+                  - generic [ref=e1769]:
+                    - heading [level=3] [ref=e1770]: Vos vinum conturbo speculum sapiente depono.
+                    - heading [level=5] [ref=e1771]: "@andres.spencer_1777015323782"
+                  - button [ref=e1773] [cursor=pointer]:
+                    - img [ref=e1774]
+                - generic [ref=e1776]:
+                  - generic [ref=e1777]:
+                    - generic [ref=e1778]:
+                      - paragraph [ref=e1779]: Abstract
+                      - paragraph [ref=e1782]: amplexus speciosus appello solutio nemo
+                    - generic [ref=e1783]:
+                      - paragraph [ref=e1784]: Governance Action Type
+                      - paragraph [ref=e1785]: Treasury requests
+                  - generic [ref=e1786]:
+                    - generic [ref=e1787]:
+                      - img [ref=e1789]
+                      - paragraph [ref=e1791]: "Proposed on: 24 April 2026"
+                    - generic [ref=e1792]:
+                      - generic [ref=e1794]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1796] [cursor=pointer]:
+                        - /url: /proposal_discussion/16648
+                        - button [ref=e1797]: View Details
+              - generic [ref=e1798]: Active
+            - generic [ref=e1803]:
+              - generic [ref=e1804]:
+                - generic [ref=e1805]:
+                  - generic [ref=e1807]:
+                    - heading [level=3] [ref=e1808]: Test
+                    - heading [level=5] [ref=e1809]: "@yoroitest"
+                  - button [ref=e1811] [cursor=pointer]:
+                    - img [ref=e1812]
+                - generic [ref=e1814]:
+                  - generic [ref=e1815]:
+                    - generic [ref=e1816]:
+                      - paragraph [ref=e1817]: Abstract
+                      - paragraph [ref=e1820]: I need to withdraw 100 ADA to buy lunch.
+                    - generic [ref=e1821]:
+                      - paragraph [ref=e1822]: Governance Action Type
+                      - paragraph [ref=e1823]: Treasury requests
+                  - generic [ref=e1824]:
+                    - generic [ref=e1825]:
+                      - img [ref=e1827]
+                      - paragraph [ref=e1829]: "Proposed on: 22 April 2026"
+                    - generic [ref=e1830]:
+                      - generic [ref=e1832]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1834] [cursor=pointer]:
+                        - /url: /proposal_discussion/16542
+                        - button [ref=e1835]: View Details
+              - generic [ref=e1836]: Active
+            - generic [ref=e1841]:
+              - generic [ref=e1842]:
+                - generic [ref=e1843]:
+                  - generic [ref=e1845]:
+                    - heading [level=3] [ref=e1846]: utcert test
+                    - heading [level=5] [ref=e1847]: "@utcert"
+                  - button [ref=e1849] [cursor=pointer]:
+                    - img [ref=e1850]
+                - generic [ref=e1852]:
+                  - generic [ref=e1853]:
+                    - generic [ref=e1854]:
+                      - paragraph [ref=e1855]: Abstract
+                      - paragraph [ref=e1858]: utcert test
+                    - generic [ref=e1859]:
+                      - paragraph [ref=e1860]: Governance Action Type
+                      - paragraph [ref=e1861]: Treasury requests
+                  - generic [ref=e1862]:
+                    - generic [ref=e1863]:
+                      - img [ref=e1865]
+                      - paragraph [ref=e1867]: "Proposed on: 25 September 2025"
+                    - generic [ref=e1868]:
+                      - generic [ref=e1870]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1872] [cursor=pointer]:
+                        - /url: /proposal_discussion/12493
+                        - button [ref=e1873]: View Details
+              - generic [ref=e1874]: Active
+            - generic [ref=e1879]:
+              - generic [ref=e1880]:
+                - generic [ref=e1881]:
+                  - generic [ref=e1883]:
+                    - heading [level=3] [ref=e1884]: refactoring cardano in pure C++
+                    - heading [level=5] [ref=e1885]: "@blacktimbs"
+                  - button [ref=e1887] [cursor=pointer]:
+                    - img [ref=e1888]
+                - generic [ref=e1890]:
+                  - generic [ref=e1891]:
+                    - generic [ref=e1892]:
+                      - paragraph [ref=e1893]: Abstract
+                      - paragraph [ref=e1896]: imagine the improved performance of cardano, but in pure C++
+                    - generic [ref=e1897]:
+                      - paragraph [ref=e1898]: Governance Action Type
+                      - paragraph [ref=e1899]: Treasury requests
+                  - generic [ref=e1900]:
+                    - generic [ref=e1901]:
+                      - img [ref=e1903]
+                      - paragraph [ref=e1905]: "Proposed on: 8 September 2025"
+                    - generic [ref=e1906]:
+                      - generic [ref=e1908]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1910] [cursor=pointer]:
+                        - /url: /proposal_discussion/11872
+                        - button [ref=e1911]: View Details
+              - generic [ref=e1912]: Active
+            - generic [ref=e1917]:
+              - generic [ref=e1918]:
+                - generic [ref=e1919]:
+                  - generic [ref=e1921]:
+                    - heading [level=3] [ref=e1922]: refactoring cardano in pure C++
+                    - heading [level=5] [ref=e1923]: "@blacktimbs"
+                  - button [ref=e1925] [cursor=pointer]:
+                    - img [ref=e1926]
+                - generic [ref=e1928]:
+                  - generic [ref=e1929]:
+                    - generic [ref=e1930]:
+                      - paragraph [ref=e1931]: Abstract
+                      - paragraph [ref=e1934]: imagine the improved performance of cardano, but in pure C++
+                    - generic [ref=e1935]:
+                      - paragraph [ref=e1936]: Governance Action Type
+                      - paragraph [ref=e1937]: Treasury requests
+                  - generic [ref=e1938]:
+                    - generic [ref=e1939]:
+                      - img [ref=e1941]
+                      - paragraph [ref=e1943]: "Proposed on: 8 September 2025"
+                    - generic [ref=e1944]:
+                      - generic [ref=e1946]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1948] [cursor=pointer]:
+                        - /url: /proposal_discussion/11871
+                        - button [ref=e1949]: View Details
+              - generic [ref=e1950]: Active
+            - generic [ref=e1955]:
+              - generic [ref=e1956]:
+                - generic [ref=e1957]:
+                  - generic [ref=e1959]:
+                    - heading [level=3] [ref=e1960]: refactoring cardano in pure C++
+                    - heading [level=5] [ref=e1961]: "@blacktimbs_"
+                  - button [ref=e1963] [cursor=pointer]:
+                    - img [ref=e1964]
+                - generic [ref=e1966]:
+                  - generic [ref=e1967]:
+                    - generic [ref=e1968]:
+                      - paragraph [ref=e1969]: Abstract
+                      - paragraph [ref=e1972]: imagine the improved performance of cardano, but in pure C++
+                    - generic [ref=e1973]:
+                      - paragraph [ref=e1974]: Governance Action Type
+                      - paragraph [ref=e1975]: Treasury requests
+                  - generic [ref=e1976]:
+                    - generic [ref=e1977]:
+                      - img [ref=e1979]
+                      - paragraph [ref=e1981]: "Proposed on: 8 September 2025"
+                    - generic [ref=e1982]:
+                      - generic [ref=e1984]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e1986] [cursor=pointer]:
+                        - /url: /proposal_discussion/11870
+                        - button [ref=e1987]: View Details
+              - generic [ref=e1988]: Active
+        - generic [ref=e1990]:
+          - generic [ref=e1991]:
+            - generic [ref=e1992]:
+              - heading "Updates to the Constitution" [level=2] [ref=e1993]
+              - button "Show all" [ref=e1994] [cursor=pointer]: Show all
+            - generic [ref=e1995]:
+              - button [ref=e1996] [cursor=pointer]:
+                - img [ref=e1997]
+              - button [ref=e1999] [cursor=pointer]:
+                - img [ref=e2000]
+          - generic [ref=e2005]:
+            - generic "status-badge" [ref=e2010]:
+              - generic [ref=e2011]:
+                - generic [ref=e2012]:
+                  - generic [ref=e2014]:
+                    - heading "Astrum acies aeneus vix thesaurus taceo." [level=3] [ref=e2015]
+                    - heading "@robin0_1791783253792" [level=5] [ref=e2016]
+                  - button "Share" [ref=e2018] [cursor=pointer]:
+                    - img [ref=e2019]
+                - generic [ref=e2021]:
+                  - generic [ref=e2022]:
+                    - generic [ref=e2023]:
+                      - paragraph [ref=e2024]: Abstract
+                      - paragraph [ref=e2027]: sui taedium bibo curto eveniet
+                    - generic [ref=e2028]:
+                      - paragraph [ref=e2029]: Governance Action Type
+                      - paragraph [ref=e2030]: Updates to the Constitution
+                  - generic [ref=e2031]:
+                    - generic [ref=e2032]:
+                      - generic "Proposal Date" [ref=e2033]:
+                        - img [ref=e2034]
+                      - paragraph [ref=e2036]: "Proposed on: 12 October 2026"
+                    - generic [ref=e2037]:
+                      - generic "Comments Number" [ref=e2039]:
+                        - button "comments" [disabled]:
+                          - generic "comments":
+                            - generic: "0"
+                          - img
+                      - link "View Details" [ref=e2041] [cursor=pointer]:
+                        - /url: /proposal_discussion/17021
+                        - button "View Details" [ref=e2042]: View Details
+              - generic [ref=e2043]: Active
+            - generic [ref=e2048]:
+              - generic [ref=e2049]:
+                - generic [ref=e2050]:
+                  - generic [ref=e2052]:
+                    - heading [level=3] [ref=e2053]: Vitae arcesso infit confido creptio cursus.
+                    - heading [level=5] [ref=e2054]: "@robin0_1791783253792"
+                  - button [ref=e2056] [cursor=pointer]:
+                    - img [ref=e2057]
+                - generic [ref=e2059]:
+                  - generic [ref=e2060]:
+                    - generic [ref=e2061]:
+                      - paragraph [ref=e2062]: Abstract
+                      - paragraph [ref=e2065]: arma summa adflicto tersus hic
+                    - generic [ref=e2066]:
+                      - paragraph [ref=e2067]: Governance Action Type
+                      - paragraph [ref=e2068]: Updates to the Constitution
+                  - generic [ref=e2069]:
+                    - generic [ref=e2070]:
+                      - img [ref=e2072]
+                      - paragraph [ref=e2074]: "Proposed on: 12 October 2026"
+                    - generic [ref=e2075]:
+                      - generic [ref=e2077]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2079] [cursor=pointer]:
+                        - /url: /proposal_discussion/17018
+                        - button [ref=e2080]: View Details
+              - generic [ref=e2081]: Active
+            - generic [ref=e2086]:
+              - generic [ref=e2087]:
+                - generic [ref=e2088]:
+                  - generic [ref=e2090]:
+                    - heading [level=3] [ref=e2091]: Blandior conculco considero curiositas doloremque bene.
+                    - heading [level=5] [ref=e2092]: "@tod_pouros_1791782627689"
+                  - button [ref=e2094] [cursor=pointer]:
+                    - img [ref=e2095]
+                - generic [ref=e2097]:
+                  - generic [ref=e2098]:
+                    - generic [ref=e2099]:
+                      - paragraph [ref=e2100]: Abstract
+                      - paragraph [ref=e2103]: combibo valde dolor quasi demitto
+                    - generic [ref=e2104]:
+                      - paragraph [ref=e2105]: Governance Action Type
+                      - paragraph [ref=e2106]: Updates to the Constitution
+                  - generic [ref=e2107]:
+                    - generic [ref=e2108]:
+                      - img [ref=e2110]
+                      - paragraph [ref=e2112]: "Proposed on: 12 October 2026"
+                    - generic [ref=e2113]:
+                      - generic [ref=e2115]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2117] [cursor=pointer]:
+                        - /url: /proposal_discussion/17017
+                        - button [ref=e2118]: View Details
+              - generic [ref=e2119]: Active
+            - generic [ref=e2124]:
+              - generic [ref=e2125]:
+                - generic [ref=e2126]:
+                  - generic [ref=e2128]:
+                    - heading [level=3] [ref=e2129]: Bene color tergo virtus dolor sulum.
+                    - heading [level=5] [ref=e2130]: "@tod_pouros_1791782627689"
+                  - button [ref=e2132] [cursor=pointer]:
+                    - img [ref=e2133]
+                - generic [ref=e2135]:
+                  - generic [ref=e2136]:
+                    - generic [ref=e2137]:
+                      - paragraph [ref=e2138]: Abstract
+                      - paragraph [ref=e2141]: beneficium vitae cupio incidunt valeo
+                    - generic [ref=e2142]:
+                      - paragraph [ref=e2143]: Governance Action Type
+                      - paragraph [ref=e2144]: Updates to the Constitution
+                  - generic [ref=e2145]:
+                    - generic [ref=e2146]:
+                      - img [ref=e2148]
+                      - paragraph [ref=e2150]: "Proposed on: 12 October 2026"
+                    - generic [ref=e2151]:
+                      - generic [ref=e2153]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2155] [cursor=pointer]:
+                        - /url: /proposal_discussion/17000
+                        - button [ref=e2156]: View Details
+              - generic [ref=e2157]: Active
+            - generic [ref=e2162]:
+              - generic [ref=e2163]:
+                - generic [ref=e2164]:
+                  - generic [ref=e2166]:
+                    - heading [level=3] [ref=e2167]: Officiis patria depraedor compello volup brevis.
+                    - heading [level=5] [ref=e2168]: "@ansel.davis_1791695832129"
+                  - button [ref=e2170] [cursor=pointer]:
+                    - img [ref=e2171]
+                - generic [ref=e2173]:
+                  - generic [ref=e2174]:
+                    - generic [ref=e2175]:
+                      - paragraph [ref=e2176]: Abstract
+                      - paragraph [ref=e2179]: vindico abscido vito consequatur corrumpo
+                    - generic [ref=e2180]:
+                      - paragraph [ref=e2181]: Governance Action Type
+                      - paragraph [ref=e2182]: Updates to the Constitution
+                  - generic [ref=e2183]:
+                    - generic [ref=e2184]:
+                      - img [ref=e2186]
+                      - paragraph [ref=e2188]: "Proposed on: 11 October 2026"
+                    - generic [ref=e2189]:
+                      - generic [ref=e2191]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2193] [cursor=pointer]:
+                        - /url: /proposal_discussion/16997
+                        - button [ref=e2194]: View Details
+              - generic [ref=e2195]: Active
+            - generic [ref=e2200]:
+              - generic [ref=e2201]:
+                - generic [ref=e2202]:
+                  - generic [ref=e2204]:
+                    - heading [level=3] [ref=e2205]: Ceno aperiam quam supra creber ullam.
+                    - heading [level=5] [ref=e2206]: "@devyn.wuckert_1791695391827"
+                  - button [ref=e2208] [cursor=pointer]:
+                    - img [ref=e2209]
+                - generic [ref=e2211]:
+                  - generic [ref=e2212]:
+                    - generic [ref=e2213]:
+                      - paragraph [ref=e2214]: Abstract
+                      - paragraph [ref=e2217]: vulgivagus alias dolor vindico aestus
+                    - generic [ref=e2218]:
+                      - paragraph [ref=e2219]: Governance Action Type
+                      - paragraph [ref=e2220]: Updates to the Constitution
+                  - generic [ref=e2221]:
+                    - generic [ref=e2222]:
+                      - img [ref=e2224]
+                      - paragraph [ref=e2226]: "Proposed on: 11 October 2026"
+                    - generic [ref=e2227]:
+                      - generic [ref=e2229]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2231] [cursor=pointer]:
+                        - /url: /proposal_discussion/16993
+                        - button [ref=e2232]: View Details
+              - generic [ref=e2233]: Active
+            - generic [ref=e2238]:
+              - generic [ref=e2239]:
+                - generic [ref=e2240]:
+                  - generic [ref=e2242]:
+                    - heading [level=3] [ref=e2243]: Viscus distinctio crepusculum vaco admoneo verumtamen.
+                    - heading [level=5] [ref=e2244]: "@devyn.wuckert_1791695391827"
+                  - button [ref=e2246] [cursor=pointer]:
+                    - img [ref=e2247]
+                - generic [ref=e2249]:
+                  - generic [ref=e2250]:
+                    - generic [ref=e2251]:
+                      - paragraph [ref=e2252]: Abstract
+                      - paragraph [ref=e2255]: sub temptatio comis confido altus
+                    - generic [ref=e2256]:
+                      - paragraph [ref=e2257]: Governance Action Type
+                      - paragraph [ref=e2258]: Updates to the Constitution
+                  - generic [ref=e2259]:
+                    - generic [ref=e2260]:
+                      - img [ref=e2262]
+                      - paragraph [ref=e2264]: "Proposed on: 11 October 2026"
+                    - generic [ref=e2265]:
+                      - generic [ref=e2267]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2269] [cursor=pointer]:
+                        - /url: /proposal_discussion/16986
+                        - button [ref=e2270]: View Details
+              - generic [ref=e2271]: Active
+            - generic [ref=e2276]:
+              - generic [ref=e2277]:
+                - generic [ref=e2278]:
+                  - generic [ref=e2280]:
+                    - heading [level=3] [ref=e2281]: Caterva demum campana patior verto sub.
+                    - heading [level=5] [ref=e2282]: "@devyn.wuckert_1791695391827"
+                  - button [ref=e2284] [cursor=pointer]:
+                    - img [ref=e2285]
+                - generic [ref=e2287]:
+                  - generic [ref=e2288]:
+                    - generic [ref=e2289]:
+                      - paragraph [ref=e2290]: Abstract
+                      - paragraph [ref=e2293]: bellicus contra solvo vis adopto
+                    - generic [ref=e2294]:
+                      - paragraph [ref=e2295]: Governance Action Type
+                      - paragraph [ref=e2296]: Updates to the Constitution
+                  - generic [ref=e2297]:
+                    - generic [ref=e2298]:
+                      - img [ref=e2300]
+                      - paragraph [ref=e2302]: "Proposed on: 11 October 2026"
+                    - generic [ref=e2303]:
+                      - generic [ref=e2305]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2307] [cursor=pointer]:
+                        - /url: /proposal_discussion/16977
+                        - button [ref=e2308]: View Details
+              - generic [ref=e2309]: Active
+            - generic [ref=e2314]:
+              - generic [ref=e2315]:
+                - generic [ref=e2316]:
+                  - generic [ref=e2318]:
+                    - heading [level=3] [ref=e2319]: Totus colo amicitia voluptatibus tabesco adsum.
+                    - heading [level=5] [ref=e2320]: "@beaulah_wyman_1791609594603"
+                  - button [ref=e2322] [cursor=pointer]:
+                    - img [ref=e2323]
+                - generic [ref=e2325]:
+                  - generic [ref=e2326]:
+                    - generic [ref=e2327]:
+                      - paragraph [ref=e2328]: Abstract
+                      - paragraph [ref=e2331]: theologus tabella perspiciatis cupio suasoria
+                    - generic [ref=e2332]:
+                      - paragraph [ref=e2333]: Governance Action Type
+                      - paragraph [ref=e2334]: Updates to the Constitution
+                  - generic [ref=e2335]:
+                    - generic [ref=e2336]:
+                      - img [ref=e2338]
+                      - paragraph [ref=e2340]: "Proposed on: 10 October 2026"
+                    - generic [ref=e2341]:
+                      - generic [ref=e2343]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2345] [cursor=pointer]:
+                        - /url: /proposal_discussion/16966
+                        - button [ref=e2346]: View Details
+              - generic [ref=e2347]: Active
+            - generic [ref=e2352]:
+              - generic [ref=e2353]:
+                - generic [ref=e2354]:
+                  - generic [ref=e2356]:
+                    - heading [level=3] [ref=e2357]: Temporibus deprecator nihil succurro turba textus.
+                    - heading [level=5] [ref=e2358]: "@beaulah_wyman_1791609594603"
+                  - button [ref=e2360] [cursor=pointer]:
+                    - img [ref=e2361]
+                - generic [ref=e2363]:
+                  - generic [ref=e2364]:
+                    - generic [ref=e2365]:
+                      - paragraph [ref=e2366]: Abstract
+                      - paragraph [ref=e2369]: denuncio eius perferendis caput fuga
+                    - generic [ref=e2370]:
+                      - paragraph [ref=e2371]: Governance Action Type
+                      - paragraph [ref=e2372]: Updates to the Constitution
+                  - generic [ref=e2373]:
+                    - generic [ref=e2374]:
+                      - img [ref=e2376]
+                      - paragraph [ref=e2378]: "Proposed on: 10 October 2026"
+                    - generic [ref=e2379]:
+                      - generic [ref=e2381]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2383] [cursor=pointer]:
+                        - /url: /proposal_discussion/16953
+                        - button [ref=e2384]: View Details
+              - generic [ref=e2385]: Active
+            - generic [ref=e2390]:
+              - generic [ref=e2391]:
+                - generic [ref=e2392]:
+                  - generic [ref=e2394]:
+                    - heading [level=3] [ref=e2395]: Vel cognomen approbo denique tepesco curia.
+                    - heading [level=5] [ref=e2396]: "@kristian56_1791524129258"
+                  - button [ref=e2398] [cursor=pointer]:
+                    - img [ref=e2399]
+                - generic [ref=e2401]:
+                  - generic [ref=e2402]:
+                    - generic [ref=e2403]:
+                      - paragraph [ref=e2404]: Abstract
+                      - paragraph [ref=e2407]: valeo nisi usitas caelestis sonitus
+                    - generic [ref=e2408]:
+                      - paragraph [ref=e2409]: Governance Action Type
+                      - paragraph [ref=e2410]: Updates to the Constitution
+                  - generic [ref=e2411]:
+                    - generic [ref=e2412]:
+                      - img [ref=e2414]
+                      - paragraph [ref=e2416]: "Proposed on: 9 October 2026"
+                    - generic [ref=e2417]:
+                      - generic [ref=e2419]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2421] [cursor=pointer]:
+                        - /url: /proposal_discussion/16940
+                        - button [ref=e2422]: View Details
+              - generic [ref=e2423]: Active
+            - generic [ref=e2428]:
+              - generic [ref=e2429]:
+                - generic [ref=e2430]:
+                  - generic [ref=e2432]:
+                    - heading [level=3] [ref=e2433]: Videlicet crebro sequi incidunt asperiores admiratio.
+                    - heading [level=5] [ref=e2434]: "@kristian56_1791524129258"
+                  - button [ref=e2436] [cursor=pointer]:
+                    - img [ref=e2437]
+                - generic [ref=e2439]:
+                  - generic [ref=e2440]:
+                    - generic [ref=e2441]:
+                      - paragraph [ref=e2442]: Abstract
+                      - paragraph [ref=e2445]: qui tam caterva accusantium summopere
+                    - generic [ref=e2446]:
+                      - paragraph [ref=e2447]: Governance Action Type
+                      - paragraph [ref=e2448]: Updates to the Constitution
+                  - generic [ref=e2449]:
+                    - generic [ref=e2450]:
+                      - img [ref=e2452]
+                      - paragraph [ref=e2454]: "Proposed on: 9 October 2026"
+                    - generic [ref=e2455]:
+                      - generic [ref=e2457]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2459] [cursor=pointer]:
+                        - /url: /proposal_discussion/16939
+                        - button [ref=e2460]: View Details
+              - generic [ref=e2461]: Active
+            - generic [ref=e2466]:
+              - generic [ref=e2467]:
+                - generic [ref=e2468]:
+                  - generic [ref=e2470]:
+                    - heading [level=3] [ref=e2471]: Cubicularis conduco veniam bene quos officiis.
+                    - heading [level=5] [ref=e2472]: "@andres.spencer_1777015323782"
+                  - button [ref=e2474] [cursor=pointer]:
+                    - img [ref=e2475]
+                - generic [ref=e2477]:
+                  - generic [ref=e2478]:
+                    - generic [ref=e2479]:
+                      - paragraph [ref=e2480]: Abstract
+                      - paragraph [ref=e2483]: aro pecus numquam tabgo sol
+                    - generic [ref=e2484]:
+                      - paragraph [ref=e2485]: Governance Action Type
+                      - paragraph [ref=e2486]: Updates to the Constitution
+                  - generic [ref=e2487]:
+                    - generic [ref=e2488]:
+                      - img [ref=e2490]
+                      - paragraph [ref=e2492]: "Proposed on: 18 August 2026"
+                    - generic [ref=e2493]:
+                      - generic [ref=e2495]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2497] [cursor=pointer]:
+                        - /url: /proposal_discussion/16892
+                        - button [ref=e2498]: View Details
+              - generic [ref=e2499]: Active
+            - generic [ref=e2504]:
+              - generic [ref=e2505]:
+                - generic [ref=e2506]:
+                  - generic [ref=e2508]:
+                    - heading [level=3] [ref=e2509]: Tepidus damnatio delinquo dolorum theca expedita.
+                    - heading [level=5] [ref=e2510]: "@mathilde.prosacco_178703991037"
+                  - button [ref=e2512] [cursor=pointer]:
+                    - img [ref=e2513]
+                - generic [ref=e2515]:
+                  - generic [ref=e2516]:
+                    - generic [ref=e2517]:
+                      - paragraph [ref=e2518]: Abstract
+                      - paragraph [ref=e2521]: arcesso consequuntur surgo tyrannus doloribus
+                    - generic [ref=e2522]:
+                      - paragraph [ref=e2523]: Governance Action Type
+                      - paragraph [ref=e2524]: Updates to the Constitution
+                  - generic [ref=e2525]:
+                    - generic [ref=e2526]:
+                      - img [ref=e2528]
+                      - paragraph [ref=e2530]: "Proposed on: 18 August 2026"
+                    - generic [ref=e2531]:
+                      - generic [ref=e2533]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2535] [cursor=pointer]:
+                        - /url: /proposal_discussion/16877
+                        - button [ref=e2536]: View Details
+              - generic [ref=e2537]: Active
+            - generic [ref=e2542]:
+              - generic [ref=e2543]:
+                - generic [ref=e2544]:
+                  - generic [ref=e2546]:
+                    - heading [level=3] [ref=e2547]: Omnis accusamus valetudo spiculum ante adinventitias.
+                    - heading [level=5] [ref=e2548]: "@alfreda_tillman84_178701513964"
+                  - button [ref=e2550] [cursor=pointer]:
+                    - img [ref=e2551]
+                - generic [ref=e2553]:
+                  - generic [ref=e2554]:
+                    - generic [ref=e2555]:
+                      - paragraph [ref=e2556]: Abstract
+                      - paragraph [ref=e2559]: aegre claustrum cerno doloremque alveus
+                    - generic [ref=e2560]:
+                      - paragraph [ref=e2561]: Governance Action Type
+                      - paragraph [ref=e2562]: Updates to the Constitution
+                  - generic [ref=e2563]:
+                    - generic [ref=e2564]:
+                      - img [ref=e2566]
+                      - paragraph [ref=e2568]: "Proposed on: 18 August 2026"
+                    - generic [ref=e2569]:
+                      - generic [ref=e2571]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2573] [cursor=pointer]:
+                        - /url: /proposal_discussion/16845
+                        - button [ref=e2574]: View Details
+              - generic [ref=e2575]: Active
+            - generic [ref=e2580]:
+              - generic [ref=e2581]:
+                - generic [ref=e2582]:
+                  - generic [ref=e2584]:
+                    - heading [level=3] [ref=e2585]: Umbra pecto casso amplitudo caelum tenuis.
+                    - heading [level=5] [ref=e2586]: "@andres.spencer_1777015323782"
+                  - button [ref=e2588] [cursor=pointer]:
+                    - img [ref=e2589]
+                - generic [ref=e2591]:
+                  - generic [ref=e2592]:
+                    - generic [ref=e2593]:
+                      - paragraph [ref=e2594]: Abstract
+                      - paragraph [ref=e2597]: tremo vinco est video vilis
+                    - generic [ref=e2598]:
+                      - paragraph [ref=e2599]: Governance Action Type
+                      - paragraph [ref=e2600]: Updates to the Constitution
+                  - generic [ref=e2601]:
+                    - generic [ref=e2602]:
+                      - img [ref=e2604]
+                      - paragraph [ref=e2606]: "Proposed on: 17 August 2026"
+                    - generic [ref=e2607]:
+                      - generic [ref=e2609]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2611] [cursor=pointer]:
+                        - /url: /proposal_discussion/16837
+                        - button [ref=e2612]: View Details
+              - generic [ref=e2613]: Active
+            - generic [ref=e2618]:
+              - generic [ref=e2619]:
+                - generic [ref=e2620]:
+                  - generic [ref=e2622]:
+                    - heading [level=3] [ref=e2623]: Utroque solum somnus corrigo solium ipsum.
+                    - heading [level=5] [ref=e2624]: "@andres.spencer_1777015323782"
+                  - button [ref=e2626] [cursor=pointer]:
+                    - img [ref=e2627]
+                - generic [ref=e2629]:
+                  - generic [ref=e2630]:
+                    - generic [ref=e2631]:
+                      - paragraph [ref=e2632]: Abstract
+                      - paragraph [ref=e2635]: chirographum capitulus talio asporto subnecto
+                    - generic [ref=e2636]:
+                      - paragraph [ref=e2637]: Governance Action Type
+                      - paragraph [ref=e2638]: Updates to the Constitution
+                  - generic [ref=e2639]:
+                    - generic [ref=e2640]:
+                      - img [ref=e2642]
+                      - paragraph [ref=e2644]: "Proposed on: 3 June 2026"
+                    - generic [ref=e2645]:
+                      - generic [ref=e2647]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2649] [cursor=pointer]:
+                        - /url: /proposal_discussion/16791
+                        - button [ref=e2650]: View Details
+              - generic [ref=e2651]: Active
+            - generic [ref=e2656]:
+              - generic [ref=e2657]:
+                - generic [ref=e2658]:
+                  - generic [ref=e2660]:
+                    - heading [level=3] [ref=e2661]: Arbor absconditus torrens averto non sui.
+                    - heading [level=5] [ref=e2662]: "@andres.spencer_1777015323782"
+                  - button [ref=e2664] [cursor=pointer]:
+                    - img [ref=e2665]
+                - generic [ref=e2667]:
+                  - generic [ref=e2668]:
+                    - generic [ref=e2669]:
+                      - paragraph [ref=e2670]: Abstract
+                      - paragraph [ref=e2673]: una adsuesco vulnero conturbo demoror
+                    - generic [ref=e2674]:
+                      - paragraph [ref=e2675]: Governance Action Type
+                      - paragraph [ref=e2676]: Updates to the Constitution
+                  - generic [ref=e2677]:
+                    - generic [ref=e2678]:
+                      - img [ref=e2680]
+                      - paragraph [ref=e2682]: "Proposed on: 3 June 2026"
+                    - generic [ref=e2683]:
+                      - generic [ref=e2685]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2687] [cursor=pointer]:
+                        - /url: /proposal_discussion/16765
+                        - button [ref=e2688]: View Details
+              - generic [ref=e2689]: Active
+            - generic [ref=e2694]:
+              - generic [ref=e2695]:
+                - generic [ref=e2696]:
+                  - generic [ref=e2698]:
+                    - heading [level=3] [ref=e2699]: Annus apto sui velut tabella cilicium.
+                    - heading [level=5] [ref=e2700]: "@andres.spencer_1777015323782"
+                  - button [ref=e2702] [cursor=pointer]:
+                    - img [ref=e2703]
+                - generic [ref=e2705]:
+                  - generic [ref=e2706]:
+                    - generic [ref=e2707]:
+                      - paragraph [ref=e2708]: Abstract
+                      - paragraph [ref=e2711]: utrum cimentarius cohibeo thymum velum
+                    - generic [ref=e2712]:
+                      - paragraph [ref=e2713]: Governance Action Type
+                      - paragraph [ref=e2714]: Updates to the Constitution
+                  - generic [ref=e2715]:
+                    - generic [ref=e2716]:
+                      - img [ref=e2718]
+                      - paragraph [ref=e2720]: "Proposed on: 3 June 2026"
+                    - generic [ref=e2721]:
+                      - generic [ref=e2723]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2725] [cursor=pointer]:
+                        - /url: /proposal_discussion/16740
+                        - button [ref=e2726]: View Details
+              - generic [ref=e2727]: Active
+            - generic [ref=e2732]:
+              - generic [ref=e2733]:
+                - generic [ref=e2734]:
+                  - generic [ref=e2736]:
+                    - heading [level=3] [ref=e2737]: Vorago voco deorsum trado voveo atrocitas.
+                    - heading [level=5] [ref=e2738]: "@andres.spencer_1777015323782"
+                  - button [ref=e2740] [cursor=pointer]:
+                    - img [ref=e2741]
+                - generic [ref=e2743]:
+                  - generic [ref=e2744]:
+                    - generic [ref=e2745]:
+                      - paragraph [ref=e2746]: Abstract
+                      - paragraph [ref=e2749]: tersus paens adflicto canto cultura
+                    - generic [ref=e2750]:
+                      - paragraph [ref=e2751]: Governance Action Type
+                      - paragraph [ref=e2752]: Updates to the Constitution
+                  - generic [ref=e2753]:
+                    - generic [ref=e2754]:
+                      - img [ref=e2756]
+                      - paragraph [ref=e2758]: "Proposed on: 24 April 2026"
+                    - generic [ref=e2759]:
+                      - generic [ref=e2761]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2763] [cursor=pointer]:
+                        - /url: /proposal_discussion/16646
+                        - button [ref=e2764]: View Details
+              - generic [ref=e2765]: Active
+            - generic [ref=e2770]:
+              - generic [ref=e2771]:
+                - generic [ref=e2772]:
+                  - generic [ref=e2774]:
+                    - heading [level=3] [ref=e2775]: Quam statua fugiat tollo vado ulterius.
+                    - heading [level=5] [ref=e2776]: "@tamia.beahan55_1767573140589"
+                  - button [ref=e2778] [cursor=pointer]:
+                    - img [ref=e2779]
+                - generic [ref=e2781]:
+                  - generic [ref=e2782]:
+                    - generic [ref=e2783]:
+                      - paragraph [ref=e2784]: Abstract
+                      - paragraph [ref=e2787]: strenuus amplus versus itaque comparo
+                    - generic [ref=e2788]:
+                      - paragraph [ref=e2789]: Governance Action Type
+                      - paragraph [ref=e2790]: Updates to the Constitution
+                  - generic [ref=e2791]:
+                    - generic [ref=e2792]:
+                      - img [ref=e2794]
+                      - paragraph [ref=e2796]: "Proposed on: 5 January 2026"
+                    - generic [ref=e2797]:
+                      - generic [ref=e2799]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2801] [cursor=pointer]:
+                        - /url: /proposal_discussion/16076
+                        - button [ref=e2802]: View Details
+              - generic [ref=e2803]: Active
+            - generic [ref=e2808]:
+              - generic [ref=e2809]:
+                - generic [ref=e2810]:
+                  - generic [ref=e2812]:
+                    - heading [level=3] [ref=e2813]: Const 7th August - Bosko
+                    - heading [level=5] [ref=e2814]: "@bosko2"
+                  - button [ref=e2816] [cursor=pointer]:
+                    - img [ref=e2817]
+                - generic [ref=e2819]:
+                  - generic [ref=e2820]:
+                    - generic [ref=e2821]:
+                      - paragraph [ref=e2822]: Abstract
+                      - paragraph [ref=e2825]: Const 7th August - Bosko
+                    - generic [ref=e2826]:
+                      - paragraph [ref=e2827]: Governance Action Type
+                      - paragraph [ref=e2828]: Updates to the Constitution
+                  - generic [ref=e2829]:
+                    - generic [ref=e2830]:
+                      - img [ref=e2832]
+                      - paragraph [ref=e2834]: "Proposed on: 7 August 2025"
+                    - generic [ref=e2835]:
+                      - generic [ref=e2837]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2839] [cursor=pointer]:
+                        - /url: /proposal_discussion/10908
+                        - button [ref=e2840]: View Details
+              - generic [ref=e2841]: Active
+            - generic [ref=e2846]:
+              - generic [ref=e2847]:
+                - generic [ref=e2848]:
+                  - generic [ref=e2850]:
+                    - heading [level=3] [ref=e2851]: Const test submit on chain
+                    - heading [level=5] [ref=e2852]: "@milos_m"
+                  - button [ref=e2854] [cursor=pointer]:
+                    - img [ref=e2855]
+                - generic [ref=e2857]:
+                  - generic [ref=e2858]:
+                    - generic [ref=e2859]:
+                      - paragraph [ref=e2860]: Abstract
+                      - paragraph [ref=e2863]: Const test submit on chain
+                    - generic [ref=e2864]:
+                      - paragraph [ref=e2865]: Governance Action Type
+                      - paragraph [ref=e2866]: Updates to the Constitution
+                  - generic [ref=e2867]:
+                    - generic [ref=e2868]:
+                      - img [ref=e2870]
+                      - paragraph [ref=e2872]: "Proposed on: 30 July 2025"
+                    - generic [ref=e2873]:
+                      - generic [ref=e2875]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2877] [cursor=pointer]:
+                        - /url: /proposal_discussion/10645
+                        - button [ref=e2878]: View Details
+              - generic [ref=e2879]: Active
+            - generic [ref=e2884]:
+              - generic [ref=e2885]:
+                - generic [ref=e2886]:
+                  - generic [ref=e2888]:
+                    - heading [level=3] [ref=e2889]: test submission
+                    - heading [level=5] [ref=e2890]: "@milos_m"
+                  - button [ref=e2892] [cursor=pointer]:
+                    - img [ref=e2893]
+                - generic [ref=e2895]:
+                  - generic [ref=e2896]:
+                    - generic [ref=e2897]:
+                      - paragraph [ref=e2898]: Abstract
+                      - paragraph [ref=e2901]: test submission
+                    - generic [ref=e2902]:
+                      - paragraph [ref=e2903]: Governance Action Type
+                      - paragraph [ref=e2904]: Updates to the Constitution
+                  - generic [ref=e2905]:
+                    - generic [ref=e2906]:
+                      - img [ref=e2908]
+                      - paragraph [ref=e2910]: "Proposed on: 29 July 2025"
+                    - generic [ref=e2911]:
+                      - generic [ref=e2913]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2915] [cursor=pointer]:
+                        - /url: /proposal_discussion/10605
+                        - button [ref=e2916]: View Details
+              - generic [ref=e2917]: Active
+            - generic [ref=e2922]:
+              - generic [ref=e2923]:
+                - generic [ref=e2924]:
+                  - generic [ref=e2926]:
+                    - heading [level=3] [ref=e2927]: test ipfs
+                    - heading [level=5] [ref=e2928]: "@milos_m"
+                  - button [ref=e2930] [cursor=pointer]:
+                    - img [ref=e2931]
+                - generic [ref=e2933]:
+                  - generic [ref=e2934]:
+                    - generic [ref=e2935]:
+                      - paragraph [ref=e2936]: Abstract
+                      - paragraph [ref=e2939]: test ipfs
+                    - generic [ref=e2940]:
+                      - paragraph [ref=e2941]: Governance Action Type
+                      - paragraph [ref=e2942]: Updates to the Constitution
+                  - generic [ref=e2943]:
+                    - generic [ref=e2944]:
+                      - img [ref=e2946]
+                      - paragraph [ref=e2948]: "Proposed on: 28 July 2025"
+                    - generic [ref=e2949]:
+                      - generic [ref=e2951]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e2953] [cursor=pointer]:
+                        - /url: /proposal_discussion/10580
+                        - button [ref=e2954]: View Details
+              - generic [ref=e2955]: Active
+        - generic [ref=e2957]:
+          - generic [ref=e2958]:
+            - generic [ref=e2959]:
+              - heading "Motion of No Confidence" [level=2] [ref=e2960]
+              - button "Show all" [ref=e2961] [cursor=pointer]: Show all
+            - generic [ref=e2962]:
+              - button [ref=e2963] [cursor=pointer]:
+                - img [ref=e2964]
+              - button [ref=e2966] [cursor=pointer]:
+                - img [ref=e2967]
+          - generic [ref=e2972]:
+            - generic "status-badge" [ref=e2977]:
+              - generic [ref=e2978]:
+                - generic [ref=e2979]:
+                  - generic [ref=e2981]:
+                    - heading "Dicta vel cimentarius facilis demum tam." [level=3] [ref=e2982]
+                    - heading "@tod_pouros_1791782627689" [level=5] [ref=e2983]
+                  - button "Share" [ref=e2985] [cursor=pointer]:
+                    - img [ref=e2986]
+                - generic [ref=e2988]:
+                  - generic [ref=e2989]:
+                    - generic [ref=e2990]:
+                      - paragraph [ref=e2991]: Abstract
+                      - paragraph [ref=e2994]: tergiversatio addo velum fugit bellicus
+                    - generic [ref=e2995]:
+                      - paragraph [ref=e2996]: Governance Action Type
+                      - paragraph [ref=e2997]: Motion of No Confidence
+                  - generic [ref=e2998]:
+                    - generic [ref=e2999]:
+                      - generic "Proposal Date" [ref=e3000]:
+                        - img [ref=e3001]
+                      - paragraph [ref=e3003]: "Proposed on: 12 October 2026"
+                    - generic [ref=e3004]:
+                      - generic "Comments Number" [ref=e3006]:
+                        - button "comments" [disabled]:
+                          - generic "comments":
+                            - generic: "0"
+                          - img
+                      - link "View Details" [ref=e3008] [cursor=pointer]:
+                        - /url: /proposal_discussion/17011
+                        - button "View Details" [ref=e3009]: View Details
+              - generic [ref=e3010]: Active
+            - generic [ref=e3015]:
+              - generic [ref=e3016]:
+                - generic [ref=e3017]:
+                  - generic [ref=e3019]:
+                    - heading [level=3] [ref=e3020]: Desolo spes dolor ut amo comminor.
+                    - heading [level=5] [ref=e3021]: "@tod_pouros_1791782627689"
+                  - button [ref=e3023] [cursor=pointer]:
+                    - img [ref=e3024]
+                - generic [ref=e3026]:
+                  - generic [ref=e3027]:
+                    - generic [ref=e3028]:
+                      - paragraph [ref=e3029]: Abstract
+                      - paragraph [ref=e3032]: bestia coniuratio arbitro advenio suggero
+                    - generic [ref=e3033]:
+                      - paragraph [ref=e3034]: Governance Action Type
+                      - paragraph [ref=e3035]: Motion of No Confidence
+                  - generic [ref=e3036]:
+                    - generic [ref=e3037]:
+                      - img [ref=e3039]
+                      - paragraph [ref=e3041]: "Proposed on: 12 October 2026"
+                    - generic [ref=e3042]:
+                      - generic [ref=e3044]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3046] [cursor=pointer]:
+                        - /url: /proposal_discussion/17010
+                        - button [ref=e3047]: View Details
+              - generic [ref=e3048]: Active
+            - generic [ref=e3053]:
+              - generic [ref=e3054]:
+                - generic [ref=e3055]:
+                  - generic [ref=e3057]:
+                    - heading [level=3] [ref=e3058]: Supra ago aufero argentum incidunt venustas.
+                    - heading [level=5] [ref=e3059]: "@tod_pouros_1791782627689"
+                  - button [ref=e3061] [cursor=pointer]:
+                    - img [ref=e3062]
+                - generic [ref=e3064]:
+                  - generic [ref=e3065]:
+                    - generic [ref=e3066]:
+                      - paragraph [ref=e3067]: Abstract
+                      - paragraph [ref=e3070]: candidus mollitia acervus iure earum
+                    - generic [ref=e3071]:
+                      - paragraph [ref=e3072]: Governance Action Type
+                      - paragraph [ref=e3073]: Motion of No Confidence
+                  - generic [ref=e3074]:
+                    - generic [ref=e3075]:
+                      - img [ref=e3077]
+                      - paragraph [ref=e3079]: "Proposed on: 12 October 2026"
+                    - generic [ref=e3080]:
+                      - generic [ref=e3082]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3084] [cursor=pointer]:
+                        - /url: /proposal_discussion/17001
+                        - button [ref=e3085]: View Details
+              - generic [ref=e3086]: Active
+            - generic [ref=e3091]:
+              - generic [ref=e3092]:
+                - generic [ref=e3093]:
+                  - generic [ref=e3095]:
+                    - heading [level=3] [ref=e3096]: Solvo triduana bellum asper at aperiam.
+                    - heading [level=5] [ref=e3097]: "@sonia97_1791610172001"
+                  - button [ref=e3099] [cursor=pointer]:
+                    - img [ref=e3100]
+                - generic [ref=e3102]:
+                  - generic [ref=e3103]:
+                    - generic [ref=e3104]:
+                      - paragraph [ref=e3105]: Abstract
+                      - paragraph [ref=e3108]: capio utrum campana aliquam deorsum
+                    - generic [ref=e3109]:
+                      - paragraph [ref=e3110]: Governance Action Type
+                      - paragraph [ref=e3111]: Motion of No Confidence
+                  - generic [ref=e3112]:
+                    - generic [ref=e3113]:
+                      - img [ref=e3115]
+                      - paragraph [ref=e3117]: "Proposed on: 10 October 2026"
+                    - generic [ref=e3118]:
+                      - generic [ref=e3120]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3122] [cursor=pointer]:
+                        - /url: /proposal_discussion/16971
+                        - button [ref=e3123]: View Details
+              - generic [ref=e3124]: Active
+            - generic [ref=e3129]:
+              - generic [ref=e3130]:
+                - generic [ref=e3131]:
+                  - generic [ref=e3133]:
+                    - heading [level=3] [ref=e3134]: Cedo natus convoco super templum contego.
+                    - heading [level=5] [ref=e3135]: "@beaulah_wyman_1791609594603"
+                  - button [ref=e3137] [cursor=pointer]:
+                    - img [ref=e3138]
+                - generic [ref=e3140]:
+                  - generic [ref=e3141]:
+                    - generic [ref=e3142]:
+                      - paragraph [ref=e3143]: Abstract
+                      - paragraph [ref=e3146]: delego cultura creator adsuesco abduco
+                    - generic [ref=e3147]:
+                      - paragraph [ref=e3148]: Governance Action Type
+                      - paragraph [ref=e3149]: Motion of No Confidence
+                  - generic [ref=e3150]:
+                    - generic [ref=e3151]:
+                      - img [ref=e3153]
+                      - paragraph [ref=e3155]: "Proposed on: 10 October 2026"
+                    - generic [ref=e3156]:
+                      - generic [ref=e3158]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3160] [cursor=pointer]:
+                        - /url: /proposal_discussion/16954
+                        - button [ref=e3161]: View Details
+              - generic [ref=e3162]: Active
+            - generic [ref=e3167]:
+              - generic [ref=e3168]:
+                - generic [ref=e3169]:
+                  - generic [ref=e3171]:
+                    - heading [level=3] [ref=e3172]: Absque quis torqueo autem accusantium optio.
+                    - heading [level=5] [ref=e3173]: "@kristian56_1791524129258"
+                  - button [ref=e3175] [cursor=pointer]:
+                    - img [ref=e3176]
+                - generic [ref=e3178]:
+                  - generic [ref=e3179]:
+                    - generic [ref=e3180]:
+                      - paragraph [ref=e3181]: Abstract
+                      - paragraph [ref=e3184]: caste sunt calamitas pectus ea
+                    - generic [ref=e3185]:
+                      - paragraph [ref=e3186]: Governance Action Type
+                      - paragraph [ref=e3187]: Motion of No Confidence
+                  - generic [ref=e3188]:
+                    - generic [ref=e3189]:
+                      - img [ref=e3191]
+                      - paragraph [ref=e3193]: "Proposed on: 9 October 2026"
+                    - generic [ref=e3194]:
+                      - generic [ref=e3196]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3198] [cursor=pointer]:
+                        - /url: /proposal_discussion/16941
+                        - button [ref=e3199]: View Details
+              - generic [ref=e3200]: Active
+            - generic [ref=e3205]:
+              - generic [ref=e3206]:
+                - generic [ref=e3207]:
+                  - generic [ref=e3209]:
+                    - heading [level=3] [ref=e3210]: Itaque contabesco vulnero mollitia brevis quaerat.
+                    - heading [level=5] [ref=e3211]: "@kristian56_1791524129258"
+                  - button [ref=e3213] [cursor=pointer]:
+                    - img [ref=e3214]
+                - generic [ref=e3216]:
+                  - generic [ref=e3217]:
+                    - generic [ref=e3218]:
+                      - paragraph [ref=e3219]: Abstract
+                      - paragraph [ref=e3222]: laborum provident theologus a tactus
+                    - generic [ref=e3223]:
+                      - paragraph [ref=e3224]: Governance Action Type
+                      - paragraph [ref=e3225]: Motion of No Confidence
+                  - generic [ref=e3226]:
+                    - generic [ref=e3227]:
+                      - img [ref=e3229]
+                      - paragraph [ref=e3231]: "Proposed on: 9 October 2026"
+                    - generic [ref=e3232]:
+                      - generic [ref=e3234]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3236] [cursor=pointer]:
+                        - /url: /proposal_discussion/16930
+                        - button [ref=e3237]: View Details
+              - generic [ref=e3238]: Active
+            - generic [ref=e3243]:
+              - generic [ref=e3244]:
+                - generic [ref=e3245]:
+                  - generic [ref=e3247]:
+                    - heading [level=3] [ref=e3248]: Suffoco attero callide adeptio currus canonicus.
+                    - heading [level=5] [ref=e3249]: "@eino_dooley8_1790830768225"
+                  - button [ref=e3251] [cursor=pointer]:
+                    - img [ref=e3252]
+                - generic [ref=e3254]:
+                  - generic [ref=e3255]:
+                    - generic [ref=e3256]:
+                      - paragraph [ref=e3257]: Abstract
+                      - paragraph [ref=e3260]: ipsum spoliatio corrupti praesentium sperno
+                    - generic [ref=e3261]:
+                      - paragraph [ref=e3262]: Governance Action Type
+                      - paragraph [ref=e3263]: Motion of No Confidence
+                  - generic [ref=e3264]:
+                    - generic [ref=e3265]:
+                      - img [ref=e3267]
+                      - paragraph [ref=e3269]: "Proposed on: 1 October 2026"
+                    - generic [ref=e3270]:
+                      - generic [ref=e3272]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3274] [cursor=pointer]:
+                        - /url: /proposal_discussion/16926
+                        - button [ref=e3275]: View Details
+              - generic [ref=e3276]: Active
+            - generic [ref=e3281]:
+              - generic [ref=e3282]:
+                - generic [ref=e3283]:
+                  - generic [ref=e3285]:
+                    - heading [level=3] [ref=e3286]: Test_motion_of_no_confidence
+                    - heading [level=5] [ref=e3287]: "@kusshal"
+                  - button [ref=e3289] [cursor=pointer]:
+                    - img [ref=e3290]
+                - generic [ref=e3292]:
+                  - generic [ref=e3293]:
+                    - generic [ref=e3294]:
+                      - paragraph [ref=e3295]: Abstract
+                      - paragraph [ref=e3298]: Test
+                    - generic [ref=e3299]:
+                      - paragraph [ref=e3300]: Governance Action Type
+                      - paragraph [ref=e3301]: Motion of No Confidence
+                  - generic [ref=e3302]:
+                    - generic [ref=e3303]:
+                      - img [ref=e3305]
+                      - paragraph [ref=e3307]: "Proposed on: 17 September 2026"
+                    - generic [ref=e3308]:
+                      - generic [ref=e3310]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3312] [cursor=pointer]:
+                        - /url: /proposal_discussion/16919
+                        - button [ref=e3313]: View Details
+              - generic [ref=e3314]: Active
+            - generic [ref=e3319]:
+              - generic [ref=e3320]:
+                - generic [ref=e3321]:
+                  - generic [ref=e3323]:
+                    - heading [level=3] [ref=e3324]: Testin_issue
+                    - heading [level=5] [ref=e3325]: "@kushal123"
+                  - button [ref=e3327] [cursor=pointer]:
+                    - img [ref=e3328]
+                - generic [ref=e3330]:
+                  - generic [ref=e3331]:
+                    - generic [ref=e3332]:
+                      - paragraph [ref=e3333]: Abstract
+                      - paragraph [ref=e3336]: Test
+                    - generic [ref=e3337]:
+                      - paragraph [ref=e3338]: Governance Action Type
+                      - paragraph [ref=e3339]: Motion of No Confidence
+                  - generic [ref=e3340]:
+                    - generic [ref=e3341]:
+                      - img [ref=e3343]
+                      - paragraph [ref=e3345]: "Proposed on: 17 September 2026"
+                    - generic [ref=e3346]:
+                      - generic [ref=e3348]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3350] [cursor=pointer]:
+                        - /url: /proposal_discussion/16917
+                        - button [ref=e3351]: View Details
+              - generic [ref=e3352]: Active
+            - generic [ref=e3357]:
+              - generic [ref=e3358]:
+                - generic [ref=e3359]:
+                  - generic [ref=e3361]:
+                    - heading [level=3] [ref=e3362]: Test
+                    - heading [level=5] [ref=e3363]: "@kusshal"
+                  - button [ref=e3365] [cursor=pointer]:
+                    - img [ref=e3366]
+                - generic [ref=e3368]:
+                  - generic [ref=e3369]:
+                    - generic [ref=e3370]:
+                      - paragraph [ref=e3371]: Abstract
+                      - paragraph [ref=e3374]: Test
+                    - generic [ref=e3375]:
+                      - paragraph [ref=e3376]: Governance Action Type
+                      - paragraph [ref=e3377]: Motion of No Confidence
+                  - generic [ref=e3378]:
+                    - generic [ref=e3379]:
+                      - img [ref=e3381]
+                      - paragraph [ref=e3383]: "Proposed on: 17 September 2026"
+                    - generic [ref=e3384]:
+                      - generic [ref=e3386]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3388] [cursor=pointer]:
+                        - /url: /proposal_discussion/16916
+                        - button [ref=e3389]: View Details
+              - generic [ref=e3390]: Active
+            - generic [ref=e3395]:
+              - generic [ref=e3396]:
+                - generic [ref=e3397]:
+                  - generic [ref=e3399]:
+                    - heading [level=3] [ref=e3400]: Qui arca damno conicio suppellex torqueo.
+                    - heading [level=5] [ref=e3401]: "@andres.spencer_1777015323782"
+                  - button [ref=e3403] [cursor=pointer]:
+                    - img [ref=e3404]
+                - generic [ref=e3406]:
+                  - generic [ref=e3407]:
+                    - generic [ref=e3408]:
+                      - paragraph [ref=e3409]: Abstract
+                      - paragraph [ref=e3412]: ea brevis aggredior turbo cognomen
+                    - generic [ref=e3413]:
+                      - paragraph [ref=e3414]: Governance Action Type
+                      - paragraph [ref=e3415]: Motion of No Confidence
+                  - generic [ref=e3416]:
+                    - generic [ref=e3417]:
+                      - img [ref=e3419]
+                      - paragraph [ref=e3421]: "Proposed on: 18 August 2026"
+                    - generic [ref=e3422]:
+                      - generic [ref=e3424]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3426] [cursor=pointer]:
+                        - /url: /proposal_discussion/16891
+                        - button [ref=e3427]: View Details
+              - generic [ref=e3428]: Active
+            - generic [ref=e3433]:
+              - generic [ref=e3434]:
+                - generic [ref=e3435]:
+                  - generic [ref=e3437]:
+                    - heading [level=3] [ref=e3438]: Surgo derideo callide texo aliqua copia.
+                    - heading [level=5] [ref=e3439]: "@andres.spencer_1777015323782"
+                  - button [ref=e3441] [cursor=pointer]:
+                    - img [ref=e3442]
+                - generic [ref=e3444]:
+                  - generic [ref=e3445]:
+                    - generic [ref=e3446]:
+                      - paragraph [ref=e3447]: Abstract
+                      - paragraph [ref=e3450]: triumphus tracto cibo attero depereo
+                    - generic [ref=e3451]:
+                      - paragraph [ref=e3452]: Governance Action Type
+                      - paragraph [ref=e3453]: Motion of No Confidence
+                  - generic [ref=e3454]:
+                    - generic [ref=e3455]:
+                      - img [ref=e3457]
+                      - paragraph [ref=e3459]: "Proposed on: 17 August 2026"
+                    - generic [ref=e3460]:
+                      - generic [ref=e3462]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3464] [cursor=pointer]:
+                        - /url: /proposal_discussion/16835
+                        - button [ref=e3465]: View Details
+              - generic [ref=e3466]: Active
+            - generic [ref=e3471]:
+              - generic [ref=e3472]:
+                - generic [ref=e3473]:
+                  - generic [ref=e3475]:
+                    - heading [level=3] [ref=e3476]: Ceno vilicus aetas labore ara adeo.
+                    - heading [level=5] [ref=e3477]: "@andres.spencer_1777015323782"
+                  - button [ref=e3479] [cursor=pointer]:
+                    - img [ref=e3480]
+                - generic [ref=e3482]:
+                  - generic [ref=e3483]:
+                    - generic [ref=e3484]:
+                      - paragraph [ref=e3485]: Abstract
+                      - paragraph [ref=e3488]: tergiversatio constans tum defleo cinis
+                    - generic [ref=e3489]:
+                      - paragraph [ref=e3490]: Governance Action Type
+                      - paragraph [ref=e3491]: Motion of No Confidence
+                  - generic [ref=e3492]:
+                    - generic [ref=e3493]:
+                      - img [ref=e3495]
+                      - paragraph [ref=e3497]: "Proposed on: 3 June 2026"
+                    - generic [ref=e3498]:
+                      - generic [ref=e3500]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3502] [cursor=pointer]:
+                        - /url: /proposal_discussion/16790
+                        - button [ref=e3503]: View Details
+              - generic [ref=e3504]: Active
+            - generic [ref=e3509]:
+              - generic [ref=e3510]:
+                - generic [ref=e3511]:
+                  - generic [ref=e3513]:
+                    - heading [level=3] [ref=e3514]: Debitis voluptas suscipit deleo iusto cervus.
+                    - heading [level=5] [ref=e3515]: "@andres.spencer_1777015323782"
+                  - button [ref=e3517] [cursor=pointer]:
+                    - img [ref=e3518]
+                - generic [ref=e3520]:
+                  - generic [ref=e3521]:
+                    - generic [ref=e3522]:
+                      - paragraph [ref=e3523]: Abstract
+                      - paragraph [ref=e3526]: tumultus accommodo enim alo curatio
+                    - generic [ref=e3527]:
+                      - paragraph [ref=e3528]: Governance Action Type
+                      - paragraph [ref=e3529]: Motion of No Confidence
+                  - generic [ref=e3530]:
+                    - generic [ref=e3531]:
+                      - img [ref=e3533]
+                      - paragraph [ref=e3535]: "Proposed on: 3 June 2026"
+                    - generic [ref=e3536]:
+                      - generic [ref=e3538]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3540] [cursor=pointer]:
+                        - /url: /proposal_discussion/16766
+                        - button [ref=e3541]: View Details
+              - generic [ref=e3542]: Active
+            - generic [ref=e3547]:
+              - generic [ref=e3548]:
+                - generic [ref=e3549]:
+                  - generic [ref=e3551]:
+                    - heading [level=3] [ref=e3552]: Thorax ipsa abduco vulpes illum alioqui.
+                    - heading [level=5] [ref=e3553]: "@andres.spencer_1777015323782"
+                  - button [ref=e3555] [cursor=pointer]:
+                    - img [ref=e3556]
+                - generic [ref=e3558]:
+                  - generic [ref=e3559]:
+                    - generic [ref=e3560]:
+                      - paragraph [ref=e3561]: Abstract
+                      - paragraph [ref=e3564]: aestus sumptus accommodo facilis varius
+                    - generic [ref=e3565]:
+                      - paragraph [ref=e3566]: Governance Action Type
+                      - paragraph [ref=e3567]: Motion of No Confidence
+                  - generic [ref=e3568]:
+                    - generic [ref=e3569]:
+                      - img [ref=e3571]
+                      - paragraph [ref=e3573]: "Proposed on: 3 June 2026"
+                    - generic [ref=e3574]:
+                      - generic [ref=e3576]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3578] [cursor=pointer]:
+                        - /url: /proposal_discussion/16737
+                        - button [ref=e3579]: View Details
+              - generic [ref=e3580]: Active
+            - generic [ref=e3585]:
+              - generic [ref=e3586]:
+                - generic [ref=e3587]:
+                  - generic [ref=e3589]:
+                    - heading [level=3] [ref=e3590]: Demulceo territo quod cerno comis via.
+                    - heading [level=5] [ref=e3591]: "@priscilla.rowe22_1778209032665"
+                  - button [ref=e3593] [cursor=pointer]:
+                    - img [ref=e3594]
+                - generic [ref=e3596]:
+                  - generic [ref=e3597]:
+                    - generic [ref=e3598]:
+                      - paragraph [ref=e3599]: Abstract
+                      - paragraph [ref=e3602]: depopulo cicuta solvo tamen calco
+                    - generic [ref=e3603]:
+                      - paragraph [ref=e3604]: Governance Action Type
+                      - paragraph [ref=e3605]: Motion of No Confidence
+                  - generic [ref=e3606]:
+                    - generic [ref=e3607]:
+                      - img [ref=e3609]
+                      - paragraph [ref=e3611]: "Proposed on: 8 May 2026"
+                    - generic [ref=e3612]:
+                      - generic [ref=e3614]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3616] [cursor=pointer]:
+                        - /url: /proposal_discussion/16686
+                        - button [ref=e3617]: View Details
+              - generic [ref=e3618]: Active
+            - generic [ref=e3623]:
+              - generic [ref=e3624]:
+                - generic [ref=e3625]:
+                  - generic [ref=e3627]:
+                    - heading [level=3] [ref=e3628]: Libero subvenio adulatio tepidus abeo sophismata.
+                    - heading [level=5] [ref=e3629]: "@andres.spencer_1777015323782"
+                  - button [ref=e3631] [cursor=pointer]:
+                    - img [ref=e3632]
+                - generic [ref=e3634]:
+                  - generic [ref=e3635]:
+                    - generic [ref=e3636]:
+                      - paragraph [ref=e3637]: Abstract
+                      - paragraph [ref=e3640]: sunt compono adduco curriculum sopor
+                    - generic [ref=e3641]:
+                      - paragraph [ref=e3642]: Governance Action Type
+                      - paragraph [ref=e3643]: Motion of No Confidence
+                  - generic [ref=e3644]:
+                    - generic [ref=e3645]:
+                      - img [ref=e3647]
+                      - paragraph [ref=e3649]: "Proposed on: 24 April 2026"
+                    - generic [ref=e3650]:
+                      - generic [ref=e3652]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3654] [cursor=pointer]:
+                        - /url: /proposal_discussion/16647
+                        - button [ref=e3655]: View Details
+              - generic [ref=e3656]: Active
+            - generic [ref=e3661]:
+              - generic [ref=e3662]:
+                - generic [ref=e3663]:
+                  - generic [ref=e3665]:
+                    - heading [level=3] [ref=e3666]: test
+                    - heading [level=5] [ref=e3667]: "@eternl11"
+                  - button [ref=e3669] [cursor=pointer]:
+                    - img [ref=e3670]
+                - generic [ref=e3672]:
+                  - generic [ref=e3673]:
+                    - generic [ref=e3674]:
+                      - paragraph [ref=e3675]: Abstract
+                      - paragraph [ref=e3678]: test
+                    - generic [ref=e3679]:
+                      - paragraph [ref=e3680]: Governance Action Type
+                      - paragraph [ref=e3681]: Motion of No Confidence
+                  - generic [ref=e3682]:
+                    - generic [ref=e3683]:
+                      - img [ref=e3685]
+                      - paragraph [ref=e3687]: "Proposed on: 24 July 2025"
+                    - generic [ref=e3688]:
+                      - generic [ref=e3690]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3692] [cursor=pointer]:
+                        - /url: /proposal_discussion/10486
+                        - button [ref=e3693]: View Details
+              - generic [ref=e3694]: Active
+            - generic [ref=e3699]:
+              - generic [ref=e3700]:
+                - generic [ref=e3701]:
+                  - generic [ref=e3703]:
+                    - heading [level=3] [ref=e3704]: Adipiscor comprehendo tergeo dolor tabernus sublime.
+                    - heading [level=5] [ref=e3705]: "@monserrate_heathcote0_17491120"
+                  - button [ref=e3707] [cursor=pointer]:
+                    - img [ref=e3708]
+                - generic [ref=e3710]:
+                  - generic [ref=e3711]:
+                    - generic [ref=e3712]:
+                      - paragraph [ref=e3713]: Abstract
+                      - paragraph [ref=e3716]: summa arbustum supra nisi ulterius
+                    - generic [ref=e3717]:
+                      - paragraph [ref=e3718]: Governance Action Type
+                      - paragraph [ref=e3719]: Motion of No Confidence
+                  - generic [ref=e3720]:
+                    - generic [ref=e3721]:
+                      - img [ref=e3723]
+                      - paragraph [ref=e3725]: "Proposed on: 5 June 2025"
+                    - generic [ref=e3726]:
+                      - generic [ref=e3728]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3730] [cursor=pointer]:
+                        - /url: /proposal_discussion/9047
+                        - button [ref=e3731]: View Details
+              - generic [ref=e3732]: Active
+            - generic [ref=e3737]:
+              - generic [ref=e3738]:
+                - generic [ref=e3739]:
+                  - generic [ref=e3741]:
+                    - heading [level=3] [ref=e3742]: Vero cultellus necessitatibus corrupti adinventitias communis.
+                    - heading [level=5] [ref=e3743]: "@faye.stroman43_1749086223233"
+                  - button [ref=e3745] [cursor=pointer]:
+                    - img [ref=e3746]
+                - generic [ref=e3748]:
+                  - generic [ref=e3749]:
+                    - generic [ref=e3750]:
+                      - paragraph [ref=e3751]: Abstract
+                      - paragraph [ref=e3754]: trado enim cresco amor verus
+                    - generic [ref=e3755]:
+                      - paragraph [ref=e3756]: Governance Action Type
+                      - paragraph [ref=e3757]: Motion of No Confidence
+                  - generic [ref=e3758]:
+                    - generic [ref=e3759]:
+                      - img [ref=e3761]
+                      - paragraph [ref=e3763]: "Proposed on: 5 June 2025"
+                    - generic [ref=e3764]:
+                      - generic [ref=e3766]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3768] [cursor=pointer]:
+                        - /url: /proposal_discussion/9025
+                        - button [ref=e3769]: View Details
+              - generic [ref=e3770]: Active
+            - generic [ref=e3775]:
+              - generic [ref=e3776]:
+                - generic [ref=e3777]:
+                  - generic [ref=e3779]:
+                    - heading [level=3] [ref=e3780]: Ambitus odit vetus celebrer venio magnam.
+                    - heading [level=5] [ref=e3781]: "@martin.welch_1749086187878"
+                  - button [ref=e3783] [cursor=pointer]:
+                    - img [ref=e3784]
+                - generic [ref=e3786]:
+                  - generic [ref=e3787]:
+                    - generic [ref=e3788]:
+                      - paragraph [ref=e3789]: Abstract
+                      - paragraph [ref=e3792]: peior sol conculco aqua necessitatibus
+                    - generic [ref=e3793]:
+                      - paragraph [ref=e3794]: Governance Action Type
+                      - paragraph [ref=e3795]: Motion of No Confidence
+                  - generic [ref=e3796]:
+                    - generic [ref=e3797]:
+                      - img [ref=e3799]
+                      - paragraph [ref=e3801]: "Proposed on: 5 June 2025"
+                    - generic [ref=e3802]:
+                      - generic [ref=e3804]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3806] [cursor=pointer]:
+                        - /url: /proposal_discussion/9016
+                        - button [ref=e3807]: View Details
+              - generic [ref=e3808]: Active
+            - generic [ref=e3813]:
+              - generic [ref=e3814]:
+                - generic [ref=e3815]:
+                  - generic [ref=e3817]:
+                    - heading [level=3] [ref=e3818]: Advenio conduco doloribus testimonium deprimo stella.
+                    - heading [level=5] [ref=e3819]: "@kaitlin53_1747907037177"
+                  - button [ref=e3821] [cursor=pointer]:
+                    - img [ref=e3822]
+                - generic [ref=e3824]:
+                  - generic [ref=e3825]:
+                    - generic [ref=e3826]:
+                      - paragraph [ref=e3827]: Abstract
+                      - paragraph [ref=e3830]: appositus ullam autem cultura coma
+                    - generic [ref=e3831]:
+                      - paragraph [ref=e3832]: Governance Action Type
+                      - paragraph [ref=e3833]: Motion of No Confidence
+                  - generic [ref=e3834]:
+                    - generic [ref=e3835]:
+                      - img [ref=e3837]
+                      - paragraph [ref=e3839]: "Proposed on: 22 May 2025"
+                    - generic [ref=e3840]:
+                      - generic [ref=e3842]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3844] [cursor=pointer]:
+                        - /url: /proposal_discussion/8678
+                        - button [ref=e3845]: View Details
+              - generic [ref=e3846]: Active
+            - generic [ref=e3851]:
+              - generic [ref=e3852]:
+                - generic [ref=e3853]:
+                  - generic [ref=e3855]:
+                    - heading [level=3] [ref=e3856]: Ante delinquo ara thorax vinco urbs.
+                    - heading [level=5] [ref=e3857]: "@merl.hilll_1732541614541"
+                  - button [ref=e3859] [cursor=pointer]:
+                    - img [ref=e3860]
+                - generic [ref=e3862]:
+                  - generic [ref=e3863]:
+                    - generic [ref=e3864]:
+                      - paragraph [ref=e3865]: Abstract
+                      - paragraph [ref=e3868]: volva solvo canto aut super
+                    - generic [ref=e3869]:
+                      - paragraph [ref=e3870]: Governance Action Type
+                      - paragraph [ref=e3871]: Motion of No Confidence
+                  - generic [ref=e3872]:
+                    - generic [ref=e3873]:
+                      - img [ref=e3875]
+                      - paragraph [ref=e3877]: "Proposed on: 22 May 2025"
+                    - generic [ref=e3878]:
+                      - generic [ref=e3880]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3882] [cursor=pointer]:
+                        - /url: /proposal_discussion/8677
+                        - button [ref=e3883]: View Details
+              - generic [ref=e3884]: Active
+            - generic [ref=e3889]:
+              - generic [ref=e3890]:
+                - generic [ref=e3891]:
+                  - generic [ref=e3893]:
+                    - heading [level=3] [ref=e3894]: Totam validus apud turba tero comitatus.
+                    - heading [level=5] [ref=e3895]: "@kaitlin53_1747907037177"
+                  - button [ref=e3897] [cursor=pointer]:
+                    - img [ref=e3898]
+                - generic [ref=e3900]:
+                  - generic [ref=e3901]:
+                    - generic [ref=e3902]:
+                      - paragraph [ref=e3903]: Abstract
+                      - paragraph [ref=e3906]: copia avarus abstergo tenax copia
+                    - generic [ref=e3907]:
+                      - paragraph [ref=e3908]: Governance Action Type
+                      - paragraph [ref=e3909]: Motion of No Confidence
+                  - generic [ref=e3910]:
+                    - generic [ref=e3911]:
+                      - img [ref=e3913]
+                      - paragraph [ref=e3915]: "Proposed on: 22 May 2025"
+                    - generic [ref=e3916]:
+                      - generic [ref=e3918]:
+                        - button [disabled]:
+                          - generic: "0"
+                          - img
+                      - link [ref=e3920] [cursor=pointer]:
+                        - /url: /proposal_discussion/8673
+                        - button [ref=e3921]: View Details
+              - generic [ref=e3922]: Active
+    - contentinfo [ref=e3923]:
+      - paragraph [ref=e3924]: © 2026 GovTool
+      - generic [ref=e3925]:
+        - generic [ref=e3926] [cursor=pointer]: Privacy policy
+        - generic [ref=e3927] [cursor=pointer]: Terms of Use
+      - generic [ref=e3928]:
+        - button "helpIcon Help" [ref=e3929] [cursor=pointer]:
+          - img "helpIcon" [ref=e3931]
+          - text: Help
+        - button "Subscribe to updates" [ref=e3932] [cursor=pointer]: Subscribe to updates
+        - button "Feedback" [ref=e3933] [cursor=pointer]: Feedback
+```
+
+# Test source
+
+```ts
+  237 |     );
+  238 |     const responsePromise = page.waitForResponse(
+  239 |       `**${BUDGET_ARCHIVE_PATH}/${discussion.attributes.master_id}.json`
+  240 |     );
+  241 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  242 |     const { comments } = await (await responsePromise).json();
+  243 | 
+  244 |     const total = comments.length;
+  245 |     await expect(budgetDiscussionDetailsPage.totalComments).toHaveText(
+  246 |       total > 99 ? "99+" : `${total}`
+  247 |     );
+  248 | 
+  249 |     const threads = comments.filter(
+  250 |       (comment) => comment.attributes.comment_parent_id === null
+  251 |     ).length;
+  252 |     await expect(budgetDiscussionDetailsPage.commentCards).toHaveCount(
+  253 |       Math.min(threads, 25)
+  254 |     );
+  255 |     while (await budgetDiscussionDetailsPage.loadMoreCommentsBtn.isVisible()) {
+  256 |       await budgetDiscussionDetailsPage.loadMoreCommentsBtn.click();
+  257 |     }
+  258 |     await expect(budgetDiscussionDetailsPage.commentCards).toHaveCount(threads);
+  259 |   });
+  260 | 
+  261 |   test("11F. Should be read-only", async () => {
+  262 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  263 |     const discussion = pickDiscussion(
+  264 |       items,
+  265 |       (item) => item.attributes.prop_comments_number > 0 && !!item.archive.poll
+  266 |     );
+  267 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  268 |     await expect(
+  269 |       budgetDiscussionDetailsPage.commentCards.first()
+  270 |     ).toBeVisible();
+  271 | 
+  272 |     await expect(budgetDiscussionDetailsPage.commentInput).toHaveCount(0);
+  273 |     await expect(budgetDiscussionDetailsPage.commentBtn).toHaveCount(0);
+  274 |     await expect(budgetDiscussionDetailsPage.replyBtn).toHaveCount(0);
+  275 |     await expect(budgetDiscussionDetailsPage.pollYesBtn).toHaveCount(0);
+  276 |     await expect(budgetDiscussionDetailsPage.pollNoBtn).toHaveCount(0);
+  277 |     await expect(budgetDiscussionDetailsPage.menuButton).toHaveCount(0);
+  278 |   });
+  279 | 
+  280 |   test("11G. Should show the final poll totals", async () => {
+  281 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  282 |     const discussion = pickDiscussion(
+  283 |       items,
+  284 |       (item) =>
+  285 |         item.archive.poll && item.archive.poll.yes + item.archive.poll.no > 0
+  286 |     );
+  287 |     const { yes, no } = discussion.archive.poll;
+  288 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  289 | 
+  290 |     await expect(budgetDiscussionDetailsPage.pollTotalVotes).toHaveText(
+  291 |       `Total votes: ${yes + no}`
+  292 |     );
+  293 |     await expect(budgetDiscussionDetailsPage.pollYesCount).toContainText(
+  294 |       `Yes: ${yes}`
+  295 |     );
+  296 |     await expect(budgetDiscussionDetailsPage.pollNoCount).toContainText(
+  297 |       `No: ${no}`
+  298 |     );
+  299 |   });
+  300 | 
+  301 |   test("11H. Should list every version", async ({ isMobile }) => {
+  302 |     // On a small screen the version list sits behind its own button.
+  303 |     test.skip(isMobile, "Desktop version list only");
+  304 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  305 |     const discussion = pickDiscussion(
+  306 |       items,
+  307 |       (item) => item.archive.versions > 2
+  308 |     );
+  309 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  310 | 
+  311 |     await budgetDiscussionDetailsPage.reviewVersionsBtn.click();
+  312 |     const dialog = budgetDiscussionDetailsPage.reviewVersionsDialog;
+  313 |     await expect(dialog).toBeVisible();
+  314 |     const versions = dialog.getByRole("listitem");
+  315 |     await expect(versions).toHaveCount(discussion.archive.versions);
+  316 |     await expect(versions.filter({ hasText: "(Final)" })).toHaveCount(1);
+  317 |   });
+  318 | });
+  319 | 
+  320 | test.describe("Old budget discussion links", () => {
+  321 |   test("11I_1. Should open a proposal from its old link", async ({ page }) => {
+  322 |     const budgetDiscussionPage = new BudgetDiscussionPage(page);
+  323 |     const { items } = await budgetDiscussionPage.fetchArchiveList();
+  324 |     const discussion = items[0];
+  325 | 
+  326 |     const budgetDiscussionDetailsPage = new BudgetDiscussionDetailsPage(page);
+  327 |     await budgetDiscussionDetailsPage.goto(discussion.attributes.master_id);
+  328 |     await expect(budgetDiscussionDetailsPage.titleContent).toHaveText(
+  329 |       discussion.attributes.bd_proposal_detail.data.attributes.proposal_name
+  330 |     );
+  331 |   });
+  332 | 
+  333 |   test("11I_2. Should redirect the propose page to the archive", async ({
+  334 |     page,
+  335 |   }) => {
+  336 |     await page.goto(`${environments.frontendUrl}/budget_discussion/propose`);
+> 337 |     await expect(page).toHaveURL(/\/budget_discussion$/);
+      |                        ^ Error: expect(page).toHaveURL(expected) failed
+  338 |   });
+  339 | 
+  340 |   test("11I_3. Should redirect an unknown proposal to the archive", async ({
+  341 |     page,
+  342 |   }) => {
+  343 |     await page.goto(`${environments.frontendUrl}/budget_discussion/99999999`);
+  344 |     await expect(page).toHaveURL(/\/budget_discussion$/);
+  345 |   });
+  346 | });
+  347 | 
+```
