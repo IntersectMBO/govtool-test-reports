@@ -1,0 +1,230 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 9-governance-action-history/governance-action-history.spec.ts >> Governance action history page >> GovernanceAction details dependent test >> 9B_1. Should search governanceActionHistory proposal by title and id in disconnect state
+- Location: tests/9-governance-action-history/governance-action-history.spec.ts:70:9
+
+# Error details
+
+```
+Test timeout of 180000ms exceeded while running "beforeEach" hook.
+```
+
+```
+Error: page.waitForResponse: Test timeout of 180000ms exceeded.
+=========================== logs ===========================
+waiting for response "**/governance-actions?search=&filters=&sort=**"
+============================================================
+```
+
+# Test source
+
+```ts
+  361 |     const responsePromise = this.page.waitForResponse((response) =>
+  362 |       response
+  363 |         .url()
+  364 |         .includes(`governance-actions?search=&filters=&sort=newestFirst&page=2`)
+  365 |     );
+  366 |     await this.goto();
+  367 | 
+  368 |     let governanceActionIdsBefore: String[];
+  369 |     let governanceActionIdsAfter: String[];
+  370 | 
+  371 |     await functionWaitedAssert(
+  372 |       async () => {
+  373 |         governanceActionIdsBefore =
+  374 |           await this.getAllListedCIP105GovernanceIds();
+  375 |         await this.showMoreBtn.click();
+  376 |       },
+  377 |       { message: "Show more button not visible" }
+  378 |     );
+  379 | 
+  380 |     const response = await responsePromise;
+  381 |     const governanceActionListAfter = await response.json();
+  382 | 
+  383 |     await functionWaitedAssert(
+  384 |       async () => {
+  385 |         governanceActionIdsAfter = await this.getAllListedCIP105GovernanceIds();
+  386 |         expect(governanceActionIdsAfter.length).toBeGreaterThan(
+  387 |           governanceActionIdsBefore.length
+  388 |         );
+  389 |       },
+  390 |       { message: "GovernanceActionHistory not loaded after clicking show more" }
+  391 |     );
+  392 | 
+  393 |     if (governanceActionListAfter.length >= governanceActionIdsBefore.length) {
+  394 |       await expect(this.showMoreBtn).toBeVisible();
+  395 |       expect(true).toBeTruthy();
+  396 |     } else {
+  397 |       await expect(this.showMoreBtn).not.toBeVisible();
+  398 |     }
+  399 |   }
+  400 | 
+  401 |   async fetchGovernanceActionIdAndTitleFromNetwork(
+  402 |     governanceActionId?: string,
+  403 |     governanceActionTitle?: string
+  404 |   ): Promise<{ governanceActionId: string; governanceActionTitle: string }> {
+  405 |     let updatedGovernanceActionId = governanceActionId;
+  406 |     let updatedGovernanceActionTitle = governanceActionTitle;
+  407 | 
+  408 |     await this.page.route(
+  409 |       "**/governance-actions?search=&filters=&sort=**",
+  410 |       async (route) => {
+  411 |         const response = await route.fetch();
+  412 |         const data: actionRecordProposal[] = await response.json();
+  413 | 
+  414 |         if (!updatedGovernanceActionId && data.length > 0) {
+  415 |           const randomIndex = Math.floor(Math.random() * data.length);
+  416 |           updatedGovernanceActionId = `${data[randomIndex].tx_hash}#${data[randomIndex].index}`;
+  417 |         }
+  418 | 
+  419 |         if (!updatedGovernanceActionTitle) {
+  420 |           const itemWithTitle = data.find((item) => item.title != null);
+  421 |           if (itemWithTitle) {
+  422 |             updatedGovernanceActionTitle = itemWithTitle.title;
+  423 |           }
+  424 |         }
+  425 | 
+  426 |         await route.fulfill({
+  427 |           status: 200,
+  428 |           contentType: "application/json",
+  429 |           body: JSON.stringify(data),
+  430 |         });
+  431 |       }
+  432 |     );
+  433 | 
+  434 |     await this.page.route(
+  435 |       "**/governance-actions/metadata?**",
+  436 |       async (route) => {
+  437 |         try {
+  438 |           const response = await route.fetch();
+  439 |           if (response.status() !== 200) {
+  440 |             await route.continue();
+  441 |             return;
+  442 |           }
+  443 | 
+  444 |           const data: actionRecordMetadata = await response.json();
+  445 |           if (!updatedGovernanceActionTitle && data.data.title) {
+  446 |             updatedGovernanceActionTitle = data.data.title;
+  447 |           }
+  448 | 
+  449 |           await route.fulfill({
+  450 |             status: 200,
+  451 |             contentType: "application/json",
+  452 |             body: JSON.stringify(data),
+  453 |           });
+  454 |         } catch (error) {
+  455 |           // Just return without handling the error
+  456 |           return;
+  457 |         }
+  458 |       }
+  459 |     );
+  460 | 
+> 461 |     const actionsResponsePromise = this.page.waitForResponse(
+      |                                              ^ Error: page.waitForResponse: Test timeout of 180000ms exceeded.
+  462 |       "**/governance-actions?search=&filters=&sort=**"
+  463 |     );
+  464 | 
+  465 |     await this.goto();
+  466 |     await actionsResponsePromise;
+  467 | 
+  468 |     const needMetadataForTitle = !updatedGovernanceActionTitle;
+  469 |     const metadataResponsePromise = needMetadataForTitle
+  470 |       ? this.page.waitForResponse("**/governance-actions/metadata?**")
+  471 |       : Promise.resolve(null);
+  472 |     if (needMetadataForTitle) {
+  473 |       await metadataResponsePromise;
+  474 |     }
+  475 | 
+  476 |     return {
+  477 |       governanceActionId: updatedGovernanceActionId,
+  478 |       governanceActionTitle: updatedGovernanceActionTitle,
+  479 |     };
+  480 |   }
+  481 | 
+  482 |   async searchGovernanceActionHistoryById(governanceActionId: string) {
+  483 |     await this.searchInput.fill(governanceActionId);
+  484 | 
+  485 |     try {
+  486 |       await expect(
+  487 |         this.page.getByRole("progressbar").getByRole("img")
+  488 |       ).toBeVisible();
+  489 |     } catch (error) {
+  490 |       // Handle the case where the progress bar is not visible
+  491 |       console.warn("Progress bar not visible, proceeding with search.");
+  492 |     }
+  493 |     await functionWaitedAssert(
+  494 |       async () => {
+  495 |         const idSearchGovernanceActionHistoryCards = await this.getAllGovernanceActionHistory();
+  496 |         expect(idSearchGovernanceActionHistoryCards.length, {
+  497 |           message:
+  498 |             idSearchGovernanceActionHistoryCards.length == 0 && "No governance actions found",
+  499 |         }).toBeGreaterThan(0);
+  500 |         for (const actionRecordCard of idSearchGovernanceActionHistoryCards) {
+  501 |           const id = await actionRecordCard
+  502 |             .locator('[data-testid$="-CIP-105-id"]')
+  503 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  504 |           expect(id.replace(/^.*ID/, "")).toContain(governanceActionId);
+  505 |         }
+  506 |       },
+  507 |       { name: "search by id" }
+  508 |     );
+  509 |   }
+  510 | 
+  511 |   async searchGovernanceActionHistoryByTitle(governanceActionTitle: string) {
+  512 |     await this.searchInput.fill(governanceActionTitle);
+  513 |     try {
+  514 |       await expect(
+  515 |         this.page.getByRole("progressbar").getByRole("img")
+  516 |       ).toBeVisible();
+  517 |     } catch (error) {
+  518 |       // Handle the case where the progress bar is not visible
+  519 |       console.warn("Progress bar not visible, proceeding with search.");
+  520 |     }
+  521 | 
+  522 |     await functionWaitedAssert(
+  523 |       async () => {
+  524 |         const titleSearchGovernanceActionHistoryCards = await this.getAllGovernanceActionHistory();
+  525 |         expect(titleSearchGovernanceActionHistoryCards.length, {
+  526 |           message:
+  527 |             titleSearchGovernanceActionHistoryCards.length == 0 &&
+  528 |             "No governance actions found",
+  529 |         }).toBeGreaterThan(0);
+  530 |         for (const actionRecordCard of titleSearchGovernanceActionHistoryCards) {
+  531 |           const title = await actionRecordCard
+  532 |             .locator('[data-testid$="-card-title"]')
+  533 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  534 |           expect(title.toLowerCase()).toContain(
+  535 |             governanceActionTitle.toLowerCase()
+  536 |           );
+  537 |         }
+  538 |       },
+  539 |       { name: "search by title" }
+  540 |     );
+  541 |   }
+  542 | 
+  543 |   async shouldCopyGovernanceActionId(governanceActionId: string) {
+  544 |     await this.searchInput.fill(governanceActionId);
+  545 | 
+  546 |     await this.page
+  547 |       .getByTestId(`${governanceActionId}-CIP-105-id`)
+  548 |       .getByTestId("copy-button")
+  549 |       .click();
+  550 |     await expect(this.page.getByText("Copied to clipboard")).toBeVisible({
+  551 |       timeout: 60_000,
+  552 |     });
+  553 |     const copiedTextDRepDirectory = await this.page.evaluate(() =>
+  554 |       navigator.clipboard.readText()
+  555 |     );
+  556 |     expect(copiedTextDRepDirectory).toEqual(governanceActionId);
+  557 |   }
+  558 | 
+  559 |   async navigateToFilteredProposalDetail(
+  560 |     browser: Browser,
+  561 |     filterKey: string,
+```
