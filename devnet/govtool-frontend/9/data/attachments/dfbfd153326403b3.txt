@@ -1,0 +1,5 @@
+✔ Uploaded Rubie-4665c640 metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 4bb46c5d861b56054e710014a21a7ce313545507e31ac507f0958cbf47484ed2
+✔ Tx completed

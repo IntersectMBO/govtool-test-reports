@@ -1,0 +1,6 @@
+✔ Uploaded Robert-562fa48e metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 263ff31d3a90d453200b7b425d272c4a6919b7c607ce2a07e506434ac036ae97
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)

@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Merlin.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: f3f0183042a1ea3f312094af3aef2f565772ce1e784bb0805172da335baacbdc
+✔ Tx completed

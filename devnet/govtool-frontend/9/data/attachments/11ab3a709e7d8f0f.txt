@@ -1,0 +1,13 @@
+wallet balance 1019.819495
+wallet address addr_test1qr37q42u5dtntn0rr29576ypeuvaus88cwa4xhfu0ux9h8hl7js3g9g6xuj5w0926zaspd5tm70284exnfaa5ewkjp6q8g7v8j
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded guardrail-script metadata to bucket
+2
+✔ Uploaded vinitor metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ page.waitForRequest: Test ended.

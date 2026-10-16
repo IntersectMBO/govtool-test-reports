@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Mathew.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 732973b8ecce159e17431f43286615aa7e408eab7e7e49f24f9c019ea9acbc4a
+✔ Tx completed

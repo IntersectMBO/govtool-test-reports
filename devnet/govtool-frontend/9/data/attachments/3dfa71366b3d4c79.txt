@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qryvyanfs52gxnyv5kxf8h0x37svla4nlsfyvr3lvneujcu673srhszx47qsyte7zvnjl6wcya8la6mh4t9ykfwm5gfsfu9wxl
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+0
+✔ Uploaded voluptatum metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 73ae8dc3a2f4b6085559947bfdfb9622e0eeca63e276a21e11218d4e2cb4402c
+✔ Tx completed

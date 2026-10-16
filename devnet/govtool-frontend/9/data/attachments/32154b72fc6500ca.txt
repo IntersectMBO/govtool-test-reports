@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Edith.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 564f421f5df2777aef98ffc62425cbad31a931b7c77f3b943476bd1eb42f4064
+✔ Tx completed

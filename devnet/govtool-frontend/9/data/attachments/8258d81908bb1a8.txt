@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qz3ehjnmatcn2mqmh55kt8q90a73tejk4k8mhf4n6t90uhpf95ktum77wy3f4dwa6qrkyr9kqalf5cm8qdvsrac2tt9sjr3899
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+1
+✔ Uploaded neque metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: fb9e63443b1722f15c89e0f167fd6c453a3fbd656153f3638a6d2428f567e8ac
+✔ Tx completed

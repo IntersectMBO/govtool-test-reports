@@ -1,0 +1,11 @@
+✔ Uploaded Evangeline-d8e76d57 metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 6848a0c715bd788245c3125ec6197710c1b63988c1a3170231e925b0223ef932
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded 4dd7e150-e274-42d6-8de8-3d4050b08c6d-Vote_Context.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: e38cb5208cbe22952667dc642cd63b35b97e1ff22a3c822a32fd414a5c092368
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)

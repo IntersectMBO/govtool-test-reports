@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qppeve57fw9ave3t4zl8xv8yhxe0mq4cpawyzmamm6ragqct68m244j0hl62r6fv29krshj8gglphu77k92xxsdyrucs8e4dqp
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+3
+✔ Uploaded colligo metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: e572d86b20b48ded61cd1bf63fdfebc70ee036cfee4dc8e58d1857ca963f4bf2
+✔ Tx completed
