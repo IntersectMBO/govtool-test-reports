@@ -1,0 +1,230 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 9-governance-action-history/governance-action-history.spec.ts >> Governance action history page >> actionRecord sorting and filtering >> 9C_2A. Should sort Governance Action Type on governance action history page in disconnect state
+- Location: tests/9-governance-action-history/governance-action-history.spec.ts:33:9
+
+# Error details
+
+```
+Test timeout of 540000ms exceeded.
+```
+
+```
+Error: locator.click: Test timeout of 540000ms exceeded.
+Call log:
+  - waiting for getByTestId('sort-button')
+
+```
+
+# Test source
+
+```ts
+  211 |             .locator('[data-testid$="-type"]')
+  212 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  213 |           const proposalTypeFromApi = actionRecordType[actionRecordProposalFromAPI.type];
+  214 | 
+  215 |           const cip105IdFromUI = await actionRecordCard
+  216 |             .locator('[data-testid$="-CIP-105-id"]')
+  217 |             .textContent({ timeout: CARD_READ_TIMEOUT });
+  218 |           const cip105IdFromApi = `${actionRecordProposalFromAPI.tx_hash}#${actionRecordProposalFromAPI.index}`;
+  219 | 
+  220 |           expect(proposalTypeFromUI.replace(/^.*Type/, "")).toContain(
+  221 |             proposalTypeFromApi
+  222 |           );
+  223 | 
+  224 |           expect(cip105IdFromUI.replace(/^.*ID/, "")).toContain(
+  225 |             cip105IdFromApi
+  226 |           );
+  227 |         }
+  228 |       },
+  229 |       {
+  230 |         name: `frontend sort validation of ${sortOption} and filter ${filterKey}`,
+  231 |       }
+  232 |     );
+  233 |   }
+  234 | 
+  235 |   async _validateFiltersInGovernanceActionHistoryCard(
+  236 |     proposalCard: Locator,
+  237 |     filters: string[]
+  238 |   ): Promise<boolean> {
+  239 |     const type = await proposalCard
+  240 |       .locator('[data-testid$="-type"]')
+  241 |       .textContent({ timeout: CARD_READ_TIMEOUT });
+  242 |     const actionRecordType = type.replace(/^.*Type/, "");
+  243 |     return filters.includes(actionRecordType);
+  244 |   }
+  245 | 
+  246 |   async _validateStatusFiltersInGovernanceActionHistoryCard(
+  247 |     proposalCard: Locator,
+  248 |     filters: string[]
+  249 |   ): Promise<boolean> {
+  250 |     const status = await proposalCard
+  251 |       .locator('[data-testid$="-status"]')
+  252 |       .textContent({ timeout: CARD_READ_TIMEOUT });
+  253 |     const actionRecordStatus = actionRecordStatusType.filter((statusType) => {
+  254 |       if (statusType === "Live") {
+  255 |         return "In Progress";
+  256 |       }
+  257 |       return status.includes(statusType);
+  258 |     });
+  259 |     return actionRecordStatus.some((status) => filters.includes(status));
+  260 |   }
+  261 | 
+  262 |   async shouldAccessPage(isLoggedIn = false) {
+  263 |     await this.page.goto("/");
+  264 | 
+  265 |     if (isMobile(this.page)) {
+  266 |       await this.page.getByTestId("open-drawer-button").click();
+  267 |     } else {
+  268 |       if (!isLoggedIn) {
+  269 |         await this.page.getByTestId("governance-actions").click();
+  270 |       }
+  271 |     }
+  272 |     await this.page.getByTestId("governance-actions-governance-actions-link").click();
+  273 | 
+  274 |     if (!isMobile(this.page) && !isLoggedIn) {
+  275 |       await this.page.getByTestId("governance-actions").click();
+  276 |     }
+  277 | 
+  278 |     await expect(this.page).toHaveURL(/\/governance_actions\/history(\?|$)/);
+  279 |     // Text, not role: the governance actions menu reopened above leaves the
+  280 |     // page aria-hidden. Connected, the page has no heading of its own; the
+  281 |     // dashboard bar repeats the nav item's label.
+  282 |     if (isLoggedIn) {
+  283 |       await expect(
+  284 |         this.page.getByText("Historical", { exact: true })
+  285 |       ).toHaveCount(2);
+  286 |     } else {
+  287 |       await expect(
+  288 |         this.page.getByText("Historical Actions", { exact: true })
+  289 |       ).toBeVisible();
+  290 |     }
+  291 |   }
+  292 | 
+  293 |   async filterGovernanceActionHistory() {
+  294 |     await this.filterBtn.click();
+  295 |     const filterOptionNames = Object.values(actionRecordType);
+  296 | 
+  297 |     // proposal type filter
+  298 |     await this.applyAndValidateFilters(
+  299 |       filterOptionNames,
+  300 |       this._validateFiltersInGovernanceActionHistoryCard
+  301 |     );
+  302 | 
+  303 |     // proposal status filter
+  304 |     await this.applyAndValidateFilters(
+  305 |       status,
+  306 |       this._validateStatusFiltersInGovernanceActionHistoryCard
+  307 |     );
+  308 |   }
+  309 | 
+  310 |   async sortGovernanceActionHistory() {
+> 311 |     await this.sortBtn.click();
+      |                        ^ Error: locator.click: Test timeout of 540000ms exceeded.
+  312 | 
+  313 |     await this.sortAndValidate(
+  314 |       SortOption.NewestFirst,
+  315 |       (p1, p2) => p1.expiry_date >= p2.time
+  316 |     );
+  317 | 
+  318 |     await this.sortAndValidate(
+  319 |       SortOption.OldestFirst,
+  320 |       (p1, p2) => p1.expiry_date <= p2.expiry_date
+  321 |     );
+  322 | 
+  323 |     await this.sortAndValidate(
+  324 |       SortOption.HighestAmountYesVote,
+  325 |       (p1, p2) => parseInt(p1.yes_votes) >= parseInt(p2.yes_votes)
+  326 |     );
+  327 |   }
+  328 | 
+  329 |   async filterAndSortGovernanceActionHistory() {
+  330 |     const filterOptionKeys = Object.keys(actionRecordType);
+  331 |     const filterOptionNames = Object.values(actionRecordType);
+  332 | 
+  333 |     const choice = Math.floor(Math.random() * filterOptionKeys.length);
+  334 |     await this.goto({ filter: filterOptionKeys[choice] });
+  335 |     await this.sortBtn.click();
+  336 | 
+  337 |     await this.sortAndValidate(
+  338 |       SortOption.OldestFirst,
+  339 |       (p1, p2) => p1.expiry_date <= p2.expiry_date
+  340 |     );
+  341 | 
+  342 |     await this.validateFilters(
+  343 |       [filterOptionNames[choice]],
+  344 |       this._validateFiltersInGovernanceActionHistoryCard
+  345 |     );
+  346 |   }
+  347 | 
+  348 |   // Cards show the date that ended the action (Enacted, Not Ratified,
+  349 |   // Expired) or, while live, its expiry, so only the expired filter can
+  350 |   // promise an "Expired" date on every card.
+  351 |   async verifyAllGovernanceActionHistoryAreExpired() {
+  352 |     await this.goto({ status: "expired" });
+  353 |     const proposalCards = await this.getAllGovernanceActionHistory();
+  354 | 
+  355 |     for (const proposalCard of proposalCards) {
+  356 |       const expiryDateEl = proposalCard.locator(
+  357 |         '[data-testid$="-Expired-date"]'
+  358 |       );
+  359 |       await expect(expiryDateEl).toBeVisible();
+  360 |       // e.g. "Expired: Thu Oct 01, 2026 (Epoch 2883)"
+  361 |       const match = (await expiryDateEl.innerText()).match(
+  362 |         /(\w{3}) (\d{1,2}), (\d{4})/
+  363 |       );
+  364 |       expect(match, "expired date is not readable").not.toBeNull();
+  365 |       const expiryDate = new Date(`${match[1]} ${match[2]}, ${match[3]}`);
+  366 |       expect(new Date() >= expiryDate).toBeTruthy();
+  367 |     }
+  368 |   }
+  369 | 
+  370 |   async VerifyLoadMoreGovernanceActionHistory() {
+  371 |     const responsePromise = this.page.waitForResponse((response) =>
+  372 |       response
+  373 |         .url()
+  374 |         .includes(`governance-actions?search=&filters=&sort=newestFirst&page=2`)
+  375 |     );
+  376 |     await this.goto();
+  377 | 
+  378 |     let governanceActionIdsBefore: String[];
+  379 |     let governanceActionIdsAfter: String[];
+  380 | 
+  381 |     await functionWaitedAssert(
+  382 |       async () => {
+  383 |         governanceActionIdsBefore =
+  384 |           await this.getAllListedCIP105GovernanceIds();
+  385 |         await this.showMoreBtn.click();
+  386 |       },
+  387 |       { message: "Show more button not visible" }
+  388 |     );
+  389 | 
+  390 |     const response = await responsePromise;
+  391 |     const governanceActionListAfter = await response.json();
+  392 | 
+  393 |     await functionWaitedAssert(
+  394 |       async () => {
+  395 |         governanceActionIdsAfter = await this.getAllListedCIP105GovernanceIds();
+  396 |         expect(governanceActionIdsAfter.length).toBeGreaterThan(
+  397 |           governanceActionIdsBefore.length
+  398 |         );
+  399 |       },
+  400 |       { message: "GovernanceActionHistory not loaded after clicking show more" }
+  401 |     );
+  402 | 
+  403 |     if (governanceActionListAfter.length >= governanceActionIdsBefore.length) {
+  404 |       await expect(this.showMoreBtn).toBeVisible();
+  405 |       expect(true).toBeTruthy();
+  406 |     } else {
+  407 |       await expect(this.showMoreBtn).not.toBeVisible();
+  408 |     }
+  409 |   }
+  410 | 
+  411 |   async fetchGovernanceActionIdAndTitleFromNetwork(
+```
