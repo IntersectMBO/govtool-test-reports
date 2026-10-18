@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Waldo.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 8d5d402647540ba9a9e4168064039635021fb1505d44bd047a69f2bf87ed81ee
+✔ Tx completed

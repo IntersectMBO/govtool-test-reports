@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qpmlvre372vcnw34flu4ltdsm3n0ykwd0g7vmkq0uuxchrezev2xn22dzcug64kldk4kz248eremdejlcpg9ultxyrnsjj2nj3
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+3
+✔ Uploaded virgo metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: a0d42e06e258811b7fbe4b40be666bb3ed8652df72d9465b4b6ef79d447bae52
+✔ Tx completed

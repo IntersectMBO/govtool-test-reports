@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Marshall.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 7eb261d5a333f292256417f328f082f580f2b3c838ce90ed49fe5256bbbebace
+✔ Tx completed

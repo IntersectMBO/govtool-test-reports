@@ -1,0 +1,5 @@
+✔ Uploaded Leda-94a61cf3 metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 3001617d28288a2ffc23634c970b45ea171d43e6f6e930f6de3b82b0d3cc395c
+✔ Tx completed

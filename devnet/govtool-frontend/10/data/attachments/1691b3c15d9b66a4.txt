@@ -1,0 +1,9 @@
+wallet balance 1019.819495
+wallet address addr_test1qplncw6rz2uqh80uzajtsxfrv3q25rhaynvumf5v9dj7k4skrdeqfq8w3kntvu8qwtxgaedt6g3yu3k89esyu27mrp9sh0s4fd
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded guardrail-script metadata to bucket
+2
+✔ Uploaded adflicto metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: f07bba2e456681d9bc48c20c1db5c9d4a3df8fb69d507756075625d23cb1bb7d
+✔ Tx completed

@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Nicolas.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 62b98a049bec9a08cd5c9d71af40d2b4ab5d9a788a2f580ce17521a161b0f7ce
+✔ Tx completed

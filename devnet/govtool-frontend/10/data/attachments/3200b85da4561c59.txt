@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qzm5calrt45y0rp0g25e6f4wzqcpz7zkj3s7hqxpdypv4yadey54jms4hjuudv8f8gxawc2apww5yrycwgp6dew7hrtswr0zt0
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+4
+✔ Uploaded deputo metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 739acc5133165d67e31d90d553b50a90c16933c5b901bdd25fb26d64eb5e0e12
+✔ Tx completed

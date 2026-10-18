@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qq28wfk6uhdlpwxm0hrtgpn5qj6jrpx805vu5wa69gevp3qh3jnrsjg56l2m7fe4tvuhmc09hgr2rtp2ycepywgtzjvq5h4c8x
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+0
+✔ Uploaded viscus metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 375e185caf24d2da3421a736d81803882e0c5216e26cd9ee59298a2d91cb905b
+✔ Tx completed

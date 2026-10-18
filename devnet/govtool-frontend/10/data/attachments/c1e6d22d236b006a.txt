@@ -1,0 +1,5 @@
+✔ Uploaded Monica-0cd5742d metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 9e115c5a05bd5463e02d0f2fbb60b8d4a55fb9ca959bb57ba4f9c5e754bd5f04
+✔ Tx completed

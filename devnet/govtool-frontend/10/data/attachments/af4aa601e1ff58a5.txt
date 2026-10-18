@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Skyla.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 8f46d0a27803734b7d0365c44ce8b0ea81874d82881271611fe3686790b0af84
+✔ Tx completed
