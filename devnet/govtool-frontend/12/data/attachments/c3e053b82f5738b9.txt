@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qrte8wgwksvtzzunahp8y3k70ww7q7lhuza7txhr7245mxz6xz2szudl0sgwvkj8rdu5sxpd560qcc7t0ftg05asyhzsfv3ma8
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+1
+✔ Uploaded animus metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: f9ff1145cda94d55ca6942d01feb4c28dc939248721507eb4a60b6746aecabd0
+✔ Tx completed

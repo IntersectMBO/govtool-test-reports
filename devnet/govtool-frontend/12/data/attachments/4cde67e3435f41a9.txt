@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qqg44ln33c7pkvywwdsrr4298d67yzszvmkp8lcz6cjgvq5aldau4vcgw6vpgrmxvfyzeyrpz8g0tvdpt07nzec247rs87gl7h
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+0
+✔ Uploaded vorax metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 3a1db5769aafae4227fa5e57c87f11694de5b1caaa22f59fd91d41fcbc6b1ece
+✔ Tx completed

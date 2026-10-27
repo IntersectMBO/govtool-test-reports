@@ -1,0 +1,6 @@
+✔ Uploaded Arthur-6bf9322b metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 9122b65fde322f386265d95609106821b04d4ab8bd70510cadd4179af92ca123
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)

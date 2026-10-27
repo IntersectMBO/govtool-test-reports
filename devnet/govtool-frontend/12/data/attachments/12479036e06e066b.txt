@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Janelle.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: ffbab532cdb5f1f16da0a1c828912d2fe1fc0b0cebbcea1acd6b09d0e1216487
+✔ Tx completed

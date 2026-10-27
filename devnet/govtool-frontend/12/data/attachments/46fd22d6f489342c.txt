@@ -1,0 +1,5 @@
+✔ Uploaded Jayne-6fbab73c metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 639c618c43435348ebee17d7dcacf874df8566001df6aa251d25d93e7087fa77
+✔ Tx completed

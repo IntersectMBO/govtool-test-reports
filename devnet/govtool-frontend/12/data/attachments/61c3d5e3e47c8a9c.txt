@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Tyreek.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 3707504af25872c120e4f342ae287310d910312ffc3f6e99bc5953c50c81750d
+✔ Tx completed

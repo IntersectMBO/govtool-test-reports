@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Germaine.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 6ff6fdf78e80f4578a16a06a58d4ba1b5eb0e02b5e813828ac35eb8678dd38fc
+✔ Tx completed

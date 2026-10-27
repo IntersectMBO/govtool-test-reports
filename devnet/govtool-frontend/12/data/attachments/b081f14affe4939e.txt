@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Marion.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: da618affe1d220f8168389e6b4d1906ff55b06464f8868c9aecd84f8d41dac55
+✔ Tx completed

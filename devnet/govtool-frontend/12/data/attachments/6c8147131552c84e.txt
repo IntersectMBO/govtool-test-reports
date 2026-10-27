@@ -1,0 +1,11 @@
+✔ Uploaded Hollis-c467587c metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 244687defd23838bfeb71177e27cb976fcfebc36a2dc0009cebfc8bc8bdc814f
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded beec4231-78b9-4b8a-b07d-379efd910819-Vote_Context.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 386659a7b5496592abdeb60c6798a6bcfff9b3694ec6b772072aabdbd20fb91d
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)

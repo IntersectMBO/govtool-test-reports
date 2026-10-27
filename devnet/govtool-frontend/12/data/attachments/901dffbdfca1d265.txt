@@ -1,0 +1,6 @@
+✔ Uploaded Boris-27addc66 metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 47e52e164337061201bc220b9f2d447d2f1913efba37fb7c4f6b06f30f5ec5fb
+✔ Tx completed
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)

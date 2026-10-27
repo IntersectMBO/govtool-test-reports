@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qz59hfmzt88ud2szv85jk37nkh545rzjj6sejdrxcw9f575fnt25ues0l7skw4y64rdk2gfgv2xqzps4sr34m2gmeecsmcsew2
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+3
+✔ Uploaded virtus metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 77f719adefc80e9e2a7647d2d9fdf902608b4eeab5ab74e4ec55b3b0576ce2f4
+✔ Tx completed
