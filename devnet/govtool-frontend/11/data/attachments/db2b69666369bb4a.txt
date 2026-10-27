@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Augustus.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 9bb5b59c1a21d9f4d7b34c334a1a3315825b8082ecb80ef99f5b5eab5ad8739c
+✔ Tx completed

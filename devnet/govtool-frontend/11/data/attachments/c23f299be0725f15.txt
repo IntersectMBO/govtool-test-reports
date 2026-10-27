@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qr3gr5huzcdl8h6mhm08ex65sn72vgh3yps8e0ze0t8qshlpcentfkcsjknsvnrmathprsacfmm89lhmej6cr6lu2gmqyuvrgm
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+4
+✔ Uploaded magnam metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 1ecd34344fd248e99ab9acde050e800cf8ea8cdd11a077fac32778c65a074068
+✔ Tx completed

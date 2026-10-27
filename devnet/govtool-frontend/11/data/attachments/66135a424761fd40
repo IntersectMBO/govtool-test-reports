@@ -1,0 +1,304 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 2-delegation/delegation.dRep.spec.ts >> 2N. Should show DRep information on details page
+- Location: tests/2-delegation/delegation.dRep.spec.ts:18:5
+
+# Error details
+
+```
+Error: expect(locator).toHaveText(expected) failed
+
+Locator:  getByTestId('voting-power')
+Expected: "₳ 0"
+Received: "₳ 98"
+Timeout:  5000ms
+
+Call log:
+  - Expect "toHaveText" with timeout 5000ms
+  - waiting for getByTestId('voting-power')
+    9 × locator resolved to <p data-testid="voting-power" class="MuiTypography-root MuiTypography-body1 css-1tj7x2m">₳ 98</p>
+      - unexpected value "₳ 98"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: "Network: undefined"
+    - generic [ref=e7]: "|"
+    - link "Go to Mainnet" [ref=e8] [cursor=pointer]:
+      - /url: https://gov.tools/
+  - img "bg-orange" [ref=e9]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - link "app-logo" [ref=e12] [cursor=pointer]:
+        - /url: /dashboard
+        - img "app-logo" [ref=e13]
+      - generic [ref=e14]:
+        - link "icon Home" [ref=e16] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e17]:
+            - img "icon" [ref=e18]
+            - paragraph [ref=e19]: Home
+        - link "icon DRep Directory" [ref=e21] [cursor=pointer]:
+          - /url: /connected/drep_directory
+          - generic [ref=e22]:
+            - img "icon" [ref=e23]
+            - paragraph [ref=e24]: DRep Directory
+        - generic [ref=e25]:
+          - link "icon Governance Actions" [ref=e26] [cursor=pointer]:
+            - /url: /connected/governance_actions
+            - generic [ref=e27]:
+              - img "icon" [ref=e28]
+              - paragraph [ref=e29]: Governance Actions
+          - generic [ref=e30]:
+            - link "Proposals" [ref=e31] [cursor=pointer]:
+              - /url: /proposal_discussion
+              - generic [ref=e32]:
+                - img [ref=e34]
+                - paragraph [ref=e36]: Proposals
+            - link "icon Live Voting" [ref=e37] [cursor=pointer]:
+              - /url: /connected/governance_actions
+              - generic [ref=e38]:
+                - img "icon" [ref=e39]
+                - paragraph [ref=e40]: Live Voting
+            - link "icon Historical" [ref=e41] [cursor=pointer]:
+              - /url: /governance_actions/history
+              - generic [ref=e42]:
+                - img "icon" [ref=e43]
+                - paragraph [ref=e44]: Historical
+        - link "icon Guides" [ref=e46] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e47]:
+            - img "icon" [ref=e48]
+            - paragraph [ref=e49]: Guides
+        - link "icon FAQs" [ref=e51] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e52]:
+            - img "icon" [ref=e53]
+            - paragraph [ref=e54]: FAQs
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - paragraph [ref=e58]: "My DRep ID:"
+            - img "copy" [ref=e59] [cursor=pointer]
+          - paragraph [ref=e61]: drep1myg6texfruug05j2u9760hplzd7y0gzaazvm2y6rg0z3gyy3eze
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: "Connected Wallet:"
+          - generic [ref=e65]:
+            - paragraph [ref=e66]: 00a1bde39839226f41b3d28832e60e575064a8fd0bdae82e2bf2946e880bb4e71a3d7736cec2e31217296950f6f46c6eed2610a30ba218ee47
+            - button "Disconnect" [ref=e67] [cursor=pointer]: Disconnect
+    - generic [ref=e68]:
+      - navigation [ref=e69]:
+        - paragraph [ref=e71]: DRep Directory
+        - generic [ref=e73]:
+          - img [ref=e74]
+          - paragraph [ref=e76]: "Voting power:"
+          - paragraph [ref=e77]: ₳ 97.636
+      - generic [ref=e78]:
+        - generic [ref=e79] [cursor=pointer]:
+          - img [ref=e80]
+          - paragraph [ref=e82]: Back
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - button "Edit DRep data sorting active" [ref=e88] [cursor=pointer]:
+                - text: Edit DRep data
+                - img "sorting active" [ref=e89]
+              - generic [ref=e90]:
+                - generic [ref=e91]:
+                  - img "drep-image" [ref=e93]
+                  - heading "Jammie" [level=1] [ref=e94]
+                - button [ref=e95] [cursor=pointer]
+            - generic [ref=e96]:
+              - heading "DRep ID" [level=2] [ref=e98]
+              - button "drep1ytv3rf0yey0n3p7jftshmf7u8ufhc3aqth5fndgngdpu29q23zzla" [ref=e100] [cursor=pointer]:
+                - paragraph [ref=e101]: drep1ytv3rf0yey0n3p7jftshmf7u8ufhc3aqth5fndgngdpu29q23zzla
+            - generic [ref=e102]:
+              - heading "Legacy DRep ID (CIP-105)" [level=2] [ref=e104]
+              - button "drep1myg6texfruug05j2u9760hplzd7y0gzaazvm2y6rg0z3gyy3eze" [ref=e106] [cursor=pointer]:
+                - paragraph [ref=e107]: drep1myg6texfruug05j2u9760hplzd7y0gzaazvm2y6rg0z3gyy3eze
+            - generic [ref=e108]:
+              - heading "Status" [level=2] [ref=e110]
+              - generic [ref=e113]: Active
+            - generic [ref=e114]:
+              - heading "Voting power" [level=2] [ref=e116]
+              - paragraph [ref=e118]: ₳ 98
+          - generic [ref=e119]:
+            - heading "Objectives" [level=2] [ref=e121]
+            - paragraph [ref=e123]: Tutamen conatus vulticulus advoco certe cupiditate strenuus velut nobis angustus. Tamen iure degusto.
+          - generic [ref=e124]:
+            - heading "Motivations" [level=2] [ref=e126]
+            - paragraph [ref=e128]: Unde odit suffragium vulgivagus vulticulus virgo advoco utroque deleo. Atqui terror recusandae templum nulla auctor correptius tenax modi.
+          - generic [ref=e129]:
+            - heading "Qualifications" [level=2] [ref=e131]
+            - paragraph [ref=e133]: Torrens appono adimpleo creo speculum pecus aspernatur armarium. Chirographum speciosus sequi acer.
+          - generic [ref=e134]:
+            - heading "Links" [level=2] [ref=e136]
+            - generic [ref=e139]:
+              - heading "Erling53" [level=2] [ref=e140]
+              - link "https://dim-flood.name link" [ref=e141] [cursor=pointer]:
+                - /url: https://dim-flood.name
+                - paragraph [ref=e142]: https://dim-flood.name
+                - img "link" [ref=e143]
+          - generic [ref=e144]:
+            - heading "Identity" [level=2] [ref=e146]
+            - generic [ref=e149]:
+              - heading "Austyn46" [level=2] [ref=e150]
+              - link "https://scented-pearl.info/ link" [ref=e151] [cursor=pointer]:
+                - /url: https://scented-pearl.info/
+                - paragraph [ref=e152]: https://scented-pearl.info/
+                - img "link" [ref=e153]
+          - generic [ref=e154]:
+            - heading "Payment Address" [level=2] [ref=e156]
+            - button "addr_test1qzsmmcuc8y3x7sdn62yr9esw2agxf28ap0dwst3t722xazqtknn350thxm8v9ccjzu5kj58k73kxamfxzz3shgscaerstj03uy" [ref=e158] [cursor=pointer]:
+              - paragraph [ref=e159]: addr_test1qzsmmcuc8y3x7sdn62yr9esw2agxf28ap0dwst3t722xazqtknn350thxm8v9ccjzu5kj58k73kxamfxzz3shgscaerstj03uy
+          - generic [ref=e160]:
+            - heading "Metadata URL" [level=2] [ref=e162]
+            - link "http://metadata-bucket.localhost:3001/data/Jammie.jsonld link" [ref=e164] [cursor=pointer]:
+              - /url: http://metadata-bucket.localhost:3001/data/Jammie.jsonld
+              - paragraph [ref=e165]: http://metadata-bucket.localhost:3001/data/Jammie.jsonld
+              - img "link" [ref=e166]
+          - generic [ref=e167]:
+            - heading "Metadata Hash" [level=2] [ref=e169]
+            - button "123786ecf76cb4000d48962e1ab68090d8e9b90ea28ac2984843a73f093cd069" [ref=e171] [cursor=pointer]:
+              - paragraph [ref=e172]: 123786ecf76cb4000d48962e1ab68090d8e9b90ea28ac2984843a73f093cd069
+      - contentinfo [ref=e173]:
+        - paragraph [ref=e174]: © 2026 GovTool
+        - generic [ref=e175]:
+          - generic [ref=e176] [cursor=pointer]: Privacy policy
+          - generic [ref=e177] [cursor=pointer]: Terms of Use
+        - generic [ref=e178]:
+          - button "helpIcon Help" [ref=e179] [cursor=pointer]:
+            - img "helpIcon" [ref=e181]
+            - text: Help
+          - button "Subscribe to updates" [ref=e182] [cursor=pointer]: Subscribe to updates
+          - button "Feedback" [ref=e183] [cursor=pointer]: Feedback
+  - img "bg-blue" [ref=e184]
+```
+
+# Test source
+
+```ts
+  1   | import environments from "@constants/environments";
+  2   | import { faker } from "@faker-js/faker";
+  3   | import { test } from "@fixtures/walletExtension";
+  4   | import { setAllureEpic } from "@helpers/allure";
+  5   | import { skipIfMainnet } from "@helpers/cardano";
+  6   | import { createNewPageWithWallet } from "@helpers/page";
+  7   | import DRepRegistrationPage from "@pages/dRepRegistrationPage";
+  8   | import { expect } from "@playwright/test";
+  9   | import { LinkType } from "@types";
+  10  | import { singleUseWalletName } from "lib/wallet/testWallets";
+  11  | import { stakeRegisteredWallet } from "lib/wallet/transactions";
+  12  | 
+  13  | test.beforeEach(async () => {
+  14  |   await setAllureEpic("2. Delegation");
+  15  |   await skipIfMainnet();
+  16  | });
+  17  | 
+  18  | test("2N. Should show DRep information on details page", async ({
+  19  |   browser,
+  20  | }, testInfo) => {
+  21  |   test.setTimeout(testInfo.timeout + 2 * environments.txTimeOut);
+  22  | 
+  23  |   // Registers as a DRep: single use, with a registered stake key as the old
+  24  |   // registerDRep wallets had.
+  25  |   const wallet = await stakeRegisteredWallet(
+  26  |     singleUseWalletName("2N:dRep"),
+  27  |     600
+  28  |   );
+  29  | 
+  30  |   const dRepPage = await createNewPageWithWallet(browser, { wallet });
+  31  | 
+  32  |   const dRepRegistrationPage = new DRepRegistrationPage(dRepPage);
+  33  |   await dRepRegistrationPage.goto();
+  34  | 
+  35  |   const name = faker.person.firstName();
+  36  |   const objectives = faker.lorem.paragraph(2);
+  37  |   const motivations = faker.lorem.paragraph(2);
+  38  |   const qualifications = faker.lorem.paragraph(2);
+  39  |   const paymentAddress = wallet.address;
+  40  |   const linksReferenceLinks: LinkType[] = [
+  41  |     {
+  42  |       url: faker.internet.url(),
+  43  |       description: faker.internet.displayName(),
+  44  |     },
+  45  |   ];
+  46  | 
+  47  |   const identityReferenceLinks: LinkType[] = [
+  48  |     {
+  49  |       url: faker.internet.url(),
+  50  |       description: faker.internet.displayName(),
+  51  |     },
+  52  |   ];
+  53  | 
+  54  |   await expect(dRepPage.getByTestId("alert-success")).not.toBeVisible();
+  55  | 
+  56  |   await dRepRegistrationPage.register({
+  57  |     name,
+  58  |     objectives,
+  59  |     motivations,
+  60  |     qualifications,
+  61  |     paymentAddress,
+  62  |     linksReferenceLinks,
+  63  |     identityReferenceLinks,
+  64  |   });
+  65  | 
+  66  |   await dRepRegistrationPage.confirmBtn.click();
+  67  | 
+  68  |   // Add an assertion to prevent clicking on "View Your dRep Details".
+  69  |   // The card shows once the registration is on chain and the frontend's
+  70  |   // 15 s status check has read it back, which on preview takes longer than
+  71  |   // a minute.
+  72  |   await expect(
+  73  |     dRepPage.getByTestId("dRep-id-display-card-dashboard")
+  74  |   ).toContainText(wallet.dRepId, { timeout: environments.txTimeOut });
+  75  |   await dRepPage.getByTestId("view-drep-details-button").click();
+  76  | 
+  77  |   // Verification
+  78  |   await expect(dRepPage.getByTestId("copy-drep-id-button")).toHaveText(
+  79  |     wallet.dRepId
+  80  |   );
+  81  |   await expect(dRepPage.getByTestId("copy-payment-address-button")).toHaveText(
+  82  |     paymentAddress,
+  83  |     {
+  84  |       timeout: 60_000,
+  85  |     }
+  86  |   );
+  87  |   await expect(dRepPage.getByTestId("Active-pill")).toHaveText("Active");
+> 88  |   await expect(dRepPage.getByTestId("voting-power")).toHaveText("₳ 0");
+      |                                                      ^ Error: expect(locator).toHaveText(expected) failed
+  89  | 
+  90  |   await expect(
+  91  |     dRepPage.getByTestId("objectives-info-item-description")
+  92  |   ).toHaveText(objectives);
+  93  |   await expect(
+  94  |     dRepPage.getByTestId("motivations-info-item-description")
+  95  |   ).toHaveText(motivations);
+  96  |   await expect(
+  97  |     dRepPage.getByTestId("qualifications-info-item-description")
+  98  |   ).toHaveText(qualifications);
+  99  | 
+  100 |   for (const link of linksReferenceLinks) {
+  101 |     await expect(
+  102 |       dRepPage.getByTestId(`${link.description.toLowerCase()}-link`)
+  103 |     ).toHaveText(link.url);
+  104 |   }
+  105 | 
+  106 |   for (const link of identityReferenceLinks) {
+  107 |     await expect(
+  108 |       dRepPage.getByTestId(`${link.description.toLowerCase()}-link`)
+  109 |     ).toHaveText(link.url);
+  110 |   }
+  111 | });
+  112 | 
+```

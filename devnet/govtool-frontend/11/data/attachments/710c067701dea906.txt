@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qrs6p53kk8y9ufyr68pd8j345pxhw6namff2upedyrfj8up4dxvn289k86pzzvq7js05g7m6rvvnzq9lzj6uwz7ean7skdv2vs
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+3
+✔ Uploaded adamo metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 1394ad8d1cbbdd66794a8a4b632d36fd478231e87978c1da8a3d76b81a741729
+✔ Tx completed

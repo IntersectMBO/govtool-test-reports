@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Jammie.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: d6fa4ae1734b8269d7800b53cbe2b4bb89bf492a093eba9ea2b2ed1b21614e25
+✔ Tx completed

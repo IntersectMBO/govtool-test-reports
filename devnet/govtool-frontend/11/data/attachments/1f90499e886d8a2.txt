@@ -1,0 +1,5 @@
+✔ Uploaded Brooks-9ad7b510 metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 46e4231af1370d6fd60da994df4830b21344edfa5e667689b908f38de25d48ec
+✔ Tx completed

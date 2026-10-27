@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qzyxqplz72zza2x6hd28kqzfw8germzsp7ynydjvpejqv62cd8zwjpplthzfxufpcamcxesd6n60mvhyqy3xj9x3p5mscnyts8
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+1
+✔ Uploaded conscendo metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 4da24728a53a95075e333429d7d555bb2c3c4393e8b90c4cb0e0b8e527ee705c
+✔ Tx completed
