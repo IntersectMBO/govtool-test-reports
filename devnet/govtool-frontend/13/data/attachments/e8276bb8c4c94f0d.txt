@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qpvf7fj4cplpt0uwxyk4y05m7unx0af5z9ge697f6cvrsv7x4rdavskpn0fc0zj6dcwzt7jcxz54qkpqpx9tz9lwlnrsj4ghyv
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+1
+✔ Uploaded vigilo metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 289e75998f67de8fa12189551bf4ad4525e2371913fa159f1376ee8d4e79746c
+✔ Tx completed

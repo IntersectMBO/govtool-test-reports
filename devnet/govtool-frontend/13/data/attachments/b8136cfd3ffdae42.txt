@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Wayne.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: f40fe29e4ede848c2e65f3dd2bff9a74eb6ea04cd1fd24c99bfa92b874b7731c
+✔ Tx completed

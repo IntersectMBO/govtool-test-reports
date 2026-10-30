@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qr547jt294m68s5hdhwplk6ajql2wj74h0p50cmc0p8x9wwfse4zrarts4zenqzawgd6qqmfmxhlh8j30yae6hrvwjssnvqypt
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+3
+✔ Uploaded theatrum metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 49b4d19fb3deb707f409de037dd77dd5a0d277c32b23cbe5c885699039a230ac
+✔ Tx completed

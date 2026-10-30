@@ -1,0 +1,5 @@
+✔ Uploaded Angus-5dc88b40 metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 5fefa8612d8affbe08f0e77c26b2f403bbe8c4eb661334badbecba2ffd7e4e88
+✔ Tx completed

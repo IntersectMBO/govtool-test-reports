@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qqkjhqtdqx5zhwjq7623ch6j30pagmkmc2vtjmf2dt532amxtxxt70v2f78af0cx5kssh94y06vx4ldkxge24pmadyxqddrklm
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+4
+✔ Uploaded asper metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 6ad158263b2f5de7ef8358ce055977159183d066fb3d58ca470f4fad5c5cbf8a
+✔ Tx completed

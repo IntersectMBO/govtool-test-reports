@@ -1,0 +1,8 @@
+wallet balance 1019.819495
+wallet address addr_test1qz8cr5nsd4z63xj6hmdlj0a0xdwtpqlsyxxlnrehn9ama9wm2k7tvp35yhz9j9khrphcgf3chu8rpjdnscxqsttchh2shhj2xa
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+0
+✔ Uploaded carpo metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 5e470a69c0d301ee7bb205fe9c7c6f4863e26f37f7239fcb527adef22c02844d
+✔ Tx completed

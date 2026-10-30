@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Roman.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: a400478b90477d3f6c791780507da80abd3b383db19b7a629f07c580a8ddfa1b
+✔ Tx completed

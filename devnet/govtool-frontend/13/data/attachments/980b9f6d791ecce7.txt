@@ -1,0 +1,5 @@
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+✔ Uploaded Sara.jsonld metadata to bucket
+✖ Failed to load resource: the server responded with a status of 404 (Not Found)
+ℹ Waiting for tx completion: 832291eef9d03fac68de94212bbacf3b9a2c4c2330c5b30668742121c83ec534
+✔ Tx completed

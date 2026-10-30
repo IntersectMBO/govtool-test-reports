@@ -1,0 +1,377 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 7-proposal-submission/proposalSubmission.ga.spec.ts >> Proposed as a governance action >> Metadata anchor validation >> 7J_1. Should accept valid metadata anchor on proposal submission
+- Location: tests/7-proposal-submission/proposalSubmission.ga.spec.ts:139:9
+
+# Error details
+
+```
+Error: Timeout waiting for transaction ebfd43bdb1c777bf8aceeb5ae207ee9ecf4448a94e092b549380f9dd6c9768f0 confirmation.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: "Network: undefined"
+      - generic [ref=e7]: "|"
+      - link [ref=e8] [cursor=pointer]:
+        - /url: https://gov.tools/
+        - text: Go to Mainnet
+    - img [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - link [ref=e12] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e13]
+        - generic [ref=e14]:
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /dashboard
+            - generic [ref=e17]:
+              - img [ref=e18]
+              - paragraph [ref=e19]: Home
+          - link [ref=e21] [cursor=pointer]:
+            - /url: /connected/drep_directory
+            - generic [ref=e22]:
+              - img [ref=e23]
+              - paragraph [ref=e24]: DRep Directory
+          - generic [ref=e25]:
+            - link [ref=e26] [cursor=pointer]:
+              - /url: /connected/governance_actions
+              - generic [ref=e27]:
+                - img [ref=e28]
+                - paragraph [ref=e29]: Governance Actions
+            - generic [ref=e30]:
+              - link [ref=e31] [cursor=pointer]:
+                - /url: /proposal_discussion
+                - generic [ref=e32]:
+                  - img [ref=e34]
+                  - paragraph [ref=e36]: Proposals
+              - link [ref=e37] [cursor=pointer]:
+                - /url: /connected/governance_actions
+                - generic [ref=e38]:
+                  - img [ref=e39]
+                  - paragraph [ref=e40]: Live Voting
+              - link [ref=e41] [cursor=pointer]:
+                - /url: /governance_actions/history
+                - generic [ref=e42]:
+                  - img [ref=e43]
+                  - paragraph [ref=e44]: Historical
+          - link [ref=e46] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e47]:
+              - img [ref=e48]
+              - paragraph [ref=e49]: Guides
+          - link [ref=e51] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - paragraph [ref=e54]: FAQs
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: "Connected Wallet:"
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: 00589f2655c07e15bf8e312d523e9bf72667f53411519d17c9d6183833c6a8dbd642c19bd3878a5a6e1c25fa5830a9505820098ab117eefcc7
+            - button [ref=e61] [cursor=pointer]: Disconnect
+      - generic [ref=e62]:
+        - navigation [ref=e63]:
+          - paragraph [ref=e65]: Proposals
+        - paragraph [ref=e70]:
+          - generic [ref=e71]:
+            - button [ref=e73] [cursor=pointer]:
+              - img [ref=e75]
+              - text: Back
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]:
+                  - generic [ref=e80]:
+                    - heading [level=2] [ref=e81]: Tamdiu cinis advoco colligo comptus conscendo.
+                    - heading [level=5] [ref=e82]: "@felton71_1793351967965"
+                  - generic [ref=e83]:
+                    - button [ref=e84] [cursor=pointer]:
+                      - img [ref=e85]
+                    - button [ref=e88] [cursor=pointer]:
+                      - img [ref=e89]
+                - generic [ref=e91]:
+                  - paragraph [ref=e92]: Governance Action Type
+                  - paragraph [ref=e94]: Treasury requests
+                - generic [ref=e95]:
+                  - paragraph [ref=e96]: Abstract
+                  - paragraph [ref=e98]: decerno agnosco sumo hic sono
+                - generic [ref=e99]:
+                  - paragraph [ref=e100]: Motivation
+                  - paragraph [ref=e103]: comparo excepturi valetudo texo sui
+                - generic [ref=e104]:
+                  - paragraph [ref=e105]: Rationale
+                  - paragraph [ref=e108]: cupiditas cubo adsum cognomen degusto
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - paragraph [ref=e111]: Receiving address
+                    - paragraph [ref=e112]: stake_test1urr23k7kgtqeh5u83fdxu8p9lfvrp22stqsqnz43zlh0e3cuxysy8
+                  - generic [ref=e113]:
+                    - paragraph [ref=e114]: Amount
+                    - paragraph [ref=e115]: ₳ 134
+                - generic [ref=e116]:
+                  - paragraph [ref=e117]: Supporting links
+                  - button [ref=e119] [cursor=pointer]:
+                    - paragraph [ref=e120]: alarmed-scarification
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - paragraph [ref=e124]: "Proposed on:"
+                  - paragraph [ref=e125]: 30 October 2026
+                - generic [ref=e126]:
+                  - paragraph [ref=e127]: "Last Edit:"
+                  - generic [ref=e128]:
+                    - paragraph [ref=e129]: 30 October 2026
+                    - generic [ref=e130] [cursor=pointer]: Review Versions
+                - generic [ref=e132] [cursor=pointer]: Submit as Governance Action
+                - generic [ref=e134]:
+                  - generic [ref=e136]:
+                    - button [disabled]:
+                      - generic: "0"
+                      - img
+                  - generic [ref=e138]:
+                    - generic [ref=e139]:
+                      - button [disabled]:
+                        - generic: "0"
+                        - img
+                    - generic [ref=e140]:
+                      - button [disabled]:
+                        - generic: "0"
+                        - img
+            - generic [ref=e142]:
+              - paragraph [ref=e143]: Do you want to check if your proposal is ready to be submitted as a Governance Action?
+              - paragraph [ref=e144]: The poll will be pinned to the top of your comments list, and you can close it whenever you like. Opening a new poll will automatically close the previous one, which will then appear as a comment in the comments feed.
+              - button [ref=e146] [cursor=pointer]: Add Poll
+            - generic [ref=e147]:
+              - heading [level=3] [ref=e148]: Comments
+              - button [ref=e149] [cursor=pointer]
+            - generic [ref=e151]:
+              - heading [level=6] [ref=e152]: Submit a comment
+              - generic [ref=e155]:
+                - textbox [ref=e156]
+                - paragraph [ref=e157]: 0/15000
+              - generic [ref=e158]:
+                - button [disabled]:
+                  - text: Comment
+                  - generic:
+                    - img
+            - generic [ref=e160]:
+              - heading [level=6] [ref=e161]: No Comments yet
+              - paragraph [ref=e162]: Be the first to share your thoughts on this proposal.
+        - contentinfo [ref=e163]:
+          - paragraph [ref=e164]: © 2026 GovTool
+          - generic [ref=e165]:
+            - generic [ref=e166] [cursor=pointer]: Privacy policy
+            - generic [ref=e167] [cursor=pointer]: Terms of Use
+          - generic [ref=e168]:
+            - button [ref=e169] [cursor=pointer]:
+              - img [ref=e171]
+              - text: Help
+            - button [ref=e172] [cursor=pointer]: Subscribe to updates
+            - button [ref=e173] [cursor=pointer]: Feedback
+    - img [ref=e174]
+  - dialog [ref=e178]:
+    - generic [ref=e179]:
+      - heading [level=1] [ref=e181]: Create a Governance Action
+      - generic [ref=e182]:
+        - button [ref=e183] [cursor=pointer]:
+          - img [ref=e185]
+          - text: Show all
+        - generic [ref=e189]:
+          - heading [level=2] [ref=e191]: Information Storage Steps
+          - button [ref=e193] [cursor=pointer]:
+            - generic [ref=e194]: Read full guide
+          - paragraph [ref=e196]: Download your file, save it to your chosen location, and enter the URL of that location in step 3
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - paragraph [ref=e200]: "1"
+              - generic [ref=e201]:
+                - paragraph [ref=e202]: Download this file
+                - button [ref=e203] [cursor=pointer]: data.jsonld
+            - generic [ref=e206]:
+              - paragraph [ref=e208]: "2"
+              - paragraph [ref=e210]: Save this file in a location that provides a public URL (ex. github)
+            - generic [ref=e212]:
+              - paragraph [ref=e214]: "3"
+              - generic [ref=e215]:
+                - paragraph [ref=e216]: Paste the URL here
+                - generic [ref=e217]:
+                  - paragraph [ref=e218]: URL *
+                  - textbox [ref=e220]:
+                    - /placeholder: URL
+                    - text: http://metadata-bucket.localhost:3001/data/vigilo
+                  - paragraph [ref=e221]: Required
+          - generic [ref=e222]:
+            - button [ref=e224] [cursor=pointer]: Cancel
+            - button [active] [ref=e226] [cursor=pointer]: Submit
+      - img [ref=e228]
+  - generic [ref=e232]:
+    - img "Status icon" [ref=e233]
+    - heading "Governance Action submitted!" [level=5] [ref=e234]
+    - generic [ref=e235]:
+      - paragraph [ref=e236]: Your Governance Action may take a little time to submit to the chain.
+      - button "close" [ref=e237] [cursor=pointer]
+    - button "Go to Dashboard" [ref=e239] [cursor=pointer]: Go to Dashboard
+```
+
+# Test source
+
+```ts
+  91  |   const account = accountFor(name);
+  92  |   const shelley = await (
+  93  |     await rootWallet()
+  94  |   ).getAccount(account).then((a) => a.singleAddressWallet(0));
+  95  |   const key = (k: { publicBytes(): Buffer; publicKeyHash(): Buffer }) => ({
+  96  |     public: k.publicBytes().toString("hex"),
+  97  |     pkh: k.publicKeyHash().toString("hex"),
+  98  |   });
+  99  |   const dRep = key(shelley.dRepKey!);
+  100 |   return {
+  101 |     name,
+  102 |     account,
+  103 |     signer: new SimpleCip30Wallet(queryService, blockfrostSubmitter, shelley, network),
+  104 |     address: shelley.addressBech32(network),
+  105 |     stakeAddress: shelley.stakeAddressBech32(network)!,
+  106 |     rewardAddress: shelley.stakeAddressBytes(network)!.toString("hex"),
+  107 |     dRepId: bech32.encode("drep", bech32.toWords(Buffer.from(dRep.pkh, "hex"))),
+  108 |     payment: key(shelley.paymentKey),
+  109 |     stake: key(shelley.stakeKey!),
+  110 |     dRep,
+  111 |   };
+  112 | }
+  113 | 
+  114 | /**
+  115 |  * A new random wallet with no funds and no chain history, for tests that only
+  116 |  * need a wallet to exist. Not recoverable, so never fund one. `networkId`
+  117 |  * overrides the network it reports, for the wrong-network test.
+  118 |  */
+  119 | export async function randomWallet(
+  120 |   networkId: 0 | 1 = network
+  121 | ): Promise<SimpleCip30Wallet> {
+  122 |   return new SimpleCip30Wallet(
+  123 |     queryService,
+  124 |     blockfrostSubmitter,
+  125 |     await ShelleyWallet.generate(),
+  126 |     networkId
+  127 |   );
+  128 | }
+  129 | 
+  130 | /** A random address on the test network, for forms that ask for one. */
+  131 | export async function randomAddress(): Promise<string> {
+  132 |   return (await ShelleyWallet.generate()).addressBech32(network);
+  133 | }
+  134 | 
+  135 | /** A random reward (stake) address on the test network. */
+  136 | export async function randomStakeAddress(): Promise<string> {
+  137 |   return (await ShelleyWallet.generate()).stakeAddressBech32(network)!;
+  138 | }
+  139 | 
+  140 | export async function faucetWallet(): Promise<SimpleCip30Wallet> {
+  141 |   const payment = await Ed25519KeyAsync.fromPrivateKeyHex(
+  142 |     environments.faucet.payment.private
+  143 |   );
+  144 |   const stake = await Ed25519KeyAsync.fromPrivateKeyHex(
+  145 |     environments.faucet.stake.private
+  146 |   );
+  147 |   return new SimpleCip30Wallet(
+  148 |     queryService,
+  149 |     blockfrostSubmitter,
+  150 |     new ShelleyWallet(payment, stake),
+  151 |     network
+  152 |   );
+  153 | }
+  154 | 
+  155 | export async function lovelaceBalance(
+  156 |   wallet: SimpleCip30Wallet | TestWallet | string
+  157 | ): Promise<bigint> {
+  158 |   const address =
+  159 |     typeof wallet === "string"
+  160 |       ? wallet
+  161 |       : "address" in wallet
+  162 |         ? wallet.address
+  163 |         : wallet.wallet.addressBech32(network);
+  164 |   const utxos = await kuber.queryUTxOByAddress(address);
+  165 |   return utxos.reduce(
+  166 |     (sum, utxo) => sum + BigInt(utxo.txOut.value.lovelace),
+  167 |     BigInt(0)
+  168 |   );
+  169 | }
+  170 | 
+  171 | export async function adaBalance(
+  172 |   wallet: SimpleCip30Wallet | TestWallet | string
+  173 | ): Promise<number> {
+  174 |   return Number(await lovelaceBalance(wallet)) / 1_000_000;
+  175 | }
+  176 | 
+  177 | /**
+  178 |  * Builds a transaction through Kuber, signs it in this process, submits it
+  179 |  * through Blockfrost and waits until Kuber sees it on chain. Returns the tx
+  180 |  * hash.
+  181 |  */
+  182 | export async function buildSignSubmit(
+  183 |   wallet: SimpleCip30Wallet | TestWallet,
+  184 |   request: Record<string, unknown>
+  185 | ): Promise<string> {
+  186 |   const signer = "signer" in wallet ? wallet.signer : wallet;
+  187 |   const signed = await kuber.buildAndSignWithWallet(signer, request);
+  188 |   const txHash = await blockfrostSubmitter.submitTx(
+  189 |     signed.transaction.toBytes().toString("hex")
+  190 |   );
+> 191 |   await kuber.waitForTxConfirmation(txHash, environments.txTimeOut);
+      |   ^ Error: Timeout waiting for transaction ebfd43bdb1c777bf8aceeb5ae207ee9ecf4448a94e092b549380f9dd6c9768f0 confirmation.
+  192 |   return txHash;
+  193 | }
+  194 | 
+  195 | /**
+  196 |  * Sends ADA from the faucet. Faucet use is serialized across workers, since
+  197 |  * concurrent transactions would try to spend the same faucet outputs.
+  198 |  */
+  199 | export function sendFromFaucet(
+  200 |   outputs: { address: string; value: string | number }[]
+  201 | ): Promise<string> {
+  202 |   return withFileLock(FAUCET_LOCK, async () =>
+  203 |     buildSignSubmit(await faucetWallet(), { outputs })
+  204 |   );
+  205 | }
+  206 | 
+  207 | /** Tops the wallet up from the faucet so it holds at least `ada`. */
+  208 | export async function ensureFunded(
+  209 |   wallet: SimpleCip30Wallet | TestWallet,
+  210 |   ada: number
+  211 | ): Promise<void> {
+  212 |   const address =
+  213 |     "address" in wallet ? wallet.address : wallet.wallet.addressBech32(network);
+  214 |   const wanted = BigInt(ada) * BigInt(1_000_000);
+  215 |   if ((await lovelaceBalance(address)) >= wanted) return;
+  216 | 
+  217 |   await withFileLock(FAUCET_LOCK, async () => {
+  218 |     if ((await lovelaceBalance(address)) >= wanted) return;
+  219 |     await buildSignSubmit(await faucetWallet(), {
+  220 |       outputs: [{ address, value: `${ada}A` }],
+  221 |     });
+  222 |   });
+  223 | }
+  224 | 
+  225 | /** Runs `fn` holding a lock file, so only one worker at a time runs it. */
+  226 | export async function withFileLock<T>(file: string, fn: () => Promise<T>) {
+  227 |   await new Promise<void>((resolve, reject) =>
+  228 |     lockfile.lock(file, { wait: 20 * 60_000, pollPeriod: 500 }, (err) =>
+  229 |       err ? reject(err) : resolve()
+  230 |     )
+  231 |   );
+  232 |   try {
+  233 |     return await fn();
+  234 |   } finally {
+  235 |     await new Promise<void>((resolve) => lockfile.unlock(file, () => resolve()));
+  236 |   }
+  237 | }
+  238 | 
+```
